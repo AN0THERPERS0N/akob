@@ -74,7 +74,7 @@ focus = {
 id = ICR_protect_the_children_of_god
 x = 26
 y = 2
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_por_concordat"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_icrusia_at_war }
 #`allow_branch = { has_completed_focus = ICR_icrusia_at_war }
@@ -249,7 +249,7 @@ focus = {
 id = ICR_impromptu_battle_tactics
 x = 25
 y = 3
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_demand_sudetenland"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_protect_the_children_of_god }
 #`allow_branch = { has_completed_focus = ICR_protect_the_children_of_god }
@@ -488,7 +488,7 @@ focus = {
 id = ICR_decisive_battle
 x = 28
 y = 4
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_strike_at_democracy1"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_impromptu_battle_tactics }
 #`allow_branch = { has_completed_focus = ICR_impromptu_battle_tactics }
@@ -826,7 +826,7 @@ focus = {
 id = ICR_a_wasteland_of_smoke_and_flames
 x = 18
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_triad_magic_group"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_scorched_earth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -850,7 +850,7 @@ focus = {
 id = ICR_burn_the_border_farms
 x = 20
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_natural_magic"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_scorched_earth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -874,7 +874,7 @@ focus = {
 id = ICR_move_the_grainaries
 x = 22
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_lucrative_plantations"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_scorched_earth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -898,7 +898,7 @@ focus = {
 id = ICR_probe_them_into_an_ambush
 x = 26
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_position_armies"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_decisive_battle }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -922,7 +922,7 @@ focus = {
 id = ICR_engage_the_enemy_head_on
 x = 30
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_support_the_left_right"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_decisive_battle }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1143,7 +1143,7 @@ focus = {
 id = ICR_icrusian_curse
 x = 19
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_CZE_german_puppet"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_a_wasteland_of_smoke_and_flames }
 prerequisite = { focus = ICR_burn_the_border_farms }
@@ -1169,7 +1169,7 @@ focus = {
 id = ICR_starve_our_enemies
 x = 21
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_demand_territory"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_a_wasteland_of_smoke_and_flames }
 prerequisite = { focus = ICR_burn_the_border_farms }
@@ -1195,7 +1195,7 @@ focus = {
 id = ICR_expose_their_flanks
 x = 25
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_CAS"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_probe_them_into_an_ambush }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1219,7 +1219,7 @@ focus = {
 id = ICR_break_their_supplies
 x = 27
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_occupy_states_ongoing_war"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_probe_them_into_an_ambush }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1243,7 +1243,7 @@ focus = {
 id = ICR_shock_tactics
 x = 29
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_eng_organise_the_blackshirts"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_engage_the_enemy_head_on }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1267,7 +1267,7 @@ focus = {
 id = ICR_route_the_enemy
 x = 31
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_secret_weapon"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_engage_the_enemy_head_on }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1580,7 +1580,7 @@ focus = {
 id = ICR_break_their_spine
 x = 28
 y = 7
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_political_pressure"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_expose_their_flanks OR = ICR_shock_tactics }
 prerequisite = { focus = ICR_break_their_supplies OR = ICR_route_the_enemy }
@@ -1798,7 +1798,7 @@ focus = {
 id = ICR_end_of_the_civil_war
 x = 26
 y = 8
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_national_unity"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_fight_for_the_king }
 prerequisite = { focus = ICR_break_their_spine OR = ICR_war_of_attrition }
@@ -1968,7 +1968,7 @@ focus = {
 id = ICR_economy_first
 x = 11
 y = 9
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_increase_military_pay"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_end_of_the_civil_war }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2016,7 +2016,7 @@ focus = {
 id = ICR_restart_the_gears_of_economy
 x = 11
 y = 10
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_economic_bubble"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_economy_first }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2136,7 +2136,7 @@ focus = {
 id = ICR_re-industrialise
 x = 17
 y = 11
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_industry_1"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_restart_the_gears_of_economy }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2280,7 +2280,7 @@ focus = {
 id = ICR_rebuild_the_feiditta_coal_mines
 x = 1
 y = 12
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_civilian"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_focus_on_our_natural_wealth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2328,7 +2328,7 @@ focus = {
 id = ICR_create_more_iron_mines
 x = 10
 y = 12
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_steel"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_focus_on_our_natural_wealth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2352,7 +2352,7 @@ focus = {
 id = ICR_reopen_the_factories
 x = 17
 y = 12
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_civ_factory"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_re-industrialise }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2640,7 +2640,7 @@ focus = {
 id = ICR_lax_digging_restrictions
 x = 1
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_generic_construction2
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_rebuild_the_feiditta_coal_mines }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2760,7 +2760,7 @@ focus = {
 id = ICR_icrusia_city_military_arms_complex
 x = 15
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_mil_factory"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_reopen_the_factories }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3107,7 +3107,7 @@ focus = {
 id = ICR_bolster_the_iron_factories
 x = 9
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_civ_factory"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_maximise_iron_extraction }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3155,7 +3155,7 @@ focus = {
 id = ICR_total_war_production
 x = 15
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_air_production"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_icrusia_city_military_arms_complex }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3496,7 +3496,7 @@ focus = {
 id = ICR_embodiment_of_steampunk
 x = 1
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_production2"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_thornton_drilling_facility }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3957,7 +3957,7 @@ focus = {
 id = ICR_expand_the_cotton_farms
 x = 3
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_lucrative_plantations
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_focus_on_our_natural_wealth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4080,7 +4080,7 @@ focus = {
 id = ICR_hire_more_harvest_slaves
 x = 2
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_focus_CZE_german_puppet
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_expand_the_cotton_farms }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4104,7 +4104,7 @@ focus = {
 id = ICR_incentive_cotton_growth
 x = 4
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_pay_out_military"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_expand_the_cotton_farms }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4320,7 +4320,7 @@ focus = {
 id = ICR_plant_enhancing_magic
 x = 3
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_enhanced_magic"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_incentive_cotton_growth }
 prerequisite = { focus = ICR_hire_more_harvest_slaves }
@@ -4393,7 +4393,7 @@ focus = {
 id = ICR_promote_military_arms_contracts
 x = 15
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_treaty"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_tsuthas_gunworks OR = ICR_expand_sword_factories }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4538,7 +4538,7 @@ focus = {
 id = ICR_earth_wielders
 x = 3
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_improved_wheat_production"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_plant_enhancing_magic }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
