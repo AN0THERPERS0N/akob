@@ -1,5 +1,65 @@
 spriteTypes = {	
 
+#Icrusia
+	SpriteType = {
+        name = GFX_goal_better_brass_mixture
+        texturefile = gfx/interface/goals/goal_better_brass_mixture.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_brass_factories
+        texturefile = gfx/interface/goals/goal_brass_factories.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_coal_factories
+        texturefile = gfx/interface/goals/goal_coal_factories.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_curb_mind_affecting_properties
+        texturefile = gfx/interface/goals/goal_curb_mind_affecting_properties.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_dig_for_copper
+        texturefile = gfx/interface/goals/goal_dig_for_copper.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_increased_metallurgy_efficiency
+        texturefile = gfx/interface/goals/goal_increased_metallurgy_efficiency.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_increased_metallurgy
+        texturefile = gfx/interface/goals/goal_increased_metallurgy.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_iron_recycling_plant
+        texturefile = gfx/interface/goals/goal_iron_recycling_plant.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_natural_wealth
+        texturefile = gfx/interface/goals/goal_natural_wealth.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_reinforce_mines
+        texturefile = gfx/interface/goals/goal_reinforce_mines.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_reuse_iron_tools
+        texturefile = gfx/interface/goals/goal_reuse_iron_tools.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_steel_factories
+        texturefile = gfx/interface/goals/goal_steel_factories.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_understand_void_strength
+        texturefile = gfx/interface/goals/goal_understand_void_strength.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_void_metal
+        texturefile = gfx/interface/goals/goal_void_metal.dds                        
+        }
+
+#Arbiters
+
 	SpriteType = {
 	name = "GFX_goal_help_misaross"
 	texturefile = "gfx/interface/goals/goal_help_misaross.dds"			

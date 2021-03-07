@@ -2112,7 +2112,7 @@ focus = {
 id = ICR_focus_on_our_natural_wealth
 x = 6
 y = 11
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_natural_wealth
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_restart_the_gears_of_economy }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2304,7 +2304,7 @@ focus = {
 id = ICR_increase_brass_metallurgy
 x = 5
 y = 12
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_increased_metallurgy
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_focus_on_our_natural_wealth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2664,7 +2664,7 @@ focus = {
 id = ICR_increase_metallurgy_efficiency
 x = 4
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_increased_metallurgy_efficiency
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_increase_brass_metallurgy }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2688,7 +2688,7 @@ focus = {
 id = ICR_dig_for_more_copper
 x = 6
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_dig_for_copper
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_increase_brass_metallurgy }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2712,7 +2712,7 @@ focus = {
 id = ICR_maximise_iron_extraction
 x = 9
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_steel_factories
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_create_more_iron_mines }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2736,7 +2736,7 @@ focus = {
 id = ICR_reduce_iron_waste
 x = 11
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_renounce_the_treaty_of_trianon"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_create_more_iron_mines }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3058,7 +3058,7 @@ focus = {
 id = ICR_thornton_drilling_facility
 x = 1
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_coal_factories
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_lax_digging_restrictions }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3082,7 +3082,7 @@ focus = {
 id = ICR_stronger_brass_mixtures
 x = 5
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_better_brass_mixture
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_increase_metallurgy_efficiency }
 prerequisite = { focus = ICR_dig_for_more_copper }
@@ -3131,7 +3131,7 @@ focus = {
 id = ICR_reuse_iron_tools
 x = 11
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_reuse_iron_tools
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_reduce_iron_waste }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3520,7 +3520,7 @@ focus = {
 id = ICR_subsidise_brass_factory_groups
 x = 4
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_brass_factories
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_stronger_brass_mixtures }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3544,7 +3544,7 @@ focus = {
 id = ICR_brass_recycling_centre
 x = 6
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_economic_bubble"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_stronger_brass_mixtures }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3568,7 +3568,7 @@ focus = {
 id = ICR_fund_iron_companies
 x = 9
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_pay_out_military
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_bolster_the_iron_factories }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3592,7 +3592,7 @@ focus = {
 id = ICR_iron_recycling_plant
 x = 11
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_iron_recycling_plant
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_reuse_iron_tools }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3981,7 +3981,7 @@ focus = {
 id = ICR_harness_void_metal
 x = 8
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_void_metal
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_focus_on_our_natural_wealth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4128,7 +4128,7 @@ focus = {
 id = ICR_resist_arcanic_pulses
 x = 7
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_defence"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_harness_void_metal }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4152,7 +4152,7 @@ focus = {
 id = ICR_understand_void_strength
 x = 9
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_understand_void_strength
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_harness_void_metal }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4345,7 +4345,7 @@ focus = {
 id = ICR_curb_mind_affecting_properties
 x = 7
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_curb_mind_affecting_properties
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_resist_arcanic_pulses }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4369,7 +4369,7 @@ focus = {
 id = ICR_reinforce_void_mines
 x = 9
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_reinforce_mines
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_understand_void_strength }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4562,7 +4562,7 @@ focus = {
 id = ICR_a_new_revolution
 x = 8
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_enhanced_magic
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_curb_mind_affecting_properties }
 prerequisite = { focus = ICR_reinforce_void_mines }
