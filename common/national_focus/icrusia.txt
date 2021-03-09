@@ -2352,7 +2352,7 @@ focus = {
 id = ICR_reopen_the_factories
 x = 17
 y = 12
-icon = "GFX_goal_generic_demand_territory"
+icon = GFX_goal_generic_improve_relations
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_re-industrialise }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3179,7 +3179,7 @@ focus = {
 id = ICR_newspaper_printing_presses
 x = 19
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_newspaper
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_salve_industrial_centre }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3203,7 +3203,7 @@ focus = {
 id = ICR_malouria_slitting_mills
 x = 21
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_slitting_mills
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_salve_industrial_centre }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3616,7 +3616,7 @@ focus = {
 id = ICR_mass_forge_expansion
 x = 14
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_mass_forge_upgrade
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_total_war_production }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3664,7 +3664,7 @@ focus = {
 id = ICR_orsiah_grain_mills
 x = 19
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_grain_mills
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_newspaper_printing_presses }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3688,7 +3688,7 @@ focus = {
 id = ICR_thethmond_canals
 x = 21
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_position_armies"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_malouria_slitting_mills }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3837,7 +3837,7 @@ focus = {
 id = ICR_pacisa_pike_production_centre
 x = 14
 y = 16
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_pike_production
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_mass_forge_expansion }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -3909,7 +3909,7 @@ focus = {
 id = ICR_create_more_blast_furnaces
 x = 21
 y = 16
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_more_blast_furnaces.psd
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_thethmond_canals }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4005,7 +4005,7 @@ focus = {
 id = ICR_lax_logging_laws
 x = 15
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_lax_logging_laws
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_pacisa_pike_production_centre }
 prerequisite = { focus = ICR_brampton_barracks }
@@ -4030,7 +4030,7 @@ focus = {
 id = ICR_hustad_smelters
 x = 20
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_hustad_smelters
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_verdavik_gear_factories }
 prerequisite = { focus = ICR_create_more_blast_furnaces }
@@ -4176,7 +4176,7 @@ focus = {
 id = ICR_tsuthas_gunworks
 x = 14
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_gunworks
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_lax_logging_laws }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4200,7 +4200,7 @@ focus = {
 id = ICR_expand_sword_factories
 x = 16
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_expand_sword_factories
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_lax_logging_laws }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -4417,7 +4417,7 @@ focus = {
 id = ICR_a_befitting_name
 x = 20
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_political_pressure"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_production_in_the_cities }
 prerequisite = { focus = ICR_production_in_the_countryside }

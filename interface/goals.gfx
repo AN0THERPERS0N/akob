@@ -1,6 +1,46 @@
 spriteTypes = {	
 
 #Icrusia
+SpriteType = {
+        name = GFX_goal_expand_sword_factories
+        texturefile = gfx/interface/goals/goal_expand_sword_factories.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_grain_mills
+        texturefile = gfx/interface/goals/goal_grain_mills.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_gunworks
+        texturefile = gfx/interface/goals/goal_gunworks.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_hustad_smelters
+        texturefile = gfx/interface/goals/goal_hustad_smelters.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_lax_logging_laws
+        texturefile = gfx/interface/goals/goal_lax_logging_laws.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_mass_forge_upgrade
+        texturefile = gfx/interface/goals/goal_mass_forge_upgrade.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_more_blast_furnaces.psd
+        texturefile = gfx/interface/goals/goal_more_blast_furnaces.psd                        
+        }
+SpriteType = {
+        name = GFX_goal_newspaper
+        texturefile = gfx/interface/goals/goal_newspaper.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_pike_production
+        texturefile = gfx/interface/goals/goal_pike_production.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_slitting_mills
+        texturefile = gfx/interface/goals/goal_slitting_mills.dds                        
+        }
 	SpriteType = {
         name = GFX_goal_better_brass_mixture
         texturefile = gfx/interface/goals/goal_better_brass_mixture.dds                        
