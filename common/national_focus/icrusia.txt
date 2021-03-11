@@ -1312,7 +1312,7 @@ ai_will_do = {
 } 
  
 focus = {
-id = ICR_advanced_cuirasser_classes
+id = ICR_advanced_cuirassier_classes
 x = 54
 y = 6
 icon = GFX_goal_generic_demand_territory
@@ -1631,7 +1631,7 @@ x = 55
 y = 7
 icon = "GFX_goal_oh_astrigan"
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ICR_advanced_cuirasser_classes }
+prerequisite = { focus = ICR_advanced_cuirassier_classes }
 prerequisite = { focus = ICR_advanced_lancer_classes }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
@@ -1823,7 +1823,7 @@ focus = {
 id = ICR_breed_stronger_horses
 x = 55
 y = 8
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_generic_political_pressure
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_trubian_partnership }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
