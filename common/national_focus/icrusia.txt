@@ -1072,7 +1072,7 @@ focus = {
 id = ICR_create_new_spells
 x = 72
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_wonderweapons"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_new_special_mage_wards }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1388,7 +1388,7 @@ focus = {
 id = ICR_reinvent_artillery_tactics
 x = 66
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_army_doctrines"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_increase_shell_sizes }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1529,10 +1529,10 @@ ai_will_do = {
 } 
  
 focus = {
-id = ICR_advanced_gunship_designs
+id = ICR_advanced_gunboat_designs
 x = 83
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_generic_army_artillery
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_rifiord_dockyards_expansion_fund }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1702,7 +1702,7 @@ focus = {
 id = ICR_increase_artillery__model_accuracy
 x = 67
 y = 7
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_territory_or_war"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_stronger_artillery_barrels }
 prerequisite = { focus = ICR_reinvent_artillery_tactics }
@@ -1777,7 +1777,7 @@ x = 83
 y = 7
 icon = "GFX_goal_generic_rule_the_waves"
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ICR_advanced_gunship_designs }
+prerequisite = { focus = ICR_advanced_gunboat_designs }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
@@ -1872,7 +1872,7 @@ focus = {
 id = ICR_hell_on_earth
 x = 67
 y = 8
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_enhanced_magic"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_increase_artillery__model_accuracy }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
