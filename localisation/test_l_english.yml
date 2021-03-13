@@ -30,6 +30,7 @@
  GOZ_neutrality:0 "Kingdom of Gozyr"
  OBX_neutrality:0 "Principality of Obrax"
  WSL_neutrality:0 "Toxic Wasteland"
+ CRP_neutrality:0 "Corruption"
  
  #Icrusian civil war
  DCR_fascism:0 "Republic of Icrusia"

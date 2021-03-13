@@ -44,6 +44,10 @@ WSL = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
+CRP = {
+	color = rgb { 102 0 0 }
+	color_ui = rgb { 102 0 0 }
+}
 ARS = {
 	color = rgb { 63 161 111 }
 	color_ui = rgb { 63 161 111 }

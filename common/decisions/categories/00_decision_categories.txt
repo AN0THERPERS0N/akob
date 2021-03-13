@@ -1,3 +1,30 @@
+#akob
+
+#simple_category = {
+#	priority = 9
+#	icon =
+#
+#	allowed = {
+#		always = yes
+#	}
+#	visible = {
+#
+#	}
+#}
+
+corruption = {
+	priority = 15
+	icon = generic_propaganda
+
+	allowed = {
+		tag = LCR
+	}
+	visible = {
+
+	}
+}
+
+#vanilla
 propaganda_efforts = {
 	icon = generic_propaganda
 

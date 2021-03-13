@@ -11,6 +11,7 @@ GOZ = "countries/Gozyr.txt"
 THB = "countries/Theberia.txt"
 OBX = "countries/Obrax.txt"
 WSL = "countries/Wasteland.txt"
+CRP = "countries/Corruption.txt"
 
 #Arbiter states
 CTP = "countries/Claetport.txt"

@@ -1,0 +1,159 @@
+corruption = {
+    enable_corruption = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 5
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 10
+
+        complete_effect = {   
+            hidden_effect = {        
+                CRP = { transfer_state = 71 }
+                CRP = { transfer_state = 170 }
+                CRP = { transfer_state = 177 }
+                CRP = { transfer_state = 175 }
+                CRP = { transfer_state = 150 }
+                CRP = { transfer_state = 122 }
+                CRP = { transfer_state = 147 }
+                CRP = { transfer_state = 186 }
+                CRP = { transfer_state = 41 }
+                CRP = { transfer_state = 179 }
+                CRP = { transfer_state = 189 }
+                CRP = { transfer_state = 53 }
+                CRP = { transfer_state = 156 }
+                CRP = { transfer_state = 133 }
+                CRP = { transfer_state = 205 }
+                CRP = { transfer_state = 149 }
+                CRP = { transfer_state = 34 }
+                CRP = { transfer_state = 101 }
+                CRP = { transfer_state = 67 }
+                CRP = { transfer_state = 80 }
+                CRP = { transfer_state = 18 }
+                CRP = { transfer_state = 182 }
+                CRP = { transfer_state = 62 }
+                CRP = { transfer_state = 196 }
+                CRP = { transfer_state = 68 }
+                CRP = { transfer_state = 176 }
+                CRP = { transfer_state = 212 }
+                CRP = { transfer_state = 124 }
+                CRP = { transfer_state = 87 }
+                CRP = { transfer_state = 110 }
+                CRP = { transfer_state = 217 }
+                CRP = { transfer_state = 75 }
+                CRP = { transfer_state = 6 }
+                CRP = { transfer_state = 206 }
+                CRP = { transfer_state = 51 }
+                CRP = { transfer_state = 61 }
+                CRP = { transfer_state = 161 }
+                CRP = { transfer_state = 159 }
+                CRP = { transfer_state = 216 }
+                CRP = { transfer_state = 142 }
+                CRP = { transfer_state = 158 }
+                CRP = { transfer_state = 137 }
+                CRP = { transfer_state = 105 }
+                CRP = { transfer_state = 207 }
+                CRP = { transfer_state = 79 }
+                CRP = { transfer_state = 166 }
+                CRP = { transfer_state = 180 }
+                CRP = { transfer_state = 16 }
+                CRP = { transfer_state = 9 }
+                CRP = { transfer_state = 42 }
+                CRP = { transfer_state = 30 }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    disable_corruption = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 5
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 10
+
+        complete_effect = {    
+            hidden_effect = {
+                AGR = { transfer_state = 16 }
+                AGR = { transfer_state = 9 }
+                AGR = { transfer_state = 51 }
+                AGR = { transfer_state = 34 }
+                AGR = { transfer_state = 41 }
+                AGR = { transfer_state = 61 }
+                AGR = { transfer_state = 68 }
+                TRB = { transfer_state = 207 }
+                TRB = { transfer_state = 189 }
+                IMN = { transfer_state = 179 }
+                EFR = { transfer_state = 186 }
+                DPL = { transfer_state = 161 }
+                CTP = { transfer_state = 142 }
+                CTP = { transfer_state = 150 }
+                THB = { transfer_state = 6 }
+                OBX = { transfer_state = 71 }
+                GOZ = { transfer_state = 53 }
+                GOZ = { transfer_state = 30 }
+                ILD = { transfer_state = 149 }
+                LTV = { transfer_state = 156 }
+                ILD = { transfer_state = 110 }
+                ILD = { transfer_state = 122 }
+                ILD = { transfer_state = 80 }
+                ILD = { transfer_state = 101 }
+                ECH = { transfer_state = 18 }
+                ECH = { transfer_state = 42 }
+                ECH = { transfer_state = 62 }
+                ECH = { transfer_state = 67 }
+                ECH = { transfer_state = 75 }
+                ECH = { transfer_state = 79 }
+                ARS = { transfer_state = 87 }
+                ARS = { transfer_state = 105 }
+                ARS = { transfer_state = 137 }
+                ARS = { transfer_state = 147 }
+                ARS = { transfer_state = 158 }
+                ARS = { transfer_state = 170 }
+                ARS = { transfer_state = 180 }
+                ARS = { transfer_state = 196 }
+                ARS = { transfer_state = 175 }
+                ARS = { transfer_state = 182 }
+                ARS = { transfer_state = 176 }
+                ARS = { transfer_state = 166 }
+                ARS = { transfer_state = 159 }
+                ARS = { transfer_state = 133 }
+                ARS = { transfer_state = 177 }
+                ARS = { transfer_state = 212 }
+                ARS = { transfer_state = 124 }
+                ARS = { transfer_state = 205 }
+                ARS = { transfer_state = 206 }
+            }       
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
