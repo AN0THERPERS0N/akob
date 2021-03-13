@@ -1,5 +1,1684 @@
 spriteTypes = {	
 
+#Icrusia
+SpriteType = {
+        name =  GFX_goal_generic_cavalry_group
+        texturefile =  gfx/interface/goals/goal_generic_cavalry_group.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_cavalry_group.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_cavalry_group.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_generic_cavalry_advanced
+        texturefile =  gfx/interface/goals/goal_generic_cavalry_advanced.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_cavalry_advanced.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_cavalry_advanced.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_generic_defeat_in_detail
+        texturefile =  gfx/interface/goals/goal_generic_defeat_in_detail.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_defeat_in_detail.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_defeat_in_detail.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_generic_avoxium_lancers
+        texturefile =  gfx/interface/goals/goal_generic_avoxium_lancers.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_avoxium_lancers.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_avoxium_lancers.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_generic_acur_mage_warfare
+        texturefile =  gfx/interface/goals/goal_generic_acur_mage_warfare.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_acur_mage_warfare.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_acur_mage_warfare.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_generic_icrusia_at_war
+        texturefile =  gfx/interface/goals/goal_generic_icrusia_at_war.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_icrusia_at_war.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_icrusia_at_war.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_generic_rule_the_waves
+        texturefile =  gfx/interface/goals/goal_generic_rule_the_waves.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_rule_the_waves.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_generic_rule_the_waves.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_rebuild_agra
+        texturefile =  gfx/interface/goals/goal_rebuild_agra.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_rebuild_agra.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_rebuild_agra.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_rebuild_theberia
+        texturefile =  gfx/interface/goals/goal_rebuild_theberia.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_rebuild_theberia.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_rebuild_theberia.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_war_with_icrusia
+        texturefile =  gfx/interface/goals/goal_war_with_icrusia.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_war_with_icrusia.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_war_with_icrusia.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_ammunition_depot
+        texturefile =  gfx/interface/goals/goal_ammunition_depot.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_ammunition_depot.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_ammunition_depot.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_cuirassier
+        texturefile =  gfx/interface/goals/goal_cuirassier.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_cuirassier.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_cuirassier.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_fireball
+        texturefile =  gfx/interface/goals/goal_fireball.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_fireball.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_fireball.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_force_of_arms
+        texturefile =  gfx/interface/goals/goal_force_of_arms.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_force_of_arms.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_force_of_arms.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_innovate_new_artillery_piece.psd
+        texturefile =  gfx/interface/goals/goal_innovate_new_artillery_piece.psd                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_innovate_new_artillery_piece.psd
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_innovate_new_artillery_piece.psd                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_lancer
+        texturefile =  gfx/interface/goals/goal_lancer.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_lancer.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_lancer.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_reform_the_grand_army
+        texturefile =  gfx/interface/goals/goal_reform_the_grand_army.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_reform_the_grand_army.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_reform_the_grand_army.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_stronger_barrels
+        texturefile =  gfx/interface/goals/goal_stronger_barrels.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_stronger_barrels.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_stronger_barrels.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_expand_sword_factories
+        texturefile =  gfx/interface/goals/goal_expand_sword_factories.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_expand_sword_factories.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_expand_sword_factories.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_grain_mills
+        texturefile =  gfx/interface/goals/goal_grain_mills.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_grain_mills.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_grain_mills.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_gunworks
+        texturefile =  gfx/interface/goals/goal_gunworks.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_gunworks.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_gunworks.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_hustad_smelters
+        texturefile =  gfx/interface/goals/goal_hustad_smelters.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_hustad_smelters.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_hustad_smelters.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_lax_logging_laws
+        texturefile =  gfx/interface/goals/goal_lax_logging_laws.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_lax_logging_laws.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_lax_logging_laws.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_mass_forge_upgrade
+        texturefile =  gfx/interface/goals/goal_mass_forge_upgrade.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_mass_forge_upgrade.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_mass_forge_upgrade.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_more_blast_furnaces.psd
+        texturefile =  gfx/interface/goals/goal_more_blast_furnaces.psd                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_more_blast_furnaces.psd
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_more_blast_furnaces.psd                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_newspaper
+        texturefile =  gfx/interface/goals/goal_newspaper.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_newspaper.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_newspaper.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_pike_production
+        texturefile =  gfx/interface/goals/goal_pike_production.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_pike_production.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_pike_production.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_slitting_mills
+        texturefile =  gfx/interface/goals/goal_slitting_mills.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_slitting_mills.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_slitting_mills.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_better_brass_mixture
+        texturefile =  gfx/interface/goals/goal_better_brass_mixture.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_better_brass_mixture.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_better_brass_mixture.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_brass_factories
+        texturefile =  gfx/interface/goals/goal_brass_factories.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_brass_factories.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_brass_factories.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_coal_factories
+        texturefile =  gfx/interface/goals/goal_coal_factories.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_coal_factories.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_coal_factories.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_curb_mind_affecting_properties
+        texturefile =  gfx/interface/goals/goal_curb_mind_affecting_properties.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_curb_mind_affecting_properties.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_curb_mind_affecting_properties.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_dig_for_copper
+        texturefile =  gfx/interface/goals/goal_dig_for_copper.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_dig_for_copper.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_dig_for_copper.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_increased_metallurgy_efficiency
+        texturefile =  gfx/interface/goals/goal_increased_metallurgy_efficiency.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_increased_metallurgy_efficiency.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_increased_metallurgy_efficiency.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_increased_metallurgy
+        texturefile =  gfx/interface/goals/goal_increased_metallurgy.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_increased_metallurgy.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_increased_metallurgy.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_iron_recycling_plant
+        texturefile =  gfx/interface/goals/goal_iron_recycling_plant.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_iron_recycling_plant.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_iron_recycling_plant.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_natural_wealth
+        texturefile =  gfx/interface/goals/goal_natural_wealth.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_natural_wealth.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_natural_wealth.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_reinforce_mines
+        texturefile =  gfx/interface/goals/goal_reinforce_mines.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_reinforce_mines.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_reinforce_mines.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_reuse_iron_tools
+        texturefile =  gfx/interface/goals/goal_reuse_iron_tools.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_reuse_iron_tools.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_reuse_iron_tools.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_steel_factories
+        texturefile =  gfx/interface/goals/goal_steel_factories.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_steel_factories.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_steel_factories.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_understand_void_strength
+        texturefile =  gfx/interface/goals/goal_understand_void_strength.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_understand_void_strength.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_understand_void_strength.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_void_metal
+        texturefile =  gfx/interface/goals/goal_void_metal.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_void_metal.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_void_metal.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+
+#Arbiters
+SpriteType = {
+        name =  GFX_goal_help_misaross
+        texturefile =  gfx/interface/goals/goal_help_misaross.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_misaross.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_misaross.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_influence_icrusia
+        texturefile =  gfx/interface/goals/goal_influence_icrusia.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_icrusia.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_icrusia.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_influence_echainaian
+        texturefile =  gfx/interface/goals/goal_influence_echainaian.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_echainaian.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_echainaian.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_influence_trubia
+        texturefile =  gfx/interface/goals/goal_influence_trubia.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_trubia.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_trubia.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_influence_airestonia
+        texturefile =  gfx/interface/goals/goal_influence_airestonia.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_airestonia.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_airestonia.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_influence_ilidea
+        texturefile =  gfx/interface/goals/goal_influence_ilidea.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_ilidea.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_influence_ilidea.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_help_cleatport
+        texturefile =  gfx/interface/goals/goal_help_cleatport.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_cleatport.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_cleatport.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_help_drecding
+        texturefile =  gfx/interface/goals/goal_help_drecding.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_drecding.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_drecding.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_help_qohphis
+        texturefile =  gfx/interface/goals/goal_help_qohphis.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_qohphis.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_qohphis.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_help_ylecstin
+        texturefile =  gfx/interface/goals/goal_help_ylecstin.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_ylecstin.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_ylecstin.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_help_illemont
+        texturefile =  gfx/interface/goals/goal_help_illemont.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_illemont.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_illemont.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+SpriteType = {
+        name =  GFX_goal_help_dinpool
+        texturefile =  gfx/interface/goals/goal_help_dinpool.dds                        
+        effectFile = gfx/FX/buttonstate.lua
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_dinpool.dds
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = -90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+
+                animation = {
+                        animationmaskfile =  gfx/interface/goals/goal_help_dinpool.dds                       
+                        animationtexturefile = gfx/interface/goals/shine_overlay.dds         # <- the animated file
+                        animationrotation = 90.0                # -90 clockwise 90 counterclockwise(by default)
+                        animationlooping = no                        # yes or no ;)
+                        animationtime = 0.75                                # in seconds
+                        animationdelay = 0                        # in seconds
+                        animationblendmode = add       #add, multiply, overlay
+                        animationtype = scrolling      #scrolling, rotating, pulsing
+                        animationrotationoffset = { x = 0.0 y = 0.0 }
+                        animationtexturescale = { x = 1.0 y = 1.0 } 
+                }
+                legacy_lazy_load = no
+        }
+
+#Trubia
 	SpriteType = {
 	name = "GFX_goal_oh_astrigan_shine"
 	texturefile = "gfx/interface/goals/goal_oh_astrigan.dds"			
