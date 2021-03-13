@@ -23,7 +23,7 @@ focus_tree = {
 
 	focus = {
 		id = ARS_war_with_icrusia
-		icon = GFX_goal_generic_icrusia_at_war
+		icon = GFX_goal_war_with_icrusia
 		x = 30
 		y = 0
 		#relative_position_id = AST_empower_the_workers

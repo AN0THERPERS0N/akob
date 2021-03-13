@@ -1,6 +1,84 @@
 spriteTypes = {	
 
 #Icrusia
+	SpriteType = {
+	name = "GFX_goal_generic_cavalry_group"
+	texturefile = "gfx/interface/goals/goal_generic_cavalry_group.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_generic_cavalry_advanced"
+	texturefile = "gfx/interface/goals/goal_generic_cavalry_advanced.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_generic_defeat_in_detail"
+	texturefile = "gfx/interface/goals/goal_generic_defeat_in_detail.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_generic_avoxium_lancers"
+	texturefile = "gfx/interface/goals/goal_generic_avoxium_lancers.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_generic_acur_mage_warfare"
+	texturefile = "gfx/interface/goals/goal_generic_acur_mage_warfare.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_generic_icrusia_at_war"
+	texturefile = "gfx/interface/goals/goal_generic_icrusia_at_war.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_generic_rule_the_waves"
+	texturefile = "gfx/interface/goals/goal_generic_rule_the_waves.dds"			
+	}	
+SpriteType = {
+        name = GFX_goal_rebuild_agra
+        texturefile = gfx/interface/goals/goal_rebuild_agra.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_rebuild_theberia
+        texturefile = gfx/interface/goals/goal_rebuild_theberia.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_war_with_icrusia
+        texturefile = gfx/interface/goals/goal_war_with_icrusia.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_ammunition_depot
+        texturefile = gfx/interface/goals/goal_ammunition_depot.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_cuirassier
+        texturefile = gfx/interface/goals/goal_cuirassier.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_fireball
+        texturefile = gfx/interface/goals/goal_fireball.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_force_of_arms
+        texturefile = gfx/interface/goals/goal_force_of_arms.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_innovate_new_artillery_piece.psd
+        texturefile = gfx/interface/goals/goal_innovate_new_artillery_piece.psd                        
+        }
+SpriteType = {
+        name = GFX_goal_lancer
+        texturefile = gfx/interface/goals/goal_lancer.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_reform_the_grand_army
+        texturefile = gfx/interface/goals/goal_reform_the_grand_army.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_stronger_barrels
+        texturefile = gfx/interface/goals/goal_stronger_barrels.dds                        
+        }
 SpriteType = {
         name = GFX_goal_expand_sword_factories
         texturefile = gfx/interface/goals/goal_expand_sword_factories.dds                        
@@ -402,42 +480,6 @@ SpriteType = {
 	SpriteType = {
 	name = "GFX_goal_noose"
 	texturefile = "gfx/interface/goals/goal_noose.dds"			
-	}	
-
-# Icrusia
-	SpriteType = {
-	name = "GFX_goal_generic_cavalry_group"
-	texturefile = "gfx/interface/goals/goal_generic_cavalry_group.dds"			
-	}	
-
-	SpriteType = {
-	name = "GFX_goal_generic_cavalry_advanced"
-	texturefile = "gfx/interface/goals/goal_generic_cavalry_advanced.dds"			
-	}	
-
-	SpriteType = {
-	name = "GFX_goal_generic_defeat_in_detail"
-	texturefile = "gfx/interface/goals/goal_generic_defeat_in_detail.dds"			
-	}	
-
-	SpriteType = {
-	name = "GFX_goal_generic_avoxium_lancers"
-	texturefile = "gfx/interface/goals/goal_generic_avoxium_lancers.dds"			
-	}	
-
-	SpriteType = {
-	name = "GFX_goal_generic_acur_mage_warfare"
-	texturefile = "gfx/interface/goals/goal_generic_acur_mage_warfare.dds"			
-	}	
-
-	SpriteType = {
-	name = "GFX_goal_generic_icrusia_at_war"
-	texturefile = "gfx/interface/goals/goal_generic_icrusia_at_war.dds"			
-	}	
-
-	SpriteType = {
-	name = "GFX_goal_generic_rule_the_waves"
-	texturefile = "gfx/interface/goals/goal_generic_rule_the_waves.dds"			
 	}	
 
 	#### Generic continuous goal icons
