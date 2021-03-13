@@ -1,8 +1,9 @@
 spriteTypes = {	
 
 #Icrusia
+
 SpriteType = {
-        name =  GFX_goal_generic_cavalry_group
+        name =  GFX_goal_generic_cavalry_group_shine
         texturefile =  gfx/interface/goals/goal_generic_cavalry_group.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -31,9 +32,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_generic_cavalry_advanced
+        } 
+ SpriteType = {
+        name =  GFX_goal_generic_cavalry_advanced_shine
         texturefile =  gfx/interface/goals/goal_generic_cavalry_advanced.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -62,9 +63,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_generic_defeat_in_detail
+        } 
+ SpriteType = {
+        name =  GFX_goal_generic_defeat_in_detail_shine
         texturefile =  gfx/interface/goals/goal_generic_defeat_in_detail.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -93,9 +94,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_generic_avoxium_lancers
+        } 
+ SpriteType = {
+        name =  GFX_goal_generic_avoxium_lancers_shine
         texturefile =  gfx/interface/goals/goal_generic_avoxium_lancers.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -124,9 +125,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_generic_acur_mage_warfare
+        } 
+ SpriteType = {
+        name =  GFX_goal_generic_acur_mage_warfare_shine
         texturefile =  gfx/interface/goals/goal_generic_acur_mage_warfare.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -155,9 +156,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_generic_icrusia_at_war
+        } 
+ SpriteType = {
+        name =  GFX_goal_generic_icrusia_at_war_shine
         texturefile =  gfx/interface/goals/goal_generic_icrusia_at_war.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -186,9 +187,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_generic_rule_the_waves
+        } 
+ SpriteType = {
+        name =  GFX_goal_generic_rule_the_waves_shine
         texturefile =  gfx/interface/goals/goal_generic_rule_the_waves.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -217,9 +218,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_rebuild_agra
+        } 
+ SpriteType = {
+        name =  GFX_goal_rebuild_agra_shine
         texturefile =  gfx/interface/goals/goal_rebuild_agra.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -248,9 +249,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_rebuild_theberia
+        } 
+ SpriteType = {
+        name =  GFX_goal_rebuild_theberia_shine
         texturefile =  gfx/interface/goals/goal_rebuild_theberia.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -279,9 +280,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_war_with_icrusia
+        } 
+ SpriteType = {
+        name =  GFX_goal_war_with_icrusia_shine
         texturefile =  gfx/interface/goals/goal_war_with_icrusia.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -310,9 +311,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_ammunition_depot
+        } 
+ SpriteType = {
+        name =  GFX_goal_ammunition_depot_shine
         texturefile =  gfx/interface/goals/goal_ammunition_depot.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -341,9 +342,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_cuirassier
+        } 
+ SpriteType = {
+        name =  GFX_goal_cuirassier_shine
         texturefile =  gfx/interface/goals/goal_cuirassier.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -372,9 +373,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_fireball
+        } 
+ SpriteType = {
+        name =  GFX_goal_fireball_shine
         texturefile =  gfx/interface/goals/goal_fireball.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -403,9 +404,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_force_of_arms
+        } 
+ SpriteType = {
+        name =  GFX_goal_force_of_arms_shine
         texturefile =  gfx/interface/goals/goal_force_of_arms.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -434,9 +435,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_innovate_new_artillery_piece.psd
+        } 
+ SpriteType = {
+        name =  GFX_goal_innovate_new_artillery_piece.psd_shine
         texturefile =  gfx/interface/goals/goal_innovate_new_artillery_piece.psd                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -465,9 +466,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_lancer
+        } 
+ SpriteType = {
+        name =  GFX_goal_lancer_shine
         texturefile =  gfx/interface/goals/goal_lancer.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -496,9 +497,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_reform_the_grand_army
+        } 
+ SpriteType = {
+        name =  GFX_goal_reform_the_grand_army_shine
         texturefile =  gfx/interface/goals/goal_reform_the_grand_army.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -527,9 +528,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_stronger_barrels
+        } 
+ SpriteType = {
+        name =  GFX_goal_stronger_barrels_shine
         texturefile =  gfx/interface/goals/goal_stronger_barrels.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -558,9 +559,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_expand_sword_factories
+        } 
+ SpriteType = {
+        name =  GFX_goal_expand_sword_factories_shine
         texturefile =  gfx/interface/goals/goal_expand_sword_factories.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -589,9 +590,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_grain_mills
+        } 
+ SpriteType = {
+        name =  GFX_goal_grain_mills_shine
         texturefile =  gfx/interface/goals/goal_grain_mills.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -620,9 +621,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_gunworks
+        } 
+ SpriteType = {
+        name =  GFX_goal_gunworks_shine
         texturefile =  gfx/interface/goals/goal_gunworks.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -651,9 +652,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_hustad_smelters
+        } 
+ SpriteType = {
+        name =  GFX_goal_hustad_smelters_shine
         texturefile =  gfx/interface/goals/goal_hustad_smelters.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -682,9 +683,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_lax_logging_laws
+        } 
+ SpriteType = {
+        name =  GFX_goal_lax_logging_laws_shine
         texturefile =  gfx/interface/goals/goal_lax_logging_laws.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -713,9 +714,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_mass_forge_upgrade
+        } 
+ SpriteType = {
+        name =  GFX_goal_mass_forge_upgrade_shine
         texturefile =  gfx/interface/goals/goal_mass_forge_upgrade.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -744,9 +745,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_more_blast_furnaces.psd
+        } 
+ SpriteType = {
+        name =  GFX_goal_more_blast_furnaces.psd_shine
         texturefile =  gfx/interface/goals/goal_more_blast_furnaces.psd                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -775,9 +776,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_newspaper
+        } 
+ SpriteType = {
+        name =  GFX_goal_newspaper_shine
         texturefile =  gfx/interface/goals/goal_newspaper.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -806,9 +807,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_pike_production
+        } 
+ SpriteType = {
+        name =  GFX_goal_pike_production_shine
         texturefile =  gfx/interface/goals/goal_pike_production.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -837,9 +838,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_slitting_mills
+        } 
+ SpriteType = {
+        name =  GFX_goal_slitting_mills_shine
         texturefile =  gfx/interface/goals/goal_slitting_mills.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -868,9 +869,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_better_brass_mixture
+        } 
+ SpriteType = {
+        name =  GFX_goal_better_brass_mixture_shine
         texturefile =  gfx/interface/goals/goal_better_brass_mixture.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -899,9 +900,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_brass_factories
+        } 
+ SpriteType = {
+        name =  GFX_goal_brass_factories_shine
         texturefile =  gfx/interface/goals/goal_brass_factories.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -930,9 +931,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_coal_factories
+        } 
+ SpriteType = {
+        name =  GFX_goal_coal_factories_shine
         texturefile =  gfx/interface/goals/goal_coal_factories.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -961,9 +962,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_curb_mind_affecting_properties
+        } 
+ SpriteType = {
+        name =  GFX_goal_curb_mind_affecting_properties_shine
         texturefile =  gfx/interface/goals/goal_curb_mind_affecting_properties.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -992,9 +993,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_dig_for_copper
+        } 
+ SpriteType = {
+        name =  GFX_goal_dig_for_copper_shine
         texturefile =  gfx/interface/goals/goal_dig_for_copper.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1023,9 +1024,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_increased_metallurgy_efficiency
+        } 
+ SpriteType = {
+        name =  GFX_goal_increased_metallurgy_efficiency_shine
         texturefile =  gfx/interface/goals/goal_increased_metallurgy_efficiency.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1054,9 +1055,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_increased_metallurgy
+        } 
+ SpriteType = {
+        name =  GFX_goal_increased_metallurgy_shine
         texturefile =  gfx/interface/goals/goal_increased_metallurgy.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1085,9 +1086,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_iron_recycling_plant
+        } 
+ SpriteType = {
+        name =  GFX_goal_iron_recycling_plant_shine
         texturefile =  gfx/interface/goals/goal_iron_recycling_plant.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1116,9 +1117,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_natural_wealth
+        } 
+ SpriteType = {
+        name =  GFX_goal_natural_wealth_shine
         texturefile =  gfx/interface/goals/goal_natural_wealth.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1147,9 +1148,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_reinforce_mines
+        } 
+ SpriteType = {
+        name =  GFX_goal_reinforce_mines_shine
         texturefile =  gfx/interface/goals/goal_reinforce_mines.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1178,9 +1179,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_reuse_iron_tools
+        } 
+ SpriteType = {
+        name =  GFX_goal_reuse_iron_tools_shine
         texturefile =  gfx/interface/goals/goal_reuse_iron_tools.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1209,9 +1210,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_steel_factories
+        } 
+ SpriteType = {
+        name =  GFX_goal_steel_factories_shine
         texturefile =  gfx/interface/goals/goal_steel_factories.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1240,9 +1241,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_understand_void_strength
+        } 
+ SpriteType = {
+        name =  GFX_goal_understand_void_strength_shine
         texturefile =  gfx/interface/goals/goal_understand_void_strength.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1271,9 +1272,9 @@ SpriteType = {
                         animationtexturescale = { x = 1.0 y = 1.0 } 
                 }
                 legacy_lazy_load = no
-        }
-SpriteType = {
-        name =  GFX_goal_void_metal
+        } 
+ SpriteType = {
+        name =  GFX_goal_void_metal_shine
         texturefile =  gfx/interface/goals/goal_void_metal.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1306,7 +1307,7 @@ SpriteType = {
 
 #Arbiters
 SpriteType = {
-        name =  GFX_goal_help_misaross
+        name = GFX_goal_help_misaross_shine
         texturefile =  gfx/interface/goals/goal_help_misaross.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1337,7 +1338,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_influence_icrusia
+        name =  GFX_goal_influence_icrusia_shine
         texturefile =  gfx/interface/goals/goal_influence_icrusia.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1368,7 +1369,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_influence_echainaian
+        name =  GFX_goal_influence_echainaian_shine
         texturefile =  gfx/interface/goals/goal_influence_echainaian.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1399,7 +1400,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_influence_trubia
+        name =  GFX_goal_influence_trubia_shine
         texturefile =  gfx/interface/goals/goal_influence_trubia.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1430,7 +1431,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_influence_airestonia
+        name =  GFX_goal_influence_airestonia_shine
         texturefile =  gfx/interface/goals/goal_influence_airestonia.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1461,7 +1462,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_influence_ilidea
+        name =  GFX_goal_influence_ilidea_shine
         texturefile =  gfx/interface/goals/goal_influence_ilidea.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1492,7 +1493,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_help_cleatport
+        name =  GFX_goal_help_cleatport_shine
         texturefile =  gfx/interface/goals/goal_help_cleatport.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1523,7 +1524,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_help_drecding
+        name =  GFX_goal_help_drecding_shine
         texturefile =  gfx/interface/goals/goal_help_drecding.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1554,7 +1555,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_help_qohphis
+        name =  GFX_goal_help_qohphis_shine
         texturefile =  gfx/interface/goals/goal_help_qohphis.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1585,7 +1586,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_help_ylecstin
+        name =  GFX_goal_help_ylecstin_shine
         texturefile =  gfx/interface/goals/goal_help_ylecstin.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1616,7 +1617,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_help_illemont
+        name =  GFX_goal_help_illemont_shine
         texturefile =  gfx/interface/goals/goal_help_illemont.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
@@ -1647,7 +1648,7 @@ SpriteType = {
                 legacy_lazy_load = no
         }
 SpriteType = {
-        name =  GFX_goal_help_dinpool
+        name =  GFX_goal_help_dinpool_shine
         texturefile =  gfx/interface/goals/goal_help_dinpool.dds                        
         effectFile = gfx/FX/buttonstate.lua
                 animation = {
