@@ -2084,7 +2084,7 @@ focus = {
 id = MRO_dreams_of_a_nation
 x = 55
 y = 1
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_dreams_of_a_nation
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = AST_workers_paradise }
@@ -2110,7 +2110,7 @@ focus = {
 id = MRO_southern_investment
 x = 49
 y = 2
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_consumer_goods"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_dreams_of_a_nation }
@@ -2138,7 +2138,7 @@ focus = {
 id = MRO_western_investment
 x = 53
 y = 2
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_lucrative_plantations"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_dreams_of_a_nation }
@@ -2166,7 +2166,7 @@ focus = {
 id = MRO_northern_investment
 x = 57
 y = 2
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construction2"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_dreams_of_a_nation }
@@ -2194,7 +2194,7 @@ focus = {
 id = MRO_eastern_investment
 x = 61
 y = 2
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_trade"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_dreams_of_a_nation }
@@ -2430,7 +2430,7 @@ focus = {
 id = MRO_assist_the_south
 x = 49
 y = 4
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_major_alliance"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_increase_trade_with_illemnont }
@@ -2457,7 +2457,7 @@ focus = {
 id = MRO_reconcile_the_west
 x = 53
 y = 4
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_alliance"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_expand_ylecstin_farmlands }
@@ -2484,7 +2484,7 @@ focus = {
 id = MRO_connect_the_north
 x = 57
 y = 4
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_tripartite_pact"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_build_more_mines_in_drecding }
@@ -2511,7 +2511,7 @@ focus = {
 id = MRO_leave_no_arbiter_behind
 x = 61
 y = 4
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_national_unity"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_invest_in_dinpool }
@@ -2538,7 +2538,7 @@ focus = {
 id = MRO_form_the_arbiter_development_union
 x = 55
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_neutrality_focus"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_assist_the_south OR = MRO_reconcile_the_west }
@@ -2564,7 +2564,7 @@ focus = {
 id = MRO_reinstate_the_arbiter_magic_group
 x = 51
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_war_with_comintern"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_form_the_arbiter_development_union }
@@ -2877,7 +2877,7 @@ focus = {
 id = MRO_trans-arbiters_roads
 x = 57
 y = 8
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_trans_arbiters_roads
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_adu_western_road_focus }
@@ -3220,7 +3220,7 @@ focus = {
 id = MRO_new_national_strength_budget
 x = 60
 y = 16
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_forceful_treaty"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_end_of_the_unification_war }
@@ -3298,7 +3298,7 @@ focus = {
 id = MRO_rebuild_the_west
 x = 58
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_industry_3"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_new_national_strength_budget }
@@ -3324,7 +3324,7 @@ focus = {
 id = MRO_rebuild_the_east
 x = 62
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_production2"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = MRO_new_national_strength_budget }

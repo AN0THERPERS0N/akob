@@ -179,6 +179,14 @@ SpriteType = {
 #Arbiters
 
 	SpriteType = {
+	name = "GFX_goal_dreams_of_a_nation"
+	texturefile = "gfx/interface/goals/goal_dreams_of_a_nation.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_trans_arbiters_roads"
+	texturefile = "gfx/interface/goals/goal_trans_arbiters_roads.dds"			
+	}
+	SpriteType = {
 	name = "GFX_goal_help_misaross"
 	texturefile = "gfx/interface/goals/goal_help_misaross.dds"			
 	}
