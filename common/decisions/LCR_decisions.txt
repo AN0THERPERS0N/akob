@@ -19,7 +19,170 @@ corruption = {
         cost = 10
 
         complete_effect = {   
-            hidden_effect = {        
+            hidden_effect = {   
+                every_state = {
+                    limit = {
+                        is_owned_by = AGR
+                    }
+                    add_to_array = {
+                        array = global.AGR
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = ARS
+                    }
+                    add_to_array = {
+                        array = global.ARS
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = LCR
+                    }
+                    add_to_array = {
+                        array = global.LCR
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = THB
+                    }
+                    add_to_array = {
+                        array = global.THB
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = OBX
+                    }
+                    add_to_array = {
+                        array = global.OBX
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = GOZ
+                    }
+                    add_to_array = {
+                        array = global.GOZ
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = MRO
+                    }
+                    add_to_array = {
+                        array = global.MRO
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = DPL
+                    }
+                    add_to_array = {
+                        array = global.DPL
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = IMN
+                    }
+                    add_to_array = {
+                        array = global.IMN
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = CTP
+                    }
+                    add_to_array = {
+                        array = global.CTP
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = QOH
+                    }
+                    add_to_array = {
+                        array = global.QOH
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = DED
+                    }
+                    add_to_array = {
+                        array = global.DED
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = YLC
+                    }
+                    add_to_array = {
+                        array = global.YLC
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = TRB
+                    }
+                    add_to_array = {
+                        array = global.TRB
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = EFR
+                    }
+                    add_to_array = {
+                        array = global.EFR
+                        value = THIS.id
+                    }                    
+                }       
+                every_state = {
+                    limit = {
+                        is_owned_by = ILD
+                    }
+                    add_to_array = {
+                        array = global.ILD
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = LTV
+                    }
+                    add_to_array = {
+                        array = global.LTV
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = ECH
+                    }
+                    add_to_array = {
+                        array = global.ECH
+                        value = THIS.id
+                    }                    
+                }     
+                CRP = { transfer_state = 16 }
                 CRP = { transfer_state = 71 }
                 CRP = { transfer_state = 170 }
                 CRP = { transfer_state = 177 }
@@ -67,7 +230,7 @@ corruption = {
                 CRP = { transfer_state = 79 }
                 CRP = { transfer_state = 166 }
                 CRP = { transfer_state = 180 }
-                CRP = { transfer_state = 16 }
+                
                 CRP = { transfer_state = 9 }
                 CRP = { transfer_state = 42 }
                 CRP = { transfer_state = 30 }
@@ -100,13 +263,231 @@ corruption = {
 
         complete_effect = {    
             hidden_effect = {
-                AGR = { transfer_state = 16 }
-                AGR = { transfer_state = 9 }
-                AGR = { transfer_state = 51 }
-                AGR = { transfer_state = 34 }
-                AGR = { transfer_state = 41 }
-                AGR = { transfer_state = 61 }
-                AGR = { transfer_state = 68 }
+                every_state = {
+                    limit = {
+                        is_owned_by = CRP
+                        is_in_array = {
+	                        array = global.AGR
+	                        value = THIS.id
+                        }
+                    }
+                    AGR = { transfer_state = PREV }
+                }
+                every_state = {
+                    limit = {
+                        is_owned_by = CRP
+                        is_in_array = {
+	                        array = global.ARS
+	                        value = THIS.id
+                        }
+                    }
+                    ARS = { transfer_state = PREV }
+                }
+                every_state = {
+                    limit = {
+                        is_owned_by = LCR
+                        is_in_array = {
+	                        array = global.LCR
+	                        value = THIS.id
+                        }
+                    }
+                    AGR = { transfer_state = PREV }               
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = THB
+                        is_in_array = {
+	                        array = global.THB
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.THB
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = OBX
+                        is_in_array = {
+	                        array = global.OBX
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.OBX
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = GOZ
+                        is_in_array = {
+	                        array = global.GOZ
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.GOZ
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = MRO
+                        is_in_array = {
+	                        array = global.MRO
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.MRO
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = DPL
+                        is_in_array = {
+	                        array = global.DPL
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.DPL
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = IMN
+                        is_in_array = {
+	                        array = global.IMN
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.IMN
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = CTP
+                        is_in_array = {
+	                        array = global.CTP
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.CTP
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = QOH
+                        is_in_array = {
+	                        array = global.QOH
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.QOH
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = DED
+                        is_in_array = {
+	                        array = global.DED
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.DED
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = YLC
+                        is_in_array = {
+	                        array = global.YLC
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.YLC
+                        value = THIS.id
+                    }                    
+                }   
+                every_state = {
+                    limit = {
+                        is_owned_by = TRB
+                        is_in_array = {
+	                        array = global.TRB
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.TRB
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = EFR
+                        is_in_array = {
+	                        array = global.EFR
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.EFR
+                        value = THIS.id
+                    }                    
+                }       
+                every_state = {
+                    limit = {
+                        is_owned_by = ILD
+                        is_in_array = {
+	                        array = global.ILD
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.ILD
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = LTV
+                        is_in_array = {
+	                        array = global.LTV
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.LTV
+                        value = THIS.id
+                    }                    
+                }     
+                every_state = {
+                    limit = {
+                        is_owned_by = ECH
+                        is_in_array = {
+	                        array = global.ECH
+	                        value = THIS.id
+                        }
+                    }
+                    add_to_array = {
+                        array = global.ECH
+                        value = THIS.id
+                    }                    
+                }  
                 TRB = { transfer_state = 207 }
                 TRB = { transfer_state = 189 }
                 IMN = { transfer_state = 179 }
