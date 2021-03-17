@@ -291,7 +291,7 @@ corruption = {
 	                        value = THIS.id
                         }
                     }
-                    AGR = { transfer_state = PREV }               
+                    LCR = { transfer_state = PREV }               
                 }     
                 every_state = {
                     limit = {
@@ -301,10 +301,7 @@ corruption = {
 	                        value = THIS.id
                         }
                     }
-                    add_to_array = {
-                        array = global.THB
-                        value = THIS.id
-                    }                    
+                    THB = { transfer_state = PREV }                
                 }     
                 every_state = {
                     limit = {
@@ -314,10 +311,7 @@ corruption = {
 	                        value = THIS.id
                         }
                     }
-                    add_to_array = {
-                        array = global.OBX
-                        value = THIS.id
-                    }                    
+                    OBX = { transfer_state = PREV }                    
                 }     
                 every_state = {
                     limit = {
@@ -327,10 +321,7 @@ corruption = {
 	                        value = THIS.id
                         }
                     }
-                    add_to_array = {
-                        array = global.GOZ
-                        value = THIS.id
-                    }                    
+                    GOZ = { transfer_state = PREV }                    
                 }     
                 every_state = {
                     limit = {
@@ -340,10 +331,7 @@ corruption = {
 	                        value = THIS.id
                         }
                     }
-                    add_to_array = {
-                        array = global.MRO
-                        value = THIS.id
-                    }                    
+                    MRO = { transfer_state = PREV }                    
                 }   
                 every_state = {
                     limit = {
@@ -353,10 +341,7 @@ corruption = {
 	                        value = THIS.id
                         }
                     }
-                    add_to_array = {
-                        array = global.DPL
-                        value = THIS.id
-                    }                    
+                    DPL = { transfer_state = PREV }                    
                 }   
                 every_state = {
                     limit = {
@@ -366,10 +351,7 @@ corruption = {
 	                        value = THIS.id
                         }
                     }
-                    add_to_array = {
-                        array = global.IMN
-                        value = THIS.id
-                    }                    
+                    IMN = { transfer_state = PREV }                    
                 }   
                 every_state = {
                     limit = {
@@ -379,10 +361,7 @@ corruption = {
 	                        value = THIS.id
                         }
                     }
-                    add_to_array = {
-                        array = global.CTP
-                        value = THIS.id
-                    }                    
+                    CTP = { transfer_state = PREV }                    
                 }   
                 every_state = {
                     limit = {
