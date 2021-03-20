@@ -127,7 +127,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_guided_missile_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/guided_missile_1.dds"
-	}			
+	}		
+	
+	SpriteType = {
+		name = "GFX_tech_support_medium"
+		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
+	}		
 	
 	SpriteType = {
 		name = "GFX_motorized_rocket_unit_medium"
@@ -336,7 +341,27 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_maintenance_company_medium"
 		texturefile = "gfx/interface/technologies/tech_maintenance_company.dds"
-	}				
+	}		
+	
+	SpriteType = {
+		name = "GFX_tech_signal_company4_medium"
+		texturefile = "gfx/interface/technologies/tech_signal_company4.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_signal_company3_medium"
+		texturefile = "gfx/interface/technologies/tech_signal_company3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_signal_company2_medium"
+		texturefile = "gfx/interface/technologies/tech_signal_company2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_signal_company_medium"
+		texturefile = "gfx/interface/technologies/tech_signal_company.dds"
+	}		
 	
 	SpriteType = {
 		name = "GFX_tech_military_police4_medium"
@@ -401,6 +426,26 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_tech_recon4_medium"
+		texturefile = "gfx/interface/technologies/recon4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon3_medium"
+		texturefile = "gfx/interface/technologies/recon3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_recon2_medium"
+		texturefile = "gfx/interface/technologies/recon2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tech_recon_medium"
+		texturefile = "gfx/interface/technologies/recon.dds"
 	}	
 
 	SpriteType = {
@@ -4723,253 +4768,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_airsweep_mines_medium"
 		texturefile = "gfx/interface/technologies/airsweep_mines.dds"
-	}
-	#####
-	SpriteType = {
-		name = "GFX_sorcerer_medium"
-		texturefile = "gfx/interface/technologies/sorcerer.dds"
-	}
-	SpriteType = {
-		name = "GFX_sorcery1_medium"
-		texturefile = "gfx/interface/technologies/sorcery1.dds"
-	}
-	SpriteType = {
-		name = "GFX_sorcery2_medium"
-		texturefile = "gfx/interface/technologies/sorcery2.dds"
-	}
-	SpriteType = {
-		name = "GFX_sorcery3_medium"
-		texturefile = "gfx/interface/technologies/sorcery3.dds"
-	}
-	SpriteType = {
-		name = "GFX_sorcery4_medium"
-		texturefile = "gfx/interface/technologies/sorcery4.dds"
-	}
-	SpriteType = {
-		name = "GFX_conjurer_medium"
-		texturefile = "gfx/interface/technologies/conjurer.dds"
-	}
-	SpriteType = {
-		name = "GFX_conjuring1_medium"
-		texturefile = "gfx/interface/technologies/conjuring1.dds"
-	}
-	SpriteType = {
-		name = "GFX_conjuring2_medium"
-		texturefile = "gfx/interface/technologies/conjuring2.dds"
-	}
-	SpriteType = {
-		name = "GFX_conjuring3_medium"
-		texturefile = "gfx/interface/technologies/conjuring3.dds"
-	}
-	SpriteType = {
-		name = "GFX_conjuring4_medium"
-		texturefile = "gfx/interface/technologies/conjuring4.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_magic_medium"
-		texturefile = "gfx/interface/technologies/basic_magic.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_matchlock1_medium"
-		texturefile = "gfx/interface/technologies/matchlock1.dds"
-	}
-	SpriteType = {
-		name = "GFX_matchlock2_medium"
-		texturefile = "gfx/interface/technologies/matchlock2.dds"
-	}
-	SpriteType = {
-		name = "GFX_matchlock3_medium"
-		texturefile = "gfx/interface/technologies/matchlock3.dds"
-	}
-	SpriteType = {
-		name = "GFX_matchlock4_medium"
-		texturefile = "gfx/interface/technologies/matchlock4.dds"
-	}
-	SpriteType = {
-		name = "GFX_flintlock1_medium"
-		texturefile = "gfx/interface/technologies/flintlock1.dds"
-	}
-	SpriteType = {
-		name = "GFX_flintlock2_medium"
-		texturefile = "gfx/interface/technologies/flintlock2.dds"
-	}
-	SpriteType = {
-		name = "GFX_flintlock3_medium"
-		texturefile = "gfx/interface/technologies/flintlock3.dds"
-	}
-	SpriteType = {
-		name = "GFX_bayonet1_medium"
-		texturefile = "gfx/interface/technologies/bayonet1.dds"
-	}
-	SpriteType = {
-		name = "GFX_bayonet2_medium"
-		texturefile = "gfx/interface/technologies/bayonet2.dds"
-	}
-	SpriteType = {
-		name = "GFX_bayonet3_medium"
-		texturefile = "gfx/interface/technologies/bayonet3.dds"
-	}
-	SpriteType = {
-		name = "GFX_bayonet4_medium"
-		texturefile = "gfx/interface/technologies/bayonet4.dds"
-	}
-	SpriteType = {
-		name = "GFX_bayonet5_medium"
-		texturefile = "gfx/interface/technologies/bayonet5.dds"
-	}
-	SpriteType = {
-		name = "GFX_support1_medium"
-		texturefile = "gfx/interface/technologies/support1.dds"
-	}
-	SpriteType = {
-		name = "GFX_support2_medium"
-		texturefile = "gfx/interface/technologies/support2.dds"
-	}
-	SpriteType = {
-		name = "GFX_support3_medium"
-		texturefile = "gfx/interface/technologies/support3.dds"
-	}
-	SpriteType = {
-		name = "GFX_support4_medium"
-		texturefile = "gfx/interface/technologies/support4.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_cavalry_medium"
-		texturefile = "gfx/interface/technologies/basic_cavalry.dds"
-	}
-
-
-	SpriteType = {
-		name = "GFX_light_lancer1_medium"
-		texturefile = "gfx/interface/technologies/light_lancer1.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_lancer2_medium"
-		texturefile = "gfx/interface/technologies/light_lancer2.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_lancer3_medium"
-		texturefile = "gfx/interface/technologies/light_lancer3.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_lancer1_medium"
-		texturefile = "gfx/interface/technologies/heavy_lancer1.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_lancer2_medium"
-		texturefile = "gfx/interface/technologies/heavy_lancer2.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_lancer3_medium"
-		texturefile = "gfx/interface/technologies/heavy_lancer3.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_cuirassier1_medium"
-		texturefile = "gfx/interface/technologies/light_cuirassier1.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_cuirassier2_medium"
-		texturefile = "gfx/interface/technologies/light_cuirassier2.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_cuirassier3_medium"
-		texturefile = "gfx/interface/technologies/light_cuirassier3.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_cuirassier1_medium"
-		texturefile = "gfx/interface/technologies/heavy_cuirassier1.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_cuirassier2_medium"
-		texturefile = "gfx/interface/technologies/heavy_cuirassier2.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_cuirassier3_medium"
-		texturefile = "gfx/interface/technologies/heavy_cuirassier3.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_lancer_support_medium"
-		texturefile = "gfx/interface/technologies/light_lancer_support.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_lancer_support_medium"
-		texturefile = "gfx/interface/technologies/heavy_lancer_support.dds"
-	}
-	SpriteType = {
-		name = "GFX_light_cuirassier_support_medium"
-		texturefile = "gfx/interface/technologies/light_cuirassier_support.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_cuirassier_support_medium"
-		texturefile = "gfx/interface/technologies/heavy_cuirassier_support.dds"
-	}
-
-
-	SpriteType = {
-		name = "GFX_elite1_medium"
-		texturefile = "gfx/interface/technologies/elite1.dds"
-	}
-	SpriteType = {
-		name = "GFX_elite2_medium"
-		texturefile = "gfx/interface/technologies/elite2.dds"
-	}
-	SpriteType = {
-		name = "GFX_elite3_medium"
-		texturefile = "gfx/interface/technologies/elite3.dds"
-	}
-	SpriteType = {
-		name = "GFX_elite4_medium"
-		texturefile = "gfx/interface/technologies/elite4.dds"
-	}
-	SpriteType = {
-		name = "GFX_elite5_medium"
-		texturefile = "gfx/interface/technologies/elite5.dds"
-	}
-
-
-	SpriteType = {
-		name = "GFX_tech_support_medium"
-		texturefile = "gfx/interface/technologies/supportequipment.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_tech_recon4_medium"
-		texturefile = "gfx/interface/technologies/skirmisher4.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_tech_recon3_medium"
-		texturefile = "gfx/interface/technologies/skirmisher3.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_tech_recon2_medium"
-		texturefile = "gfx/interface/technologies/skirmisher2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_tech_recon_medium"
-		texturefile = "gfx/interface/technologies/skirmisher1.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_tech_signal_company4_medium"
-		texturefile = "gfx/interface/technologies/telepathy4.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_tech_signal_company3_medium"
-		texturefile = "gfx/interface/technologies/telepathy3.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_tech_signal_company2_medium"
-		texturefile = "gfx/interface/technologies/telepathy2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_tech_signal_company_medium"
-		texturefile = "gfx/interface/technologies/telepathy1.dds"
 	}
 }
