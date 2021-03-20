@@ -1,0 +1,2429 @@
+focus_tree = {
+	id = icrusian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = LCR
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = AST
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 3000 }
+
+focus = {
+id = LCR_icrusia_at_war
+x = 13
+y = 1
+icon = GFX_goal_war_with_icrusia
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_call_a_state_of_emergency
+x = 6
+y = 2
+icon = "GFX_goal_generic_attack_allies"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_icrusia_at_war }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_play_the_long_game
+x = 13
+y = 2
+icon = GFX_goal_generic_more_territorial_claims
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_icrusia_at_war }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_instant_industrialisation
+x = 20
+y = 2
+icon = "GFX_focus_generic_industry_1"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_icrusia_at_war }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_all_hands_on_deck
+x = 5
+y = 3
+icon = "GFX_goal_generic_national_unity"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_call_a_state_of_emergency }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_every_man_a_soldier
+x = 7
+y = 3
+icon = "GFX_focus_generic_little_entente"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_call_a_state_of_emergency }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_fortify_key_positions
+x = 10
+y = 3
+icon = "GFX_goal_fortify_the_westwall"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_play_the_long_game }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_reach_out_to_airestonia
+x = 13
+y = 3
+icon = "GFX_goal_influence_airestonia"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_play_the_long_game }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_grant_emergency_powers
+x = 16
+y = 3
+icon = "GFX_goal_generic_forceful_treaty"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_play_the_long_game }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_reconvert_abandoned_factories
+x = 19
+y = 3
+icon = GFX_goal_more_blast_furnaces.psd
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_instant_industrialisation }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_emergency_civilian_factory_seizures
+x = 21
+y = 3
+icon = "GFX_goal_generic_construct_civ_factory"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_instant_industrialisation }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_set_the_economy_to_ovedrive
+x = 5
+y = 4
+icon = "GFX_goal_economic_bubble"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_all_hands_on_deck }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_mass_recruitment_drive
+x = 7
+y = 4
+icon = GFX_goal_reform_the_grand_army
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_every_man_a_soldier }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_control_strategic_roads
+x = 10
+y = 4
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_fortify_key_positions }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_diplomats_to_airestonia_city
+x = 13
+y = 4
+icon = "GFX_focus_generic_diplomatic_treaty"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_reach_out_to_airestonia }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_veil_of_secrecy
+x = 16
+y = 4
+icon = "GFX_goal_arrest_without_trial"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_grant_emergency_powers }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_divert_resources_to_factories
+x = 20
+y = 4
+icon = GFX_goal_steel_factories
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_emergency_civilian_factory_seizures }
+prerequisite = { focus = LCR_reconvert_abandoned_factories }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_women_in_the_workforce
+x = 5
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_set_the_economy_to_ovedrive }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_large_scale_military_promotions
+x = 7
+y = 5
+icon = "GFX_focus_generic_military_mission"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_mass_recruitment_drive }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_secure_our_supply_chain
+x = 10
+y = 5
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_control_strategic_roads }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_bribe_officials
+x = 12
+y = 5
+icon = "GFX_goal_generic_alliance"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_diplomats_to_airestonia_city }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_switch_sides
+x = 14
+y = 5
+icon = "GFX_goal_generic_dangerous_deal"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_diplomats_to_airestonia_city }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_relocate_the_national_treasury
+x = 16
+y = 5
+icon = "GFX_focus_generic_self_management"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_veil_of_secrecy }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_increased_factory_equipment
+x = 20
+y = 5
+icon = "GFX_focus_generic_industry_2"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_divert_resources_to_factories }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_child_labourers
+x = 5
+y = 6
+icon = "GFX_focus_CZE_german_puppet"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_women_in_the_workforce }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_operation_second_wind
+x = 7
+y = 6
+icon = GFX_goal_force_of_arms
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_large_scale_military_promotions }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_protect_our_cities
+x = 10
+y = 6
+icon = "GFX_goal_generic_fortify_city"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_secure_our_supply_chain }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_provide_intel
+x = 12
+y = 6
+icon = "GFX_goal_pay_out_military"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_bribe_officials }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_secret_talks
+x = 14
+y = 6
+icon = "GFX_focus_eng_concessions_to_the_trade_unions"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_switch_sides }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_mass_delusion_campaign
+x = 16
+y = 6
+icon = "GFX_goal_generic_propaganda"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_relocate_the_national_treasury }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_new_industrial_projects
+x = 20
+y = 6
+icon = "GFX_goal_generic_construct_mil_factory"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_increased_factory_equipment }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_call_for_a_truce
+x = 12
+y = 7
+icon = "GFX_goal_generic_intelligence_exchange"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_provide_intel }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_cement_the_pact
+x = 14
+y = 7
+icon = "GFX_goal_generic_military_deal"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_secret_talks }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_peace_at_last
+x = 13
+y = 8
+icon = "GFX_goal_generic_major_alliance"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_child_labourers OR = LCR_operation_second_wind }
+prerequisite = { focus = LCR_protect_our_cities OR = LCR_call_for_a_truce OR = LCR_cement_the_pact OR = LCR_mass_delusion_campaign }
+prerequisite = { focus = LCR_new_industrial_projects }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_secrets_of_icrusia
+x = 13
+y = 9
+icon = "GFX_focus_generic_strike_at_democracy2"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_peace_at_last }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_read_the_ancient_diaries
+x = 12
+y = 10
+icon = "GFX_goal_rediscover_magic"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_secrets_of_icrusia }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_explore_inner_soul
+x = 14
+y = 10
+icon = "GFX_goal_generic_secret_weapon"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_secrets_of_icrusia }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_search_for_more_arcanic_fuel
+x = 11
+y = 11
+icon = "GFX_focus_prc_agrarian_socialism"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_read_the_ancient_diaries }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_physical_weave_continuum
+x = 13
+y = 11
+icon = "GFX_focus_YUG_ikarus"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_read_the_ancient_diaries }
+prerequisite = { focus = LCR_explore_inner_soul }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_harness_universal_powers
+x = 15
+y = 11
+icon = "GFX_goal_enhanced_magic"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_explore_inner_soul }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_point_of_no_return
+x = 13
+y = 12
+icon = "GFX_goal_generic_CAS"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_search_for_more_arcanic_fuel OR = LCR_physical_weave_continuum OR = LCR_harness_universal_powers }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_set_up_new_training_facilities
+x = 2
+y = 13
+icon = GFX_goal_gunworks
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_point_of_no_return }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_unlock_the_hidden_archives
+x = 9.5
+y = 13
+icon = GFX_goal_newspaper
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_point_of_no_return }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_all_resources_to_the_line
+x = 20.5
+y = 13
+icon = GFX_goal_increased_metallurgy_efficiency
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_point_of_no_return }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_employ_experienced_void_weavers
+x = 1
+y = 14
+icon = GFX_goal_understand_void_strength
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_set_up_new_training_facilities }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_scout_for_the_most_talented
+x = 3
+y = 14
+icon = "GFX_goal_generic_attack_allies"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_set_up_new_training_facilities }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_a_costly_compromise
+x = 7
+y = 14
+icon = "GFX_goal_tripartite_pact"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_unlock_the_hidden_archives }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_break_bond_then_break_bank
+x = 12
+y = 14
+icon = "GFX_goal_lucrative_plantations"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_unlock_the_hidden_archives }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_force_the_new_deal
+x = 18
+y = 14
+icon = "GFX_goal_generic_dangerous_deal"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_all_resources_to_the_line }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_fund_more_geological_expeditions
+x = 24
+y = 14
+icon = GFX_goal_reinforce_mines
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_all_resources_to_the_line }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_unleash_inner_potential
+x = 1
+y = 15
+icon = GFX_goal_curb_mind_affecting_properties
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_employ_experienced_void_weavers }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_recruitment_from_the_icrusian_military_college
+x = 3
+y = 15
+icon = "GFX_focus_generic_military_academy"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_scout_for_the_most_talented }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_raise_awareness_for_the_new_discoveries
+x = 7
+y = 15
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_a_costly_compromise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_new_national_focus_scheme
+x = 11
+y = 15
+icon = "GFX_focus_generic_support_the_left_right"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_break_bond_then_break_bank }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_all_icrusian_at_arms
+x = 13
+y = 15
+icon = "GFX_goal_generic_army_doctrines"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_break_bond_then_break_bank }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_begin_the_great_icrusian_revival
+x = 16
+y = 15
+icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_force_the_new_deal }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_fortify_for_the_worst
+x = 18
+y = 15
+icon = "GFX_focus_generic_coastal_fort"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_force_the_new_deal }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_sorry_state_of_infrastructure_in_icrusia
+x = 20
+y = 15
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_force_the_new_deal }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_plunder_incrusian_caves
+x = 23
+y = 15
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_fund_more_geological_expeditions }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_fire_up_the_refineries
+x = 25
+y = 15
+icon = GFX_goal_more_blast_furnaces.psd
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_fund_more_geological_expeditions }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = LCR_harsh_willpower_training
+x = 1
+y = 16
+icon = "GFX_goal_generic_more_territorial_claims"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_unleash_inner_potential }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_fill_our_foreign_ranks
+x = 3
+y = 16
+icon = "GFX_goal_generic_special_forces"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_recruitment_from_the_icrusian_military_college }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_refocus_and_reassert
+x = 6
+y = 16
+icon = "GFX_focus_generic_strike_at_democracy1"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_raise_awareness_for_the_new_discoveries }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_squash_any_political_opposition
+x = 8
+y = 16
+icon = GFX_focus_eng_move_to_secure_the_dominions
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_raise_awareness_for_the_new_discoveries }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_stamina_training
+x = 11
+y = 16
+icon = GFX_goal_generic_more_territorial_claims
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_new_national_focus_scheme }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_fund_training_initiatives
+x = 13
+y = 16
+icon = "GFX_goal_generic_occupy_states_ongoing_war"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_all_icrusian_at_arms }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_fuel_icrusian_production
+x = 16
+y = 16
+icon = "GFX_goal_generic_production"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_begin_the_great_icrusian_revival }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_grand_security_schemes
+x = 18
+y = 16.5
+icon = "GFX_goal_generic_military_sphere"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_fortify_for_the_worst }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_bridge_the_north_south_divide
+x = 20
+y = 16
+icon = "GFX_goal_generic_construct_infrastructure"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_sorry_state_of_infrastructure_in_icrusia }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_revise_icrusian_metallurgy_methods
+x = 23
+y = 16.5
+icon = GFX_goal_better_brass_mixture
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_plunder_incrusian_caves }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_pay_more_miners
+x = 25
+y = 16.5
+icon = "GFX_goal_pay_out_military"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_fire_up_the_refineries }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = LCR_bring_hell_to_earth
+x = 1
+y = 17
+icon = "GFX_goal_generic_war_with_comintern"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_harsh_willpower_training }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_rowe_personal_guard
+x = 3
+y = 17
+icon = "GFX_goal_generic_defence"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_fill_our_foreign_ranks }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_magical_test_subjects
+x = 6
+y = 17
+icon = "GFX_focus_spr_crush_the_revolution"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_refocus_and_reassert }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_indirect_support
+x = 8
+y = 17
+icon = GFX_goal_generic_military_deal
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_squash_any_political_opposition }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_mass_minimalism_camps
+x = 11
+y = 17
+icon = "GFX_goal_generic_position_armies"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_stamina_training }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_raise_recruit_wages
+x = 13
+y = 17
+icon = "GFX_goal_increase_budget"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_fund_training_initiatives }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_grand_icrusian_arms_projects
+x = 16
+y = 17
+icon = GFX_goal_expand_sword_factories
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_fuel_icrusian_production }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_hillside_bunkers
+x = 18
+y = 18
+icon = "GFX_goal_fortify_the_westwall"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_grand_security_schemes }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_trans_icrusian_roads
+x = 20
+y = 17
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_bridge_the_north_south_divide }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_incentivise_digging_in_the_south
+x = 23
+y = 18
+icon = "GFX_goal_generic_construction2"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_revise_icrusian_metallurgy_methods }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_synthetic_resource_production_research
+x = 25
+y = 18
+icon = GFX_goal_coal_factories
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_pay_more_miners }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+focus = {
+id = LCR_becometh_the_void
+x = 2
+y = 18
+icon = "GFX_goal_generic_secret_weapon"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_bring_hell_to_earth OR = LCR_rowe_personal_guard }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_allow_for_widescale_experimentation
+x = 6
+y = 18
+icon = "GFX_focus_research2"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_magical_test_subjects }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_new_popularity_laws
+x = 8
+y = 18
+icon = "GFX_focus_generic_support_the_left_right"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_indirect_support }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_no_wastage_tolerance
+x = 11
+y = 18
+icon = "GFX_goal_generic_neutrality_focus"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_mass_minimalism_camps }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_nationwide_propaganda
+x = 13
+y = 18
+icon = "GFX_goal_generic_propaganda"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_raise_recruit_wages }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_rowe_pet_project
+x = 16
+y = 18
+icon = "GFX_focus_generic_concessions"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_grand_icrusian_arms_projects }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_connect_all_the_cities
+x = 20
+y = 18
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_trans_icrusian_roads }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_exploit_our_natural_wealth
+x = 24
+y = 19
+icon = "GFX_goal_demand_sudetenland"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_incentivise_digging_in_the_south }
+prerequisite = { focus = LCR_synthetic_resource_production_research }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_leviathan_of_all_arcanes
+x = 2
+y = 19
+icon = "GFX_goal_generic_political_pressure"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_becometh_the_void }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_repurpose_new_facilities
+x = 6
+y = 19
+icon = "GFX_goal_new_building"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_allow_for_widescale_experimentation }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_enforce_nationwide_secrecy_laws
+x = 8
+y = 19
+icon = "GFX_focus_renounce_the_treaty_of_trianon"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_new_popularity_laws }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_conservative_thinking
+x = 11
+y = 19
+icon = "GFX_goal_generic_build_tank"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_no_wastage_tolerance }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_every_icrusian_a_useful_person
+x = 13
+y = 19
+icon = "GFX_goal_generic_political_pressure"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_nationwide_propaganda }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_icrusia_renovated
+x = 18
+y = 19
+icon = "GFX_focus_eng_organise_the_blackshirts"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_rowe_pet_project }
+prerequisite = { focus = LCR_hillside_bunkers }
+prerequisite = { focus = LCR_connect_all_the_cities }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_unleash_corruption
+x = 2
+y = 20
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_leviathan_of_all_arcanes }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_form_the_icrusian_void_group
+x = 6
+y = 20
+icon = "GFX_goal_generic_dangerous_deal"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_repurpose_new_facilities }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_entrust_the_local_icrusian_security_forces
+x = 8
+y = 20
+icon = "GFX_focus_spr_masters_of_our_own_fate"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_enforce_nationwide_secrecy_laws }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+focus = {
+id = LCR_grand_support_for_a_grand_cause
+x = 12
+y = 20
+icon = "GFX_goal_generic_national_unity"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = LCR_conservative_thinking }
+prerequisite = { focus = LCR_every_icrusian_a_useful_person }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
+}		
