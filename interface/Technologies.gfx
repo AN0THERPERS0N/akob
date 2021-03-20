@@ -1,5 +1,86 @@
 spriteTypes = {	
 
+#akob
+
+SpriteType = {
+        name = GFX_Cavalry.dds
+        texturefile = gfx/interface/technologies/Cavalry.dds                        
+        }
+SpriteType = {
+        name = GFX_Cuirassier_I.dds
+        texturefile = gfx/interface/technologies/Cuirassier_I.dds                        
+        }
+SpriteType = {
+        name = GFX_Cuirassier_II.dds
+        texturefile = gfx/interface/technologies/Cuirassier_II.dds                        
+        }
+SpriteType = {
+        name = GFX_Cuirassier_III.dds
+        texturefile = gfx/interface/technologies/Cuirassier_III.dds                        
+        }
+SpriteType = {
+        name = GFX_doglock.dds
+        texturefile = gfx/interface/technologies/doglock.dds                        
+        }
+SpriteType = {
+        name = GFX_flintlock.dds
+        texturefile = gfx/interface/technologies/flintlock.dds                        
+        }
+SpriteType = {
+        name = GFX_Lancer_I.dds
+        texturefile = gfx/interface/technologies/Lancer_I.dds                        
+        }
+SpriteType = {
+        name = GFX_Lancer_II.dds
+        texturefile = gfx/interface/technologies/Lancer_II.dds                        
+        }
+SpriteType = {
+        name = GFX_Lancer_III.dds
+        texturefile = gfx/interface/technologies/Lancer_III.dds                        
+        }
+SpriteType = {
+        name = GFX_matchlock.dds
+        texturefile = gfx/interface/technologies/matchlock.dds                        
+        }
+SpriteType = {
+        name = GFX_sorcery1.dds
+        texturefile = gfx/interface/technologies/sorcery1.dds                        
+        }
+SpriteType = {
+        name = GFX_sorcery2.dds
+        texturefile = gfx/interface/technologies/sorcery2.dds                        
+        }
+SpriteType = {
+        name = GFX_sorcery3.dds
+        texturefile = gfx/interface/technologies/sorcery3.dds                        
+        }
+SpriteType = {
+        name = GFX_sorcery4.dds
+        texturefile = gfx/interface/technologies/sorcery4.dds                        
+        }
+SpriteType = {
+        name = GFX_support_I.dds
+        texturefile = gfx/interface/technologies/support_I.dds                        
+        }
+SpriteType = {
+        name = GFX_support_II.dds
+        texturefile = gfx/interface/technologies/support_II.dds                        
+        }
+SpriteType = {
+        name = GFX_support_III.dds
+        texturefile = gfx/interface/technologies/support_III.dds                        
+        }
+SpriteType = {
+        name = GFX_support_IV.dds
+        texturefile = gfx/interface/technologies/support_IV.dds                        
+        }
+SpriteType = {
+        name = GFX_wheellock.dds
+        texturefile = gfx/interface/technologies/wheellock.dds                        
+        }
+
+# Vanilla
+
 	### generic equipment archetypes ###
 
 	SpriteType = {
