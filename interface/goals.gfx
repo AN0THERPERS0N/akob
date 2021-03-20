@@ -1,6 +1,21 @@
 spriteTypes = {	
 
-#Icrusia
+#Loyalist Icrusia
+
+SpriteType = {
+        name = GFX_goal_corruption
+        texturefile = gfx/interface/goals/goal_corruption.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_fortify_roads
+        texturefile = gfx/interface/goals/goal_fortify_roads.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_trans_icrusian_road
+        texturefile = gfx/interface/goals/goal_trans_icrusian_road.dds                        
+        }
+
+#Royalist Icrusia
 	SpriteType = {
 	name = "GFX_goal_generic_cavalry_group"
 	texturefile = "gfx/interface/goals/goal_generic_cavalry_group.dds"			

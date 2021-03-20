@@ -337,7 +337,7 @@ focus = {
 id = LCR_control_strategic_roads
 x = 10
 y = 4
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_fortify_roads
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = LCR_fortify_key_positions }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -434,7 +434,7 @@ focus = {
 id = LCR_women_in_the_workforce
 x = 5
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_production2"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = LCR_set_the_economy_to_ovedrive }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -482,7 +482,7 @@ focus = {
 id = LCR_secure_our_supply_chain
 x = 10
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = GFX_focus_generic_provoke_border_clashes
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = LCR_control_strategic_roads }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1397,7 +1397,7 @@ focus = {
 id = LCR_sorry_state_of_infrastructure_in_icrusia
 x = 20
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_position_armies"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = LCR_force_the_new_deal }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1421,7 +1421,7 @@ focus = {
 id = LCR_plunder_incrusian_caves
 x = 23
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_natural_wealth
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = LCR_fund_more_geological_expeditions }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -1923,7 +1923,7 @@ focus = {
 id = LCR_trans_icrusian_roads
 x = 20
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_trans_icrusian_road
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = LCR_bridge_the_north_south_divide }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2138,7 +2138,7 @@ focus = {
 id = LCR_connect_all_the_cities
 x = 20
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_ring_road"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = LCR_trans_icrusian_roads }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2333,7 +2333,7 @@ focus = {
 id = LCR_unleash_corruption
 x = 2
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_corruption
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = LCR_leviathan_of_all_arcanes }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
