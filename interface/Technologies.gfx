@@ -1,7 +1,14 @@
 spriteTypes = {	
 
 #akob
-
+SpriteType = {
+        name = GFX_minie_I_medium
+        texturefile = gfx/interface/technologies/minie_I.dds                        
+        }
+SpriteType = {
+        name = GFX_minie_II_medium
+        texturefile = gfx/interface/technologies/minie_II.dds                        
+        }
 SpriteType = {
         name = GFX_gattling_gun_I_medium
         texturefile = gfx/interface/technologies/gattling_gun_I.dds                        

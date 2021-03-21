@@ -902,12 +902,12 @@ technologies = {
 		}
 	}
 
-	gattling_gun_I = {
+	minie_I = {
 
 		land_night_attack = 0.1
 		
 		path = {
-			leads_to_tech = gattling_gun_II
+			leads_to_tech = minie_II
 			research_cost_coeff = 1
 		}
 
@@ -947,7 +947,7 @@ technologies = {
 		}
 	}
 	
-	gattling_gun_II = {
+	minie_II = {
 
 		land_night_attack = 0.15	
 
@@ -1257,7 +1257,7 @@ technologies = {
 	support_weapons_IV = {
 
 		path = {
-			leads_to_tech = gattling_gun_I
+			leads_to_tech = minie_I
 			research_cost_coeff = 1
 		}
 
