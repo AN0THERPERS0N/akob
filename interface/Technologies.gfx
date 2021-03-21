@@ -3,7 +3,39 @@ spriteTypes = {
 #akob
 
 SpriteType = {
-        name = GFX_Cavalry.dds
+        name = GFX_gattling_gun_I_medium
+        texturefile = gfx/interface/technologies/gattling_gun_I.dds                        
+        }
+SpriteType = {
+        name = GFX_gattling_gun_II_medium
+        texturefile = gfx/interface/technologies/gattling_gun_II.dds                        
+        }
+SpriteType = {
+        name = GFX_hand_mortar_I_medium
+        texturefile = gfx/interface/technologies/hand_mortar_I.dds                        
+        }
+SpriteType = {
+        name = GFX_hand_mortar_II_medium
+        texturefile = gfx/interface/technologies/hand_mortar_II.dds                        
+        }
+SpriteType = {
+        name = GFX_support_weapons_I_medium
+        texturefile = gfx/interface/technologies/support_weapons_I.dds                        
+        }
+SpriteType = {
+        name = GFX_support_weapons_II_medium
+        texturefile = gfx/interface/technologies/support_weapons_II.dds                        
+        }
+SpriteType = {
+        name = GFX_support_weapons_III_medium
+        texturefile = gfx/interface/technologies/support_weapons_III.dds                        
+        }
+SpriteType = {
+        name = GFX_support_weapons_IV_medium
+        texturefile = gfx/interface/technologies/support_weapons_IV.dds                        
+        }
+SpriteType = {
+        name = GFX_Cavalry_medium
         texturefile = gfx/interface/technologies/Cavalry.dds                        
         }
 SpriteType = {

@@ -157,7 +157,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = infantry_at
+			leads_to_tech = hand_mortar_I
 			research_cost_coeff = 1
 		}		
 
@@ -253,7 +253,7 @@ technologies = {
 		}
 	}
 	
-	infantry_at = {
+	hand_mortar_I = {
 
 		category_all_infantry = {
 			hard_attack = 0.25
@@ -261,7 +261,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = infantry_at2
+			leads_to_tech = hand_mortar_II
 			research_cost_coeff = 1
 		}
 
@@ -296,7 +296,7 @@ technologies = {
 		}
 	}
 	
-	infantry_at2 = {
+	hand_mortar_II = {
 
 		category_all_infantry = {
 			hard_attack = 0.25
@@ -902,12 +902,12 @@ technologies = {
 		}
 	}
 
-	night_vision = {
+	gattling_gun_I = {
 
 		land_night_attack = 0.1
 		
 		path = {
-			leads_to_tech = night_vision2
+			leads_to_tech = gattling_gun_II
 			research_cost_coeff = 1
 		}
 
@@ -947,7 +947,7 @@ technologies = {
 		}
 	}
 	
-	night_vision2 = {
+	gattling_gun_II = {
 
 		land_night_attack = 0.15	
 
@@ -982,7 +982,7 @@ technologies = {
 		}
 	}
 	
-	support_weapons = {
+	support_weapons_I = {
 
 		infantry = {
 			defense = 0.05
@@ -1022,7 +1022,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = support_weapons2
+			leads_to_tech = support_weapons_II
 			research_cost_coeff = 1
 		}
 
@@ -1073,7 +1073,7 @@ technologies = {
 		}
 	}
 	
-	support_weapons2 = {
+	support_weapons_II = {
 
 		infantry = {
 			defense = 0.05
@@ -1113,7 +1113,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = support_weapons3
+			leads_to_tech = support_weapons_III
 			research_cost_coeff = 1
 		}
 
@@ -1170,7 +1170,7 @@ technologies = {
 		}
 	}
 	
-	support_weapons3 = {
+	support_weapons_III = {
 
 		infantry = {
 			defense = 0.05
@@ -1210,7 +1210,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = support_weapons4
+			leads_to_tech = support_weapons_IV
 			research_cost_coeff = 1
 		}
 		
@@ -1254,10 +1254,10 @@ technologies = {
 		}
 	}
 	
-	support_weapons4 = {
+	support_weapons_IV = {
 
 		path = {
-			leads_to_tech = night_vision
+			leads_to_tech = gattling_gun_I
 			research_cost_coeff = 1
 		}
 
