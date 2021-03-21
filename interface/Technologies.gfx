@@ -2,6 +2,10 @@ spriteTypes = {
 
 #akob
 SpriteType = {
+        name = GFX_big_cannon_medium
+        texturefile = gfx/interface/technologies/big_cannon.dds                        
+        }
+SpriteType = {
         name = GFX_Cannon_upgrade_III_medium
         texturefile = gfx/interface/technologies/Cannon_upgrade_III.dds                        
         }
