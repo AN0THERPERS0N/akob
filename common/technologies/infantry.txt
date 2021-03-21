@@ -1338,7 +1338,7 @@ technologies = {
 		}
 	}
 	
-	motorised_infantry = {
+	Cavalry = {
 
 		enable_subunits = {
 			motorized
@@ -1350,7 +1350,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			motorized_equipment_1
+			cavalry_equipment
 		}
 
 		on_research_complete = {
