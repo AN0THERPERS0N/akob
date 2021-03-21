@@ -12,10 +12,10 @@ technologies = {
 	@1945 = 18
 	@1946 = 20
 
-	infantry_weapons = {
+	musket_1 = {
 
 		enable_equipments = {
-			infantry_equipment_0
+			musket_equipment_1
 		}
 		
 		enable_subunits = {
@@ -23,7 +23,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = infantry_weapons1
+			leads_to_tech = musket_2
 			research_cost_coeff = 1
 		}		
 
@@ -43,14 +43,14 @@ technologies = {
 		}
 	}
 	
-	infantry_weapons1 = {
+	musket_2 = {
 
 		enable_equipments = {
-			infantry_equipment_1
+			musket_equipment_2
 		}
 				
 		path = {
-			leads_to_tech = infantry_weapons2
+			leads_to_tech = musket_support_1
 			research_cost_coeff = 1
 		}		
 
@@ -85,7 +85,7 @@ technologies = {
 		}
 	}	
 	
-	infantry_weapons2 = {
+	musket_support_1 = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
@@ -107,7 +107,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_infantry_weapons
+			leads_to_tech = musket_3
 			research_cost_coeff = 1
 		}		
 
@@ -146,14 +146,14 @@ technologies = {
 		}
 	}
 	
-	improved_infantry_weapons = {
+	musket_3 = {
 
 		enable_equipments = {
-			infantry_equipment_2
+			musket_equipment_3
 		}
 		
 		path = {
-			leads_to_tech = improved_infantry_weapons_2
+			leads_to_tech = musket_support_2
 			research_cost_coeff = 1
 		}
 		path = {
@@ -196,7 +196,7 @@ technologies = {
 			}			
 		}
 	}
-	improved_infantry_weapons_2 = {
+	musket_support_2 = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
@@ -218,7 +218,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = advanced_infantry_weapons
+			leads_to_tech = musket_4
 			research_cost_coeff = 1
 		}
 
@@ -334,14 +334,14 @@ technologies = {
 		}
 	}
 	
-	advanced_infantry_weapons = {
+	musket_4 = {
 
 		enable_equipments = {
-			infantry_equipment_3
+			musket_equipment_4
 		}	
 		
 		path = {
-			leads_to_tech = advanced_infantry_weapons2
+			leads_to_tech = musket_support_3
 			research_cost_coeff = 1
 		}
 
@@ -376,7 +376,7 @@ technologies = {
 		}
 	}
 	
-	advanced_infantry_weapons2 = {
+	musket_support_3 = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
@@ -427,141 +427,6 @@ technologies = {
 		}
 	}
 	
-	paratroopers = {
-
-		enable_subunits = {
-			paratrooper
-		}
-		
-		path = {
-			leads_to_tech = paratroopers2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1936 }
-		}
-		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = paratrooper
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_paratroopers"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-		
-		categories = {
-			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-	}
-	
-	paratroopers2 = {
-
-		paratrooper = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-		
-		path = {
-			leads_to_tech = paratroopers3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1939
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1939 }
-		}
-		
-		categories = {
-			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-	}
-
-	paratroopers3 = {
-
-		paratrooper = {
-			max_organisation = 5
-		}
-		
-
-		research_cost = 2.0
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1943 }
-		}
-		
-		categories = {
-			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-	}
-	
 	marines = {
 
 		enable_subunits = {
@@ -589,7 +454,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1936 }
+			position = { x = 0 y = @1936 }
 		}
 		
 		categories = {
@@ -627,7 +492,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1939 }
+			position = { x = 0 y = @1939 }
 		}
 		
 		categories = {
@@ -659,7 +524,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1943 }
+			position = { x = 0 y = @1943 }
 		}
 		
 		categories = {
@@ -708,7 +573,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1936 }
+			position = { x = 2 y = @1936 }
 		}
 		
 		categories = {
@@ -737,7 +602,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1939 }
+			position = { x = 2 y = @1939 }
 		}
 		
 		categories = {
@@ -759,7 +624,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1943 }
+			position = { x = 2 y = @1943 }
 		}
 		
 		categories = {
@@ -800,7 +665,7 @@ technologies = {
 		start_year = 1938
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1938 }
+			position = { x = 2 y = @1938 }
 		}
 		
 		categories = {
@@ -836,7 +701,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1940 }
+			position = { x = 1 y = @1940 }
 		}
 		
 		categories = {
@@ -867,7 +732,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1940 }
+			position = { x = 3 y = @1940 }
 		}
 		
 		categories = {
@@ -901,7 +766,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1942 }
+			position = { x = 1 y = @1942 }
 		}
 		
 		categories = {
@@ -934,7 +799,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1942 }
+			position = { x = 3 y = @1942 }
 		}
 		
 		categories = {
@@ -963,7 +828,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1944 }
+			position = { x = 2 y = @1944 }
 		}
 		
 		categories = {
@@ -1047,10 +912,10 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1943 }
+			position = { x = 0 y = @1944 }
 		}
 		
 		categories = {
@@ -1391,6 +1256,11 @@ technologies = {
 	
 	support_weapons4 = {
 
+		path = {
+			leads_to_tech = night_vision
+			research_cost_coeff = 1
+		}
+
 		infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1474,6 +1344,11 @@ technologies = {
 			motorized
 		}
 
+		path = {
+			leads_to_tech = Lancer_I
+			research_cost_coeff = 1
+		}
+
 		enable_equipments = {
 			motorized_equipment_1
 		}
@@ -1491,14 +1366,11 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = mechanised_infantry
+			leads_to_tech = Cuirassier_I
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = armored_car1
-			research_cost_coeff = 1
-		}
+		
 
 		research_cost = 2
 		start_year = 1936
@@ -1510,10 +1382,6 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = { x = 7 y = 9 }
-		}
-		
-		sub_technologies = {
-			motorized_rocket_unit
 		}
 		
 		categories = {
@@ -1544,52 +1412,23 @@ technologies = {
 			}
 		}
 	}
-	motorized_rocket_unit = {
+	
+	Lancer_III = {
 
 		enable_subunits = {
-			motorized_rocket_brigade
-		}
-		enable_equipments = {
-			motorized_rocket_equipment_1
-		}
-	
-		research_cost = 1.5
-		start_year = 1939
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		
-		categories = {
-			mot_rockets
-		}
-	}
-	
-	armored_car1 = {
-
-		enable_subunits = {
-			armored_car
+			lancer_equipment_3
 		}
 
 		enable_equipments = {
 			gw_armored_car_equipment
 		}
 		allow_branch = { has_dlc = "La Resistance" }
-		path = {
-			leads_to_tech = armored_car2
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2
-		start_year = 1914
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1936 }
+			position = { x = 2 y = @1944 }
 		}
 		
 		categories = {
@@ -1621,142 +1460,12 @@ technologies = {
 		}
 	}
 
-	armored_car2 = {
+	
+
+	Cuirassier_I = {
 
 		enable_equipments = {
-			armored_car_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = armored_car3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1940 }
-		}
-		
-		categories = {
-			motorized_equipment
-			armor
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-		}
-	}
-
-	armored_car3 = {
-
-		enable_equipments = {
-			armored_car_equipment_2
-		}
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1942 }
-		}
-		
-		categories = {
-			motorized_equipment
-			armor
-		}
-		
-		sub_technologies = {
-			armored_car_at_upgrade
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-		}
-	}
-
-	armored_car_at_upgrade = {
-
-		enable_equipments = {
-			armored_car_at_equipment
-		}
-
-		research_cost = 1
-		start_year = 1942
-		sub_tech_index = 1
-		
-		categories = {
-			motorized_equipment
-			armor
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-		}
-	}
-
-	mechanised_infantry = {
-
-		enable_equipments = {
-			mechanized_equipment_1
+			cuirassier_equipment_1
 		}
 		
 		motorized = {
@@ -1776,14 +1485,11 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mechanised_infantry2
+			leads_to_tech = Cuirassier_II
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry
-			research_cost_coeff = 1
-		}
+		
 
 		research_cost = 2
 		start_year = 1940
@@ -1807,10 +1513,10 @@ technologies = {
 		}
 	}
 
-	amphibious_mechanized_infantry = {
+	Lancer_I = {
 
 		enable_equipments = {
-			amphibious_mechanized_equipment_1
+			lancer_equipment_1
 		}
 
 		allow_branch = {
@@ -1822,7 +1528,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = amphibious_mechanized_infantry_2
+			leads_to_tech = Lancer_II
 			research_cost_coeff = 1
 		}
 
@@ -1830,7 +1536,7 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 2 y = @1940 }
 		}
 		
 		categories = {
@@ -1849,19 +1555,22 @@ technologies = {
 		}
 	}
 
-	amphibious_mechanized_infantry_2 = {
+	Lancer_II = {
 
 		enable_equipments = {
-			amphibious_mechanized_equipment_2
+			lancer_equipment_2
 		}
 
-		
+		path = {
+			leads_to_tech = Lancer_III
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 2 y = @1942 }
 		}
 		
 		categories = {
@@ -1876,14 +1585,14 @@ technologies = {
 		}
 	}
 	
-	mechanised_infantry2 = {
+	Cuirassier_II = {
 
 		enable_equipments = {
-			mechanized_equipment_2
+			cuirassier_equipment_2
 		}
 		
 		path = {
-			leads_to_tech = mechanised_infantry3
+			leads_to_tech = Cuirassier_III
 			research_cost_coeff = 1
 		}
 
@@ -1905,10 +1614,10 @@ technologies = {
 		}
 	}
 	
-	mechanised_infantry3 = {
+	Cuirassier_III = {
 
 		enable_equipments = {
-			mechanized_equipment_3
+			cuirassier_equipment_3
 		}
 
 		mechanized = {

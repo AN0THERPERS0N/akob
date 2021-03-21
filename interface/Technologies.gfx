@@ -7,39 +7,39 @@ SpriteType = {
         texturefile = gfx/interface/technologies/Cavalry.dds                        
         }
 SpriteType = {
-        name = GFX_Cuirassier_I.dds
+        name = GFX_Cuirassier_I_medium
         texturefile = gfx/interface/technologies/Cuirassier_I.dds                        
         }
 SpriteType = {
-        name = GFX_Cuirassier_II.dds
+        name = GFX_Cuirassier_II_medium
         texturefile = gfx/interface/technologies/Cuirassier_II.dds                        
         }
 SpriteType = {
-        name = GFX_Cuirassier_III.dds
+        name = GFX_Cuirassier_III_medium
         texturefile = gfx/interface/technologies/Cuirassier_III.dds                        
         }
 SpriteType = {
-        name = GFX_doglock.dds
+        name = GFX_musket_3_medium
         texturefile = gfx/interface/technologies/doglock.dds                        
         }
 SpriteType = {
-        name = GFX_flintlock.dds
+        name = GFX_musket_4_medium
         texturefile = gfx/interface/technologies/flintlock.dds                        
         }
 SpriteType = {
-        name = GFX_Lancer_I.dds
+        name = GFX_Lancer_I_medium
         texturefile = gfx/interface/technologies/Lancer_I.dds                        
         }
 SpriteType = {
-        name = GFX_Lancer_II.dds
+        name = GFX_Lancer_II_medium
         texturefile = gfx/interface/technologies/Lancer_II.dds                        
         }
 SpriteType = {
-        name = GFX_Lancer_III.dds
+        name = GFX_Lancer_III_medium
         texturefile = gfx/interface/technologies/Lancer_III.dds                        
         }
 SpriteType = {
-        name = GFX_matchlock.dds
+        name = GFX_musket_1_medium
         texturefile = gfx/interface/technologies/matchlock.dds                        
         }
 SpriteType = {
@@ -59,23 +59,23 @@ SpriteType = {
         texturefile = gfx/interface/technologies/sorcery4.dds                        
         }
 SpriteType = {
-        name = GFX_support_I.dds
+        name = GFX_musket_support_1_medium
         texturefile = gfx/interface/technologies/support_I.dds                        
         }
 SpriteType = {
-        name = GFX_support_II.dds
+        name = GFX_musket_support_2_medium
         texturefile = gfx/interface/technologies/support_II.dds                        
         }
 SpriteType = {
-        name = GFX_support_III.dds
+        name = GFX_musket_support_3_medium
         texturefile = gfx/interface/technologies/support_III.dds                        
         }
 SpriteType = {
-        name = GFX_support_IV.dds
+        name = GFX_musket_support_4_medium
         texturefile = gfx/interface/technologies/support_IV.dds                        
         }
 SpriteType = {
-        name = GFX_wheellock.dds
+        name = GFX_musket_2_medium
         texturefile = gfx/interface/technologies/wheellock.dds                        
         }
 

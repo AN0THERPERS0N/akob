@@ -51,7 +51,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 1400 height = 1275
+					width = 1500 height = 1475
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -252,16 +252,9 @@ guiTypes = {
 				hide = yes
 				alwaystransparent = yes
 			}
-			
-			gridboxtype = {
-				name = "night_vision_tree"
-				position = { x = 140 y = 210 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}		
 	
 			gridboxtype = {
-				name = "infantry_weapons_tree"
+				name = "musket_1_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -277,7 +270,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "marines_tree"
-				position = { x = 140 y = 825 }
+				position = { x = 140 y = 915 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -289,17 +282,10 @@ guiTypes = {
 				format = "LEFT"
 			}
 
-			gridboxtype = {
-				name = "paratroopers_tree"
-				position = { x = 140 y = 1035 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
 
 			gridboxtype = {
 				name = "tech_special_forces_tree"
-				position = { x = 140 y = 1140 }
+				position = { x = 140 y = 1165 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
