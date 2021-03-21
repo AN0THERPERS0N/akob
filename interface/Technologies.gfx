@@ -2,6 +2,78 @@ spriteTypes = {
 
 #akob
 SpriteType = {
+        name = GFX_Cannon_upgrade_III_medium
+        texturefile = gfx/interface/technologies/Cannon_upgrade_III.dds                        
+        }
+SpriteType = {
+        name = GFX_Howitzer_I_medium
+        texturefile = gfx/interface/technologies/Howitzer_I.dds                        
+        }
+SpriteType = {
+        name = GFX_Howitzer_II_medium
+        texturefile = gfx/interface/technologies/Howitzer_II.dds                        
+        }
+SpriteType = {
+        name = GFX_Howitzer_III_medium
+        texturefile = gfx/interface/technologies/Howitzer_III.dds                        
+        }
+SpriteType = {
+        name = GFX_Howitzer_upgrade_I_medium
+        texturefile = gfx/interface/technologies/Howitzer_upgrade_I.dds                        
+        }
+SpriteType = {
+        name = GFX_Howitzer_upgrade_II_medium
+        texturefile = gfx/interface/technologies/Howitzer_upgrade_II.dds                        
+        }
+SpriteType = {
+        name = GFX_Howitzer_upgrade_III_medium
+        texturefile = gfx/interface/technologies/Howitzer_upgrade_III.dds                        
+        }
+SpriteType = {
+        name = GFX_Mortar_I_medium
+        texturefile = gfx/interface/technologies/Mortar_I.dds                        
+        }
+SpriteType = {
+        name = GFX_Mortar_II_medium
+        texturefile = gfx/interface/technologies/Mortar_II.dds                        
+        }
+SpriteType = {
+        name = GFX_Mortar_III_medium
+        texturefile = gfx/interface/technologies/Mortar_III.dds                        
+        }
+SpriteType = {
+        name = GFX_Mortar_upgrade_I_medium
+        texturefile = gfx/interface/technologies/Mortar_upgrade_I.dds                        
+        }
+SpriteType = {
+        name = GFX_Mortar_upgrade_II_medium
+        texturefile = gfx/interface/technologies/Mortar_upgrade_II.dds                        
+        }
+SpriteType = {
+        name = GFX_Mortar_upgrade_III_medium
+        texturefile = gfx/interface/technologies/Mortar_upgrade_III.dds                        
+        }
+SpriteType = {
+        name = GFX_Cannon_I_medium
+        texturefile = gfx/interface/technologies/Cannon_I.dds                        
+        }
+SpriteType = {
+        name = GFX_Cannon_II_medium
+        texturefile = gfx/interface/technologies/Cannon_II.dds                        
+        }
+SpriteType = {
+        name = GFX_Cannon_III_medium
+        texturefile = gfx/interface/technologies/Cannon_III.dds                        
+        }
+SpriteType = {
+        name = GFX_Cannon_upgrade_I_medium
+        texturefile = gfx/interface/technologies/Cannon_upgrade_I.dds                        
+        }
+SpriteType = {
+        name = GFX_Cannon_upgrade_II_medium
+        texturefile = gfx/interface/technologies/Cannon_upgrade_II.dds                        
+        }
+SpriteType = {
         name = GFX_minie_I_medium
         texturefile = gfx/interface/technologies/minie_I.dds                        
         }
