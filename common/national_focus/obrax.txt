@@ -77,7 +77,7 @@ focus = {
 id = OBX_nationwide_curfew
 x = 16
 y = 3
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_attack_allies"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_unravelling_of_the_april_plot }
@@ -129,7 +129,7 @@ focus = {
 id = OBX_enforce_marshall_law
 x = 20
 y = 3
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_forceful_treaty"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_unravelling_of_the_april_plot }
@@ -181,7 +181,7 @@ focus = {
 id = OBX_nationwide_hunt
 x = 15
 y = 4
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_secret_weapon"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nationwide_curfew }
@@ -285,7 +285,7 @@ focus = {
 id = OBX_national_cooperation_group
 x = 23
 y = 4
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_eng_concessions_to_the_trade_unions"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_reactivate_the_obrax_home_defence_force }
@@ -311,7 +311,7 @@ focus = {
 id = OBX_crackdown_on_the_nobles
 x = 14
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_demand_sudetenland"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nationwide_hunt }
@@ -342,7 +342,7 @@ focus = {
 id = OBX_crackdown_on_the_peasants
 x = 19
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = GFX_focus_eng_move_to_secure_the_dominions
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nationwide_hunt }
@@ -373,7 +373,7 @@ focus = {
 id = OBX_crackdown_on_the_cabinet
 x = 24
 y = 5
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_military_deal"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nationwide_hunt }
@@ -404,7 +404,7 @@ focus = {
 id = OBX_arrest_prominent_nobles
 x = 13
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_spr_masters_of_our_own_fate"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_crackdown_on_the_nobles }
@@ -430,7 +430,7 @@ focus = {
 id = OBX_spies_in_high_places
 x = 15
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_eng_special_air_service"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_crackdown_on_the_nobles }
@@ -456,7 +456,7 @@ focus = {
 id = OBX_nationwide_screenings
 x = 18
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_alliance"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_crackdown_on_the_peasants }
@@ -482,7 +482,7 @@ focus = {
 id = OBX_mass_arrests_in_the_villages
 x = 20
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_strike_at_democracy2"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_crackdown_on_the_peasants }
@@ -508,7 +508,7 @@ focus = {
 id = OBX_imprison_important_leaders
 x = 23
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_CAS"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_crackdown_on_the_cabinet }
@@ -534,7 +534,7 @@ focus = {
 id = OBX_curb_the_power_of_the_church
 x = 25
 y = 6
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_mex_triumph_over_the_cristeros"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_crackdown_on_the_cabinet }
@@ -560,7 +560,7 @@ focus = {
 id = OBX_destroy_noble_societies
 x = 13
 y = 7
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_rom_parties_end"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_arrest_prominent_nobles }
@@ -586,7 +586,7 @@ focus = {
 id = OBX_forced_requisition
 x = 15
 y = 7
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_neutrality_focus"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_spies_in_high_places }
@@ -612,7 +612,7 @@ focus = {
 id = OBX_dispatch_agents_everywhere
 x = 18
 y = 7
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_dangerous_deal"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nationwide_screenings }
@@ -638,7 +638,7 @@ focus = {
 id = OBX_promote_rats_in_society
 x = 20
 y = 7
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_secret_weapon"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_mass_arrests_in_the_villages }
@@ -664,7 +664,7 @@ focus = {
 id = OBX_divide_political_groups
 x = 23
 y = 7
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_provoke_border_clashes"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_imprison_important_leaders }
@@ -690,7 +690,7 @@ focus = {
 id = OBX_ban_party_rallies
 x = 25
 y = 7
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_curb_the_power_of_the_church }
@@ -716,7 +716,7 @@ focus = {
 id = OBX_an_obedient_nobility
 x = 14
 y = 8
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_tripartite_pact"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_destroy_noble_societies OR = OBX_forced_requisition }
@@ -742,7 +742,7 @@ focus = {
 id = OBX_peace_in_the_community
 x = 19
 y = 8
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_national_unity"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_dispatch_agents_everywhere OR = OBX_promote_rats_in_society }
@@ -768,7 +768,7 @@ focus = {
 id = OBX_trust_in_the_system
 x = 24
 y = 8
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_intelligence_exchange"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_divide_political_groups OR = OBX_ban_party_rallies }
@@ -794,7 +794,7 @@ focus = {
 id = OBX_future_of_obrax
 x = 19
 y = 9
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_anschluss"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_an_obedient_nobility OR = OBX_peace_in_the_community OR = OBX_trust_in_the_system }
@@ -820,7 +820,7 @@ focus = {
 id = OBX_dreams_of_autarky
 x = 15
 y = 10
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_better_refined_iron_shavings"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_future_of_obrax }
@@ -846,7 +846,7 @@ focus = {
 id = OBX_cannot_live_without_airestonia
 x = 30
 y = 10
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_tfv_strengthen_commonwealth_ties"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_future_of_obrax }
@@ -872,7 +872,7 @@ focus = {
 id = OBX_secret_plans
 x = 14
 y = 11
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_renounce_the_treaty_of_trianon"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_dreams_of_autarky }
@@ -898,7 +898,7 @@ focus = {
 id = OBX_extreme_measures
 x = 16
 y = 11
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_support_the_left_right"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_dreams_of_autarky }
@@ -924,7 +924,7 @@ focus = {
 id = OBX_renew_the_obrax_airestonian_trade_agreement
 x = 28
 y = 11
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_major_alliance"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_cannot_live_without_airestonia }
@@ -950,7 +950,7 @@ focus = {
 id = OBX_align_ourselves_with_airestonia
 x = 30
 y = 11
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_alliance"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_cannot_live_without_airestonia }
@@ -976,7 +976,7 @@ focus = {
 id = OBX_celebrate_close_ties
 x = 32
 y = 11
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_molotov_ribbentrop_pact"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_cannot_live_without_airestonia }
@@ -1002,7 +1002,7 @@ focus = {
 id = OBX_nano_expansion_plan
 x = 15
 y = 12
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_forceful_treaty"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_secret_plans }
@@ -1029,7 +1029,7 @@ focus = {
 id = OBX_form_the_new_eastern_bloc
 x = 30
 y = 12
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_diplomatic_treaty"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_renew_the_obrax_airestonian_trade_agreement }
@@ -1057,7 +1057,7 @@ focus = {
 id = OBX_prioritise_the_people
 x = 13
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_improve_relations"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nano_expansion_plan }
@@ -1083,7 +1083,7 @@ focus = {
 id = OBX_prioritise_the_military
 x = 17
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_strike_at_democracy1"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nano_expansion_plan }
@@ -1109,7 +1109,7 @@ focus = {
 id = OBX_request_airestonian_generals
 x = 29
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_army_doctrines"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_form_the_new_eastern_bloc }
@@ -1135,7 +1135,7 @@ focus = {
 id = OBX_study_airestonian_equipment
 x = 31
 y = 13
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_research"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_form_the_new_eastern_bloc }
@@ -1161,7 +1161,7 @@ focus = {
 id = OBX_mass_evacuations
 x = 12
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_position_armies"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_prioritise_the_people }
@@ -1187,7 +1187,7 @@ focus = {
 id = OBX_nano_housing_plan
 x = 14
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_self_management"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_prioritise_the_people }
@@ -1213,7 +1213,7 @@ focus = {
 id = OBX_mass_equipment_storage_facilities
 x = 16
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_small_arms"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_prioritise_the_military }
@@ -1239,7 +1239,7 @@ focus = {
 id = OBX_build_more_shipyards
 x = 18
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_naval_dockyard"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_prioritise_the_military }
@@ -1265,7 +1265,7 @@ focus = {
 id = OBX_model_factories_after_airestonia
 x = 29
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_airestonian_factories
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_request_airestonian_generals }
@@ -1291,7 +1291,7 @@ focus = {
 id = OBX_buy_airstonian_weapons
 x = 31
 y = 14
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_airestonian_guns
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_study_airestonian_equipment }
@@ -1317,7 +1317,7 @@ focus = {
 id = OBX_decree_of_independence
 x = 15
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_renounce_the_treaty_of_trianon"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_mass_evacuations OR = OBX_mass_equipment_storage_facilities }
@@ -1344,7 +1344,7 @@ focus = {
 id = OBX_stronger_together
 x = 30
 y = 15
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_attack_allies"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_model_factories_after_airestonia }
@@ -1397,7 +1397,7 @@ focus = {
 id = OBX_accelerated_reindustrialisation
 x = 13
 y = 16
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_industry_3"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_decree_of_independence }
@@ -1423,7 +1423,7 @@ focus = {
 id = OBX_fix_the_navy
 x = 20
 y = 16
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_build_navy"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_decree_of_independence }
@@ -1449,7 +1449,7 @@ focus = {
 id = OBX_revamp_the_obraxian_army
 x = 26
 y = 16
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_military_mission"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_decree_of_independence OR = OBX_stronger_together }
@@ -1475,7 +1475,7 @@ focus = {
 id = OBX_two_year_plan
 x = 34
 y = 16
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_treaty"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_stronger_together }
@@ -1501,7 +1501,7 @@ focus = {
 id = OBX_emergency_iron_deficiencies
 x = 1
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_iron_recycling_plant
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_question_of_autarky }
@@ -1527,7 +1527,7 @@ focus = {
 id = OBX_pump_up_cloth_production
 x = 3
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_cloth_production
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_question_of_autarky }
@@ -1553,7 +1553,7 @@ focus = {
 id = OBX_increased_brass_metallurgy_efficiency
 x = 5
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_increased_metallurgy_efficiency
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_question_of_autarky }
@@ -1579,7 +1579,7 @@ focus = {
 id = OBX_striking_void_gold
 x = 7
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_void_metal
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_question_of_autarky }
@@ -1605,7 +1605,7 @@ focus = {
 id = OBX_increase_coal_production
 x = 9
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_coal_mines
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_question_of_autarky }
@@ -1631,7 +1631,7 @@ focus = {
 id = OBX_enforce_60_hour_workweek
 x = 12
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_production2"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_accelerated_reindustrialisation }
@@ -1657,7 +1657,7 @@ focus = {
 id = OBX_build_new_arms_factories
 x = 14
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_mil_factory"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_accelerated_reindustrialisation }
@@ -1683,7 +1683,7 @@ focus = {
 id = OBX_grand_capital_ship_building
 x = 19
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_navy_cruiser"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_fix_the_navy }
@@ -1709,7 +1709,7 @@ focus = {
 id = OBX_dockyard_expansion
 x = 21
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_naval_dockyard"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_fix_the_navy }
@@ -1735,7 +1735,7 @@ focus = {
 id = OBX_build_new_military_schools
 x = 25
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_civilian"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_revamp_the_obraxian_army }
@@ -1761,7 +1761,7 @@ focus = {
 id = OBX_build_more_guns_factories
 x = 27
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_mjuwda_gunworks"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_revamp_the_obraxian_army }
@@ -1787,7 +1787,7 @@ focus = {
 id = OBX_worker_rights_movement
 x = 32
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_por_workers_of_iberia"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_two_year_plan }
@@ -1813,7 +1813,7 @@ focus = {
 id = OBX_northern_logging_factories
 x = 34
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_lax_logging_laws
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_two_year_plan }
@@ -1839,7 +1839,7 @@ focus = {
 id = OBX_farmland_expansion
 x = 36
 y = 17
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_lucrative_plantations"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_two_year_plan }
@@ -1864,7 +1864,7 @@ focus = {
 id = OBX_build_more_iron_mines
 x = 1
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construction2"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_emergency_iron_deficiencies }
@@ -1890,7 +1890,7 @@ focus = {
 id = OBX_grow_more_cotton_plants
 x = 3
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_lucrative_plantations"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_pump_up_cloth_production }
@@ -1916,7 +1916,7 @@ focus = {
 id = OBX_mine_more_copper
 x = 5
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_dig_for_copper
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_increased_brass_metallurgy_efficiency }
@@ -1942,7 +1942,7 @@ focus = {
 id = OBX_strengthen_void_mines
 x = 7
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_reinforce_mines
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_striking_void_gold }
@@ -1968,7 +1968,7 @@ focus = {
 id = OBX_expand_existing_coal_mines
 x = 9
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_natural_wealth
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_increase_coal_production }
@@ -1994,7 +1994,7 @@ focus = {
 id = OBX_leave_no_one_unemployed
 x = 12
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_air_production"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_enforce_60_hour_workweek }
@@ -2020,7 +2020,7 @@ focus = {
 id = OBX_incentivise_weapons_production
 x = 14
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_force_of_arms
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_build_new_arms_factories }
@@ -2046,7 +2046,7 @@ focus = {
 id = OBX_innovate_new_ship_designs
 x = 18
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_navy_doctrines_tactics"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_grand_capital_ship_building }
@@ -2072,7 +2072,7 @@ focus = {
 id = OBX_massive_cannon_factories
 x = 20
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_army_artillery"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_grand_capital_ship_building OR = OBX_dockyard_expansion }
@@ -2098,7 +2098,7 @@ focus = {
 id = OBX_new_dockyard_equipment
 x = 22
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_amphibious_assault"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_dockyard_expansion }
@@ -2124,7 +2124,7 @@ focus = {
 id = OBX_officer_training_centres
 x = 24
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_more_territorial_claims"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_build_new_military_schools }
@@ -2150,7 +2150,7 @@ focus = {
 id = OBX_nano_military_complex
 x = 26
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_gunworks
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_build_new_military_schools OR = OBX_build_more_guns_factories }
@@ -2176,7 +2176,7 @@ focus = {
 id = OBX_reinvent_the_wheel
 x = 28
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_production2"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_build_more_guns_factories }
@@ -2202,7 +2202,7 @@ focus = {
 id = OBX_support_a_fixed_wage
 x = 32
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_hol_abandon_the_gold_standard"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_worker_rights_movement }
@@ -2228,7 +2228,7 @@ focus = {
 id = OBX_construct_more_processing_plants
 x = 34
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_slitting_mills
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_northern_logging_factories }
@@ -2254,7 +2254,7 @@ focus = {
 id = OBX_build_new_grain_mills
 x = 36
 y = 18
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_grain_mills
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_farmland_expansion }
@@ -2279,7 +2279,7 @@ focus = {
 id = OBX_discover_new_iron_deposits
 x = 1
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_steel_factories
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_build_more_iron_mines }
@@ -2305,7 +2305,7 @@ focus = {
 id = OBX_mass_cotton_gin_distribution
 x = 3
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_cotton_gin
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_grow_more_cotton_plants }
@@ -2331,7 +2331,7 @@ focus = {
 id = OBX_build_more_blast_furnaces
 x = 5
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_more_blast_furnaces.psd
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_mine_more_copper }
@@ -2357,7 +2357,7 @@ focus = {
 id = OBX_recruit_more_void_miners
 x = 7
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_curb_mind_affecting_properties
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_strengthen_void_mines }
@@ -2383,7 +2383,7 @@ focus = {
 id = OBX_synthetic_charcoal_production
 x = 9
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_coal_factories
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_expand_existing_coal_mines }
@@ -2409,7 +2409,7 @@ focus = {
 id = OBX_introduce_new_equipments
 x = 12
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_secret_rearmament"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_leave_no_one_unemployed }
@@ -2435,7 +2435,7 @@ focus = {
 id = OBX_implement_mass_consumer_factories_drive
 x = 14
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_civilian"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_incentivise_weapons_production }
@@ -2461,7 +2461,7 @@ focus = {
 id = OBX_mass_marines_training_effort
 x = 17
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_air_defense"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_innovate_new_ship_designs }
@@ -2487,7 +2487,7 @@ focus = {
 id = OBX_naval_training_facilities
 x = 19
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_military_academy"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_innovate_new_ship_designs OR = OBX_massive_cannon_factories }
@@ -2513,7 +2513,7 @@ focus = {
 id = OBX_set_up_government_funded_pirates
 x = 21
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_pay_out_military"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_massive_cannon_factories OR = OBX_new_dockyard_equipment }
@@ -2539,7 +2539,7 @@ focus = {
 id = OBX_joint_land_and_sea_production_centres
 x = 23
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_industry_1"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_new_dockyard_equipment }
@@ -2566,7 +2566,7 @@ focus = {
 id = OBX_raise_pay_for_weapons_designer
 x = 25
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_expand_sword_factories
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nano_military_complex OR = OBX_officer_training_centres }
@@ -2592,7 +2592,7 @@ focus = {
 id = OBX_innovate_artillery_designs
 x = 27
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_army_artillery2"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_nano_military_complex OR = OBX_reinvent_the_wheel }
@@ -2618,7 +2618,7 @@ focus = {
 id = OBX_cavalry_of_the_south
 x = 29
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_focus_on_cavalry"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_reinvent_the_wheel }
@@ -2644,7 +2644,7 @@ focus = {
 id = OBX_allow_unemployed_to_contribute
 x = 32
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_political_pressure"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_support_a_fixed_wage }
@@ -2670,7 +2670,7 @@ focus = {
 id = OBX_promote_metalwork_craftmenship
 x = 34
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = GFX_goal_reuse_iron_tools
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_construct_more_processing_plants }
@@ -2696,7 +2696,7 @@ focus = {
 id = OBX_construct_grain_storage_facilities
 x = 36
 y = 19
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_improved_wheat_production"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_build_new_grain_mills }
@@ -2721,7 +2721,7 @@ focus = {
 id = OBX_workers_of_the_line
 x = 12
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_production"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_introduce_new_equipments }
@@ -2747,7 +2747,7 @@ focus = {
 id = OBX_industrial_hub_of_nano
 x = 14
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_civ_factory"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_implement_mass_consumer_factories_drive }
@@ -2773,7 +2773,7 @@ focus = {
 id = OBX_incorporate_naval_training_exericises
 x = 18
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_special_forces"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_mass_marines_training_effort OR = OBX_naval_training_facilities }
@@ -2799,7 +2799,7 @@ focus = {
 id = OBX_cross_sectional_training
 x = 22
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_air_doctrine"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_joint_land_and_sea_production_centres }
@@ -2826,7 +2826,7 @@ focus = {
 id = OBX_integrated_planning_corp
 x = 24
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_occupy_states_ongoing_war"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_raise_pay_for_weapons_designer }
@@ -2853,7 +2853,7 @@ focus = {
 id = OBX_train_new_mages
 x = 28
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_enhanced_magic"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_innovate_artillery_designs OR = OBX_cavalry_of_the_south }
@@ -2876,10 +2876,10 @@ ai_will_do = {
 }
 
 focus = {
-id = OBX_raise_the_retiring_age
+id = OBX_labourers_young_and_old
 x = 32
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_economic_bubble"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_allow_unemployed_to_contribute }
@@ -2905,7 +2905,7 @@ focus = {
 id = OBX_new_infrastructure_projects
 x = 34
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_goal_generic_construct_infrastructure"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_promote_metalwork_craftmenship }
@@ -2931,7 +2931,7 @@ focus = {
 id = OBX_new_farming_equipment
 x = 36
 y = 20
-icon = GFX_goal_generic_demand_territory
+icon = "GFX_focus_generic_diplomatic_treaty"
 #relative_position_id = AST_empower_the_workers
  
 prerequisite = { focus = OBX_construct_grain_storage_facilities }

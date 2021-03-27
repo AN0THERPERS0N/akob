@@ -1,5 +1,28 @@
 spriteTypes = {	
 
+#obrax
+
+SpriteType = {
+        name = GFX_goal_airestonian_factories
+        texturefile = gfx/interface/goals/goal_airestonian_factories.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_airestonian_guns
+        texturefile = gfx/interface/goals/goal_airestonian_guns.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_cloth_production
+        texturefile = gfx/interface/goals/goal_cloth_production.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_coal_mines
+        texturefile = gfx/interface/goals/goal_coal_mines.dds                        
+        }
+SpriteType = {
+        name = GFX_goal_cotton_gin
+        texturefile = gfx/interface/goals/goal_cotton_gin.dds                        
+        }
+
 #Loyalist Icrusia
 
 SpriteType = {
