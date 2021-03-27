@@ -24,6 +24,18 @@ corruption = {
 	}
 }
 
+martyrdom = {
+	priority = 15
+	icon = generic_propaganda
+
+	allowed = {
+		tag = DCR
+	}
+	visible = {
+
+	}
+}
+
 #vanilla
 propaganda_efforts = {
 	icon = generic_propaganda

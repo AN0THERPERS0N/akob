@@ -1,6 +1,7 @@
 ideas = {
 
 	country = {
+
 		not_a_country = {
 			picture = not_a_country
 			
