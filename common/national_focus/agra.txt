@@ -28,7 +28,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AST_workers_paradise }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -54,7 +54,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_political_crisis }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -80,7 +80,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_political_crisis }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -106,7 +106,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_dispatch_the_agran_guards OR = AGR_ready_the_army }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -132,9 +132,10 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_make_a_decision }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = { focus = AGR_do_nothing }
+		mutually_exclusive = { focus = AGR_quell_the_revolts }
 		 
 		available = {
 		}
@@ -158,9 +159,10 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_make_a_decision }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = { focus = AGR_do_nothing }
+		mutually_exclusive = { focus = AGR_down_with_the_bourgeois }
 		 
 		available = {
 		}
@@ -184,7 +186,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_down_with_the_bourgeois }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -210,7 +212,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_down_with_the_bourgeois }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -236,7 +238,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_down_with_the_bourgeois }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -262,7 +264,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_down_with_the_bourgeois }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -288,7 +290,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_down_with_the_bourgeois }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -314,7 +316,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_down_with_the_bourgeois }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -336,13 +338,14 @@ focus_tree = {
 		focus = {
 		id = AGR_do_nothing
 		x = 27
-		y = 5
+		y = 4
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_make_a_decision }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = { focus = AGR_down_with_the_bourgeois }
+		mutually_exclusive = { focus = AGR_quell_the_revolts }
 		 
 		available = {
 		}
@@ -366,7 +369,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_quell_the_revolts }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -392,7 +395,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_quell_the_revolts }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -418,7 +421,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_quell_the_revolts }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -444,7 +447,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_quell_the_revolts }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -470,7 +473,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_quell_the_revolts }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -496,7 +499,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_quell_the_revolts }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -522,7 +525,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_empower_to_peasant_leaders OR = AGR_fill_up_grain_stores }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -548,7 +551,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_fill_up_grain_stores OR = AGR_arm_the_peasants }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -568,13 +571,13 @@ focus_tree = {
 		} 
 		 
 		focus = {
-		id = AGR_hand_out_nolbe_lands
+		id = AGR_hand_out_noble_lands
 		x = 21
 		y = 6
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_backstab_the_nobles OR = AGR_break_down_castle_walls }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -600,7 +603,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_murder_prominent_nobles OR = AGR_break_down_castle_walls }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -626,7 +629,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_imprison_leaders_of_the_revolt OR = AGR_starve_the_peasants }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -652,7 +655,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_imprison_leaders_of_the_revolt OR = AGR_bloody_friday }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -678,7 +681,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_alorith_declaration OR = AGR_evacuate_noble_families }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -704,7 +707,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_protect_the_castles OR = AGR_alorith_declaration }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -730,7 +733,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_teach_peasants_how_to_make_guns OR = AGR_spread_the_word }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -756,7 +759,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_share_noble_riches OR = AGR_hand_out_noble_lands }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -782,7 +785,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_torture_captured_dissenters OR = AGR_burn_the_houses }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -808,7 +811,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_seize_all_the_cattle OR = AGR_bolster_the_mayor_guards }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -834,7 +837,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_people_of_agra }
+		prerequisite = { focus = AGR_cleansed_of_filthy_pigs }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -860,7 +864,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_burn_towns_to_the_ground }
+		prerequisite = { focus = AGR_send_a_message }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -886,7 +891,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_false_ideology_with_false_gods OR = AGR_do_nothing OR = AGR_dreams_of_a_communist_utopia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -912,9 +917,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_peace_and_prosperity }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = { focus = AGR_take_advantage_of_the_situation }
 		 
 		available = {
 		}
@@ -938,9 +943,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_peace_and_prosperity }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = { focus = AGR_stick_with_icrusia }
 		 
 		available = {
 		}
@@ -964,9 +969,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_stick_with_icrusia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = {focus = AGR_operation_falling_domino }
 		 
 		available = {
 		}
@@ -990,9 +995,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_stick_with_icrusia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = { focus = AGR_one_way_to_rule_them_all }
 		 
 		available = {
 		}
@@ -1016,7 +1021,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_take_advantage_of_the_situation }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1042,7 +1047,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_one_way_to_rule_them_all }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1068,7 +1073,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_one_way_to_rule_them_all }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1094,7 +1099,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_operation_falling_domino }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1120,7 +1125,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_operation_falling_domino }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1146,7 +1151,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_establish_the_socialist_union_of_agra }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1172,7 +1177,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_establish_the_socialist_union_of_agra }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1198,7 +1203,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_rebuilding_agra_plan }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1224,7 +1229,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_rebuilding_agra_plan }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1250,7 +1255,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_rebuilding_agra_plan }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1276,7 +1281,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_local_policies }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1302,7 +1307,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_local_policies }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1328,7 +1333,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_agran_worker_revolution }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1354,7 +1359,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_agran_worker_revolution }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1380,7 +1385,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_agran_worker_revolution }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1406,7 +1411,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_agran_worker_revolution }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1432,7 +1437,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_for_the_people }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1458,7 +1463,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_for_the_people }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1484,7 +1489,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_industrialise_on_our_own }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1510,7 +1515,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_industrialise_on_our_own }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1536,7 +1541,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_sole_communist_power }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1562,7 +1567,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_sole_communist_power }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1588,7 +1593,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_sole_communist_power }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1614,7 +1619,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_request_machinery_from_icrusia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1640,7 +1645,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_new_factories_in_alorith }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1666,7 +1671,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_grow_more_crops }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1692,7 +1697,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_reprisals_for_disobediance }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1718,7 +1723,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_reprisals_for_disobediance }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1744,7 +1749,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_reprisals_for_disobediance }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1770,7 +1775,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_reprisals_for_disobediance }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1796,7 +1801,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_reward_the_faithful }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1822,7 +1827,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_reward_the_faithful }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1848,7 +1853,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_ingron_industry }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1874,7 +1879,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_enforce_wages_for_workers }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1900,7 +1905,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_aciocia_farmlands }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1926,7 +1931,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_free_noble_slaves }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1952,7 +1957,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_threats_to_our_safety }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -1978,7 +1983,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_compensating_for_the_past }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2004,7 +2009,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_compensating_for_the_past }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2030,7 +2035,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_industrialise_the_inebury_region }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2056,7 +2061,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_industrialise_the_inebury_region }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2082,7 +2087,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_grow_the_greater_alorith_region }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2108,7 +2113,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_grow_the_greater_alorith_region }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2134,7 +2139,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_set_up_communist_agencies }
+		prerequisite = { focus = AGR_mass_produce_manifestos }
+		prerequisite = { focus = AGR_convene_the_great_communist_thinkers }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2160,7 +2167,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_upskill_local_forces }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2186,7 +2193,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_industrialise_the_villages }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2212,7 +2219,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_give_out_more_land_to_the_nobles }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2238,7 +2245,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_torture_chambers_of_aeglin OR = AGR_public_hangings }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2264,7 +2271,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_mass_deportations OR = AGR_public_hangings }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2290,7 +2297,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_national_privacy_decree OR = AGR_mass_deportations }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2316,7 +2323,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_expand_the_emperor_court }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2342,7 +2349,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_new_noble_benefits }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2368,7 +2375,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_greater_alorith_reindustrialisation }
+		prerequisite = { focus = AGR_revolutionary_industrial_equipment }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2394,7 +2402,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_cure_the_inebury_plague }
+		prerequisite = { focus = AGR_seize_nobility_farmlands }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2420,7 +2429,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_mass_land_seizures }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2446,7 +2455,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_compensating_for_the_past }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2472,7 +2481,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_compensating_for_the_past }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2498,7 +2507,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_build_up_nereiton OR = AGR_caera_industrial_complex }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2524,7 +2533,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_nautigia_armament_works OR = AGR_tsulin_military_factories }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2550,7 +2559,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_on_the_road_of_world_revolution }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2576,7 +2585,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_on_the_road_of_world_revolution }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2602,7 +2611,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_up_to_date_technologies }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2628,7 +2637,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_force_more_farmers_into_the_city }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2654,7 +2663,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_create_more_slave_plantations }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2680,7 +2689,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_northern_prisons OR = AGR_reducation_facilities }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2706,7 +2715,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_northern_prisons OR = AGR_new_spies_within_our_lands }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2732,7 +2741,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_promote_noble_generals }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2758,7 +2767,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_heavier_segregation }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2784,7 +2793,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_mass_industrial_effort }
+		prerequisite = { focus = AGR_no_country_without_food }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2810,7 +2820,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_deport_rich_peasants }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2836,7 +2846,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_compensating_for_the_past }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2856,13 +2866,13 @@ focus_tree = {
 		} 
 		 
 		focus = {
-		id = AGR_silence_secret_societies
+		id = AGR_silence_elite_societies
 		x = 35
 		y = 16
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_compensating_for_the_past }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2888,7 +2898,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_massive_factory_expansion_in_aeglin }
+		prerequisite = { focus = AGR_prioritise_rebuilding_alorith }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2914,7 +2925,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_communist_infiltrators }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2940,7 +2951,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_communist_infiltrators }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2966,7 +2977,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_instant_revolution }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -2992,7 +3003,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_instant_revolution }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3017,7 +3028,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_agra_into_the_future }
+		prerequisite = { focus = AGR_lock_the_royal_family_away }
+		prerequisite = { focus = AGR_melt_noble_gold OR = AGR_silence_elite_societies }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3043,7 +3056,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_connect_the_heart_of_agra }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3069,7 +3082,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_connect_the_heart_of_agra }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3095,7 +3108,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_infiltrate_airestonia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3121,7 +3134,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_infiltrate_gozyr }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3147,7 +3160,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_give_out_free_manifestos }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3167,13 +3180,13 @@ focus_tree = {
 		} 
 		 
 		focus = {
-		id = AGR_bomb_governmental_statues
+		id = AGR_tear_down_governmental_statues
 		x = 53
 		y = 17
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_strike_down_law_and_authority }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3198,7 +3211,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_great_agran_revival }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3224,7 +3237,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_great_agran_revival }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3250,7 +3263,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_build_up_the_countryside }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3276,7 +3289,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_build_up_the_countryside }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3302,7 +3315,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_build_up_the_desert }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3322,13 +3335,13 @@ focus_tree = {
 		} 
 		 
 		focus = {
-		id = AGR_processing_plants_in_themiddle_of_nowhere
+		id = AGR_processing_plants_in_the_middle_of_nowhere
 		x = 44
 		y = 18
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_build_up_the_desert }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3354,7 +3367,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_infiltrate_icrusia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3380,7 +3393,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_infiltrate_echainaia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3406,7 +3419,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_provide_free_quality_education }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3432,7 +3445,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_tear_down_governmental_statues }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3457,7 +3470,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_look_towards_our_captors }
+		prerequisite = { focus = AGR_new_communist_dream }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3483,7 +3497,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_voltune_canals }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3509,7 +3523,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_build_new_collective_farms }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3535,7 +3549,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_leviareth_coal_mines }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3561,7 +3575,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_processing_plants_in_the_middle_of_nowhere }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3587,7 +3601,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_infiltrate_obrax }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3612,8 +3626,8 @@ focus_tree = {
 		y = 19
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
-		 
-		#prerequisite = { focus = AST_workers_paradise }
+		
+		prerequisite = { focus = AGR_infiltrate_ilidea_and_litteveria }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3639,7 +3653,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_sympathise_with_local_farmers }
+		prerequisite = { focus = AGR_incite_worker_strikes }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3665,9 +3680,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_bring_icrusia_into_the_light }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = { focus = AGR_direct_influence }
 		 
 		available = {
 		}
@@ -3691,9 +3706,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_bring_icrusia_into_the_light }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = { focus = AGR_passive_influence }
 		 
 		available = {
 		}
@@ -3717,7 +3732,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_new_equipment_for_the_bread_basket OR = AGR_grain_mills_in_the_farms }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3743,7 +3758,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_digging_for_black_gold OR = AGR_research_centres_of_the_south }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3769,7 +3784,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_infiltrate_theberia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3795,7 +3810,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_infiltrate_trubia }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3821,7 +3836,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_passive_influence }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3847,7 +3862,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_passive_influence }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3873,7 +3888,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_passive_influence }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3899,7 +3914,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_direct_influence }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3925,7 +3940,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_direct_influence }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3945,13 +3960,13 @@ focus_tree = {
 		} 
 		 
 		focus = {
-		id = AGR_host_riots_in_the-streets
+		id = AGR_host_riots_in_the_streets
 		x = 35
 		y = 21
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_direct_influence }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -3977,7 +3992,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_connect_the_countryside }
+		prerequisite = { focus = AGR_connect_the_desert }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4003,7 +4019,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_infiltrate_arbiter_states }
+		prerequisite = { focus = AGR_infiltrate_efror }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4029,7 +4046,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_red_parades }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4055,7 +4072,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_red_parades OR = AGR_hand_out_communist_manifestos }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4081,7 +4098,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_fund_icrusian_communists OR = AGR_hand_out_communist_manifestos }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4107,33 +4124,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
-		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		 
-		available = {
-		}
-		bypass = {
-		}
-		cost = 10
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		completion_reward = {
-		add_political_power = 100
-		}
-		ai_will_do = {
-		}
-		} 
-		 
-		focus = {
-		id = AGR_silence_anti_communist_officials
-		x = 31
-		y = 22
-		icon = GFX_goal_generic_demand_territory
-		#relative_position_id = AST_empower_the_workers
-		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_fund_icrusian_communists }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4154,12 +4145,12 @@ focus_tree = {
 		 
 		focus = {
 		id = AGR_destroy_key_capitol_buildings
-		x = 33
+		x = 32
 		y = 22
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_terrorist_attacks_in_icrusia_city OR = AGR_silence_anti_communist_officials }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4185,7 +4176,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_host_riots_in_the_streets }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4211,7 +4202,10 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_secret_communist_education_centres }
+		prerequisite = { focus = AGR_speeches_of_great_revolution }
+		prerequisite = { focus = AGR_arm_the_new_icrusian_militia }
+		prerequisite = { focus = AGR_grow_the_communist_underground }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
@@ -4237,7 +4231,8 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#prerequisite = { focus = AST_workers_paradise }
+		prerequisite = { focus = AGR_start_large_scale_strikes }
+		prerequisite = { focus = AGR_destroy_key_capitol_buildings }
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 
