@@ -1,5 +1,28 @@
 spriteTypes = {	
 
+#agra
+
+SpriteType = {
+	name = GFX_goal_alliance_with_icrusia
+	texturefile = gfx/interface/goals/goal_alliance_with_icrusia.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_communist_infiltrators
+	texturefile = gfx/interface/goals/goal_communist_infiltrators.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_icrusian_factories
+	texturefile = gfx/interface/goals/goal_icrusian_factories.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_plains
+	texturefile = gfx/interface/goals/goal_plains.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_seize_cattle
+	texturefile = gfx/interface/goals/goal_seize_cattle.dds                        
+	}
+
 #obrax
 
 SpriteType = {

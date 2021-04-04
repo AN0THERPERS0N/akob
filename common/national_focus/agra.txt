@@ -704,7 +704,7 @@ focus_tree = {
 		id = AGR_seize_all_the_cattle
 		x = 39
 		y = 6
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_seize_cattle
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_protect_the_castles OR = AGR_alorith_declaration }
@@ -914,7 +914,7 @@ focus_tree = {
 		id = AGR_stick_with_icrusia
 		x = 18
 		y = 10
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_alliance_with_icrusia
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_peace_and_prosperity }
@@ -940,7 +940,7 @@ focus_tree = {
 		id = AGR_take_advantage_of_the_situation
 		x = 45
 		y = 10
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_demand_sudetenland"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_peace_and_prosperity }
@@ -992,7 +992,7 @@ focus_tree = {
 		id = AGR_operation_falling_domino
 		x = 29
 		y = 11
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_demand_sudetenland"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_stick_with_icrusia }
@@ -1018,7 +1018,7 @@ focus_tree = {
 		id = AGR_establish_the_socialist_union_of_agra
 		x = 45
 		y = 11
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_dangerous_deal"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_take_advantage_of_the_situation }
@@ -1122,7 +1122,7 @@ focus_tree = {
 		id = AGR_for_the_people
 		x = 33
 		y = 12
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_dangerous_deal"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_operation_falling_domino }
@@ -1148,7 +1148,7 @@ focus_tree = {
 		id = AGR_industrialise_on_our_own
 		x = 41
 		y = 12
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_rebuild_agra
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_establish_the_socialist_union_of_agra }
@@ -1174,7 +1174,7 @@ focus_tree = {
 		id = AGR_sole_communist_power
 		x = 50
 		y = 12
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_war_with_comintern"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_establish_the_socialist_union_of_agra }
@@ -1200,7 +1200,7 @@ focus_tree = {
 		id = AGR_request_machinery_from_icrusia
 		x = 1
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_icrusian_factories
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_rebuilding_agra_plan }
@@ -1330,7 +1330,7 @@ focus_tree = {
 		id = AGR_ingron_industry
 		x = 22
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_industry_1"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_agran_worker_revolution }
@@ -1356,7 +1356,7 @@ focus_tree = {
 		id = AGR_enforce_wages_for_workers
 		x = 24
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_soviet_politics"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_agran_worker_revolution }
@@ -1382,7 +1382,7 @@ focus_tree = {
 		id = AGR_aciocia_farmlands
 		x = 26
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_grow_wheat_farm"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_agran_worker_revolution }
@@ -1408,7 +1408,7 @@ focus_tree = {
 		id = AGR_free_noble_slaves
 		x = 28
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_alliance"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_agran_worker_revolution }
@@ -1434,7 +1434,7 @@ focus_tree = {
 		id = AGR_threats_to_our_safety
 		x = 31
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_more_territorial_claims"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_for_the_people }
@@ -1460,7 +1460,7 @@ focus_tree = {
 		id = AGR_compensating_for_the_past
 		x = 34
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_territory_or_war"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_for_the_people }
@@ -1486,7 +1486,7 @@ focus_tree = {
 		id = AGR_industrialise_the_inebury_region
 		x = 39
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_construct_civilian"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_industrialise_on_our_own }
@@ -1512,7 +1512,7 @@ focus_tree = {
 		id = AGR_grow_the_greater_alorith_region
 		x = 43
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_slitting_mills
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_industrialise_on_our_own }
@@ -1538,7 +1538,7 @@ focus_tree = {
 		id = AGR_set_up_communist_agencies
 		x = 48
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_soviet_politics"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_sole_communist_power }
@@ -1564,7 +1564,7 @@ focus_tree = {
 		id = AGR_mass_produce_manifestos
 		x = 50
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_forceful_treaty"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_sole_communist_power }
@@ -1590,7 +1590,7 @@ focus_tree = {
 		id = AGR_convene_the_great_communist_thinkers
 		x = 52
 		y = 13
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_tripartite_pact"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_sole_communist_power }
@@ -1694,7 +1694,7 @@ focus_tree = {
 		id = AGR_torture_chambers_of_aeglin
 		x = 8
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_secret_weapon"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_reprisals_for_disobediance }
@@ -1850,7 +1850,7 @@ focus_tree = {
 		id = AGR_greater_alorith_reindustrialisation
 		x = 22
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_industry_3"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_ingron_industry }
@@ -1876,7 +1876,7 @@ focus_tree = {
 		id = AGR_revolutionary_industrial_equipment
 		x = 24
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_air_production"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_enforce_wages_for_workers }
@@ -1902,7 +1902,7 @@ focus_tree = {
 		id = AGR_cure_the_inebury_plague
 		x = 26
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_survivability"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_aciocia_farmlands }
@@ -1928,7 +1928,7 @@ focus_tree = {
 		id = AGR_seize_nobility_farmlands
 		x = 28
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_natural_magic"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_free_noble_slaves }
@@ -1954,7 +1954,7 @@ focus_tree = {
 		id = AGR_mass_land_seizures
 		x = 31
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_political_pressure"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_threats_to_our_safety }
@@ -1980,7 +1980,7 @@ focus_tree = {
 		id = AGR_hand_out_the_treasury
 		x = 33
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_increase_military_pay"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_compensating_for_the_past }
@@ -2006,7 +2006,7 @@ focus_tree = {
 		id = AGR_replace_noble_officers
 		x = 35
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_military_mission"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_compensating_for_the_past }
@@ -2032,7 +2032,7 @@ focus_tree = {
 		id = AGR_build_up_nereiton
 		x = 38
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_construct_civ_factory"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_industrialise_the_inebury_region }
@@ -2058,7 +2058,7 @@ focus_tree = {
 		id = AGR_caera_industrial_complex
 		x = 40
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_construct_civ_factory"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_industrialise_the_inebury_region }
@@ -2084,7 +2084,7 @@ focus_tree = {
 		id = AGR_tsulin_military_factories
 		x = 42
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_construct_mil_factory"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_grow_the_greater_alorith_region }
@@ -2110,7 +2110,7 @@ focus_tree = {
 		id = AGR_nautigia_armament_works
 		x = 44
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_construct_mil_factory"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_grow_the_greater_alorith_region }
@@ -2136,7 +2136,7 @@ focus_tree = {
 		id = AGR_on_the_road_of_world_revolution
 		x = 50
 		y = 14
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_join_comintern"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_set_up_communist_agencies }
@@ -2372,7 +2372,7 @@ focus_tree = {
 		id = AGR_mass_industrial_effort
 		x = 23
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_slitting_mills
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_greater_alorith_reindustrialisation }
@@ -2399,7 +2399,7 @@ focus_tree = {
 		id = AGR_no_country_without_food
 		x = 27
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_lucrative_plantations"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_cure_the_inebury_plague }
@@ -2426,7 +2426,7 @@ focus_tree = {
 		id = AGR_deport_rich_peasants
 		x = 31
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_strike_at_democracy2"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_mass_land_seizures }
@@ -2452,7 +2452,7 @@ focus_tree = {
 		id = AGR_sell_royal_jewellery
 		x = 33
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_rom_abdicate"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_compensating_for_the_past }
@@ -2478,7 +2478,7 @@ focus_tree = {
 		id = AGR_murder_regional_officials
 		x = 35
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_arrest_without_trial"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_compensating_for_the_past }
@@ -2504,7 +2504,7 @@ focus_tree = {
 		id = AGR_massive_factory_expansion_in_aeglin
 		x = 39
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_industry_2"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_build_up_nereiton OR = AGR_caera_industrial_complex }
@@ -2530,7 +2530,7 @@ focus_tree = {
 		id = AGR_prioritise_rebuilding_alorith
 		x = 43
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_economic_bubble"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_nautigia_armament_works OR = AGR_tsulin_military_factories }
@@ -2556,7 +2556,7 @@ focus_tree = {
 		id = AGR_communist_infiltrators
 		x = 48
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_communist_infiltrators
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_on_the_road_of_world_revolution }
@@ -2582,7 +2582,7 @@ focus_tree = {
 		id = AGR_instant_revolution
 		x = 52
 		y = 15
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_occupy_states_ongoing_war"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_on_the_road_of_world_revolution }
@@ -2790,7 +2790,7 @@ focus_tree = {
 		id = AGR_agra_into_the_future
 		x = 25
 		y = 16
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_war_with_comintern"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_mass_industrial_effort }
@@ -2817,7 +2817,7 @@ focus_tree = {
 		id = AGR_lock_the_royal_family_away
 		x = 31
 		y = 16
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_prison"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_deport_rich_peasants }
@@ -2843,7 +2843,7 @@ focus_tree = {
 		id = AGR_melt_noble_gold
 		x = 33
 		y = 16
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_usa_reestablish_the_gold_standard"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_compensating_for_the_past }
@@ -2869,7 +2869,7 @@ focus_tree = {
 		id = AGR_silence_elite_societies
 		x = 35
 		y = 16
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_CAS"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_compensating_for_the_past }
@@ -2895,7 +2895,7 @@ focus_tree = {
 		id = AGR_connect_the_heart_of_agra
 		x = 41
 		y = 16
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_improved_infrastructure"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_massive_factory_expansion_in_aeglin }
@@ -2922,7 +2922,7 @@ focus_tree = {
 		id = AGR_infiltrate_airestonia
 		x = 47
 		y = 16
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_influence_airestonia"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_communist_infiltrators }
@@ -2974,7 +2974,7 @@ focus_tree = {
 		id = AGR_give_out_free_manifestos
 		x = 51
 		y = 16
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_newspaper
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_instant_revolution }
@@ -3000,7 +3000,7 @@ focus_tree = {
 		id = AGR_strike_down_law_and_authority
 		x = 53
 		y = 16
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_strike_at_democracy1"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_instant_revolution }
@@ -3053,7 +3053,7 @@ focus_tree = {
 		id = AGR_build_up_the_countryside
 		x = 39
 		y = 17
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_plains
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_connect_the_heart_of_agra }
@@ -3079,7 +3079,7 @@ focus_tree = {
 		id = AGR_build_up_the_desert
 		x = 43
 		y = 17
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_invest_in_south"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_connect_the_heart_of_agra }
@@ -3105,7 +3105,7 @@ focus_tree = {
 		id = AGR_infiltrate_icrusia
 		x = 47
 		y = 17
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_influence_icrusia"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_infiltrate_airestonia }
@@ -3131,7 +3131,7 @@ focus_tree = {
 		id = AGR_infiltrate_echainaia
 		x = 49
 		y = 17
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_influence_echainaian"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_infiltrate_gozyr }
@@ -3157,7 +3157,7 @@ focus_tree = {
 		id = AGR_provide_free_quality_education
 		x = 51
 		y = 17
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_research"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_give_out_free_manifestos }
@@ -3183,7 +3183,7 @@ focus_tree = {
 		id = AGR_tear_down_governmental_statues
 		x = 53
 		y = 17
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_city_of_angel"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_strike_down_law_and_authority }
@@ -3208,7 +3208,7 @@ focus_tree = {
 		id = AGR_look_towards_our_captors
 		x = 28
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_gunworks
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_great_agran_revival }
@@ -3234,7 +3234,7 @@ focus_tree = {
 		id = AGR_new_communist_dream
 		x = 30
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_support_communism"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_great_agran_revival }
@@ -3260,7 +3260,7 @@ focus_tree = {
 		id = AGR_voltune_canals
 		x = 38
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_construction2"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_build_up_the_countryside }
@@ -3286,7 +3286,7 @@ focus_tree = {
 		id = AGR_build_new_collective_farms
 		x = 40
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_improved_wheat_production"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_build_up_the_countryside }
@@ -3312,7 +3312,7 @@ focus_tree = {
 		id = AGR_leviareth_coal_mines
 		x = 42
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_natural_wealth
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_build_up_the_desert }
@@ -3338,7 +3338,7 @@ focus_tree = {
 		id = AGR_processing_plants_in_the_middle_of_nowhere
 		x = 44
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_more_blast_furnaces.psd
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_build_up_the_desert }
@@ -3390,7 +3390,7 @@ focus_tree = {
 		id = AGR_infiltrate_ilidea_and_litteveria
 		x = 49
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_influence_ilidea"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_infiltrate_echainaia }
@@ -3416,7 +3416,7 @@ focus_tree = {
 		id = AGR_sympathise_with_local_farmers
 		x = 51
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_concessions"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_provide_free_quality_education }
@@ -3442,7 +3442,7 @@ focus_tree = {
 		id = AGR_incite_worker_strikes
 		x = 53
 		y = 18
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_eng_concessions_to_the_trade_unions"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_tear_down_governmental_statues }
@@ -3467,7 +3467,7 @@ focus_tree = {
 		id = AGR_bring_icrusia_into_the_light
 		x = 29
 		y = 19
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_war_with_icrusia
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_look_towards_our_captors }
@@ -3494,7 +3494,7 @@ focus_tree = {
 		id = AGR_grain_mills_in_the_farms
 		x = 38
 		y = 19
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_grain_mills
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_voltune_canals }
@@ -3520,7 +3520,7 @@ focus_tree = {
 		id = AGR_new_equipment_for_the_bread_basket
 		x = 40
 		y = 19
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_production2"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_build_new_collective_farms }
@@ -3546,7 +3546,7 @@ focus_tree = {
 		id = AGR_digging_for_black_gold
 		x = 42
 		y = 19
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_coal_mines
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_leviareth_coal_mines }
@@ -3572,7 +3572,7 @@ focus_tree = {
 		id = AGR_research_centres_of_the_south
 		x = 44
 		y = 19
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_research2"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_processing_plants_in_the_middle_of_nowhere }
@@ -3624,7 +3624,7 @@ focus_tree = {
 		id = AGR_infiltrate_trubia
 		x = 49
 		y = 19
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_influence_trubia"
 		#relative_position_id = AST_empower_the_workers
 		
 		prerequisite = { focus = AGR_infiltrate_ilidea_and_litteveria }
@@ -3650,7 +3650,7 @@ focus_tree = {
 		id = AGR_give_them_a_taste_of_freedom
 		x = 52
 		y = 19
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_strike_at_democracy2"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_sympathise_with_local_farmers }
@@ -3677,7 +3677,7 @@ focus_tree = {
 		id = AGR_passive_influence
 		x = 25
 		y = 20
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_tfv_burn_the_royal_portraits"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_bring_icrusia_into_the_light }
@@ -3703,7 +3703,7 @@ focus_tree = {
 		id = AGR_direct_influence
 		x = 33
 		y = 20
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_attack_allies"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_bring_icrusia_into_the_light }
@@ -3729,7 +3729,7 @@ focus_tree = {
 		id = AGR_connect_the_countryside
 		x = 39
 		y = 20
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_national_unity"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_new_equipment_for_the_bread_basket OR = AGR_grain_mills_in_the_farms }
@@ -3755,7 +3755,7 @@ focus_tree = {
 		id = AGR_connect_the_desert
 		x = 43
 		y = 20
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_major_alliance"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_digging_for_black_gold OR = AGR_research_centres_of_the_south }
@@ -3833,7 +3833,7 @@ focus_tree = {
 		id = AGR_red_parades
 		x = 23
 		y = 21
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_prc_agrarian_socialism"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_passive_influence }
@@ -3859,7 +3859,7 @@ focus_tree = {
 		id = AGR_hand_out_communist_manifestos
 		x = 25
 		y = 21
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_forceful_treaty"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_passive_influence }
@@ -3885,7 +3885,7 @@ focus_tree = {
 		id = AGR_fund_icrusian_communists
 		x = 27
 		y = 21
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_force_of_arms
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_passive_influence }
@@ -3911,7 +3911,7 @@ focus_tree = {
 		id = AGR_silence_anti_communist_officials
 		x = 31
 		y = 21
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_major_war"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_direct_influence }
@@ -3937,7 +3937,7 @@ focus_tree = {
 		id = AGR_terrorist_attacks_in_icrusia_city
 		x = 33
 		y = 21
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_understand_void_strength
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_direct_influence }
@@ -3963,7 +3963,7 @@ focus_tree = {
 		id = AGR_host_riots_in_the_streets
 		x = 35
 		y = 21
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_propaganda"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_direct_influence }
@@ -3989,7 +3989,7 @@ focus_tree = {
 		id = AGR_trans_agra_road
 		x = 41
 		y = 21
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_ring_road"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_connect_the_countryside }
@@ -4043,7 +4043,7 @@ focus_tree = {
 		id = AGR_secret_communist_education_centres
 		x = 22
 		y = 22
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_socialist_science"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_red_parades }
@@ -4069,7 +4069,7 @@ focus_tree = {
 		id = AGR_speeches_of_great_revolution
 		x = 24
 		y = 22
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_generic_propaganda"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_red_parades OR = AGR_hand_out_communist_manifestos }
@@ -4095,7 +4095,7 @@ focus_tree = {
 		id = AGR_arm_the_new_icrusian_militia
 		x = 26
 		y = 22
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_little_entente"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_fund_icrusian_communists OR = AGR_hand_out_communist_manifestos }
@@ -4121,7 +4121,7 @@ focus_tree = {
 		id = AGR_grow_the_communist_underground
 		x = 28
 		y = 22
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_goal_tripartite_pact"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_fund_icrusian_communists }
@@ -4147,7 +4147,7 @@ focus_tree = {
 		id = AGR_destroy_key_capitol_buildings
 		x = 32
 		y = 22
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_strike_at_democracy1"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_terrorist_attacks_in_icrusia_city OR = AGR_silence_anti_communist_officials }
@@ -4173,7 +4173,7 @@ focus_tree = {
 		id = AGR_start_large_scale_strikes
 		x = 35
 		y = 22
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_expand_sword_factories
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_host_riots_in_the_streets }
@@ -4199,7 +4199,7 @@ focus_tree = {
 		id = AGR_peaceful_takeover
 		x = 25
 		y = 23
-		icon = GFX_goal_generic_demand_territory
+		icon = "GFX_focus_generic_support_the_left_right"
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_secret_communist_education_centres }
@@ -4228,7 +4228,7 @@ focus_tree = {
 		id = AGR_ignite_the_icrusian_great_war
 		x = 33
 		y = 23
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_war_with_icrusia
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = AGR_start_large_scale_strikes }
