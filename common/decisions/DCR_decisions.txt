@@ -69,3 +69,61 @@ martyrdom = {
         }
     }
 }
+
+freeze = {
+    enable_freeze = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 1
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 10
+
+        complete_effect = {   
+            ARS = { add_ideas = frozen }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    disable_freeze = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 1
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 10
+
+        complete_effect = {   
+            ARS = { remove_ideas = frozen }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

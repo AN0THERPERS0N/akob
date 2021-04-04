@@ -31,6 +31,35 @@ ideas = {
 				can_not_declare_war = yes
 			}
 		}
+
+		frozen = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = -10
+				army_org = -100
+				supply_consumption_factor = 100000
+			}
+			
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		
+		}
 		
 	}
 	

@@ -24,5 +24,4 @@ state={
 		360 555 1015 1330 1416 1614 1671 
 	}
 	manpower=1449750
-	add_extra_state_shared_building_slots = 3
 }
