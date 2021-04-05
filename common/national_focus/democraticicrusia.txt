@@ -1,0 +1,78 @@
+focus_tree = {
+	id = democraticicrusian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DCR
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = AST
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 3000 }
+
+focus = {
+id = DCR_anarchy
+x = 13
+y = 1
+icon = GFX_goal_war_with_icrusia
+#relative_position_id = AST_empower_the_workers
+#prerequisite = { focus = AST_workers_paradise }
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 1
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+	every_state = {
+		limit = {
+			NOT = { is_capital = yes }
+		}
+		ANC = { transfer_state = PREV }
+	}
+	every_country = {
+		limit = {
+			is_in_faction = yes
+		}
+		leave_faction = yes
+	}
+	every_country = {
+		limit = {
+			is_puppet = yes
+		}
+		FROM = {
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_free
+			}
+		}
+	}
+	every_country = {
+		every_other_country = {
+			limit = {
+				NOT = { has_war_with = PREV }
+			}
+			declare_war_on = { target = PREV type = annex_everything }
+	}
+}
+}
+ai_will_do = {
+}
+}
+
+}		

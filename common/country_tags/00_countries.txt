@@ -10,6 +10,9 @@ ECH = "countries/Echainaian.txt"
 GOZ = "countries/Gozyr.txt"
 THB = "countries/Theberia.txt"
 OBX = "countries/Obrax.txt"
+
+#non countries
+ANC = "countries/Anarchy.txt"
 WSL = "countries/Wasteland.txt"
 CRP = "countries/Corruption.txt"
 
