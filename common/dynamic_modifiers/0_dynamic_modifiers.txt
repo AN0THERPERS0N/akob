@@ -73,3 +73,20 @@ martyrdom_modifier = {
 	army_org_regain = var:DCR.dcr_martyrdom
 	army_speed_factor = var:DCR.dcr_martyrdom
 }
+
+wealth_modifier = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+
+	army_org_factor = var:DCR.dcr_value_1
+	breakthrough_factor = var:DCR.dcr_value_1
+	army_attack_factor = var:DCR.dcr_value_1
+	army_defence_factor = var:DCR.dcr_value_1
+	army_org_regain = var:DCR.dcr_value_1
+	army_speed_factor = var:DCR.dcr_value_1
+
+	industrial_capacity_factory = var:DCR.dcr_value_1
+	industry_repair_factor = var:DCR.dcr_value_1
+	industry_free_repair_factor = var:DCR.dcr_value_1
+	production_speed_buildings_factor = var:DCR.dcr_value_1
+}

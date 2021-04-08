@@ -70,8 +70,8 @@ martyrdom = {
     }
 }
 
-freeze = {
-    enable_freeze = {
+no_country_for_rich_men = {
+    enable_inverse_wealth = {
         icon = ger_mefo_bills
         
         available = {
@@ -89,9 +89,9 @@ freeze = {
         }
 
         cost = 10
-
+        
         complete_effect = {   
-            ARS = { add_ideas = frozen }
+            DCR = { set_country_flag = DCR_inverse_wealth }
         }
 
         ai_will_do = {
@@ -99,7 +99,7 @@ freeze = {
         }
     }
 
-    disable_freeze = {
+    disable_inverse_wealth = {
         icon = ger_mefo_bills
         
         available = {
@@ -119,7 +119,7 @@ freeze = {
         cost = 10
 
         complete_effect = {   
-            ARS = { remove_ideas = frozen }
+            DCR = { clr_country_flag = DCR_inverse_wealth }
         }
 
         ai_will_do = {

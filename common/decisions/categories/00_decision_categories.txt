@@ -36,7 +36,7 @@ martyrdom = {
 	}
 }
 
-freeze = {
+no_country_for_rich_men = {
 	priority = 20
 	icon = generic_propaganda
 

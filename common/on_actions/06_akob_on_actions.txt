@@ -1,0 +1,17 @@
+on_actions = {
+	on_daily_DCR = { 
+		effect = {
+			if = {
+				limit = {
+					TAG = DCR
+					DCR = { has_country_flag = DCR_inverse_wealth }
+				}
+#				set_variable = { dcr_wealth = var:DCR.political_power }
+            	set_variable = { dcr_value_1 = 1 }
+            	divide_variable = { dcr_value_1 = var:DCR.political_power }
+            	multiply_variable = { dcr_value_1 = 100 }
+            	DCR = { add_dynamic_modifier = { modifier = wealth_modifier } }
+			} 
+		} 
+	}
+}
