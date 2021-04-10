@@ -19,12 +19,12 @@ focus_tree = {
 	
 	default = no
 	
-	continuous_focus_position = { x = 0 y = 2200 }
+	continuous_focus_position = { x = 0 y = 1400 }
 
 	focus = {
 		id = ILD_end_the_succession_crisis
 		icon = GFX_focus_rom_royal_dictatorship
-		x = 12.5
+		x = 14.5
 		y = 0
 		#relative_position_id = AST_empower_the_workers
 		#prerequisite = { focus = AST_workers_paradise }
@@ -54,8 +54,8 @@ focus_tree = {
 
 	focus = {
 		id = ILD_its_time_the_people_decide
-		icon = "GFX_goal_anschluss"
-		x = 6
+		icon = GFX_goal_support_democracy
+		x = 7
 		y = 1
 		#relative_position_id = ILD_end_the_succession_crisis
 		prerequisite = { focus = ILD_end_the_succession_crisis }
@@ -85,166 +85,11 @@ focus_tree = {
 
 	focus = {
 		id = ILD_set_up_the_people_council
-		icon = "GFX_goal_generic_neutrality_focus"
-		x = -4
+		icon = GFX_goal_generic_national_unity
+		x = 0
 		y = 1
 		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_its_time_the_people_decide }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_vote_on_issues
-		icon = GFX_goal_generic_national_unity
-		x = -3
-		y = 2
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_set_up_the_people_council }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_vote_on_issues
-		icon = "GFX_goal_generic_alliance"
-		x = -3
-		y = 2
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_set_up_the_people_council }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_increase_representatives
-		icon = "GFX_focus_generic_support_the_left_right"
-		x = -3
-		y = 3
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_vote_on_issues }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_gather_the_people
-		icon = GFX_goal_generic_national_unity
-		x = -5
-		y = 2
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_set_up_the_people_council }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_build_trust_with_the_people
-		icon = "GFX_goal_generic_major_alliance"
-		x = -5
-		y = 3
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_gather_the_people }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -271,228 +116,11 @@ focus_tree = {
 
 	focus = {
 		id = ILD_fight_for_your_freedom
-		icon = GFX_goal_communist_infiltrators
-		x = 4
-		y = 1
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_its_time_the_people_decide }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_promote_democratic_ideals
-		icon = GFX_goal_support_democracy
-		x = 0
-		y = 1
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_its_time_the_people_decide }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_invite_local_activists
-		icon = "GFX_focus_generic_diplomatic_treaty"
+		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 2
 		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_promote_democratic_ideals }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_grow_the_democratic_underground
-		icon = "GFX_goal_demand_sudetenland"
-		x = 0
-		y = 3
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_promote_democratic_ideals }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_organise_protests
-		icon = "GFX_focus_eng_organise_the_blackshirts"
-		x = 3
-		y = 2
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_fight_for_your_freedom }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_worker_rights
-		icon = "GFX_goal_generic_production2"
-		x = 5
-		y = 2
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_fight_for_your_freedom }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_break_the_hierarchy
-		icon = "GFX_goal_generic_political_pressure"
-		x = 5
-		y = 3
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_worker_rights }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_calls_for_equality
-		icon = "GFX_focus_renounce_the_treaty_of_trianon"
-		x = 3
-		y = 3
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_organise_protests }
+		prerequisite = { focus = ILD_set_up_the_people_council }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -521,11 +149,9 @@ focus_tree = {
 		id = ILD_unconditional_democracy
 		icon = GFX_goal_tfv_sever_ties_with_uk
 		x = -1
-		y = 4
+		y = 3
 		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_grow_the_democratic_underground }
-		prerequisite = { focus = ILD_calls_for_equality OR = ILD_break_the_hierarchy }
-		prerequisite = { focus = ILD_build_trust_with_the_people OR = ILD_increase_representatives }
+		prerequisite = { focus = ILD_fight_for_your_freedom }
 		mutually_exclusive = {focus = ILD_establish_a_constituitional_monarchy }
 		available = {
 
@@ -554,11 +180,9 @@ focus_tree = {
 		id = ILD_establish_a_constituitional_monarchy
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		x = 1
-		y = 4
+		y = 3
 		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_grow_the_democratic_underground }
-		prerequisite = { focus = ILD_calls_for_equality OR = ILD_break_the_hierarchy }
-		prerequisite = { focus = ILD_build_trust_with_the_people OR = ILD_increase_representatives }
+		prerequisite = { focus = ILD_fight_for_your_freedom }
 		mutually_exclusive = {focus = ILD_unconditional_democracy }
 		available = {
 
@@ -587,7 +211,7 @@ focus_tree = {
 		id = ILD_review_the_national_situation
 		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 0
-		y = 6
+		y = 4
 		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_establish_a_constituitional_monarchy OR = ILD_unconditional_democracy }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
@@ -615,356 +239,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ILD_litteverian_question
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 6
-		y = 11
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_a_kingdom_of_blood OR = ILD_return_to_normal OR = ILD_establish_a_constituitional_monarchy OR = ILD_unconditional_democracy }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_forceful_integration
-		icon = "GFX_focus_eng_move_to_secure_the_dominions"
-		x = 2.5
-		y = 12
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_litteverian_question }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_force_their_hand
-		icon = "GFX_goal_generic_secret_weapon"
-		x = 0.5
-		y = 13
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_forceful_integration }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_destroy_the_litteverian_economies
-		icon = "GFX_goal_devalue_currency"
-		x = 2.5
-		y = 13
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_forceful_integration }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_make_litteveria_new_enemies
-		icon = "GFX_focus_generic_strike_at_democracy1"
-		x = 4.5
-		y = 13
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_forceful_integration }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_demand_
-		icon = "GFX_goal_generic_major_war"
-		x = 2.5
-		y = 14
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_force_their_hand }
-		prerequisite = { focus = ILD_destroy_the_litteverian_economies }
-		prerequisite = { focus = ILD_make_litteveria_new_enemies }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_slow_integration
-		icon = "GFX_goal_tripartite_pact"
-		x = 9.5
-		y = 12
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_litteverian_question }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_economical_integration
-		icon = "GFX_goal_economic_bubble"
-		x = 7.5
-		y = 13
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_slow_integration }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_grand_political_integration_schemes
-		icon = "GFX_goal_generic_position_armies"
-		x = 9.5
-		y = 13
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_slow_integration }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_hold_a_referendum
-		icon = GFX_goal_newspaper
-		x = 9.5
-		y = 14
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_economical_integration }
-		prerequisite = { focus = ILD_grand_political_integration_schemes }
-		prerequisite = { focus = ILD_meeting_between_both_leaders }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_meeting_between_both_leaders
-		icon = "GFX_goal_generic_intelligence_exchange"
-		x = 11.5
-		y = 13
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_slow_integration }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
 		id = ILD_black_dragon_resistance
 		icon = GFX_goal_black_dragon_resistance
-		x = -3
-		y = 1
-		relative_position_id = ILD_review_the_national_situation
+		x = -5
+		y = 5
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_review_the_national_situation }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -993,9 +272,9 @@ focus_tree = {
 	focus = {
 		id = ILD_elimination
 		icon = GFX_goal_generic_political_pressure
-		x = -4
-		y = 2
-		relative_position_id = ILD_review_the_national_situation
+		x = -6
+		y = 6
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_black_dragon_resistance }
 		mutually_exclusive = {focus = ILD_reconciliation }
 		available = {
@@ -1024,9 +303,9 @@ focus_tree = {
 	focus = {
 		id = ILD_operation_black_nights
 		icon = GFX_goal_generic_attack_allies
-		x = -4
-		y = 3
-		relative_position_id = ILD_review_the_national_situation
+		x = -6
+		y = 7
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_elimination }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1055,9 +334,9 @@ focus_tree = {
 	focus = {
 		id = ILD_reconciliation
 		icon = GFX_goal_tripartite_pact
-		x = -2
-		y = 2
-		relative_position_id = ILD_review_the_national_situation
+		x = -4
+		y = 6
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_black_dragon_resistance }
 		mutually_exclusive = {focus = ILD_elimination }
 		available = {
@@ -1086,9 +365,9 @@ focus_tree = {
 	focus = {
 		id = ILD_reintegrate_the_monarchists
 		icon = GFX_goal_anschluss
-		x = -2
-		y = 3
-		relative_position_id = ILD_review_the_national_situation
+		x = -4
+		y = 7
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_reconciliation }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1117,9 +396,9 @@ focus_tree = {
 	focus = {
 		id = ILD_echainaian_restlessness
 		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 1
-		relative_position_id = ILD_review_the_national_situation
+		x = -2
+		y = 5
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_review_the_national_situation }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1146,11 +425,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ILD_influence_echainaian_politics
+		id = ILD_promote_democratic_ideals
 		icon = GFX_goal_support_democracy
-		x = 0
-		y = 2
-		relative_position_id = ILD_review_the_national_situation
+		x = -2
+		y = 6
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_echainaian_restlessness }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1179,10 +458,134 @@ focus_tree = {
 	focus = {
 		id = ILD_protect_the_northern_border
 		icon = GFX_goal_generic_defence
+		x = -2
+		y = 7
+		relative_position_id = ILD_its_time_the_people_decide
+		prerequisite = { focus = ILD_promote_democratic_ideals }
+		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ILD_the_litteverian_question
+		icon = GFX_goal_generic_military_deal
+		x = 1
+		y = 5
+		relative_position_id = ILD_its_time_the_people_decide
+		prerequisite = { focus = ILD_review_the_national_situation }
+		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ILD_influence_littiverian_politics
+		icon = GFX_goal_generic_neutrality_focus
+		x = 1
+		y = 6
+		relative_position_id = ILD_its_time_the_people_decide
+		prerequisite = { focus = ILD_the_litteverian_question }
+		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ILD_force_their_hand
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		x = 0
-		y = 3
-		relative_position_id = ILD_review_the_national_situation
-		prerequisite = { focus = ILD_influence_echainaian_politics }
+		y = 7
+		relative_position_id = ILD_its_time_the_people_decide
+		prerequisite = { focus = ILD_influence_littiverian_politics }
+		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+	focus = {
+		id = ILD_reintegration
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 2
+		y = 7
+		relative_position_id = ILD_its_time_the_people_decide
+		prerequisite = { focus = ILD_influence_littiverian_politics }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -1210,9 +613,9 @@ focus_tree = {
 	focus = {
 		id = ILD_a_rising_trubia
 		icon = GFX_focus_generic_strike_at_democracy1
-		x = 2
-		y = 1
-		relative_position_id = ILD_review_the_national_situation
+		x = 4
+		y = 5
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_review_the_national_situation }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1241,9 +644,9 @@ focus_tree = {
 	focus = {
 		id = ILD_prepare_for_war
 		icon = GFX_goal_generic_military_sphere
-		x = 2
-		y = 2
-		relative_position_id = ILD_review_the_national_situation
+		x = 4
+		y = 6
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_a_rising_trubia }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1272,9 +675,9 @@ focus_tree = {
 	focus = {
 		id = ILD_anti-trubian_propaganda
 		icon = GFX_goal_generic_propaganda
-		x = 2
-		y = 3
-		relative_position_id = ILD_review_the_national_situation
+		x = 4
+		y = 7
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_prepare_for_war }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1303,9 +706,9 @@ focus_tree = {
 	focus = {
 		id = ILD_rampant_corruption
 		icon = GFX_focus_rom_parties_end
-		x = 4
-		y = 1
-		relative_position_id = ILD_review_the_national_situation
+		x = 6
+		y = 5
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_review_the_national_situation }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1334,9 +737,9 @@ focus_tree = {
 	focus = {
 		id = ILD_reshuffle_the_cabinet
 		icon = GFX_goal_economic_bubble
-		x = 4
-		y = 2
-		relative_position_id = ILD_review_the_national_situation
+		x = 6
+		y = 6
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_rampant_corruption }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1365,9 +768,9 @@ focus_tree = {
 	focus = {
 		id = ILD_harsher_consequences
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 4
-		y = 3
-		relative_position_id = ILD_review_the_national_situation
+		x = 6
+		y = 7
+		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_reshuffle_the_cabinet }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
@@ -1397,9 +800,9 @@ focus_tree = {
 		id = ILD_arsenal_of_freedom
 		icon = GFX_focus_generic_strike_at_democracy2
 		x = 0
-		y = 4
-		relative_position_id = ILD_review_the_national_situation
-		prerequisite = { focus = ILD_operation_black_nights OR = ILD_reintegrate_the_monarchists OR = ILD_protect_the_northern_border OR = ILD_anti-trubian_propaganda OR = ILD_harsher_consequences}
+		y = 8
+		relative_position_id = ILD_its_time_the_people_decide
+		prerequisite = { focus = ILD_operation_black_nights OR = ILD_reintegrate_the_monarchists OR = ILD_protect_the_northern_border OR = ILD_force_their_hand OR = ILD_reintegration OR = ILD_anti-trubian_propaganda OR = ILD_harsher_consequences}
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -1427,7 +830,7 @@ focus_tree = {
 	focus = {
 		id = ILD_prince_viktor_II_coronated
 		icon = GFX_focus_generic_home_defense
-		x = 19
+		x = 22
 		y = 1
 		#relative_position_id = ILD_end_the_succession_crisis
 		prerequisite = { focus = ILD_end_the_succession_crisis }
@@ -1456,9 +859,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ILD_coronation_day
+		id = ILD_watch_our_backs
 		icon = GFX_goal_generic_major_war
-		x = -5
+		x = -2
 		y = 1
 		relative_position_id = ILD_prince_viktor_II_coronated
 		prerequisite = { focus = ILD_prince_viktor_II_coronated }
@@ -1489,7 +892,7 @@ focus_tree = {
 	focus = {
 		id = ILD_move_the_royal_palace
 		icon = GFX_goal_move_palace
-		x = -3
+		x = 0
 		y = 1
 		relative_position_id = ILD_prince_viktor_II_coronated
 		prerequisite = { focus = ILD_prince_viktor_II_coronated }
@@ -1520,7 +923,7 @@ focus_tree = {
 	focus = {
 		id = ILD_celebrations
 		icon = GFX_goal_celebrations
-		x = -1
+		x = 2
 		y = 1
 		relative_position_id = ILD_prince_viktor_II_coronated
 		prerequisite = { focus = ILD_prince_viktor_II_coronated }
@@ -1549,200 +952,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ILD_roll_out_the_red_carpet
-		icon = "GFX_goal_tfv_strengthen_commonwealth_ties"
-		x = -4
-		y = 2
-		relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_coronation_day OR = ILD_move_the_royal_palace }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_visit_the_farmers
-		icon = "GFX_goal_grow_wheat_farm"
-		x = -2
-		y = 2
-		relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_move_the_royal_palace OR = ILD_celebrations }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_host_a_grand_feast
-		icon = "GFX_focus_hol_abandon_the_gold_standard"
-		x = -1
-		y = 3
-		relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_visit_the_farmers }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_princely_generousity
-		icon = GFX_goal_celebrations
-		x = -4
-		y = 3
-		relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_prince_viktor_II_coronated }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_princely_generousity
-		icon = "GFX_focus_rom_royal_dictatorship"
-		x = -3
-		y = 3
-		relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_visit_the_farmers OR = ILD_roll_out_the_red_carpet }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_party_all_night
-		icon = "GFX_focus_rom_parties_end"
-		x = -5
-		y = 3
-		relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_roll_out_the_red_carpet }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
 		id = ILD_return_to_normal
 		icon = GFX_goal_generic_neutrality_focus
-		x = -3
-		y = 4
+		x = 0
+		y = 2
 		relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_party_all_night }
-		prerequisite = { focus = ILD_princely_generousity }
-		prerequisite = { focus = ILD_host_a_grand_feast }
+		prerequisite = { focus = ILD_watch_our_backs }
+		prerequisite = { focus = ILD_move_the_royal_palace }
+		prerequisite = { focus = ILD_celebrations }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -1770,8 +987,8 @@ focus_tree = {
 	focus = {
 		id = ILD_our_princely_brothers
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 19
-		y = 6
+		x = 21
+		y = 4
 		#relative_position_id = ILD_prince_viktor_II_coronated
 		prerequisite = { focus = ILD_return_to_normal }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
@@ -2421,10 +1638,10 @@ focus_tree = {
 	focus = {
 		id = ILD_a_bloody_past
 		icon = GFX_goal_generic_major_war
-		x = 22
-		y = 2
+		x = 28
+		y = 4
 		#relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_prince_viktor_II_coronated }
+		prerequisite = { focus = ILD_return_to_normal }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -2452,7 +1669,7 @@ focus_tree = {
 	focus = {
 		id = ILD_avenge_the_bloodline
 		icon = GFX_focus_generic_support_the_left_right
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = ILD_a_bloody_past
 		prerequisite = { focus = ILD_a_bloody_past }
@@ -2483,7 +1700,7 @@ focus_tree = {
 	focus = {
 		id = ILD_backhand_politics
 		icon = GFX_goal_generic_more_territorial_claims
-		x = 1
+		x = 0
 		y = 2
 		relative_position_id = ILD_a_bloody_past
 		prerequisite = { focus = ILD_avenge_the_bloodline }
@@ -2514,10 +1731,10 @@ focus_tree = {
 	focus = {
 		id = ILD_boost_war_morale
 		icon = GFX_goal_generic_propaganda
-		x = -1
-		y = 1
+		x = 0
+		y = 3
 		relative_position_id = ILD_a_bloody_past
-		prerequisite = { focus = ILD_a_bloody_past }
+		prerequisite = { focus = ILD_backhand_politics }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -2545,8 +1762,8 @@ focus_tree = {
 	focus = {
 		id = ILD_intimidate_our_enemies
 		icon = GFX_goal_circus_airestonia
-		x = -1
-		y = 2
+		x = 0
+		y = 4
 		relative_position_id = ILD_a_bloody_past
 		prerequisite = { focus = ILD_boost_war_morale }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
@@ -2577,7 +1794,7 @@ focus_tree = {
 		id = ILD_a_kingdom_of_blood
 		icon = GFX_goal_generic_CAS
 		x = 0
-		y = 3
+		y = 5
 		relative_position_id = ILD_a_bloody_past
 		prerequisite = { focus = ILD_intimidate_our_enemies }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
@@ -2607,7 +1824,7 @@ focus_tree = {
 	focus = {
 		id = ILD_continue_the_5_year_plan
 		icon = GFX_focus_generic_treaty
-		x = 33.5
+		x = 37.5
 		y = 0
 		#relative_position_id = AST_empower_the_workers
 		#prerequisite = { focus = AST_workers_paradise }
@@ -2638,7 +1855,7 @@ focus_tree = {
 	focus = {
 		id = ILD_increase_farm_sizes
 		icon = GFX_goal_grow_wheat_farm
-		x = 29
+		x = 33
 		y = 1
 		#relative_position_id = ILD_continue_the_5_year_plan
 		prerequisite = { focus = ILD_continue_the_5_year_plan }
@@ -3016,7 +2233,7 @@ focus_tree = {
 	focus = {
 		id = ILD_build_more_factories
 		icon = GFX_goal_generic_construct_civilian
-		x = 37
+		x = 41
 		y = 1
 		#relative_position_id = ILD_continue_the_5_year_plan
 		prerequisite = { focus = ILD_continue_the_5_year_plan }
@@ -3576,8 +2793,8 @@ focus_tree = {
 	focus = {
 		id = ILD_1st_meeting_of_the_intelligentsia_union
 		icon = GFX_focus_generic_military_academy
-		x = 33
-		y = 9
+		x = 53
+		y = 0
 		#relative_position_id = AST_empower_the_workers
 		#prerequisite = { focus = AST_workers_paradise }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
@@ -4227,6 +3444,4 @@ focus_tree = {
 		}
 	}
 	
-}		
-
-
+}
