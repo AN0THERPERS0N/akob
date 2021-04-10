@@ -19,12 +19,12 @@ focus_tree = {
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 3000 }
+	continuous_focus_position = { x = 50 y = 4000 }
 
 	focus = {
 		id = ARS_war_with_icrusia
 		icon = GFX_goal_war_with_icrusia
-		x = 30
+		x = 22
 		y = 0
 		#relative_position_id = AST_empower_the_workers
 		#prerequisite = { focus = AST_workers_paradise }
@@ -821,9 +821,9 @@ focus_tree = {
 #####
 
 	focus = {
-		id = ARS_our_place_in_the_sun
+		id = ARS_our_gplace_in_the_sund
 		icon = GFX_goal_generic_special_forces
-		x = 13
+		x = 10
 		y = 7
 		prerequisite = { focus = ARS_the_illesas_proclamation OR = ARS_fortress_airestonia }
 		mutually_exclusive = {focus = ARS_swallow_our_pride }
@@ -854,9 +854,9 @@ focus_tree = {
 		id = ARS_right_to_rule
 		icon = GFX_focus_rom_royal_dictatorship
 		x = 0
-		y = 1
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_our_place_in_the_sun }
+		y = 6
+		relative_position_id = ARS_our_gplace_in_the_sund
+		prerequisite = { focus = ARS_a_city_of_angels }
 		available = {
 
 		}
@@ -883,9 +883,9 @@ focus_tree = {
 	focus = {
 		id = ARS_undefeated_eagle
 		icon = GFX_goal_generic_territory_or_war
-		x = -6
-		y = 2
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -8
+		y = 1
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_right_to_rule }
 		available = {
 
@@ -913,9 +913,9 @@ focus_tree = {
 	focus = {
 		id = ARS_operation_salvage_point
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		x = -6
-		y = 3
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -8
+		y = 2
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_undefeated_eagle }
 		available = {
 
@@ -943,9 +943,9 @@ focus_tree = {
 	focus = {
 		id = ARS_eliminate_icrusian_scientists
 		icon = GFX_goal_generic_attack_allies
-		x = -5
-		y = 4
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -7
+		y = 3
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_operation_salvage_point }
 		mutually_exclusive = {focus = ARS_welcome_icrusian_scientists}
 		available = {
@@ -974,9 +974,9 @@ focus_tree = {
 	focus = {
 		id = ARS_remove_icrusian_nobles
 		icon = GFX_goal_generic_alliance
-		x = -5
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -7
+		y = 4
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_eliminate_icrusian_scientists }
 		available = {
 
@@ -1004,9 +1004,9 @@ focus_tree = {
 	focus = {
 		id = ARS_silence_the_population
 		icon = GFX_goal_generic_political_pressure
-		x = -5
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -7
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_remove_icrusian_nobles }
 		available = {
 
@@ -1034,9 +1034,9 @@ focus_tree = {
 	focus = {
 		id = ARS_supress_the_icrusian_culture
 		icon = GFX_goal_generic_more_territorial_claims
-		x = -5
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -7
+		y = 6
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_silence_the_population }
 		available = {
 
@@ -1064,9 +1064,9 @@ focus_tree = {
 	focus = {
 		id = ARS_mass_deportations
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = -5
-		y = 8
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -7
+		y = 7
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_supress_the_icrusian_culture }
 		available = {
 
@@ -1094,9 +1094,9 @@ focus_tree = {
 	focus = {
 		id = ARS_welcome_icrusian_scientists
 		icon = GFX_focus_research
-		x = -7
-		y = 4
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -9
+		y = 3
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_operation_salvage_point }
 		mutually_exclusive = {focus = ARS_eliminate_icrusian_scientists}
 		available = {
@@ -1125,9 +1125,9 @@ focus_tree = {
 	focus = {
 		id = ARS_invite_icrusian_nobles
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = -7
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -9
+		y = 4
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_welcome_icrusian_scientists }
 		available = {
 
@@ -1155,9 +1155,9 @@ focus_tree = {
 	focus = {
 		id = ARS_incoporate_the_people
 		icon = GFX_focus_generic_treaty
-		x = -7
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -9
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_invite_icrusian_nobles }
 		available = {
 
@@ -1185,9 +1185,9 @@ focus_tree = {
 	focus = {
 		id = ARS_a_land_of_many_cultures
 		icon = GFX_goal_generic_propaganda
-		x = -7
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -9
+		y = 6
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_incoporate_the_people }
 		available = {
 
@@ -1215,9 +1215,9 @@ focus_tree = {
 	focus = {
 		id = ARS_encourage_migration
 		icon = GFX_goal_generic_improve_relations
-		x = -7
-		y = 8
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -9
+		y = 7
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_a_land_of_many_cultures }
 		available = {
 
@@ -1245,9 +1245,9 @@ focus_tree = {
 	focus = {
 		id = ARS_icrusia_a_free_nation
 		icon = GFX_goal_generic_dangerous_deal
-		x = -6
-		y = 9
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -8
+		y = 8
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_encourage_migration OR = ARS_mass_deportations }
 		available = {
 
@@ -1275,9 +1275,9 @@ focus_tree = {
 	focus = {
 		id = ARS_maintain_the_status_quo
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		x = 3
-		y = 2
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 2
+		y = 1
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_right_to_rule }
 		available = {
 
@@ -1305,9 +1305,9 @@ focus_tree = {
 	focus = {
 		id = ARS_consolidate_icrusian_lands
 		icon = GFX_focus_generic_support_the_left_right
-		x = 3
-		y = 3
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 2
+		y = 2
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_maintain_the_status_quo}
 		available = {
 
@@ -1335,9 +1335,9 @@ focus_tree = {
 	focus = {
 		id = ARS_icrusian_crown_lands
 		icon = GFX_focus_generic_home_defense
-		x = -3
-		y = 4
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -2
+		y = 3
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_consolidate_icrusian_lands}
 		mutually_exclusive = {focus = ARS_icrusian_land_redistribution }
 		available = {
@@ -1366,9 +1366,9 @@ focus_tree = {
 	focus = {
 		id = ARS_the_2_kingdoms_decree
 		icon = GFX_focus_rom_royal_dictatorship
-		x = -3
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -4
+		y = 4
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_icrusian_crown_lands}
 		available = {
 
@@ -1396,9 +1396,9 @@ focus_tree = {
 	focus = {
 		id = ARS_exploit_icrusian_resources
 		icon = GFX_focus_generic_steel
-		x = -3
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -4
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_the_2_kingdoms_decree}
 		available = {
 
@@ -1426,9 +1426,9 @@ focus_tree = {
 	focus = {
 		id = ARS_airestonian_labour_force
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = -3
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -4
+		y = 6
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_the_2_kingdoms_decree}
 		prerequisite = { focus = ARS_grow_wheat_farms}
 		prerequisite = { focus = ARS_lucrative_plantations}
@@ -1458,43 +1458,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ARS_icrusian_land_redistribution
-		icon = GFX_goal_redistribute_icrusian_lands
-		x = 0
-		y = 4
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_consolidate_icrusian_lands}
-		mutually_exclusive = {focus = ARS_icrusian_crown_lands }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
 		id = ARS_distribute_lands_to_the_peasants
 		icon = GFX_focus_generic_self_management
-		x = -1
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_icrusian_land_redistribution}
+		x = -2
+		y = 4
+		relative_position_id = ARS_right_to_rule
+		prerequisite = { focus = ARS_icrusian_crown_lands}
 		available = {
 
 		}
@@ -1521,9 +1490,9 @@ focus_tree = {
 	focus = {
 		id = ARS_grow_wheat_farms
 		icon = GFX_goal_grow_wheat_farm
-		x = -1
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -2
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_distribute_lands_to_the_peasants}
 		available = {
 
@@ -1551,9 +1520,9 @@ focus_tree = {
 	focus = {
 		id = ARS_use_the_secondary_citizens
 		icon = GFX_goal_generic_CAS
-		x = -1
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -2
+		y = 6
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_grow_wheat_farms}
 		prerequisite = { focus = ARS_the_2_kingdoms_decree}
 		prerequisite = { focus = ARS_lucrative_plantations}
@@ -1585,10 +1554,10 @@ focus_tree = {
 	focus = {
 		id = ARS_distribute_lands_to_the_nobles
 		icon = GFX_goal_generic_intelligence_exchange
-		x = 1
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_icrusian_land_redistribution}
+		x = 0
+		y = 4
+		relative_position_id = ARS_right_to_rule
+		prerequisite = { focus = ARS_icrusian_crown_lands}
 		available = {
 
 		}
@@ -1615,9 +1584,9 @@ focus_tree = {
 	focus = {
 		id = ARS_lucrative_plantations
 		icon = GFX_goal_lucrative_plantations
-		x = 1
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 0
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_distribute_lands_to_the_nobles}
 		available = {
 
@@ -1645,9 +1614,9 @@ focus_tree = {
 	focus = {
 		id = ARS_pay_icrusian_workers
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 1
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 0
+		y = 6
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_lucrative_plantations}
 		prerequisite = { focus = ARS_the_2_kingdoms_decree}
 		prerequisite = { focus = ARS_grow_wheat_farms}
@@ -1679,9 +1648,9 @@ focus_tree = {
 	focus = {
 		id = ARS_the_airestonian_media_decree
 		icon = GFX_goal_generic_propaganda
-		x = -1
-		y = 8
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -2
+		y = 7
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_use_the_secondary_citizens OR = ARS_airestonian_labour_force OR = ARS_pay_icrusian_workers}
 		available = {
 
@@ -1709,9 +1678,9 @@ focus_tree = {
 	focus = {
 		id = ARS_pax_airestonia
 		icon = GFX_focus_generic_strike_at_democracy2
-		x = -1
-		y = 9
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -2
+		y = 8
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_the_airestonian_media_decree}
 		available = {
 
@@ -1739,9 +1708,9 @@ focus_tree = {
 	focus = {
 		id = ARS_establish_the_crown_colony
 		icon = GFX_goal_crown_colony
-		x = 4
-		y = 4
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 6
+		y = 3
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_consolidate_icrusian_lands}
 		available = {
 
@@ -1770,8 +1739,8 @@ focus_tree = {
 		id = ARS_icrusian_war_debt
 		icon = GFX_goal_generic_trade
 		x = 3
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 4
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_establish_the_crown_colony}
 		available = {
 
@@ -1800,8 +1769,8 @@ focus_tree = {
 		id = ARS_icrusian_labour_levies
 		icon = GFX_goal_generic_political_pressure
 		x = 3
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_icrusian_war_debt}
 		available = {
 
@@ -1830,8 +1799,8 @@ focus_tree = {
 		id = ARS_work_for_the_greater_good
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x = 3
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 6
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_icrusian_labour_levies}
 		available = {
 
@@ -1860,8 +1829,8 @@ focus_tree = {
 		id = ARS_bolster_the_icrusian_garrisons
 		icon = GFX_goal_generic_construct_military
 		x = 5
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 4
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_establish_the_crown_colony}
 		available = {
 
@@ -1890,8 +1859,8 @@ focus_tree = {
 		id = ARS_equipment_for_icrusia
 		icon = GFX_focus_secret_rearmament
 		x = 5
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_bolster_the_icrusian_garrisons}
 		available = {
 
@@ -1920,8 +1889,8 @@ focus_tree = {
 		id = ARS_icrusian_home_defence_force
 		icon = GFX_goal_generic_military_sphere
 		x = 5
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 6
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_equipment_for_icrusia}
 		available = {
 
@@ -1950,8 +1919,8 @@ focus_tree = {
 		id = ARS_invest_in_the_south
 		icon = GFX_goal_invest_in_south
 		x = 7
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 4
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_establish_the_crown_colony}
 		mutually_exclusive = {focus = ARS_invest_in_the_mountains }
 		available = {
@@ -1981,8 +1950,8 @@ focus_tree = {
 		id = ARS_dig_for_southern_coal
 		icon = GFX_goal_generic_construction2
 		x = 7
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_invest_in_the_south}
 		available = {
 
@@ -2011,8 +1980,8 @@ focus_tree = {
 		id = ARS_invest_in_the_mountains
 		icon = GFX_goal_invest_in_mountain
 		x = 9
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 4
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_establish_the_crown_colony}
 		mutually_exclusive = {focus = ARS_invest_in_the_south }
 		available = {
@@ -2042,8 +2011,8 @@ focus_tree = {
 		id = ARS_organise_the_thorton_mines
 		icon = GFX_goal_generic_construction2
 		x = 9
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 5
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_invest_in_the_mountains}
 		available = {
 
@@ -2072,8 +2041,8 @@ focus_tree = {
 		id = ARS_trans-icrusian_railway
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 8
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 6
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_organise_the_thorton_mines OR = ARS_dig_for_southern_coal}
 		available = {
 
@@ -2103,7 +2072,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 8
 		y = 8
-		relative_position_id = ARS_our_place_in_the_sun
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_trans-icrusian_railway}
 		available = {
 
@@ -2132,8 +2101,8 @@ focus_tree = {
 		id = ARS_ascension
 		icon = GFX_focus_generic_support_the_left_right
 		x = 0
-		y = 10
-		relative_position_id = ARS_our_place_in_the_sun
+		y = 9
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_icrusia-airestonia_road}
 		prerequisite = { focus = ARS_pax_airestonia}
 		prerequisite = { focus = ARS_icrusia_a_free_nation}
@@ -2165,7 +2134,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		x = -2
 		y = 11
-		relative_position_id = ARS_our_place_in_the_sun
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_ascension}
 		available = {
 
@@ -2195,7 +2164,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 11
-		relative_position_id = ARS_our_place_in_the_sun
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_ascension}
 		available = {
 
@@ -2225,7 +2194,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		x = 2
 		y = 11
-		relative_position_id = ARS_our_place_in_the_sun
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_ascension}
 		available = {
 
@@ -2255,7 +2224,7 @@ focus_tree = {
 		icon = GFX_goal_generic_military_deal
 		x = 0
 		y = 12
-		relative_position_id = ARS_our_place_in_the_sun
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_the_trubian_menace}
 		prerequisite = { focus = ARS_once_upon_a_time}
 		prerequisite = { focus = ARS_the_theberan_question}
@@ -2287,7 +2256,7 @@ focus_tree = {
 		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 13
-		relative_position_id = ARS_our_place_in_the_sun
+		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_form_the_dark_pact}
 		available = {
 
@@ -2315,9 +2284,9 @@ focus_tree = {
 	focus = {
 		id = ARS_the_plague_of_madness
 		icon = GFX_goal_generic_secret_weapon
-		x = 14
-		y = 2
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 10
+		y = 8
+		#relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_right_to_rule }
 		available = {
 
@@ -2345,9 +2314,9 @@ focus_tree = {
 	focus = {
 		id = ARS_paranoia
 		icon = GFX_goal_generic_CAS
-		x = 14
-		y = 3
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 0
+		y = 1
+		relative_position_id = ARS_the_plague_of_madness
 		prerequisite = { focus = ARS_the_plague_of_madness }
 		available = {
 
@@ -2375,9 +2344,9 @@ focus_tree = {
 	focus = {
 		id = ARS_the_great_purge
 		icon = GFX_goal_generic_attack_allies
-		x = 13
-		y = 4
-		relative_position_id = ARS_our_place_in_the_sun
+		x = -1
+		y = 2
+		relative_position_id = ARS_the_plague_of_madness
 		prerequisite = { focus = ARS_paranoia }
 		available = {
 
@@ -2405,10 +2374,10 @@ focus_tree = {
 	focus = {
 		id = ARS_enforce_marshal_law
 		icon = GFX_goal_generic_forceful_treaty
-		x = 11
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_the_great_purge }
+		x = -3
+		y = 2
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_paranoia }
 		available = {
 
 		}
@@ -2435,10 +2404,10 @@ focus_tree = {
 	focus = {
 		id = ARS_limit_the_peoples_rights
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		x = 13
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_the_great_purge }
+		x = 2
+		y = 3
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_propaganda_and_censorship OR = ARS_form_the_GOA_divisions }
 		available = {
 
 		}
@@ -2465,10 +2434,10 @@ focus_tree = {
 	focus = {
 		id = ARS_form_the_GOA_divisions
 		icon = GFX_goal_generic_special_forces
-		x = 15
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_the_great_purge }
+		x = 1
+		y = 2
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_paranoia }
 		available = {
 
 		}
@@ -2497,12 +2466,10 @@ focus_tree = {
 	focus = {
 		id = ARS_public_hangings
 		icon = GFX_goal_noose
-		x = 12
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_enforce_marshal_law }
-		prerequisite = { focus = ARS_limit_the_peoples_rights }
-		prerequisite = { focus = ARS_form_the_GOA_divisions }
+		x = -2
+		y = 3
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_the_great_purge OR = ARS_enforce_marshal_law }
 		available = {
 
 		}
@@ -2529,10 +2496,10 @@ focus_tree = {
 	focus = {
 		id = ARS_penal_deportations
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 12
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_public_hangings }
+		x = -4
+		y = 3
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_enforce_marshal_law }
 		available = {
 
 		}
@@ -2559,12 +2526,10 @@ focus_tree = {
 	focus = {
 		id = ARS_penal_punishment
 		icon = GFX_goal_prison
-		x = 14
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_enforce_marshal_law }
-		prerequisite = { focus = ARS_limit_the_peoples_rights }
-		prerequisite = { focus = ARS_form_the_GOA_divisions }
+		x = 0
+		y = 3
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_form_the_GOA_divisions OR = ARS_the_great_purge }
 		available = {
 
 		}
@@ -2591,10 +2556,10 @@ focus_tree = {
 	focus = {
 		id = ARS_arrest_without_trial
 		icon = GFX_goal_arrest_without_trial
-		x = 14
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_penal_punishment }
+		x = -3
+		y = 4
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_penal_deportations OR = ARS_public_hangings }
 		available = {
 
 		}
@@ -2621,9 +2586,9 @@ focus_tree = {
 	focus = {
 		id = ARS_propaganda_and_censorship
 		icon = GFX_goal_generic_propaganda
-		x = 17
-		y = 4
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 3
+		y = 2
+		relative_position_id = ARS_the_plague_of_madness
 		prerequisite = { focus = ARS_paranoia }
 		available = {
 
@@ -2651,9 +2616,9 @@ focus_tree = {
 	focus = {
 		id = ARS_circus_airestonia_initiative
 		icon = GFX_goal_circus_airestonia
-		x = 17
-		y = 5
-		relative_position_id = ARS_our_place_in_the_sun
+		x = 4
+		y = 3
+		relative_position_id = ARS_the_plague_of_madness
 		prerequisite = { focus = ARS_propaganda_and_censorship }
 		available = {
 
@@ -2681,10 +2646,10 @@ focus_tree = {
 	focus = {
 		id = ARS_reeducation_camps
 		icon = GFX_goal_generic_dangerous_deal
-		x = 17
-		y = 6
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_circus_airestonia_initiative }
+		x = 1
+		y = 4
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_limit_the_peoples_rights OR = ARS_penal_punishment }
 		available = {
 
 		}
@@ -2711,10 +2676,10 @@ focus_tree = {
 	focus = {
 		id = ARS_airestonian_cultural_rebirth
 		icon = GFX_goal_generic_demand_territory
-		x = 17
-		y = 7
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_reeducation_camps }
+		x = 3
+		y = 4
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_circus_airestonia_initiative OR = ARS_limit_the_peoples_rights }
 		available = {
 
 		}
@@ -2741,12 +2706,10 @@ focus_tree = {
 	focus = {
 		id = ARS_a_city_of_angels
 		icon = GFX_goal_city_of_angel
-		x = 14
-		y = 8
-		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_airestonian_cultural_rebirth }
-		prerequisite = { focus = ARS_penal_deportations }
-		prerequisite = { focus = ARS_arrest_without_trial }
+		x = -1
+		y = 4
+		relative_position_id = ARS_the_plague_of_madness
+		prerequisite = { focus = ARS_public_hangings OR = ARS_penal_punishment }
 		available = {
 
 		}
@@ -2775,10 +2738,10 @@ focus_tree = {
 	focus = {
 		id = ARS_swallow_our_pride
 		icon = GFX_focus_rom_abdicate
-		x = 43
+		x = 32
 		y = 7
 		prerequisite = { focus = ARS_the_illesas_proclamation OR = ARS_fortress_airestonia }
-		mutually_exclusive = {focus = ARS_our_place_in_the_sun }
+		mutually_exclusive = {focus = dARS_right_to_ruled }
 		available = {
 
 		}
@@ -4053,7 +4016,7 @@ focus_tree = {
 	focus = {
 		id = ARS_reform_the_airestonian_military
 		icon = GFX_focus_generic_military_mission
-		x = 71
+		x = 61
 		y = 0
 		#relative_position_id = AST_empower_the_workers
 		#prerequisite = { focus = AST_workers_paradise }
@@ -4655,7 +4618,7 @@ focus_tree = {
 	focus = {
 		id = ARS_revise_the_economic_policy
 		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 60
+		x = 50
 		y = 0
 		#relative_position_id = AST_empower_the_workers
 		#prerequisite = { focus = AST_workers_paradise }
@@ -5357,7 +5320,7 @@ focus_tree = {
 	focus = {
 		id = ARS_found_the_airestonian_navy
 		icon = GFX_goal_generic_occupy_states_coastal
-		x = 80
+		x = 69
 		y = 0
 		#relative_position_id = AST_empower_the_workers
 		#prerequisite = { focus = AST_workers_paradise }
