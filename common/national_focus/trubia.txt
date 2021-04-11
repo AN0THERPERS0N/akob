@@ -3868,9 +3868,9 @@ ai_will_do = {
 
 focus = {
 id = TRB_on_the_war_path
-x = 18.5
+x = 17
 y = 15
-icon = GFX_goal_generic_more_territorial_claims
+icon = "GFX_goal_generic_major_war"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_natural_magic OR = TRB_enhanced_magic OR = TRB_spiritual_awakening OR = TRB_ground_ourselves_with_logic OR = TRB_military_high_command OR = TRB_infinite_power  }
 prerequisite = { focus = TRB_non-discriminatory_practices OR = TRB_army_experience OR = TRB_compulsory_education OR = TRB_higher_education_grants OR = TRB_trubian_military_dominance }
@@ -3889,60 +3889,530 @@ add_political_power = 100
 ai_will_do = {
 }
 } 
+
+focus = {
+	id = TRB_war_plan_green
+	x = 17
+	y = 16
+	icon = GFX_goal_generic_more_territorial_claims
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = TRB_on_the_war_path }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+	add_political_power = 100
+	}
+	ai_will_do = {
+	}
+	} 
+
+	focus = {
+		id = TRB_meeting_with_icrusia
+		x = 16
+		y = 17
+		icon = GFX_goal_alliance_with_icrusia
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = TRB_war_plan_green }
+		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+
+		focus = {
+			id = TRB_infiltrate_airestonia
+			x = 18
+			y = 17
+			icon = "GFX_goal_torgyr_spy_company"
+			#relative_position_id = AST_empower_the_workers
+			prerequisite = { focus = TRB_war_plan_green }
+			#mutually_exclusive = {focus = GOZ_economy_above_all }
+			available = {
+			}
+			bypass = {
+			}
+			cost = 10
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			add_political_power = 100
+			}
+			ai_will_do = {
+			}
+			}
+
+			focus = {
+				id = TRB_bribe_airestonian_allies
+				x = 18
+				y = 18
+				icon = "GFX_goal_pay_out_military"
+				#relative_position_id = AST_empower_the_workers
+				prerequisite = { focus = TRB_infiltrate_airestonia }
+				#mutually_exclusive = {focus = GOZ_economy_above_all }
+				available = {
+				}
+				bypass = {
+				}
+				cost = 10
+				cancel_if_invalid = yes
+				continue_if_invalid = no
+				available_if_capitulated = no
+				completion_reward = {
+				add_political_power = 100
+				}
+				ai_will_do = {
+				}
+				}
+		
+		focus = {
+			id = TRB_gain_airestonian_war_strategies
+			x = 16
+			y = 18
+			icon = "GFX_goal_generic_army_doctrines"
+			#relative_position_id = AST_empower_the_workers
+			prerequisite = { focus = TRB_meeting_with_icrusia }
+			#mutually_exclusive = {focus = GOZ_economy_above_all }
+			available = {
+			}
+			bypass = {
+			}
+			cost = 10
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			add_political_power = 100
+			}
+			ai_will_do = {
+			}
+			} 
+	
+			focus = {
+				id = TRB_spark_the_airestonian_liberation_war
+				x = 17
+				y = 19
+				icon = GFX_focus_generic_strike_at_democracy1
+				#relative_position_id = AST_empower_the_workers
+				prerequisite = { focus = TRB_gain_airestonian_war_strategies }
+				prerequisite = { focus = TRB_bribe_airestonian_allies }
+				#mutually_exclusive = {focus = GOZ_economy_above_all }
+				available = {
+				}
+				bypass = {
+				}
+				cost = 10
+				cancel_if_invalid = yes
+				continue_if_invalid = no
+				available_if_capitulated = no
+				completion_reward = {
+				add_political_power = 100
+				}
+				ai_will_do = {
+				}
+				} 
+
+				focus = {
+					id = TRB_integrate_airestonian_lands
+					x = 17
+					y = 20
+					icon = "GFX_goal_generic_position_armies"
+					#relative_position_id = AST_empower_the_workers
+					prerequisite = { focus = TRB_spark_the_airestonian_liberation_war }
+					#mutually_exclusive = {focus = GOZ_economy_above_all }
+					available = {
+					}
+					bypass = {
+					}
+					cost = 10
+					cancel_if_invalid = yes
+					continue_if_invalid = no
+					available_if_capitulated = no
+					completion_reward = {
+					add_political_power = 100
+					}
+					ai_will_do = {
+					}
+	} 
+
+	focus = {
+		id = TRB_jewel_of_ambulas
+		x = 17
+		y = 21
+		icon = GFX_goal_war_with_icrusia
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = TRB_integrate_airestonian_lands }
+		prerequisite = { focus = TRB_integrate_western_lands }
+		prerequisite = { focus = TRB_integrate_remaining_efror_lands }
+		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+
+		focus = {
+			id = TRB_plan_for_deep_operations
+			x = 17
+			y = 22
+			icon = "GFX_goal_generic_occupy_states_ongoing_war"
+			#relative_position_id = AST_empower_the_workers
+			prerequisite = { focus = TRB_jewel_of_ambulas }
+			#mutually_exclusive = {focus = GOZ_economy_above_all }
+			available = {
+			}
+			bypass = {
+			}
+			cost = 10
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			add_political_power = 100
+			}
+			ai_will_do = {
+			}
+			} 
+
+			focus = {
+				id = TRB_establish_new_supply_routes
+				x = 16
+				y = 23
+				icon = "GFX_focus_generic_provoke_border_clashes"
+				#relative_position_id = AST_empower_the_workers
+				prerequisite = { focus = TRB_plan_for_deep_operations OR = TRB_obtain_intelligence_on_icrusian_generals }
+				#mutually_exclusive = {focus = GOZ_economy_above_all }
+				available = {
+				}
+				bypass = {
+				}
+				cost = 10
+				cancel_if_invalid = yes
+				continue_if_invalid = no
+				available_if_capitulated = no
+				completion_reward = {
+				add_political_power = 100
+				}
+				ai_will_do = {
+				}
+				} 
+
+				focus = {
+					id = TRB_operation_dark_eyed_scramble
+					x = 14
+					y = 23
+					icon = "GFX_goal_generic_dangerous_deal"
+					#relative_position_id = AST_empower_the_workers
+					prerequisite = { focus = TRB_obtain_intelligence_on_icrusian_generals }
+					#mutually_exclusive = {focus = GOZ_economy_above_all }
+					available = {
+					}
+					bypass = {
+					}
+					cost = 10
+					cancel_if_invalid = yes
+					continue_if_invalid = no
+					available_if_capitulated = no
+					completion_reward = {
+					add_political_power = 100
+					}
+					ai_will_do = {
+					}
+					} 
+
+				focus = {
+					id = TRB_connect_new_lands
+					x = 18
+					y = 23
+					icon = "GFX_goal_generic_construct_infrastructure"
+					#relative_position_id = AST_empower_the_workers
+					prerequisite = { focus = TRB_isolate_icrusia OR = TRB_plan_for_deep_operations }
+					#mutually_exclusive = {focus = GOZ_economy_above_all }
+					available = {
+					}
+					bypass = {
+					}
+					cost = 10
+					cancel_if_invalid = yes
+					continue_if_invalid = no
+					available_if_capitulated = no
+					completion_reward = {
+					add_political_power = 100
+					}
+					ai_will_do = {
+					}
+					} 
+			
+					focus = {
+						id = TRB_military_advisors_from_subjects
+						x = 20
+						y = 23
+						icon = "GFX_focus_generic_military_mission"
+						#relative_position_id = AST_empower_the_workers
+						prerequisite = { focus = TRB_isolate_icrusia }
+						#mutually_exclusive = {focus = GOZ_economy_above_all }
+						available = {
+						}
+						bypass = {
+						}
+						cost = 10
+						cancel_if_invalid = yes
+						continue_if_invalid = no
+						available_if_capitulated = no
+						completion_reward = {
+						add_political_power = 100
+						}
+						ai_will_do = {
+						}
+		} 
+
+		focus = {
+			id = TRB_break_the_last_of_the_old_guard
+			x = 17
+			y = 24
+			icon = "GFX_focus_hol_war_on_pacifism"
+			#relative_position_id = AST_empower_the_workers
+			prerequisite = { focus = TRB_operation_dark_eyed_scramble }
+			prerequisite = { focus = TRB_establish_new_supply_routes }
+			prerequisite = { focus = TRB_connect_new_lands }
+			prerequisite = { focus = TRB_military_advisors_from_subjects }
+			#mutually_exclusive = {focus = GOZ_economy_above_all }
+			available = {
+			}
+			bypass = {
+			}
+			cost = 10
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			completion_reward = {
+			add_political_power = 100
+			}
+			ai_will_do = {
+			}
+			} 
+
+			focus = {
+				id = TRB_the_undying_confederacy
+				x = 17
+				y = 25
+				icon = "GFX_focus_generic_support_the_left_right"
+				#relative_position_id = AST_empower_the_workers
+				prerequisite = { focus = TRB_break_the_last_of_the_old_guard }
+				#mutually_exclusive = {focus = GOZ_economy_above_all }
+				available = {
+				}
+				bypass = {
+				}
+				cost = 10
+				cancel_if_invalid = yes
+				continue_if_invalid = no
+				available_if_capitulated = no
+				completion_reward = {
+				add_political_power = 100
+				}
+				ai_will_do = {
+				}
+				} 
+				
+
+			focus = {
+				id = TRB_obtain_intelligence_on_icrusian_generals
+				x = 15
+				y = 22
+				icon = "GFX_goal_generic_intelligence_exchange"
+				#relative_position_id = AST_empower_the_workers
+				prerequisite = { focus = TRB_jewel_of_ambulas }
+				#mutually_exclusive = {focus = GOZ_economy_above_all }
+				available = {
+				}
+				bypass = {
+				}
+				cost = 10
+				cancel_if_invalid = yes
+				continue_if_invalid = no
+				available_if_capitulated = no
+				completion_reward = {
+				add_political_power = 100
+				}
+				ai_will_do = {
+				}
+				} 
+
+			focus = {
+				id = TRB_isolate_icrusia
+				x = 19
+				y = 22
+				icon = GFX_goal_understand_void_strength
+				#relative_position_id = AST_empower_the_workers
+				prerequisite = { focus = TRB_jewel_of_ambulas }
+				#mutually_exclusive = {focus = GOZ_economy_above_all }
+				available = {
+				}
+				bypass = {
+				}
+				cost = 10
+				cancel_if_invalid = yes
+				continue_if_invalid = no
+				available_if_capitulated = no
+				completion_reward = {
+				add_political_power = 100
+				}
+				ai_will_do = {
+				}
+				} 
+
+
+
+
+	focus = {
+		id = TRB_war_plan_grey
+		x = 12
+		y = 16
+		icon = GFX_goal_generic_more_territorial_claims
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = TRB_on_the_war_path }
+		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+
+	focus = {
+		id = TRB_war_plan_pink
+		x = 22
+		y = 16
+		icon = GFX_goal_generic_more_territorial_claims
+		#relative_position_id = AST_empower_the_workers
+		prerequisite = { focus = TRB_on_the_war_path }
+		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
  
 focus = {
-id = TRB_follow_in_icrusian_footsteps
-x = 15
-y = 16
-icon = GFX_goal_generic_territory_or_war
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_on_the_war_path }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = TRB_a_lone_wolf
-x = 21
-y = 16
-icon = GFX_goal_generic_wolf_pack
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_on_the_war_path }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = TRB_kick_efror_while_they_are_down
-x = 15
+id = TRB_denounce_the_western_kingdoms
+x = 11
 y = 17
+icon = "GFX_goal_demand_sudetenland"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_war_plan_grey }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+
+focus = {
+	id = TRB_mobilise_the_western_border
+	x = 13
+	y = 17
+	icon = "GFX_focus_generic_little_entente"
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = TRB_war_plan_grey }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+	add_political_power = 100
+	}
+	ai_will_do = {
+	}
+	} 
+ 
+focus = {
+id = TRB_analyse_the_previous_invasion
+x = 21
+y = 17
+icon = "GFX_goal_generic_air_doctrine"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_war_plan_pink }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_miygha_doctrine
+x = 11
+y = 18
 icon = GFX_focus_eng_move_to_secure_the_dominions
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_follow_in_icrusian_footsteps }
+prerequisite = { focus = TRB_denounce_the_western_kingdoms }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -3960,12 +4430,12 @@ ai_will_do = {
 } 
  
 focus = {
-id = TRB_finish_efror_off
+id = TRB_make_preparations
 x = 21
-y = 17
+y = 18
 icon = GFX_goal_generic_attack_allies
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_a_lone_wolf }
+prerequisite = { focus = TRB_analyse_the_previous_invasion }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -3983,12 +4453,12 @@ ai_will_do = {
 } 
  
 focus = {
-id = TRB_invade_the_western_kingdoms
-x = 14
+id = TRB_build_up_roads_to_the_west
+x = 13
 y = 18
-icon = GFX_goal_generic_major_war
+icon = "GFX_goal_generic_construct_infrastructure"
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_kick_efror_while_they_are_down }
+prerequisite = { focus = TRB_mobilise_the_western_border }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -4006,12 +4476,13 @@ ai_will_do = {
 } 
  
 focus = {
-id = TRB_secure_an_alliance_with_icrusia
-x = 16
-y = 18
+id = TRB_find_a_casus_belli
+x = 12
+y = 19
 icon = GFX_goal_anschluss
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_kick_efror_while_they_are_down }
+prerequisite = { focus = TRB_build_up_roads_to_the_west }
+prerequisite = { focus = TRB_miygha_doctrine }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -4029,82 +4500,12 @@ ai_will_do = {
 } 
  
 focus = {
-id = TRB_failing_northern_kingdoms
-x = 19
-y = 18
-icon = GFX_goal_generic_secret_weapon
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_finish_efror_off }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = TRB_icrusia_up_for_grabs
-x = 21
-y = 18
-icon = GFX_focus_generic_strike_at_democracy1
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_finish_efror_off }
-mutually_exclusive = {focus = TRB_overpower_the_airestonians }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = TRB_overpower_the_airestonians
+id = TRB_reestablish_old_systems
 x = 23
 y = 18
-icon = GFX_goal_generic_political_pressure
+icon = "GFX_goal_generic_political_pressure"
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_finish_efror_off }
-mutually_exclusive = {focus = TRB_icrusia_up_for_grabs }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = TRB_exploit_airestonian_weaknesses
-x = 15
-y = 19
-icon = GFX_goal_generic_occupy_states_ongoing_war
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_invade_the_western_kingdoms }
-prerequisite = { focus = TRB_secure_an_alliance_with_icrusia }
+prerequisite = { focus = TRB_revitalise_anti_efror_propaganda }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -4122,13 +4523,82 @@ ai_will_do = {
 } 
  
 focus = {
-id = TRB_take_our_place_in_the_south
-x = 21
+id = TRB_finish_off_efror
+x = 22
 y = 19
-icon = GFX_focus_generic_support_the_left_right
+icon = "GFX_goal_generic_more_territorial_claims"
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_failing_northern_kingdoms }
-prerequisite = { focus = TRB_icrusia_up_for_grabs OR = TRB_overpower_the_airestonians }
+prerequisite = { focus = TRB_make_preparations }
+prerequisite = { focus = TRB_reestablish_old_systems }
+#mutually_exclusive = {focus = TRB_overpower_the_airestonians }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_revitalise_anti_efror_propaganda
+x = 23
+y = 17
+icon = "GFX_goal_generic_propaganda"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_war_plan_pink }
+#mutually_exclusive = {focus = TRB_icrusia_up_for_grabs }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_integrate_western_lands
+x = 12
+y = 20
+icon = "GFX_goal_generic_position_armies"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_find_a_casus_belli }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = TRB_integrate_remaining_efror_lands
+x = 22
+y = 20
+icon = "GFX_goal_generic_position_armies"
+#relative_position_id = AST_empower_the_workers
+prerequisite = { focus = TRB_finish_off_efror }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
