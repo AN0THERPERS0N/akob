@@ -12,6 +12,18 @@
 #	}
 #}
 
+purification = {
+	priority = 20
+	icon = generic_propaganda
+
+	allowed = {
+		tag = LCR
+	}
+	visible = {
+
+	}
+}
+
 corruption = {
 	priority = 15
 	icon = generic_propaganda

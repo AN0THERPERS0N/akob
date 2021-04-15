@@ -80,7 +80,7 @@ no_country_for_rich_men = {
 
         fire_only_once = no
 
-        days_re_enable = 1
+        days_re_enable = 30
 
         visible = {
             ROOT = {
@@ -88,7 +88,7 @@ no_country_for_rich_men = {
             }
         }
 
-        cost = 10
+        cost = 100
         
         complete_effect = {   
             DCR = { set_country_flag = DCR_inverse_wealth }

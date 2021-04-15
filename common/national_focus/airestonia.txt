@@ -821,7 +821,7 @@ focus_tree = {
 #####
 
 	focus = {
-		id = ARS_our_gplace_in_the_sund
+		id = ARS_our_place_in_the_sun
 		icon = GFX_goal_generic_special_forces
 		x = 10
 		y = 7
@@ -855,7 +855,7 @@ focus_tree = {
 		icon = GFX_focus_rom_royal_dictatorship
 		x = 0
 		y = 6
-		relative_position_id = ARS_our_gplace_in_the_sund
+		relative_position_id = ARS_our_place_in_the_sun
 		prerequisite = { focus = ARS_a_city_of_angels }
 		available = {
 
@@ -2287,7 +2287,7 @@ focus_tree = {
 		x = 10
 		y = 8
 		#relative_position_id = ARS_right_to_rule
-		prerequisite = { focus = ARS_right_to_rule }
+		prerequisite = { focus = ARS_our_place_in_the_sun }
 		available = {
 
 		}
@@ -2741,7 +2741,7 @@ focus_tree = {
 		x = 32
 		y = 7
 		prerequisite = { focus = ARS_the_illesas_proclamation OR = ARS_fortress_airestonia }
-		mutually_exclusive = {focus = dARS_right_to_ruled }
+		mutually_exclusive = {focus = ARS_our_place_in_the_sun }
 		available = {
 
 		}

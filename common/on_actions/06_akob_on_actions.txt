@@ -14,4 +14,31 @@ on_actions = {
 			} 
 		} 
 	}
+
+	on_daily_PRL = {
+		effect = {
+			if = {
+				limit = {
+					LCR = { has_idea = purified}
+					NOT = { PRL = { num_of_controlled_states = 214 } }
+				}
+				PRL = { clr_country_flag = PRL_start }
+				while_loop_effect = {
+					limit = {
+						NOT = { PRL = { has_country_flag = PRL_start } }
+
+					}
+					random_controlled_state = {
+						random_neighbor_state = {
+							limit = {
+								NOT = { is_controlled_by = PRL }
+							}
+							PRL = { transfer_state = PREV }
+							PRL = { set_country_flag = PRL_start }
+						} 
+					}
+				}
+			}
+		}
+	}
 }

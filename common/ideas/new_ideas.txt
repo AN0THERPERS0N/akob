@@ -31,6 +31,28 @@ ideas = {
 				can_not_declare_war = yes
 			}
 		}
+
+		purified = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
 		
 	}
 	

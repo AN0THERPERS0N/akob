@@ -34,7 +34,7 @@ available = {
 }
 bypass = {
 }
-cost = 1
+cost = 100
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no

@@ -29,3 +29,5 @@ MRO = "countries/Misaross.txt"
 DCR = "countries/Democratic_icrusia.txt"
 LCR = "countries/Loyalist_icrusia.txt"
 
+PRL = "countries/Purifiedlands.txt"
+
