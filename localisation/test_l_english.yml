@@ -44,3 +44,8 @@
   DED_neutrality:0 "Drecdin"
   YLC_neutrality:0 "Ylecstin"
   IMN_neutrality:0 "Illemont"
+
+ RBS_communism:0 "Rebellious States"
+ RBS_fascism:0 "Rebellious States"
+ RBS_neutrality:0 "Rebellious States"
+ RBS_democratic:0 "Rebellious States"

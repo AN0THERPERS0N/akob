@@ -36,7 +36,7 @@ corruption = {
 	}
 }
 
-martyrdom = {
+price_of_freedom = {
 	priority = 15
 	icon = generic_propaganda
 

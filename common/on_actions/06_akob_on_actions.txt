@@ -15,6 +15,36 @@ on_actions = {
 		} 
 	}
 
+	on_daily_DCR = { 
+		effect = {
+			if = {
+				limit = {
+					DCR = { has_idea = rebellious_states }
+					DCR = { num_of_controlled_states > 1 }
+				}
+				random_controlled_state = {
+					RBS = { transfer_state = PREV }
+				}
+			}
+		} 
+	}
+
+	on_daily_RBS = { 
+		effect = {
+			if = {
+				limit = {
+					country_exists = RBS
+					NOT = {
+						DCR = { has_idea = rebellious_states }
+					}
+				}
+				random_controlled_state = {
+					DCR = { transfer_state = PREV }
+				}
+			}
+		} 
+	}
+
 	on_daily_PRL = {
 		effect = {
 			if = {

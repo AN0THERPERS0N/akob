@@ -1,4 +1,4 @@
-﻿capital = 104
+﻿capital = 103
 
 #OOB = "ALB_1936"
 
@@ -6,53 +6,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1931.10.10"
-	election_frequency = 36
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
 	elections_allowed = no
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = RBS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = RBS
-	}
-}
-
-
-
 set_popularities = {
-	fascism = 80
-	communism = 20
+	neutrality = 100
 }
-
-declare_war_on = {
-		target = ICR
-		type = annex_everything
-}
-declare_war_on = {
-		target = LCR
-		type = annex_everything
-}	
 
 set_convoys = 5
 
-AGR = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	add_popularity = { ideology = fascism popularity = 1 }
-   	add_popularity = { ideology = communism popularity = 0.98 }
+add_ideas = { 
+	not_a_country
 }
 
 #Victor Emmanuel III of Italy after 39

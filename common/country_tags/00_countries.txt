@@ -15,6 +15,7 @@ OBX = "countries/Obrax.txt"
 ANC = "countries/Anarchy.txt"
 WSL = "countries/Wasteland.txt"
 CRP = "countries/Corruption.txt"
+RBS = "countries/Rebellious_states.txt"
 
 #Arbiter states
 CTP = "countries/Claetport.txt"
