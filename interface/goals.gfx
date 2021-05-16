@@ -1,5 +1,35 @@
 spriteTypes = {	
 
+#demoicrusia
+SpriteType = {
+	name = GFX_goal_airestonian_revolutionaries
+	texturefile = gfx/interface/goals/goal_airestonian_revolutionaries.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_detailed_doctrine
+	texturefile = gfx/interface/goals/goal_detailed_doctrine.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_echainaian_revolutionaries
+	texturefile = gfx/interface/goals/goal_echainaian_revolutionaries.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_guns_and_smoke
+	texturefile = gfx/interface/goals/goal_guns_and_smoke.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_illidea_revolutionaries
+	texturefile = gfx/interface/goals/goal_illidea_revolutionaries.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_speaker
+	texturefile = gfx/interface/goals/goal_speaker.dds                        
+	}
+SpriteType = {
+	name = GFX_goal_trubian_revolutionaries
+	texturefile = gfx/interface/goals/goal_trubian_revolutionaries.dds                        
+	}
+
 #agra
 
 SpriteType = {

@@ -261,7 +261,7 @@ focus = {
 	id = DCR_guns_and_smoke
 	x = 16
 	y = 3
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_guns_and_smoke
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_quick_and_decisive }
@@ -702,7 +702,7 @@ focus = {
 	id = DCR_target_the_other_side_of_the_civil_war
 	x = 29
 	y = 4
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_a_grand_battleplan }
@@ -728,7 +728,7 @@ focus = {
 	id = DCR_aim_for_the_heart_of_the_empire
 	x = 35
 	y = 4
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_goal_tfv_sever_ties_with_uk"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_a_grand_battleplan }
@@ -1849,7 +1849,7 @@ focus = {
 	id = DCR_end_of_the_civil_war
 	x = 25
 	y = 9
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_tripartite_pact
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_death_to_the_empire OR = DCR_no_longer_icrusian_backwater }
@@ -2738,7 +2738,7 @@ focus = {
 	id = DCR_study_defeat_in_detail
 	x = 59
 	y = 14
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_detailed_doctrine
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_new_infantry_battle_tactics }
@@ -3570,7 +3570,7 @@ focus = {
 	id = DCR_work_together_with_gozyr
 	x = 26
 	y = 16
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_generic_improve_relations
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_echainaian_freedom_policy }
@@ -3700,7 +3700,7 @@ focus = {
 	id = DCR_final_steps_towards_theberian_integration
 	x = 45
 	y = 16
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_goal_generic_territory_or_war"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_review_the_situation }
@@ -3726,7 +3726,7 @@ focus = {
 	id = DCR_pacify_agran_independence
 	x = 51
 	y = 16
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_goal_generic_occupy_states_ongoing_war"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_review_the_situation }
@@ -3940,7 +3940,7 @@ focus = {
 	id = DCR_promote_prominent_speakers
 	x = 23
 	y = 17
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_speaker
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_the_cantarov_plan OR = DCR_train_airestonian_revolutionaries }
@@ -4597,7 +4597,7 @@ focus = {
 	id = DCR_gather_illidean_revolutionaries
 	x = 20
 	y = 20
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_illidea_revolutionaries
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_see_through_the_creation_of_a_new_world_order }
@@ -4623,7 +4623,7 @@ focus = {
 	id = DCR_gather_airestonian_revolutionaries
 	x = 22
 	y = 20
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_airestonian_revolutionaries
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_see_through_the_creation_of_a_new_world_order }
@@ -4649,7 +4649,7 @@ focus = {
 	id = DCR_gather_trubian_revolutionaries
 	x = 24
 	y = 20
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_trubian_revolutionaries
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_see_through_the_creation_of_a_new_world_order }
@@ -4675,7 +4675,7 @@ focus = {
 	id = DCR_gather_echainaian_revolutionaries
 	x = 26
 	y = 20
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_echainaian_revolutionaries
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_see_through_the_creation_of_a_new_world_order }
@@ -4757,7 +4757,7 @@ focus = {
 	id = DCR_threaten_gozyr
 	x = 39
 	y = 21
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_focus_rom_parties_end"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_foreign_matters }
@@ -4835,7 +4835,7 @@ focus = {
 	id = DCR_secure_the_militias
 	x = 20
 	y = 22
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_focus_spa_the_phalanx_ascendant"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_create_the_APF }
@@ -4861,7 +4861,7 @@ focus = {
 	id = DCR_make_necessary_preparations
 	x = 22
 	y = 22
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_focus_generic_self_management"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_create_the_APF }
@@ -4887,7 +4887,7 @@ focus = {
 	id = DCR_expand_the_grand_intelligence_network
 	x = 24
 	y = 22
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_focus_hol_war_on_pacifism"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_create_the_APF }
@@ -4913,7 +4913,7 @@ focus = {
 	id = DCR_train_local_fighters
 	x = 26
 	y = 22
-	icon = GFX_goal_generic_demand_territory
+	icon = "GFX_goal_generic_CAS"
 	#relative_position_id = AST_empower_the_workers
 	 
 	prerequisite = { focus = DCR_create_the_APF }
