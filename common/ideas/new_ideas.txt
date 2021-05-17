@@ -53,39 +53,6 @@ ideas = {
 
 			removal_cost = -1
 		}
-
-		rebellious_states = {
-			picture = not_a_country
-			
-			allowed = {
-				tag = DCR
-			}
-
-			available = {
-				
-			}
-			
-			modifier = {
-				no_supply_grace = 365
-				out_of_supply_factor = 90
-				supply_consumption_factor = 0.01
-				production_factory_efficiency_gain_factor = 100
-				production_factory_max_efficiency_factor = 100
-				production_factory_start_efficiency_factor = 0.9
-				production_lack_of_resource_penalty_factor = -100
-				weekly_manpower = 10000
-			}
-
-			cancel = {
-
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-		}
 		
 	}
 	
