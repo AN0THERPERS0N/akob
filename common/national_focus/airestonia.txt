@@ -43,8 +43,19 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
-			ARS = { transfer_state = 71 }
+			declare_war_on = {
+				target = DCR
+				type = puppet
+			}
+			declare_war_on = {
+				target = LCR
+				type = puppet
+			}
+			declare_war_on = {
+				target = ICR
+				type = puppet
+			}
+			add_political_power = -100
 		}
 
 		ai_will_do = {
@@ -74,7 +85,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			conscription = 0.05
+			drift_defence_factor = 0.3
+			fascism_drift = 0.10
 		}
 
 		ai_will_do = {
@@ -107,7 +120,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_stability = 0.1
+			add_war_support = 0.5
+			add_idea = amaris_decree
 		}
 
 		ai_will_do = {
@@ -137,7 +152,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = { 
+				remove_idea = ARS_amaris_decree 
+				add_idea = ARS_amaris_decree2 
+			}
 		}
 
 		ai_will_do = {
@@ -167,7 +185,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = { 
+				remove_idea = ARS_amaris_decree2
+				add_idea = ARS_amaris_decree3
+			}
 		}
 
 		ai_will_do = {
@@ -197,7 +218,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = { 
+				remove_idea = ARS_amaris_decree3
+				add_idea = ARS_amaris_decree4
+			}
 		}
 
 		ai_will_do = {
@@ -229,7 +253,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#forts
+			
 		}
 
 		ai_will_do = {
@@ -259,7 +284,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#forts
+			
 		}
 
 		ai_will_do = {
@@ -290,7 +316,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#forts
+			conscription = 0.05
 		}
 
 		ai_will_do = {
@@ -321,7 +348,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#forts
+			political_power_gain = 0.5
 		}
 
 		ai_will_do = {
@@ -351,7 +379,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -381,7 +409,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#units
 		}
 
 		ai_will_do = {
@@ -411,7 +439,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -443,7 +471,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#forts
 		}
 
 		ai_will_do = {
@@ -476,7 +504,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -506,7 +534,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -536,7 +564,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -566,7 +594,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -596,7 +624,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -627,7 +655,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -658,7 +686,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -688,7 +716,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -718,7 +746,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -748,7 +776,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -778,7 +806,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -810,7 +838,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -842,7 +870,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -872,7 +900,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -902,7 +930,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -932,7 +960,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -963,7 +991,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -993,7 +1021,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1023,7 +1051,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1053,7 +1081,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1083,7 +1111,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1114,7 +1142,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1144,7 +1172,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1174,7 +1202,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1204,7 +1232,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1234,7 +1262,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1264,7 +1292,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1294,7 +1322,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1324,7 +1352,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1355,7 +1383,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1385,7 +1413,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1415,7 +1443,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1449,7 +1477,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1479,7 +1507,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1509,7 +1537,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1543,7 +1571,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1573,7 +1601,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1603,7 +1631,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1637,7 +1665,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1667,7 +1695,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1697,7 +1725,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1727,7 +1755,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1757,7 +1785,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1787,7 +1815,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1817,7 +1845,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1847,7 +1875,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1877,7 +1905,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1907,7 +1935,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1938,7 +1966,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1968,7 +1996,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -1999,7 +2027,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2029,7 +2057,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2059,7 +2087,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2089,7 +2117,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2121,7 +2149,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2151,7 +2179,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2181,7 +2209,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2211,7 +2239,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2243,7 +2271,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2273,7 +2301,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2303,7 +2331,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2333,7 +2361,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2363,7 +2391,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2393,7 +2421,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2423,7 +2451,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2453,7 +2481,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2485,7 +2513,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2515,7 +2543,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2545,7 +2573,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2575,7 +2603,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2605,7 +2633,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2635,7 +2663,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2665,7 +2693,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2695,7 +2723,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2725,7 +2753,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2757,7 +2785,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2787,7 +2815,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2817,7 +2845,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2847,7 +2875,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2877,7 +2905,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2907,7 +2935,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2939,7 +2967,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2969,7 +2997,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3000,7 +3028,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3031,7 +3059,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3062,7 +3090,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3093,7 +3121,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3123,7 +3151,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3153,7 +3181,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3183,7 +3211,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3213,7 +3241,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3244,7 +3272,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3275,7 +3303,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3305,7 +3333,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3335,7 +3363,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3365,7 +3393,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3397,7 +3425,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3429,7 +3457,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3461,7 +3489,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3491,7 +3519,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3521,7 +3549,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3551,7 +3579,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3581,7 +3609,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3611,7 +3639,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3642,7 +3670,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3672,7 +3700,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3702,7 +3730,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3733,7 +3761,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3763,7 +3791,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3793,7 +3821,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3824,7 +3852,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3854,7 +3882,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3884,7 +3912,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3914,7 +3942,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3944,7 +3972,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3974,7 +4002,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4005,7 +4033,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4035,7 +4063,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4065,7 +4093,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4095,7 +4123,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4125,7 +4153,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4155,7 +4183,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4185,7 +4213,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4215,7 +4243,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4245,7 +4273,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4276,7 +4304,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4306,7 +4334,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4336,7 +4364,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4366,7 +4394,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4396,7 +4424,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4426,7 +4454,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4456,7 +4484,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4486,7 +4514,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4516,7 +4544,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4546,7 +4574,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4577,7 +4605,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4607,7 +4635,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4637,7 +4665,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4667,7 +4695,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4697,7 +4725,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4727,7 +4755,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4758,7 +4786,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4790,7 +4818,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4821,7 +4849,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4852,7 +4880,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4883,7 +4911,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4915,7 +4943,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4945,7 +4973,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4975,7 +5003,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5005,7 +5033,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5036,7 +5064,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5066,7 +5094,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5096,7 +5124,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5127,7 +5155,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5157,7 +5185,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5188,7 +5216,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5218,7 +5246,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5248,7 +5276,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5279,7 +5307,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5309,7 +5337,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5339,7 +5367,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5369,7 +5397,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5400,7 +5428,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5430,7 +5458,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5461,7 +5489,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5491,7 +5519,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -5521,7 +5549,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
