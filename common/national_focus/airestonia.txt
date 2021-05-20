@@ -534,7 +534,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			conscription_factor = 0.05
+			add_political_power = -50
 		}
 
 		ai_will_do = {
@@ -564,7 +565,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			conscription_factor = 0.05
+			add_political_power = -50
 		}
 
 		ai_will_do = {
@@ -594,7 +596,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			conscription_factor = 0.1
+			add_political_power = -100
 		}
 
 		ai_will_do = {
@@ -624,7 +627,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_idea = ARS_decree
+			add_political_power = -50
 		}
 
 		ai_will_do = {
@@ -655,7 +659,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_idea = {
+				add_idea = ARS_decree2
+				remove_idea = ARS_decree1
+			}
+			add_political_power = -50
+			add_stability = -0.2
 		}
 
 		ai_will_do = {
@@ -686,7 +695,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_idea = {
+				add_idea = ARS_decree2
+				remove_idea = ARS_decree1
+			}
+			add_political_power = -100
 		}
 
 		ai_will_do = {
@@ -716,7 +729,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_war_support = 0.2
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.3
+			}
+			add_manpower = -10000
 		}
 
 		ai_will_do = {
@@ -746,7 +764,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			political_power_gain = 2
+			add_idea = ARS_communist_sentiments
 		}
 
 		ai_will_do = {
@@ -776,7 +795,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_political_power = 200
+			swap_idea = {
+				add_idea = ARS_communist_sentiments2
+				remove_idea = ARS_communist_sentiments
+			}
 		}
 
 		ai_will_do = {
@@ -806,7 +829,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_political_power = 200
+			political_power_gain = 1
+			swap_idea = {
+				add_idea = ARS_communist_sentiments3
+				remove_idea = ARS_communist_sentiments2
+			}
 		}
 
 		ai_will_do = {
@@ -820,7 +848,6 @@ focus_tree = {
 		x = 4
 		y = 6
 		relative_position_id = ARS_war_with_icrusia
-		prerequisite = { focus = ARS_state-wide_rations }
 		prerequisite = { focus = ARS_remove_the_undesirables }
 		prerequisite = { focus = ARS_every_mans_war }
 		available = {
@@ -838,7 +865,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -870,7 +897,16 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			if = {
+				limit = { 
+					tag = ARS 
+					ARS = { has_ideas = ARS_amaris_decree3 }
+				}
+				remove_idea = ARS_amaris_decree3
+			}
+			add_stability = 0.5
+			add_war_support = -0.2
+
 		}
 
 		ai_will_do = {
@@ -884,7 +920,8 @@ focus_tree = {
 		x = 0
 		y = 6
 		relative_position_id = ARS_our_place_in_the_sun
-		prerequisite = { focus = ARS_a_city_of_angels }
+		prerequisite = { focus = ARS_a_city_of_angels OR = ARS_arrest_without_trial }
+		prerequisite = { focus = ARS_reeducation_camps OR = ARS_airestonian_cultural_rebirth }
 		available = {
 
 		}
@@ -900,7 +937,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			remove_idea = ARS_paranoia
+			#event
 		}
 
 		ai_will_do = {
@@ -1322,7 +1360,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_idea = ARS_old_order
 		}
 
 		ai_will_do = {
@@ -1352,7 +1390,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -1367,7 +1405,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_consolidate_icrusian_lands}
-		mutually_exclusive = {focus = ARS_icrusian_land_redistribution }
+		mutually_exclusive = {focus = ARS_establish_the_crown_colony }
 		available = {
 
 		}
@@ -1413,7 +1451,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -1740,6 +1778,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = ARS_right_to_rule
 		prerequisite = { focus = ARS_consolidate_icrusian_lands}
+		mutually_exclusive = {focus = ARS_icrusian_crown_lands }
 		available = {
 
 		}
@@ -2331,7 +2370,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -2361,7 +2400,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_idea = ARS_paranoia
 		}
 
 		ai_will_do = {
@@ -2391,7 +2430,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -2421,7 +2460,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_war_support = -0.2
+			add_stability = 0.05
 		}
 
 		ai_will_do = {
@@ -2451,7 +2491,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_idea = ARS_state_subsidised_freedom
 		}
 
 		ai_will_do = {
@@ -2481,7 +2521,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#units
+			add_stability = 0.05
 		}
 
 		ai_will_do = {
@@ -2513,7 +2554,24 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					ARS = { has_idea = ARS_paranoia }
+				}   
+				swap_ideas = { 
+					remove_idea = ARS_paranoia
+					add_idea = ARS_paranoia2
+				}
+			}
+			else_if = {
+				limit = {
+					ARS = { has_idea = ARS_paranoia2 }
+				}
+				swap_ideas = { 
+					remove_idea = ARS_paranoia2
+					add_idea = ARS_paranoia3
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -2543,7 +2601,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			every_state = {
+				limit = {
+					state = 61
+				}
+				add_manpower = -10000
+			}
+			add_stability = 0.05
 		}
 
 		ai_will_do = {
@@ -2573,7 +2637,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			every_state = {
+				limit = {
+					state = 61
+				}
+				add_manpower = -10000
+			}
+			add_stability = 0.05
 		}
 
 		ai_will_do = {
@@ -2603,7 +2673,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -2633,7 +2703,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_war_support = 0.1
+			add_stability = 0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
 		}
 
 		ai_will_do = {
@@ -2663,7 +2738,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -2693,7 +2768,25 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					ARS = { has_idea = ARS_paranoia }
+				}   
+				swap_ideas = { 
+					remove_idea = ARS_paranoia
+					add_idea = ARS_paranoia2
+				}
+			}
+			else_if = {
+				limit = {
+					ARS = { has_idea = ARS_paranoia2 }
+				}
+				swap_ideas = { 
+					remove_idea = ARS_paranoia2
+					add_idea = ARS_paranoia3
+				}
+			}
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -2723,7 +2816,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -2753,7 +2846,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
