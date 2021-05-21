@@ -11,8 +11,8 @@ state={
 		owner = LCR
 		buildings = {
 			infrastructure = 5
-			arms_factory = 4
-			industrial_complex = 7
+			arms_factory = 3
+			industrial_complex = 3
 
 		}
 		victory_points = {
@@ -29,5 +29,5 @@ state={
 		289 436 470 496 1069 1446 1570 1682 1861 1891 2054 2056 2079 2082 2085 
 	}
 	manpower=1146720
-	state_category=megalopolis
+	state_category = large_town
 }

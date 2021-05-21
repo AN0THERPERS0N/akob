@@ -11,7 +11,8 @@ state={
 		owner = LCR
 		buildings = {
 			infrastructure = 4
-
+			arms_factory = 4
+			industrial_complex = 1
 		}
 		add_core_of = LCR
 		victory_points = {
@@ -26,5 +27,5 @@ state={
 		166 601 994 1006 1488 1502 1558 1736 1860 
 	}
 	manpower=1253371
-	state_category=town
+	state_category = large_town
 }

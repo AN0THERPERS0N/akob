@@ -11,8 +11,8 @@ state={
 		owner = TRB
 		buildings = {
 			infrastructure = 6
-			arms_factory = 12
-			industrial_complex = 13
+			arms_factory = 7
+			industrial_complex = 10
 
 		}
 		add_core_of = TRB
@@ -34,6 +34,5 @@ state={
 		160 402 444 449 523 598 800 1049 1133 1220 1533 1554 1619 1858 1878 2290 2309 
 	}
 	manpower=4155738
-	buildings_max_level_factor=16.000
-	state_category=supercity
+	state_category = megalopolis
 }

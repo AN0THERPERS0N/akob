@@ -261,12 +261,7 @@ guiTypes = {
 	
 			}			
 
-			gridboxtype = {
-				name = "Cavalry_tree"
-				position = { x = 140 y = 620 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
+
 
 			gridboxtype = {
 				name = "marines_tree"
@@ -277,6 +272,13 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tech_mountaineers_tree"
+				position = { x = 140 y = 930 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "Cavalry_tree"
 				position = { x = 140 y = 930 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -494,6 +496,12 @@ guiTypes = {
 			gridboxtype = {
 				name = "motorised_infantry_tree"
 				position = { x = 100 y = 160 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "Cavalry_tree"
+				position = { x = 140 y = 930 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

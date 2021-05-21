@@ -10,7 +10,6 @@ state={
 		owner = AGR
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
             1144 10

@@ -11,8 +11,7 @@ state={
 		owner = AGR
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-
+			industrial_complex = 2
 		}
 		add_core_of = AGR
 		victory_points = {

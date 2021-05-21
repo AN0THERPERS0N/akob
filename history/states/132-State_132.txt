@@ -25,5 +25,5 @@ state={
 		445 685 732 1046 1538 1666 1711 1778 2313 
 	}
 	manpower=5211636
-	state_category=metropolis
+	state_category = large_city
 }

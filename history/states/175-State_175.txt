@@ -10,8 +10,8 @@ state={
 		owner = ARS
 		buildings = {
 			infrastructure = 7
-			arms_factory = 4
-			industrial_complex = 4
+			arms_factory = 2
+			industrial_complex = 6
 
 		}
 		add_core_of = ARS
@@ -28,7 +28,7 @@ state={
         	    451 50
         	}
 	}
-	state_category=metropolis
+	state_category = large_town
 	provinces={
 		137 303 451 466 570 960 997 1029 1665 1734 1796 1876 1887 2253 
 	}

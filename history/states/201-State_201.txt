@@ -11,8 +11,8 @@ state={
 		owner = TRB
 		buildings = {
 			infrastructure = 6
-			arms_factory = 9
-			industrial_complex = 10
+			arms_factory = 5
+			industrial_complex = 7
 			dockyard = 2
 
 		}
@@ -29,6 +29,5 @@ state={
 		104 209 246 323 353 473 651 783 1062 1285 1390 1503 1568 1612 1761 1816 1916 2329 
 	}
 	manpower=6841762
-	buildings_max_level_factor=9.000
-	state_category=supercity
+	state_category = megalopolis
 }

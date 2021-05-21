@@ -11,8 +11,8 @@ state={
 		owner = GOZ
 		buildings = {
 			infrastructure = 8
-			arms_factory = 2
-			industrial_complex = 15
+			arms_factory = 1
+			industrial_complex = 10
 
 		}
 		add_core_of = GOZ
@@ -25,6 +25,5 @@ state={
 		371 611 684 694 849 913 1863 1954 2044 
 	}
 	manpower=1315953
-	buildings_max_level_factor=6.000
-	state_category=supercity
+	state_category = megalopolis
 }

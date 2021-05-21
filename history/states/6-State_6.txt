@@ -11,7 +11,7 @@ state={
 		owner = THB
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+			industrial_complex = 2
 
 		}
 		add_core_of = THB
@@ -25,6 +25,5 @@ state={
 		283 517 843 1007 1032 1139 1593 1616 1915 2141 
 	}
 	manpower=638616
-	buildings_max_level_factor=1.000
 	state_category=rural
 }

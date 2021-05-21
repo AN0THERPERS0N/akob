@@ -28,5 +28,5 @@ state={
 		275 284 312 363 367 566 1218 1519 1784 1798 1910 2227 
 	}
 	manpower=25352918
-	state_category=megalopolis
+	state_category = metropolis
 }

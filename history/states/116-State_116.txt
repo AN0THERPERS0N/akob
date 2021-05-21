@@ -31,5 +31,5 @@ state={
 		40 43 235 315 433 697 789 1314 1410 1867 2156 
 	}
 	manpower=4789184
-	state_category=metropolis
+	state_category = large_city
 }

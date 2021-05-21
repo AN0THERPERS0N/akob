@@ -1,6 +1,6 @@
 ﻿capital = 167
 
-#OOB = "ALB_1936"
+OOB = "IMN_1714"
 
 set_technology = {
 }

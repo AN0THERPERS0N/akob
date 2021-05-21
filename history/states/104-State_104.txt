@@ -11,8 +11,8 @@ state={
 		owner = DCR
 		buildings = {
 			infrastructure = 4
-			arms_factory = 3
-			industrial_complex = 3
+			arms_factory = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = DCR
@@ -28,5 +28,5 @@ state={
 		113 906 949 1068 1262 1299 1668 2143 2163 2166 
 	}
 	manpower=1212807
-	state_category=city
+	state_category = city
 }

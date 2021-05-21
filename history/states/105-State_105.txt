@@ -11,8 +11,8 @@ state={
 		owner = ARS
 		buildings = {
 			infrastructure = 7
-			arms_factory = 4
-			industrial_complex = 5
+			arms_factory = 3
+			industrial_complex = 6
 
 		}
 		victory_points = {
@@ -26,5 +26,5 @@ state={
 		2 154 165 168 585 961 1396 1832 1919 2133 
 	}
 	manpower=2571295
-	state_category=megalopolis
+	state_category = large_city
 }

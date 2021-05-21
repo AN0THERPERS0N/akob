@@ -10,18 +10,22 @@ state={
 	history={
 		owner = DCR
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
 		}
 		add_core_of = DCR
 		victory_points = {
-        	    1226 10
-        	}
+			1464 50
+		}
+		victory_points = {
+			1226 10
+		}
 	}
 
 	provinces={
 		28 52 328 425 529 1091 1226 1324 1464 1959 2174 2191 2208 
 	}
 	manpower=899280
-	state_category=town
+	state_category = large_town
 }

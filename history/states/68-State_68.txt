@@ -11,7 +11,6 @@ state={
 		owner = AGR
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = AGR
 

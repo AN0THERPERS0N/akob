@@ -1,6 +1,6 @@
 technologies = {
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	basic_magic = { #Leichttraktor
+	gwtank = { #Leichttraktor
 
 		enable_equipments = {
 			basic_magic

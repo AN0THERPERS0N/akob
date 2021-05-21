@@ -10,7 +10,8 @@ state={
 		owner = ECH
 		buildings = {
 			infrastructure = 7
-
+			arms_factory = 2
+			industrial_complex = 3
 		}
 		add_core_of = ECH
 		victory_points = {
@@ -20,7 +21,7 @@ state={
         	    894 10
         	}
 	}
-	state_category=town
+	state_category = large_town
 	provinces={
 		72 409 724 894 912 918 932 1358 1405 1586 1631 1988 2010 
 	}

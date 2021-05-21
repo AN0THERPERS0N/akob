@@ -10,8 +10,8 @@ state={
 		owner = ICR
 		buildings = {
 			infrastructure = 8
-			arms_factory = 9
-			industrial_complex = 14
+			arms_factory = 4
+			industrial_complex = 5
 
 		}
 		victory_points = {
@@ -23,10 +23,9 @@ state={
 		add_core_of = ICR
 
 	}
-	state_category=supercity
+	state_category = large_city
 	provinces={
 		110 348 488 508 698 781 1527 1735 1757 1793 2103 2115 2127 
 	}
 	manpower=8223204
-	buildings_max_level_factor=11.000
 }
