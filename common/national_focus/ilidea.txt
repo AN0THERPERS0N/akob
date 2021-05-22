@@ -27,7 +27,7 @@ focus_tree = {
 		x = 12.5
 		y = 0
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -90,37 +90,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_its_time_the_people_decide }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_vote_on_issues
-		icon = GFX_goal_generic_national_unity
-		x = -3
-		y = 2
-		relative_position_id = ILD_its_time_the_people_decide
-		prerequisite = { focus = ILD_set_up_the_people_council }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -1643,37 +1612,6 @@ focus_tree = {
 
 	focus = {
 		id = ILD_princely_generousity
-		icon = GFX_goal_celebrations
-		x = -4
-		y = 3
-		relative_position_id = ILD_prince_viktor_II_coronated
-		prerequisite = { focus = ILD_prince_viktor_II_coronated }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = ILD_princely_generousity
 		icon = "GFX_focus_rom_royal_dictatorship"
 		x = -3
 		y = 3
@@ -2610,7 +2548,7 @@ focus_tree = {
 		x = 33.5
 		y = 0
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -3579,7 +3517,7 @@ focus_tree = {
 		x = 33
 		y = 9
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 

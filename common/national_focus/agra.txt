@@ -28,7 +28,7 @@ focus_tree = {
 		icon = "GFX_focus_hol_abandon_the_gold_standard"
 		#relative_position_id = AST_empower_the_workers
 		 
-		prerequisite = { focus = AST_workers_paradise }
+		 
 		#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		 

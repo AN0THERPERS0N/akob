@@ -60,7 +60,7 @@ y = 0
 icon = GFX_goal_generic_demand_territory
 #relative_position_id = AST_empower_the_workers
  
-prerequisite = { focus = AST_workers_paradise }
+ 
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
  
@@ -86,7 +86,7 @@ y = 0
 icon = "GFX_goal_generic_production2"
 #relative_position_id = AST_empower_the_workers
  
-prerequisite = { focus = AST_workers_paradise }
+ 
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
  

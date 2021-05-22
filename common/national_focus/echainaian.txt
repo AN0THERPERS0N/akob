@@ -28,7 +28,7 @@ x = 23
 y = 1
 icon = GFX_goal_celebrations
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = AST_workers_paradise }
+ 
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -51,7 +51,7 @@ x = 25
 y = 1
 icon = GFX_goal_move_palace
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = AST_workers_paradise }
+ 
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -74,7 +74,7 @@ x = 27
 y = 1
 icon = GFX_focus_generic_treaty
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = AST_workers_paradise }
+ 
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -97,7 +97,7 @@ x = 24
 y = 2
 icon = GFX_goal_generic_improve_relations
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = AST_workers_paradise }
+ 
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -120,7 +120,7 @@ x = 26
 y = 2
 icon = GFX_focus_generic_diplomatic_treaty
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = AST_workers_paradise }
+ 
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }

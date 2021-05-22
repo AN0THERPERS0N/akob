@@ -27,7 +27,7 @@ x = 23
 y = 1
 icon = GFX_goal_support_democracy
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = AST_workers_paradise }
+ 
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 mutually_exclusive = {focus = MRO_dreams_of_a_nation }
 available = {
@@ -2087,7 +2087,7 @@ y = 1
 icon = GFX_goal_dreams_of_a_nation
 #relative_position_id = AST_empower_the_workers
  
-prerequisite = { focus = AST_workers_paradise }
+ 
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 mutually_exclusive = {focus = MRO_meeting_of_the_council_of_arbiters }
  

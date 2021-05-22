@@ -27,7 +27,7 @@ focus_tree = {
 		x = 38.5
 		y = 0
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -617,37 +617,6 @@ focus_tree = {
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = -1
 		y = 2
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_an_unholy_alliance }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 100
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_icrusian-gozyr_trade_agreement
-		icon = GFX_goal_generic_major_war
-		x = -1
-		y = 3
 		relative_position_id = GOZ_fear_the_second_empire
 		prerequisite = { focus = GOZ_an_unholy_alliance }
 		#mutually_exclusive = {focus = ARS_pay_your_dues }
@@ -2979,7 +2948,7 @@ focus_tree = {
 		x = 71.5
 		y = 0
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		#mutually_exclusive = {focus = ARS_pay_your_dues }
 		available = {
 

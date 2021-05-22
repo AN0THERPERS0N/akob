@@ -27,7 +27,7 @@ focus_tree = {
 		x = 22
 		y = 0
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		available = {
 
 		}
@@ -85,9 +85,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			conscription = 0.05
-			drift_defence_factor = 0.3
-			fascism_drift = 0.10
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+			add_manpower = 50000
 		}
 
 		ai_will_do = {
@@ -122,7 +124,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			add_war_support = 0.5
-			add_idea = amaris_decree
+			add_ideas = ARS_amaris_decree
 		}
 
 		ai_will_do = {
@@ -317,7 +319,7 @@ focus_tree = {
 
 		completion_reward = {
 			#forts
-			conscription = 0.05
+			add_manpower = 10000
 		}
 
 		ai_will_do = {
@@ -534,7 +536,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			conscription_factor = 0.05
+			add_manpower = 50000
 			add_political_power = -50
 		}
 
@@ -565,7 +567,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			conscription_factor = 0.05
+			add_manpower = 50000
 			add_political_power = -50
 		}
 
@@ -596,7 +598,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			conscription_factor = 0.1
+			add_manpower = 50000
 			add_political_power = -100
 		}
 
@@ -627,7 +629,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_decree
+			add_ideas = ARS_decree
 			add_political_power = -50
 		}
 
@@ -659,9 +661,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			swap_idea = {
-				add_idea = ARS_decree2
-				remove_idea = ARS_decree1
+			swap_ideas = {
+				add_ideas = ARS_decree2
+				remove_ideas = ARS_decree1
 			}
 			add_political_power = -50
 			add_stability = -0.2
@@ -695,9 +697,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			swap_idea = {
-				add_idea = ARS_decree2
-				remove_idea = ARS_decree1
+			swap_ideas = {
+				add_ideas = ARS_decree2
+				remove_ideas = ARS_decree1
 			}
 			add_political_power = -100
 		}
@@ -764,8 +766,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			political_power_gain = 2
-			add_idea = ARS_communist_sentiments
+			add_political_power = 100
+			add_ideas = ARS_communist_sentiments
 		}
 
 		ai_will_do = {
@@ -796,9 +798,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 200
-			swap_idea = {
-				add_idea = ARS_communist_sentiments2
-				remove_idea = ARS_communist_sentiments
+			swap_ideas = {
+				add_ideas = ARS_communist_sentiments2
+				remove_ideas = ARS_communist_sentiments
 			}
 		}
 
@@ -831,9 +833,9 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 200
 			political_power_gain = 1
-			swap_idea = {
-				add_idea = ARS_communist_sentiments3
-				remove_idea = ARS_communist_sentiments2
+			swap_ideas = {
+				add_ideas = ARS_communist_sentiments3
+				remove_ideas = ARS_communist_sentiments2
 			}
 		}
 
@@ -937,8 +939,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			remove_idea = ARS_paranoia
-			add_idea = ARS_an_icrusian_plot
+			remove_ideas = ARS_paranoia
+			add_ideas = ARS_an_icrusian_plot
 			#event
 		}
 
@@ -969,9 +971,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			swap_idea = {
-				add_idea = ARS_an_icrusian_plot2
-				remove_idea = ARS_an_icrusian_plot
+			swap_ideas = {
+				add_ideas = ARS_an_icrusian_plot2
+				remove_ideas = ARS_an_icrusian_plot
 			}
 		}
 
@@ -1370,7 +1372,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_old_order
+			add_ideas = ARS_old_order
 		}
 
 		ai_will_do = {
@@ -1525,7 +1527,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_airestonian_labour
+			add_ideas = ARS_airestonian_labour
 		}
 
 		ai_will_do = {
@@ -1619,7 +1621,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_forced_labour
+			add_ideas = ARS_forced_labour
 		}
 
 		ai_will_do = {
@@ -1680,7 +1682,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_vast_lands_of_icrusia
+			add_ideas = ARS_vast_lands_of_icrusia
 		}
 
 		ai_will_do = {
@@ -1714,7 +1716,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_paid_labour
+			add_ideas = ARS_paid_labour
 		}
 
 		ai_will_do = {
@@ -1775,7 +1777,7 @@ focus_tree = {
 
 		completion_reward = {
 			#event
-			add_idea = ARS_pax_airestonia
+			add_ideas = ARS_pax_airestonia
 		}
 
 		ai_will_do = {
@@ -1867,7 +1869,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_forced_labour
+			add_ideas = ARS_forced_labour
 		}
 
 		ai_will_do = {
@@ -2202,9 +2204,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			swap_idea = {
-				add_idea = ARS_pax_airestonia2
-				remove_idea = ARS_pax_airestonia
+			swap_ideas = {
+				add_ideas = ARS_pax_airestonia2
+				remove_ideas = ARS_pax_airestonia
 			}
 		}
 
@@ -2433,7 +2435,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_paranoia
+			add_ideas = ARS_paranoia
 		}
 
 		ai_will_do = {
@@ -2524,7 +2526,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_idea = ARS_state_subsidised_freedom
+			add_ideas = ARS_state_subsidised_freedom
 		}
 
 		ai_will_do = {
@@ -2634,10 +2636,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			every_state = {
-				limit = {
-					state = 61
-				}
+			61 = {
 				add_manpower = -10000
 			}
 			add_stability = 0.05
@@ -2670,10 +2669,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			every_state = {
-				limit = {
-					state = 61
-				}
+			61 = {
 				add_manpower = -10000
 			}
 			add_stability = 0.05
@@ -4173,7 +4169,7 @@ focus_tree = {
 		x = 61
 		y = 0
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		available = {
 
 		}
@@ -4775,7 +4771,7 @@ focus_tree = {
 		x = 50
 		y = 0
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		available = {
 
 		}
@@ -5477,7 +5473,7 @@ focus_tree = {
 		x = 69
 		y = 0
 		#relative_position_id = AST_empower_the_workers
-		#prerequisite = { focus = AST_workers_paradise }
+		 
 		available = {
 
 		}

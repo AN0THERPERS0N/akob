@@ -27,7 +27,7 @@ x = 13
 y = 50
 icon = GFX_goal_war_with_icrusia
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = AST_workers_paradise }
+ 
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
@@ -82,7 +82,7 @@ focus = {
 	icon = GFX_goal_war_with_icrusia
 	#relative_position_id = AST_empower_the_workers
 	 
-	prerequisite = { focus = AST_workers_paradise }
+	 
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
 	 
@@ -108,7 +108,7 @@ focus = {
 	icon = GFX_goal_icrusian_factories
 	#relative_position_id = AST_empower_the_workers
 	 
-	prerequisite = { focus = AST_workers_paradise }
+	 
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
 	 
@@ -2114,7 +2114,7 @@ focus = {
 	icon = "GFX_goal_generic_territory_or_war"
 	#relative_position_id = AST_empower_the_workers
 	 
-	prerequisite = { focus = AST_workers_paradise }
+	 
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
 	 

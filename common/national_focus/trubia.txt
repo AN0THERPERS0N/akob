@@ -27,7 +27,7 @@ x = 38
 y = 1
 icon = GFX_goal_oh_astrigan
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = AST_workers_paradise }
+ 
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
