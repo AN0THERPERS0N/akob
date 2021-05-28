@@ -2497,6 +2497,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = -0.2
 			add_stability = 0.05
+			add_ideas = low_economic_mobilisation
 		}
 
 		ai_will_do = {
@@ -2557,7 +2558,6 @@ focus_tree = {
 
 		completion_reward = {
 			#units
-			add_stability = 0.05
 		}
 
 		ai_will_do = {
@@ -2967,7 +2967,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -2997,7 +2997,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#units
+
 		}
 
 		ai_will_do = {
@@ -3027,7 +3028,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#army_experience
 		}
 
 		ai_will_do = {
@@ -3057,7 +3058,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_command_power = 30
+			#commander
 		}
 
 		ai_will_do = {
@@ -3089,7 +3091,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -3119,7 +3121,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -3150,7 +3152,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#opinion
 		}
 
 		ai_will_do = {
@@ -3181,7 +3183,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#alliance
 		}
 
 		ai_will_do = {
@@ -3212,7 +3214,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			declare_war_on = {
+				target = TRB
+				type = puppet_wargoal_focus
+			}
 		}
 
 		ai_will_do = {
@@ -3243,7 +3248,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#opinion
 		}
 
 		ai_will_do = {
@@ -3273,7 +3278,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#alliance
 		}
 
 		ai_will_do = {
@@ -3303,7 +3308,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#opinions
 		}
 
 		ai_will_do = {
@@ -3333,7 +3338,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -3363,7 +3368,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -3394,7 +3399,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -3425,7 +3430,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ARS_final_preparations
+			add_manpower = 100000
+			#equipment
 		}
 
 		ai_will_do = {
@@ -3455,7 +3462,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -3485,7 +3492,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = ARS_improving_economy
+				remove_idea = ARS_economic_stagnation
+			}
 		}
 
 		ai_will_do = {
@@ -3515,7 +3525,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3547,7 +3557,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = ARS_abolished_feudal_system
+				remove_idea = ARS_cracks_in_the_feudal_system
+			}
 		}
 
 		ai_will_do = {
@@ -3579,7 +3592,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = ARS_modified_feudal_system
+				remove_idea = ARS_cracks_in_the_feudal_system
+			}
 		}
 
 		ai_will_do = {
@@ -3611,7 +3627,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -3641,7 +3657,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			611 = {
+				add_manpower = -10000
+			}
 		}
 
 		ai_will_do = {

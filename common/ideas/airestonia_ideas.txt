@@ -2,6 +2,71 @@ ideas = {
 
 	country = {
 
+		#starting ideas
+
+		ARS_economic_stagnation = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				research_speed_factor = -0.10
+				local_resources_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ARS_cracks_in_the_feudal_system = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				monthly_population = -0.2
+				political_power_gain = -0.5
+				political_power_cost = 0.5
+				stability_factor = -0.1
+				drift_defence_factor = -0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+#gained ideas
+
 		ARS_amaris_decree = {
 			picture = not_a_country
 			
@@ -684,6 +749,120 @@ ideas = {
 			modifier = {
 				stability_weekly_factor = -0.01
 				political_power_gain = -1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ARS_final_preparations = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+				army_org_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ARS_improving_economy = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.03
+				industrial_capacity_dockyard = -0.03
+				production_speed_buildings_factor = -0.05
+				research_speed_factor = -0.05
+				local_resources_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ARS_abolished_feudal_system = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				monthly_population = 0.1
+				political_power_gain = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ARS_modified_feudal_system = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				monthly_population = -0.05
+				stability_factor = -0.05
+				drift_defence_factor = -0.05
 			}
 
 			cancel = {

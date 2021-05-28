@@ -111,7 +111,7 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_interwar_artillery_medium"
-	texturefile = "gfx/interface/technologies/artillery1.dds"
+	texturefile = "gfx/interface/technologies/cannon_upgrades_I.dds"
 }	
 
 #replaced infantry models
