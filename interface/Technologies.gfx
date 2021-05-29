@@ -9,12 +9,12 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_antitank4_medium"
-	texturefile = "gfx/interface/technologies/antitank5.dds"
+	texturefile = "gfx/interface/technologies/explosive_upgrade_III.dds"
 }	
 
 SpriteType = {
 	name = "GFX_antitank3_medium"
-	texturefile = "gfx/interface/technologies/antitank3.dds"
+	texturefile = "gfx/interface/technologies/explosive_upgrade_II.dds"
 }	
 
 SpriteType = {
@@ -24,7 +24,7 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_antitank1_medium"
-	texturefile = "gfx/interface/technologies/antitank2.dds"
+	texturefile = "gfx/interface/technologies/explosive_upgrade_I.dds"
 }	
 SpriteType = {
 	name = "GFX_interwar_antitank_medium"
@@ -57,12 +57,12 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_antiair4_medium"
-	texturefile = "gfx/interface/technologies/antiair5.dds"
+	texturefile = "gfx/interface/technologies/Grapeshot_upgrade_III.dds"
 }	
 
 SpriteType = {
 	name = "GFX_antiair3_medium"
-	texturefile = "gfx/interface/technologies/antiair2.dds"
+	texturefile = "gfx/interface/technologies/Grapeshot_upgrade_II.dds"
 }		
 
 SpriteType = {
@@ -72,7 +72,7 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_antiair1_medium"
-	texturefile = "gfx/interface/technologies/antiair1.dds"
+	texturefile = "gfx/interface/technologies/Grapeshot_upgrade_I.dds"
 }	
 SpriteType = {
 	name = "GFX_interwar_antiair_medium"
@@ -86,7 +86,7 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_artillery5_medium"
-	texturefile = "gfx/interface/technologies/artillery5.dds"
+	texturefile = "gfx/interface/technologies/cannon_upgrades_IV.dds"
 }	
 
 SpriteType = {
@@ -96,12 +96,12 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_artillery3_medium"
-	texturefile = "gfx/interface/technologies/artillery3.dds"
+	texturefile = "gfx/interface/technologies/cannon_upgrades_III.dds"
 }	
 
 SpriteType = {
 	name = "GFX_artillery2_medium"
-	texturefile = "gfx/interface/technologies/artillery2.dds"
+	texturefile = "gfx/interface/technologies/cannon_upgrades_II.dds"
 }	
 
 SpriteType = {

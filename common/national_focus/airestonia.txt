@@ -3660,6 +3660,7 @@ focus_tree = {
 			611 = {
 				add_manpower = -10000
 			}
+			add_stability = 0.1
 		}
 
 		ai_will_do = {
@@ -3689,7 +3690,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
 		}
 
 		ai_will_do = {
@@ -3719,7 +3723,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+			#event
 		}
 
 		ai_will_do = {
@@ -3749,7 +3757,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.5
+			}
 		}
 
 		ai_will_do = {
@@ -3779,7 +3790,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3810,7 +3825,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ARS_dreams_of_a_communist_utopia
 		}
 
 		ai_will_do = {
@@ -3840,7 +3855,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3870,7 +3885,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -3901,7 +3916,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -3931,7 +3946,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3961,7 +3976,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3992,7 +4007,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ARS_federal_monarchy
 		}
 
 		ai_will_do = {
@@ -4022,7 +4037,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -4052,7 +4067,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4082,7 +4097,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#event
 		}
 
 		ai_will_do = {
@@ -4112,7 +4127,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -4142,7 +4157,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -4173,7 +4188,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ARS_airestonian_feudalism
 		}
 
 		ai_will_do = {
@@ -4203,7 +4218,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = ARS_military_reforms
+				remove_idea = ARS_outdated_military
+			}
 		}
 
 		ai_will_do = {
@@ -4233,7 +4251,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4263,7 +4281,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			army_experience = 50
 		}
 
 		ai_will_do = {
@@ -4293,7 +4311,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#units
+			#research
 		}
 
 		ai_will_do = {
@@ -4323,7 +4342,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4353,7 +4372,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4383,7 +4402,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4413,7 +4432,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4444,7 +4463,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4459,6 +4478,8 @@ focus_tree = {
 		y = 6
 		relative_position_id = ARS_reform_the_airestonian_military
 		prerequisite = { focus = ARS_advanced_artillery_effort }
+		mutually_exclusive = { focus = ARS_a_professional_army }
+		mutually_exclusive = { focus = ARS_a_magic_revolution }
 		available = {
 
 		}
@@ -4504,7 +4525,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4534,7 +4555,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4564,7 +4585,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4594,7 +4615,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4624,7 +4645,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -4639,6 +4660,8 @@ focus_tree = {
 		y = 6
 		relative_position_id = ARS_reform_the_airestonian_military
 		prerequisite = { focus = ARS_increase_mage_school_funding }
+		mutually_exclusive = { focus = ARS_a_professional_army }
+		mutually_exclusive = { focus = ARS_fire_and_brimstone }
 		available = {
 
 		}
@@ -4684,7 +4707,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4714,7 +4737,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4745,7 +4768,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			army_experience = 50
+			#commander
 		}
 
 		ai_will_do = {
@@ -4760,6 +4784,8 @@ focus_tree = {
 		y = 6
 		relative_position_id = ARS_reform_the_airestonian_military
 		prerequisite = { focus = ARS_the_art_of_war }
+		mutually_exclusive = { focus = ARS_fire_and_brimstone }
+		mutually_exclusive = { focus = ARS_a_magic_revolution }
 		available = {
 
 		}
@@ -4775,7 +4801,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = ARS_military_reforms
+				remove_idea = ARS_outdated_military
+			}
 		}
 
 		ai_will_do = {
@@ -4805,7 +4834,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4835,7 +4864,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -4865,7 +4894,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#resources
 		}
 
 		ai_will_do = {
@@ -4895,7 +4924,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#resources
 		}
 
 		ai_will_do = {
@@ -4926,7 +4955,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -4958,7 +4987,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -4989,7 +5018,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
+			#research
 		}
 
 		ai_will_do = {
@@ -5020,7 +5050,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5051,7 +5081,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5083,7 +5113,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5113,7 +5143,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
+			#resources
 		}
 
 		ai_will_do = {
@@ -5143,7 +5174,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#resources
 		}
 
 		ai_will_do = {
@@ -5173,7 +5204,25 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_research_slot = 1
+			if = {
+				limit = {
+					ARS = { has_idea = ARS_economic_stagnation }
+				}
+				swap_ideas = {
+					add_idea = ARS_modern_economy
+					remove_idea = ARS_economic_stagnation
+				}
+			}
+			else_if = {
+				limit = {
+					ARS = { has_idea = ARS_improving_economy }
+				}
+				swap_ideas = {
+					add_idea = ARS_modern_economy
+					remove_idea = ARS_improving_economy
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -5204,7 +5253,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5234,7 +5283,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5264,7 +5313,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5295,7 +5344,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5325,7 +5374,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5356,7 +5405,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5386,7 +5435,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5416,7 +5465,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5447,7 +5496,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5477,7 +5526,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = ARS_economic_revival
+				remove_idea = ARS_modern_economy
+			}
 		}
 
 		ai_will_do = {
@@ -5507,7 +5559,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
+			navy_experience = 30
 		}
 
 		ai_will_do = {
@@ -5537,7 +5590,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
+			add_ideas = ARS_airestonian_ship_buildings
 		}
 
 		ai_will_do = {
@@ -5568,7 +5622,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -5598,7 +5652,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -5629,7 +5683,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -5659,7 +5713,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -5689,7 +5743,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ARS_grand_fleet_of_the_east
 		}
 
 		ai_will_do = {

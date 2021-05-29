@@ -173,11 +173,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		path = {
-			leads_to_tech = rocket_artillery
-			research_cost_coeff = 1
-		}
-		
 		research_cost = 1
 
 		start_year = 1940
@@ -374,167 +369,7 @@ technologies = {
 		}
 	}
 	
-	rocket_artillery = {
-
-		enable_equipments = {
-			rocket_artillery_equipment_1
-		}
-#		enable_subunits = {
-#			rocket_artillery_brigade
-#		}
-		
-		path = {
-			leads_to_tech = rocket_artillery2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-
-		start_year = 1940
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		
-		categories = {
-			rocketry
-		}
-	}
 	
-	rocket_artillery2 = {
-
-		rocket_artillery = {
-			soft_attack = 0.15
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		mot_rocket_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.15
-		}
-		
-		path = {
-			leads_to_tech = rocket_artillery3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1941
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		
-		categories = {
-			rocketry
-		}
-	}
-	
-	rocket_artillery3 = {
-
-		rocket_artillery = {
-			soft_attack = 0.15
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		mot_rocket_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.15
-		}
-
-		path = {
-			leads_to_tech = rocket_artillery4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1942
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		
-		categories = {
-			rocketry
-		}
-	}
-	
-	rocket_artillery4 = {
-	
-		enable_equipments = {
-			rocket_artillery_equipment_2
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.3
-		}
-
-		#rocket_artillery = {
-		#	soft_attack = 0.15
-		#}
-		#rocket_artillery_brigade = {
-		#	soft_attack = 0.15
-		#}
-
-		research_cost = 1
-
-		start_year = 1943
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		
-		categories = {
-			rocketry
-		}
-	}
 	
 	interwar_antiair = {
 
@@ -860,7 +695,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 2 }
+			position = { x = 4 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -948,7 +783,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 4 }
+			position = { x = 4 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -1017,7 +852,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 6 }
+			position = { x = 4 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -1095,7 +930,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 8 }
+			position = { x = 4 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -1169,7 +1004,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 10 }
+			position = { x = 4 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -1233,7 +1068,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 12 }
+			position = { x = 4 y = 12 }
 		}
 		
 		ai_will_do = {
