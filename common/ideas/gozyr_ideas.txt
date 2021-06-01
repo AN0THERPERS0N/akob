@@ -1,0 +1,137 @@
+ideas = {
+
+	country = {
+
+		#starting ideas
+
+		GOZ_geopolitical_indifference = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				trade_opinion_factor = 0.5
+				stability_factor = 0.3
+				war_support_factor = -0.25
+				drift_defence_factor = 0.5
+
+				political_power_gain = -0.5
+
+				enemy_declare_war_tension = 0.5
+				enemy_declare_war_tension = 0.5
+				guarantee_cost = 0.3
+				justify_war_goal_time = 0.3
+				opinion_gain_monthly_factor = 0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		####
+
+		GOZ_enemies_all_around = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				trade_opinion_factor = 0.2
+				stability_factor = 0.1
+				war_support_factor = 0.1
+
+				enemy_declare_war_tension = 0.1
+				enemy_declare_war_tension = 0.1
+				justify_war_goal_time = -0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		GOZ_heartland_defence = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				max_dig_in_factor = 0.3
+				supply_consumption_factor = -0.5
+				training_time_factor = 0.3
+				attrition = -0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		GOZ_not_one_step_back = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.5
+				army_morale_factor = 0.3
+				army_org_regain = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+	}
+	
+}
