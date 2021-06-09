@@ -1,0 +1,5335 @@
+﻿###########################
+# Gozyr Events
+###########################
+
+add_namespace = goz
+
+# dukha
+country_event = {
+	id = goz.dukha
+	title = goz.dukha.t
+	desc = goz.dukha.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	immediate = {
+		set_variable = { round = 0 }
+	}
+	
+	option = {
+		name = goz.dukha.a
+		ai_chance = { factor = 100 }
+		random_list = {
+		
+			5 = {
+				country_event = {
+						id = goz.1
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.2
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.3
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.4
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.5
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.6
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.7
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.8
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.9
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.10
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.11
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.12
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.13
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.14
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.15
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.16
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.17
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.18
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.19
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.20
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+		}		
+	}
+}
+country_event = {
+	id = goz.1
+	title = goz.1.t
+	desc = goz.1.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.1.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+				country_event = {
+						id = goz.21
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.22
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.23
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.24
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.25
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.7 = {
+				country_event = {
+						id = goz.26
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.1.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.1.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.1.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.2
+	title = goz.2.t
+	desc = goz.2.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.2.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+				country_event = {
+						id = goz.27
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.28
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.29
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.30
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.31
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.7 = {
+				country_event = {
+						id = goz.32
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.2.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.2.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.2.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.3
+	title = goz.3.t
+	desc = goz.3.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.3.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+				country_event = {
+						id = goz.33
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.34
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.35
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.36
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.6 = {
+				country_event = {
+						id = goz.37
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		16.7 = {
+				country_event = {
+						id = goz.38
+						days = 0
+						random = 3
+						random_days = 0
+				}
+		}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.3.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.3.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.3.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.4
+	title = goz.4.t
+	desc = goz.4.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.4.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.39
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.40
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.41
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.42
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.43
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.44
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.4.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.4.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.4.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.5
+	title = goz.5.t
+	desc = goz.5.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.5.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.45
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.46
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.47
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.48
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.49
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.50
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.5.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.5.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.5.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.6
+	title = goz.6.t
+	desc = goz.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.6.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.51
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.52
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.53
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.54
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.55
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.56
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.6.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.6.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.6.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.7
+	title = goz.7.t
+	desc = goz.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.7.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.57
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.58
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.59
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.60
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.61
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.62
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.7.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.7.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.7.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.8
+	title = goz.8.t
+	desc = goz.8.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.8.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.63
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.64
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.65
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.66
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.67
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.68
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.8.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.8.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.8.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.9
+	title = goz.9.t
+	desc = goz.9.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.9.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.69
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.70
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.71
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.72
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.73
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.74
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.9.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.9.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.9.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.10
+	title = goz.10.t
+	desc = goz.10.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.10.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.75
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.76
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.77
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.78
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.79
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.80
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.10.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.10.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.10.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.11
+	title = goz.11.t
+	desc = goz.11.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.11.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.81
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.82
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.83
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.84
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.85
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.86
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.11.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.11.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.11.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.12
+	title = goz.12.t
+	desc = goz.12.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.12.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.87
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.88
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.89
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.90
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.91
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.92
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.12.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.12.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.12.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.13
+	title = goz.13.t
+	desc = goz.13.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.13.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.93
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.94
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.95
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.96
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.97
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.98
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.13.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.13.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.13.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.1
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.14
+	title = goz.14.t
+	desc = goz.14.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.14.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.99
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.100
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.101
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.102
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.103
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.104
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.14.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.14.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.14.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.15
+	title = goz.15.t
+	desc = goz.15.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.15.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.105
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.106
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.107
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.108
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.109
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.110
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.15.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.15.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.15.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.2
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.16
+	title = goz.16.t
+	desc = goz.16.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.16.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.111
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.112
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.113
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.114
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.115
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.116
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.111
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.112
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.113
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.114
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.115
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.116
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.16.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.16.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.4
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.16.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.3
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.17
+	title = goz.17.t
+	desc = goz.17.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.17.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.117
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.118
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.119
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.120
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.121
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.122
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.17.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.17.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.17.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.18
+	title = goz.18.t
+	desc = goz.18.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.18.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.123
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.124
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.125
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.126
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.127
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.128
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.18.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.18.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.18.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.5
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.11
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.19
+	title = goz.19.t
+	desc = goz.19.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.19.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.129
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.130
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.131
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.132
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.133
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.134
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.19.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.20
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.19.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.7
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.13
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.19.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.6
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.12
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.20
+	title = goz.20.t
+	desc = goz.20.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	immediate = {
+		add_to_variable = { round = 1 }
+	}
+
+	option = {
+		trigger = {
+			check_variable = { round > 3 }
+		}
+		name = goz.20.e
+		ai_chance = { factor = 50 }
+		random_list = {
+			16.6 = {
+					country_event = {
+							id = goz.135
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.136
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.137
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.138
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.6 = {
+					country_event = {
+							id = goz.139
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+			16.7 = {
+					country_event = {
+							id = goz.140
+							days = 0
+							random = 3
+							random_days = 0
+					}
+			}
+		}
+	}
+	
+	
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.20.a
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.10
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.16
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.19
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.20.b
+			ai_chance = { factor = 90 }  
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.9
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.15
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.18
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			}
+	}
+	option = {
+			trigger = {
+				check_variable = { round < 4 }
+			}
+			name = goz.20.c
+			ai_chance = { factor = 90 } 
+
+			random_list = {
+
+				33 = {
+							country_event = {
+											id = goz.8
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					33 = {
+							country_event = {
+											id = goz.14
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+					34 = {
+							country_event = {
+											id = goz.17
+											days = 0
+											random = 3
+											random_days = 0
+							}
+					}
+			} 
+	}
+}
+country_event = {
+	id = goz.21
+	title = goz.21.t
+	desc = goz.21.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.21.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.22
+	title = goz.22.t
+	desc = goz.22.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.22.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.23
+	title = goz.23.t
+	desc = goz.23.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.23.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.24
+	title = goz.24.t
+	desc = goz.24.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.24.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.25
+	title = goz.25.t
+	desc = goz.25.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.25.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.26
+	title = goz.26.t
+	desc = goz.26.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.26.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.27
+	title = goz.27.t
+	desc = goz.27.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.27.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.28
+	title = goz.28.t
+	desc = goz.28.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.28.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.29
+	title = goz.29.t
+	desc = goz.29.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.29.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.30
+	title = goz.30.t
+	desc = goz.30.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.30.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.31
+	title = goz.31.t
+	desc = goz.31.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.31.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.32
+	title = goz.32.t
+	desc = goz.32.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.32.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.33
+	title = goz.33.t
+	desc = goz.33.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.33.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.34
+	title = goz.34.t
+	desc = goz.34.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.34.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.35
+	title = goz.35.t
+	desc = goz.35.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.35.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.36
+	title = goz.36.t
+	desc = goz.36.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.36.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.37
+	title = goz.37.t
+	desc = goz.37.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.37.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.38
+	title = goz.38.t
+	desc = goz.38.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.38.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.39
+	title = goz.39.t
+	desc = goz.39.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.39.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.40
+	title = goz.40.t
+	desc = goz.40.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.40.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.41
+	title = goz.41.t
+	desc = goz.41.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.41.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.42
+	title = goz.42.t
+	desc = goz.42.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.42.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.43
+	title = goz.43.t
+	desc = goz.43.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.43.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.44
+	title = goz.44.t
+	desc = goz.44.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.44.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.45
+	title = goz.45.t
+	desc = goz.45.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.45.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.46
+	title = goz.46.t
+	desc = goz.46.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.46.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.47
+	title = goz.47.t
+	desc = goz.47.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.47.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.48
+	title = goz.48.t
+	desc = goz.48.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.48.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.49
+	title = goz.49.t
+	desc = goz.49.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.49.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.50
+	title = goz.50.t
+	desc = goz.50.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.50.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.51
+	title = goz.51.t
+	desc = goz.51.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.51.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.52
+	title = goz.52.t
+	desc = goz.52.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.52.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.53
+	title = goz.53.t
+	desc = goz.53.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.53.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.54
+	title = goz.54.t
+	desc = goz.54.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.54.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.55
+	title = goz.55.t
+	desc = goz.55.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.55.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.56
+	title = goz.56.t
+	desc = goz.56.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.56.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.57
+	title = goz.57.t
+	desc = goz.57.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.57.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.58
+	title = goz.58.t
+	desc = goz.58.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.58.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.59
+	title = goz.59.t
+	desc = goz.59.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.59.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.60
+	title = goz.60.t
+	desc = goz.60.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.60.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.61
+	title = goz.61.t
+	desc = goz.61.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.61.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.62
+	title = goz.62.t
+	desc = goz.62.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.62.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.63
+	title = goz.63.t
+	desc = goz.63.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.63.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.64
+	title = goz.64.t
+	desc = goz.64.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.64.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.65
+	title = goz.65.t
+	desc = goz.65.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.65.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.66
+	title = goz.66.t
+	desc = goz.66.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.66.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.67
+	title = goz.67.t
+	desc = goz.67.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.67.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.68
+	title = goz.68.t
+	desc = goz.68.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.68.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.69
+	title = goz.69.t
+	desc = goz.69.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.69.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.70
+	title = goz.70.t
+	desc = goz.70.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.70.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.71
+	title = goz.71.t
+	desc = goz.71.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.71.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.72
+	title = goz.72.t
+	desc = goz.72.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.72.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.73
+	title = goz.73.t
+	desc = goz.73.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.73.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.74
+	title = goz.74.t
+	desc = goz.74.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.74.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.75
+	title = goz.75.t
+	desc = goz.75.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.75.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.76
+	title = goz.76.t
+	desc = goz.76.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.76.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.77
+	title = goz.77.t
+	desc = goz.77.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.77.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.78
+	title = goz.78.t
+	desc = goz.78.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.78.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.79
+	title = goz.79.t
+	desc = goz.79.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.79.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.80
+	title = goz.80.t
+	desc = goz.80.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.80.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.81
+	title = goz.81.t
+	desc = goz.81.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.81.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.82
+	title = goz.82.t
+	desc = goz.82.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.82.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.83
+	title = goz.83.t
+	desc = goz.83.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.83.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.84
+	title = goz.84.t
+	desc = goz.84.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.84.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.85
+	title = goz.85.t
+	desc = goz.85.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.85.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.86
+	title = goz.86.t
+	desc = goz.86.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.86.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.87
+	title = goz.87.t
+	desc = goz.87.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.87.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.88
+	title = goz.88.t
+	desc = goz.88.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.88.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.89
+	title = goz.89.t
+	desc = goz.89.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.89.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.90
+	title = goz.90.t
+	desc = goz.90.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.90.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.91
+	title = goz.91.t
+	desc = goz.91.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.91.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.92
+	title = goz.92.t
+	desc = goz.92.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.92.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.93
+	title = goz.93.t
+	desc = goz.93.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.93.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.94
+	title = goz.94.t
+	desc = goz.94.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.94.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.95
+	title = goz.95.t
+	desc = goz.95.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.95.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.96
+	title = goz.96.t
+	desc = goz.96.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.96.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.97
+	title = goz.97.t
+	desc = goz.97.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.97.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.98
+	title = goz.98.t
+	desc = goz.98.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.98.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.99
+	title = goz.99.t
+	desc = goz.99.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.99.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.100
+	title = goz.100.t
+	desc = goz.100.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.100.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.101
+	title = goz.101.t
+	desc = goz.101.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.101.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.102
+	title = goz.102.t
+	desc = goz.102.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.102.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.103
+	title = goz.103.t
+	desc = goz.103.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.103.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.104
+	title = goz.104.t
+	desc = goz.104.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.104.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.105
+	title = goz.105.t
+	desc = goz.105.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.105.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.106
+	title = goz.106.t
+	desc = goz.106.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.106.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.107
+	title = goz.107.t
+	desc = goz.107.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.107.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.108
+	title = goz.108.t
+	desc = goz.108.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.108.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.109
+	title = goz.109.t
+	desc = goz.109.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.109.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.110
+	title = goz.110.t
+	desc = goz.110.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.110.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.111
+	title = goz.111.t
+	desc = goz.111.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.111.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.112
+	title = goz.112.t
+	desc = goz.112.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.112.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.113
+	title = goz.113.t
+	desc = goz.113.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.113.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.114
+	title = goz.114.t
+	desc = goz.114.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.114.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.115
+	title = goz.115.t
+	desc = goz.115.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.115.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.116
+	title = goz.116.t
+	desc = goz.116.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.116.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.117
+	title = goz.117.t
+	desc = goz.117.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.117.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.118
+	title = goz.118.t
+	desc = goz.118.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.118.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.119
+	title = goz.119.t
+	desc = goz.119.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.119.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.120
+	title = goz.120.t
+	desc = goz.120.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.120.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.121
+	title = goz.121.t
+	desc = goz.121.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.121.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.122
+	title = goz.122.t
+	desc = goz.122.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.122.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.123
+	title = goz.123.t
+	desc = goz.123.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.123.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.124
+	title = goz.124.t
+	desc = goz.124.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.124.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.125
+	title = goz.125.t
+	desc = goz.125.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.125.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.126
+	title = goz.126.t
+	desc = goz.126.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.126.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.127
+	title = goz.127.t
+	desc = goz.127.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.127.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.128
+	title = goz.128.t
+	desc = goz.128.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.128.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.129
+	title = goz.129.t
+	desc = goz.129.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.129.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.130
+	title = goz.130.t
+	desc = goz.130.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.130.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.131
+	title = goz.131.t
+	desc = goz.131.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.131.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.132
+	title = goz.132.t
+	desc = goz.132.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.132.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.133
+	title = goz.133.t
+	desc = goz.133.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.133.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.134
+	title = goz.134.t
+	desc = goz.134.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.134.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.135
+	title = goz.135.t
+	desc = goz.135.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.135.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.136
+	title = goz.136.t
+	desc = goz.136.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.136.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.137
+	title = goz.137.t
+	desc = goz.137.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.137.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.138
+	title = goz.138.t
+	desc = goz.138.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.138.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.139
+	title = goz.139.t
+	desc = goz.139.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.139.a
+			ai_chance = { factor = 50 }
+	}
+}
+country_event = {
+	id = goz.140
+	title = goz.140.t
+	desc = goz.140.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+			name = goz.140.a
+			ai_chance = { factor = 50 }
+	}
+}
