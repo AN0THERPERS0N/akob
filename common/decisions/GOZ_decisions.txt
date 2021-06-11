@@ -1,0 +1,34 @@
+Casinos_of_Rshavesk = {
+    Dukha = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 1
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 20
+        
+        complete_effect = {   
+            country_event = {
+                id = goz.dukha
+                days = 0
+                random = 3
+                random_days = 0
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

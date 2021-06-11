@@ -11,7 +11,6 @@ country_event = {
 	desc = goz.dukha.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 	
 	immediate = {
 		set_variable = { round = 0 }
@@ -20,6 +19,519 @@ country_event = {
 	option = {
 		name = goz.dukha.a
 		ai_chance = { factor = 100 }
+		add_political_power = -20
+		clear_variable = dukha_money
+		set_variable = { dukha_money = 20 }
+		random_list = {
+		
+			5 = {
+				country_event = {
+						id = goz.1
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.2
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.3
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.4
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.5
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.6
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.7
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.8
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.9
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.10
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.11
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.12
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.13
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.14
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.15
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.16
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.17
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.18
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.19
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.20
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+		}		
+	}
+	option = {
+		name = goz.dukha.b
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+		clear_variable = dukha_money
+		set_variable = { dukha_money = 50 }
+		random_list = {
+		
+			5 = {
+				country_event = {
+						id = goz.1
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.2
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.3
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.4
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.5
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.6
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.7
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.8
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.9
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.10
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.11
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.12
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.13
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.14
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.15
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.16
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.17
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.18
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.19
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.20
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+		}		
+	}
+	option = {
+		name = goz.dukha.c
+		ai_chance = { factor = 100 }
+		add_political_power = -100
+		clear_variable = dukha_money
+		set_variable = { dukha_money = 100 }
+		random_list = {
+		
+			5 = {
+				country_event = {
+						id = goz.1
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.2
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.3
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.4
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.5
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.6
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.7
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.8
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.9
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.10
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.11
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.12
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.13
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.14
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.15
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.16
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.17
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.18
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.19
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+			5 = {
+				country_event = {
+						id = goz.20
+						days = 0
+						random = 3
+						random_days = 0
+				}
+			}
+		}		
+	}
+	option = {
+		name = goz.dukha.e
+		ai_chance = { factor = 100 }
+		add_political_power = -200
+		clear_variable = dukha_money
+		set_variable = { dukha_money = 200 }
 		random_list = {
 		
 			5 = {
@@ -191,7 +703,6 @@ country_event = {
 	desc = goz.1.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -368,7 +879,6 @@ country_event = {
 	desc = goz.2.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -545,7 +1055,6 @@ country_event = {
 	desc = goz.3.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -722,7 +1231,6 @@ country_event = {
 	desc = goz.4.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -899,7 +1407,6 @@ country_event = {
 	desc = goz.5.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -1076,7 +1583,6 @@ country_event = {
 	desc = goz.6.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -1253,7 +1759,6 @@ country_event = {
 	desc = goz.7.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -1430,7 +1935,6 @@ country_event = {
 	desc = goz.8.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -1607,7 +2111,6 @@ country_event = {
 	desc = goz.9.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -1784,7 +2287,6 @@ country_event = {
 	desc = goz.10.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -1961,7 +2463,6 @@ country_event = {
 	desc = goz.11.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -2138,7 +2639,6 @@ country_event = {
 	desc = goz.12.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -2315,7 +2815,6 @@ country_event = {
 	desc = goz.13.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -2492,7 +2991,6 @@ country_event = {
 	desc = goz.14.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -2669,7 +3167,6 @@ country_event = {
 	desc = goz.15.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -2846,7 +3343,6 @@ country_event = {
 	desc = goz.16.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -3071,7 +3567,6 @@ country_event = {
 	desc = goz.17.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -3248,7 +3743,6 @@ country_event = {
 	desc = goz.18.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -3425,7 +3919,6 @@ country_event = {
 	desc = goz.19.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -3602,7 +4095,6 @@ country_event = {
 	desc = goz.20.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	immediate = {
 		add_to_variable = { round = 1 }
@@ -3779,11 +4271,13 @@ country_event = {
 	desc = goz.21.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.21.a
-			ai_chance = { factor = 50 }
+					name = goz.21.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3792,11 +4286,13 @@ country_event = {
 	desc = goz.22.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.22.a
-			ai_chance = { factor = 50 }
+					name = goz.22.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3805,12 +4301,11 @@ country_event = {
 	desc = goz.23.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.23.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.23.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.24
@@ -3818,11 +4313,13 @@ country_event = {
 	desc = goz.24.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.24.a
-			ai_chance = { factor = 50 }
+					name = goz.24.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3831,11 +4328,13 @@ country_event = {
 	desc = goz.25.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.25.a
-			ai_chance = { factor = 50 }
+					name = goz.25.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3844,11 +4343,13 @@ country_event = {
 	desc = goz.26.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.26.a
-			ai_chance = { factor = 50 }
+					name = goz.26.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3857,12 +4358,11 @@ country_event = {
 	desc = goz.27.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.27.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.27.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.28
@@ -3870,12 +4370,11 @@ country_event = {
 	desc = goz.28.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.28.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.28.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.29
@@ -3883,11 +4382,13 @@ country_event = {
 	desc = goz.29.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.29.a
-			ai_chance = { factor = 50 }
+					name = goz.29.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3896,12 +4397,11 @@ country_event = {
 	desc = goz.30.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.30.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.30.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.31
@@ -3909,11 +4409,13 @@ country_event = {
 	desc = goz.31.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.31.a
-			ai_chance = { factor = 50 }
+					name = goz.31.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3922,11 +4424,13 @@ country_event = {
 	desc = goz.32.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.32.a
-			ai_chance = { factor = 50 }
+					name = goz.32.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3935,12 +4439,11 @@ country_event = {
 	desc = goz.33.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.33.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.33.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.34
@@ -3948,12 +4451,11 @@ country_event = {
 	desc = goz.34.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.34.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.34.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.35
@@ -3961,11 +4463,13 @@ country_event = {
 	desc = goz.35.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.35.a
-			ai_chance = { factor = 50 }
+					name = goz.35.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3974,11 +4478,13 @@ country_event = {
 	desc = goz.36.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.36.a
-			ai_chance = { factor = 50 }
+					name = goz.36.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -3987,12 +4493,11 @@ country_event = {
 	desc = goz.37.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.37.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.37.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.38
@@ -4000,11 +4505,13 @@ country_event = {
 	desc = goz.38.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.38.a
-			ai_chance = { factor = 50 }
+					name = goz.38.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4013,11 +4520,13 @@ country_event = {
 	desc = goz.39.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.39.a
-			ai_chance = { factor = 50 }
+					name = goz.39.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4026,11 +4535,13 @@ country_event = {
 	desc = goz.40.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.40.a
-			ai_chance = { factor = 50 }
+					name = goz.40.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4039,11 +4550,13 @@ country_event = {
 	desc = goz.41.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.41.a
-			ai_chance = { factor = 50 }
+					name = goz.41.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4052,11 +4565,13 @@ country_event = {
 	desc = goz.42.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.42.a
-			ai_chance = { factor = 50 }
+					name = goz.42.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4065,11 +4580,13 @@ country_event = {
 	desc = goz.43.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.43.a
-			ai_chance = { factor = 50 }
+					name = goz.43.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4078,12 +4595,11 @@ country_event = {
 	desc = goz.44.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.44.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.44.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.45
@@ -4091,11 +4607,13 @@ country_event = {
 	desc = goz.45.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.45.a
-			ai_chance = { factor = 50 }
+					name = goz.45.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4104,11 +4622,13 @@ country_event = {
 	desc = goz.46.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.46.a
-			ai_chance = { factor = 50 }
+					name = goz.46.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4117,12 +4637,11 @@ country_event = {
 	desc = goz.47.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.47.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.47.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.48
@@ -4130,11 +4649,13 @@ country_event = {
 	desc = goz.48.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.48.a
-			ai_chance = { factor = 50 }
+					name = goz.48.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4143,11 +4664,13 @@ country_event = {
 	desc = goz.49.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.49.a
-			ai_chance = { factor = 50 }
+					name = goz.49.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4156,11 +4679,13 @@ country_event = {
 	desc = goz.50.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.50.a
-			ai_chance = { factor = 50 }
+					name = goz.50.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4169,11 +4694,13 @@ country_event = {
 	desc = goz.51.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.51.a
-			ai_chance = { factor = 50 }
+					name = goz.51.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4182,11 +4709,13 @@ country_event = {
 	desc = goz.52.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.52.a
-			ai_chance = { factor = 50 }
+					name = goz.52.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4195,12 +4724,11 @@ country_event = {
 	desc = goz.53.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.53.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.53.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.54
@@ -4208,11 +4736,13 @@ country_event = {
 	desc = goz.54.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.54.a
-			ai_chance = { factor = 50 }
+					name = goz.54.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4221,11 +4751,13 @@ country_event = {
 	desc = goz.55.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.55.a
-			ai_chance = { factor = 50 }
+					name = goz.55.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4234,11 +4766,13 @@ country_event = {
 	desc = goz.56.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.56.a
-			ai_chance = { factor = 50 }
+					name = goz.56.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4247,12 +4781,11 @@ country_event = {
 	desc = goz.57.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.57.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.57.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.58
@@ -4260,11 +4793,13 @@ country_event = {
 	desc = goz.58.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.58.a
-			ai_chance = { factor = 50 }
+					name = goz.58.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4273,12 +4808,11 @@ country_event = {
 	desc = goz.59.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.59.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.59.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.60
@@ -4286,11 +4820,13 @@ country_event = {
 	desc = goz.60.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.60.a
-			ai_chance = { factor = 50 }
+					name = goz.60.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4299,11 +4835,13 @@ country_event = {
 	desc = goz.61.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.61.a
-			ai_chance = { factor = 50 }
+					name = goz.61.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4312,12 +4850,11 @@ country_event = {
 	desc = goz.62.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.62.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.62.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.63
@@ -4325,12 +4862,11 @@ country_event = {
 	desc = goz.63.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.63.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.63.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.64
@@ -4338,11 +4874,13 @@ country_event = {
 	desc = goz.64.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.64.a
-			ai_chance = { factor = 50 }
+					name = goz.64.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4351,11 +4889,13 @@ country_event = {
 	desc = goz.65.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.65.a
-			ai_chance = { factor = 50 }
+					name = goz.65.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4364,12 +4904,11 @@ country_event = {
 	desc = goz.66.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.66.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.66.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.67
@@ -4377,12 +4916,11 @@ country_event = {
 	desc = goz.67.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.67.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.67.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.68
@@ -4390,11 +4928,13 @@ country_event = {
 	desc = goz.68.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.68.a
-			ai_chance = { factor = 50 }
+					name = goz.68.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4403,11 +4943,13 @@ country_event = {
 	desc = goz.69.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.69.a
-			ai_chance = { factor = 50 }
+					name = goz.69.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4416,11 +4958,13 @@ country_event = {
 	desc = goz.70.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.70.a
-			ai_chance = { factor = 50 }
+					name = goz.70.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4429,11 +4973,13 @@ country_event = {
 	desc = goz.71.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.71.a
-			ai_chance = { factor = 50 }
+					name = goz.71.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4442,11 +4988,13 @@ country_event = {
 	desc = goz.72.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.72.a
-			ai_chance = { factor = 50 }
+					name = goz.72.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4455,11 +5003,13 @@ country_event = {
 	desc = goz.73.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.73.a
-			ai_chance = { factor = 50 }
+					name = goz.73.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4468,12 +5018,11 @@ country_event = {
 	desc = goz.74.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.74.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.74.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.75
@@ -4481,11 +5030,13 @@ country_event = {
 	desc = goz.75.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.75.a
-			ai_chance = { factor = 50 }
+					name = goz.75.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4494,11 +5045,13 @@ country_event = {
 	desc = goz.76.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.76.a
-			ai_chance = { factor = 50 }
+					name = goz.76.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4507,11 +5060,13 @@ country_event = {
 	desc = goz.77.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.77.a
-			ai_chance = { factor = 50 }
+					name = goz.77.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4520,11 +5075,13 @@ country_event = {
 	desc = goz.78.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.78.a
-			ai_chance = { factor = 50 }
+					name = goz.78.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4533,11 +5090,13 @@ country_event = {
 	desc = goz.79.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.79.a
-			ai_chance = { factor = 50 }
+					name = goz.79.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4546,12 +5105,11 @@ country_event = {
 	desc = goz.80.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.80.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.80.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.81
@@ -4559,11 +5117,13 @@ country_event = {
 	desc = goz.81.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.81.a
-			ai_chance = { factor = 50 }
+					name = goz.81.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4572,11 +5132,13 @@ country_event = {
 	desc = goz.82.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.82.a
-			ai_chance = { factor = 50 }
+					name = goz.82.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4585,12 +5147,11 @@ country_event = {
 	desc = goz.83.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.83.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.83.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.84
@@ -4598,11 +5159,13 @@ country_event = {
 	desc = goz.84.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.84.a
-			ai_chance = { factor = 50 }
+					name = goz.84.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4611,11 +5174,13 @@ country_event = {
 	desc = goz.85.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.85.a
-			ai_chance = { factor = 50 }
+					name = goz.85.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4624,11 +5189,13 @@ country_event = {
 	desc = goz.86.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.86.a
-			ai_chance = { factor = 50 }
+					name = goz.86.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4637,11 +5204,13 @@ country_event = {
 	desc = goz.87.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.87.a
-			ai_chance = { factor = 50 }
+					name = goz.87.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4650,11 +5219,13 @@ country_event = {
 	desc = goz.88.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.88.a
-			ai_chance = { factor = 50 }
+					name = goz.88.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4663,12 +5234,11 @@ country_event = {
 	desc = goz.89.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.89.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.89.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.90
@@ -4676,11 +5246,13 @@ country_event = {
 	desc = goz.90.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.90.a
-			ai_chance = { factor = 50 }
+					name = goz.90.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4689,11 +5261,13 @@ country_event = {
 	desc = goz.91.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.91.a
-			ai_chance = { factor = 50 }
+					name = goz.91.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4702,11 +5276,13 @@ country_event = {
 	desc = goz.92.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.92.a
-			ai_chance = { factor = 50 }
+					name = goz.92.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4715,11 +5291,13 @@ country_event = {
 	desc = goz.93.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.93.a
-			ai_chance = { factor = 50 }
+					name = goz.93.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4728,12 +5306,11 @@ country_event = {
 	desc = goz.94.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.94.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.94.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.95
@@ -4741,12 +5318,11 @@ country_event = {
 	desc = goz.95.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.95.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.95.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.96
@@ -4754,11 +5330,13 @@ country_event = {
 	desc = goz.96.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.96.a
-			ai_chance = { factor = 50 }
+					name = goz.96.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4767,11 +5345,13 @@ country_event = {
 	desc = goz.97.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.97.a
-			ai_chance = { factor = 50 }
+					name = goz.97.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4780,12 +5360,11 @@ country_event = {
 	desc = goz.98.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.98.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.98.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.99
@@ -4793,11 +5372,13 @@ country_event = {
 	desc = goz.99.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.99.a
-			ai_chance = { factor = 50 }
+					name = goz.99.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4806,12 +5387,11 @@ country_event = {
 	desc = goz.100.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.100.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.100.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.101
@@ -4819,11 +5399,13 @@ country_event = {
 	desc = goz.101.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.101.a
-			ai_chance = { factor = 50 }
+					name = goz.101.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4832,12 +5414,11 @@ country_event = {
 	desc = goz.102.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.102.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.102.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.103
@@ -4845,12 +5426,11 @@ country_event = {
 	desc = goz.103.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.103.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.103.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.104
@@ -4858,11 +5438,13 @@ country_event = {
 	desc = goz.104.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.104.a
-			ai_chance = { factor = 50 }
+					name = goz.104.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4871,11 +5453,13 @@ country_event = {
 	desc = goz.105.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.105.a
-			ai_chance = { factor = 50 }
+					name = goz.105.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4884,11 +5468,13 @@ country_event = {
 	desc = goz.106.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.106.a
-			ai_chance = { factor = 50 }
+					name = goz.106.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4897,11 +5483,13 @@ country_event = {
 	desc = goz.107.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.107.a
-			ai_chance = { factor = 50 }
+					name = goz.107.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4910,11 +5498,13 @@ country_event = {
 	desc = goz.108.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.108.a
-			ai_chance = { factor = 50 }
+					name = goz.108.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4923,11 +5513,13 @@ country_event = {
 	desc = goz.109.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.109.a
-			ai_chance = { factor = 50 }
+					name = goz.109.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4936,12 +5528,11 @@ country_event = {
 	desc = goz.110.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.110.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.110.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.111
@@ -4949,11 +5540,13 @@ country_event = {
 	desc = goz.111.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.111.a
-			ai_chance = { factor = 50 }
+					name = goz.111.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4962,11 +5555,13 @@ country_event = {
 	desc = goz.112.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.112.a
-			ai_chance = { factor = 50 }
+					name = goz.112.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4975,11 +5570,13 @@ country_event = {
 	desc = goz.113.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.113.a
-			ai_chance = { factor = 50 }
+					name = goz.113.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -4988,11 +5585,13 @@ country_event = {
 	desc = goz.114.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.114.a
-			ai_chance = { factor = 50 }
+					name = goz.114.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5001,11 +5600,13 @@ country_event = {
 	desc = goz.115.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.115.a
-			ai_chance = { factor = 50 }
+					name = goz.115.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5014,12 +5615,11 @@ country_event = {
 	desc = goz.116.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.116.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.116.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.117
@@ -5027,11 +5627,13 @@ country_event = {
 	desc = goz.117.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.117.a
-			ai_chance = { factor = 50 }
+					name = goz.117.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5040,11 +5642,13 @@ country_event = {
 	desc = goz.118.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.118.a
-			ai_chance = { factor = 50 }
+					name = goz.118.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5053,12 +5657,11 @@ country_event = {
 	desc = goz.119.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.119.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.119.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.120
@@ -5066,11 +5669,13 @@ country_event = {
 	desc = goz.120.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.120.a
-			ai_chance = { factor = 50 }
+					name = goz.120.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5079,11 +5684,13 @@ country_event = {
 	desc = goz.121.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.121.a
-			ai_chance = { factor = 50 }
+					name = goz.121.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5092,11 +5699,13 @@ country_event = {
 	desc = goz.122.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.122.a
-			ai_chance = { factor = 50 }
+					name = goz.122.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5105,11 +5714,13 @@ country_event = {
 	desc = goz.123.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.123.a
-			ai_chance = { factor = 50 }
+					name = goz.123.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5118,11 +5729,13 @@ country_event = {
 	desc = goz.124.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.124.a
-			ai_chance = { factor = 50 }
+					name = goz.124.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5131,12 +5744,11 @@ country_event = {
 	desc = goz.125.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.125.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.125.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.126
@@ -5144,11 +5756,13 @@ country_event = {
 	desc = goz.126.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.126.a
-			ai_chance = { factor = 50 }
+					name = goz.126.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5157,11 +5771,13 @@ country_event = {
 	desc = goz.127.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.127.a
-			ai_chance = { factor = 50 }
+					name = goz.127.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5170,12 +5786,11 @@ country_event = {
 	desc = goz.128.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.128.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.128.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.129
@@ -5183,11 +5798,13 @@ country_event = {
 	desc = goz.129.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.129.a
-			ai_chance = { factor = 50 }
+					name = goz.129.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5196,11 +5813,13 @@ country_event = {
 	desc = goz.130.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.130.a
-			ai_chance = { factor = 50 }
+					name = goz.130.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5209,12 +5828,11 @@ country_event = {
 	desc = goz.131.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.131.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.131.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.132
@@ -5222,11 +5840,13 @@ country_event = {
 	desc = goz.132.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.132.a
-			ai_chance = { factor = 50 }
+					name = goz.132.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5235,12 +5855,11 @@ country_event = {
 	desc = goz.133.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.133.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.133.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.134
@@ -5248,12 +5867,11 @@ country_event = {
 	desc = goz.134.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.134.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.134.a
+					ai_chance = { factor = 50 }
+					}
 }
 country_event = {
 	id = goz.135
@@ -5261,11 +5879,13 @@ country_event = {
 	desc = goz.135.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.135.a
-			ai_chance = { factor = 50 }
+					name = goz.135.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 3 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5274,11 +5894,13 @@ country_event = {
 	desc = goz.136.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.136.a
-			ai_chance = { factor = 50 }
+					name = goz.136.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 2 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5287,11 +5909,13 @@ country_event = {
 	desc = goz.137.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.137.a
-			ai_chance = { factor = 50 }
+					name = goz.137.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5300,11 +5924,13 @@ country_event = {
 	desc = goz.138.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.138.a
-			ai_chance = { factor = 50 }
+					name = goz.138.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5313,11 +5939,13 @@ country_event = {
 	desc = goz.139.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.139.a
-			ai_chance = { factor = 50 }
+					name = goz.139.a
+					ai_chance = { factor = 50 }
+					multiply_variable = { dukha_money = 1.5 }
+					add_political_power = dukha_money
+					clear_variable = dukha_money
 	}
 }
 country_event = {
@@ -5326,10 +5954,9 @@ country_event = {
 	desc = goz.140.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
-	fire_only_once = no
 
 	option = {
-			name = goz.140.a
-			ai_chance = { factor = 50 }
-	}
+					name = goz.140.a
+					ai_chance = { factor = 50 }
+					}
 }

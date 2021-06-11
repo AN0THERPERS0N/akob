@@ -11,6 +11,17 @@
 #
 #	}
 #}
+Casinos_of_Rshavesk = {
+	priority = 20
+	icon = generic_propaganda
+
+	allowed = {
+		tag = GOZ
+	}
+	visible = {
+
+	}
+}
 
 purification = {
 	priority = 20
@@ -66,12 +77,6 @@ propaganda_efforts = {
 
 	visible = {
 
-	}
-}
-
-SAF_anti_colonialist_crusade = {
-	allowed = {
-		original_tag = SAF
 	}
 }
 
