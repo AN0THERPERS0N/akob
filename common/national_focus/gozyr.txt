@@ -23,5084 +23,2904 @@ focus_tree = {
 
 	focus = {
 		id = GOZ_call_the_51st_congress_of_the_federation
+		x = 14
+		y = 1
 		icon = GFX_goal_generic_demand_territory
-		x = 38.5
-		y = 0
 		#relative_position_id = AST_empower_the_workers
 		 
-		mutually_exclusive = {focus = GOZ_economy_above_all }
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			#event
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_assess_the_state
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 0
+		}
+		focus = {
+		id = GOZ_establish_the_economical_expansion_council
+		x = 41
 		y = 1
-		relative_position_id = GOZ_call_the_51st_congress_of_the_federation
-		prerequisite = { focus = GOZ_call_the_51st_congress_of_the_federation }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			add_political_power = 100
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-###### assess
-	
-	focus = {
-		id = GOZ_enemies_all_around
-		icon = GFX_goal_generic_secret_weapon
-		x = 27
+		}
+		focus = {
+		id = GOZ_restart_the_national_security_committee
+		x = 14
 		y = 2
-		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
-		prerequisite = { focus = GOZ_assess_the_state }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			swap_ideas = {
-				add_idea = GOZ_enemies_all_around
-				remove_idea = GOZ_geopolitical_indifference
-			}
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_the_eagle_preys_upon_us
-		icon = GFX_goal_generic_territory_or_war
-		x = 23
-		y = 3
-		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
-		prerequisite = { focus = GOZ_enemies_all_around }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_war_support = 0.1
-			#relations
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_memories_of_the_emergency
-		icon = GFX_focus_generic_strike_at_democracy1
-		x = 0
-		y = 1
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_the_eagle_preys_upon_us }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#event
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_prepare_for_defensive_warfare
-		icon = GFX_goal_generic_construct_military
-		x = 0
+		focus = {
+		id = GOZ_a_trip_to_the_underground
+		x = 34
 		y = 2
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_memories_of_the_emergency }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			#buildings
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_not_one_step_back
-		icon = GFX_goal_generic_military_sphere
-		x = -1
-		y = 3
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_prepare_for_defensive_warfare }
-		mutually_exclusive = {focus = GOZ_protect_the_heartland }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = GOZ_not_one_step_back
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_fortify_onarough
-		icon = GFX_goal_generic_fortify_city
-		x = -1
-		y = 4
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_not_one_step_back }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#buildings
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_protect_the_heartland
-		icon = GFX_goal_generic_small_arms
-		x = 1
-		y = 3
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_prepare_for_defensive_warfare }
-		mutually_exclusive = {focus = GOZ_not_one_step_back }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = GOZ_heartland_defence
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_build_the_olmobuch-stevesk_trenches
-		icon = GFX_goal_generic_position_armies
-		x = 1
-		y = 4
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_protect_the_heartland }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#buildings
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_fund_the_torgyr_spy_company
-		icon = GFX_goal_torgyr_spy_company
-		x = 0
-		y = 5
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_fortify_onarough OR = GOZ_build_the_olmobuch-stevesk_trenches}
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#spies
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_finance_the_great_wall
-		icon = GFX_goal_generic_construction2
-		x = 0
-		y = 6
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_fund_the_torgyr_spy_company }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#buildings
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_contact_the_lost_people
-		icon = GFX_goal_generic_national_unity
-		x = 0
-		y = 7
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_finance_the_great_wall }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#event
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_spies_in_high_places
-		icon = GFX_goal_spies
-		x = -2
-		y = 8
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_contact_the_lost_people }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#spies
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_set_up_the_recapture_command
-		icon = GFX_goal_generic_special_forces
-		x = 0
-		y = 8
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_contact_the_lost_people }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#spies
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_initiate_resistance_newspapers
-		icon = GFX_focus_generic_treaty
-		x = 2
-		y = 8
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_contact_the_lost_people }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#spies
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_once_injured_twice_shy
-		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 9
-		relative_position_id = GOZ_the_eagle_preys_upon_us
-		prerequisite = { focus = GOZ_spies_in_high_places }
-		prerequisite = { focus = GOZ_set_up_the_recapture_command }
-		prerequisite = { focus = GOZ_initiate_resistance_newspapers }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = ICR
-			}
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_fear_the_second_empire
-		icon = GFX_goal_generic_CAS
-		x = 30
-		y = 3
-		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
-		prerequisite = { focus = GOZ_enemies_all_around }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#relations
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_an_unholy_alliance
-		icon = GFX_goal_generic_dangerous_deal
-		x = -1
-		y = 1
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_fear_the_second_empire }
-		mutually_exclusive = {focus = GOZ_from_our_own_pockets }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_host_the_trentia_talks
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = -1
+		focus = {
+		id = GOZ_new_economic_plan
+		x = 45
 		y = 2
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_an_unholy_alliance }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_icrusian-gozyr_trade_agreement
-		icon = GFX_goal_generic_forceful_treaty
-		x = -1
+		}
+		focus = {
+		id = GOZ_burst_the_economic_bubble
+		x = 6
 		y = 3
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_an_unholy_alliance }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_buy_icrusian_arms
-		icon = GFX_focus_secret_rearmament
-		x = -1
-		y = 4
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_icrusian-gozyr_trade_agreement }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_north_central_ambulas_economic_union
-		icon = GFX_goal_generic_national_unity
-		x = -1
-		y = 5
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_icrusian-gozyr_trade_agreement }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_bow_down_to_the_king
-		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		x = -2
-		y = 6
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_north_central_ambulas_economic_union }
-		mutually_exclusive = {focus = GOZ_become_a_junior_partner }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_icrusian_tributes
-		icon = GFX_focus_generic_self_management
-		x = -2
-		y = 7
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_bow_down_to_the_king }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_buy_back_our_lands
-		icon = GFX_goal_pay_out_military
-		x = -2
-		y = 8
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_icrusian_tributes }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_become_a_junior_partner
-		icon = GFX_goal_generic_improve_relations
-		x = 0
-		y = 6
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_north_central_ambulas_economic_union }
-		mutually_exclusive = {focus = GOZ_bow_down_to_the_king }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_strike_a_military_deal
-		icon = GFX_goal_generic_military_deal
-		x = 0
-		y = 7
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_become_a_junior_partner }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_icrusian_money_making_machine
-		icon = GFX_goal_increase_military_pay
-		x = 0
-		y = 8
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_strike_a_military_deal }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_form_the_black_feather_pact
-		icon = GFX_focus_generic_diplomatic_treaty
-		x = -1
-		y = 9
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_buy_back_our_lands OR = GOZ_icrusian_money_making_machine }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_from_our_own_pockets
-		icon = GFX_focus_generic_self_management
-		x = 2
-		y = 1
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_fear_the_second_empire }
-		mutually_exclusive = {focus = GOZ_an_unholy_alliance }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_infiltrate_airestonian_walls
-		icon = GFX_goal_infiltration
-		x = 2
-		y = 2
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_from_our_own_pockets }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_fund_airestonian_terrorist_groups
-		icon = GFX_goal_generic_forceful_treaty
-		x = 2
+		focus = {
+		id = GOZ_the_deteoriating_state_of_the_military
+		x = 22
 		y = 3
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_infiltrate_airestonian_walls }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_invade_airestonian_markets
-		icon = GFX_goal_generic_trade
-		x = 2
-		y = 4
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_fund_airestonian_terrorist_groups }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_bribe_airestonian_officials
-		icon = GFX_goal_generic_intelligence_exchange
-		x = 2
-		y = 5
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_invade_airestonian_markets }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_boost_the_spy_network
-		icon = GFX_goal_spies
-		x = 2
-		y = 6
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_bribe_airestonian_officials }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_request_mercenary_help
-		icon = GFX_focus_generic_little_entente
-		x = 2
-		y = 7
-		relative_position_id = GOZ_fear_the_second_empire
-		prerequisite = { focus = GOZ_boost_the_spy_network }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-#####
-
-	focus = {
-		id = GOZ_we_have_a_army
-		icon = GFX_goal_generic_defence
-		x = 50
-		y = 2
-		#relative_position_id = GOZ_call_the_51st_congress_of_the_federation
-		prerequisite = { focus = GOZ_assess_the_state }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_start_from_the_ground_up
-		icon = GFX_focus_secret_rearmament
-		x = 0
-		y = 1
-		relative_position_id = GOZ_we_have_a_army
-		prerequisite = { focus = GOZ_we_have_a_army }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_initiate_the_first_recruitment_drive
-		icon = GFX_focus_generic_little_entente
-		x = 37
-		y = 4
-		#relative_position_id = GOZ_we_have_a_army
-		prerequisite = { focus = GOZ_start_from_the_ground_up }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_simplify_recruitment_process
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		x = -2
-		y = 1
-		relative_position_id = GOZ_initiate_the_first_recruitment_drive
-		prerequisite = { focus = GOZ_initiate_the_first_recruitment_drive }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_found_the_1st_marshal_battalion
-		icon = GFX_goal_generic_special_forces
-		x = -2
-		y = 2
-		relative_position_id = GOZ_initiate_the_first_recruitment_drive
-		prerequisite = { focus = GOZ_simplify_recruitment_process }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_set_up_the_frontline_donation_fund
-		icon = GFX_focus_generic_self_management
-		x = -2
+		focus = {
+		id = GOZ_hire_prisoners
+		x = 32
 		y = 3
-		relative_position_id = GOZ_initiate_the_first_recruitment_drive
-		prerequisite = { focus = GOZ_found_the_1st_marshal_battalion }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_fund_the_national_youth_union
-		icon = GFX_goal_generic_political_pressure
-		x = 1
-		y = 1
-		relative_position_id = GOZ_initiate_the_first_recruitment_drive
-		prerequisite = { focus = GOZ_initiate_the_first_recruitment_drive }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_create_the_reshi_legions
-		icon = GFX_focus_generic_support_the_left_right
-		x = 1
-		y = 2
-		relative_position_id = GOZ_initiate_the_first_recruitment_drive
-		prerequisite = { focus = GOZ_fund_the_national_youth_union }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_little_man_shows
-		icon = GFX_goal_generic_propaganda
-		x = 0
+		focus = {
+		id = GOZ_dilute_cultural_taboos
+		x = 34
 		y = 3
-		relative_position_id = GOZ_initiate_the_first_recruitment_drive
-		prerequisite = { focus = GOZ_create_the_reshi_legions }
-		mutually_exclusive = {focus = GOZ_open_the_rshavesk_heroes_memorial }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_open_the_rshavesk_heroes_memorial
-		icon = GFX_goal_generic_military_deal
-		x = 2
+		}
+		focus = {
+		id = GOZ_recruit_the_mafia
+		x = 36
 		y = 3
-		relative_position_id = GOZ_initiate_the_first_recruitment_drive
-		prerequisite = { focus = GOZ_create_the_reshi_legions }
-		mutually_exclusive = {focus = GOZ_little_man_shows }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_operation_andromeda
-		icon = GFX_goal_generic_alliance
-		x = 0
-		y = 4
-		relative_position_id = GOZ_initiate_the_first_recruitment_drive
-		prerequisite = { focus = GOZ_set_up_the_frontline_donation_fund OR = GOZ_little_man_shows OR = GOZ_open_the_rshavesk_heroes_memorial }
-		#mutually_exclusive = {focus = GOZ_little_man_shows }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_form_a_war_comittee
-		icon = GFX_goal_generic_army_doctrines
-		x = 47
-		y = 4
-		#relative_position_id = GOZ_we_have_a_army
-		prerequisite = { focus = GOZ_start_from_the_ground_up }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_reassign_the_gozyr_border_guards
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		x = -5
-		y = 1
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_form_a_war_comittee }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_invite_echainaian_military_experts
-		icon = GFX_focus_generic_military_mission
-		x = -5
-		y = 2
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_reassign_the_gozyr_border_guards }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_train_the_first_generals
-		icon = GFX_goal_generic_cavalry
-		x = -5
+		focus = {
+		id = GOZ_build_up_the_great_lakes_heartland
+		x = 42
 		y = 3
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_invite_echainaian_military_experts }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_reestablish_the_hitrovro_military_academy
-		icon = GFX_focus_generic_military_academy
-		x = -5
-		y = 4
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_train_the_first_generals }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_study_into_mage_warfare
-		icon = GFX_focus_research
-		x = -3
-		y = 1
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_form_a_war_comittee }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_rediscover_magic
-		icon = GFX_goal_rediscover_magic
-		x = -3
-		y = 2
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_study_into_mage_warfare }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_start_the_univeristy_for_arcanic_thought
-		icon = GFX_focus_generic_military_academy
-		x = -3
+		focus = {
+		id = GOZ_protect_the_olnbus_region
+		x = 49
 		y = 3
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_rediscover_magic }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_invest_into_the_triad_mage_group
-		icon = GFX_goal_triad_magic_group
-		x = -3
-		y = 4
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_start_the_univeristy_for_arcanic_thought }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_widen_the_mage_acceptance_pool
-		icon = GFX_goal_generic_national_unity
-		x = -3
-		y = 5
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_invest_into_the_triad_mage_group }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_fund_new_armaments_research_centres
-		icon = GFX_goal_tfv_generic_tech_sharing
-		x = 2
-		y = 1
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_form_a_war_comittee }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_buy_artillery_patents
-		icon = GFX_goal_generic_army_artillery2
-		x = -1
-		y = 2
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_fund_new_armaments_research_centres }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_studies_into_the_hellswarm
-		icon = GFX_goal_generic_build_tank
-		x = -1
-		y = 3
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_buy_artillery_patents }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_invest_in_the_atarx_battery_company
-		icon = GFX_goal_generic_army_artillery
-		x = -1
-		y = 4
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_studies_into_the_hellswarm }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_shell_our_way_to_success
-		icon = GFX_goal_raining_shells
-		x = -1
-		y = 5
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_invest_in_the_atarx_battery_company }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_buy_rifle_patents
-		icon = GFX_goal_generic_small_arms
-		x = 1
-		y = 2
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_fund_new_armaments_research_centres }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_buy_support_equipment_patents
-		icon = GFX_goal_generic_military_sphere 
-		x = 3
-		y = 2
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_fund_new_armaments_research_centres }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_study_elite_troop_tactics
-		icon = GFX_goal_generic_defeat_in_detail
-		x = 2
-		y = 3
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_buy_rifle_patents }
-		prerequisite = { focus = GOZ_buy_support_equipment_patents }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_invest_in_hukima_gunworks
-		icon = GFX_goal_mjuwda_gunworks
-		x = 2
-		y = 4
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_study_elite_troop_tactics }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_great_army_revival
-		icon = GFX_focus_generic_little_entente
-		x = 2
-		y = 5
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_invest_in_hukima_gunworks }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_promote_cavalry_research
-		icon = GFX_goal_generic_cavalry_group
-		x = 5
-		y = 2
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_fund_new_armaments_research_centres }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_fund_the_trench_war_horse_group
-		icon = GFX_goal_generic_cavalry
-		x = 5
-		y = 3
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_promote_cavalry_research }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_faster_than_light
-		icon = GFX_goal_generic_CAS
+		focus = {
+		id = GOZ_buy_out_failing_banks
 		x = 4
 		y = 4
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_fund_the_trench_war_horse_group }
-		mutually_exclusive = {focus = GOZ_rolling_thunder }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_rolling_thunder
-		icon = GFX_focus_eng_organise_the_blackshirts
-		x = 6
-		y = 4
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_fund_the_trench_war_horse_group }
-		mutually_exclusive = {focus = GOZ_faster_than_light }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_get_off_the_high_horse
-		icon = GFX_goal_generic_cavalry_advanced
-		x = 5
-		y = 5
-		relative_position_id = GOZ_form_a_war_comittee
-		prerequisite = { focus = GOZ_faster_than_light OR = GOZ_rolling_thunder }
-		#mutually_exclusive = {focus = GOZ_faster_than_light }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_war_promotion_comission
-		icon = GFX_goal_generic_propaganda
-		x = 58
-		y = 4
-		#relative_position_id = GOZ_we_have_a_army
-		prerequisite = { focus = GOZ_start_from_the_ground_up }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_get_equipment_for_troops
-		icon = GFX_focus_secret_rearmament
-		x = 0
-		y = 1
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_war_promotion_comission }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_repurpose_old_tool_factories
-		icon = GFX_goal_generic_production
-		x = 0
-		y = 2
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_get_equipment_for_troops }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_initiate_the_2_year_plan
-		icon = GFX_focus_generic_treaty
-		x = -1
-		y = 3
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_repurpose_old_tool_factories }
-		mutually_exclusive = {focus = GOZ_force_an_instant_war_economy }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_employ_prisoner_levies
-		icon = GFX_focus_CZE_german_puppet
-		x = -2
-		y = 4
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_initiate_the_2_year_plan }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_establish_unemployed_working_companies
-		icon = GFX_goal_generic_forceful_treaty
-		x = -2
-		y = 5
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_employ_prisoner_levies }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_recruit_foreign_labour
-		icon = GFX_goal_generic_intelligence_exchange
-		x = -2
-		y = 6
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_establish_unemployed_working_companies }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_woman_in_the_workforce
-		icon = GFX_goal_generic_improve_relations
-		x = -2
-		y = 7
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_recruit_foreign_labour }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_rshavesk_central_hub
-		icon = GFX_goal_generic_construct_civ_factory
-		x = -2
-		y = 8
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_woman_in_the_workforce }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_increase_working_hours
-		icon = GFX_goal_working_hours
-		x = 0
-		y = 4
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_initiate_the_2_year_plan }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_build_more_factories_in_the_countryside
-		icon = GFX_focus_generic_industry_1
-		x = 0
-		y = 5
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_increase_working_hours }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_set_higher_quotas
-		icon = GFX_goal_generic_consumer_goods
-		x = 0
-		y = 6
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_build_more_factories_in_the_countryside }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_land_requisition_plan
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 0
-		y = 7
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_set_higher_quotas }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_erase_bureaucracy
-		icon = GFX_focus_generic_self_management
-		x = 0
-		y = 8
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_land_requisition_plan }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_force_an_instant_war_economy
-		icon = GFX_goal_generic_construct_civilian
-		x = 2
-		y = 3
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_repurpose_old_tool_factories }
-		mutually_exclusive = {focus = GOZ_initiate_the_2_year_plan }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_convert_consumer_factories
-		icon = GFX_goal_generic_consumer_goods
-		x = 2
-		y = 4
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_force_an_instant_war_economy }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_work_does_not_discriminate
-		icon = GFX_goal_generic_political_pressure
-		x = 2
-		y = 5
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_convert_consumer_factories }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_set_up_the_work_enforcement_group
-		icon = GFX_goal_generic_national_unity
-		x = 2
-		y = 6
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_work_does_not_discriminate }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_construct_the_versk-stevesk_road
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 2
-		y = 7
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_set_up_the_work_enforcement_group }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_massive_factory_expansions
-		icon = GFX_focus_generic_industry_2
-		x = 2
-		y = 8
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_construct_the_versk-stevesk_road }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_prosperity
-		icon = GFX_goal_increase_budget
-		x = 0
-		y = 9
-		relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_rshavesk_central_hub OR = GOZ_erase_bureaucracy OR = GOZ_massive_factory_expansions }
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-########
-
-	focus = {
-		id = GOZ_economy_above_all
-		icon = GFX_goal_generic_positive_trade_relations
-		x = 71.5
-		y = 0
+		icon = GFX_goal_generic_demand_territory
 		#relative_position_id = AST_empower_the_workers
 		 
-		#mutually_exclusive = {focus = ARS_pay_your_dues }
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_burst_the_economic_bubble
-		icon = GFX_goal_economic_bubble
-		x = 67
-		y = 1
-		#relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_economy_above_all }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_bail_out_failing_banks
-		icon = GFX_goal_pay_out_military
-		x = -2
-		y = 1
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_burst_the_economic_bubble }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_devalue_the_currency
-		icon = GFX_goal_devalue_currency
-		x = 0
-		y = 1
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_burst_the_economic_bubble }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-	
-	focus = {
-		id = GOZ_subsidise_suffering_businesses
-		icon = GFX_goal_generic_intelligence_exchange
-		x = 2
-		y = 1
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_burst_the_economic_bubble }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_get_bang_for_our_buck
-		icon = GFX_goal_generic_dangerous_deal
-		x = -2
-		y = 2
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_bail_out_failing_banks }
-		prerequisite = { focus = GOZ_devalue_the_currency }
-		prerequisite = { focus = GOZ_subsidise_suffering_businesses }
-		mutually_exclusive = {focus = GOZ_ethical_economical_practices }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_subsidies_the_big_2
-		icon = GFX_focus_generic_diplomatic_treaty
-		x = -2
-		y = 3
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_get_bang_for_our_buck }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_grand_business_protection_law
-		icon = GFX_goal_generic_forceful_treaty
-		x = -3
+		focus = {
+		id = GOZ_roll_pout_new_currency
+		x = 6
 		y = 4
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_subsidies_the_big_2 }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_new_work_deal
-		icon = GFX_goal_generic_forceful_treaty
-		x = -1
-		y = 4
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_subsidies_the_big_2 }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_liquidate_unprofitable_businesses
-		icon = GFX_focus_rom_parties_end
-		x = -2
-		y = 5
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_grand_business_protection_law }
-		prerequisite = { focus = GOZ_new_work_deal }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_give_out_new_contracts
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = -2
-		y = 6
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_liquidate_unprofitable_businesses }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_at_the_top_of_the_world
-		icon = GFX_goal_generic_positive_trade_relations
-		x = -2
-		y = 7
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_give_out_new_contracts }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_ethical_economical_practices
-		icon = GFX_goal_tripartite_pact
-		x = 2
-		y = 2
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_bail_out_failing_banks }
-		prerequisite = { focus = GOZ_devalue_the_currency }
-		prerequisite = { focus = GOZ_subsidise_suffering_businesses }
-		mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_break_up_the_big_2
 		icon = GFX_goal_generic_demand_territory
-		x = 2
-		y = 3
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_ethical_economical_practices }
-		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_strengthen_clients_trust
-		icon = GFX_goal_generic_major_alliance
-		x = 1
+		}
+		focus = {
+		id = GOZ_subsidise_failing_businesses
+		x = 8
 		y = 4
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_break_up_the_big_2 }
-		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_work_safety_classifications
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 1
-		y = 5
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_strengthen_clients_trust }
-		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		}
+		focus = {
+		id = GOZ_reinstate_conscription
+		x = 18
+		y = 4
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_enforce_the_anti-exploitation_law
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		}
+		focus = {
+		id = GOZ_form_a_war_committee
+		x = 26
+		y = 4
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_shrink_the_underground_trade
+		x = 33
+		y = 4
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_improve_the_bars_of_rshavesk
+		x = 35
+		y = 4
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_Ibago_build_up
+		x = 40
+		y = 4
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_expand_the_hitrovo_military_complex
+		x = 42
+		y = 4
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_versk_industrial_factories
+		x = 44
+		y = 4
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_operation_dark_night
+		x = 49
+		y = 4
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_lower_living_standards
 		x = 3
-		y = 4
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_break_up_the_big_2 }
-		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_build_up_the_hitrovro_trust_fund
-		icon = GFX_goal_generic_improve_relations
+		}
+		focus = {
+		id = GOZ_root_out_counterfeits
+		x = 5
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_lower_interest_rates
+		x = 7
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_attract_foreign_investors
+		x = 9
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_bring_in_new_recruits
+		x = 15
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_retrain_the_old_guard
+		x = 17
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_send_out_an_eligibility_census
+		x = 19
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_study_mage_warfare
+		x = 24
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_fund_new_armaments_research
+		x = 26
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_legalise_dukha
+		x = 34
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_connect_the_great_lakes_heartland
+		x = 41
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_monopolise_the_great_lakes
+		x = 43
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_woo_icrusian_elites
+		x = 47
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_buy_up_land_in_fayton
+		x = 49
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_build_houses_in_sragos
+		x = 51
+		y = 5
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_implement_the_economic_revival_plan
+		x = 6
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_streamline_the_recruitment_process
+		x = 15
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_root_out_unkempt_soldiers
+		x = 17
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_force_out_draft_dodgers
+		x = 19
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_incentivise_cavalry_research
+		x = 21
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_magical_revolution
+		x = 24
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_buy_artillery_patents
+		x = 26
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_purchase_state_of_the_art_rifles
+		x = 28
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_create_the_hitrovo_conspiracy
+		x = 34
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_transition_the_great_lakes_economy
+		x = 42
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_convince_icrusian_officers
+		x = 48
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_secret_riot_plans
+		x = 50
+		y = 6
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_new_tax_plan
 		x = 3
-		y = 5
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_enforce_the_anti-exploitation_law }
-		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_angels_of_economics
-		icon = GFX_goal_city_of_angel
-		x = 2
-		y = 6
-		relative_position_id = GOZ_burst_the_economic_bubble
-		prerequisite = { focus = GOZ_work_safety_classifications }
-		prerequisite = { focus = GOZ_build_up_the_hitrovro_trust_fund }
-		#mutually_exclusive = {focus = GOZ_get_bang_for_our_buck }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_forward-looking_economy
-		icon = GFX_goal_generic_consumer_goods
-		x = 76
-		y = 1
-		#relative_position_id = GOZ_war_promotion_comission
-		prerequisite = { focus = GOZ_economy_above_all }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_expand_the_financial_sector
-		icon = GFX_goal_generic_production2
-		x = 0
-		y = 1
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_forward-looking_economy }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_fund_political_businesses
-		icon = GFX_focus_generic_self_management
-		x = -2
-		y = 2
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_expand_the_financial_sector }
-		mutually_exclusive = {focus = GOZ_promote_industrial_businesses }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_literacy_drive
-		icon = GFX_focus_research
-		x = -3
-		y = 3
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_fund_political_businesses }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_build_new_schools
-		icon = GFX_goal_tfv_generic_tech_sharing
-		x = -3
-		y = 4
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_literacy_drive }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_hire_more_professors
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = -3
-		y = 5
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_build_new_schools }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_expand_the_univesirty_of_rshavesk 
-		icon = GFX_goal_generic_scientific_exchange
-		x = -3
-		y = 6
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_hire_more_professors }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_finance_law_schools
-		icon = GFX_focus_generic_military_academy
-		x = -1
-		y = 3
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_fund_political_businesses }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_root_out_corruption
-		icon = GFX_goal_arrest_without_trial
-		x = -1
-		y = 4
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_finance_law_schools }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_increase_congress_budgets
-		icon = GFX_goal_increase_budget
-		x = -1
-		y = 5
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_root_out_corruption }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_pay_politicians_more
-		icon = GFX_goal_increase_military_pay
-		x = -1
-		y = 6
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_increase_congress_budgets }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_the_world_most_educated
-		icon = GFX_focus_research2
-		x = -2
 		y = 7
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_expand_the_univesirty_of_rshavesk }
-		prerequisite = { focus = GOZ_pay_politicians_more }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_promote_industrial_businesses
-		icon = GFX_focus_generic_self_management
-		x = 2
-		y = 2
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_expand_the_financial_sector }
-		mutually_exclusive = {focus = GOZ_fund_political_businesses }
-		available = {
-
 		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_rshavesk_consumer_hub
-		icon = GFX_focus_generic_industry_2
-		x = 1
-		y = 3
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_promote_industrial_businesses }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_modern_industrial_centres
-		icon = GFX_goal_generic_production
-		x = 1
-		y = 4
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_rshavesk_consumer_hub }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_conduct_mining_operations
-		icon = GFX_goal_generic_construction2
-		x = 3
-		y = 3
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_promote_industrial_businesses }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_improve_extraction_efficiency
-		icon = GFX_goal_generic_construct_civilian
-		x = 3
-		y = 4
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_conduct_mining_operations }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_synthetic_productions
-		icon = GFX_focus_generic_industry_1
-		x = 2
-		y = 5
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_modern_industrial_centres }
-		prerequisite = { focus = GOZ_improve_extraction_efficiency }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_advanced_industrial_methods
-		icon = GFX_goal_generic_production2
-		x = 2
-		y = 6
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_synthetic_productions }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_development_grants
-		icon = GFX_focus_generic_treaty
-		x = 2
+		focus = {
+		id = GOZ_new_workers_deal
+		x = 10
 		y = 7
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_advanced_industrial_methods }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_small_rich_nation
-		icon = GFX_goal_generic_trade
-		x = 0
+		}
+		focus = {
+		id = GOZ_increase_the_annual_army_size
+		x = 16
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_increase_military_spending
+		x = 18
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_buy_truian_horses
+		x = 21
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_start_the_univeristy_for_arcanic_thought
+		x = 24
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_hellswarm
+		x = 26
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_reform_unit_structure
+		x = 28
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_open_more_casinos
+		x = 31
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_mkae_gambling_more_exploitative
+		x = 33
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_buy_more_land_for_gambling_dens
+		x = 35
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_introduce_gambling_to_more
+		x = 37
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_lower_the_overfishing_cap
+		x = 41
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_support_the_fishing_industry
+		x = 43
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_new_icrusian_gozyr_trade_deal
+		x = 48
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_bribe_icrusian_officials
+		x = 50
+		y = 7
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_increase_taxes
+		x = 1
 		y = 8
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_development_grants OR = GOZ_the_world_most_educated }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_protect_our_pockets
-		icon = GFX_focus_generic_strike_at_democracy1
-		x = -4.5
-		y = 9
-		relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_small_rich_nation }
-		prerequisite = { focus = GOZ_at_the_top_of_the_world OR = GOZ_angels_of_economics }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_redevelop_the_defence_force
-		icon = GFX_focus_generic_little_entente
-		x = 68
-		y = 11
-		#relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_protect_our_pockets }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_pay_foreign_military_experts
-		icon = GFX_focus_generic_military_mission
-		x = -2
-		y = 1
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_redevelop_the_defence_force }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_promote_rising_generals
-		icon = GFX_focus_generic_military_academy
-		x = -2
-		y = 2
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_pay_foreign_military_experts }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_increase_military_pay
-		icon = GFX_goal_increase_military_pay
-		x = -2
-		y = 3
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_promote_rising_generals }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_hire_mercenaries
-		icon = GFX_goal_generic_attack_allies
-		x = -2
-		y = 4
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_increase_military_pay }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_re-equip_the_military
-		icon = GFX_focus_secret_rearmament
-		x = 0
-		y = 1
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_redevelop_the_defence_force }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_increase_military_budget
-		icon = GFX_focus_generic_self_management
-		x = 0
-		y = 2
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_re-equip_the_military }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_war_subsidies_act
-		icon = GFX_focus_generic_treaty
-		x = 0
-		y = 3
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_increase_military_budget }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_buy_more_guns
-		icon = GFX_goal_generic_small_arms
-		x = 0
-		y = 4
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_war_subsidies_act }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_repurpose_media_groups
-		icon = GFX_goal_generic_dangerous_deal
-		x = 2
-		y = 1
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_redevelop_the_defence_force }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_propaganda_for_hire
-		icon = GFX_goal_generic_propaganda
-		x = 2
-		y = 2
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_repurpose_media_groups }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_set_up_the_media_crafts_corporation
-		icon = GFX_goal_generic_forceful_treaty
-		x = 2
-		y = 3
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_propaganda_for_hire }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_heroes_on_the_frontline
-		icon = GFX_goal_generic_military_sphere
-		x = 2
-		y = 4
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_set_up_the_media_crafts_corporation }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_the_inevitable_truth
-		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 5
-		relative_position_id = GOZ_redevelop_the_defence_force
-		prerequisite = { focus = GOZ_heroes_on_the_frontline }
-		prerequisite = { focus = GOZ_buy_more_guns }
-		prerequisite = { focus = GOZ_hire_mercenaries }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_seek_out_friends
-		icon = GFX_focus_generic_diplomatic_treaty
-		x = 75
-		y = 11
-		#relative_position_id = GOZ_forward-looking_economy
-		prerequisite = { focus = GOZ_protect_our_pockets }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-
-		ai_will_do = {
-
-		}
-	}
-
-	focus = {
-		id = GOZ_deal_with_the_echainaians
 		icon = GFX_goal_generic_demand_territory
-		x = -2
-		y = 1
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_seek_out_friends }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_form_the_great_lakes_union
-		icon = GFX_goal_generic_national_unity
-		x = -2
-		y = 2
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_deal_with_the_echainaians }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_lower_taxes
+		x = 3
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_buy_out_echainaian_trust
-		icon = GFX_goal_pay_out_military
-		x = -2
-		y = 3
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_form_the_great_lakes_union }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_crackdown_on_tax_evasion
+		x = 5
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_ignite_the_great_northern_alliance
-		icon = GFX_goal_generic_political_pressure
-		x = -2
-		y = 4
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_buy_out_echainaian_trust }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_increase_wages
+		x = 8
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_seek_out_icrusian_debts
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		x = 0
-		y = 1
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_seek_out_friends }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_improve_working_conditions
+		x = 10
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_rifiord_talks
-		icon = GFX_goal_generic_dangerous_deal
-		x = 0
-		y = 2
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_seek_out_icrusian_debts }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_enforce_permanent_working_hours
+		x = 12
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_sign_a_formal_contract
-		icon = GFX_focus_generic_treaty
-		x = 0
-		y = 3
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_rifiord_talks }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_train_new_generals
+		x = 16
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_join_the_icrusian_league
-		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 0
-		y = 4
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_sign_a_formal_contract }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_invite_echainaian_military_experts
+		x = 19
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_coeerce_airestonia
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		x = 2
-		y = 1
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_seek_out_friends }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_rolling_thunder_policy
+		x = 21
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_bribe_airestonian_diplomats
-		icon = GFX_goal_generic_intelligence_exchange
-		x = 2
-		y = 2
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_coeerce_airestonia }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_buy_the_triad_mage_group
+		x = 24
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_build_a_dependence
-		icon = GFX_goal_generic_improve_relations
-		x = 2
-		y = 3
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_bribe_airestonian_diplomats }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_set_up_the_atarx_battery_company
+		x = 26
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_mutual_defence_pact
-		icon = GFX_goal_generic_alliance
-		x = 2
-		y = 4
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_build_a_dependence }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_enforce_a_surplus_policy
+		x = 28
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-
-	focus = {
-		id = GOZ_best_friends_forever
-		icon = GFX_goal_generic_military_deal
-		x = 0
-		y = 5
-		relative_position_id = GOZ_seek_out_friends
-		prerequisite = { focus = GOZ_mutual_defence_pact }
-		prerequisite = { focus = GOZ_join_the_icrusian_league }
-		prerequisite = { focus = GOZ_ignite_the_great_northern_alliance }
-		#mutually_exclusive = {focus = GOZ_call_the_51st_congress_of_the_federation }
+		}
+		focus = {
+		id = GOZ_create_public_gambling_spaces
+		x = 32
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
 		available = {
-
 		}
-
 		bypass = {
-
 		}
-
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
 		completion_reward = {
-			
+		add_political_power = 100
 		}
-
 		ai_will_do = {
-
 		}
-	}
-	
-}		
+		}
+		focus = {
+		id = GOZ_nationalise_dukha
+		x = 34
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_remove_the_gambling_taboo
+		x = 36
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_industrialise_onarough
+		x = 42
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_buy_sragos_and_fayton
+		x = 49
+		y = 8
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_emergency_tax_law
+		x = 3
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_a_workers_promise
+		x = 10
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_build_the_rshavesk_military_academy
+		x = 15
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_rebuild_the_hitrovo_university
+		x = 17
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_learn_from_the_icrusian_military
+		x = 19
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_build_new_stables
+		x = 21
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_widen_the_mage_training_pool
+		x = 24
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_shell_our_way_to_success
+		x = 26
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_invest_into_hukima_gunworks
+		x = 28
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_the_gambling_capital
+		x = 34
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_punp_out_new_factory_plants
+		x = 40
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_attract_farmers_to_the_cities
+		x = 42
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_prop_up_businesses_in_onarough
+		x = 44
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_expand_citizenship
+		x = 48
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_establish_the_north_ambulas_economic_region
+		x = 50
+		y = 9
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_grand_economic_revival
+		x = 6
+		y = 10
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_grand_military_revival
+		x = 18
+		y = 10
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_heart_of_military_innovation
+		x = 26
+		y = 10
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_gornovo_shipyards
+		x = 41
+		y = 10
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_create_the_onarough_industrial_military_complex
+		x = 43
+		y = 10
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_a_once_proud_empire
+		x = 14
+		y = 11
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_proft_into_the_future
+		x = 41
+		y = 11
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_seek_out_our_lost_territories
+		x = 11
+		y = 12
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_safeguard_against_echainaian_persecution
+		x = 17
+		y = 12
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_humiliations_oif_the_past
+		x = 9
+		y = 13
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_create_the_lubichesk_conspiracy
+		x = 11
+		y = 13
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_strengthen_the_border_units
+		x = 13
+		y = 13
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_denounce_echainaia
+		x = 15
+		y = 13
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_open_refugee_camps
+		x = 17
+		y = 13
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_set_up_spies_in_echainaia
+		x = 19
+		y = 13
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_strike_the_eagle_down
+		x = 11
+		y = 14
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_in_the_name_of_freedom
+		x = 17
+		y = 14
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+		focus = {
+		id = GOZ_proclaim_the_new_gozyr_federation
+		x = 14
+		y = 15
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		#prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
+		#mutually_exclusive = {focus = AST_economy_above_all }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
+	}	
 
 
