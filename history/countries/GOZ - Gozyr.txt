@@ -16,6 +16,14 @@ set_popularities = {
 	democratic = 100
 }
 
+
+add_ideas = { 
+	GOZ_geopolitical_indifference
+	GOZ_a_mercantile_federation
+	GOZ_economic_bubble
+	GOZ_disbanded_military
+}
+
 set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
