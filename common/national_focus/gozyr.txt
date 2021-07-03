@@ -116,7 +116,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#event
 		}
 		ai_will_do = {
 		}
@@ -141,7 +141,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -194,7 +194,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			army_experience = 30
 		}
 		ai_will_do = {
 		}
@@ -219,7 +219,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#manpower
+			add_stability = -0.2
 		}
 		ai_will_do = {
 		}
@@ -244,7 +245,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = 100
+			add_stability = 0.1
 		}
 		ai_will_do = {
 		}
@@ -269,7 +271,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_stability = -0.1
+			add_war_support = -0.3
+			add_political_power = 200
 		}
 		ai_will_do = {
 		}
@@ -294,7 +298,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -319,7 +323,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -425,7 +429,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_ideas = GOZ_general_conscription
 		}
 		ai_will_do = {
 		}
@@ -450,7 +454,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -476,7 +480,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = 50
+			swap_ideas = {
+				add_idea = GOZ_economic_expansion_council2
+				remove_idea = GOZ_economic_expansion_council
+			}
 		}
 		ai_will_do = {
 		}
@@ -502,7 +510,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -527,7 +535,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -552,7 +560,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -577,7 +585,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -602,7 +610,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#events
 		}
 		ai_will_do = {
 		}
@@ -734,7 +742,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_manpower = 100000
 		}
 		ai_will_do = {
 		}
@@ -759,7 +767,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#units
 		}
 		ai_will_do = {
 		}
@@ -784,7 +792,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_manpower = 200000
 		}
 		ai_will_do = {
 		}
@@ -809,7 +817,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
 		}
 		ai_will_do = {
 		}
@@ -834,7 +842,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_research_slot = 1
 		}
 		ai_will_do = {
 		}
@@ -860,7 +868,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -885,7 +893,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -910,7 +918,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -935,7 +943,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = -50
 		}
 		ai_will_do = {
 		}
@@ -960,7 +968,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = -50
 		}
 		ai_will_do = {
 		}
@@ -985,7 +993,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = -50
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -1039,7 +1048,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			swap_ideas = {
+				add_idea = GOZ_general_conscription2
+				remove_idea = GOZ_general_conscription
+			}
 		}
 		ai_will_do = {
 		}
@@ -1064,7 +1076,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_manpower = -10000
+			army_experience = 50
 		}
 		ai_will_do = {
 		}
@@ -1089,7 +1102,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_manpower = 500000
 		}
 		ai_will_do = {
 		}
@@ -1114,7 +1127,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
 		}
 		ai_will_do = {
 		}
@@ -1139,7 +1152,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
 		}
 		ai_will_do = {
 		}
@@ -1164,7 +1177,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
 		}
 		ai_will_do = {
 		}
@@ -1189,7 +1202,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
+			#equipment
 		}
 		ai_will_do = {
 		}
@@ -1214,7 +1228,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#events
 		}
 		ai_will_do = {
 		}
@@ -1240,7 +1254,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -1265,7 +1279,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = -50
+			#doctrine
 		}
 		ai_will_do = {
 		}
@@ -1291,7 +1306,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = -50
+			#event
 		}
 		ai_will_do = {
 		}
@@ -1366,7 +1382,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			swap_ideas = {
+				add_idea = GOZ_general_conscription3
+				remove_idea = GOZ_general_conscription2
+			}
 		}
 		ai_will_do = {
 		}
@@ -1391,7 +1410,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#event
 		}
 		ai_will_do = {
 		}
@@ -1416,7 +1435,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#equipment
 		}
 		ai_will_do = {
 		}
@@ -1441,7 +1460,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#doctrine
 		}
 		ai_will_do = {
 		}
@@ -1466,7 +1485,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
 		}
 		ai_will_do = {
 		}
@@ -1491,7 +1510,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#units
 		}
 		ai_will_do = {
 		}
@@ -1516,7 +1535,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -1566,7 +1585,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -1591,7 +1610,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = 100
 		}
 		ai_will_do = {
 		}
@@ -1616,7 +1635,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = 100
 		}
 		ai_will_do = {
 		}
@@ -1641,7 +1660,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -1666,7 +1685,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#relations
+			add_political_power = -50
+			ICR = { add_political_power = 50 }
 		}
 		ai_will_do = {
 		}
@@ -1691,7 +1712,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = -50
 		}
 		ai_will_do = {
 		}
@@ -1900,7 +1921,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#generals
+			#units
 		}
 		ai_will_do = {
 		}
@@ -1925,7 +1947,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#event
 		}
 		ai_will_do = {
 		}
@@ -1950,7 +1972,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
+			#equipment
 		}
 		ai_will_do = {
 		}
@@ -1975,7 +1998,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
 		}
 		ai_will_do = {
 		}
@@ -2000,7 +2023,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
 		}
 		ai_will_do = {
 		}
@@ -2026,7 +2049,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -2051,7 +2074,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			swap_ideas = {
+				add_idea = goz_dukha3
+				remove_idea = goz_dukha2
+			}
 		}
 		ai_will_do = {
 		}
@@ -2077,7 +2103,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = 100
 		}
 		ai_will_do = {
 		}
@@ -2103,7 +2129,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildi1ngs
 		}
 		ai_will_do = {
 		}
@@ -2129,7 +2155,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#event
 		}
 		ai_will_do = {
 		}
@@ -2211,7 +2237,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_ideas = GOZ_rshavesk_military_academy
 		}
 		ai_will_do = {
 		}
@@ -2236,7 +2262,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_research_slot = 1
 		}
 		ai_will_do = {
 		}
@@ -2261,7 +2287,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			army_experience = 100
+			#general
 		}
 		ai_will_do = {
 		}
@@ -2286,7 +2313,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -2311,7 +2339,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#units
 		}
 		ai_will_do = {
 		}
@@ -2336,7 +2364,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#doctrine
 		}
 		ai_will_do = {
 		}
@@ -2361,7 +2389,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#research
 		}
 		ai_will_do = {
 		}
@@ -2388,7 +2416,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
+			swap_ideas = {
+				add_idea = goz_dukha4
+				remove_idea = goz_dukha3
+			}
 		}
 		ai_will_do = {
 		}
@@ -2413,7 +2445,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -2438,7 +2470,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -2463,7 +2495,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -2488,7 +2520,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_manpower = 1000000
+			add_state_core = 101
+			add_state_core = 100
 		}
 		ai_will_do = {
 		}
@@ -2513,7 +2547,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_political_power = 100
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -2564,7 +2599,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			swap_ideas = {
+				add_idea = GOZ_gozyr_military_revival
+				remove_idea = GOZ_general_conscription3
+			}
 		}
 		ai_will_do = {
 		}
@@ -2589,7 +2627,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#doctrine
+			#research
 		}
 		ai_will_do = {
 		}
@@ -2614,7 +2653,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -2639,7 +2678,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#buildings
 		}
 		ai_will_do = {
 		}
@@ -2666,7 +2705,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#event
 		}
 		ai_will_do = {
 		}
@@ -2695,7 +2734,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			swap_ideas = {
+				add_idea = GOZ_gozyr_trade_empire
+				remove_idea = GOZ_a_mercantile_federation
+			}
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -2720,7 +2763,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#event
 		}
 		ai_will_do = {
 		}
@@ -2745,7 +2788,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#event
 		}
 		ai_will_do = {
 		}
@@ -2770,7 +2813,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -2795,7 +2838,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#event
 		}
 		ai_will_do = {
 		}
@@ -2820,7 +2863,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#units
 		}
 		ai_will_do = {
 		}
@@ -2845,7 +2888,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
 		}
 		ai_will_do = {
 		}
@@ -2870,7 +2913,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			add_manpower = 200000
 		}
 		ai_will_do = {
 		}
@@ -2895,7 +2938,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#spies
 		}
 		ai_will_do = {
 		}
@@ -2922,7 +2965,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			declare_war_on = {
+				target = ICR
+				type = puppet_wargoal_focus
+			}
 		}
 		ai_will_do = {
 		}
@@ -2949,7 +2995,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			declare_war_on = {
+				target = ECH
+				type = puppet_wargoal_focus
+			}
 		}
 		ai_will_do = {
 		}
@@ -2975,7 +3024,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		
+			#decisions
 		}
 		ai_will_do = {
 		}
