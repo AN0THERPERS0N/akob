@@ -1,0 +1,245 @@
+ideas = {
+
+	country = {
+
+		#starting ideas
+
+		ECH_the_royal_family = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.2
+				political_power_gain = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ECH_the_empire_of_peace = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.5
+				war_support_factor = -0.7
+				drift_defence_factor = -0.2
+				political_power_gain = 0.5
+				justify_war_goal_time = -0.5
+				trade_opinion_factor = 0.2
+				monthly_population = 0.3
+				research_speed_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		####
+
+		ECH_the_royal_family2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.25
+				political_power_gain = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ECH_iilidea_echainaian_trade_deal = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.25
+				research_speed_factor = 0.05
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ECH_iilidea_echainaian_trade_deal2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.75
+				research_speed_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ECH_gozyr_echainaian_trade_deal = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.1
+				research_speed_factor = 0.05
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ECH_the_empire_of_peace2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.7
+				war_support_factor = -0.8
+				drift_defence_factor = -0.2
+				political_power_gain = 0.5
+				justify_war_goal_time = -0.6
+				trade_opinion_factor = 0.2
+				monthly_population = 0.3
+				research_speed_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ECH_the_empire_of_peace3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.7
+				war_support_factor = -0.8
+				drift_defence_factor = -0.2
+				political_power_gain = 1
+				justify_war_goal_time = -0.65
+				trade_opinion_factor = 0.2
+				monthly_population = 0.3
+				research_speed_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+	}
+
+}

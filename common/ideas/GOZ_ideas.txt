@@ -8,7 +8,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -43,7 +43,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -80,7 +80,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -107,7 +107,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -143,7 +143,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -173,7 +173,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -209,7 +209,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -245,7 +245,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -283,7 +283,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -321,7 +321,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -361,7 +361,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -401,7 +401,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -430,7 +430,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -459,7 +459,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -485,7 +485,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -511,7 +511,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -537,7 +537,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -564,7 +564,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -591,7 +591,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -630,7 +630,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -662,7 +662,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -694,7 +694,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -722,7 +722,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -750,7 +750,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -778,7 +778,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {
@@ -806,7 +806,7 @@ ideas = {
 			picture = not_a_country
 			
 			allowed = {
-				tag = ARS
+				tag = GOZ
 			}
 
 			available = {

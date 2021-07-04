@@ -39,7 +39,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#event
 }
 ai_will_do = {
 }
@@ -62,7 +62,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = ECH_the_royal_family2
+		remove_idea = ECH_the_royal_family
+	}
 }
 ai_will_do = {
 }
@@ -85,7 +88,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#event
 }
 ai_will_do = {
 }
@@ -108,7 +111,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = ECH_iilidea_echainaian_trade_deal
 }
 ai_will_do = {
 }
@@ -131,7 +134,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = 25
+	#relations
 }
 ai_will_do = {
 }
@@ -158,7 +162,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = ECH_the_empire_of_peace2
+		remove_idea = ECH_the_empire_of_peace
+	}
 }
 ai_will_do = {
 }
@@ -181,7 +188,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
@@ -204,7 +211,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -227,7 +234,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = ECH_the_empire_of_peace3
+		remove_idea = ECH_the_empire_of_peace2
+	}
 }
 ai_will_do = {
 }
@@ -250,7 +260,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -273,7 +283,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -296,7 +306,19 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = 25
+	add_popularity = {
+		ideology = communism
+		popularity = 0.05
+	}
+	add_popularity = {
+		ideology = neutrality
+		popularity = 0.05
+	}
+	add_popularity = {
+		ideology = democracy
+		popularity = 0.05
+	}
 }
 ai_will_do = {
 }
@@ -319,7 +341,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -342,7 +364,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -365,7 +387,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -388,7 +410,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -401,8 +423,6 @@ y = 7
 icon = GFX_goal_generic_dangerous_deal
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ECH_make_allies }
-mutually_exclusive = {focus = ECH_call_upon_the_south }
-mutually_exclusive = {focus = ECH_strengthen_the_treaty_of_hitrovro }
 available = {
 }
 bypass = {
@@ -412,7 +432,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#events
 }
 ai_will_do = {
 }
@@ -425,8 +445,6 @@ y = 7
 icon = GFX_focus_generic_treaty
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ECH_make_allies }
-mutually_exclusive = {focus = ECH_heal_old_wounds }
-mutually_exclusive = {focus = ECH_call_upon_the_south }
 available = {
 }
 bypass = {
@@ -436,21 +454,19 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#event
 }
 ai_will_do = {
 }
 }
 focus = {
-id = ECH_call_upon_the_south
+id = ECH_icrusian_echainaian_party
 
 x = 7
 y = 7
 icon = GFX_focus_rom_royal_dictatorship
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ECH_make_allies }
-mutually_exclusive = {focus = ECH_heal_old_wounds }
-mutually_exclusive = {focus = ECH_strengthen_the_treaty_of_hitrovro }
 available = {
 }
 bypass = {
@@ -460,7 +476,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -483,7 +499,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -506,7 +522,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -529,7 +545,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -552,7 +568,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -575,7 +591,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -598,7 +614,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -621,7 +637,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -644,7 +660,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -667,13 +683,13 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
 }
 focus = {
-id = ECH_the_start_of_a_formal_pact
+id = ECH_begin_the_western_mission
 
 x = 5
 y = 8
@@ -690,7 +706,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
@@ -702,7 +718,7 @@ x = 7
 y = 8
 icon = GFX_goal_generic_military_sphere
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_call_upon_the_south }
+prerequisite = { focus = ECH_icrusian_echainaian_party }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -713,7 +729,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -736,7 +752,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -759,7 +775,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -782,7 +798,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -805,7 +821,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -828,7 +844,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -851,7 +867,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -874,7 +890,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -898,7 +914,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -921,7 +937,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -944,19 +960,21 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	GOZ = { add_political_power = 50 }
+	add_political_power = -50
+	add_ideas = ECH_gozyr_echainaian_trade_deal
 }
 ai_will_do = {
 }
 }
 focus = {
-id = ECH_trade_military_advisors
+id = ECH_exchange_advisors
 
 x = 5
 y = 9
 icon = GFX_focus_generic_military_mission
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_the_start_of_a_formal_pact }
+prerequisite = { focus = ECH_begin_the_western_mission }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -967,7 +985,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#generals
 }
 ai_will_do = {
 }
@@ -990,7 +1008,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1015,7 +1033,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1040,7 +1058,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1063,7 +1081,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1086,7 +1104,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1109,7 +1127,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1132,7 +1150,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1155,7 +1173,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1179,7 +1197,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1203,7 +1221,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1216,7 +1234,7 @@ x = 5
 y = 10
 icon = GFX_goal_generic_improve_relations
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_trade_military_advisors }
+prerequisite = { focus = ECH_exchange_advisors }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -1227,7 +1245,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#relations
+	add_political_power = 25
 }
 ai_will_do = {
 }
@@ -1250,7 +1269,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1274,7 +1293,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1298,7 +1317,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1322,7 +1341,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1345,7 +1364,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1368,7 +1387,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1391,7 +1410,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1414,7 +1433,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1437,7 +1456,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1461,7 +1480,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1485,7 +1504,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1508,7 +1527,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1531,7 +1550,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1554,7 +1573,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#event
 }
 ai_will_do = {
 }
@@ -1577,7 +1596,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
@@ -1600,17 +1619,19 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = 100
+	GOZ = { add_political_power = -100 }
+	#general
 }
 ai_will_do = {
 }
 }
 focus = {
-id = ECH_form_the_great_powers_union
+id = ECH_intertwine_our_economies
 
 x = 5
 y = 11
-icon = GFX_goal_generic_political_pressure
+icon = "GFX_goal_generic_positive_trade_relations"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ECH_greatly_improve_relations }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
@@ -1623,13 +1644,17 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = 50
+	swap_ideas = {
+		add_idea = ECH_iilidea_echainaian_trade_deal2
+		remove_idea = ECH_iilidea_echainaian_trade_deal
+	}
 }
 ai_will_do = {
 }
 }
 focus = {
-id = ECH_the_east_shall_be_ours
+id = ECH_peace_between_our_lands
 
 x = 7
 y = 11
@@ -1646,7 +1671,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1669,7 +1694,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1692,7 +1717,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1715,7 +1740,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1738,7 +1763,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1761,7 +1786,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1784,7 +1809,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1807,7 +1832,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1830,7 +1855,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1853,7 +1878,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1876,7 +1901,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1899,7 +1924,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1922,7 +1947,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1945,7 +1970,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1968,7 +1993,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1991,7 +2016,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2014,7 +2039,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2026,7 +2051,8 @@ x = 21
 y = 12
 icon = GFX_goal_generic_demand_territory
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_create_magical_antibodies OR = ECH_create_a_new_us }
+prerequisite = { focus = ECH_create_magical_antibodies }
+prerequisite = { focus = ECH_create_a_new_us }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -2037,7 +2063,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2049,7 +2075,8 @@ x = 23
 y = 12
 icon = GFX_goal_generic_major_war
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_create_a_new_us OR = ECH_spread_health_propaganda }
+prerequisite = { focus = ECH_create_a_new_us }
+prerequisite = { focus = ECH_spread_health_propaganda }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -2060,7 +2087,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2072,7 +2099,8 @@ x = 25
 y = 12
 icon = GFX_goal_arrest_without_trial
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_spread_health_propaganda OR = ECH_silence_the_foreigners }
+prerequisite = { focus = ECH_spread_health_propaganda }
+prerequisite = { focus = ECH_silence_the_foreigners }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -2083,7 +2111,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2108,7 +2136,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2133,7 +2161,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2156,7 +2184,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2169,7 +2197,9 @@ y = 14
 icon = GFX_goal_generic_occupy_states_ongoing_war
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ECH_finish_up_our_murder_weapon }
-prerequisite = { focus = ECH_new_found_resilience OR = ECH_blood_for_the_blood_god OR = ECH_mass_amnestisation }
+prerequisite = { focus = ECH_mass_amnestisation }
+prerequisite = { focus = ECH_blood_for_the_blood_god }
+prerequisite = { focus = ECH_new_found_resilience }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -2180,7 +2210,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
