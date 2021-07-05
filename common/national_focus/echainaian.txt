@@ -211,7 +211,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_ideas = ECH_ghewat_economic_plan
 }
 ai_will_do = {
 }
@@ -260,7 +260,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#event
 }
 ai_will_do = {
 }
@@ -283,7 +283,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -341,7 +341,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_ideas = ECH_echainaian_home_guard
 }
 ai_will_do = {
 }
@@ -364,13 +364,14 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#event
+	add_political_power = 100
 }
 ai_will_do = {
 }
 }
 focus = {
-id = ECH_establish_the_king_coal_company
+id = ECH_establish_the_royal_coal_company
 
 x = 36
 y = 6
@@ -387,7 +388,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -410,7 +411,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -460,7 +461,7 @@ ai_will_do = {
 }
 }
 focus = {
-id = ECH_icrusian_echainaian_party
+id = ECH_host_a_icrusian_echainaian_summit
 
 x = 7
 y = 7
@@ -476,7 +477,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#event
 }
 ai_will_do = {
 }
@@ -499,7 +500,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -522,7 +523,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -545,7 +546,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -568,7 +569,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -591,7 +592,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	army_experience = 50
+	add_ideas = ECH_hermit_kingdom
 }
 ai_will_do = {
 }
@@ -603,7 +605,7 @@ x = 35
 y = 7
 icon = GFX_focus_generic_industry_1
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_establish_the_king_coal_company }
+prerequisite = { focus = ECH_establish_the_royal_coal_company }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -614,7 +616,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -626,7 +628,7 @@ x = 37
 y = 7
 icon = GFX_goal_generic_production2
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_establish_the_king_coal_company }
+prerequisite = { focus = ECH_establish_the_royal_coal_company }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -637,7 +639,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -660,7 +662,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -718,7 +720,7 @@ x = 7
 y = 8
 icon = GFX_goal_generic_military_sphere
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_icrusian_echainaian_party }
+prerequisite = { focus = ECH_host_a_icrusian_echainaian_summit }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -729,7 +731,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_political_power = 25
+	#relations
 }
 ai_will_do = {
 }
@@ -752,7 +755,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -775,7 +778,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -798,7 +801,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -821,7 +824,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#event
+	#decisions
 }
 ai_will_do = {
 }
@@ -844,7 +848,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -867,7 +871,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -890,7 +894,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -914,7 +918,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	swap_ideas = {
+		add_idea = ECH_ghewat_economic_plan2
+		remove_idea = ECH_ghewat_economic_plan
+	}
 }
 ai_will_do = {
 }
@@ -937,7 +944,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -1008,7 +1015,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#equipment
 }
 ai_will_do = {
 }
@@ -1033,7 +1040,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#doctrine
+	army_experience = 50
 }
 ai_will_do = {
 }
@@ -1058,7 +1066,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#doctrine
+	army_experience = 50
 }
 ai_will_do = {
 }
@@ -1081,7 +1090,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
@@ -1104,7 +1114,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#units
+	#equipment
 }
 ai_will_do = {
 }
@@ -1127,7 +1138,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1150,7 +1162,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
+	swap_ideas = {
+		add_idea = ECH_hermit_kingdom2
+		remove_idea = ECH_hermit_kingdom
+	}
 }
 ai_will_do = {
 }
@@ -1173,7 +1189,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -1197,7 +1213,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_political_power = 25
+	#buildings
 }
 ai_will_do = {
 }
@@ -1221,7 +1238,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_political_power = 25
+	#buildings
 }
 ai_will_do = {
 }
@@ -1269,7 +1287,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_idea = ECH_icrusian_echainaian_alliance
 }
 ai_will_do = {
 }
@@ -1293,7 +1311,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_ideas = ECH_army_focus
 }
 ai_will_do = {
 }
@@ -1317,7 +1335,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_ideas = ECH_the_art_of_compromise
 }
 ai_will_do = {
 }
@@ -1341,7 +1359,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_ideas = ECH_cavalry_focus
 }
 ai_will_do = {
 }
@@ -1364,7 +1382,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#decisions
+	add_political_power = 75
 }
 ai_will_do = {
 }
@@ -1387,7 +1406,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#decisons
+	add_political_power = 50
 }
 ai_will_do = {
 }
@@ -1410,7 +1430,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
+	add_ideas = ECH_medical_research_initiative
 }
 ai_will_do = {
 }
@@ -1433,7 +1454,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_manpower = -1000
+	#event
 }
 ai_will_do = {
 }
@@ -1456,7 +1478,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_ideas = ECH_echainaian_silencers
 }
 ai_will_do = {
 }
@@ -1480,7 +1502,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#doctrine
+	#buildings
 }
 ai_will_do = {
 }
@@ -1504,7 +1527,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#decisions
+	swap_ideas = {
+		add_idea = ECH_hermit_kingdom3
+		remove_idea = ECH_hermit_kingdom2
+	}
 }
 ai_will_do = {
 }
@@ -1527,7 +1554,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -1550,7 +1577,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -1671,7 +1698,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	diplomatic_relation = {
+		country = ICR
+		relation = non_aggression_pact
+		active = no
+	}
 }
 ai_will_do = {
 }
@@ -1694,7 +1725,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -1717,7 +1748,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -1740,7 +1771,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -1763,7 +1794,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_political_power = 50
+	#research
 }
 ai_will_do = {
 }
@@ -1786,7 +1818,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
 }
 ai_will_do = {
 }
@@ -1809,7 +1841,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	swap_ideas = {
+		add_idea = ECH_medical_research_initiative2
+		remove_idea = ECH_medical_research_initiative
+	}
 }
 ai_will_do = {
 }
@@ -1832,7 +1867,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#event
 }
 ai_will_do = {
 }
@@ -1855,7 +1890,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	swap_ideas = {
+		add_idea = ECH_echainaian_silencers2
+		remove_idea = ECH_echainaian_silencers
+	}
 }
 ai_will_do = {
 }
@@ -1878,7 +1916,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#decisions
 }
 ai_will_do = {
 }
@@ -1901,7 +1939,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	swap_ideas = {
+		add_idea = ECH_ghewat_economic_plan3
+		remove_idea = ECH_ghewat_economic_plan2
+	}
 }
 ai_will_do = {
 }
@@ -1924,7 +1965,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#buildings
 }
 ai_will_do = {
 }
@@ -1947,7 +1988,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1970,7 +2012,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1993,7 +2036,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#research
+	#doctrine
 }
 ai_will_do = {
 }
@@ -2016,7 +2060,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#decisions
+	add_political_power = 75
 }
 ai_will_do = {
 }
@@ -2039,7 +2084,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#decisions
+	add_political_power = 50
 }
 ai_will_do = {
 }
@@ -2063,7 +2109,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	swap_ideas = {
+		add_idea = ECH_medical_research_initiative3
+		remove_idea = ECH_medical_research_initiative2
+	}
 }
 ai_will_do = {
 }
@@ -2087,7 +2136,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	add_manpower = 300000
 }
 ai_will_do = {
 }
@@ -2111,7 +2160,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	swap_ideas = {
+		add_idea = ECH_echainaian_silencers3
+		remove_idea = ECH_echainaian_silencers2
+	}
 }
 ai_will_do = {
 }
@@ -2136,7 +2188,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#capital
+	#buildings
 }
 ai_will_do = {
 }
@@ -2161,7 +2214,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#capital
+	#buildings
 }
 ai_will_do = {
 }
@@ -2184,7 +2238,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#event
 }
 ai_will_do = {
 }
@@ -2210,7 +2264,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#decisions
+	#event
 }
 ai_will_do = {
 }
