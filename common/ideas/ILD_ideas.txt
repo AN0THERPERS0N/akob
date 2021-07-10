@@ -1,0 +1,620 @@
+ideas = {
+
+	country = {
+
+		#starting ideas
+
+		ILD_royal_house_of_illidea = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				drift_defence_factor = 0.15
+
+				political_power_gain = 0.5
+
+				guarantee_cost = 0.2
+				justify_war_goal_time = 0.4
+
+				neutrality_drift = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_succession_crisis = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.5
+
+				political_power_gain = 0.5
+
+				communism_drift = 0.02
+				fascism_drift = 0.02
+				democratic_drift = 0.02
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_black_dragon_resistance = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = 0.3
+
+				political_power_gain = -1
+
+				fascism_drift = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_rampant_corruption = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.3
+				guarantee_cost = 0.5
+				annex_cost_factor = 0.25
+				puppet_cost_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		####
+
+		ILD_ainia_councils = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_advisor_cost_factor = 0.25
+				political_power_gain = -0.15
+				stability_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_ainia_councils2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_advisor_cost_factor = 0.4
+				political_power_gain = 0.2
+				stability_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_calls_for_democracy = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				democratic_drift = 0.1
+				democratic_acceptance = 50
+				war_support_factor = -0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_calls_for_democracy2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				democratic_drift = 0.15
+				democratic_acceptance = 50
+				war_support_factor = -0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_calls_for_democracy3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				democratic_drift = 0.20
+				democratic_acceptance = 75
+				war_support_factor = -0.4
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_black_dragon_resistance2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = 0.2
+
+				political_power_gain = -0.75
+
+				fascism_drift = 0.07
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_democratic_influence = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				democratic_drift = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_rampant_corruption2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.25
+				guarantee_cost = 0.35
+				annex_cost_factor = 0.15
+				puppet_cost_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#### princely path
+
+		ILD_royal_house_of_illidea2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.25
+				war_support_factor = 0.25
+				drift_defence_factor = 0.3
+
+				political_power_gain = 1
+
+				justify_war_goal_time = 0.35
+
+				neutrality_drift = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_kingdom_of_blood = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = 0.3
+				drift_defence_factor = 0.3
+
+				political_power_gain = 0.5
+
+				justify_war_goal_time = -0.8
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_efror_illidean_military_partnership = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.25
+				army_speed_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_echainaian_illidean_trade_deal = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+				production_speed_buildings_factor = 0.2 
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_echainaian_illidean_alliance = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.35
+				production_speed_buildings_factor = 0.35
+				army_attack_factor = 0.25
+				army_speed_factor = 0.3
+				army_org_factor = 0.25
+				dig_in_speed_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_friendship_is_magic = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				justify_war_goal_time = -0.5
+				surrender_limit = -0.4
+				annex_cost_factor = 0.5
+				puppet_cost_factor = 0.5
+				guarantee_cost = -0.5
+				enemy_justify_war_goal_time = 1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		### Litteverian Question
+
+		ILD_litteverian_illidean_economic_union = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				production_speed_buildings_factor = 0.25
+				industry_repair_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+				local_resources_factor = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_royal_house_of_illidea3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.25
+				war_support_factor = 0.25
+				drift_defence_factor = 0.3
+
+				political_power_gain = 1.5
+
+				justify_war_goal_time = 0.35
+
+				neutrality_drift = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+	}
+
+}

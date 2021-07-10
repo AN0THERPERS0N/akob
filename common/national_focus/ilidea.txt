@@ -44,7 +44,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -75,7 +75,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 200
 		}
 
 		ai_will_do = {
@@ -106,7 +106,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -137,7 +137,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 200
 		}
 
 		ai_will_do = {
@@ -169,6 +169,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			add_manpower = 100000
 		}
 
 		ai_will_do = {
@@ -199,7 +200,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_stability = 0.1
+			add_manpower = 100000
 		}
 
 		ai_will_do = {
@@ -230,7 +232,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = {
+				add_idea = ILD_ainia_councils2
+				remove_idea = ILD_ainia_councils
+			}
 		}
 
 		ai_will_do = {
@@ -261,7 +266,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
 		}
 
 		ai_will_do = {
@@ -292,7 +304,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = ILD_calls_for_democracy
 		}
 
 		ai_will_do = {
@@ -323,6 +335,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				add_idea = ILD_calls_for_democracy2
+				remove_idea = ILD_calls_for_democracy
+			}
 			add_political_power = 100
 		}
 
@@ -354,7 +370,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#decisions
+			swap_ideas = {
+				add_idea = ILD_calls_for_democracy3
+				remove_idea = ILD_calls_for_democracy2
+			}
 		}
 
 		ai_will_do = {
@@ -385,7 +405,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -416,7 +436,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#buildings
 		}
 
 		ai_will_do = {
@@ -448,6 +468,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			#buildings
 		}
 
 		ai_will_do = {
@@ -478,7 +499,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -497,7 +518,7 @@ focus_tree = {
 		prerequisite = { focus = ILD_build_trust_with_the_people OR = ILD_increase_representatives }
 		mutually_exclusive = {focus = ILD_establish_a_constituitional_monarchy }
 		available = {
-
+			democratic = 1
 		}
 
 		bypass = {
@@ -511,7 +532,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -530,7 +551,8 @@ focus_tree = {
 		prerequisite = { focus = ILD_build_trust_with_the_people OR = ILD_increase_representatives }
 		mutually_exclusive = {focus = ILD_unconditional_democracy }
 		available = {
-
+			democratic > 0.65
+			neutrality > 0.1
 		}
 
 		bypass = {
@@ -544,7 +566,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -575,7 +597,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -606,7 +628,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -621,7 +643,7 @@ focus_tree = {
 		y = 12
 		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_litteverian_question }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = {focus = ILD_slow_integration }
 		available = {
 
 		}
@@ -637,7 +659,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#relations
+			add_war_support = 0.2
 		}
 
 		ai_will_do = {
@@ -668,7 +691,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			LTV = { add_manpower = -100000 }
+			LTV = { add_stability = -0.45 }
 		}
 
 		ai_will_do = {
@@ -699,7 +723,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			LTV = { add_political_power = -500 }
+			ILD = { add_political_power = -150 }
 		}
 
 		ai_will_do = {
@@ -730,7 +755,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#decisions
 		}
 
 		ai_will_do = {
@@ -739,7 +764,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ILD_demand_
+		id = ILD_send_an_ultimatum
 		icon = "GFX_goal_generic_major_war"
 		x = 2.5
 		y = 14
@@ -763,7 +788,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -778,7 +803,7 @@ focus_tree = {
 		y = 12
 		relative_position_id = ILD_its_time_the_people_decide
 		prerequisite = { focus = ILD_litteverian_question }
-		#mutually_exclusive = {focus = GOZ_economy_above_all }
+		mutually_exclusive = {focus = ILD_forceful_integration }
 		available = {
 
 		}
@@ -794,7 +819,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#decisions
 		}
 
 		ai_will_do = {
@@ -825,7 +850,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = ILD_litteverian_illidean_economic_union
 		}
 
 		ai_will_do = {
@@ -856,7 +881,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 200
+			swap_ideas = {
+				add_idea = ILD_royal_house_of_illidea3
+				remove_idea = ILD_royal_house_of_illidea2
+			}
 		}
 
 		ai_will_do = {
@@ -889,7 +918,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -920,7 +949,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -951,7 +980,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = {
+				add_idea = ILD_black_dragon_resistance2
+				remove_idea = ILD_black_dragon_resistance
+			}
 		}
 
 		ai_will_do = {
@@ -982,7 +1014,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_manpower = -200000
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.35
+			}
 		}
 
 		ai_will_do = {
@@ -1013,7 +1049,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#events
 		}
 
 		ai_will_do = {
@@ -1044,7 +1080,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_manpower = 50000
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.1
+			}
 		}
 
 		ai_will_do = {
@@ -1075,7 +1115,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_manpower = 50000
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.1
+			}
 		}
 
 		ai_will_do = {
@@ -1106,7 +1150,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#relations
 		}
 
 		ai_will_do = {
@@ -1137,7 +1181,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			ECH = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.1
+				}
+			}
+			ECH = { add_ideas = ILD_democratic_influence }
 		}
 
 		ai_will_do = {
@@ -1168,7 +1218,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#buildings
+			add_manpower = 100000
 		}
 
 		ai_will_do = {
@@ -1199,6 +1250,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			#relations
 			add_political_power = 100
 		}
 
@@ -1230,7 +1282,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#equipment
+			add_manpower = 100000
 		}
 
 		ai_will_do = {
@@ -1261,7 +1314,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			TRB = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.1
+				}
+			}
+			TRB = { add_ideas = ILD_democratic_influence }
 		}
 
 		ai_will_do = {
@@ -1323,7 +1382,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#decisions
 		}
 
 		ai_will_do = {
@@ -1354,7 +1413,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = {
+				add_idea = ILD_rampant_corruption2
+				remove_idea = ILD_rampant_corruption
+			}
 		}
 
 		ai_will_do = {
@@ -1368,7 +1430,11 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = ILD_review_the_national_situation
-		prerequisite = { focus = ILD_operation_black_nights OR = ILD_reintegrate_the_monarchists OR = ILD_protect_the_northern_border OR = ILD_anti-trubian_propaganda OR = ILD_harsher_consequences}
+		prerequisite = { focus = ILD_operation_black_nights }
+		prerequisite = { focus = ILD_reintegrate_the_monarchists }
+		prerequisite = { focus = ILD_protect_the_northern_border }
+		prerequisite = { focus = ILD_anti-trubian_propaganda }
+		prerequisite = { focus = ILD_harsher_consequences }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -1385,7 +1451,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			remove_ideas = ILD_rampant_corruption2
+			remove_ideas = ILD_black_dragon_resistance2
+			#decisions
 		}
 
 		ai_will_do = {
@@ -1416,7 +1484,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -1447,7 +1515,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -1478,7 +1546,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#capital
 		}
 
 		ai_will_do = {
@@ -1509,7 +1577,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#events
 		}
 
 		ai_will_do = {
@@ -1571,7 +1639,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#buildings
 		}
 
 		ai_will_do = {
@@ -1602,7 +1670,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#events
 		}
 
 		ai_will_do = {
@@ -1633,7 +1701,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = {
+				add_idea = ILD_royal_house_of_illidea2
+				remove_idea = ILD_royal_house_of_illidea1
+			}
 		}
 
 		ai_will_do = {
@@ -1697,7 +1768,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			remove_ideas = ILD_succession_crisis
 		}
 
 		ai_will_do = {
@@ -1714,7 +1785,7 @@ focus_tree = {
 		prerequisite = { focus = ILD_return_to_normal }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
-
+			neutrality > 0.7
 		}
 
 		bypass = {
@@ -1759,7 +1830,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#relations
 		}
 
 		ai_will_do = {
@@ -1790,7 +1861,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = ILD_efror_illidean_military_partnership
 		}
 
 		ai_will_do = {
@@ -1821,7 +1892,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			create_faction = Anti_trubian_league
+			ILD = { add_to_faction = EFR }
 		}
 
 		ai_will_do = {
@@ -1852,7 +1924,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#decisions
 		}
 
 		ai_will_do = {
@@ -1883,7 +1955,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#relations
 		}
 
 		ai_will_do = {
@@ -1915,6 +1987,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
 		}
 
 		ai_will_do = {
@@ -1945,7 +2021,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#equipment
+			add_manpower = 100000
 		}
 
 		ai_will_do = {
@@ -1976,7 +2053,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#decisions
 		}
 
 		ai_will_do = {
@@ -2007,7 +2084,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#relations
 		}
 
 		ai_will_do = {
@@ -2038,7 +2115,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#buildings
+			ECH = { add_political_power = 100 }
+			ILD = { add_political_power = -100 }
 		}
 
 		ai_will_do = {
@@ -2069,7 +2148,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = ILD_echainaian_illidean_trade_deal
 		}
 
 		ai_will_do = {
@@ -2100,7 +2179,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#decisions
 		}
 
 		ai_will_do = {
@@ -2131,7 +2210,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = {
+				add_idea = ILD_echainaian_illidean_alliance
+				remove_idea = ILD_echainaian_illidean_trade_deal
+			}
 		}
 
 		ai_will_do = {
@@ -2162,7 +2244,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -2193,7 +2275,25 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			if = {
+				limit = {
+					country_exists = ICR
+				}
+				ICR = { add_political_power = 100 }
+			}
+			else_if = {
+				limit = {
+					country_exists = DCR
+				}
+				DCR = { add_political_power = 100 }
+			}
+			else_if = {
+				limit = {
+					country_exists = LCR
+				}
+				LCR = { add_political_power = 100 }
+			}
+			ILD = { add_political_power = -100 }
 		}
 
 		ai_will_do = {
@@ -2224,7 +2324,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#decisions
 		}
 
 		ai_will_do = {
@@ -2255,7 +2355,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#relations
 		}
 
 		ai_will_do = {
@@ -2286,7 +2386,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -2317,7 +2417,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = ILD_great_sabi_agreement
 		}
 
 		ai_will_do = {
@@ -2331,7 +2431,10 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id = ILD_our_princely_brothers
-		prerequisite = { focus = ILD_the_great_sabi_agreement OR = ILD_hold_political_parties OR = ILD_best_friends_forever OR = ILD_an_impossible_proposal OR = ILD_divide_the_west_between_us OR = ILD_invitations_around_the_globe }
+		prerequisite = { focus = ILD_the_great_sabi_agreement OR = ILD_hold_political_parties }
+		prerequisite = { focus = ILD_best_friends_forever OR = ILD_an_impossible_proposal }
+		prerequisite = { focus = ILD_divide_the_west_between_us }
+		prerequisite = { focus = ILD_invitations_around_the_globe }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
 
@@ -2348,7 +2451,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = ILD_friendship_is_magic
 		}
 
 		ai_will_do = {
@@ -2379,7 +2482,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -2410,7 +2513,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			#event
 		}
 
 		ai_will_do = {
@@ -2441,7 +2544,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.4
+			}
+			add_political_power = -100
 		}
 
 		ai_will_do = {
@@ -2472,7 +2579,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_war_support = 20
 		}
 
 		ai_will_do = {
@@ -2503,6 +2610,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.25
+			}
 			add_political_power = 100
 		}
 
@@ -2534,7 +2645,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = ILD_kingdom_of_blood
 		}
 
 		ai_will_do = {
@@ -2565,7 +2676,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2596,7 +2707,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2627,7 +2738,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2658,7 +2769,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2689,7 +2800,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2720,7 +2831,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2751,7 +2862,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2784,7 +2895,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2817,7 +2928,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2848,7 +2959,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2879,7 +2990,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2910,7 +3021,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2943,7 +3054,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -2974,7 +3085,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3005,7 +3116,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3036,7 +3147,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3067,7 +3178,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3098,7 +3209,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3129,7 +3240,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3160,7 +3271,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3191,7 +3302,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3222,7 +3333,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3253,7 +3364,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3284,7 +3395,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3315,7 +3426,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3346,7 +3457,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3377,7 +3488,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3408,7 +3519,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3439,7 +3550,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3470,7 +3581,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3503,7 +3614,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3534,7 +3645,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3565,7 +3676,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3596,7 +3707,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3627,7 +3738,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3658,7 +3769,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3689,7 +3800,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3720,7 +3831,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3751,7 +3862,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3782,7 +3893,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3813,7 +3924,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3844,7 +3955,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3875,7 +3986,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3906,7 +4017,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3937,7 +4048,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3968,7 +4079,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -3999,7 +4110,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4030,7 +4141,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4061,7 +4172,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4093,7 +4204,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4125,7 +4236,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
@@ -4157,7 +4268,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 100
+			
 		}
 
 		ai_will_do = {
