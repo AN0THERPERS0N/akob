@@ -615,6 +615,227 @@ ideas = {
 			removal_cost = -1
 		}
 
+		### industry
+
+		ILD_privately_owned_farms = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				conversion_cost_civ_to_mil_factor = 0.4
+				conversion_cost_mil_to_civ_factor = 0.4
+
+				industrial_capacity_factory = 0.35
+				industry_repair_factor = 0.4
+				industry_free_repair_factor = 0.35
+				line_change_production_efficiency_factor = 0.5
+				production_speed_buildings_factor = 0.35
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_privately_owned_farms2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.45
+				conversion_cost_civ_to_mil_factor = 0.6
+				conversion_cost_mil_to_civ_factor = 0.6
+
+				industrial_capacity_factory = 0.6
+				industry_repair_factor = 0.6
+				industry_free_repair_factor = 0.55
+				line_change_production_efficiency_factor = 0.6
+				production_speed_buildings_factor = 0.6
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_state_owned_farms = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				conversion_cost_civ_to_mil_factor = 0.2
+				conversion_cost_mil_to_civ_factor = 0.2
+
+				industrial_capacity_factory = 0.2
+				industry_repair_factor = 0.2
+				industry_free_repair_factor = 0.2
+				line_change_production_efficiency_factor = 0.3
+				production_speed_buildings_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_state_owned_farms2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				conversion_cost_civ_to_mil_factor = 0.4
+				conversion_cost_mil_to_civ_factor = 0.4
+
+				industrial_capacity_factory = 0.35
+				industry_repair_factor = 0.4
+				industry_free_repair_factor = 0.35
+				line_change_production_efficiency_factor = 0.5
+				production_speed_buildings_factor = 0.35
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		### Research
+
+		ILD_literacy_drive = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.15
+				monthly_population = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_literacy_drive2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.4
+				monthly_population = 0.45
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_literacy_drive3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.65
+				monthly_population = 0.7
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
 	}
 
 }

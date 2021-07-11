@@ -2676,7 +2676,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -2707,7 +2707,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -2738,7 +2738,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ILD_privately_owned_farms
 		}
 
 		ai_will_do = {
@@ -2769,7 +2769,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ILD_state_owned_farms
 		}
 
 		ai_will_do = {
@@ -2800,7 +2800,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -2831,7 +2831,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -2862,7 +2862,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -2895,7 +2895,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
+			add_manpower = 100000
 		}
 
 		ai_will_do = {
@@ -2928,7 +2929,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -2959,7 +2960,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -2990,7 +2991,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3021,7 +3022,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3054,7 +3055,24 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_completed_focus = ILD_state_owned_farms
+				}
+				swap_ideas = {
+					add_idea = ILD_state_owned_farms2
+					remove_idea = ILD_state_owned_farms
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = ILD_privately_owned_farms
+				}
+				swap_ideas = {
+					add_idea = ILD_privately_owned_farms2
+					remove_idea = ILD_privately_owned_farms
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3085,7 +3103,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3116,7 +3134,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3147,7 +3165,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#resources
 		}
 
 		ai_will_do = {
@@ -3178,7 +3196,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#resources
 		}
 
 		ai_will_do = {
@@ -3209,7 +3227,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#resources
 		}
 
 		ai_will_do = {
@@ -3240,7 +3258,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3271,7 +3289,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3302,7 +3320,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3333,7 +3351,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3364,7 +3382,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3395,7 +3413,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3426,7 +3444,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3457,7 +3475,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3488,7 +3506,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3519,7 +3537,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#resources
 		}
 
 		ai_will_do = {
@@ -3550,7 +3568,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3581,7 +3599,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#buildings
 		}
 
 		ai_will_do = {
@@ -3614,7 +3632,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#decisions
 		}
 
 		ai_will_do = {
@@ -3645,7 +3663,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3676,7 +3694,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_ideas = ILD_literacy_drive
 		}
 
 		ai_will_do = {
@@ -3707,7 +3725,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -3738,7 +3756,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = ILD_literacy_drive3
+				remove_idea = ILD_literacy_drive2
+			}
 		}
 
 		ai_will_do = {
@@ -3769,7 +3790,24 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_idea = ILD_literacy_drive
+				}
+				swap_ideas = {
+					add_idea = ILD_literacy_drive2
+					remove_idea = ILD_literacy_drive
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = ILD_literacy_drive2
+				}
+				swap_ideas = {
+					add_idea = ILD_literacy_drive3
+					remove_idea = ILD_literacy_drive2
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3800,7 +3838,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3831,7 +3869,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3862,7 +3900,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3893,7 +3931,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3924,7 +3962,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3955,7 +3993,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -3986,7 +4024,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4017,7 +4055,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4048,7 +4086,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4079,7 +4117,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#doctrine
 		}
 
 		ai_will_do = {
@@ -4110,7 +4148,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4141,7 +4179,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#research
 		}
 
 		ai_will_do = {
@@ -4172,7 +4210,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			army_experience = 50
 		}
 
 		ai_will_do = {
@@ -4204,7 +4242,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#doctrine
 		}
 
 		ai_will_do = {
@@ -4236,7 +4274,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#doctrine
 		}
 
 		ai_will_do = {
@@ -4268,7 +4306,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			#doctrine
 		}
 
 		ai_will_do = {
