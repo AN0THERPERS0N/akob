@@ -678,7 +678,7 @@ focus_tree = {
 		icon = "GFX_goal_increase_budget"
 		#relative_position_id = AST_empower_the_workers
 		 
-		prerequisite = { focus = GOZ_subsidise_failing_businesses OR = GOZ_roll_pout_new_currency }
+		prerequisite = { focus = GOZ_subsidise_failing_businesses OR = GOZ_roll_out_new_currency }
 		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
 		#mutually_exclusive = {focus = AST_economy_above_all }
 		 
@@ -2116,7 +2116,7 @@ focus_tree = {
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = GOZ_lower_the_overfishing_cap }
-		prerequisite = { focus = GOZ_support_the_fishing_industry }
+		prerequisite = { focus = GOZ_mechanise_the_fishing_industry }
 		#`allow_branch = { has_completed_focus = AST_support_the_field_marshall }
 		#mutually_exclusive = {focus = AST_economy_above_all }
 		 

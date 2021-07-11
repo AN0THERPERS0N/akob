@@ -775,7 +775,7 @@ y = 8
 icon = GFX_goal_better_refined_iron_shavings
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_new_lifeline_for_our_troops }
-mutually_exclusive = {focus = TRB_give_our_troops_rose_petals }
+mutually_exclusive = {focus = TRB_give_our_troops_liqufied_rose_metals }
 available = {
 }
 bypass = {
@@ -1081,7 +1081,7 @@ y = 9
 icon = GFX_focus_generic_concessions
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_increased_work_productivity }
-mutually_exclusive = {focus = TRB_subsidise_gekken_bark_powder }
+mutually_exclusive = {focus = TRB_subsidise_beusprite_powder }
 available = {
 }
 bypass = {
