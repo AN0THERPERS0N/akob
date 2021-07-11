@@ -1,0 +1,1160 @@
+ideas = {
+
+	country = {
+
+		#starting ideas
+
+		TRB_militarised_nation = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.1
+				army_org_factor = 0.1
+				justify_war_goal_time = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_allegiance_to_the_emperor = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				political_power_gain = 0.5
+				fascism_drift = 0.02
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		####
+
+		TRB_victors_of_the_trubian_efror_war = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.5
+
+				army_morale_factor = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_natural_magic = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor = 0.3
+				conversion_cost_mil_to_civ_factor = 0.3
+
+				industrial_capacity_factory = 0.35
+				line_change_production_efficiency_factor = 0.3
+				production_speed_buildings_factor = 0.3
+
+				industry_free_repair_factor = 0.35
+				industry_repair_factor = 0.4
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_enhanced_magic = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.2
+
+				local_resources_factor = 1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_hyperproductive_scientists = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+				research_speed_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_hyperproductive_scientists2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+				research_speed_factor = 0.4
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_hyperproductive_scientists3a = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.35
+				research_speed_factor = 0.7
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_hyperproductive_scientists3b = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_military_high_command = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_org_factor = 0.25
+				army_speed_factor = 0.3
+				army_morale_factor = 0.3
+				dig_in_speed_factor = 0.5
+				max_dig_in_factor = 0.35
+				max_planning_factor = 0.5
+				planning_speed = 0.35
+				supply_consumption_factor = 0.3
+				experience_gain_army_factor = 0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_superhuman_aim = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_core_attack_factor = 0.35
+				army_defence_factor = 0.2
+				army_core_defence_factor = 0.35
+				breakthrough_factor = 0.35
+
+				army_speed_factor = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_superhuman_aim2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.45
+				army_core_attack_factor = 0.5
+				army_defence_factor = 0.45
+				army_core_defence_factor = 0.5
+				breakthrough_factor = 0.45
+
+				army_speed_factor = -0.6
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_superhuman_aim3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.45
+				army_core_attack_factor = 0.5
+				army_defence_factor = 0.45
+				army_core_defence_factor = 0.5
+				breakthrough_factor = 0.45
+
+				army_speed_factor = -0.4
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_superhuman_aim4 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.6
+				army_core_attack_factor = 0.75
+				army_defence_factor = 0.6
+				army_core_defence_factor = 0.75
+				breakthrough_factor = 0.65
+
+				army_speed_factor = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_superhuman_speed = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.5
+				army_fuel_consumption_factor = 0.5
+				army_org_factor = 0.5
+				dig_in_speed_factor = 0.5
+				org_loss_when_moving = 0.5
+				planning_speed = 0.5
+				supply_consumption_factor = 0.5
+
+				army_defence_factor = -0.35
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_superhuman_speed2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.75
+				army_fuel_consumption_factor = 0.75
+				army_org_factor = 0.75
+				dig_in_speed_factor = 0.75
+				org_loss_when_moving = 0.75
+				planning_speed = 0.75
+				supply_consumption_factor = 0.75
+
+				army_defence_factor = -0.40
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_superhuman_speed3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 1
+				army_fuel_consumption_factor = 1
+				army_org_factor = 1
+				dig_in_speed_factor = 1
+				org_loss_when_moving = 1
+				planning_speed = 1
+				supply_consumption_factor = 1
+
+				army_defence_factor = -0.45
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_superhuman_speed4 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 1.5
+				army_fuel_consumption_factor = 1.5
+				army_org_factor = 1.5
+				dig_in_speed_factor = 1.5
+				org_loss_when_moving = 1.5
+				planning_speed = 1.5
+				supply_consumption_factor = 1.5
+
+				army_defence_factor = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_military_high_command2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.3
+				army_core_attack_factor = 0.35
+				army_defence_factor = 0.3
+				army_core_defence_factor = 0.35
+				breakthrough_factor = 0.4
+
+				army_org_factor = 0.35
+				army_speed_factor = 0.4
+				army_morale_factor = 0.4
+				dig_in_speed_factor = 0.6
+				max_dig_in_factor = 0.4
+				max_planning_factor = 0.55
+				planning_speed = 0.45
+				supply_consumption_factor = 0.4
+				experience_gain_army_factor = 0.75
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_military_high_command3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.35
+				army_core_attack_factor = 0.40
+				army_defence_factor = 0.35
+				army_core_defence_factor = 0.40
+				breakthrough_factor = 0.45
+
+				army_org_factor = 0.4
+				army_speed_factor = 0.45
+				army_morale_factor = 0.45
+				dig_in_speed_factor = 0.6
+				max_dig_in_factor = 0.45
+				max_planning_factor = 0.6
+				planning_speed = 0.5
+				supply_consumption_factor = 0.45
+				experience_gain_army_factor = 0.75
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#army reform branch
+
+		TRB_fanatic_loyalty = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				recruitable_population = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_fanatic_loyalty2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				recruitable_population = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_fanatic_loyalty3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				recruitable_population = 0.20
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_fanatic_loyalty4 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				recruitable_population = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_science_of_war = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.3
+				political_power_gain = 0.5
+				local_resources_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_science_of_war2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.4
+				political_power_gain = 0.75
+				local_resources_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_science_of_war3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.6
+				political_power_gain = 1
+				local_resources_factor = 0.4
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_lightning_warfare = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.25
+				supply_consumption_factor = 0.4
+				out_of_supply_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_iron_clad_fists = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.25
+				army_defence_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_unending_barrage = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_org_factor = 0.25
+				army_org_regain = 0.3
+				army_morale_factor = 0.25
+				attrition = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_arcanic_devolution = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				breakthrough_factor = 0.5
+				land_night_attack = 0.75
+				terrain_penalty_reduction = 0.75
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#war
+
+		TRB_militarised_nation2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.1
+				army_org_factor = 0.1
+				justify_war_goal_time = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_eyes_on_the_prize = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_org_factor = 0.2
+				army_org_regain = 0.25
+				land_night_attack = 0.2
+				max_dig_in_factor = 0.25
+				max_planning_factor = 0.25
+				recon_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_eyes_on_the_prize2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_org_factor = 0.3
+				army_org_regain = 0.35
+				land_night_attack = 0.2
+				max_dig_in_factor = 0.25
+				max_planning_factor = 0.25
+				recon_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#industry
+
+		TRB_gears_of_war = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+				industry_repair_factor = 0.1
+				line_change_production_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_gears_of_war2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				industry_repair_factor = 0.2
+				line_change_production_efficiency_factor = 0.3
+				production_speed_buildings_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_gears_of_war3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.4
+				industry_repair_factor = 0.35
+				line_change_production_efficiency_factor = 0.35
+				production_speed_buildings_factor = 0.4
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		TRB_gears_of_war4 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = TRB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.5
+				industry_repair_factor = 0.5
+				line_change_production_efficiency_factor = 0.45
+				production_speed_buildings_factor = 0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+
+	}
+
+}

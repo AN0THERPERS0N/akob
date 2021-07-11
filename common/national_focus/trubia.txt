@@ -38,7 +38,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
+	add_political_power = 100
 }
 ai_will_do = {
 }
@@ -61,7 +62,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#event
 }
 ai_will_do = {
 }
@@ -84,7 +85,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_victors_of_the_trubian_efror_war
 }
 ai_will_do = {
 }
@@ -107,7 +108,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_stability = 0.2
 }
 ai_will_do = {
 }
@@ -130,7 +131,9 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#relations
+	add_political_power = -100
+	#buildings
 }
 ai_will_do = {
 }
@@ -153,7 +156,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#relations
+	add_political_power = 100
 }
 ai_will_do = {
 }
@@ -179,7 +183,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
@@ -202,7 +206,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#event
 }
 ai_will_do = {
 }
@@ -225,7 +229,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	army_experience = 50
 }
 ai_will_do = {
 }
@@ -248,7 +252,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#cores
 }
 ai_will_do = {
 }
@@ -271,7 +275,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -294,7 +298,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_fanatic_loyalty
 }
 ai_will_do = {
 }
@@ -317,7 +321,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#generals
+	army_experience = 50
 }
 ai_will_do = {
 }
@@ -340,7 +345,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -363,7 +368,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -386,7 +391,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#event
+	set_variable = { trb_efror_integration = 0 }
+	set_variable = { trb_efror_citizenship = 0 }
+	set_variable = { trb_efror_rebellion = -0.1 }
 }
 ai_will_do = {
 }
@@ -409,7 +417,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -432,7 +440,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -455,7 +463,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_hyperproductive_scientists
 }
 ai_will_do = {
 }
@@ -478,7 +486,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#generals
 }
 ai_will_do = {
 }
@@ -501,7 +509,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -524,7 +532,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_manpower = 500000
 }
 ai_will_do = {
 }
@@ -547,7 +555,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#generals
 }
 ai_will_do = {
 }
@@ -570,7 +578,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#equipment
 }
 ai_will_do = {
 }
@@ -593,7 +601,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -616,7 +624,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -639,7 +647,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_integration = 0.1 }
 }
 ai_will_do = {
 }
@@ -662,7 +670,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_stability = 0.2
 }
 ai_will_do = {
 }
@@ -685,7 +693,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -708,7 +716,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -731,7 +739,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -754,7 +762,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -777,7 +785,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_superhuman_aim
 }
 ai_will_do = {
 }
@@ -800,7 +808,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_superhuman_speed
 }
 ai_will_do = {
 }
@@ -823,7 +831,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_fanatic_loyalty2
+		remove_idea = TRB_fanatic_loyalty
+	}
 }
 ai_will_do = {
 }
@@ -846,7 +857,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
@@ -869,7 +880,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -892,7 +903,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -915,7 +926,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
+	add_political_power = 100
 }
 ai_will_do = {
 }
@@ -938,7 +950,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_integration = 0.1 }
 }
 ai_will_do = {
 }
@@ -961,7 +973,9 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_stability = 0.2
+	add_political_power = 100
+	add_to_variable = { trb_efror_citizenship = 0.1 }
 }
 ai_will_do = {
 }
@@ -984,7 +998,9 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = -100
+	add_to_variable = { trb_efror_citizenship = 0.15 }
+	add_to_variable = { trb_efror_rebellion = -0.1 }
 }
 ai_will_do = {
 }
@@ -1007,7 +1023,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -1030,7 +1046,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -1052,7 +1068,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -1075,7 +1091,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1098,7 +1114,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_research_slot = 1
 }
 ai_will_do = {
 }
@@ -1121,7 +1137,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_hyperproductive_scientists2
+		remove_idea = TRB_hyperproductive_scientists
+	}
 }
 ai_will_do = {
 }
@@ -1144,7 +1163,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1167,7 +1186,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	army_experience = 100
 }
 ai_will_do = {
 }
@@ -1190,7 +1209,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_superhuman_aim2
+		remove_idea = TRB_superhuman_aim
+	}
 }
 ai_will_do = {
 }
@@ -1213,7 +1235,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_superhuman_speed2
+		remove_idea = TRB_superhuman_speed
+	}
 }
 ai_will_do = {
 }
@@ -1236,7 +1261,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_war_support = 20
 }
 ai_will_do = {
 }
@@ -1259,7 +1284,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1282,7 +1307,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1305,7 +1330,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1328,7 +1353,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1351,7 +1376,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1374,7 +1399,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1397,7 +1422,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -1420,7 +1445,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -1443,7 +1468,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
+	add_to_variable = { trb_efror_integration = 0.1 }
 }
 ai_will_do = {
 }
@@ -1466,7 +1492,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_efror_workers
+	add_to_variable = { trb_efror_citizenship = 0.1 }
 }
 ai_will_do = {
 }
@@ -1489,7 +1516,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_citizenship = 0.15 }
+	add_to_variable = { trb_efror_rebellion = -0.1 }
 }
 ai_will_do = {
 }
@@ -1512,7 +1540,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -1535,7 +1563,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1558,7 +1586,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -1582,7 +1610,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1606,7 +1634,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1630,7 +1658,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1654,7 +1682,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1678,7 +1706,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1687,7 +1715,7 @@ ai_will_do = {
 focus = {
 id = TRB_minimise_side_effects
 x = 21
-y = 10
+y = 11
 icon = GFX_goal_generic_neutrality_focus
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_superhuman_sharpshooters }
@@ -1701,7 +1729,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_superhuman_aim3
+		remove_idea = TRB_superhuman_aim2
+	}
 }
 ai_will_do = {
 }
@@ -1710,7 +1741,7 @@ ai_will_do = {
 focus = {
 id = TRB_increase_smoking_efficiency
 x = 23
-y = 10
+y = 11
 icon = GFX_goal_generic_attack_allies
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_running_at_lightspeed }
@@ -1724,7 +1755,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_superhuman_speed3
+		remove_idea = TRB_superhuman_speed2
+	}
 }
 ai_will_do = {
 }
@@ -1747,7 +1781,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_fanatic_loyalty3
+		remove_idea = TRB_fanatic_loyalty2
+	}
 }
 ai_will_do = {
 }
@@ -1771,7 +1808,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1795,7 +1832,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1819,7 +1856,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -1842,7 +1879,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_reserch_slot = 1
 }
 ai_will_do = {
 }
@@ -1865,7 +1902,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_science_of_war
 }
 ai_will_do = {
 }
@@ -1889,7 +1926,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1913,7 +1950,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1937,7 +1974,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -1960,7 +1997,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -1983,7 +2020,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -2006,7 +2043,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_war_support = 20
+	add_to_variable = { trb_efror_integration = 0.1 }
 }
 ai_will_do = {
 }
@@ -2029,7 +2067,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_citizenship = 0.1 }
 }
 ai_will_do = {
 }
@@ -2052,7 +2090,9 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_citizenship = 0.15 }
+	add_to_variable = { trb_efror_rebellion = -0.1 }
+	#resources
 }
 ai_will_do = {
 }
@@ -2075,7 +2115,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#resources
 }
 ai_will_do = {
 }
@@ -2098,7 +2138,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -2120,7 +2160,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -2143,7 +2183,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2166,7 +2206,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -2189,7 +2229,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_research_slot = 1
 }
 ai_will_do = {
 }
@@ -2212,7 +2252,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -2235,7 +2275,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -2258,7 +2298,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -2267,7 +2307,7 @@ ai_will_do = {
 focus = {
 id = TRB_unbreaking_focus
 x = 20
-y = 11
+y = 12
 icon = GFX_goal_generic_secret_weapon
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_minimise_side_effects }
@@ -2281,7 +2321,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_superhuman_aim4
+		remove_idea = TRB_superhuman_aim3
+	}
 }
 ai_will_do = {
 }
@@ -2290,10 +2333,11 @@ ai_will_do = {
 focus = {
 id = TRB_infinite_power
 x = 22
-y = 12
+y = 13
 icon = GFX_goal_generic_special_forces
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_unbreaking_focus OR = TRB_never_crawl_again }
+prerequisite = { focus = TRB_military_high_command }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -2304,7 +2348,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_military_high_command2
+		remove_idea = TRB_military_high_command
+	}
 }
 ai_will_do = {
 }
@@ -2313,10 +2360,10 @@ ai_will_do = {
 focus = {
 id = TRB_try_a_combination
 x = 22
-y = 11
+y = 10
 icon = GFX_goal_generic_national_unity
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = TRB_minimise_side_effects OR = TRB_increase_smoking_efficiency }
+prerequisite = { focus = TRB_superhuman_sharpshooters OR = TRB_running_at_lightspeed }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -2327,7 +2374,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#units
+	#equipment
 }
 ai_will_do = {
 }
@@ -2336,7 +2384,7 @@ ai_will_do = {
 focus = {
 id = TRB_never_crawl_again
 x = 24
-y = 11
+y = 12
 icon = GFX_goal_generic_territory_or_war
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_increase_smoking_efficiency }
@@ -2350,7 +2398,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_superhuman_speed4
+		remove_idea = TRB_superhuman_speed3
+	}
 }
 ai_will_do = {
 }
@@ -2373,7 +2424,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_fanatic_loyalty4
+		remove_idea = TRB_fanatic_loyalty3
+	}
+	#event
 }
 ai_will_do = {
 }
@@ -2396,7 +2451,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -2419,7 +2474,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+
 }
 ai_will_do = {
 }
@@ -2442,7 +2497,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_science_of_war2
+		remove_idea = TRB_science_of_war
+	}
 }
 ai_will_do = {
 }
@@ -2465,7 +2523,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -2488,7 +2546,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -2511,7 +2569,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -2534,7 +2592,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -2557,7 +2615,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -2580,7 +2638,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -2603,7 +2661,9 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#relations
+	add_manpower = 100000
+	add_political_power = 100
 }
 ai_will_do = {
 }
@@ -2626,7 +2686,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_citizenship = 0.1 }
 }
 ai_will_do = {
 }
@@ -2649,7 +2709,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_citizenship = 0.15 }
+	add_to_variable = { trb_efror_rebellion = -0.1 }
 }
 ai_will_do = {
 }
@@ -2672,7 +2733,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
+	#rename
 }
 ai_will_do = {
 }
@@ -2695,7 +2757,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_natural_magic
 }
 ai_will_do = {
 }
@@ -2718,7 +2780,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_enhanced_magic
 }
 ai_will_do = {
 }
@@ -2741,7 +2803,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_hyperproductive_scientists3b
+		remove_idea = TRB_hyperproductive_scientists2
+	}
 }
 ai_will_do = {
 }
@@ -2764,7 +2829,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_hyperproductive_scientists3a
+		remove_idea = TRB_hyperproductive_scientists2
+	}
 }
 ai_will_do = {
 }
@@ -2787,7 +2855,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_military_high_command
 }
 ai_will_do = {
 }
@@ -2810,7 +2878,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#equipment
+	#units
 }
 ai_will_do = {
 }
@@ -2833,7 +2902,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	army_experience = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -2856,7 +2926,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_research_slot = 1
 }
 ai_will_do = {
 }
@@ -2879,7 +2949,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_science_of_war3
+		remove_idea = TRB_science_of_war2
+	}
 }
 ai_will_do = {
 }
@@ -2902,7 +2975,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_lightning_warfare
 }
 ai_will_do = {
 }
@@ -2925,7 +2998,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_iron_clad_fists
 }
 ai_will_do = {
 }
@@ -2948,7 +3021,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_unending_barrage
 }
 ai_will_do = {
 }
@@ -2971,7 +3044,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_ideas = TRB_arcanic_devolution
 }
 ai_will_do = {
 }
@@ -2994,7 +3067,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
@@ -3017,7 +3090,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_stability = 0.2
+	add_political_power = 100
 }
 ai_will_do = {
 }
@@ -3040,7 +3114,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_integration = 0.2 }
 }
 ai_will_do = {
 }
@@ -3063,7 +3137,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_citizenship = 0.2 }
 }
 ai_will_do = {
 }
@@ -3086,7 +3160,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_to_variable = { trb_efror_citizenship = 0.25 }
+	add_to_variable = { trb_efror_rebellion = -0.2 }
 }
 ai_will_do = {
 }
@@ -3109,7 +3184,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -3132,7 +3207,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = 50
 }
 ai_will_do = {
 }
@@ -3155,7 +3230,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -3178,7 +3253,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3201,7 +3276,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3224,7 +3299,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3247,7 +3322,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3272,7 +3347,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -3297,7 +3372,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -3320,7 +3395,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3343,7 +3418,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3366,7 +3441,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -3389,7 +3464,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3412,7 +3487,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3435,7 +3510,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3458,7 +3533,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -3481,7 +3556,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3504,7 +3579,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3527,7 +3602,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -3551,7 +3626,18 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	if = {
+		limit = {
+			has_idea = TRB_gears_of_war
+		}
+		swap_ideas = {
+			add_idea = TRB_gears_of_war2
+			remove_idea = TRB_gears_of_war
+		}
+	}
+	else = {
+		add_ideas = TRB_gears_of_war
+	}
 }
 ai_will_do = {
 }
@@ -3575,7 +3661,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3599,7 +3685,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -3623,7 +3709,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -3646,7 +3732,18 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	if = {
+		limit = {
+			has_idea = TRB_gears_of_war
+		}
+		swap_ideas = {
+			add_idea = TRB_gears_of_war2
+			remove_idea = TRB_gears_of_war
+		}
+	}
+	else = {
+		add_ideas = TRB_gears_of_war
+	}
 }
 ai_will_do = {
 }
@@ -3669,7 +3766,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#research
 }
 ai_will_do = {
 }
@@ -3692,7 +3789,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3715,7 +3812,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3739,7 +3836,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = -100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3752,7 +3850,8 @@ y = 20
 icon = GFX_goal_economic_bubble
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_improve_farmer_life }
-prerequisite = { focus = TRB_advanced_factory_machinery OR = TRB_improve_the_capital OR = TRB_build_new_headquarters }
+prerequisite = { focus = TRB_advanced_factory_machinery }
+prerequisite = { focus = TRB_improve_the_capital OR = TRB_build_new_headquarters }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -3763,7 +3862,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = -100
+	swap_ideas = {
+		add_idea = TRB_gears_of_war3
+		remove_idea = TRB_gears_of_war2
+	}
 }
 ai_will_do = {
 }
@@ -3787,7 +3890,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#decisions
 }
 ai_will_do = {
 }
@@ -3811,7 +3914,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -3835,7 +3938,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_political_power = 50
+	#buildings
 }
 ai_will_do = {
 }
@@ -3860,7 +3964,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_gears_of_war4
+		remove_idea = TRB_gears_of_war3
+	}
 }
 ai_will_do = {
 }
@@ -3884,7 +3991,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	swap_ideas = {
+		add_idea = TRB_militarised_nation
+		remove_idea = TRB_militarised_nation2
+	}
 }
 ai_will_do = {
 }
@@ -3907,7 +4017,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	add_political_power = 100
+		#relations
+		add_political_power = 100
 	}
 	ai_will_do = {
 	}
@@ -3930,7 +4041,7 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			#event
 		}
 		ai_will_do = {
 		}
@@ -3953,7 +4064,7 @@ focus = {
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-			add_political_power = 100
+				#spies
 			}
 			ai_will_do = {
 			}
@@ -3976,7 +4087,7 @@ focus = {
 				continue_if_invalid = no
 				available_if_capitulated = no
 				completion_reward = {
-				add_political_power = 100
+					#special
 				}
 				ai_will_do = {
 				}
@@ -3999,7 +4110,8 @@ focus = {
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-			add_political_power = 100
+				#buildings
+				#event
 			}
 			ai_will_do = {
 			}
@@ -4023,7 +4135,10 @@ focus = {
 				continue_if_invalid = no
 				available_if_capitulated = no
 				completion_reward = {
-				add_political_power = 100
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = ARS
+					}
 				}
 				ai_will_do = {
 				}
@@ -4046,7 +4161,7 @@ focus = {
 					continue_if_invalid = no
 					available_if_capitulated = no
 					completion_reward = {
-					add_political_power = 100
+						#cores
 					}
 					ai_will_do = {
 					}
@@ -4071,7 +4186,8 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			#event
+			add_ideas = TRB_eyes_on_the_prize
 		}
 		ai_will_do = {
 		}
@@ -4094,7 +4210,8 @@ focus = {
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-			add_political_power = 100
+				add_manpower = 100000
+				army_experience = 200
 			}
 			ai_will_do = {
 			}
@@ -4106,7 +4223,8 @@ focus = {
 				y = 23
 				icon = "GFX_focus_generic_provoke_border_clashes"
 				#relative_position_id = AST_empower_the_workers
-				prerequisite = { focus = TRB_plan_for_deep_operations OR = TRB_obtain_intelligence_on_icrusian_generals }
+				prerequisite = { focus = TRB_plan_for_deep_operations }
+				prerequisite = { focus = TRB_obtain_intelligence_on_icrusian_generals }
 				#mutually_exclusive = {focus = GOZ_economy_above_all }
 				available = {
 				}
@@ -4117,7 +4235,10 @@ focus = {
 				continue_if_invalid = no
 				available_if_capitulated = no
 				completion_reward = {
-				add_political_power = 100
+					swap_ideas = {
+						add_idea = TRB_eyes_on_the_prize2
+						remove_idea = TRB_eyes_on_the_prize
+					}
 				}
 				ai_will_do = {
 				}
@@ -4140,7 +4261,7 @@ focus = {
 					continue_if_invalid = no
 					available_if_capitulated = no
 					completion_reward = {
-					add_political_power = 100
+						#event
 					}
 					ai_will_do = {
 					}
@@ -4163,7 +4284,7 @@ focus = {
 					continue_if_invalid = no
 					available_if_capitulated = no
 					completion_reward = {
-					add_political_power = 100
+					#buildings
 					}
 					ai_will_do = {
 					}
@@ -4186,7 +4307,7 @@ focus = {
 						continue_if_invalid = no
 						available_if_capitulated = no
 						completion_reward = {
-						add_political_power = 100
+							#generals
 						}
 						ai_will_do = {
 						}
@@ -4212,7 +4333,10 @@ focus = {
 			continue_if_invalid = no
 			available_if_capitulated = no
 			completion_reward = {
-			add_political_power = 100
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = ICR
+				}
 			}
 			ai_will_do = {
 			}
@@ -4235,7 +4359,7 @@ focus = {
 				continue_if_invalid = no
 				available_if_capitulated = no
 				completion_reward = {
-				add_political_power = 100
+					#event
 				}
 				ai_will_do = {
 				}
@@ -4259,7 +4383,7 @@ focus = {
 				continue_if_invalid = no
 				available_if_capitulated = no
 				completion_reward = {
-				add_political_power = 100
+					#spies
 				}
 				ai_will_do = {
 				}
@@ -4282,7 +4406,7 @@ focus = {
 				continue_if_invalid = no
 				available_if_capitulated = no
 				completion_reward = {
-				add_political_power = 100
+					#relations
 				}
 				ai_will_do = {
 				}
@@ -4308,7 +4432,8 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			#relations
+			add_political_power = 100
 		}
 		ai_will_do = {
 		}
@@ -4331,7 +4456,8 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			#relations
+			add_political_power = 100
 		}
 		ai_will_do = {
 		}
@@ -4354,7 +4480,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#relations
+	#event
 }
 ai_will_do = {
 }
@@ -4377,7 +4504,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	add_political_power = 100
+		#units
 	}
 	ai_will_do = {
 	}
@@ -4400,7 +4527,18 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	if = {
+		limit= {
+			has_idea = TRB_military_high_command2
+		}
+		swap_ideas = {
+			add_idea = TRB_military_high_command3
+			remove_idea = TRB_military_high_command2
+		}
+	}
+	else = {
+		#doctrine
+	}
 }
 ai_will_do = {
 }
@@ -4423,7 +4561,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -4446,7 +4584,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -4469,7 +4607,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#buildings
 }
 ai_will_do = {
 }
@@ -4493,7 +4631,14 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = ILD
+	}
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = LTV
+	}
 }
 ai_will_do = {
 }
@@ -4516,7 +4661,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#doctrine
 }
 ai_will_do = {
 }
@@ -4540,7 +4685,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	create_wargoal = {
+		type = puppet_wargoal_focus
+		target = EFR
+	}
 }
 ai_will_do = {
 }
@@ -4563,7 +4711,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_war_support = 0.1
 }
 ai_will_do = {
 }
@@ -4586,7 +4734,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#cores
 }
 ai_will_do = {
 }
@@ -4609,7 +4757,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	#cores
 }
 ai_will_do = {
 }

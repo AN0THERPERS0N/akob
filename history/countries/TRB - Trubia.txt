@@ -17,6 +17,10 @@ set_popularities = {
 	fascism = 91
 }
 
+add_dynamic_modifier = {
+	modifier = large_efror_minority
+}
+
 set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39

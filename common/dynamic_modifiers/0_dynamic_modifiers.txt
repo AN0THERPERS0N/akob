@@ -90,3 +90,20 @@ wealth_modifier = {
 	industry_free_repair_factor = var:DCR.dcr_value_1
 	production_speed_buildings_factor = var:DCR.dcr_value_1
 }
+
+large_efror_minority = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+
+	monthly_population = 0.05
+	stability_factor = var:TRB.trb_efror_rebellion
+
+	minimum_training_level = var:TRB.trb_efror_integration
+	land_reinforce_rate = var:TRB.trb_efror_integration
+	training_time_factor = var:TRB.trb_efror_integration
+
+	production_factory_efficiency_gain_factor = var:TRB.trb_efror_citizenship
+	production_factory_max_efficiency_factor = var:TRB.trb_efror_citizenship 
+	production_factory_start_efficiency_factor = var:TRB.trb_efror_citizenship 
+	production_lack_of_resource_penalty_factor = var:TRB.trb_efror_citizenship
+}
