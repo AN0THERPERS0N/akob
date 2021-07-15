@@ -1,0 +1,25 @@
+﻿###########################
+# Misaross Events
+###########################
+
+add_namespace = mro
+
+news_event = {
+	id = mro.dukha
+	title = mro.dukha.t
+	desc = mro.dukha.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+		set_variable = { round = 0 }
+	}
+	
+	option = {
+		name = mro.dukha.a
+		ai_chance = { factor = 100 }
+		add_political_power = -20
+		clear_variable = dukha_money
+		set_variable = { dukha_money = 20 }		
+	}
+}

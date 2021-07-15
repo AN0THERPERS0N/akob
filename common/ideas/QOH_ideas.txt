@@ -1,0 +1,539 @@
+ideas = {
+
+	country = {
+
+		#starting ideas
+
+		QOH_nation_of_mercenaries = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.1
+				army_org_factor = 0.1
+				justify_war_goal_time = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_mage_only_army = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = -0.2
+				army_speed_factor = 0.15
+				breakthrough_factor = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#### army focus tree path
+
+		QOH_willpower_training = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				minimum_training_level = 0.1
+				training_time_factor = 0.1
+				experience_gain_army_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_mage_only_army2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_defence_factor = -0.2
+				army_speed_factor = 0.2
+				breakthrough_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_combined_guns = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.2
+				army_core_attack_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_self_sufficient_firepower = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_org_factor = 0.2
+				army_morale_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_magically_enhanced_arms_a = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.3
+				army_attack_factor = 0.3
+				breakthrough_factor = 0.35
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_magically_enhanced_arms_b = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_org_factor = 0.5
+				army_morale_factor = 0.5
+				army_org_regain = 0.6
+				land_night_attack = 0.55
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_workhorse_of_the_army = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.3
+				breakthrough_factor = 0.3
+				army_org_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		# diplomacy tree
+
+		QOH_hard_power_superpower = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.25
+				trade_opinion_factor = 0.3
+				drift_defence_factor = 0.3
+				stability_factor = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_hard_power_superpower2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				trade_opinion_factor = 0.45
+				drift_defence_factor = 0.5
+				stability_factor = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_democratic_influence = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+				tag = ICR
+				tag = TRB
+				tag = ECH
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				democratic_drift = 0.01
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_democratic_influence2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+				tag = ICR
+				tag = TRB
+				tag = ECH
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				democratic_drift = 0.02
+				stability_weekly = -0.05
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#economy tree
+
+		QOH_mercenary_industrialisation = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_mercenary_industrialisation2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.3
+				production_factory_max_efficiency_factor = 0.3
+				production_speed_buildings_factor = 0.2
+				industrial_capacity_factory = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_mercenary_industrialisation3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.35
+				production_factory_max_efficiency_factor = 0.35
+				production_speed_buildings_factor = 0.3
+				industrial_capacity_factory = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_centralised_industrialised_powerhouse = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+				industrial_capacity_factory = 0.25
+				industry_repair_factor = 0.35
+				conversion_cost_mil_to_civ_factor = 0.4
+				conversion_cost_civ_to_mil_factor = 0.4
+
+				stability_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_decentralised_industrialised_powerhouse = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				line_change_production_efficiency_factor = 0.5
+				production_lack_of_resource_penalty_factor = 0.4 
+				production_factory_start_efficiency_factor = 0.4 
+				production_factory_max_efficiency_factor = 0.4
+				production_factory_efficiency_gain_factor = 0.4 
+
+				stability_factor = -0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+	}
+
+}
