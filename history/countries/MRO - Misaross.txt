@@ -6,14 +6,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	democratic = 100
 }
 
 set_convoys = 5
@@ -26,6 +26,16 @@ add_to_faction = QOH
 add_to_faction = YLC
 add_to_faction = DED
 add_to_faction = MRO
+
+add_ideas = {
+	MRO_restless_mercenaries
+	QOH_nation_of_mercenaries
+} 
+
+add_opinion_modifier = {
+	target = DCR
+    modifier = cheat_opinion_modifier_good 
+}
 
 #Victor Emmanuel III of Italy after 39
 #create_country_leader = {

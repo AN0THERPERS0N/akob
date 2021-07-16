@@ -71,4 +71,70 @@ on_actions = {
 			}
 		}
 	}
+
+	# arbiters
+
+	on_send_volunteers = { 
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						TAG = MRO
+					}
+					has_idea = MRO_restless_mercenaries
+				}
+				remove_ideas = MRO_restless_mercenaries
+				add_ideas = MRO_productive_mercenaries
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						TAG = MRO
+					}
+					has_idea = MRO_rowdy_mercenaries
+				}
+				remove_ideas = MRO_rowdy_mercenaries
+				add_ideas = MRO_productive_mercenaries
+			}
+		} 
+	}
+
+	on_capitulation = { 
+		effect = {
+			limit = {
+				ROOT = {
+					has_volunteers_amount_from = {
+						tag = MRO
+						count > 1
+					}
+				}
+			}
+			clr_country_flag = MRO_productive_mercenaries
+			set_country_flag = MRO_restless_mercenaries
+		} 
+	}
+
+	on_daily_MRO = {
+		effect = {
+			if = {
+				limit = {
+					has_stability < 0.2
+					NOT = { has_idea = MRO_productive_mercenaries }
+				}
+				remove_ideas = MRO_restless_mercenaries
+				add_ideas = MRO_rowdy_mercenaries
+				
+			}
+			else_if = {
+				limit = {
+					has_stability > 0.2
+					NOT = { has_idea = MRO_productive_mercenaries }
+				}
+				remove_ideas = MRO_rowdy_mercenaries
+				add_ideas = MRO_restless_mercenaries
+				
+			}
+		}
+	}
+
 }

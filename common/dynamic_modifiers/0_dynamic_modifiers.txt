@@ -91,6 +91,8 @@ wealth_modifier = {
 	production_speed_buildings_factor = var:DCR.dcr_value_1
 }
 
+#TRB
+
 large_efror_minority = {
 	icon = GFX_idea_unknown
 	enable = { always = yes }

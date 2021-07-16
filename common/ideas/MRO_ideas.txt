@@ -1,0 +1,152 @@
+ideas = {
+
+	country = {
+
+		#starting ideas
+
+		MRO_restless_mercenaries = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_weekly = -0.01
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_rowdy_mercenaries = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_weekly = -0.01
+				army_attack_factor = -0.7
+				army_defence_factor = -0.7
+				army_org_factor = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_productive_mercenaries = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_weekly = 0.01
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		QOH_nation_of_mercenaries = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = QOH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.1
+				army_org_factor = 0.1
+				justify_war_goal_time = 2
+
+				send_volunteer_divisions_required = -1
+				send_volunteers_tension = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#### army focus tree path
+
+		MRO_willpower_training = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				minimum_training_level = 0.1
+				training_time_factor = 0.1
+				experience_gain_army_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+	}
+
+}
