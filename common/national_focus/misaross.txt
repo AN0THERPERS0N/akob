@@ -2410,6 +2410,12 @@ bypass = {
 	available_if_capitulated = no
 	completion_reward = {
 		#event
+		clear_variable = YLC_friend
+		clear_variable = DED_friend
+		clear_variable = DPL_friend
+		clear_variable = QOH_friend
+		clear_variable = CTP_friend
+		clear_variable = IMN_friend
 	}
 	ai_will_do = {
 	}
@@ -2599,7 +2605,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		YLC = { add_political_power = 100 }
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -2651,7 +2657,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		DED = { add_political_power = 100 }
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -2756,7 +2762,14 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		random_list = {
+			90 = {
+				set_variable = { IMN_friend = 1 }
+			}
+			10 = {
+				set_variable = { IMN_friend = 0 }
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -2783,7 +2796,22 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		random_list = {
+			40 = {
+				set_variable = { YLC_friend = 1 }
+			}
+			40 = {
+				set_variable = { QOH_friend = 1 }
+			}
+			10 = {
+				set_variable = { YLC_friend = 0 }
+				set_variable = { QOH_friend = 0 }
+			}
+			10 = {
+				set_variable = { YLC_friend = 1 }
+				set_variable = { QOH_friend = 1 }
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -2810,7 +2838,22 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		random_list = {
+			40 = {
+				set_variable = { DED_friend = 1 }
+			}
+			40 = {
+				set_variable = { CTP_friend = 1 }
+			}
+			15 = {
+				set_variable = { DED_friend = 0 }
+				set_variable = { CTP_friend = 0 }
+			}
+			5 = {
+				set_variable = { DED_friend = 1 }
+				set_variable = { CTP_friend = 1 }
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -2837,7 +2880,14 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		random_list = {
+			90 = {
+				set_variable = { DPL_friend = 1 }
+			}
+			10 = {
+				set_variable = { DPL_friend = 0 }
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -2863,7 +2913,13 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		add_ideas = MRO_arbiter_development_union
+		DED = { add_ideas = MRO_arbiter_development_union }
+		DPL = { add_ideas = MRO_arbiter_development_union }
+		YLC = { add_ideas = MRO_arbiter_development_union }
+		QOH = { add_ideas = MRO_arbiter_development_union }
+		CTP = { add_ideas = MRO_arbiter_development_union }
+		IMN = { add_ideas = MRO_arbiter_development_union }
 	}
 	ai_will_do = {
 	}
@@ -2889,7 +2945,13 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		add_ideas = MRO_arbiter_magic_group
+		DED = { add_ideas = MRO_arbiter_magic_group }
+		DPL = { add_ideas = MRO_arbiter_magic_group }
+		YLC = { add_ideas = MRO_arbiter_magic_group }
+		QOH = { add_ideas = MRO_arbiter_magic_group }
+		CTP = { add_ideas = MRO_arbiter_magic_group }
+		IMN = { add_ideas = MRO_arbiter_magic_group }
 	}
 	ai_will_do = {
 	}
@@ -2915,7 +2977,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#decisions
 	}
 	ai_will_do = {
 	}
@@ -2941,7 +3003,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -2967,7 +3029,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -2993,7 +3055,46 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		swap_ideas = {
+			add_idea = MRO_arbiter_magic_group2
+			remove_idea = MRO_arbiter_magic_group
+		}
+		DPL = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group2
+				remove_idea = MRO_arbiter_magic_group
+			} 
+		}
+		DED = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group2
+				remove_idea = MRO_arbiter_magic_group
+			} 
+		}
+		YLC = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group2
+				remove_idea = MRO_arbiter_magic_group
+			} 
+		}
+		QOH = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group2
+				remove_idea = MRO_arbiter_magic_group
+			} 
+		}
+		CTP = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group2
+				remove_idea = MRO_arbiter_magic_group
+			} 
+		}
+		IMN = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group2
+				remove_idea = MRO_arbiter_magic_group
+			} 
+		}
 	}
 	ai_will_do = {
 	}
@@ -3045,7 +3146,46 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		swap_ideas = {
+			add_idea = MRO_arbiter_development_union2
+			remove_idea = MRO_arbiter_development_union
+		}
+		DPL = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_development_union2
+				remove_idea = MRO_arbiter_development_union
+			} 
+		}
+		DED = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_development_union2
+				remove_idea = MRO_arbiter_development_union
+			} 
+		}
+		YLC = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_development_union2
+				remove_idea = MRO_arbiter_development_union
+			} 
+		}
+		QOH = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_development_union2
+				remove_idea = MRO_arbiter_development_union
+			} 
+		}
+		CTP = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_development_union2
+				remove_idea = MRO_arbiter_development_union
+			} 
+		}
+		IMN = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_development_union2
+				remove_idea = MRO_arbiter_development_union
+			} 
+		}
 	}
 	ai_will_do = {
 	}
@@ -3071,7 +3211,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -3097,7 +3237,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -3123,7 +3263,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -3150,7 +3290,46 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		swap_ideas = {
+			add_idea = MRO_arbiter_magic_group3
+			remove_idea = MRO_arbiter_magic_group2
+		}
+		DPL = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group3
+				remove_idea = MRO_arbiter_magic_group2
+			} 
+		}
+		DED = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group3
+				remove_idea = MRO_arbiter_magic_group2
+			} 
+		}
+		YLC = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group3
+				remove_idea = MRO_arbiter_magic_group2
+			} 
+		}
+		QOH = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group3
+				remove_idea = MRO_arbiter_magic_group2
+			} 
+		}
+		CTP = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group3
+				remove_idea = MRO_arbiter_magic_group2
+			} 
+		}
+		IMN = { 
+			swap_ideas = {
+				add_idea = MRO_arbiter_magic_group3
+				remove_idea = MRO_arbiter_magic_group2
+			} 
+		}
 	}
 	ai_will_do = {
 	}
@@ -3176,7 +3355,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#decisions
 	}
 	ai_will_do = {
 	}
@@ -3203,7 +3382,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -3229,7 +3408,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}

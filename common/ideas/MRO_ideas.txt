@@ -618,6 +618,180 @@ ideas = {
 			removal_cost = -1
 		}
 
+		### aggressive arbiters focus tree
+
+		#pre civil war
+
+		MRO_arbiter_development_union = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+				tag = DPL
+				tag = DED
+				tag = QOH
+				tag = YLC
+				tag = IMN
+				tag = CTP
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				industry_free_repair_factor = 0.15
+				industry_repair_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_arbiter_development_union2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+				tag = DPL
+				tag = DED
+				tag = QOH
+				tag = YLC
+				tag = IMN
+				tag = CTP
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				industry_free_repair_factor = 0.15
+				industry_repair_factor = 0.2
+				political_power_gain = 0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_arbiter_magic_group = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+				tag = DPL
+				tag = DED
+				tag = QOH
+				tag = YLC
+				tag = IMN
+				tag = CTP
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_arbiter_magic_group2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+				tag = DPL
+				tag = DED
+				tag = QOH
+				tag = YLC
+				tag = IMN
+				tag = CTP
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.15
+				army_attack_factor = 0.1
+				breakthrough_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_arbiter_magic_group3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+				tag = DPL
+				tag = DED
+				tag = QOH
+				tag = YLC
+				tag = IMN
+				tag = CTP
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.2
+				army_attack_factor = 0.2
+				breakthrough_factor = 0.2
+				army_org_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
 	}
 
 }
