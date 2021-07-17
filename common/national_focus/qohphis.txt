@@ -191,7 +191,7 @@ ai_will_do = {
 } 
  
 focus = {
-id = ARB_international_politics
+id = ARB_play_the_puppet_master
 x = 18
 y = 3
 icon = GFX_goal_generic_attack_allies
@@ -208,7 +208,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-
+	#decisions
 }
 ai_will_do = {
 }
@@ -388,7 +388,7 @@ x = 14
 y = 4
 icon = GFX_goal_influence_airestonia
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ARB_international_politics }
+prerequisite = { focus = ARB_play_the_puppet_master }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
@@ -412,7 +412,7 @@ x = 16
 y = 4
 icon = GFX_goal_influence_icrusia
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ARB_international_politics }
+prerequisite = { focus = ARB_play_the_puppet_master }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
@@ -436,7 +436,7 @@ x = 18
 y = 4
 icon = GFX_goal_influence_trubia
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ARB_international_politics }
+prerequisite = { focus = ARB_play_the_puppet_master }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
@@ -460,7 +460,7 @@ x = 20
 y = 4
 icon = GFX_goal_influence_echainaian
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ARB_international_politics }
+prerequisite = { focus = ARB_play_the_puppet_master }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
@@ -484,7 +484,7 @@ x = 22
 y = 4
 icon = GFX_goal_influence_ilidea
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ARB_international_politics }
+prerequisite = { focus = ARB_play_the_puppet_master }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
@@ -764,7 +764,12 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	ARS = { add_ideas = QOH_democratic_influence2 }
+	ARS = {
+		swap_ideas = {
+			add_idea = QOH_democratic_influence2
+			remove_idea = QOH_democratic_influence
+		}
+	}
 }
 ai_will_do = {
 }
@@ -788,7 +793,12 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	ICR = { add_ideas = QOH_democratic_influence2 }
+	ICR = {
+		swap_ideas = {
+			add_idea = QOH_democratic_influence2
+			remove_idea = QOH_democratic_influence
+		}
+	}
 }
 ai_will_do = {
 }
@@ -812,7 +822,12 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	TRB = { add_ideas = QOH_democratic_influence2 }
+	TRB = {
+		swap_ideas = {
+			add_idea = QOH_democratic_influence2
+			remove_idea = QOH_democratic_influence
+		}
+	}
 }
 ai_will_do = {
 }
@@ -836,7 +851,12 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	ECH = { add_ideas = QOH_democratic_influence2 }
+	ECH = {
+		swap_ideas = {
+			add_idea = QOH_democratic_influence2
+			remove_idea = QOH_democratic_influence
+		}
+	}
 }
 ai_will_do = {
 }
@@ -860,7 +880,12 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	ILD = { add_ideas = QOH_democratic_influence2 }
+	ILD = {
+		swap_ideas = {
+			add_idea = QOH_democratic_influence2
+			remove_idea = QOH_democratic_influence
+		}
+	}
 }
 ai_will_do = {
 }

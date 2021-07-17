@@ -19,4193 +19,4502 @@ focus_tree = {
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1500 }
-
-focus = {
-id = MRO_meeting_of_the_council_of_arbiters
-x = 23
-y = 1
-icon = GFX_goal_support_democracy
-#relative_position_id = AST_empower_the_workers
- 
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_dreams_of_a_nation }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_state_of_the_mercenaries
-x = 6
-y = 2
-icon = GFX_goal_generic_attack_allies
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_meeting_of_the_council_of_arbiters }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_international_affairs
-x = 18
-y = 2
-icon = GFX_goal_generic_major_alliance
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_meeting_of_the_council_of_arbiters }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_arbiter_economy
-x = 35
-y = 2
-icon = GFX_goal_generic_positive_trade_relations
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_meeting_of_the_council_of_arbiters }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_continue_magical_practices
-x = 1
-y = 3
-icon = GFX_goal_generic_war_with_comintern
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_state_of_the_mercenaries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_finally_fund_the_riflemen
-x = 6
-y = 3
-icon = GFX_goal_pay_out_military
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_state_of_the_mercenaries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_big_strides_in_cavalry_technology
-x = 11
-y = 3
-icon = GFX_goal_generic_cavalry
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_state_of_the_mercenaries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_international_politics
-x = 18
-y = 3
-icon = GFX_goal_generic_attack_allies
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_international_affairs }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_individual_industrialisation
-x = 27
-y = 3
-icon = GFX_goal_generic_construct_civ_factory
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_arbiter_economy }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_strengthen_the_entire_union
-x = 39
-y = 3
-icon = GFX_goal_generic_national_unity
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_arbiter_economy }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_revamp_mage_thinking
-x = 1
-y = 4
-icon = GFX_goal_rediscover_magic
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_continue_magical_practices }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_understand_airestonian_big_guns
-x = 3
-y = 4
-icon = GFX_goal_generic_army_artillery2
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_finally_fund_the_riflemen }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_research_icrusian_rifle_designs
-x = 6
-y = 4
-icon = GFX_goal_generic_small_arms
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_finally_fund_the_riflemen }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_dispose_outdated_guns
-x = 8
-y = 4
-icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_finally_fund_the_riflemen }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_pointier_sticks
-x = 11
-y = 4
-icon = GFX_goal_generic_cavalry_advanced
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_big_strides_in_cavalry_technology }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_influence_airestonian_politics
-x = 14
-y = 4
-icon = GFX_goal_influence_airestonia
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_international_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_influence_icrusian_politics
-x = 16
-y = 4
-icon = GFX_goal_influence_icrusia
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_international_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_influence_trubian_politics
-x = 18
-y = 4
-icon = GFX_goal_influence_trubia
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_international_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_influence_echainaian_politics
-x = 20
-y = 4
-icon = GFX_goal_influence_echainaian
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_international_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_influence_illidean_politics
-x = 22
-y = 4
-icon = GFX_goal_influence_ilidea
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_international_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_mass_produce_factories
-x = 26
-y = 4
-icon = GFX_focus_generic_industry_1
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_individual_industrialisation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_increase_factory_qualities
-x = 28
-y = 4
-icon = GFX_goal_generic_neutrality_focus
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_individual_industrialisation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_dunes_of_the_east
-x = 35
-y = 4
-icon = GFX_goal_invest_in_south
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_strengthen_the_entire_union }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_fertile_lands_of_the_west }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_fertile_lands_of_the_west
-x = 43
-y = 4
-icon = GFX_goal_lucrative_plantations
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_strengthen_the_entire_union }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_dunes_of_the_east }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_willpower_training
-x = 1
-y = 5
-icon = GFX_goal_generic_military_deal
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_revamp_mage_thinking }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_read_artillery_manuals
-x = 3
-y = 5
-icon = GFX_focus_generic_military_academy
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_understand_airestonian_big_guns }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_study_documented_battles
-x = 5
-y = 5
-icon = GFX_goal_generic_position_armies
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_research_icrusian_rifle_designs }
-prerequisite = { focus = MRO_dispose_outdated_guns }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_standardise_arbiter_guns
-x = 7
-y = 5
-icon = GFX_goal_generic_military_sphere
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_research_icrusian_rifle_designs }
-prerequisite = { focus = MRO_dispose_outdated_guns }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_study_icrusian_battle_tactics
-x = 9
-y = 5
-icon = GFX_focus_generic_military_mission
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_research_icrusian_rifle_designs }
-prerequisite = { focus = MRO_dispose_outdated_guns }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_breed_stronger_horses
-x = 11
-y = 5
-icon = GFX_goal_generic_cavalry_group
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_pointier_sticks }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_fund_dawn_group
-x = 14
-y = 5
-icon = GFX_focus_generic_support_the_left_right
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_influence_airestonian_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_contact_gabel
-x = 16
-y = 5
-icon = GFX_focus_eng_concessions_to_the_trade_unions
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_influence_icrusian_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_unite_the_deep_sea_groups
-x = 18
-y = 5
-icon = GFX_goal_generic_national_unity
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_influence_trubian_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_support_echainaian_rebels
-x = 20
-y = 5
-icon = GFX_goal_generic_dangerous_deal
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_influence_echainaian_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_support_illidea_speaking_groups
-x = 22
-y = 5
-icon = GFX_goal_generic_propaganda
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_influence_illidean_politics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_production_plants_facing_shifton
-x = 25
-y = 5
-icon = GFX_goal_generic_construct_mil_factory
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_mass_produce_factories }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_turn_the_cogs_of_production
-x = 27
-y = 5
-icon = GFX_goal_generic_production2
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_mass_produce_factories OR = MRO_increase_factory_qualities }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_invest_in_arcanic_tools
-x = 29
-y = 5
-icon = GFX_goal_generic_air_production
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_increase_factory_qualities }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_leader_of_the_arbiters
-x = 32
-y = 5
-icon = GFX_goal_help_misaross
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_dunes_of_the_east }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_misaross_older_brother
-x = 34
-y = 5
-icon = GFX_goal_help_cleatport
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_dunes_of_the_east }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_the_forgotten_state
-x = 36
-y = 5
-icon = GFX_goal_help_dinpool
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_dunes_of_the_east }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_in_the_down_under
-x = 38
-y = 5
-icon = GFX_goal_help_illemont
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_dunes_of_the_east }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_treasury_of_the_arbiters
-x = 41
-y = 5
-icon = GFX_goal_help_qohphis
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_fertile_lands_of_the_west }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_farms_farms_farms
-x = 43
-y = 5
-icon = GFX_goal_help_ylecstin
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_fertile_lands_of_the_west }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_jewel_of_the_arbiters
-x = 45
-y = 5
-icon = GFX_goal_help_drecding
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_fertile_lands_of_the_west }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
-focus = {
-id = MRO_enhance_mage_wards
-x = 1
-y = 6
-icon = GFX_goal_triad_magic_group
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_willpower_training }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_buy_echainaian_artillery
-x = 3
-y = 6
-icon = GFX_goal_generic_army_artillery
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_read_artillery_manuals }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_innovate_rifle_improvements
-x = 6
-y = 6
-icon = GFX_focus_secret_rearmament
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_study_documented_battles }
-prerequisite = { focus = MRO_standardise_arbiter_guns }
-prerequisite = { focus = MRO_study_icrusian_battle_tactics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_study_support_equipment_models
-x = 8
-y = 6
-icon = GFX_goal_generic_build_tank
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_study_documented_battles }
-prerequisite = { focus = MRO_standardise_arbiter_guns }
-prerequisite = { focus = MRO_study_icrusian_battle_tactics }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_build_more_stables
-x = 11
-y = 6
-icon = GFX_goal_generic_construct_civilian
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_breed_stronger_horses }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_organise_freedoms_day
-x = 14
-y = 6
-icon = GFX_focus_generic_strike_at_democracy1
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_fund_dawn_group }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_the_democratic_underground_of_icrusia
-x = 16
-y = 6
-icon = GFX_focus_generic_strike_at_democracy2
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_contact_gabel }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_gather_support_in_astrigan
-x = 18
-y = 6
-icon = GFX_goal_generic_forceful_treaty
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_unite_the_deep_sea_groups }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_hand_out_democracy_flyers
-x = 20
-y = 6
-icon = GFX_goal_molotov_ribbentrop_pact
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_support_echainaian_rebels }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_rain_day_parade
-x = 22
-y = 6
-icon = GFX_goal_generic_alliance
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_support_illidea_speaking_groups }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_repurpose_old_factories
-x = 26
-y = 6
-icon = GFX_goal_generic_construct_civilian
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_production_plants_facing_shifton }
-prerequisite = { focus = MRO_turn_the_cogs_of_production }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_arcanic_waste_reduction_modules
-x = 28
-y = 6
-icon = GFX_goal_economic_bubble
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_invest_in_arcanic_tools }
-prerequisite = { focus = MRO_turn_the_cogs_of_production }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_upgrade_the_shifton_military_complex
-x = 32
-y = 6
-icon = GFX_goal_generic_construct_civ_factory
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_leader_of_the_arbiters }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_expand_the_rywey_mines
-x = 34
-y = 6
-icon = GFX_goal_generic_construction2
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_misaross_older_brother }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_build_the_gatesford_factories
-x = 36
-y = 6
-icon = GFX_goal_generic_construct_civilian
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_the_forgotten_state }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_breton_canals
-x = 38
-y = 6
-icon = GFX_goal_generic_construct_mil_factory
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_in_the_down_under }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_open_new_investment_centres
-x = 41
-y = 6
-icon = GFX_goal_increase_military_pay
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_treasury_of_the_arbiters }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_grow_more_crops
-x = 43
-y = 6
-icon = GFX_goal_grow_wheat_farm
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_farms_farms_farms }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_macking_mines
-x = 45
-y = 6
-icon = GFX_goal_generic_construction2
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_jewel_of_the_arbiters }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
-focus = {
-id = MRO_promote_mage_abilities
-x = 1
-y = 7
-icon = GFX_goal_generic_demand_territory
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_enhance_mage_wards }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_combined_guns
-x = 4
-y = 7
-icon = GFX_goal_raining_shells
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_buy_echainaian_artillery }
-prerequisite = { focus = MRO_innovate_rifle_improvements OR = MRO_study_support_equipment_models }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_self_sufficient_firepower }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_self_sufficient_firepower
-x = 7
-y = 7
-icon = GFX_goal_generic_political_pressure
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_innovate_rifle_improvements }
-prerequisite = { focus = MRO_study_support_equipment_models }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_combined_guns }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_train_more_cavalrymen
-x = 11
-y = 7
-icon = GFX_goal_generic_more_territorial_claims
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_build_more_stables }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_mercenary_realpolitik
-x = 18
-y = 7
-icon = GFX_goal_generic_improve_relations
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_organise_freedoms_day }
-prerequisite = { focus = MRO_the_democratic_underground_of_icrusia }
-prerequisite = { focus = MRO_gather_support_in_astrigan }
-prerequisite = { focus = MRO_hand_out_democracy_flyers }
-prerequisite = { focus = MRO_rain_day_parade }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_new_production_lines
-x = 25
-y = 7
-icon = GFX_goal_generic_production
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_repurpose_old_factories OR = MRO_arcanic_waste_reduction_modules }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_gift_from_the_blacksmiths
-x = 27
-y = 7
-icon = GFX_focus_generic_industry_2
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_repurpose_old_factories OR = MRO_arcanic_waste_reduction_modules }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_steampunk_magic
-x = 29
-y = 7
-icon = GFX_goal_generic_construction2
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_repurpose_old_factories OR = MRO_arcanic_waste_reduction_modules }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_renew_leases_on_the_opormouth_industrial_group
-x = 32
-y = 7
-icon = GFX_focus_generic_treaty
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_upgrade_the_shifton_military_complex }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_wigtonian_logging_factories
-x = 34
-y = 7
-icon = GFX_focus_generic_industry_1
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_expand_the_rywey_mines }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_improve_dinpool_infrastructure
-x = 36
-y = 7
-icon = GFX_goal_generic_construct_infrastructure
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_build_the_gatesford_factories }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_build_new_farms
-x = 38
-y = 7
-icon = GFX_goal_grow_wheat_farm
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_breton_canals }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_leydon_city_project
-x = 41
-y = 7
-icon = GFX_goal_old_building
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_open_new_investment_centres }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_expand_the_parvino_grain_mills
-x = 43
-y = 7
-icon = GFX_goal_generic_construct_civilian
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_grow_more_crops }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_exploit_guildford_resources
-x = 45
-y = 7
-icon = GFX_focus_generic_self_management
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_macking_mines }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
-focus = {
-id = MRO_one_wizard_army
-x = 1
-y = 8
-icon = GFX_focus_generic_little_entente
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_promote_mage_abilities }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_combined_arms
-x = 6
-y = 8
-icon = GFX_goal_generic_special_forces
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_combined_guns OR = MRO_self_sufficient_firepower }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_workhorse_of_the_army
-x = 11
-y = 8
-icon = GFX_goal_generic_CAS
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_train_more_cavalrymen }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_abiter_autarky
-x = 27
-y = 8
-icon = GFX_goal_generic_trade
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_new_production_lines }
-prerequisite = { focus = MRO_gift_from_the_blacksmiths }
-prerequisite = { focus = MRO_steampunk_magic }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_seeing_the_west_eye_to_eye
-x = 35
-y = 8
-icon = GFX_goal_generic_neutrality_focus
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_renew_leases_on_the_opormouth_industrial_group }
-prerequisite = { focus = MRO_wigtonian_logging_factories }
-prerequisite = { focus = MRO_improve_dinpool_infrastructure }
-prerequisite = { focus = MRO_build_new_farms }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-} 
- 
-focus = {
-id = MRO_far_beyond_the_eastern_backwater
-x = 43
-y = 8
-icon = GFX_goal_demand_sudetenland
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = MRO_leydon_city_project }
-prerequisite = { focus = MRO_expand_the_parvino_grain_mills }
-prerequisite = { focus = MRO_exploit_guildford_resources }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_dreams_of_a_nation
-x = 55
-y = 1
-icon = GFX_goal_dreams_of_a_nation
-#relative_position_id = AST_empower_the_workers
- 
- 
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_meeting_of_the_council_of_arbiters }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_southern_investment
-x = 49
-y = 2
-icon = "GFX_goal_generic_consumer_goods"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_dreams_of_a_nation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_western_investment }
-mutually_exclusive = {focus = MRO_northern_investment }
-mutually_exclusive = {focus = MRO_eastern_investment }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_western_investment
-x = 53
-y = 2
-icon = "GFX_goal_lucrative_plantations"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_dreams_of_a_nation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_southern_investment }
-mutually_exclusive = {focus = MRO_northern_investment }
-mutually_exclusive = {focus = MRO_eastern_investment }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_northern_investment
-x = 57
-y = 2
-icon = "GFX_goal_generic_construction2"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_dreams_of_a_nation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_southern_investment }
-mutually_exclusive = {focus = MRO_western_investment }
-mutually_exclusive = {focus = MRO_eastern_investment }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_eastern_investment
-x = 61
-y = 2
-icon = "GFX_goal_generic_trade"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_dreams_of_a_nation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_southern_investment }
-mutually_exclusive = {focus = MRO_northern_investment }
-mutually_exclusive = {focus = MRO_western_investment }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_increase_trade_with_illemnont
-x = 48
-y = 3
-icon = "GFX_goal_generic_positive_trade_relations"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_southern_investment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_gifts_for_our_southern_friends
-x = 50
-y = 3
-icon = GFX_goal_help_illemont
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_southern_investment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_expand_ylecstin_farmlands
-x = 52
-y = 3
-icon = "GFX_goal_help_ylecstin"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_western_investment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_raise_qohphis_banks
-x = 54
-y = 3
-icon = "GFX_goal_help_qohphis"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_western_investment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_build_more_mines_in_drecding
-x = 56
-y = 3
-icon = "GFX_goal_help_drecding"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_northern_investment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_industrialise_cleatport
-x = 58
-y = 3
-icon = "GFX_goal_help_cleatport"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_northern_investment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_buy_out_dinpool
-x = 60
-y = 3
-icon = "GFX_goal_help_dinpool"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_eastern_investment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_invest_in_dinpool
-x = 62
-y = 3
-icon = "GFX_goal_pay_out_military"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_eastern_investment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_assist_the_south
-x = 49
-y = 4
-icon = "GFX_goal_generic_major_alliance"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_increase_trade_with_illemnont }
-prerequisite = { focus = MRO_gifts_for_our_southern_friends }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_reconcile_the_west
-x = 53
-y = 4
-icon = "GFX_goal_generic_alliance"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_expand_ylecstin_farmlands }
-prerequisite = { focus = MRO_raise_qohphis_banks }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_connect_the_north
-x = 57
-y = 4
-icon = "GFX_goal_tripartite_pact"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_build_more_mines_in_drecding }
-prerequisite = { focus = MRO_industrialise_cleatport }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_leave_no_arbiter_behind
-x = 61
-y = 4
-icon = "GFX_goal_generic_national_unity"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_invest_in_dinpool }
-prerequisite = { focus = MRO_buy_out_dinpool }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_form_the_arbiter_development_union
-x = 55
-y = 5
-icon = "GFX_goal_generic_neutrality_focus"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_assist_the_south OR = MRO_reconcile_the_west }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall OR = MRO_connect_the_north OR = MRO_leave_no_arbiter_behind }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_reinstate_the_arbiter_magic_group
-x = 51
-y = 6
-icon = "GFX_goal_generic_war_with_comintern"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_form_the_arbiter_development_union }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_adu_economic_projects
-x = 54
-y = 6
-icon = "GFX_goal_economic_bubble"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_form_the_arbiter_development_union }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_adu_road_projects
-x = 57
-y = 6
-icon = "GFX_goal_ring_road"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_form_the_arbiter_development_union }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_adu_industrial_projects
-x = 60
-y = 6
-icon = "GFX_focus_generic_industry_1"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_form_the_arbiter_development_union }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_cross_arbiter_training_plans
-x = 50
-y = 7
-icon = "GFX_goal_generic_army_doctrines"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_reinstate_the_arbiter_magic_group }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_build_cross_arbiter_camps
-x = 52
-y = 7
-icon = "GFX_focus_generic_military_academy"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_reinstate_the_arbiter_magic_group }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_establish_the_common_arbiter_fund
-x = 54
-y = 7
-icon = "GFX_goal_increase_military_pay"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_adu_economic_projects }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_adu_eastern_road_focus
-x = 56
-y = 7
-icon = "GFX_goal_generic_construct_infrastructure"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_adu_road_projects }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_adu_western_road_focus
-x = 58
-y = 7
-icon = "GFX_goal_generic_construct_infrastructure"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_adu_road_projects }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_adu_central_bank
-x = 60
-y = 7
-icon = "GFX_focus_generic_self_management"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_adu_industrial_projects }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_collaborate_on_magic_projects
-x = 51
-y = 8
-icon = "GFX_goal_enhanced_magic"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_cross_arbiter_training_plans }
-prerequisite = { focus = MRO_build_cross_arbiter_camps }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_adu_bail_out_programmes
-x = 54
-y = 8
-icon = "GFX_goal_increase_budget"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_establish_the_common_arbiter_fund }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_trans-arbiters_roads
-x = 57
-y = 8
-icon = GFX_goal_trans_arbiters_roads
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_adu_western_road_focus }
-prerequisite = { focus = MRO_adu_eastern_road_focus }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_adu_investment_funds
-x = 60
-y = 8
-icon = "GFX_goal_lucrative_plantations"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_adu_central_bank }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_send_out_the_national_charter
-x = 55
-y = 10
-icon = "GFX_focus_generic_treaty"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_write_a_unity_constituition }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_write_a_unity_constituition
-x = 55
-y = 9
-icon = "GFX_goal_generic_national_unity"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_collaborate_on_magic_projects }
-prerequisite = { focus = MRO_adu_bail_out_programmes OR = MRO_trans-arbiters_roads OR = MRO_adu_investment_funds }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_war_plans_for_misaross
-x = 55
-y = 11
-icon = "GFX_goal_generic_forceful_treaty"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_send_out_the_national_charter }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_enforce_war_economy
-x = 53
-y = 12
-icon = GFX_goal_expand_sword_factories
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_war_plans_for_misaross }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_emergency_temporary_factories
-x = 55
-y = 12
-icon = GFX_goal_slitting_mills
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_war_plans_for_misaross }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_centralise_production
-x = 57
-y = 12
-icon = "GFX_focus_generic_industry_2"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_war_plans_for_misaross }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_transition_to_weapons_production
-x = 54
-y = 13
-icon = GFX_goal_more_blast_furnaces.psd
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_enforce_war_economy }
-prerequisite = { focus = MRO_emergency_temporary_factories }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_declare_marshal_law
-x = 56
-y = 13
-icon = "GFX_focus_renounce_the_treaty_of_trianon"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_centralise_production }
-prerequisite = { focus = MRO_emergency_temporary_factories }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_strongest_house_in_the_arbiters
-x = 55
-y = 14
-icon = "GFX_goal_generic_political_pressure"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_transition_to_weapons_production }
-prerequisite = { focus = MRO_declare_marshal_law }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_end_of_the_unification_war
-x = 55
-y = 15
-icon = "GFX_goal_generic_dangerous_deal"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_strongest_house_in_the_arbiters }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_state_of_the_militia
-x = 50
-y = 16
-icon = "GFX_focus_generic_military_mission"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_end_of_the_unification_war }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_new_national_strength_budget
-x = 60
-y = 16
-icon = "GFX_goal_generic_forceful_treaty"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_end_of_the_unification_war }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_old_military_order
-x = 47
-y = 17
-icon = "GFX_goal_demand_sudetenland"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_state_of_the_militia }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_diversify_to_new_ideas }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_diversify_to_new_ideas
-x = 52
-y = 17
-icon = "GFX_focus_generic_military_academy"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_state_of_the_militia }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mutually_exclusive = {focus = MRO_old_military_order }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_rebuild_the_west
-x = 58
-y = 17
-icon = "GFX_focus_generic_industry_3"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_new_national_strength_budget }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_rebuild_the_east
-x = 62
-y = 17
-icon = "GFX_goal_generic_production2"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_new_national_strength_budget }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_reorganise_mage_sections
-x = 47
-y = 18
-icon = GFX_goal_understand_void_strength
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_old_military_order }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_explore_artillery_designs
-x = 50
-y = 18
-icon = "GFX_goal_generic_army_artillery2"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_diversify_to_new_ideas }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_raise_a_national_army
-x = 52
-y = 18
-icon = "GFX_focus_generic_little_entente"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_diversify_to_new_ideas }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_first_cavalries_of_the_arbiters
-x = 54
-y = 18
-icon = "GFX_goal_generic_cavalry"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_diversify_to_new_ideas }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_conserve_integral_farmlands
-x = 57
-y = 18
-icon = "GFX_goal_grow_wheat_farm"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_rebuild_the_west }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_subsidies_for_the_banks
-x = 59
-y = 18
-icon = GFX_focus_generic_self_management
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_rebuild_the_west }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_secrets_of_dinpool
-x = 61
-y = 18
-icon = GFX_goal_reinforce_mines
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_rebuild_the_east }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_cleatport_ripe_for_factories
-x = 63
-y = 18
-icon = "GFX_goal_generic_construct_civ_factory"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_rebuild_the_east }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-focus = {
-id = MRO_cross_magical_squads
-x = 47
-y = 19
-icon = "GFX_goal_triad_magic_group"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_reorganise_mage_sections }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_all_terrain_artillery
-x = 50
-y = 19
-icon = "GFX_goal_generic_army_artillery"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_explore_artillery_designs }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_study_modern_infantry_equipment
-x = 52
-y = 19
-icon = "GFX_goal_generic_small_arms"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_raise_a_national_army }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_employ_explosive_lancers
-x = 54
-y = 19
-icon = GFX_goal_lancer
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_first_cavalries_of_the_arbiters }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_exploit_logging_benefits
-x = 57
-y = 19
-icon = GFX_goal_lax_logging_laws
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_conserve_integral_farmlands }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_worker_benefits_plans
-x = 59
-y = 19
-icon = "GFX_focus_eng_concessions_to_the_trade_unions"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_subsidies_for_the_banks }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_strongarm_dinpool_exports
-x = 61
-y = 19
-icon = GFX_goal_coal_factories
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_secrets_of_dinpool }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_redistribute_industrial_development_grants
-x = 63
-y = 19
-icon = GFX_goal_economic_bubble
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_cleatport_ripe_for_factories }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-focus = {
-id = MRO_human_warheads
-x = 47
-y = 20
-icon = "GFX_focus_wonderweapons"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_cross_magical_squads }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_arcanic_shells
-x = 50
-y = 20
-icon = "GFX_goal_raining_shells"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_all_terrain_artillery }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_combinational_arcanic_equipment_designs
-x = 52
-y = 20
-icon = GFX_goal_fireball
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_study_modern_infantry_equipment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_magical_horsemen_of_the_night
-x = 54
-y = 20
-icon = "GFX_goal_generic_CAS"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_employ_explosive_lancers }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_striking_gold_in_the_west
-x = 58
-y = 20
-icon = "GFX_focus_usa_reestablish_the_gold_standard"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_exploit_logging_benefits }
-prerequisite = { focus = MRO_worker_benefits_plans }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_fully_unleash_eastern_potential
-x = 62
-y = 20
-icon = GFX_goal_grain_mills
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_strongarm_dinpool_exports }
-prerequisite = { focus = MRO_redistribute_industrial_development_grants }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_grand_militant_state
-x = 50
-y = 21
-icon = GFX_goal_gunworks
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_human_warheads OR = MRO_arcanic_shells OR = MRO_combinational_arcanic_equipment_designs OR = MRO_magical_horsemen_of_the_night }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_stronger_as_one
-x = 60
-y = 21
-icon = "GFX_focus_generic_support_the_left_right"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_striking_gold_in_the_west OR = MRO_fully_unleash_eastern_potential }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_on_the_homefront
-x = 55
-y = 22
-icon = "GFX_goal_generic_defence"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_grand_militant_state }
-prerequisite = { focus = MRO_stronger_as_one }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_paint_our_enemies_in_black
-x = 53
-y = 23
-icon = "GFX_goal_generic_major_war"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_on_the_homefront }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_proclaim_freedom_declaration
-x = 55
-y = 23
-icon = "GFX_goal_generic_territory_or_war"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_on_the_homefront }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_provoke_neighbouring_countries
-x = 57
-y = 23
-icon = "GFX_goal_generic_more_territorial_claims"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_on_the_homefront }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_modern_war_plans
-x = 52
-y = 24
-icon = "GFX_goal_generic_occupy_states_ongoing_war"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_paint_our_enemies_in_black }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_crude_diplomacy
-x = 54
-y = 24
-icon = "GFX_goal_generic_military_deal"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_paint_our_enemies_in_black }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_reinvigorate_public_morale
-x = 56
-y = 24
-icon = "GFX_goal_generic_propaganda"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_provoke_neighbouring_countries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_gray_monday_parade
-x = 58
-y = 24
-icon = "GFX_focus_rom_parties_end"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_provoke_neighbouring_countries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = MRO_mercenaries_no_more
-x = 55
-y = 25
-icon = "GFX_focus_generic_strike_at_democracy1"
-#relative_position_id = AST_empower_the_workers
- 
-prerequisite = { focus = MRO_modern_war_plans OR = MRO_crude_diplomacy }
-prerequisite = { focus = MRO_proclaim_freedom_declaration }
-prerequisite = { focus = MRO_reinvigorate_public_morale OR = MRO_gray_monday_parade }
-
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
- 
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-add_political_power = 100
-}
-ai_will_do = {
-}
+	continuous_focus_position = { x = 40 y = 2000 }
+
+focus = {
+	id = MRO_meeting_of_the_council_of_arbiters
+	x = 16.5
+	y = 1
+	icon = GFX_goal_support_democracy
+	#relative_position_id = AST_empower_the_workers
+ 
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = { focus = MRO_dreams_of_a_nation }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#event
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_state_of_the_mercenaries
+	x = 6
+	y = 2
+	icon = GFX_goal_generic_attack_allies
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_meeting_of_the_council_of_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		army_experience = 50
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_head_of_the_arbiters
+	x = 16.5
+	y = 10
+	icon = GFX_goal_generic_major_alliance
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_meeting_of_the_council_of_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_arbiter_economy
+	x = 24
+	y = 2
+	icon = GFX_goal_generic_positive_trade_relations
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_meeting_of_the_council_of_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+		#building
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_continue_magical_practices
+	x = 1
+	y = 3
+	icon = GFX_goal_generic_war_with_comintern
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_state_of_the_mercenaries }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_finally_fund_the_riflemen
+	x = 6
+	y = 3
+	icon = GFX_goal_pay_out_military
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_state_of_the_mercenaries }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_big_strides_in_cavalry_technology
+	x = 11
+	y = 3
+	icon = GFX_goal_generic_cavalry
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_state_of_the_mercenaries }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_play_the_puppet_master
+	x = 22
+	y = 11
+	icon = "GFX_focus_generic_strike_at_democracy1"
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_head_of_the_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#decisions
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_individual_industrialisation
+	x = 16
+	y = 3
+	icon = GFX_goal_generic_construct_civ_factory
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_arbiter_economy }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_ideas = MRO_mercenary_industrialisation
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_strengthen_the_entire_union
+	x = 28
+	y = 3
+	icon = GFX_goal_generic_national_unity
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_arbiter_economy }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_revamp_mage_thinking
+	x = 1
+	y = 4
+	icon = GFX_goal_rediscover_magic
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_continue_magical_practices }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#doctrine
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_understand_airestonian_big_guns
+	x = 3
+	y = 4
+	icon = GFX_goal_generic_army_artillery2
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_finally_fund_the_riflemen }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_research_icrusian_rifle_designs
+	x = 6
+	y = 4
+	icon = GFX_goal_generic_small_arms
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_finally_fund_the_riflemen }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_dispose_outdated_guns
+	x = 8
+	y = 4
+	icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_finally_fund_the_riflemen }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_breed_stronger_horses
+	x = 11
+	y = 4
+	icon = GFX_goal_generic_cavalry_advanced
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_big_strides_in_cavalry_technology }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_influence_airestonian_politics
+	x = 18
+	y = 12
+	icon = GFX_goal_influence_airestonia
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_play_the_puppet_master }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ARS = { add_ideas = MRO_democratic_influence }
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_influence_icrusian_politics
+	x = 20
+	y = 12
+	icon = GFX_goal_influence_icrusia
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_play_the_puppet_master }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ICR = { add_ideas = MRO_democratic_influence }
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_influence_trubian_politics
+	x = 22
+	y = 12
+	icon = GFX_goal_influence_trubia
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_play_the_puppet_master }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		TRB = { add_ideas = MRO_democratic_influence }
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_influence_echainaian_politics
+	x = 24
+	y = 12
+	icon = GFX_goal_influence_echainaian
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_play_the_puppet_master }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ECH = { add_ideas = MRO_democratic_influence }
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_influence_illidean_politics
+	x = 26
+	y = 12
+	icon = GFX_goal_influence_ilidea
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_play_the_puppet_master }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ILD = { add_ideas = MRO_democratic_influence }
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_mass_produce_factories
+	x = 15
+	y = 4
+	icon = GFX_focus_generic_industry_1
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_individual_industrialisation }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_increase_factory_qualities
+	x = 17
+	y = 4
+	icon = GFX_goal_generic_neutrality_focus
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_individual_industrialisation }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_dunes_of_the_east
+	x = 24
+	y = 4
+	icon = GFX_goal_invest_in_south
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_strengthen_the_entire_union }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_fertile_lands_of_the_west }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_fertile_lands_of_the_west
+	x = 32
+	y = 4
+	icon = GFX_goal_lucrative_plantations
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_strengthen_the_entire_union }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_dunes_of_the_east }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_willpower_training
+	x = 1
+	y = 5
+	icon = GFX_goal_generic_military_deal
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_revamp_mage_thinking }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_ideas = MRO_willpower_training
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_read_artillery_manuals
+	x = 3
+	y = 5
+	icon = GFX_focus_generic_military_academy
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_understand_airestonian_big_guns }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#doctrine
+	}
+	ai_will_do = {
+	}
+} 	
+ 
+focus = {
+	id = MRO_study_documented_battles
+	x = 5
+	y = 5
+	icon = GFX_goal_generic_position_armies
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_research_icrusian_rifle_designs }
+	prerequisite = { focus = MRO_dispose_outdated_guns }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available =	{
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#doctrine
+	}
+	ai_will_do = {
+	}
+} 	
+ 
+focus = {
+	id = MRO_standardise_arbiter_guns
+	x = 7
+	y = 5
+	icon = GFX_goal_generic_military_sphere
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_research_icrusian_rifle_designs }
+	prerequisite = { focus = MRO_dispose_outdated_guns }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available =	{
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#equipment
+	}
+	ai_will_do = {
+	}
+} 	
+ 
+focus = {
+	id = MRO_study_icrusian_battle_tactics
+	x = 9
+	y = 5
+	icon = GFX_focus_generic_military_mission
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_research_icrusian_rifle_designs }
+	prerequisite = { focus = MRO_dispose_outdated_guns }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available =	{
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#doctrine
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_overwhelming_speed
+	x = 11
+	y = 5
+	icon = GFX_goal_generic_cavalry_group
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_breed_stronger_horses }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#doctrine
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_sabotage_and_subterfuge
+	x = 11
+	y = 11
+	icon = GFX_goal_guns_and_smoke
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_head_of_the_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		
+	}
+	ai_will_do = {
+	}
+} 
+
+focus = {
+	id = MRO_counterfeit_airestonian_coins
+	x = 7
+	y = 12
+	icon = "GFX_focus_generic_concessions"
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_sabotage_and_subterfuge }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ARS = {
+			add_political_power = -500
+			add_stability = -0.5
+			add_war_support = -0.5
+		}
+	}
+	ai_will_do = {
+	}
+} 
+
+focus = {
+	id = MRO_blackmail_icrusian_politicians
+	x = 9
+	y = 12
+	icon = "GFX_goal_torgyr_spy_company"
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_sabotage_and_subterfuge }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ICR = {
+			add_political_power = -200
+			random_list = {
+				15 = {
+					retire_country_leader = yes
+				}
+				45 = {
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.25
+					}
+				}
+				35 = {
+					#add_country_leader_trait = nationalist_symbol
+				}
+				5 = {
+					kill_country_leader = yes
+				}
+			}
+		}
+	}
+	ai_will_do = {
+	}
+} 
+
+focus = {
+	id = MRO_assasinate_leader_of_trubia
+	x = 11
+	y = 12
+	icon = "GFX_goal_infiltration"
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_sabotage_and_subterfuge }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		TRB = {
+			random_list = {
+				30 = {
+					#event
+				}
+				70 = {
+					#event
+				}
+			}
+		}
+	}
+	ai_will_do = {
+	}
+} 
+
+focus = {
+	id = MRO_forge_echainaian_official_documents
+	x = 13
+	y = 12
+	icon = GFX_goal_newspaper
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_sabotage_and_subterfuge }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = -1000
+		ECH = { 
+			add_timed_idea = { 
+				idea = MRO_political_paranoia  
+				days = 100 
+			} 
+		}
+	}
+	ai_will_do = {
+	}
+} 
+
+focus = {
+	id = MRO_blow_up_illidean_raillines
+	x = 15
+	y = 12
+	icon = "GFX_focus_generic_provoke_border_clashes"
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_sabotage_and_subterfuge }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+		add_political_power = -100
+	}
+	ai_will_do = {
+	}
+} 
+
+focus = {
+	id = MRO_fund_dawn_group
+	x = 7
+	y = 13
+	icon = GFX_focus_generic_support_the_left_right
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_counterfeit_airestonian_coins }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+		has_completed_focus = MRO_influence_airestonian_politics
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ARS = {
+			swap_ideas = {
+				add_idea = MRO_democratic_influence2
+				remove_idea = MRO_democratic_influence
+			}
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_contact_gabel
+	x = 9
+	y = 13
+	icon = GFX_focus_eng_concessions_to_the_trade_unions
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_blackmail_icrusian_politicians }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+		has_completed_focus = MRO_influence_icrusian_politics
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ICR = {
+			swap_ideas = {
+				add_idea = MRO_democratic_influence2
+				remove_idea = MRO_democratic_influence
+			}
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_unite_the_deep_sea_groups
+	x = 11
+	y = 13
+	icon = GFX_goal_generic_national_unity
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_assasinate_leader_of_trubia }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+		has_completed_focus = MRO_influence_trubian_politics
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		TRB = {
+			swap_ideas = {
+				add_idea = MRO_democratic_influence2
+				remove_idea = MRO_democratic_influence
+			}
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_support_echainaian_rebels
+	x = 13
+	y = 13
+	icon = GFX_goal_generic_dangerous_deal
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_forge_echainaian_official_documents }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+		has_completed_focus = MRO_influence_echainaian_politics
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ECH = {
+			swap_ideas = {
+				add_idea = MRO_democratic_influence2
+				remove_idea = MRO_democratic_influence
+			}
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_support_illidea_speaking_groups
+	x = 15
+	y = 13
+	icon = GFX_goal_generic_propaganda
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_blow_up_illidean_raillines }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+		has_completed_focus = MRO_influence_illidean_politics
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		ILD = {
+			swap_ideas = {
+				add_idea = MRO_democratic_influence2
+				remove_idea = MRO_democratic_influence
+			}
+		}
+	}
+	ai_will_do = {
+	}
+} 
+
+focus 	= {
+	id = MRO_beacon_of_democracy
+	x = 11
+	y = 14
+	icon = "GFX_focus_generic_strike_at_democracy2"
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_fund_dawn_group }
+	prerequisite = { focus = MRO_contact_gabel }
+	prerequisite = { focus = MRO_unite_the_deep_sea_groups }
+	prerequisite = { focus = MRO_support_echainaian_rebels }
+	prerequisite = { focus = MRO_support_illidea_speaking_groups }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#decisions
+	}
+	ai_will_do = {
+	}
+} 
+
+focus 	= {
+	id = MRO_operation_nine_blue_clouds
+	x = 16.5
+	y = 15
+	icon = GFX_goal_pike_production
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_beacon_of_democracy }
+	prerequisite = { focus = MRO_mercenary_realpolitik }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available =	{
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#decisions
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_production_plants_facing_shifton
+	x = 14
+	y = 5
+	icon = GFX_goal_generic_construct_mil_factory
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_mass_produce_factories }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_turn_the_cogs_of_production
+	x = 16
+	y = 5
+	icon = GFX_goal_generic_production2
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_mass_produce_factories OR = MRO_increase_factory_qualities }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		swap_ideas = {
+			add_idea = MRO_mercenary_industrialisation2
+			remove_idea = MRO_mercenary_industrialisation
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_invest_in_arcanic_tools
+	x = 18
+	y = 5
+	icon = GFX_goal_generic_air_production
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_increase_factory_qualities }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_leader_of_the_arbiters
+	x = 21
+	y = 5
+	icon = GFX_goal_help_misaross
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_dunes_of_the_east }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		MRO = { add_political_power = 100 }
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_misaross_older_brother
+	x = 23
+	y = 5
+	icon = GFX_goal_help_cleatport
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_dunes_of_the_east }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		CTP = { add_political_power = 100 }
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_the_forgotten_state
+	x = 25
+	y = 5
+	icon = GFX_goal_help_dinpool
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_dunes_of_the_east }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		DPL = { add_political_power = 100 }
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_in_the_down_under
+	x = 27
+	y = 5
+	icon = GFX_goal_help_illemont
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_dunes_of_the_east }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		IMN = { add_political_power = 100 }
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_treasury_of_the_arbiters
+	x = 30
+	y = 5
+	icon = GFX_goal_help_qohphis
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_fertile_lands_of_the_west }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		QOH = { add_political_power = 100 }
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_farms_farms_farms
+	x = 32
+	y = 5
+	icon = GFX_goal_help_ylecstin
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_fertile_lands_of_the_west }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		YLC = { add_political_power = 100 }
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_jewel_of_the_arbiters
+	x = 34
+	y = 5
+	icon = GFX_goal_help_drecding
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_fertile_lands_of_the_west }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		DED = { add_political_power = 100 }
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+} 
+focus = {
+	id = MRO_enhance_mage_wards
+	x = 1
+	y = 6
+	icon = GFX_goal_triad_magic_group
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_willpower_training }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_buy_echainaian_artillery
+	x = 3
+	y = 6
+	icon = GFX_goal_generic_army_artillery
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_read_artillery_manuals }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#equipment
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus 	= {
+	id = MRO_innovate_rifle_improvements
+	x = 6
+	y = 6
+	icon = GFX_focus_secret_rearmament
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_study_documented_battles }
+	prerequisite = { focus = MRO_standardise_arbiter_guns }
+	prerequisite = { focus = MRO_study_icrusian_battle_tactics }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus 	= {
+	id = MRO_study_support_equipment_models
+	x = 8
+	y = 6
+	icon = GFX_goal_generic_build_tank
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_study_documented_battles }
+	prerequisite = { focus = MRO_standardise_arbiter_guns }
+	prerequisite = { focus = MRO_study_icrusian_battle_tactics }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_ideas = MRO_self_sufficient_firepower
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_build_more_stables
+	x = 11
+	y = 6
+	icon = GFX_goal_generic_construct_civilian
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_overwhelming_speed }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_organise_freedoms_day
+	x = 18
+	y = 13
+	icon = "GFX_goal_support_democracy"
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_influence_airestonian_politics }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#volunteer
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_the_democratic_underground_of_icrusia
+	x = 20
+	y = 13
+	icon = GFX_focus_generic_strike_at_democracy2
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_influence_icrusian_politics }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#volunteer
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_gather_support_in_astrigan
+	x = 22
+	y = 13
+	icon = GFX_goal_generic_forceful_treaty
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_influence_trubian_politics }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#volunteer
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_hand_out_democracy_flyers
+	x = 24
+	y = 13
+	icon = GFX_goal_molotov_ribbentrop_pact
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_influence_echainaian_politics }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#volunteer
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_rain_day_parade
+	x = 26
+	y = 13
+	icon = GFX_goal_generic_alliance
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_influence_illidean_politics }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#volunteer
+	}
+	ai_will_do = {
+	}
+} 	
+ 
+focus = {
+	id = MRO_repurpose_old_factories
+	x = 15
+	y = 6
+	icon = GFX_goal_generic_construct_civilian
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_production_plants_facing_shifton }
+	prerequisite = { focus = MRO_turn_the_cogs_of_production }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available =	{
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 	
+ 
+focus = {
+	id = MRO_arcanic_waste_reduction_modules
+	x = 17
+	y = 6
+	icon = GFX_goal_economic_bubble
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_invest_in_arcanic_tools }
+	prerequisite = { focus = MRO_turn_the_cogs_of_production }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available =	{
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		swap_ideas = {
+			add_idea = MRO_mercenary_industrialisation3
+			remove_idea = MRO_mercenary_industrialisation2
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_upgrade_the_shifton_military_complex
+	x = 21
+	y = 6
+	icon = GFX_goal_generic_construct_civ_factory
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_leader_of_the_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_expand_the_rywey_mines
+	x = 23
+	y = 6
+	icon = GFX_goal_generic_construction2
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_misaross_older_brother }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_build_the_gatesford_factories
+	x = 25
+	y = 6
+	icon = GFX_goal_generic_construct_civilian
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_the_forgotten_state }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_breton_canals
+	x = 27
+	y = 6
+	icon = GFX_goal_generic_construct_mil_factory
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_in_the_down_under }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_open_new_investment_centres
+	x = 30
+	y = 6
+	icon = GFX_goal_increase_military_pay
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_treasury_of_the_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_grow_more_crops
+	x = 32
+	y = 6
+	icon = GFX_goal_grow_wheat_farm
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_farms_farms_farms }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_macking_mines
+	x = 34
+	y = 6
+	icon = GFX_goal_generic_construction2
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_jewel_of_the_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+focus = {
+	id = MRO_promote_mage_abilities
+	x = 1
+	y = 7
+	icon = GFX_goal_generic_demand_territory
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_enhance_mage_wards }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#doctrine
+	}
+	ai_will_do = {
+	}
+} 	
+ 
+focus = {
+	id = MRO_combined_guns
+	x = 4
+	y = 7
+	icon = GFX_goal_raining_shells
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_buy_echainaian_artillery }
+	prerequisite = { focus = MRO_innovate_rifle_improvements OR = MRO_study_support_equipment_models }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_self_sufficient_firepower }
+	available =	{
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_ideas = MRO_combined_guns
+	}
+	ai_will_do = {
+	}
+} 	
+ 
+focus = {
+	id = MRO_self_sufficient_firepower
+	x = 7
+	y = 7
+	icon = GFX_goal_generic_political_pressure
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_innovate_rifle_improvements }
+	prerequisite = { focus = MRO_study_support_equipment_models }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_combined_guns }
+	available =	 {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_train_more_cavalrymen
+	x = 11
+	y = 7
+	icon = GFX_goal_generic_more_territorial_claims
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_build_more_stables }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#doctrine
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus 	= {
+	id = MRO_mercenary_realpolitik
+	x = 22
+	y = 14
+	icon = GFX_goal_generic_improve_relations
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_organise_freedoms_day }
+	prerequisite = { focus = MRO_the_democratic_underground_of_icrusia }
+	prerequisite = { focus = MRO_gather_support_in_astrigan }
+	prerequisite = { focus = MRO_hand_out_democracy_flyers }
+	prerequisite = { focus = MRO_rain_day_parade }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		swap_ideas = {
+			add_idea = MRO_hard_power_superpower2
+			remove_idea = MRO_hard_power_superpower
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_new_production_lines
+	x = 14
+	y = 7
+	icon = GFX_goal_generic_production
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_repurpose_old_factories OR = MRO_arcanic_waste_reduction_modules }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_gift_from_the_blacksmiths
+	x = 16
+	y = 7
+	icon = GFX_focus_generic_industry_2
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_repurpose_old_factories OR = MRO_arcanic_waste_reduction_modules }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_steampunk_magic
+	x = 18
+	y = 7
+	icon = GFX_goal_generic_construction2
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_repurpose_old_factories OR = MRO_arcanic_waste_reduction_modules }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#research
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_renew_leases_on_the_opormouth_industrial_group
+	x = 21
+	y = 7
+	icon = GFX_focus_generic_treaty
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_upgrade_the_shifton_military_complex }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#resources
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_wigtonian_logging_factories
+	x = 23
+	y = 7
+	icon = GFX_focus_generic_industry_1
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_expand_the_rywey_mines }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#resources
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_improve_dinpool_infrastructure
+	x = 25
+	y = 7
+	icon = GFX_goal_generic_construct_infrastructure
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_build_the_gatesford_factories }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#resources
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_build_new_farms
+	x = 27
+	y = 7
+	icon = GFX_goal_grow_wheat_farm
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_breton_canals }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#resources
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_leydon_city_project
+	x = 30
+	y = 7
+	icon = GFX_goal_old_building
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_open_new_investment_centres }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_expand_the_parvino_grain_mills
+	x = 32
+	y = 7
+	icon = GFX_goal_generic_construct_civilian
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_grow_more_crops }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_exploit_guildford_resources
+	x = 34
+	y = 7
+	icon = GFX_focus_generic_self_management
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_macking_mines }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+} 
+focus = {
+	id = MRO_one_wizard_army
+	x = 1
+	y = 8
+	icon = GFX_focus_generic_little_entente
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_promote_mage_abilities }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		swap_ideas = {
+			add_idea = MRO_mage_only_army2
+			remove_idea = MRO_mage_only_army
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_combined_arms
+	x = 6
+	y = 8
+	icon = GFX_goal_generic_special_forces
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_combined_guns OR = MRO_self_sufficient_firepower }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = MRO_combined_guns
+			}
+			swap_ideas = {
+				add_idea = MRO_magically_enhanced_arms_a
+				remove_idea = MRO_combined_guns
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = MRO_self_sufficient_firepower
+			}
+			swap_ideas = {
+				add_idea = MRO_magically_enhanced_arms_b
+				remove_idea = MRO_self_sufficient_firepower
+			}
+		}
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus = {
+	id = MRO_workhorse_of_the_army
+	x = 11
+	y = 8
+	icon = GFX_goal_generic_CAS
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_train_more_cavalrymen }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_ideas = MRO_workhorse_of_the_army
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus 	= {
+	id = MRO_abiter_autarky
+	x = 16
+	y = 8
+	icon = GFX_goal_generic_trade
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_new_production_lines }
+	prerequisite = { focus = MRO_gift_from_the_blacksmiths }
+	prerequisite = { focus = MRO_steampunk_magic }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#decisions
+	}
+	ai_will_do = {
+	}
+} 	
+ 
+focus = {
+	id = MRO_seeing_the_west_eye_to_eye
+	x = 24
+	y = 8
+	icon = GFX_goal_generic_neutrality_focus
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_renew_leases_on_the_opormouth_industrial_group }
+	prerequisite = { focus = MRO_wigtonian_logging_factories }
+	prerequisite = { focus = MRO_improve_dinpool_infrastructure }
+	prerequisite = { focus = MRO_build_new_farms }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available =	{
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_ideas = MRO_centralised_industrialised_powerhouse
+	}
+	ai_will_do = {
+	}
+} 
+ 
+focus 	= {
+	id = MRO_far_beyond_the_eastern_backwater
+	x = 32
+	y = 8
+	icon = GFX_goal_demand_sudetenland
+	#relative_position_id = AST_empower_the_workers
+	prerequisite = { focus = MRO_leydon_city_project }
+	prerequisite = { focus = MRO_expand_the_parvino_grain_mills }
+	prerequisite = { focus = MRO_exploit_guildford_resources }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward =	 {
+		add_ideas = MRO_decentralised_industrialised_powerhouse
+	}
+	ai_will_do = {
+	}
+}
+
+focus = {
+	id = MRO_dreams_of_a_nation
+	x = 45
+	y = 1
+	icon = GFX_goal_dreams_of_a_nation
+	#relative_position_id = AST_empower_the_worker		s		
+
+	
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+mut	ually_exclusive = {focus = MRO_meeting_of_the_council_of_arbiters }
+ 
+available = {
+}
+bypass = {
+}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#event
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_southern_investment
+	x = 39
+	y = 2
+	icon = "GFX_goal_generic_consumer_goods"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_dreams_of_a_nation }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_western_investment }
+	mutually_exclusive = {focus = MRO_northern_investment }
+	mutually_exclusive = {focus = MRO_eastern_investment }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_western_investment
+	x = 43
+	y = 2
+	icon = "GFX_goal_lucrative_plantations"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_dreams_of_a_nation }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_southern_investment }
+	mutually_exclusive = {focus = MRO_northern_investment }
+	mutually_exclusive = {focus = MRO_eastern_investment }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_northern_investment
+	x = 47
+	y = 2
+	icon = "GFX_goal_generic_construction2"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_dreams_of_a_nation }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_southern_investment }
+mut	ually_exclusive = {focus = MRO_western_investment }
+	mutually_exclusive = {focus = MRO_eastern_investment }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_eastern_investment
+	x = 51
+	y = 2
+	icon = "GFX_goal_generic_trade"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_dreams_of_a_nation }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_southern_investment }
+	mutually_exclusive = {focus = MRO_northern_investment }
+	mutually_exclusive = {focus = MRO_western_investment }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_increase_trade_with_illemnont
+	x = 38
+	y = 3
+	icon = "GFX_goal_generic_positive_trade_relations"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_southern_investment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		IMN = { add_political_power = 100 }
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_gifts_for_our_southern_friends
+	x = 40
+	y = 3
+	icon = GFX_goal_help_illemont
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_southern_investment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_expand_ylecstin_farmlands
+	x = 42
+	y = 3
+	icon = "GFX_goal_help_ylecstin"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_western_investment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		YLC = { add_political_power = 100 }
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_raise_qohphis_banks
+	x = 44
+	y = 3
+	icon = "GFX_goal_help_qohphis"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_western_investment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_build_more_mines_in_drecding
+	x = 46
+	y = 3
+	icon = "GFX_goal_help_drecding"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_northern_investment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		DED = { add_political_power = 100 }
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_industrialise_cleatport
+	x = 48
+	y = 3
+	icon = "GFX_goal_help_cleatport"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_northern_investment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_buy_out_dinpool
+	x = 50
+	y = 3
+	icon = "GFX_goal_help_dinpool"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_eastern_investment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		DPL = { add_political_power = 100 }
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_invest_in_dinpool
+	x = 52
+	y = 3
+	icon = "GFX_goal_pay_out_military"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_eastern_investment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		#buildings
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_assist_the_south
+	x = 39
+	y = 4
+	icon = "GFX_goal_generic_major_alliance"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_increase_trade_with_illemnont }
+	prerequisite = { focus = MRO_gifts_for_our_southern_friends }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_reconcile_the_west
+	x = 43
+	y = 4
+	icon = "GFX_goal_generic_alliance"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_expand_ylecstin_farmlands }
+	prerequisite = { focus = MRO_raise_qohphis_banks }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_connect_the_north
+	x = 47
+	y = 4
+	icon = "GFX_goal_tripartite_pact"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_build_more_mines_in_drecding }
+	prerequisite = { focus = MRO_industrialise_cleatport }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_leave_no_arbiter_behind
+	x = 51
+	y = 4
+	icon = "GFX_goal_generic_national_unity"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_invest_in_dinpool }
+	prerequisite = { focus = MRO_buy_out_dinpool }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_form_the_arbiter_development_union
+	x = 45
+	y = 5
+	icon = "GFX_goal_generic_neutrality_focus"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_assist_the_south OR = MRO_reconcile_the_west }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall OR = MRO_connect_the_north OR = MRO_leave_no_arbiter_behind }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_reinstate_the_arbiter_magic_group
+	x = 41
+	y = 6
+	icon = "GFX_goal_generic_war_with_comintern"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_form_the_arbiter_development_union }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_adu_economic_projects
+	x = 44
+	y = 6
+	icon = "GFX_goal_economic_bubble"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_form_the_arbiter_development_union }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_adu_road_projects
+	x = 47
+	y = 6
+	icon = "GFX_goal_ring_road"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_form_the_arbiter_development_union }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_adu_industrial_projects
+	x = 50
+	y = 6
+	icon = "GFX_focus_generic_industry_1"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_form_the_arbiter_development_union }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_cross_arbiter_training_plans
+	x = 40
+	y = 7
+	icon = "GFX_goal_generic_army_doctrines"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_reinstate_the_arbiter_magic_group }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_build_cross_arbiter_camps
+	x = 42
+	y = 7
+	icon = "GFX_focus_generic_military_academy"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_reinstate_the_arbiter_magic_group }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_establish_the_common_arbiter_fund
+	x = 44
+	y = 7
+	icon = "GFX_goal_increase_military_pay"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_adu_economic_projects }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_adu_eastern_road_focus
+	x = 46
+	y = 7
+	icon = "GFX_goal_generic_construct_infrastructure"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_adu_road_projects }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_adu_western_road_focus
+	x = 48
+	y = 7
+	icon = "GFX_goal_generic_construct_infrastructure"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_adu_road_projects }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_adu_central_bank
+	x = 50
+	y = 7
+	icon = "GFX_focus_generic_self_management"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_adu_industrial_projects }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_collaborate_on_magic_projects
+	x = 41
+	y = 8
+	icon = "GFX_goal_enhanced_magic"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_cross_arbiter_training_plans }
+	prerequisite = { focus = MRO_build_cross_arbiter_camps }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_adu_bail_out_programmes
+	x = 44
+	y = 8
+	icon = "GFX_goal_increase_budget"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_establish_the_common_arbiter_fund }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_trans-arbiters_roads
+	x = 47
+	y = 8
+	icon = GFX_goal_trans_arbiters_roads
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_adu_western_road_focus }
+	prerequisite = { focus = MRO_adu_eastern_road_focus }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_adu_investment_funds
+	x = 50
+	y = 8
+	icon = "GFX_goal_lucrative_plantations"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_adu_central_bank }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_send_out_the_national_charter
+	x = 45
+	y = 10
+	icon = "GFX_focus_generic_treaty"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_write_a_unity_constituition }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_write_a_unity_constituition
+	x = 45
+	y = 9
+	icon = "GFX_goal_generic_national_unity"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_collaborate_on_magic_projects }
+	prerequisite = { focus = MRO_adu_bail_out_programmes OR = MRO_trans-arbiters_roads OR = MRO_adu_investment_funds }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_war_plans_for_misaross
+	x = 45
+	y = 11
+	icon = "GFX_goal_generic_forceful_treaty"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_send_out_the_national_charter }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_enforce_war_economy
+	x = 43
+	y = 12
+	icon = GFX_goal_expand_sword_factories
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_war_plans_for_misaross }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_emergency_temporary_factories
+	x = 45
+	y = 12
+	icon = GFX_goal_slitting_mills
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_war_plans_for_misaross }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_centralise_production
+	x = 47
+	y = 12
+	icon = "GFX_focus_generic_industry_2"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_war_plans_for_misaross }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_transition_to_weapons_production
+	x = 44
+	y = 13
+	icon = GFX_goal_more_blast_furnaces.psd
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_enforce_war_economy }
+	prerequisite = { focus = MRO_emergency_temporary_factories }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_declare_marshal_law
+	x = 46
+	y = 13
+	icon = "GFX_focus_renounce_the_treaty_of_trianon"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_centralise_production }
+	prerequisite = { focus = MRO_emergency_temporary_factories }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_strongest_house_in_the_arbiters
+	x = 45
+	y = 14
+	icon = "GFX_goal_generic_political_pressure"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_transition_to_weapons_production }
+	prerequisite = { focus = MRO_declare_marshal_law }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_end_of_the_unification_war
+	x = 45
+	y = 15
+	icon = "GFX_goal_generic_dangerous_deal"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_strongest_house_in_the_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_state_of_the_militia
+	x = 40
+	y = 16
+	icon = "GFX_focus_generic_military_mission"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_end_of_the_unification_war }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_new_national_strength_budget
+	x = 50
+	y = 16
+	icon = "GFX_goal_generic_forceful_treaty"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_end_of_the_unification_war }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_old_military_order
+	x = 37
+	y = 17
+	icon = "GFX_goal_demand_sudetenland"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_state_of_the_militia }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_diversify_to_new_ideas }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_diversify_to_new_ideas
+	x = 42
+	y = 17
+	icon = "GFX_focus_generic_military_academy"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_state_of_the_militia }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	mutually_exclusive = {focus = MRO_old_military_order }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_rebuild_the_west
+	x = 48
+	y = 17
+	icon = "GFX_focus_generic_industry_3"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_new_national_strength_budget }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_rebuild_the_east
+	x = 52
+	y = 17
+	icon = "GFX_goal_generic_production2"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_new_national_strength_budget }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_reorganise_mage_sections
+	x = 37
+	y = 18
+	icon = GFX_goal_understand_void_strength
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_old_military_order }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_explore_artillery_designs
+	x = 40
+	y = 18
+	icon = "GFX_goal_generic_army_artillery2"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_diversify_to_new_ideas }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_raise_a_national_army
+	x = 42
+	y = 18
+	icon = "GFX_focus_generic_little_entente"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_diversify_to_new_ideas }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_first_cavalries_of_the_arbiters
+	x = 44
+	y = 18
+	icon = "GFX_goal_generic_cavalry"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_diversify_to_new_ideas }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_conserve_integral_farmlands
+	x = 47
+	y = 18
+	icon = "GFX_goal_grow_wheat_farm"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_rebuild_the_west }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_subsidies_for_the_banks
+	x = 49
+	y = 18
+	icon = GFX_focus_generic_self_management
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_rebuild_the_west }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_secrets_of_dinpool
+	x = 51
+	y = 18
+	icon = GFX_goal_reinforce_mines
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_rebuild_the_east }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_cleatport_ripe_for_factories
+	x = 53
+	y = 18
+	icon = "GFX_goal_generic_construct_civ_factory"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_rebuild_the_east }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+focus 	= {
+	id = MRO_cross_magical_squads
+	x = 37
+	y = 19
+	icon = "GFX_goal_triad_magic_group"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_reorganise_mage_sections }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_all_terrain_artillery
+	x = 40
+	y = 19
+	icon = "GFX_goal_generic_army_artillery"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_explore_artillery_designs }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_study_modern_infantry_equipment
+	x = 42
+	y = 19
+	icon = "GFX_goal_generic_small_arms"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_raise_a_national_army }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_employ_explosive_lancers
+	x = 44
+	y = 19
+	icon = GFX_goal_lancer
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_first_cavalries_of_the_arbiters }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_exploit_logging_benefits
+	x = 47
+	y = 19
+	icon = GFX_goal_lax_logging_laws
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_conserve_integral_farmlands }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_worker_benefits_plans
+	x = 49
+	y = 19
+	icon = "GFX_focus_eng_concessions_to_the_trade_unions"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_subsidies_for_the_banks }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_strongarm_dinpool_exports
+	x = 51
+	y = 19
+	icon = GFX_goal_coal_factories
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_secrets_of_dinpool }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_redistribute_industrial_development_grants
+	x = 53
+	y = 19
+	icon = GFX_goal_economic_bubble
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_cleatport_ripe_for_factories }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+focus 	= {
+	id = MRO_human_warheads
+	x = 37
+	y = 20
+	icon = "GFX_focus_wonderweapons"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_cross_magical_squads }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_arcanic_shells
+	x = 40
+	y = 20
+	icon = "GFX_goal_raining_shells"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_all_terrain_artillery }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_combinational_arcanic_equipment_designs
+	x = 42
+	y = 20
+	icon = GFX_goal_fireball
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_study_modern_infantry_equipment }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_magical_horsemen_of_the_night
+	x = 44
+	y = 20
+	icon = "GFX_goal_generic_CAS"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_employ_explosive_lancers }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_striking_gold_in_the_west
+	x = 48
+	y = 20
+	icon = "GFX_focus_usa_reestablish_the_gold_standard"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_exploit_logging_benefits }
+	prerequisite = { focus = MRO_worker_benefits_plans }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_fully_unleash_eastern_potential
+	x = 52
+	y = 20
+	icon = GFX_goal_grain_mills
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_strongarm_dinpool_exports }
+	prerequisite = { focus = MRO_redistribute_industrial_development_grants }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_grand_militant_state
+	x = 40
+	y = 21
+	icon = GFX_goal_gunworks
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_human_warheads OR = MRO_arcanic_shells OR = MRO_combinational_arcanic_equipment_designs OR = MRO_magical_horsemen_of_the_night }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_stronger_as_one
+	x = 50
+	y = 21
+	icon = "GFX_focus_generic_support_the_left_right"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_striking_gold_in_the_west OR = MRO_fully_unleash_eastern_potential }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_on_the_homefront
+	x = 45
+	y = 22
+	icon = "GFX_goal_generic_defence"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_grand_militant_state }
+	prerequisite = { focus = MRO_stronger_as_one }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_paint_our_enemies_in_black
+	x = 43
+	y = 23
+	icon = "GFX_goal_generic_major_war"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_on_the_homefront }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_proclaim_freedom_declaration
+	x = 45
+	y = 23
+	icon = "GFX_goal_generic_territory_or_war"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_on_the_homefront }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_provoke_neighbouring_countries
+	x = 47
+	y = 23
+	icon = "GFX_goal_generic_more_territorial_claims"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_on_the_homefront }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_modern_war_plans
+	x = 42
+	y = 24
+	icon = "GFX_goal_generic_occupy_states_ongoing_war"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_paint_our_enemies_in_black }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_crude_diplomacy
+	x = 44
+	y = 24
+	icon = "GFX_goal_generic_military_deal"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_paint_our_enemies_in_black }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_reinvigorate_public_morale
+	x = 46
+	y = 24
+	icon = "GFX_goal_generic_propaganda"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_provoke_neighbouring_countries }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
+}
+
+focus 	= {
+	id = MRO_gray_monday_parade
+	x = 48
+	y = 24
+	icon = "GFX_focus_rom_parties_end"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_provoke_neighbouring_countries }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
+	
+	available = {
+	}
+	bypass = {
+	}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 	100
+	}
+	ai_will_do = {
+	}
+}
+
+focus = {
+	id = MRO_mercenaries_no_more
+	x = 45
+	y = 25
+	icon = "GFX_focus_generic_strike_at_democracy1"
+	#relative_position_id = AST_empower_the_workers
+ 
+	prerequisite = { focus = MRO_modern_war_plans OR = MRO_crude_diplomacy }
+	prerequisite = { focus = MRO_proclaim_freedom_declaration }
+	prerequisite = { focus = MRO_reinvigorate_public_morale OR = MRO_gray_monday_parade	 							}					
+
+#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+#mutually_exclusive = {focus = GOZ_economy_above_all }
+ 
+available = {
+}
+bypass = {
+}
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 100
+	}
+	ai_will_do = {
+	}
 }
 
 }
