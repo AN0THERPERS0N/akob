@@ -97,9 +97,41 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.15
-				army_defence_factor = 0.1
-				army_org_factor = 0.1
+				army_attack_factor = 1
+				army_defence_factor = 1
+				army_org_factor = 1.5
+				justify_war_goal_time = 2
+
+				send_volunteer_divisions_required = -1
+				send_volunteers_tension = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_nation_of_mercenaries2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 2
+				army_defence_factor = 1.5
+				army_org_factor = 2
 				justify_war_goal_time = 2
 
 				send_volunteer_divisions_required = -1
@@ -779,6 +811,313 @@ ideas = {
 				army_attack_factor = 0.2
 				breakthrough_factor = 0.2
 				army_org_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#war misaross
+
+		MRO_arbiter_war_economy = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor = 0.3
+				industrial_capacity_factory = 0.2
+				industry_repair_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_united_arbiter_economy = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor = 0.4
+				industrial_capacity_factory = 0.3
+				industry_repair_factor = 0.35
+				line_change_production_efficiency_factor = 0.35
+
+				production_factory_start_efficiency_factor = 0.5 
+				production_factory_max_efficiency_factor = 0.5 
+				production_factory_efficiency_gain_factor = 0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_marshal_law = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				max_surrender_limit_offset = 0.3
+				political_power_gain = -0.25
+				stability_weekly = 0.05
+				fascism_drift = 0.05
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_final_stand = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.5
+				army_defence_factor = 0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_arbiter_civil_war = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.5
+				political_power_gain = -0.5
+				trade_opinion_factor = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_western_banks = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				trade_opinion_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_western_banks2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = MRO
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 1
+				trade_opinion_factor = 0.6
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_black_hand_of_the_arbiters = {
+			picture = not_a_country
+			
+			allowed = {
+				has_stability > -1
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_war_mongers_of_ambulas = {
+			picture = not_a_country
+			
+			allowed = {
+				has_stability > -1
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_war_mongers_of_ambulas2 = {
+			picture = not_a_country
+			
+			allowed = {
+				has_stability > -1
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				justify_war_goal_time = -0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		MRO_war_mongers_of_ambulas3 = {
+			picture = not_a_country
+			
+			allowed = {
+				has_stability > -1
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				justify_war_goal_time = -1
 			}
 
 			cancel = {

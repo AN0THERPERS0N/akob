@@ -3421,7 +3421,7 @@ focus 	= {
 	icon = "GFX_focus_generic_treaty"
 	#relative_position_id = AST_empower_the_workers
  
-	prerequisite = { focus = MRO_write_a_unity_constituition }
+	prerequisite = { focus = MRO_write_a_constituition }
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
 	
@@ -3434,14 +3434,14 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#event
 	}
 	ai_will_do = {
 	}
 }
 
 focus 	= {
-	id = MRO_write_a_unity_constituition
+	id = MRO_write_a_constituition
 	x = 45
 	y = 9
 	icon = "GFX_goal_generic_national_unity"
@@ -3461,7 +3461,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#event
 	}
 	ai_will_do = {
 	}
@@ -3487,7 +3487,8 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		army_experience = 50
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -3513,7 +3514,11 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		add_ideas = war_economy
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
 	}
 	ai_will_do = {
 	}
@@ -3539,7 +3544,11 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
 	}
 	ai_will_do = {
 	}
@@ -3565,7 +3574,11 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
 	}
 	ai_will_do = {
 	}
@@ -3592,7 +3605,11 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		add_ideas = MRO_arbiter_war_economy
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
 	}
 	ai_will_do = {
 	}
@@ -3620,6 +3637,11 @@ focus 	= {
 	available_if_capitulated = no
 	completion_reward = {
 		add_political_power = 100
+		add_ideas = MRO_marshal_law
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
 	}
 	ai_will_do = {
 	}
@@ -3646,7 +3668,11 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		add_ideas = MRO_final_stand
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.15
+		}
 	}
 	ai_will_do = {
 	}
@@ -3672,7 +3698,10 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		remove_ideas = MRO_final_stand
+		remove_ideas = MRO_arbiter_war_economy
+		remove_ideas = MRO_marshal_law
+		remove_ideas = MRO_arbiter_civil_war
 	}
 	ai_will_do = {
 	}
@@ -3698,7 +3727,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		army_experience = 100
 	}
 	ai_will_do = {
 	}
@@ -3724,6 +3753,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		#research
 		add_political_power = 100
 	}
 	ai_will_do = {
@@ -3750,7 +3780,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -3776,6 +3806,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		#doctrine
 		add_political_power = 100
 	}
 	ai_will_do = {
@@ -3802,7 +3833,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -3828,7 +3859,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -3854,7 +3885,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -3880,7 +3911,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -3906,7 +3937,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -3932,7 +3963,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -3958,7 +3989,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -3984,7 +4015,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		add_ideas = MRO_western_banks
 	}
 	ai_will_do = {
 	}
@@ -4010,7 +4041,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#resources
 	}
 	ai_will_do = {
 	}
@@ -4036,7 +4067,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -4061,7 +4092,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4087,7 +4118,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4113,7 +4144,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4139,7 +4170,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4165,7 +4196,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -4191,7 +4222,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4217,7 +4248,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -4243,7 +4274,8 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4268,7 +4300,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4294,7 +4326,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4320,7 +4352,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4346,7 +4378,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#research
 	}
 	ai_will_do = {
 	}
@@ -4373,7 +4405,11 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
+		swap_ideas = {
+			add_idea = MRO_western_banks2
+			remove_idea = MRO_western_banks
+		}
 	}
 	ai_will_do = {
 	}
@@ -4400,7 +4436,8 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#buildings
+		add_ideas = MRO_united_arbiter_economy
 	}
 	ai_will_do = {
 	}
@@ -4426,7 +4463,10 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		swap_ideas = {
+			add_idea = MRO_nation_of_mercenaries2
+			remove_idea = MRO_nation_of_mercenaries
+		}
 	}
 	ai_will_do = {
 	}
@@ -4452,7 +4492,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#decisions
 	}
 	ai_will_do = {
 	}
@@ -4479,7 +4519,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#event
 	}
 	ai_will_do = {
 	}
@@ -4506,6 +4546,12 @@ focus 	= {
 	available_if_capitulated = no
 	completion_reward = {
 		add_political_power = 100
+		every_country = {
+			limit = {
+				has_stability > 70
+			}
+			add_ideas = MRO_black_hand_of_the_arbiters
+		}
 	}
 	ai_will_do = {
 	}
@@ -4531,7 +4577,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#event
 	}
 	ai_will_do = {
 	}
@@ -4557,7 +4603,8 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#decisions
+		add_ideas = MRO_war_mongers_of_ambulas
 	}
 	ai_will_do = {
 	}
@@ -4583,7 +4630,8 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		#doctrine
+		#general
 	}
 	ai_will_do = {
 	}
@@ -4609,7 +4657,9 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		#relations
 		add_political_power = 100
+		add_war_support = 10
 	}
 	ai_will_do = {
 	}
@@ -4635,7 +4685,11 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		add_war_support = 25
+		swap_ideas = {
+			add_idea = MRO_war_mongers_of_ambulas2
+			remove_idea = MRO_war_mongers_of_ambulas
+		}
 	}
 	ai_will_do = {
 	}
@@ -4678,19 +4732,22 @@ focus = {
 	prerequisite = { focus = MRO_proclaim_freedom_declaration }
 	prerequisite = { focus = MRO_reinvigorate_public_morale OR = MRO_gray_monday_parade	 							}					
 
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
+	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
+	#mutually_exclusive = {focus = GOZ_economy_above_all }
  
-available = {
-}
-bypass = {
-}
+	available = {
+	}
+	bypass = {
+	}
 	cost = 10
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_political_power = 100
+		swap_ideas = {
+			add_idea = MRO_war_mongers_of_ambulas3
+			remove_idea = MRO_war_mongers_of_ambulas2
+		}
 	}
 	ai_will_do = {
 	}
