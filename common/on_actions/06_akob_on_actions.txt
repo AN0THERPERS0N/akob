@@ -137,4 +137,16 @@ on_actions = {
 		}
 	}
 
+	on_civil_war_end = { 
+		effect = {
+			for_each_scope_loop = {
+				array = ICR_civil_war_ideas
+				
+				remove_ideas = THIS.id
+			}
+			set_variable = { var:helpme = 1 }
+			remove_ideas = var:helpme
+		} 
+	}
+
 }
