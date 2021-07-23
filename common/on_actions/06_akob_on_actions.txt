@@ -101,16 +101,18 @@ on_actions = {
 
 	on_capitulation = { 
 		effect = {
-			limit = {
-				ROOT = {
-					has_volunteers_amount_from = {
-						tag = MRO
-						count > 1
+			if = {
+				limit = {
+					ROOT = {
+						has_volunteers_amount_from = {
+							tag = MRO
+							count > 1
+						}
 					}
 				}
+				clr_country_flag = MRO_productive_mercenaries
+				set_country_flag = MRO_restless_mercenaries
 			}
-			clr_country_flag = MRO_productive_mercenaries
-			set_country_flag = MRO_restless_mercenaries
 		} 
 	}
 
@@ -139,14 +141,13 @@ on_actions = {
 
 	on_civil_war_end = { 
 		effect = {
-			for_each_scope_loop = {
-				array = ICR_civil_war_ideas
-				
-				remove_ideas = THIS.id
+			if = {
+				limit = {
+					TAG = ICR
+				}
+				set_country_flag = ICR_civil_war_end
 			}
-			set_variable = { var:helpme = 1 }
-			remove_ideas = var:helpme
-		} 
+		}
 	}
 
 }

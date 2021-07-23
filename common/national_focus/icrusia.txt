@@ -1895,6 +1895,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	#event
+	set_country_flag = ICR_civil_war_end
 }
 ai_will_do = {
 }
@@ -2063,7 +2064,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_political_power = 100
 }
 ai_will_do = {
 }
@@ -2087,7 +2088,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_timed_idea = {
+		idea = ICR_rebuilding_the_nation
+		days = 365
+	}
 }
 ai_will_do = {
 }
@@ -2111,7 +2115,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_timed_idea = {
+		idea = ICR_restart_the_economy
+		days = 365
+	}
 }
 ai_will_do = {
 }
@@ -2135,7 +2142,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_political_power = -100
+	add_manpower = 10000
 }
 ai_will_do = {
 }
@@ -2159,7 +2167,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_political_power = -50
+	add_stability = 0.1
 }
 ai_will_do = {
 }
@@ -2207,7 +2216,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	set_variable = { ICR_resource_increase = 0.2 }
+	add_dynamic_modifier = {
+		modifier = ICR_natural_wealth_of_central_ambulas
+	}
 }
 ai_will_do = {
 }
@@ -2231,7 +2243,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -2255,7 +2267,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_political_power = -50
+	add_stability = 0.1
 }
 ai_will_do = {
 }
@@ -2279,7 +2292,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#decisions
 }
 ai_will_do = {
 }
@@ -2303,7 +2316,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_political_power = -50
+	add_timed_idea = {
+		idea = ICR_reunite_the_common_folk
+		days = 180
+	}
 }
 ai_will_do = {
 }
@@ -2375,7 +2392,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -2399,7 +2416,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -2423,7 +2440,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -2447,7 +2464,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	swap_ideas = {
+		add_idea = ICR_restart_the_economy2
+		remove_idea = ICR_restart_the_economy
+	}
 }
 ai_will_do = {
 }
@@ -2471,7 +2491,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -2495,7 +2515,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#generals
 }
 ai_will_do = {
 }
@@ -2519,7 +2539,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_political_power = 50
+	add_stability = 0.1
 }
 ai_will_do = {
 }
@@ -2543,7 +2564,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_political_power = 50
+	add_stability = 0.1
 }
 ai_will_do = {
 }
@@ -2567,7 +2589,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#event
 }
 ai_will_do = {
 }
@@ -2735,7 +2757,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -2759,7 +2781,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -2783,7 +2805,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -2807,7 +2829,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -2831,7 +2853,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -2855,7 +2877,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_ideas = ICR_military_industrial_complex
 }
 ai_will_do = {
 }
@@ -2879,7 +2901,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -2903,7 +2925,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -2927,7 +2949,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#event
 }
 ai_will_do = {
 }
@@ -3153,7 +3175,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3178,7 +3200,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -3202,7 +3224,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3226,7 +3248,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -3250,7 +3272,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3274,7 +3296,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_ideas = ICR_icrusian_industrial_powerhouse
 }
 ai_will_do = {
 }
@@ -3298,7 +3320,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3322,7 +3344,8 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
+	add_political_power = -50
 }
 ai_will_do = {
 }
@@ -3591,7 +3614,13 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_to_variable = { ICR_resource_increase = 0.2 }
+	if = {
+		limit = {
+			has_idea = ICR_broken_economy
+		}
+		remove_ideas = ICR_broken_economy
+	}
 }
 ai_will_do = {
 }
@@ -3615,7 +3644,13 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
+	if = {
+		limit = {
+			has_idea = ICR_broken_economy
+		}
+		remove_ideas = ICR_broken_economy
+	}
 }
 ai_will_do = {
 }
@@ -3639,7 +3674,13 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_to_variable = { ICR_resource_increase = 0.2 }
+	if = {
+		limit = {
+			has_idea = ICR_broken_economy
+		}
+		remove_ideas = ICR_broken_economy
+	}
 }
 ai_will_do = {
 }
@@ -3663,7 +3704,13 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
+	if = {
+		limit = {
+			has_idea = ICR_broken_economy
+		}
+		remove_ideas = ICR_broken_economy
+	}
 }
 ai_will_do = {
 }
@@ -3687,7 +3734,13 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_to_variable = { ICR_resource_increase = 0.2 }
+	if = {
+		limit = {
+			has_idea = ICR_broken_economy
+		}
+		remove_ideas = ICR_broken_economy
+	}
 }
 ai_will_do = {
 }
@@ -3711,7 +3764,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3735,7 +3788,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3759,7 +3812,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3783,7 +3836,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3808,7 +3861,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	remove_ideas = ICR_unpaid_military_grunts
 }
 ai_will_do = {
 }
@@ -3932,7 +3985,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -3956,7 +4009,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	swap_ideas = {
+		add_idea = ICR_military_industrial_complex2
+		remove_idea = ICR_military_industrial_complex
+	}
 }
 ai_will_do = {
 }
@@ -3980,7 +4036,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -4004,7 +4060,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -4052,7 +4108,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4076,7 +4132,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4101,7 +4157,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4126,7 +4182,10 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	swap_ideas = {
+		add_idea = ICR_icrusian_industrial_powerhouse2
+		remove_idea = ICR_icrusian_industrial_powerhouse
+	}
 }
 ai_will_do = {
 }
@@ -4175,7 +4234,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4199,7 +4258,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4223,7 +4282,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4247,7 +4306,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4271,7 +4330,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -4295,7 +4354,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -4319,7 +4378,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -4343,7 +4402,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -4416,7 +4475,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4440,7 +4499,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#resources
 }
 ai_will_do = {
 }
@@ -4464,7 +4523,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	#buildings
 }
 ai_will_do = {
 }
@@ -4488,7 +4547,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	swap_ideas = {
+		add_idea = ICR_military_industrial_complex3
+		remove_idea = ICR_military_industrial_complex2
+	}
+	remove_ideas = ICR_broken_economy
 }
 ai_will_do = {
 }
@@ -4513,7 +4576,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	swap_ideas = {
+		add_idea = ICR_icrusian_industrial_powerhouse3
+		remove_idea = ICR_icrusian_industrial_powerhouse2
+	}
+	remove_ideas = ICR_broken_economy
 }
 ai_will_do = {
 }
@@ -4633,7 +4700,13 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_to_variable = { ICR_resource_increase = 0.2 }
+	if = {
+		limit = {
+			has_idea = ICR_broken_economy
+		}
+		remove_ideas = ICR_broken_economy
+	}
 }
 ai_will_do = {
 }
@@ -4658,7 +4731,13 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	
+	add_to_variable = { ICR_resource_increase = 0.2 }
+	if = {
+		limit = {
+			has_idea = ICR_broken_economy
+		}
+		remove_ideas = ICR_broken_economy
+	}
 }
 ai_will_do = {
 }

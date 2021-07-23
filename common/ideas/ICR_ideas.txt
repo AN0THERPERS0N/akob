@@ -29,7 +29,131 @@ ideas = {
 			}
 
 			cancel = {
+			
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_finest_military_in_all_of_ambulas = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_core_defence_factor = 0.25
+				army_morale_factor = 0.2
+				army_org_factor = 0.2
+				army_org_regain = 0.25
+				breakthrough_factor = 0.2
+				army_speed_factor = 0.25
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_unpaid_military_grunts = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.2
+
+				training_time_army_factor = 0.2
+				minimum_training_level = 0.2
+				weekly_manpower = -5000 
+
+				army_morale_factor = -0.1
+				army_org_factor = -0.15
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_fractured_nation = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.25
+				monthly_population = -0.2
+
+				communism_drift = 0.01
+				democratic_drift = 0.01
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_broken_economy = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = -0.15
+				industry_repair_factor = -0.1
+			}
+
+			cancel = {
+			
 			}
 
 			allowed_civil_war = {
@@ -60,7 +184,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_blessings_from_the_grand_order
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -89,7 +217,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_blessings_from_the_grand_order2
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -120,7 +252,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_scorched_earth_policy
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -150,7 +286,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_the_second_horsemen_of_the_apocalypse
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -182,7 +322,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_the_second_horsemen_of_the_apocalypse2
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -210,7 +354,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_decisive_battle_policy
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -238,7 +386,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_decisive_battle_policy2
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -266,7 +418,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_decisive_battle_policy3
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -293,7 +449,11 @@ ideas = {
 			}
 
 			cancel = {
-
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_thorns_of_the_empire
+				}
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -318,6 +478,311 @@ ideas = {
 				land_night_attack = 0.1
 				recon_factor = 0.15
 				breakthrough_factor = 0.1
+			}
+
+			cancel = {
+				is_in_array = {
+					array = ICR_civil_war_ideas
+					value =	ICR_youth_sharpshooters
+				}
+				has_country_flag = ICR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#economic tree
+
+		ICR_restart_the_economy = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industry_repair_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				political_power_gain = 0.25
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_restart_the_economy2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industry_repair_factor = 0.25
+				production_speed_buildings_factor = 0.25
+				industrial_capacity_factory = 0.2
+				political_power_gain = 0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_military_industrial_complex = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+				conversion_cost_civ_to_mil_factor = 0.35
+				line_change_production_efficiency_factor = 0.25
+
+				production_factory_start_efficiency_factor = 0.2 
+				production_factory_max_efficiency_factor = 0.2 
+				production_factory_efficiency_gain_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_military_industrial_complex2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.4
+				conversion_cost_civ_to_mil_factor = 0.5
+				line_change_production_efficiency_factor = 0.35
+
+				production_factory_start_efficiency_factor = 0.30
+				production_factory_max_efficiency_factor = 0.35
+				production_factory_efficiency_gain_factor = 0.35
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_military_industrial_complex3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.6
+				conversion_cost_civ_to_mil_factor = 0.75
+				line_change_production_efficiency_factor = 0.5
+
+				production_factory_start_efficiency_factor = 0.35
+				production_factory_max_efficiency_factor = 0.5
+				production_factory_efficiency_gain_factor = 0.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_icrusian_industrial_powerhouse = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conversion_cost_mil_to_civ_factor = 0.25
+				industry_repair_factor = 0.3
+				industry_free_repair_factor = 0.3
+				production_speed_buildings_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_icrusian_industrial_powerhouse2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conversion_cost_mil_to_civ_factor = 0.5
+				industry_repair_factor = 0.45
+				industry_free_repair_factor = 0.5
+				production_speed_buildings_factor = 0.45
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_icrusian_industrial_powerhouse3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conversion_cost_mil_to_civ_factor = 0.75
+				industry_repair_factor = 0.65
+				industry_free_repair_factor = 0.7
+				production_speed_buildings_factor = 0.65
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#political tree
+
+		ICR_rebuilding_the_nation = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				war_support_weekly = -0.005
+				stability_weekly = 0.01
+				political_power_gain = 0.25
+				fascism_drift = 0.01
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_reunite_the_common_folk = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_weekly = 0.01
+				political_power_gain = 0.3
 			}
 
 			cancel = {

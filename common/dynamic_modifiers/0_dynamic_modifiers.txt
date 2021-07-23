@@ -109,3 +109,13 @@ large_efror_minority = {
 	production_factory_start_efficiency_factor = var:TRB.trb_efror_citizenship 
 	production_lack_of_resource_penalty_factor = var:TRB.trb_efror_citizenship
 }
+
+#ICR
+
+ICR_natural_wealth_of_central_ambulas = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+
+	local_resources_factor = var:ICR.ICR_resource_increase
+	political_power_gain = var:ICR.ICR_resource_increase
+}
