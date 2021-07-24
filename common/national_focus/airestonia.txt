@@ -351,7 +351,7 @@ focus_tree = {
 
 		completion_reward = {
 			#forts
-			political_power_gain = 0.5
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -662,8 +662,8 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_ideas = ARS_decree2
-				remove_ideas = ARS_decree1
+				add_idea = ARS_decree2
+				remove_idea = ARS_decree1
 			}
 			add_political_power = -50
 			add_stability = -0.2
@@ -698,8 +698,8 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_ideas = ARS_decree2
-				remove_ideas = ARS_decree1
+				add_idea = ARS_decree2
+				remove_idea = ARS_decree1
 			}
 			add_political_power = -100
 		}
@@ -799,8 +799,8 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 200
 			swap_ideas = {
-				add_ideas = ARS_communist_sentiments2
-				remove_ideas = ARS_communist_sentiments
+				add_idea = ARS_communist_sentiments2
+				remove_idea = ARS_communist_sentiments
 			}
 		}
 
@@ -832,10 +832,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 200
-			political_power_gain = 1
 			swap_ideas = {
-				add_ideas = ARS_communist_sentiments3
-				remove_ideas = ARS_communist_sentiments2
+				add_idea = ARS_communist_sentiments3
+				remove_idea = ARS_communist_sentiments2
 			}
 		}
 
@@ -902,9 +901,9 @@ focus_tree = {
 			if = {
 				limit = { 
 					tag = ARS 
-					ARS = { has_ideas = ARS_amaris_decree3 }
+					ARS = { has_idea = ARS_amaris_decree3 }
 				}
-				remove_idea = ARS_amaris_decree3
+				remove_ideas = ARS_amaris_decree3
 			}
 			add_stability = 0.5
 			add_war_support = -0.2
@@ -972,8 +971,8 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_ideas = ARS_an_icrusian_plot2
-				remove_ideas = ARS_an_icrusian_plot
+				add_idea = ARS_an_icrusian_plot2
+				remove_idea = ARS_an_icrusian_plot
 			}
 		}
 
@@ -1341,7 +1340,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			remove_idea = ARS_an_icrusian_plot
+			remove_ideas = ARS_an_icrusian_plot
 			#buildings
 		}
 
@@ -2205,8 +2204,8 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_ideas = ARS_pax_airestonia2
-				remove_ideas = ARS_pax_airestonia
+				add_idea = ARS_pax_airestonia2
+				remove_idea = ARS_pax_airestonia
 			}
 		}
 

@@ -316,7 +316,7 @@ completion_reward = {
 		popularity = 0.05
 	}
 	add_popularity = {
-		ideology = democracy
+		ideology = democratic
 		popularity = 0.05
 	}
 }
@@ -1287,7 +1287,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	add_idea = ECH_icrusian_echainaian_alliance
+	add_ideas = ECH_icrusian_echainaian_alliance
 }
 ai_will_do = {
 }

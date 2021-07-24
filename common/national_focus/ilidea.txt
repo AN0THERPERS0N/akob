@@ -518,7 +518,7 @@ focus_tree = {
 		prerequisite = { focus = ILD_build_trust_with_the_people OR = ILD_increase_representatives }
 		mutually_exclusive = {focus = ILD_establish_a_constituitional_monarchy }
 		available = {
-			democratic = 1
+			democratic > 0.99
 		}
 
 		bypass = {

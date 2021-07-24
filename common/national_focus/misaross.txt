@@ -2398,7 +2398,7 @@ focus = {
 
 	
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-mut	ually_exclusive = {focus = MRO_meeting_of_the_council_of_arbiters }
+mutually_exclusive = {focus = MRO_meeting_of_the_council_of_arbiters }
  
 available = {
 }
@@ -2487,7 +2487,7 @@ focus 	= {
 	prerequisite = { focus = MRO_dreams_of_a_nation }
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	mutually_exclusive = {focus = MRO_southern_investment }
-mut	ually_exclusive = {focus = MRO_western_investment }
+mutually_exclusive = {focus = MRO_western_investment }
 	mutually_exclusive = {focus = MRO_eastern_investment }
 	
 	available = {

@@ -163,6 +163,32 @@ ideas = {
 			removal_cost = -1
 		}
 
+		ICR_traitors_to_the_cause = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.5
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
 		#### civl war
 
 		ICR_blessings_from_the_grand_order = {
@@ -738,7 +764,7 @@ ideas = {
 			removal_cost = -1
 		}
 
-		#political tree
+		#political tree - nation rebuilding
 
 		ICR_rebuilding_the_nation = {
 			picture = not_a_country
@@ -781,12 +807,1227 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_weekly = 0.01
+				stability_weekly = 0.005
 				political_power_gain = 0.3
 			}
 
 			cancel = {
 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_reunite_the_common_folk2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_weekly = 0.01
+				political_power_gain = 0.4
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_strength_in_unity = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.5
+				drift_defence_factor = 0.3
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_loyal_veterans = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.1
+				minimum_training_level = 0.15
+				training_time_factor = 0.1
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_loyal_veterans2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.2
+				minimum_training_level = 0.3
+				training_time_factor = 0.2
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_loyal_veterans3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.3
+				minimum_training_level = 0.4
+				training_time_factor = 0.35
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#political tree - internal affairs
+
+		ICR_foreign_labour_force = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				recruitable_population = 0.1
+				stability_factor = -0.1
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_foreign_labour_force2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				recruitable_population = 0.15
+				stability_factor = -0.15
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_icrusia_city_show_trials = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				weekly_manpower = -2000
+				political_power_gain = 0.5
+				stability_weekly = 0.01
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_icrusia_city_show_trials2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				weekly_manpower = -4000
+				political_power_gain = 1
+				stability_weekly = 0.015
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_icrusia_city_show_trials3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				weekly_manpower = -6000
+				political_power_gain = 1.5
+				stability_weekly = 0.02
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_reconciliation = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				stability_weekly = -0.02
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_reconciliation2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.75
+				stability_weekly = -0.03
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_reconciliation3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 1
+				stability_weekly = -0.05
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_loyalty_to_redmond = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.25
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#warpaths
+
+		ICR_dreams_of_an_imperial_federation = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				fascism_drift = 0.02
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_education_from_icrusia = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = AGR
+				tag = THB
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.1
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_warmongers_of_ambulas = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				justify_war_goal_time = 0.25
+				justify_war_goal_when_in_major_war_time = 0.25
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_warmongers_of_ambulas2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				justify_war_goal_time = 0.5
+				justify_war_goal_when_in_major_war_time = 0.5
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#research tree
+
+		ICR_subsidised_education = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				research_speed_factor = 0.1
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_mandatory_education = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 1
+				research_speed_factor = 0.2
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_elite_education = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.2
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_elite_education2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.35
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_great_scholarly_revivala = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.5
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_great_scholarly_revivalb = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.3
+				political_power_gain = 1.5
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#army tree
+
+		ICR_army_restructuring = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_org_factor = -0.15
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_army_of_hooves = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.25
+				army_attack_factor = 0.2
+				breakthrough_factor = 0.3
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_army_of_hooves2a = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.3
+				army_attack_factor = 0.35
+				breakthrough_factor = 0.3
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_army_of_hooves2b = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.35
+				army_attack_factor = 0.3
+				breakthrough_factor = 0.3
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_army_of_hooves3a = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.4
+				army_attack_factor = 0.5
+				breakthrough_factor = 0.3
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_army_of_hooves3b = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_speed_factor = 0.5
+				army_attack_factor = 0.4
+				breakthrough_factor = 0.3
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_finest_military_in_all_of_ambulas2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.3
+				army_core_defence_factor = 0.4
+				army_morale_factor = 0.3
+				army_org_factor = 0.35
+				army_org_regain = 0.35
+				breakthrough_factor = 0.3
+				army_speed_factor = 0.25
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_elite_foot_soldiers = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.2
+				army_core_attack_factor = 0.15
+				dig_in_speed_factor = 0.25
+				land_night_attack = 0.2
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_elite_foot_soldiers2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.3
+				army_core_attack_factor = 0.25
+				dig_in_speed_factor = 0.4
+				land_night_attack = 0.35
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_elite_foot_soldiers3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.4
+				army_core_attack_factor = 0.4
+				dig_in_speed_factor = 0.55
+				land_night_attack = 0.5
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_hell_from_the_skies = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_defence_factor = 0.25
+				army_speed_factor = -0.1
+				army_org_factor = 0.3
+				army_morale_factor = 0.3
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_hell_from_the_skies2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.3
+				army_defence_factor = 0.35
+				army_speed_factor = -0.25
+				army_org_factor = 0.4
+				army_morale_factor = 0.4
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_hell_from_the_skies3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.4
+				army_defence_factor = 0.5
+				army_speed_factor = -0.35
+				army_org_factor = 0.5
+				army_morale_factor = 0.5
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_armoured_fists_of_icrusia = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_org_factor = 0.1
+				terrain_penalty_reduction = 0.25
+				land_night_attack = 0.2
+				breakthrough_factor = 0.2
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_armoured_fists_of_icrusia2a = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.35
+				army_org_factor = 0.2
+				terrain_penalty_reduction = 0.4
+				land_night_attack = 0.3
+				breakthrough_factor = 0.35
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_armoured_fists_of_icrusia2b = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.3
+				army_org_factor = 0.3
+				terrain_penalty_reduction = 0.4
+				land_night_attack = 0.3
+				breakthrough_factor = 0.25
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_armoured_fists_of_icrusia3a = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.5
+				army_org_factor = 0.3
+				terrain_penalty_reduction = 0.5
+				land_night_attack = 0.4
+				breakthrough_factor = 0.45
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_armoured_fists_of_icrusia3b = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.4
+				army_org_factor = 0.45
+				terrain_penalty_reduction = 0.5
+				land_night_attack = 0.4
+				breakthrough_factor = 0.35
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_icrusia_rules_the_waves = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				naval_coordination = 0.2
+				naval_critical_score_chance_factor = 0.2
+				naval_damage_factor = 0.2
+				naval_defense_factor = 0.2
+			}
+
+			cancel = {
+			
 			}
 
 			allowed_civil_war = {
