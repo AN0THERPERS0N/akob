@@ -144,8 +144,11 @@ on_actions = {
 			if = {
 				limit = {
 					TAG = ICR
+					TAG = LCR
+					TAG = DCR
 				}
 				set_country_flag = ICR_civil_war_end
+				set_country_flag = LCR_civil_war_end
 			}
 		}
 	}

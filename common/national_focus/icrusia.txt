@@ -1638,13 +1638,13 @@ completion_reward = {
 	DCR = {
 		swap_ideas = {
 			add_idea = ICR_the_second_horsemen_of_the_apocalypse2
-			remove_idea = ICR_the_second_horsemen_of_the_apocalypse1
+			remove_idea = ICR_the_second_horsemen_of_the_apocalypse
 		}
 	}
 	LCR = {
 		swap_ideas = {
 			add_idea = ICR_the_second_horsemen_of_the_apocalypse2
-			remove_idea = ICR_the_second_horsemen_of_the_apocalypse1
+			remove_idea = ICR_the_second_horsemen_of_the_apocalypse
 		}
 	}
 }

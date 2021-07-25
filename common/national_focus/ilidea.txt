@@ -1703,7 +1703,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				add_idea = ILD_royal_house_of_illidea2
-				remove_idea = ILD_royal_house_of_illidea1
+				remove_idea = ILD_royal_house_of_illidea
 			}
 		}
 
@@ -2386,7 +2386,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#event
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -2417,7 +2417,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = ILD_great_sabi_agreement
+			#event
 		}
 
 		ai_will_do = {

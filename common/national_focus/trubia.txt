@@ -1492,7 +1492,6 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	add_ideas = TRB_efror_workers
 	add_to_variable = { trb_efror_citizenship = 0.1 }
 }
 ai_will_do = {
@@ -1879,7 +1878,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	add_reserch_slot = 1
+	add_research_slot = 1
 }
 ai_will_do = {
 }
@@ -2105,7 +2104,7 @@ y = 10
 icon = GFX_goal_generic_construct_civilian
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = TRB_enhance_efror_infrastructure }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
+mutually_exclusive = {focus = TRB_use_efror_machinery }
 available = {
 }
 bypass = {

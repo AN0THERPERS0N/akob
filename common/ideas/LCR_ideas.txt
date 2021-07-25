@@ -1,0 +1,658 @@
+ideas = {
+
+	country = {
+
+		#starting focus
+
+		LCR_icrusian_civil_war = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = -0.10
+				training_time_army_factor = 0.2
+				army_morale_factor = -0.1
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.25
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.35
+				army_speed_factor = -0.15
+				max_dig_in = 0.1
+				research_speed_factor = -0.15
+			}
+
+			cancel = {
+				has_country_flag = LCR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_finest_military_in_all_of_ambulas = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_core_defence_factor = 0.25
+				army_morale_factor = 0.2
+				army_org_factor = 0.2
+				army_org_regain = 0.25
+				breakthrough_factor = 0.2
+				army_speed_factor = 0.25
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#### civil war tree
+
+		LCR_state_of_emergency = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription = 0.25
+
+				production_speed_buildings_factor = 0.5
+				industrial_capacity_factory = 0.5
+
+				political_power_gain = -0.5
+			}
+
+			cancel = {
+				is_in_array = {
+					array = LCR_civil_war_ideas
+					value =	LCR_state_of_emergency
+				}
+				has_country_flag = LCR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_state_of_emergency2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription = 0.25
+
+				production_speed_buildings_factor = 0.75
+				industrial_capacity_factory = 0.75
+
+				political_power_gain = -0.5
+			}
+
+			cancel = {
+				is_in_array = {
+					array = LCR_civil_war_ideas
+					value =	LCR_state_of_emergency2
+				}
+				has_country_flag = LCR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_playing_the_long_game = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				weekly_manpower = 5000
+
+				army_defence_factor = 0.25
+				army_org_factor = 0.2
+				max_dig_in_factor = 0.2
+			}
+
+			cancel = {
+				is_in_array = {
+					array = LCR_civil_war_ideas
+					value =	LCR_playing_the_long_game
+				}
+				has_country_flag = LCR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_diplomats_from_airestonia = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.35
+				opinion_gain_monthly_factor = 0.3
+			}
+
+			cancel = {
+				is_in_array = {
+					array = LCR_civil_war_ideas
+					value =	LCR_diplomats_from_airestonia
+				}
+				has_country_flag = LCR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_diplomats_from_the_loyalists = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.35
+				opinion_gain_monthly_factor = 0.3
+			}
+
+			cancel = {
+				is_in_array = {
+					array = LCR_civil_war_ideas
+					value =	LCR_diplomats_from_the_loyalists
+				}
+				has_country_flag = LCR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_emergency_powers = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.25
+
+				political_power_gain = 1
+			}
+
+			cancel = {
+				is_in_array = {
+					array = LCR_civil_war_ideas
+					value =	LCR_emergency_powers
+				}
+				has_country_flag = LCR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_secret_police = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.15
+				weekly_manpower = -1000
+
+				political_power_gain = 1
+			}
+
+			cancel = {
+				is_in_array = {
+					array = LCR_civil_war_ideas
+					value =	LCR_secret_police
+				}
+				has_country_flag = LCR_civil_war_end
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#post civil war
+
+		LCR_discovery = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#economy tree
+
+		LCR_new_icrusian_economic_plans = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				line_change_production_efficiency_factor = 0.25
+				industry_repair_factor = 0.25
+				industrial_capacity_factory = 0.2
+
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.15 
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_new_icrusian_economic_revival = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.3
+				line_change_production_efficiency_factor = 0.4
+				industry_repair_factor = 0.4
+				industrial_capacity_factory = 0.35
+
+				production_factory_max_efficiency_factor = 0.3
+				production_factory_efficiency_gain_factor = 0.3 
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_icrusian_natural_wealth = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				local_resources_factor = 0.25
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#corruption branch
+
+		LCR_void_weaver_revolution = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.2
+				training_time_factor = 0.2
+				supply_consumption_factor = 0.15
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_void_weaver_revolution2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.2
+				training_time_factor = 0.2
+				supply_consumption_factor = 0.15
+
+				army_attack_factor = 0.1
+				army_org_regain = 0.15
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_void_weaver_revolution3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.25
+				training_time_factor = 0.2
+				supply_consumption_factor = 0.2
+
+				army_attack_factor = 0.2
+				army_org_regain = 0.3
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_void_weaver_revolution4 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.3
+				training_time_factor = 0.25
+				supply_consumption_factor = 0.3
+
+				army_attack_factor = 0.35
+				army_org_regain = 0.4
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#political branch
+
+		LCR_costly_compromise = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.2
+				political_power_gain = -0.5
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_costly_compromise2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.25
+				political_power_gain = -0.5
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_local_icrusian_security_forces = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				stability_weekly = 0.01
+				political_power_gain = 0.5
+
+				weekly_manpower = 2000
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_icrusian_void_group = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				research_speed_factor = 0.15
+				
+				breakthrough_factor = 0.25
+				attrition = 0.3
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+		
+	}
+	
+}

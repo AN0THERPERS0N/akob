@@ -2236,10 +2236,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		swap_ideas = {
-			add_idea = MRO_mage_only_army2
-			remove_idea = MRO_mage_only_army
-		}
+		add_ideas = MRO_mage_only_army
 	}
 	ai_will_do = {
 	}

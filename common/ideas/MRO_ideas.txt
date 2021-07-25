@@ -182,7 +182,7 @@ ideas = {
 			removal_cost = -1
 		}
 
-		MRO_mage_only_army2 = {
+		MRO_mage_only_army = {
 			picture = not_a_country
 			
 			allowed = {
