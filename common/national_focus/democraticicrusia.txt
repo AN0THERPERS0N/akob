@@ -95,7 +95,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	add_ideas = icrusian_civil_war
+		#event
 	}
 	ai_will_do = {
 	}
@@ -147,8 +147,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-		add_war_support = 0.15
-		add_stability = 0.2
+		add_ideas = DCR_lightning_warfare
 	}
 	ai_will_do = {
 	}
@@ -174,7 +173,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_ideas = DCR_play_the_waiting_game
 	}
 	ai_will_do = {
 	}
@@ -252,7 +251,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#units
 	}
 	ai_will_do = {
 	}
@@ -278,7 +277,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#research
 	}
 	ai_will_do = {
 	}
@@ -304,7 +303,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_ideas = DCR_forced_conscription
 	}
 	ai_will_do = {
 	}
@@ -330,7 +329,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#equipment
 	}
 	ai_will_do = {
 	}
@@ -356,7 +355,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_ideas = DCR_icrusian_gears_of_war
 	}
 	ai_will_do = {
 	}
@@ -382,7 +381,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -563,7 +562,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#generals
 	}
 	ai_will_do = {
 	}
@@ -589,7 +588,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#research
 	}
 	ai_will_do = {
 	}
@@ -615,7 +614,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#idea = wareconomy
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -641,7 +641,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#equipment
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -667,7 +668,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#buildings
+		#resources
 	}
 	ai_will_do = {
 	}
@@ -693,7 +695,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#research
 	}
 	ai_will_do = {
 	}
@@ -719,7 +721,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_ideas = DCR_resent_the_loyalists
 	}
 	ai_will_do = {
 	}
@@ -745,7 +747,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_ideas = DCR_down_with_the_empire
 	}
 	ai_will_do = {
 	}
@@ -903,7 +905,10 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		swap_ideas = {
+			add_idea = DCR_lightning_warfare2
+			remove_idea = DCR_lightning_warfare
+		}
 	}
 	ai_will_do = {
 	}
@@ -929,7 +934,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -955,7 +960,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -981,7 +986,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#equipment
 	}
 	ai_will_do = {
 	}
@@ -1007,7 +1012,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -1033,7 +1038,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#research
 	}
 	ai_will_do = {
 	}
@@ -1059,7 +1064,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#event
 	}
 	ai_will_do = {
 	}
@@ -1085,7 +1090,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#event
 	}
 	ai_will_do = {
 	}
@@ -1111,7 +1116,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#units
 	}
 	ai_will_do = {
 	}
@@ -1137,7 +1142,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_war_support = 20
+		ICR = { add_war_support = -20 }
 	}
 	ai_will_do = {
 	}
@@ -1215,7 +1221,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -1241,7 +1247,9 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#doctrine
+		#research
+		#units
 	}
 	ai_will_do = {
 	}
@@ -1267,7 +1275,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_research_slot = 1
 	}
 	ai_will_do = {
 	}
@@ -1293,7 +1301,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -1319,7 +1327,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_research_slot = 1
 	}
 	ai_will_do = {
 	}
@@ -1345,7 +1353,10 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		swap_ideas = {
+			add_idea = DCR_resent_the_loyalists2
+			remove_idea = DCR_resent_the_loyalists
+		}
 	}
 	ai_will_do = {
 	}
@@ -1371,7 +1382,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#units
 	}
 	ai_will_do = {
 	}
@@ -1397,7 +1408,10 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		swap_ideas = {
+			add_idea = DCR_down_with_the_empire2
+			remove_idea = DCR_down_with_the_empire
+		}
 	}
 	ai_will_do = {
 	}
@@ -1423,7 +1437,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_political_power = 100
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -1449,7 +1464,9 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#units
+		add_political_power = -100
+		ICR = { add_manpower = -50000 }
 	}
 	ai_will_do = {
 	}
@@ -1501,7 +1518,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_ideas = DCR_unconditional_determination
 	}
 	ai_will_do = {
 	}
@@ -1527,7 +1544,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#buildings
 	}
 	ai_will_do = {
 	}
@@ -1553,7 +1570,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_ideas = DCR_army_of_intellectuals
 	}
 	ai_will_do = {
 	}
@@ -1579,7 +1596,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#doctrine
+		#equipment
 	}
 	ai_will_do = {
 	}
@@ -1605,7 +1623,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		add_stability = 0.1
+		add_political_power = 100
 	}
 	ai_will_do = {
 	}
@@ -1631,7 +1650,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#decisions
 	}
 	ai_will_do = {
 	}
@@ -1657,7 +1676,8 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#generals
+		#units
 	}
 	ai_will_do = {
 	}
@@ -1683,7 +1703,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		#spies
 	}
 	ai_will_do = {
 	}
@@ -1787,7 +1807,10 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		swap_ideas = {
+			add_idea = DCR_icrusian_gears_of_war2
+			remove_idea = DCR_icrusian_gears_of_war
+		}
 	}
 	ai_will_do = {
 	}
@@ -1800,7 +1823,8 @@ focus = {
 	icon = "GFX_goal_generic_attack_allies"
 	#relative_position_id = AST_empower_the_workers
 	 
-	prerequisite = { focus = DCR_early_victories OR = DCR_prod_the_battlelines }
+	prerequisite = { focus = DCR_early_victories  }
+	prerequisite = { focus = DCR_prod_the_battlelines }
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
 	 
@@ -1813,7 +1837,10 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		swap_ideas = {
+			add_idea = DCR_vitas_revenge
+			remove_idea = DCR_resent_the_loyalists2
+		}
 	}
 	ai_will_do = {
 	}
@@ -1840,7 +1867,10 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	
+		swap_ideas = {
+			add_idea = DCR_an_empire_no_more
+			remove_idea = DCR_down_with_the_empire2
+		}
 	}
 	ai_will_do = {
 	}

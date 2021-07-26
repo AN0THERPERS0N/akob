@@ -2,6 +2,8 @@ ideas = {
 
 	country = {
 
+#starting ideas
+
 		icrusian_civil_war = {
 			picture = not_a_country
 			
@@ -36,6 +38,437 @@ ideas = {
 
 			removal_cost = -1
 		}
+
+		DCR_finest_military_in_all_of_ambulas = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = DCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_core_defence_factor = 0.25
+				army_morale_factor = 0.2
+				army_org_factor = 0.2
+				army_org_regain = 0.25
+				breakthrough_factor = 0.2
+				army_speed_factor = 0.25
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+# civil war - quick and decisive
+
+DCR_lightning_warfare = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_attack_factor = 0.2
+		breakthrough_factor = 0.25
+		army_speed_factor = 0.2
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_lightning_warfare2 = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_attack_factor = 0.35
+		breakthrough_factor = 0.4
+		army_speed_factor = 0.3
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_forced_conscription = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		conscription_factor = 0.25
+		stability_weekly = -0.025
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_unconditional_determination = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		conscription_factor = 0.2
+
+		army_core_attack_factor = 0.25
+		army_core_defence_factor = 0.25
+		army_org_factor = 0.2
+		army_morale_factor = 0.2
+
+		war_support_weekly = 0.02
+		stability_weekly = 0.02
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+# civil war - long haul
+
+DCR_play_the_waiting_game = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_defence_factor = 0.2
+		army_org_factor = 0.15
+		max_dig_in_factor = 0.15
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_army_of_intellectuals = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		research_speed_factor = 0.2
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_icrusian_gears_of_war = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		industrial_capacity_factory = 0.2
+		industry_repair_factor = 0.15
+		production_speed_buildings_factor = 0.15
+		line_change_production_efficiency_factor = 0.2
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_icrusian_gears_of_war2 = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		industrial_capacity_factory = 0.3
+		industry_repair_factor = 0.3
+		production_speed_buildings_factor = 0.3
+		line_change_production_efficiency_factor = 0.25
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_resent_the_loyalists = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_speed_factor = 0.1
+		army_attack_factor = 0.1
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_resent_the_loyalists2 = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_speed_factor = 0.15
+		army_attack_factor = 0.15
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_vitas_revenge = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_speed_factor = 0.25
+		army_attack_factor = 0.3
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_down_with_the_empire = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_org_regain = 0.1
+		army_attack_factor = 0.1
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_down_with_the_empire2 = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_org_regain = 0.2
+		army_attack_factor = 0.2
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_an_empire_no_more = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_org_regain = 0.35
+		army_attack_factor = 0.3
+	}
+
+	cancel = {
+	
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+
+
+#
 
 		rebellious_states = {
 			picture = not_a_country
