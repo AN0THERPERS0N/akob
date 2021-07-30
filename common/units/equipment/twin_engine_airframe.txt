@@ -39,8 +39,8 @@ equipments = {
 		
 		build_cost_ic = 35
 		resources = {
-			#oil = 1
-			aluminium = 2
+			#coal = 1
+			cloth = 2
 			rubber = 1
 		}
 		fuel_consumption = 0.36
@@ -80,8 +80,8 @@ equipments = {
 		
 		build_cost_ic = 45
 		resources = {
-			aluminium = 2
-			tungsten = 3
+			cloth = 2
+			brass = 3
 			rubber = 1
 		}
 		
@@ -122,8 +122,8 @@ equipments = {
 		
 		build_cost_ic = 28
 		resources = {
-			#oil = 1			
-			aluminium = 2
+			#coal = 1			
+			cloth = 2
 			rubber = 1
 		}
 		
@@ -171,8 +171,8 @@ equipments = {
 		
 		build_cost_ic = 37
 		resources = {
-			#oil = 1
-			aluminium = 3
+			#coal = 1
+			cloth = 3
 			rubber = 1
 		}
 		naval_strike_attack = 8
@@ -197,8 +197,8 @@ equipments = {
 		
 		build_cost_ic = 39
 		resources = {
-			#oil = 1
-			aluminium = 4
+			#coal = 1
+			cloth = 4
 			rubber = 1
 		}
 		naval_strike_attack = 12
@@ -223,8 +223,8 @@ equipments = {
 		
 		build_cost_ic = 41
 		resources = {
-			#oil = 1
-			aluminium = 5
+			#coal = 1
+			cloth = 5
 			rubber = 1
 		}
 		naval_strike_attack = 15
@@ -267,8 +267,8 @@ equipments = {
 		
 		build_cost_ic = 48
 		resources = {
-			aluminium = 3
-			tungsten = 3
+			cloth = 3
+			brass = 3
 			rubber = 1
 		}
 	}
@@ -307,8 +307,8 @@ equipments = {
 		
 		build_cost_ic = 30
 		resources = {
-			#oil = 1			
-			aluminium = 3
+			#coal = 1			
+			cloth = 3
 			rubber = 1
 		}
 		naval_strike_attack = 6
@@ -330,8 +330,8 @@ equipments = {
 		
 		build_cost_ic = 32
 		resources = {
-			#oil = 1			
-			aluminium = 4
+			#coal = 1			
+			cloth = 4
 			rubber = 1
 		}
 		naval_strike_attack = 9
@@ -370,7 +370,7 @@ equipments = {
 		naval_strike_targetting = 0
 		
 		resources = {			
-			aluminium = 2
+			cloth = 2
 			rubber = 1
 		}
 		
@@ -410,7 +410,7 @@ equipments = {
 
 		build_cost_ic = 20
 		resources = {		
-			aluminium = 3
+			cloth = 3
 			rubber = 1
 		}
 		naval_strike_attack = 0

@@ -1336,11 +1336,11 @@ technologies = {
 	motorised_infantry = {
 
 		enable_subunits = {
-			motorized
+			cavalry
 		}
 
 		enable_equipments = {
-			motorized_equipment_1
+			cavalry_equipment_0
 		}
 
 		on_research_complete = {
@@ -1382,7 +1382,7 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
+			cavalry
 			infantry_tech
 		}
 		
@@ -1437,13 +1437,10 @@ technologies = {
 	
 	armored_car1 = {
 
-		enable_subunits = {
-			armored_car
-		}
-
 		enable_equipments = {
-			gw_armored_car_equipment
+			lancer_equipment_1
 		}
+		
 		allow_branch = { has_dlc = "La Resistance" }
 		path = {
 			leads_to_tech = armored_car2
@@ -1458,8 +1455,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
-			armor
+			cavalry
+			infantry_tech
 		}
 		
 		ai_will_do = {
@@ -1489,7 +1486,7 @@ technologies = {
 	armored_car2 = {
 
 		enable_equipments = {
-			armored_car_equipment_1
+			lancer_equipment_2
 		}
 		
 		path = {
@@ -1505,7 +1502,7 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
+			cavalry
 			armor
 		}
 		
@@ -1536,7 +1533,7 @@ technologies = {
 	armored_car3 = {
 
 		enable_equipments = {
-			armored_car_equipment_2
+			lancer_equipment_3
 		}
 
 		research_cost = 2
@@ -1547,8 +1544,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
-			armor
+			cavalry
+			infantry_tech
 		}
 		
 		sub_technologies = {
@@ -1621,23 +1618,11 @@ technologies = {
 	mechanised_infantry = {
 
 		enable_equipments = {
-			mechanized_equipment_1
+			cuirassier_equipment_1
 		}
-		
-		motorized = {
-			hardness = 1.0
-		}
-		mot_artillery_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_tank_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_air_brigade = {
-			hardness = 1.0
-		}
-		mot_rocket_artillery_brigade = {
-			hardness = 1.0
+
+		enable_subunits = {
+			cuirassier
 		}
 
 		path = {
@@ -1653,9 +1638,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
+			cavalry
 			infantry_tech
-			cat_mechanized_equipment
 		}
 		
 		ai_will_do = {
@@ -1670,7 +1654,7 @@ technologies = {
 	mechanised_infantry2 = {
 
 		enable_equipments = {
-			mechanized_equipment_2
+			cuirassier_equipment_2
 		}
 		
 		path = {
@@ -1686,9 +1670,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
+			cavalry
 			infantry_tech
-			cat_mechanized_equipment
 		}
 		
 		ai_will_do = {
@@ -1699,12 +1682,7 @@ technologies = {
 	mechanised_infantry3 = {
 
 		enable_equipments = {
-			mechanized_equipment_3
-		}
-
-		mechanized = {
-			soft_attack = 0.15
-			hard_attack = 0.15
+			cuirassier_equipment_3
 		}
 
 		research_cost = 3
@@ -1715,9 +1693,8 @@ technologies = {
 		}
 		
 		categories = {
-			motorized_equipment
+			cavalry
 			infantry_tech
-			cat_mechanized_equipment
 		}
 		
 		ai_will_do = {

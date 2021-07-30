@@ -3,8 +3,8 @@ state={
 	id=194
 	name="STATE_194"
 	resources={
- 
- 
+		aluminium=2.000
+		chromium=2.000
 	}
 
 	history={

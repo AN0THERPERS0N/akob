@@ -41,9 +41,9 @@ equipments = {
 		
 		build_cost_ic = 28
 		resources = {
-			#oil = 1
+			#coal = 1
 			steel = 3
-			chromium = 4
+			voidmetal = 4
 		}
 		
 		fuel_consumption = 5
@@ -101,9 +101,9 @@ equipments = {
 		build_cost_ic = 28
 		
 		resources = {
-			#oil = 1
+			#coal = 1
 			steel = 3
-			chromium = 4
+			voidmetal = 4
 		}
 		fuel_consumption = 2.5
 	}
@@ -162,9 +162,9 @@ equipments = {
 		build_cost_ic = 28
 		
 		resources = {
-			#oil = 1
+			#coal = 1
 			steel = 3
-			chromium = 4
+			voidmetal = 4
 		}
 		fuel_consumption = 2.5
 	}
@@ -222,9 +222,9 @@ equipments = {
 		build_cost_ic = 28
 		
 		resources = {
-			#oil = 1
+			#coal = 1
 			steel = 3
-			chromium = 4
+			voidmetal = 4
 		}
 		fuel_consumption = 1.25
 	}
