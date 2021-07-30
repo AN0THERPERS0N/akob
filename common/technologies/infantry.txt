@@ -1336,11 +1336,11 @@ technologies = {
 	motorised_infantry = {
 
 		enable_subunits = {
-			cavalry
+			motorized
 		}
 
 		enable_equipments = {
-			cavalry_equipment_0
+			motorized_equipment_1
 		}
 
 		on_research_complete = {
@@ -1438,7 +1438,7 @@ technologies = {
 	armored_car1 = {
 
 		enable_equipments = {
-			lancer_equipment_1
+			gw_armored_car_equipment
 		}
 		
 		allow_branch = { has_dlc = "La Resistance" }
@@ -1486,7 +1486,7 @@ technologies = {
 	armored_car2 = {
 
 		enable_equipments = {
-			lancer_equipment_2
+			armored_car_equipment_1
 		}
 		
 		path = {
@@ -1533,7 +1533,7 @@ technologies = {
 	armored_car3 = {
 
 		enable_equipments = {
-			lancer_equipment_3
+			armored_car_equipment_2
 		}
 
 		research_cost = 2
@@ -1618,11 +1618,11 @@ technologies = {
 	mechanised_infantry = {
 
 		enable_equipments = {
-			cuirassier_equipment_1
+			mechanized_equipment_1
 		}
 
 		enable_subunits = {
-			cuirassier
+			armored_car
 		}
 
 		path = {
@@ -1654,7 +1654,7 @@ technologies = {
 	mechanised_infantry2 = {
 
 		enable_equipments = {
-			cuirassier_equipment_2
+			mechanized_equipment_2
 		}
 		
 		path = {
@@ -1682,7 +1682,7 @@ technologies = {
 	mechanised_infantry3 = {
 
 		enable_equipments = {
-			cuirassier_equipment_3
+			mechanized_equipment_3
 		}
 
 		research_cost = 3

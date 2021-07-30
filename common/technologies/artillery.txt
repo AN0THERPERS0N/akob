@@ -743,7 +743,7 @@ technologies = {
 				any_enemy_country = {
 					ROOT = {
 						estimated_intel_max_armor = {
-							V
+							
 							value > 30
 						}
 					}
@@ -793,7 +793,7 @@ technologies = {
 				any_enemy_country = {
 					ROOT = {
 						estimated_intel_max_armor = {
-							V
+							
 							value > 30
 						}
 					}
@@ -890,7 +890,7 @@ technologies = {
 				any_enemy_country = {
 					ROOT = {
 						estimated_intel_max_armor = {
-							V
+							
 							value > 32
 						}
 					}
@@ -964,7 +964,7 @@ technologies = {
 				any_enemy_country = {
 					ROOT = {
 						estimated_intel_max_armor = {
-							V
+							
 							value > 32
 						}
 					}
@@ -1033,7 +1033,7 @@ technologies = {
 				any_enemy_country = {
 					ROOT = {
 						estimated_intel_max_armor = {
-							V
+							
 							value > 35
 						}
 					}
@@ -1102,7 +1102,7 @@ technologies = {
 				any_enemy_country = {
 					ROOT = {
 						estimated_intel_max_armor = {
-							V
+							
 							value > 35
 						}
 					}
