@@ -3,9 +3,8 @@ state={
 	id=156
 	name="STATE_156"
 	resources={
-		 cloth = 10
-		brass = 3
-		steel = 8
+		cloth = 8
+		brass = 4
 		 
 	}
 

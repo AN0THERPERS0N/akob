@@ -3,7 +3,7 @@ state={
 	id=36
 	name="STATE_36"
 	resources={
-		 
+		 rubber = 10
 		 
 	}
 

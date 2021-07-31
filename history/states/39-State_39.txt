@@ -3,7 +3,7 @@ state={
 	name="STATE_39"
 	resources={
 		 
-		 
+		 coal = 5
 	}
 
 	history={

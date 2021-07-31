@@ -3,8 +3,9 @@ state={
 	id=53
 	name="STATE_53"
 	resources={
-		 cloth = 18
-		 steel = 8
+		rubber = 9
+		cloth = 13
+		brass = 9
 	}
 
 	history={
