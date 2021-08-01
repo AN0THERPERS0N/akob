@@ -13,6 +13,11 @@
  akob_canister_shot_brigade:0 "Canister shot"
  akob_canister_shot_brigade_desc:0 "cs desc"
 
+ akob_explosive_shot:0 "Support explosive shot"
+ akob_explosive_shot_desc:0 "support ex desc"
+ akob_explosive_shot_brigade:0 "Explosive shot"
+ akob_explosive_shot_brigade_desc:0 "ex desc"
+
 
 #vanilla
  night:0 "Night"

@@ -23,6 +23,13 @@
  akob_canister_shot_equipment_3:0 "Canister Shot 3"
  akob_canister_shot_equipment_3_desc:0 "Canister Shot 3 desc"
 
+ akob_explosive_shot_equipment_1:0 "Explosive Shot 1"
+ akob_explosive_shot_equipment_1_desc:0 "Explosive Shot 1 desc"
+ akob_explosive_shot_equipment_2:0 "Explosive Shot 2"
+ akob_explosive_shot_equipment_2_desc:0 "Explosive Shot 2 desc"
+ akob_explosive_shot_equipment_3:0 "Explosive Shot 3"
+ akob_explosive_shot_equipment_3_desc:0 "Explosive Shot 3 desc"
+
  #vanilla
  submarine:0 "Submarine"
  submarine_desc:0 "Submarines employ stealth and powerful torpedoes to destroy enemy convoys."
