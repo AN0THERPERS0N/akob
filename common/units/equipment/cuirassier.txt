@@ -1,6 +1,6 @@
 equipments = {
 
-	mechanized_equipment = {
+	akob_cuirassier_equipment = {
 		year = 1936
 
 		is_archetype = yes
@@ -34,7 +34,7 @@ equipments = {
 		build_cost_ic = 8
 		resources = {
 			steel = 2
-			#oil = 1
+			#coal = 1
 			rubber = 1
 		}
 		
@@ -42,20 +42,20 @@ equipments = {
 	}
 
 	# ~1941
-	mechanized_equipment_1 = {
+	akob_cuirassier_equipment_1 = {
 		year = 1940
 
-		archetype = mechanized_equipment
+		archetype = akob_cuirassier_equipment
 		priority = 40
 		visual_level = 0
 	}
 
 	# ~1943
-	mechanized_equipment_2 = {
+	akob_cuirassier_equipment_2 = {
 		year = 1942
 
-		archetype = mechanized_equipment
-		parent = mechanized_equipment_1
+		archetype = akob_cuirassier_equipment
+		parent = akob_cuirassier_equipment_1
 		priority = 40
 		visual_level = 1
 
@@ -74,16 +74,16 @@ equipments = {
 		resources = {
 			steel = 3
 			rubber = 1
-			#oil = 1
+			#coal = 1
 		}
 	}
 
 	# ~1945
-	mechanized_equipment_3 = {
+	akob_cuirassier_equipment_3 = {
 		year = 1944
 
-		archetype = mechanized_equipment
-		parent = mechanized_equipment_2
+		archetype = akob_cuirassier_equipment
+		parent = akob_cuirassier_equipment_2
 		priority = 40
 		visual_level = 2
 		
@@ -102,7 +102,7 @@ equipments = {
 		resources = {
 			steel = 4
 			rubber = 1
-			#oil = 2
+			#coal = 2
 		}
 	}
 }

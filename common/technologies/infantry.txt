@@ -1438,7 +1438,11 @@ technologies = {
 	armored_car1 = {
 
 		enable_equipments = {
-			gw_armored_car_equipment
+			akob_lancer_equipment_1
+		}
+
+		enable_subunits = {
+			akob_lancer
 		}
 		
 		allow_branch = { has_dlc = "La Resistance" }
@@ -1486,7 +1490,7 @@ technologies = {
 	armored_car2 = {
 
 		enable_equipments = {
-			armored_car_equipment_1
+			akob_lancer_equipment_2
 		}
 		
 		path = {
@@ -1533,7 +1537,7 @@ technologies = {
 	armored_car3 = {
 
 		enable_equipments = {
-			armored_car_equipment_2
+			akob_lancer_equipment_3
 		}
 
 		research_cost = 2
@@ -1546,10 +1550,6 @@ technologies = {
 		categories = {
 			cavalry
 			infantry_tech
-		}
-		
-		sub_technologies = {
-			armored_car_at_upgrade
 		}
 
 		ai_will_do = {
@@ -1618,13 +1618,13 @@ technologies = {
 	mechanised_infantry = {
 
 		enable_equipments = {
-			mechanized_equipment_1
+			akob_cuirassier_equipment_1
 		}
 
 		enable_subunits = {
-			armored_car
+			akob_cuirassier
 		}
-
+	
 		path = {
 			leads_to_tech = mechanised_infantry2
 			research_cost_coeff = 1
@@ -1654,7 +1654,7 @@ technologies = {
 	mechanised_infantry2 = {
 
 		enable_equipments = {
-			mechanized_equipment_2
+			akob_cuirassier_equipment_2
 		}
 		
 		path = {
@@ -1682,7 +1682,7 @@ technologies = {
 	mechanised_infantry3 = {
 
 		enable_equipments = {
-			mechanized_equipment_3
+			akob_cuirassier_equipment_3
 		}
 
 		research_cost = 3
