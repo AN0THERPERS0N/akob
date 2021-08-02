@@ -4,9 +4,8 @@ spriteTypes = {
 
 SpriteType = {
 	name = "GFX_gwtank_medium"
-	texturefile = "gfx/interface/technologies/gwtank.dds"
+	texturefile = "gfx/interface/technologies/mage.dds"
 }	
-
 
 SpriteType = {
 	name = "GFX_improved_light_tank_medium"
@@ -25,9 +24,8 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_basic_light_tank_medium"
-	texturefile = "gfx/interface/technologies/basic_medium_tank.dds"
+	texturefile = "gfx/interface/technologies/sorcerer.dds"
 }
-
 
 SpriteType = {
 	name = "GFX_improved_heavy_tank_medium"
@@ -47,6 +45,11 @@ SpriteType = {
 SpriteType = {
 	name = "GFX_basic_heavy_tank_medium"
 	texturefile = "gfx/interface/technologies/main_battle_tank.dds"
+}
+
+SpriteType = {
+	name = "GFX_basic_heavy_tank_medium"
+	texturefile = "gfx/interface/technologies/conjuror.dds"
 }
 
 

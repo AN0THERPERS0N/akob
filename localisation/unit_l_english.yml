@@ -18,6 +18,10 @@
  akob_explosive_shot_brigade:0 "Explosive shot"
  akob_explosive_shot_brigade_desc:0 "ex desc"
 
+#mage
+  akob_sorcerer:0 "Sorcerer"
+  akob_sorcerer_desc:0 "Sorcerer desc"
+
 
 #vanilla
  night:0 "Night"
