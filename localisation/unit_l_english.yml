@@ -22,6 +22,12 @@
   akob_sorcerer:0 "Sorcerer"
   akob_sorcerer_desc:0 "Sorcerer desc"
 
+  akob_conjuror:0 "Conjuror"
+  akob_conjuror_desc:0 "Conjuror desc"
+
+  akob_basic_mages:0 "Basic mages"
+  akob_basic_mages_desc:0 "Basic mages desc"
+
 
 #vanilla
  night:0 "Night"

@@ -83,6 +83,32 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}		
 
+	spriteType = {
+		name = "GFX_unit_akob_conjuror_icon_small"
+		texturefile = "gfx/texticons/unit_akob_conjuror_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_akob_conjuror_icon_small"
+		texturefile = "gfx/texticons/nato_unit_akob_conjuror_icon_small.dds"
+		legacy_lazy_load = no
+	}		
+
+	spriteType = {
+		name = "GFX_unit_akob_basic_mages_icon_small"
+		texturefile = "gfx/texticons/unit_akob_basic_mages_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_nato_unit_akob_basic_mages_icon_small"
+		texturefile = "gfx/texticons/nato_unit_akob_basic_mages_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+
 
 	#vanilla
 	spriteType = {

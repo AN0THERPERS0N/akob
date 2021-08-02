@@ -30,6 +30,26 @@
  akob_explosive_shot_equipment_3:0 "Explosive Shot 3"
  akob_explosive_shot_equipment_3_desc:0 "Explosive Shot 3 desc"
 
+#mages
+ 
+ akob_sorcerer_equipment_0:0 "Basic Sorcery"
+ akob_sorcerer_equipment_0_desc:0 "Basic Sorcery desc"
+ akob_sorcerer_equipment_1:0 "Sorcerer 1"
+ akob_sorcerer_equipment_1_desc:0 "Sorcerer 1 desc"
+ akob_sorcerer_equipment_2:0 "Sorcerer 2"
+ akob_sorcerer_equipment_2_desc:0 "Sorcerer 2 desc"
+ akob_sorcerer_equipment_3:0 "Sorcerer 3"
+ akob_sorcerer_equipment_3_desc:0 "Sorcerer 3 desc"
+
+ akob_conjuror_equipment_0:0 "Basic Conjuror"
+ akob_conjuror_equipment_0_desc:0 "Basic Conjuror desc"
+ akob_conjuror_equipment_1:0 "Conjuror 1"
+ akob_conjuror_equipment_1_desc:0 "Conjuror 1 desc"
+ akob_conjuror_equipment_2:0 "Conjuror 2"
+ akob_conjuror_equipment_2_desc:0 "Conjuror 2 desc"
+ akob_conjuror_equipment_3:0 "Conjuror 3"
+ akob_conjuror_equipment_3_desc:0 "Conjuror 3 desc"
+
  #vanilla
  submarine:0 "Submarine"
  submarine_desc:0 "Submarines employ stealth and powerful torpedoes to destroy enemy convoys."

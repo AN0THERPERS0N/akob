@@ -1,6 +1,6 @@
 equipments = {
 
-	akob_sorcerer_equipment = {
+	akob_conjuror_equipment = {
 		year = 1936
 
 		is_archetype = yes
@@ -40,20 +40,20 @@ equipments = {
 	}
 
 	# ~1941
-	akob_sorcerer_equipment_0 = {
+	akob_conjuror_equipment_0 = {
 		year = 1940
 
-		archetype = akob_sorcerer_equipment
+		archetype = akob_conjuror_equipment
 		priority = 40
 		visual_level = 0
 	}
 
 	# ~1943
-	akob_sorcerer_equipment_1 = {
+	akob_conjuror_equipment_1 = {
 		year = 1942
 
-		archetype = akob_sorcerer_equipment
-		parent = akob_sorcerer_equipment_0
+		archetype = akob_conjuror_equipment
+		parent = akob_conjuror_equipment_0
 		priority = 40
 		visual_level = 1
 
@@ -77,11 +77,11 @@ equipments = {
 	}
 
 	# ~1945
-	akob_sorcerer_equipment_2 = {
+	akob_conjuror_equipment_2 = {
 		year = 1944
 
-		archetype = akob_sorcerer_equipment
-		parent = akob_sorcerer_equipment_1
+		archetype = akob_conjuror_equipment
+		parent = akob_conjuror_equipment_1
 		priority = 40
 		visual_level = 2
 		
@@ -104,11 +104,11 @@ equipments = {
 		}
 	}
 
-	akob_sorcerer_equipment_3 = {
+	akob_conjuror_equipment_3 = {
 		year = 1944
 
-		archetype = akob_sorcerer_equipment
-		parent = akob_sorcerer_equipment_2
+		archetype = akob_conjuror_equipment
+		parent = akob_conjuror_equipment_2
 		priority = 40
 		visual_level = 2
 		
