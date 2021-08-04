@@ -1,5 +1,12 @@
 spriteTypes = {	
 
+#replaced air
+
+SpriteType = {
+	name = "GFX_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/arcane.dds"
+}	
+
 #replaced tanks
 
 SpriteType = {
@@ -3690,11 +3697,6 @@ SpriteType = {
 		name = "GFX_early_bomber_medium"
 		texturefile = "gfx/interface/technologies/early_bomber.dds"
 	}		
-	
-	SpriteType = {
-		name = "GFX_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/early_fighter.dds"
-	}	
 
 	SpriteType = {
 		name = "GFX_fighter1_medium"

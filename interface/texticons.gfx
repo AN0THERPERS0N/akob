@@ -1,6 +1,14 @@
 spriteTypes = {	
 	#akob
 
+	#arcane
+	spriteType = {
+		name = "GFX_unit_akob_arcane_icon_small"
+		texturefile = "gfx/texticons/unit_akob_arcane_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
 	#cavalry
 	spriteType = {
 		name = "GFX_unit_akob_cuirassier_icon_small"

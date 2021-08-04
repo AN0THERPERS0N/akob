@@ -1,0 +1,16 @@
+sub_units = {
+	akob_arcane = {
+		sprite = light_plane
+		priority = 2
+		active = yes
+		type = { 
+			cas 
+			fighter
+		}
+		need = { akob_arcane_equipment = 1 }
+		categories = { 
+			category_cas 
+			category_fighter
+		}
+	}
+}

@@ -1,6 +1,7 @@
 spriteTypes = {	
 
 	#akob
+	spriteType = { name = "GFX_navalcombat_air_small_icon_akob_arcane_equipment"			texturefile = "gfx/interface/counters/air_small/onmap_akob_arcane.dds" noOfFrames = 2}
 
 	#infantry
 	spriteType = { name = "GFX_unit_akob_cuirassier_icon_medium"							texturefile = "gfx/interface/counters/divisions_large/unit_akob_cuirassier_icon.dds" noOfFrames = 2}

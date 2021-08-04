@@ -1,6 +1,9 @@
 ﻿l_english:
  #akob
 
+ #arcane
+ akob_arcane_equipment_1:0 "Arcanic energy"
+
  #cavalry
  akob_cuirassier_equipment_1:0 "Cuirassier 1"
  akob_cuirassier_equipment_1_desc:0 "Cuirassier 1 desc"
