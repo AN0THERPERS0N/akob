@@ -1,4 +1,133 @@
 spriteTypes = {	
+#akob
+
+#new electronic icons
+SpriteType = {
+	name = "GFX_compactor_medium"
+	texturefile = "gfx/interface/technologies/compactor_I.dds"
+}	
+
+SpriteType = {
+	name = "GFX_compactor2_medium"
+	texturefile = "gfx/interface/technologies/compactor_II.dds"
+}	
+
+SpriteType = {
+	name = "GFX_compactor3_medium"
+	texturefile = "gfx/interface/technologies/compactor_III.dds"
+}	
+
+SpriteType = {
+	name = "GFX_compressor_medium"
+	texturefile = "gfx/interface/technologies/compressor_I.dds"
+}	
+
+SpriteType = {
+	name = "GFX_compressor2_medium"
+	texturefile = "gfx/interface/technologies/compressor_II.dds"
+}	
+
+SpriteType = {
+	name = "GFX_compressor3_medium"
+	texturefile = "gfx/interface/technologies/compressor_III.dds"
+}	
+
+SpriteType = {
+	name = "GFX_speed_heating_medium"
+	texturefile = "gfx/interface/technologies/speed_heating.dds"
+}	
+
+SpriteType = {
+	name = "GFX_arcanic_industry_medium"
+	texturefile = "gfx/interface/technologies/arcanic_industry.dds"
+}	
+
+SpriteType = {
+	name = "GFX_proxy_tools1_medium"
+	texturefile = "gfx/interface/technologies/proxy_tools_I.dds"
+}	
+
+SpriteType = {
+	name = "GFX_proxy_tools2_medium"
+	texturefile = "gfx/interface/technologies/proxy_tools_II.dds"
+}	
+
+SpriteType = {
+	name = "GFX_proxy_tools3_medium"
+	texturefile = "gfx/interface/technologies/proxy_tools_III.dds"
+}	
+
+SpriteType = {
+	name = "GFX_proxy_tools4_medium"
+	texturefile = "gfx/interface/technologies/proxy_tools_IV.dds"
+}	
+
+SpriteType = {
+	name = "GFX_proxy_tools5_medium"
+	texturefile = "gfx/interface/technologies/proxy_tools_V.dds"
+}	
+
+#replaced electronics
+
+SpriteType = {
+	name = "GFX_electronic_mechanical_engineering_medium"
+	texturefile = "gfx/interface/technologies/steam_engineering.dds"
+}	
+
+SpriteType = {
+	name = "GFX_mechanical_computing_medium"
+	texturefile = "gfx/interface/technologies/steam_engineering_II.dds"
+}	
+
+SpriteType = {
+	name = "GFX_computing_machine_medium"
+	texturefile = "gfx/interface/technologies/steam_engineering_III.dds"
+}	
+
+SpriteType = {
+	name = "GFX_improved_computing_machine_medium"
+	texturefile = "gfx/interface/technologies/steam_engineering_IV.dds"
+}	
+
+SpriteType = {
+	name = "GFX_advanced_computing_machine_medium"
+	texturefile = "gfx/interface/technologies/steam_engineering_V.dds"
+}	
+
+SpriteType = {
+	name = "GFX_radio_medium"
+	texturefile = "gfx/interface/technologies/telepathy_I.dds"
+}	
+
+SpriteType = {
+	name = "GFX_radio_detection_medium"
+	texturefile = "gfx/interface/technologies/telepathy_II.dds"
+}	
+
+SpriteType = {
+	name = "GFX_decimetric_radar_medium"
+	texturefile = "gfx/interface/technologies/telepathy_tower_I.dds"
+}		
+
+SpriteType = {
+	name = "GFX_improved_decimetric_radar_medium"
+	texturefile = "gfx/interface/technologies/telepathy_tower_II.dds"
+}	
+
+SpriteType = {
+	name = "GFX_centimetric_radar_medium"
+	texturefile = "gfx/interface/technologies/telepathy_tower_III.dds"
+}	
+
+SpriteType = {
+	name = "GFX_improved_centimetric_radar_medium"
+	texturefile = "gfx/interface/technologies/improved_centimetric_radar.dds"
+}	
+
+SpriteType = {
+	name = "GFX_advanced_centimetric_radar_medium"
+	texturefile = "gfx/interface/technologies/advanced_centimetric_radar.dds"
+}	
 
 #replaced air
 
@@ -1710,66 +1839,6 @@ SpriteType = {
 		name = "GFX_jet_engines_medium"
 		texturefile = "gfx/interface/technologies/jet_engines.dds"
 	}
-	
-	SpriteType = {
-		name = "GFX_electronic_mechanical_engineering_medium"
-		texturefile = "gfx/interface/technologies/electronic_mechanical_engineering.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_radio_medium"
-		texturefile = "gfx/interface/technologies/radio.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_radio_detection_medium"
-		texturefile = "gfx/interface/technologies/radio_detection.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_decimetric_radar_medium"
-		texturefile = "gfx/interface/technologies/decimetric_radar.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_improved_decimetric_radar_medium"
-		texturefile = "gfx/interface/technologies/improved_decimetric_radar.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_centimetric_radar_medium"
-		texturefile = "gfx/interface/technologies/centimetric_radar.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_improved_centimetric_radar_medium"
-		texturefile = "gfx/interface/technologies/improved_centimetric_radar.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_advanced_centimetric_radar_medium"
-		texturefile = "gfx/interface/technologies/advanced_centimetric_radar.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_mechanical_computing_medium"
-		texturefile = "gfx/interface/technologies/mechanical_computing.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_computing_machine_medium"
-		texturefile = "gfx/interface/technologies/computing_machine.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_improved_computing_machine_medium"
-		texturefile = "gfx/interface/technologies/improved_computing_machine.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_advanced_computing_machine_medium"
-		texturefile = "gfx/interface/technologies/advanced_computing_machine.dds"
-	}	
 	
 	SpriteType = {
 		name = "GFX_basic_encryption_medium"

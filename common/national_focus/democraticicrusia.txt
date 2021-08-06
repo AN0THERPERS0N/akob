@@ -2532,7 +2532,7 @@ focus = {
 	} 
 	 
 	focus = {
-	id = DCR_kick_start_elections_in_theberia
+	id = DCR_increase_theberian_autonomy
 	x = 3
 	y = 14
 	icon = GFX_goal_generic_demand_territory
@@ -2876,7 +2876,7 @@ focus = {
 	icon = "GFX_goal_generic_alliance"
 	#relative_position_id = AST_empower_the_workers
 	 
-	prerequisite = { focus = DCR_kick_start_elections_in_theberia }
+	prerequisite = { focus = DCR_increase_theberian_autonomy }
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
 	 
@@ -2902,7 +2902,7 @@ focus = {
 	icon = "GFX_goal_generic_propaganda"
 	#relative_position_id = AST_empower_the_workers
 	 
-	prerequisite = { focus = DCR_kick_start_elections_in_theberia }
+	prerequisite = { focus = DCR_increase_theberian_autonomy }
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
 	 
@@ -2928,7 +2928,7 @@ focus = {
 	icon = GFX_goal_corruption
 	#relative_position_id = AST_empower_the_workers
 	 
-	prerequisite = { focus = DCR_kick_start_elections_in_theberia }
+	prerequisite = { focus = DCR_increase_theberian_autonomy }
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
 	 
