@@ -1,6 +1,118 @@
 spriteTypes = {	
 #akob
 
+#replaced_industry_icons
+
+SpriteType = {
+	name = "GFX_basic_machine_tools_medium"
+	texturefile = "gfx/interface/technologies/industrial_tools1.dds"
+}	
+
+SpriteType = {
+	name = "GFX_improved_machine_tools_medium"
+	texturefile = "gfx/interface/technologies/industrial_tools2.dds"
+}
+
+SpriteType = {
+	name = "GFX_advanced_machine_tools_medium"
+	texturefile = "gfx/interface/technologies/industrial_tools3.dds"
+}
+
+SpriteType = {
+	name = "GFX_construction1_medium"
+	texturefile = "gfx/interface/technologies/construction_I.dds"
+}
+
+SpriteType = {
+	name = "GFX_construction2_medium"
+	texturefile = "gfx/interface/technologies/construction_II.dds"
+}
+
+SpriteType = {
+	name = "GFX_construction3_medium"
+	texturefile = "gfx/interface/technologies/construction_III.dds"
+}	
+
+SpriteType = {
+	name = "GFX_construction4_medium"
+	texturefile = "gfx/interface/technologies/construction_IV.dds"
+}
+
+SpriteType = {
+	name = "GFX_construction5_medium"
+	texturefile = "gfx/interface/technologies/construction_V.dds"
+}	
+
+SpriteType = {
+	name = "GFX_excavation5_medium"
+	texturefile = "gfx/interface/technologies/excavation_V.dds"
+}	
+
+SpriteType = {
+	name = "GFX_excavation4_medium"
+	texturefile = "gfx/interface/technologies/excavation_IV.dds"
+}		
+
+SpriteType = {
+	name = "GFX_excavation3_medium"
+	texturefile = "gfx/interface/technologies/excavation_III.dds"
+}	
+
+SpriteType = {
+	name = "GFX_excavation2_medium"
+	texturefile = "gfx/interface/technologies/excavation_II.dds"
+}	
+
+SpriteType = {
+	name = "GFX_excavation1_medium"
+	texturefile = "gfx/interface/technologies/excavation_I.dds"
+}
+
+SpriteType = {
+	name = "GFX_synth_oil_experiments_medium"
+	texturefile = "gfx/interface/technologies/synth_voidmetal.dds"
+}	
+
+SpriteType = {
+	name = "GFX_modern_oil_processing_medium"
+	texturefile = "gfx/interface/technologies/coal_processing4.dds"
+}
+
+SpriteType = {
+	name = "GFX_advanced_oil_processing_medium"
+	texturefile = "gfx/interface/technologies/coal_processing3.dds"
+}	
+
+SpriteType = {
+	name = "GFX_improved_oil_processing_medium"
+	texturefile = "gfx/interface/technologies/coal_processing2.dds"
+}	
+
+SpriteType = {
+	name = "GFX_oil_processing_medium"
+	texturefile = "gfx/interface/technologies/coal_processing.dds"
+}
+
+SpriteType = {
+	name = "GFX_rubber_processing_medium"
+	texturefile = "gfx/interface/technologies/voidmetal_processing.dds"
+}
+
+SpriteType = {
+	name = "GFX_improved_rubber_processing_medium"
+	texturefile = "gfx/interface/technologies/voidmetal_processing2.dds"
+}
+
+SpriteType = {
+	name = "GFX_advanced_rubber_processing_medium"
+	texturefile = "gfx/interface/technologies/voidmetal_processing3.dds"
+}	
+
+SpriteType = {
+	name = "GFX_modern_rubber_processing_medium"
+	texturefile = "gfx/interface/technologies/voidmetal_processing4.dds"
+}
+
 #new electronic icons
 SpriteType = {
 	name = "GFX_compactor_medium"
@@ -1906,47 +2018,6 @@ SpriteType = {
 	}	
 	
 	### INDUSRTY TECH ###
-	
-	SpriteType = {
-		name = "GFX_excavation5_medium"
-		texturefile = "gfx/interface/technologies/excavation5.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_excavation4_medium"
-		texturefile = "gfx/interface/technologies/excavation4.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_excavation3_medium"
-		texturefile = "gfx/interface/technologies/excavation3.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_excavation2_medium"
-		texturefile = "gfx/interface/technologies/excavation2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_excavation1_medium"
-		texturefile = "gfx/interface/technologies/excavation1.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_basic_machine_tools_medium"
-		texturefile = "gfx/interface/technologies/basic_machine_tools.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_improved_machine_tools_medium"
-		texturefile = "gfx/interface/technologies/improved_machine_tools.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_advanced_machine_tools_medium"
-		texturefile = "gfx/interface/technologies/advanced_machine_tools.dds"
-	}
-
 	SpriteType = {
 		name = "GFX_assembly_line_production_medium"
 		texturefile = "gfx/interface/technologies/assembly_line_production.dds"
@@ -2045,79 +2116,11 @@ SpriteType = {
 		name = "GFX_fuel_refining5_medium"
 		texturefile = "gfx/interface/technologies/fuel_refining5.dds"
 	}			
-	SpriteType = {
-		name = "GFX_synth_oil_experiments_medium"
-		texturefile = "gfx/interface/technologies/synth_oil_experiments.dds"
-	}	
+	
 	
 	SpriteType = {
 		name = "GFX_early_refining_medium"
 		texturefile = "gfx/interface/technologies/early_refining.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_modern_oil_processing_medium"
-		texturefile = "gfx/interface/technologies/modern_oil_processing.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_advanced_oil_processing_medium"
-		texturefile = "gfx/interface/technologies/advanced_oil_processing.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_improved_oil_processing_medium"
-		texturefile = "gfx/interface/technologies/improved_oil_processing.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_oil_processing_medium"
-		texturefile = "gfx/interface/technologies/oil_processing.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_rubber_processing_medium"
-		texturefile = "gfx/interface/technologies/rubber_processing.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_improved_rubber_processing_medium"
-		texturefile = "gfx/interface/technologies/improved_rubber_processing.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_advanced_rubber_processing_medium"
-		texturefile = "gfx/interface/technologies/advanced_rubber_processing.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_modern_rubber_processing_medium"
-		texturefile = "gfx/interface/technologies/modern_rubber_processing.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_construction1_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_construction2_medium"
-		texturefile = "gfx/interface/technologies/improved_construction.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_construction3_medium"
-		texturefile = "gfx/interface/technologies/advanced_construction.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_construction4_medium"
-		texturefile = "gfx/interface/technologies/improved_conversion.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_construction5_medium"
-		texturefile = "gfx/interface/technologies/advanced_conversion.dds"
 	}	
 	
 	### NAVAL TECH ###
