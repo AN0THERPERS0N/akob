@@ -1,0 +1,290 @@
+ideas = {
+	political_advisor = {
+
+		ICR_theunis_rochus = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		ICR_willy_gerlach = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { communist_revolutionary }
+		}
+
+		ICR_roland_sieuwerd = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		ICR_sjors_timotheus = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		ICR_martinus_wubbe = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		ICR_marco_izaac = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { war_industrialist }
+		}
+
+	}
+
+	theorist = {
+
+		ICR_crispian_shelly = {
+			ledger = army
+					
+			picture = generic_political_advisor_arab_2
+
+			allowed = {
+				original_tag = ICR
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+
+		ICR_pace_marcus = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = ICR
+			}
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.10
+			}
+			
+			traits = { mobile_warfare_expert }
+		}
+	}
+
+	high_command = {
+
+		ICR_shel_ira = {
+			ledger = army
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { army_chief_maneuver_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ICR_abram_elian = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ICR_chesley_thatcher = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { army_cavalry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ICR_robin_frankie = {
+			ledger = army
+
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { army_logistics_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		ICR_koert_storm = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { army_chief_offensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ICR_jayceon_carrol = {
+			
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { army_chief_drill_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ICR_olly_rodge = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	air_chief = {
+		
+
+		ICR_earnest_carlisle = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ICR_haven_rjan = {
+			
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		ICR_garrick_stijn = {
+			
+			picture = generic_navy_arab_2
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ICR_devereux_mitch = {
+			
+			picture = generic_navy_arab_1
+			
+			allowed = {
+				original_tag = ICR
+			}
+			
+			traits = { navy_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

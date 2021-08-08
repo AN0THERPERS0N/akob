@@ -1,0 +1,290 @@
+ideas = {
+	political_advisor = {
+
+		LCR_theunis_rochus = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		LCR_willy_gerlach = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { communist_revolutionary }
+		}
+
+		LCR_roland_sieuwerd = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		LCR_sjors_timotheus = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		LCR_martinus_wubbe = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		LCR_marco_izaac = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { war_industrialist }
+		}
+
+	}
+
+	theorist = {
+
+		LCR_crispian_shelly = {
+			ledger = army
+					
+			picture = generic_political_advisor_arab_2
+
+			allowed = {
+				original_tag = LCR
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+
+		LCR_pace_marcus = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = LCR
+			}
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.10
+			}
+			
+			traits = { mobile_warfare_expert }
+		}
+	}
+
+	high_command = {
+
+		LCR_shel_ira = {
+			ledger = army
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { army_chief_maneuver_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		LCR_abram_elian = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		LCR_chesley_thatcher = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { army_cavalry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		LCR_robin_frankie = {
+			ledger = army
+
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { army_logistics_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		LCR_koert_storm = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { army_chief_offensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		LCR_jayceon_carrol = {
+			
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { army_chief_drill_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		LCR_olly_rodge = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	air_chief = {
+		
+
+		LCR_earnest_carlisle = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		LCR_haven_rjan = {
+			
+			picture = generic_air_arab_3
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		LCR_garrick_stijn = {
+			
+			picture = generic_navy_arab_2
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		LCR_devereux_mitch = {
+			
+			picture = generic_navy_arab_1
+			
+			allowed = {
+				original_tag = LCR
+			}
+			
+			traits = { navy_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
