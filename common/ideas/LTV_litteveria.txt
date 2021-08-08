@@ -1,0 +1,205 @@
+ideas = {
+	political_advisor = { 
+ LTV_lynwood_arrington = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { captain_of_industry }
+ } 
+ LTV_otto_marquez = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { silent_workhorse }
+ } 
+ LTV_fletcher_montague = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { war_industrialist }
+ } 
+ LTV_fritz_ames = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { popular_figurehead }
+ } 
+ LTV_florencio_main = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { fortification_engineer }
+ } 
+ LTV_quinton_palacios = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { backroom_backstabber }
+ } 
+
+
+
+
+
+ }
+theorist = { 
+ LTV_aldo_weir = {
+                        ledger = army
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { military_theorist }
+ } 
+
+
+ }
+army_chief = { 
+ LTV_fletcher_bustamante = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { army_chief_defensive_2 }
+ } 
+ LTV_leonardo_yancey = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { army_chief_old_guard }
+ } 
+ LTV_mervin_thornburg = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { army_chief_organizational_1 }
+ } 
+
+
+
+
+
+
+
+ }
+air_chief = { 
+ LTV_jewell_kunz = {
+
+                        picture = generic_political_advisor_arab_1
+                        
+                        allowed = {
+                                original_tag = LTV
+                        }
+                        
+                        traits = { air_chief_ground_support_1 }
+ } 
+
+
+
+
+ }
+ high_command = {
+
+	LTV_odis_guajardo = {
+		ledger = army
+
+		picture = generic_political_advisor_arab_1
+		
+		allowed = {
+			original_tag = LTV
+		}
+		
+		traits = { army_cavalry_1 }
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LTV_dewayne_barham = {
+		ledger = army
+
+		picture = generic_army_arab_2
+		
+		allowed = {
+			original_tag = LTV
+		}
+		
+		traits = { army_infantry_2 }
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LTV_lawerence_katz = {
+		ledger = army
+
+		picture = generic_navy_arab_3
+		
+		allowed = {
+			original_tag = LTV
+		}
+		
+		traits = { army_regrouping_2 }
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LTV_augustus_keck = {
+		ledger = army
+
+		picture = generic_army_arab_3
+		
+		allowed = {
+			original_tag = LTV
+		}
+		
+		traits = { army_logistics_2 }
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+}

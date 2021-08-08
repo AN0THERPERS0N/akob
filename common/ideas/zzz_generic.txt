@@ -1071,7 +1071,7 @@ ideas = {
 		generic_communist_revolutionary = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 				NOT = {
 					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
 				}
@@ -1080,7 +1080,7 @@ ideas = {
 
 			available = {
 				if = {
-					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
@@ -1106,7 +1106,7 @@ ideas = {
 		generic_democratic_reformer = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 				NOT = {
 					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
 				}	
@@ -1114,7 +1114,7 @@ ideas = {
 			
 			available = {
 				if = {
-					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
@@ -1141,7 +1141,7 @@ ideas = {
 		generic_fascist_demagogue = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 				NOT = {
 					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
 				}
@@ -1149,7 +1149,7 @@ ideas = {
 			
 			available = {
 				if = {
-					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}				
@@ -1174,7 +1174,7 @@ ideas = {
 
 		generic_head_of_intelligence = {
 			allowed = { 
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 				has_dlc = "La Resistance"
 			}
 			visible = {
@@ -1195,7 +1195,7 @@ ideas = {
 				}
 			}
 			available = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 				has_intelligence_agency = yes
 			}
 			traits = { head_of_intelligence }
@@ -1462,7 +1462,7 @@ ideas = {
 		generic_captain_of_industry = {
 
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { captain_of_industry }
@@ -1471,7 +1471,7 @@ ideas = {
 		generic_fortification_engineer = {
 
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { fortification_engineer }
@@ -1480,7 +1480,7 @@ ideas = {
 		generic_war_industrialist = {
 
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { war_industrialist }
@@ -1492,7 +1492,7 @@ ideas = {
 		generic_army_chief_off = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { army_chief_offensive_1 }
@@ -1501,7 +1501,7 @@ ideas = {
 		generic_army_chief_def = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { army_chief_defensive_1 }
@@ -1513,7 +1513,7 @@ ideas = {
 		generic_navy_chief_decisive_bat = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { navy_chief_decisive_battle_2 }
@@ -1522,7 +1522,7 @@ ideas = {
 		generic_navy_anti_submarine = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { navy_anti_submarine_2 }
@@ -1534,7 +1534,7 @@ ideas = {
 		generic_air_close_air_sup = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { air_close_air_support_2 }
@@ -1543,7 +1543,7 @@ ideas = {
 		generic_air_chief_all_weather = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { air_chief_all_weather_2 }			
@@ -1556,7 +1556,7 @@ ideas = {
 			ledger = army
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { army_artillery_1 }			
@@ -1566,7 +1566,7 @@ ideas = {
 			ledger = army
 
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { army_logistics_2 }			
@@ -1576,7 +1576,7 @@ ideas = {
 			ledger = navy
 
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { navy_fleet_logistics_1 }			
@@ -1586,7 +1586,7 @@ ideas = {
 			ledger = air
 
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			traits = { air_air_combat_training_2 }			
@@ -1599,7 +1599,7 @@ ideas = {
 			ledger = army
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			research_bonus = {
@@ -1613,7 +1613,7 @@ ideas = {
 			ledger = navy
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			research_bonus = {
@@ -1627,7 +1627,7 @@ ideas = {
 			ledger = air
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
 			}
 			
 			research_bonus = {
