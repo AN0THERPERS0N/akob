@@ -1,0 +1,46 @@
+bookmarks = {
+	bookmark = {
+		name = "Icrusia at War"
+		desc = "ICRUSIA_AT_WAR_DESC"
+		date = 1714.9.1.1
+		picture = "GFX_select_date_1714"
+		default_country = "ICR"
+		default = yes
+		
+		
+		"ICR"={
+			history = "ICR_IAW_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+				ICR_icrusia_at_war
+				ICR_reform_the_grand_armee
+				ICR_our_eagle_flying_high
+			}
+		}
+
+		"---"={
+			history = "OTHER_IAW_DESC"
+		}
+
+
+		# minors from DLC ####
+		"ILD"={
+			minor = yes
+			history = "ILD_IAW_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				ILD_end_the_succession_crisis
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

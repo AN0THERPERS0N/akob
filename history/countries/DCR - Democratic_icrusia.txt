@@ -60,6 +60,17 @@ add_opinion_modifier = {
     modifier = cheat_opinion_modifier_good 
 }
 
+create_country_leader = {
+	name = "Vitas"
+	desc = "POLITICS_VITAS_DESC"
+	picture = "gfx/leaders/DCR/Portrait_Vitas.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
 #Victor Emmanuel III of Italy after 39
 #create_country_leader = {
 	#name = "King Zog"

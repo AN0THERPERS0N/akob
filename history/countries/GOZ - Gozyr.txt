@@ -1,4 +1,4 @@
-﻿capital = 99
+﻿capital = 29
 
 OOB = "GOZ_1714"
 
