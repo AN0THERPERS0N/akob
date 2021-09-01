@@ -1,18 +1,17 @@
 technologies = {
-	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	gwtank = { #Leichttraktor
+	akob_basic_magic = { #Leichttraktor
 
 		enable_subunits = {
 			akob_basic_mages
 		}
 	
 		path = {
-			leads_to_tech = basic_light_tank
+			leads_to_tech = akob_sorcerer_I
 			research_cost_coeff = 1
 		}
 	
 		path = {
-			leads_to_tech = basic_heavy_tank
+			leads_to_tech = akob_conjuror_I
 			research_cost_coeff = 1
 		}
 		
@@ -29,7 +28,7 @@ technologies = {
 		}
 	}	
 
-	basic_light_tank = { #Panzer I
+	akob_sorcerer_I = { #Panzer I
 
 		enable_equipments = {
 			akob_sorcerer_equipment_0 
@@ -39,7 +38,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_light_tank
+			leads_to_tech = akob_sorcerer_II
 			research_cost_coeff = 1
 		}
 		
@@ -56,14 +55,14 @@ technologies = {
 		}
 	}	
 
-	improved_light_tank = { #Panzer II
+	akob_sorcerer_II = { #Panzer II
 
 		enable_equipments = {
 			akob_sorcerer_equipment_1 
 		}
 		
 		path = {
-			leads_to_tech = advanced_light_tank
+			leads_to_tech = akob_sorcerer_III
 			research_cost_coeff = 1
 		}
 		
@@ -81,14 +80,14 @@ technologies = {
 		}
 	}
 	
-	advanced_light_tank = { #Leopard
+	akob_sorcerer_III = { #Leopard
 
 		enable_equipments = {
 			akob_sorcerer_equipment_2 
 		}	
 
 		path = {
-			leads_to_tech = basic_medium_tank
+			leads_to_tech = akob_sorcerer_IV
 			research_cost_coeff = 1
 		}
 		
@@ -129,7 +128,7 @@ technologies = {
 		}
 	}
 	
-	basic_medium_tank = { #Panzer III
+	akob_sorcerer_IV = { #Panzer III
 
 		enable_equipments = {
 			akob_sorcerer_equipment_3 
@@ -149,7 +148,7 @@ technologies = {
 		}
 	}
 	
-	main_battle_tank = { #E-50
+	akob_conjuror_IV = { #E-50
 
 		enable_equipments = {
 			akob_conjuror_equipment_3
@@ -188,7 +187,7 @@ technologies = {
 		}
 	}
 	
-	basic_heavy_tank = { #Grosstraktor
+	akob_conjuror_I = { #Grosstraktor
 
 		enable_equipments = {
 			akob_conjuror_equipment_0 
@@ -199,7 +198,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_heavy_tank
+			leads_to_tech = akob_conjuror_II
 			research_cost_coeff = 1
 		}
 		
@@ -217,14 +216,14 @@ technologies = {
 		}
 	}
 	
-	improved_heavy_tank = { #Tiger
+	akob_conjuror_II = { #Tiger
 
 		enable_equipments = {
 			akob_conjuror_equipment_1 
 		}
 		
 		path = {
-			leads_to_tech = advanced_heavy_tank 
+			leads_to_tech = akob_conjuror_III 
 			research_cost_coeff = 1
 		}
 		
@@ -242,14 +241,14 @@ technologies = {
 		}
 	}
 	
-	advanced_heavy_tank = { #King Tiger
+	akob_conjuror_III = { #King Tiger
 
 		enable_equipments = {
 			akob_conjuror_equipment_2 
 		}
 		
 		path = {
-			leads_to_tech = main_battle_tank 
+			leads_to_tech = akob_conjuror_IV 
 			research_cost_coeff = 1
 		}
 		

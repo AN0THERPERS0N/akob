@@ -1,15 +1,15 @@
 technologies = {
-	electronic_mechanical_engineering = {
+	metalworks_I = {
 
 		# small boost to research speed
 		research_speed_factor = 0.03
 		
 		path = {
-			leads_to_tech = radio 
+			leads_to_tech = basic_telepathy_I 
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = mechanical_computing 
+			leads_to_tech = metalworks_II 
 			research_cost_coeff = 1
 		}
 
@@ -41,13 +41,13 @@ technologies = {
 
 	}
 	
-	radio = {
+	basic_telepathy_I = {
 
 		# units with radios can more efficiently join combats when there is room
 		land_reinforce_rate = 0.05
 		
 		path = {
-			leads_to_tech = radio_detection 
+			leads_to_tech = basic_telepathy_II 
 			research_cost_coeff = 1
 		}
 		
@@ -80,7 +80,7 @@ technologies = {
 		}
 	}
 	
-	radio_detection = {
+	basic_telepathy_II = {
 
 		# 
 		enable_building = {
@@ -89,7 +89,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = decimetric_radar 
+			leads_to_tech = telepathy_tower_I 
 			research_cost_coeff = 1
 		}
 		
@@ -114,12 +114,12 @@ technologies = {
 		}
 	}
 	
-	decimetric_radar = {
+	telepathy_tower_I = {
 
 		# can build radars/radar boost in air/sea combat depends on radar level
 
 		path = {
-			leads_to_tech = improved_decimetric_radar 
+			leads_to_tech = telepathy_tower_II 
 			research_cost_coeff = 1
 		}
 		
@@ -144,7 +144,7 @@ technologies = {
 		}
 	}
 	
-	improved_decimetric_radar = {
+	telepathy_tower_II = {
 
 		# radar boost in air/sea combat depends on radar level
 		enable_building = {
@@ -157,7 +157,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = centimetric_radar 
+			leads_to_tech = telepathy_tower_III 
 			research_cost_coeff = 1
 		}
 		
@@ -175,7 +175,7 @@ technologies = {
 		}
 	}
 	
-	centimetric_radar = {
+	telepathy_tower_III = {
 
 		# radar boost in air/sea combat depends on radar level
 		enable_building = {
@@ -201,13 +201,13 @@ technologies = {
 		}
 	}
 	
-	mechanical_computing = {
+	metalworks_II = {
 
 		# small boost to research speed
 		research_speed_factor = 0.04
 		
 		path = {
-			leads_to_tech = computing_machine 
+			leads_to_tech = steam_engine_I 
 			research_cost_coeff = 1
 		}
 
@@ -233,21 +233,13 @@ technologies = {
 		}
 	}
 	
-	computing_machine = {
+	steam_engine_I = {
 
 		# small boost to research speed
 		research_speed_factor = 0.05
 		
 		path = {
-			leads_to_tech = improved_computing_machine 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = basic_encryption 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = basic_decryption 
+			leads_to_tech = steam_engine_II 
 			research_cost_coeff = 1
 		}
 		path = {
@@ -284,21 +276,13 @@ technologies = {
 		}
 	}
 	
-	improved_computing_machine = {
+	steam_engine_II = {
 
 		# small boost to research speed
 		research_speed_factor = 0.08
 		
 		path = {
-			leads_to_tech = advanced_computing_machine 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = improved_encryption 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = improved_decryption 
+			leads_to_tech = steam_engine_III 
 			research_cost_coeff = 1
 		}
 
@@ -323,19 +307,10 @@ technologies = {
 		}
 	}
 	
-	advanced_computing_machine = {
+	steam_engine_III = {
 
 		# small boost to research speed
 		research_speed_factor = 0.08
-		
-		path = {
-			leads_to_tech = advanced_encryption 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = advanced_decryption 
-			research_cost_coeff = 1
-		}
 		
 		research_cost = 2.5
 		start_year = 1942
@@ -364,132 +339,6 @@ technologies = {
 			encryption_tech
 			decryption_tech
 			computing_tech
-		}
-	}
-	
-	basic_encryption = {
-
-		# encryption 1
-		encryption = 1
-		
-		research_cost = 1
-		start_year = 1938
-		allow_branch = {
-			NOT = { has_dlc = "La Resistance" }
-		}
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 6 }
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-		}
-	}
-	
-	improved_encryption = {
-
-		# encryption 2
-		encryption = 1
-		allow_branch = {
-			NOT = { has_dlc = "La Resistance" }
-		}
-		research_cost = 1
-		start_year = 1940
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 10 }
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-		}
-	}
-	
-	advanced_encryption = {
-
-		# encryption 3
-		encryption = 1
-		allow_branch = {
-			NOT = { has_dlc = "La Resistance" }
-		}
-		research_cost = 1
-		start_year = 1942
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 14 }
-		}
-		
-		categories = {
-			electronics
-			encryption_tech
-		}
-	}
-	
-	basic_decryption = {
-
-		# decryption 1
-		decryption = 1
-		allow_branch = {
-			NOT = { has_dlc = "La Resistance" }
-		}
-		research_cost = 1.5
-		start_year = 1938
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 6 }
-		}
-		
-		categories = {
-			electronics
-			decryption_tech
-		}
-	}
-	
-	improved_decryption = {
-
-		# decryption 2
-		decryption = 1
-		allow_branch = {
-			NOT = { has_dlc = "La Resistance" }
-		}
-		research_cost = 1.5
-		start_year = 1940
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 10 }
-		}
-		
-		categories = {
-			electronics
-			decryption_tech
-		}
-	}
-	
-	advanced_decryption = {
-
-		# decryption 3
-		decryption = 1
-		allow_branch = {
-			NOT = { has_dlc = "La Resistance" }
-		}
-		research_cost = 1.5
-		start_year = 1942
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 14 }
-		}
-		
-		categories = {
-			electronics
-			decryption_tech
 		}
 	}
 

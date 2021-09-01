@@ -1,12 +1,12 @@
 technologies = {
 
-	basic_machine_tools = {
+	basic_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
 
 		
 		path = {
-			leads_to_tech = improved_machine_tools 
+			leads_to_tech = heat_tools 
 			research_cost_coeff = 1
 		}
 		
@@ -37,12 +37,12 @@ technologies = {
 	}
 
 	#Machine tools branch	
-	improved_machine_tools = {
+	heat_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
 
 		path = {
-			leads_to_tech = advanced_machine_tools 
+			leads_to_tech = power_tools 
 			research_cost_coeff = 1
 		}
 
@@ -73,7 +73,7 @@ technologies = {
 		}
 	}
 	
-	advanced_machine_tools = {
+	power_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
 		
@@ -672,7 +672,7 @@ technologies = {
 		}
 				
 		path = {
-			leads_to_tech = synth_oil_experiments 
+			leads_to_tech = void_synthesis_experiments 
 			research_cost_coeff = 1
 		}
 		path = {
@@ -804,7 +804,7 @@ technologies = {
 		}	
 	}
 	
-	synth_oil_experiments = {
+	void_synthesis_experiments = {
 
 		enable_building = {
 			building = akob_coal_mine
@@ -812,11 +812,11 @@ technologies = {
 		}
 				
 		path = {
-			leads_to_tech = oil_processing 
+			leads_to_tech = coal_processing_I 
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = rubber_processing 
+			leads_to_tech = voidmetal_processing_I 
 			research_cost_coeff = 1
 		}
 		
@@ -833,14 +833,14 @@ technologies = {
 		}
 	}
 	
-	oil_processing = {
+	coal_processing_I = {
 		
 		fuel_gain_factor_from_states = 0.5
 
 		start_year = 1937
 
 		path = {
-			leads_to_tech = improved_oil_processing
+			leads_to_tech = coal_processing_II
 			research_cost_coeff = 1
 		}
 		
@@ -859,12 +859,12 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 	
-	improved_oil_processing = {
+	coal_processing_II = {
 		
 		fuel_gain_factor_from_states = 0.5
 
 		path = {
-			leads_to_tech = advanced_oil_processing
+			leads_to_tech = coal_processing_III
 			research_cost_coeff = 1
 		}
 		
@@ -884,12 +884,12 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 	
-	advanced_oil_processing = {
+	coal_processing_III = {
 
 		fuel_gain_factor_from_states = 0.5
 
 		path = {
-			leads_to_tech = modern_oil_processing
+			leads_to_tech = coal_processing_IV
 			research_cost_coeff = 1
 		}
 		
@@ -909,7 +909,7 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 
-	modern_oil_processing = {
+	coal_processing_IV = {
 
 		fuel_gain_factor_from_states = 0.5
 		
@@ -931,7 +931,7 @@ technologies = {
 	}
 
 	#####################################
-	rubber_processing = {
+	voidmetal_processing_I = {
 
 		on_research_complete = {
 			modify_building_resources = {
@@ -942,7 +942,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = improved_rubber_processing
+			leads_to_tech = voidmetal_processing_II
 			research_cost_coeff = 1
 		}
 		
@@ -962,7 +962,7 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 	
-	improved_rubber_processing = {
+	voidmetal_processing_II = {
 
 		on_research_complete = {
 			modify_building_resources = {
@@ -973,7 +973,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = advanced_rubber_processing
+			leads_to_tech = voidmetal_processing_III
 			research_cost_coeff = 1
 		}
 		
@@ -997,7 +997,7 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 	
-	advanced_rubber_processing = {
+	voidmetal_processing_III = {
 
 		on_research_complete = {
 			modify_building_resources = {
@@ -1008,7 +1008,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = modern_rubber_processing
+			leads_to_tech = voidmetal_processing_IV
 			research_cost_coeff = 1
 		}
 		
@@ -1028,7 +1028,7 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 
-	modern_rubber_processing = {
+	voidmetal_processing_IV = {
 
 		on_research_complete = {
 			modify_building_resources = {

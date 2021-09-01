@@ -1,0 +1,593 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_basic_tools_medium"
+		texturefile = "gfx/interface/technologies/industrial_tools1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_heat_tools_medium"
+		texturefile = "gfx/interface/technologies/industrial_tools2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_power_tools_medium"
+		texturefile = "gfx/interface/technologies/industrial_tools3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_construction1_medium"
+		texturefile = "gfx/interface/technologies/construction_I.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_construction2_medium"
+		texturefile = "gfx/interface/technologies/construction_II.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_construction3_medium"
+		texturefile = "gfx/interface/technologies/construction_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_construction4_medium"
+		texturefile = "gfx/interface/technologies/construction_IV.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_construction5_medium"
+		texturefile = "gfx/interface/technologies/construction_V.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_excavation5_medium"
+		texturefile = "gfx/interface/technologies/excavation_V.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_excavation4_medium"
+		texturefile = "gfx/interface/technologies/excavation_IV.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_excavation3_medium"
+		texturefile = "gfx/interface/technologies/excavation_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_excavation2_medium"
+		texturefile = "gfx/interface/technologies/excavation_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_excavation1_medium"
+		texturefile = "gfx/interface/technologies/excavation_I.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_void_synthesis_experiments_medium"
+		texturefile = "gfx/interface/technologies/synth_voidmetal.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_coal_processing_IV_medium"
+		texturefile = "gfx/interface/technologies/coal_processing4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_coal_processing_III_medium"
+		texturefile = "gfx/interface/technologies/coal_processing3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_coal_processing_II_medium"
+		texturefile = "gfx/interface/technologies/coal_processing2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_coal_processing_I_medium"
+		texturefile = "gfx/interface/technologies/coal_processing.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_voidmetal_processing_I_medium"
+		texturefile = "gfx/interface/technologies/voidmetal_processing.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_voidmetal_processing_II_medium"
+		texturefile = "gfx/interface/technologies/voidmetal_processing2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_voidmetal_processing_III_medium"
+		texturefile = "gfx/interface/technologies/voidmetal_processing3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_voidmetal_processing_IV_medium"
+		texturefile = "gfx/interface/technologies/voidmetal_processing4.dds"
+	}
+	
+	#new electronic icons
+	SpriteType = {
+		name = "GFX_compactor_medium"
+		texturefile = "gfx/interface/technologies/compactor_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_compactor2_medium"
+		texturefile = "gfx/interface/technologies/compactor_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_compactor3_medium"
+		texturefile = "gfx/interface/technologies/compactor_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_compressor_medium"
+		texturefile = "gfx/interface/technologies/compressor_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_compressor2_medium"
+		texturefile = "gfx/interface/technologies/compressor_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_compressor3_medium"
+		texturefile = "gfx/interface/technologies/compressor_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_speed_heating_medium"
+		texturefile = "gfx/interface/technologies/speed_heating.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_arcanic_industry_medium"
+		texturefile = "gfx/interface/technologies/arcanic_industry.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_proxy_tools1_medium"
+		texturefile = "gfx/interface/technologies/proxy_tools_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_proxy_tools2_medium"
+		texturefile = "gfx/interface/technologies/proxy_tools_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_proxy_tools3_medium"
+		texturefile = "gfx/interface/technologies/proxy_tools_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_proxy_tools4_medium"
+		texturefile = "gfx/interface/technologies/proxy_tools_IV.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_proxy_tools5_medium"
+		texturefile = "gfx/interface/technologies/proxy_tools_V.dds"
+	}	
+	
+	#replaced electronics
+	
+	SpriteType = {
+		name = "GFX_metalworks_I_medium"
+		texturefile = "gfx/interface/technologies/steam_engineering.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_metalworks_II_medium"
+		texturefile = "gfx/interface/technologies/steam_engineering_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_steam_engine_I_medium"
+		texturefile = "gfx/interface/technologies/steam_engineering_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_steam_engine_II_medium"
+		texturefile = "gfx/interface/technologies/steam_engineering_IV.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_steam_engine_III_medium"
+		texturefile = "gfx/interface/technologies/steam_engineering_V.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_basic_telepathy_I_medium"
+		texturefile = "gfx/interface/technologies/telepathy_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_basic_telepathy_II_medium"
+		texturefile = "gfx/interface/technologies/telepathy_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_telepathy_tower_I_medium"
+		texturefile = "gfx/interface/technologies/telepathy_tower_I.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_telepathy_tower_II_medium"
+		texturefile = "gfx/interface/technologies/telepathy_tower_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_telepathy_tower_III_medium"
+		texturefile = "gfx/interface/technologies/telepathy_tower_III.dds"
+	}	
+	
+	#replaced air
+	
+	SpriteType = {
+		name = "GFX_akob_arcane_I2_medium"
+		texturefile = "gfx/interface/technologies/arcane.dds"
+	}	
+	
+	#replaced tanks
+	
+	SpriteType = {
+		name = "GFX_akob_basic_magic_medium"
+		texturefile = "gfx/interface/technologies/mage.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_sorcerer_II_medium"
+		texturefile = "gfx/interface/technologies/sorcerer_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_sorcerer_III_medium"
+		texturefile = "gfx/interface/technologies/sorcerer_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_sorcerer_IV_medium"
+		texturefile = "gfx/interface/technologies/sorcerer_III.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_akob_sorcerer_I_medium"
+		texturefile = "gfx/interface/technologies/sorcerer.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_akob_conjuror_II_medium"
+		texturefile = "gfx/interface/technologies/conjuror_I.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_akob_conjuror_III_medium"
+		texturefile = "gfx/interface/technologies/conjuror_II.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_akob_conjuror_IV_medium"
+		texturefile = "gfx/interface/technologies/conjuror_III.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_akob_conjuror_I_medium"
+		texturefile = "gfx/interface/technologies/conjuror.dds"
+	}
+	
+	
+	#replaced artillery models
+	
+	SpriteType = {
+		name = "GFX_akob_explosive_shot_artillery_VI_medium"
+		texturefile = "gfx/interface/technologies/Bombshell_artillery_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_explosive_shot_artillery_V_medium"
+		texturefile = "gfx/interface/technologies/explosive_upgrade_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_explosive_shot_artillery_IV_medium"
+		texturefile = "gfx/interface/technologies/explosive_upgrade_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_explosive_shot_artillery_III_medium"
+		texturefile = "gfx/interface/technologies/Bombshell_artillery_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_explosive_shot_artillery_II_medium"
+		texturefile = "gfx/interface/technologies/explosive_upgrade_I.dds"
+	}	
+	SpriteType = {
+		name = "GFX_akob_explosive_shot_artillery_I_medium"
+		texturefile = "gfx/interface/technologies/Bombshell_artillery_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_canister_shot_artillery_VI_medium"
+		texturefile = "gfx/interface/technologies/Grapeshot_artillery_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_canister_shot_artillery_V_medium"
+		texturefile = "gfx/interface/technologies/Grapeshot_upgrade_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_canister_shot_artillery_IV_medium"
+		texturefile = "gfx/interface/technologies/Grapeshot_upgrade_II.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_akob_canister_shot_artillery_III_medium"
+		texturefile = "gfx/interface/technologies/Grapeshot_artillery_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_canister_shot_artillery_II_medium"
+		texturefile = "gfx/interface/technologies/Grapeshot_upgrade_I.dds"
+	}	
+	SpriteType = {
+		name = "GFX_akob_canister_shot_artillery_I_medium"
+		texturefile = "gfx/interface/technologies/Grapeshot_artillery_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_basic_artillery_medium"
+		texturefile = "gfx/interface/technologies/Cannon_artillery_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_artillery_VI_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrades_IV.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_artillery_V_medium"
+		texturefile = "gfx/interface/technologies/Cannon_artillery_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_artillery_IV_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrades_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_artillery_III_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrades_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_artillery_II_medium"
+		texturefile = "gfx/interface/technologies/Cannon_artillery_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_artillery_I_medium"
+		texturefile = "gfx/interface/technologies/cannon_upgrades_I.dds"
+	}	
+	
+	#replaced infantry models
+	
+	SpriteType = {
+		name = "GFX_akob_cavalry_1_medium"
+		texturefile = "gfx/interface/technologies/Cavalry.dds"
+	}	
+	SpriteType = {
+		name = "GFX_akob_cuirassier_3_medium"
+		texturefile = "gfx/interface/technologies/Cuirassier_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_cuirassier_2_medium"
+		texturefile = "gfx/interface/technologies/Cuirassier_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_cuirassier_1_medium"
+		texturefile = "gfx/interface/technologies/Cuirassier_I.dds"
+	}	
+	SpriteType = {
+		name = "GFX_akob_lancer_1_medium"
+		texturefile = "gfx/interface/technologies/Lancer_I.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_akob_lancer_2_medium"
+		texturefile = "gfx/interface/technologies/Lancer_II.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_akob_lancer_3_medium"
+		texturefile = "gfx/interface/technologies/Lancer_III.dds"
+	}
+	SpriteType = {
+		name = "GFX_akob_minie2_medium"
+		texturefile = "gfx/interface/technologies/minie_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_minie_medium"
+		texturefile = "gfx/interface/technologies/minie_I.dds"
+	}	
+		SpriteType = {
+			name = "GFX_akob_support_weapons_IV_medium"
+			texturefile = "gfx/interface/technologies/support_weapons_IV.dds"
+		}	
+	
+		SpriteType = {
+			name = "GFX_akob_hand_mortar_II_medium"
+			texturefile = "gfx/interface/technologies/hand_mortar_II.dds"
+		}	
+		
+		SpriteType = {
+			name = "GFX_akob_hand_mortar_I_medium"
+			texturefile = "gfx/interface/technologies/hand_mortar_I.dds"
+		}	
+		
+		SpriteType = {
+			name = "GFX_akob_support_weapons_III_medium"
+			texturefile = "gfx/interface/technologies/support_weapons_III.dds"
+		}	
+		
+		SpriteType = {
+			name = "GFX_akob_support_weapons_II_medium"
+			texturefile = "gfx/interface/technologies/support_weapons_II.dds"
+		}	
+		
+		SpriteType = {
+			name = "GFX_akob_support_weapons_I_medium"
+			texturefile = "gfx/interface/technologies/support_weapons_I.dds"
+		}		
+	
+	SpriteType = {
+		name = "GFX_akob_infantry_weapons_III_medium"
+		texturefile = "gfx/interface/technologies/support_I.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_infantry_weapons_V_medium"
+		texturefile = "gfx/interface/technologies/support_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_infantry_weapons_VII_medium"
+		texturefile = "gfx/interface/technologies/support_III.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_akob_infantry_weapons_VI_medium"
+		texturefile = "gfx/interface/technologies/flintlock.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_akob_infantry_weapons_IV_medium"
+		texturefile = "gfx/interface/technologies/doglock.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_akob_infantry_weapons_I_medium"
+		texturefile = "gfx/interface/technologies/matchlock.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_akob_infantry_weapons_II_medium"
+		texturefile = "gfx/interface/technologies/wheellock.dds"
+	}
+	
+	
+	
+	#akob
+	SpriteType = {
+			name = GFX_big_cannon_medium
+			texturefile = gfx/interface/technologies/big_cannon.dds                        
+			}
+	SpriteType = {
+			name = GFX_Cannon_upgrade_III_medium
+			texturefile = gfx/interface/technologies/Cannon_upgrade_III.dds                        
+			}
+	SpriteType = {
+			name = GFX_Howitzer_I_medium
+			texturefile = gfx/interface/technologies/Howitzer_I.dds                        
+			}
+	SpriteType = {
+			name = GFX_Howitzer_II_medium
+			texturefile = gfx/interface/technologies/Howitzer_II.dds                        
+			}
+	SpriteType = {
+			name = GFX_Howitzer_III_medium
+			texturefile = gfx/interface/technologies/Howitzer_III.dds                        
+			}
+	SpriteType = {
+			name = GFX_Howitzer_upgrade_I_medium
+			texturefile = gfx/interface/technologies/Howitzer_upgrade_I.dds                        
+			}
+	SpriteType = {
+			name = GFX_Howitzer_upgrade_II_medium
+			texturefile = gfx/interface/technologies/Howitzer_upgrade_II.dds                        
+			}
+	SpriteType = {
+			name = GFX_Howitzer_upgrade_III_medium
+			texturefile = gfx/interface/technologies/Howitzer_upgrade_III.dds                        
+			}
+	SpriteType = {
+			name = GFX_Mortar_I_medium
+			texturefile = gfx/interface/technologies/Mortar_I.dds                        
+			}
+	SpriteType = {
+			name = GFX_Mortar_II_medium
+			texturefile = gfx/interface/technologies/Mortar_II.dds                        
+			}
+	SpriteType = {
+			name = GFX_Mortar_III_medium
+			texturefile = gfx/interface/technologies/Mortar_III.dds                        
+			}
+	SpriteType = {
+			name = GFX_Mortar_upgrade_I_medium
+			texturefile = gfx/interface/technologies/Mortar_upgrade_I.dds                        
+			}
+	SpriteType = {
+			name = GFX_Mortar_upgrade_II_medium
+			texturefile = gfx/interface/technologies/Mortar_upgrade_II.dds                        
+			}
+	SpriteType = {
+			name = GFX_Mortar_upgrade_III_medium
+			texturefile = gfx/interface/technologies/Mortar_upgrade_III.dds                        
+			}
+	SpriteType = {
+			name = GFX_Cannon_I_medium
+			texturefile = gfx/interface/technologies/Cannon_I.dds                        
+			}
+	SpriteType = {
+			name = GFX_Cannon_II_medium
+			texturefile = gfx/interface/technologies/Cannon_II.dds                        
+			}
+	SpriteType = {
+			name = GFX_Cannon_III_medium
+			texturefile = gfx/interface/technologies/Cannon_III.dds                        
+			}
+	SpriteType = {
+			name = GFX_Cannon_upgrade_I_medium
+			texturefile = gfx/interface/technologies/Cannon_upgrade_I.dds                        
+			}
+	SpriteType = {
+			name = GFX_Cannon_upgrade_II_medium
+			texturefile = gfx/interface/technologies/Cannon_upgrade_II.dds                        
+			}
+	SpriteType = {
+			name = GFX_gattling_gun_I_medium
+			texturefile = gfx/interface/technologies/gattling_gun_I.dds                        
+			}
+	SpriteType = {
+			name = GFX_gattling_gun_II_medium
+			texturefile = gfx/interface/technologies/gattling_gun_II.dds                        
+			}
+	SpriteType = {
+			name = GFX_sorcery1.dds
+			texturefile = gfx/interface/technologies/sorcery1.dds                        
+			}
+	SpriteType = {
+			name = GFX_sorcery2.dds
+			texturefile = gfx/interface/technologies/sorcery2.dds                        
+			}
+	SpriteType = {
+			name = GFX_sorcery3.dds
+			texturefile = gfx/interface/technologies/sorcery3.dds                        
+			}
+	SpriteType = {
+			name = GFX_sorcery4.dds
+			texturefile = gfx/interface/technologies/sorcery4.dds                        
+			}
+
+}

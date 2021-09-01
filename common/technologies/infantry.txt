@@ -12,7 +12,7 @@ technologies = {
 	@1945 = 18
 	@1946 = 20
 
-	infantry_weapons = {
+	akob_infantry_weapons_I = {
 
 		enable_equipments = {
 			infantry_equipment_0
@@ -23,7 +23,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = infantry_weapons1
+			leads_to_tech = akob_infantry_weapons_II
 			research_cost_coeff = 1
 		}		
 
@@ -43,14 +43,14 @@ technologies = {
 		}
 	}
 	
-	infantry_weapons1 = {
+	akob_infantry_weapons_II = {
 
 		enable_equipments = {
 			infantry_equipment_1
 		}
 				
 		path = {
-			leads_to_tech = infantry_weapons2
+			leads_to_tech = akob_infantry_weapons_III
 			research_cost_coeff = 1
 		}		
 
@@ -85,7 +85,7 @@ technologies = {
 		}
 	}	
 	
-	infantry_weapons2 = {
+	akob_infantry_weapons_III = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
@@ -107,7 +107,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = improved_infantry_weapons
+			leads_to_tech = akob_infantry_weapons_IV
 			research_cost_coeff = 1
 		}		
 
@@ -146,18 +146,18 @@ technologies = {
 		}
 	}
 	
-	improved_infantry_weapons = {
+	akob_infantry_weapons_IV = {
 
 		enable_equipments = {
 			infantry_equipment_2
 		}
 		
 		path = {
-			leads_to_tech = improved_infantry_weapons_2
+			leads_to_tech = akob_infantry_weapons_V
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = infantry_at
+			leads_to_tech = akob_hand_mortar_I
 			research_cost_coeff = 1
 		}		
 
@@ -196,7 +196,7 @@ technologies = {
 			}			
 		}
 	}
-	improved_infantry_weapons_2 = {
+	akob_infantry_weapons_V = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
@@ -218,7 +218,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = advanced_infantry_weapons
+			leads_to_tech = akob_infantry_weapons_VI
 			research_cost_coeff = 1
 		}
 
@@ -253,7 +253,7 @@ technologies = {
 		}
 	}
 	
-	infantry_at = {
+	akob_hand_mortar_I = {
 
 		category_all_infantry = {
 			hard_attack = 0.25
@@ -261,7 +261,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = infantry_at2
+			leads_to_tech = akob_hand_mortar_II
 			research_cost_coeff = 1
 		}
 
@@ -296,7 +296,7 @@ technologies = {
 		}
 	}
 	
-	infantry_at2 = {
+	akob_hand_mortar_II = {
 
 		category_all_infantry = {
 			hard_attack = 0.25
@@ -334,14 +334,14 @@ technologies = {
 		}
 	}
 	
-	advanced_infantry_weapons = {
+	akob_infantry_weapons_VI = {
 
 		enable_equipments = {
 			infantry_equipment_3
 		}	
 		
 		path = {
-			leads_to_tech = advanced_infantry_weapons2
+			leads_to_tech = akob_infantry_weapons_VII
 			research_cost_coeff = 1
 		}
 
@@ -376,7 +376,7 @@ technologies = {
 		}
 	}
 	
-	advanced_infantry_weapons2 = {
+	akob_infantry_weapons_VII = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
@@ -902,12 +902,12 @@ technologies = {
 		}
 	}
 
-	night_vision = {
+	akob_minie = {
 
 		land_night_attack = 0.1
 		
 		path = {
-			leads_to_tech = night_vision2
+			leads_to_tech = akob_minie2
 			research_cost_coeff = 1
 		}
 
@@ -947,7 +947,7 @@ technologies = {
 		}
 	}
 	
-	night_vision2 = {
+	akob_minie2 = {
 
 		land_night_attack = 0.15	
 
@@ -982,7 +982,7 @@ technologies = {
 		}
 	}
 	
-	support_weapons = {
+	akob_support_weapons_I = {
 
 		infantry = {
 			defense = 0.05
@@ -1022,7 +1022,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = support_weapons2
+			leads_to_tech = akob_support_weapons_II
 			research_cost_coeff = 1
 		}
 
@@ -1073,7 +1073,7 @@ technologies = {
 		}
 	}
 	
-	support_weapons2 = {
+	akob_support_weapons_II = {
 
 		infantry = {
 			defense = 0.05
@@ -1113,7 +1113,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = support_weapons3
+			leads_to_tech = akob_support_weapons_III
 			research_cost_coeff = 1
 		}
 
@@ -1170,7 +1170,7 @@ technologies = {
 		}
 	}
 	
-	support_weapons3 = {
+	akob_support_weapons_III = {
 
 		infantry = {
 			defense = 0.05
@@ -1210,7 +1210,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = support_weapons4
+			leads_to_tech = akob_support_weapons_IV
 			research_cost_coeff = 1
 		}
 		
@@ -1254,7 +1254,7 @@ technologies = {
 		}
 	}
 	
-	support_weapons4 = {
+	akob_support_weapons_IV = {
 
 		infantry = {
 			defense = 0.05
@@ -1333,7 +1333,7 @@ technologies = {
 		}
 	}
 	
-	motorised_infantry = {
+	akob_cavalry_1 = {
 
 		enable_subunits = {
 			motorized
@@ -1356,12 +1356,12 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = mechanised_infantry
+			leads_to_tech = akob_cuirassier_1
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = armored_car1
+			leads_to_tech = akob_lancer_1
 			research_cost_coeff = 1
 		}
 
@@ -1375,10 +1375,6 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = { x = 7 y = 9 }
-		}
-		
-		sub_technologies = {
-			motorized_rocket_unit
 		}
 		
 		categories = {
@@ -1409,33 +1405,8 @@ technologies = {
 			}
 		}
 	}
-	motorized_rocket_unit = {
-
-		enable_subunits = {
-			motorized_rocket_brigade
-		}
-		enable_equipments = {
-			motorized_rocket_equipment_1
-		}
 	
-		research_cost = 1.5
-		start_year = 1939
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		
-		categories = {
-			mot_rockets
-		}
-	}
-	
-	armored_car1 = {
+	akob_lancer_1 = {
 
 		enable_equipments = {
 			akob_lancer_equipment_1
@@ -1447,7 +1418,7 @@ technologies = {
 		
 		allow_branch = { has_dlc = "La Resistance" }
 		path = {
-			leads_to_tech = armored_car2
+			leads_to_tech = akob_lancer_2
 			research_cost_coeff = 1
 		}
 
@@ -1487,14 +1458,14 @@ technologies = {
 		}
 	}
 
-	armored_car2 = {
+	akob_lancer_2 = {
 
 		enable_equipments = {
 			akob_lancer_equipment_2
 		}
 		
 		path = {
-			leads_to_tech = armored_car3
+			leads_to_tech = akob_lancer_3
 			research_cost_coeff = 1
 		}
 
@@ -1534,7 +1505,7 @@ technologies = {
 		}
 	}
 
-	armored_car3 = {
+	akob_lancer_3 = {
 
 		enable_equipments = {
 			akob_lancer_equipment_3
@@ -1615,7 +1586,7 @@ technologies = {
 		}
 	}
 
-	mechanised_infantry = {
+	akob_cuirassier_1 = {
 
 		enable_equipments = {
 			akob_cuirassier_equipment_1
@@ -1626,7 +1597,7 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = mechanised_infantry2
+			leads_to_tech = akob_cuirassier_2
 			research_cost_coeff = 1
 		}
 
@@ -1651,14 +1622,14 @@ technologies = {
 		}
 	}
 	
-	mechanised_infantry2 = {
+	akob_cuirassier_2 = {
 
 		enable_equipments = {
 			akob_cuirassier_equipment_2
 		}
 		
 		path = {
-			leads_to_tech = mechanised_infantry3
+			leads_to_tech = akob_cuirassier_3
 			research_cost_coeff = 1
 		}
 
@@ -1679,7 +1650,7 @@ technologies = {
 		}
 	}
 	
-	mechanised_infantry3 = {
+	akob_cuirassier_3 = {
 
 		enable_equipments = {
 			akob_cuirassier_equipment_3

@@ -1,6 +1,6 @@
 technologies = {
 	
-	early_fighter = {
+	akob_arcane_I = {
 
 		enable_equipments = {
 			akob_arcane_equipment_1
