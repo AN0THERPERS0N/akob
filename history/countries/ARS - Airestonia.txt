@@ -3,6 +3,20 @@
 OOB = "ARS_1714"
 
 set_technology = {
+	akob_infantry_weapons_I = 1
+	akob_infantry_weapons_II = 1
+	akob_support_weapons_I = 1
+	akob_cavalry_1 = 1
+	akob_basic_artillery = 1
+	akob_basic_magic = 1
+	akob_canister_shot_artillery_I = 1
+	akob_artillery_I = 1
+	akob_explosive_shot_artillery_I = 1
+	metalworks_I = 1
+	basic_tools = 1
+	tech_support = 1
+	akob_cuirassier_1 = 1
+	akob_lancer_1 = 1
 }
 
 set_politics = {

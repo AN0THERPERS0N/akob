@@ -278,80 +278,48 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 		if = {
 			limit = {
 				ROOT = { 
-					has_tech = radio_detection 
+					has_tech = basic_telepathy_II 
 					NOT = {
-						has_tech = decimetric_radar
+						has_tech = telepathy_tower_I
 					}
 				} 
 			}
 			FROM = { 
 				OR = {
-					has_tech = radio_detection 
-					has_tech = decimetric_radar
+					has_tech = basic_telepathy_II 
+					has_tech = telepathy_tower_I
 				}
 			}
 		}
 		else_if = {
 			limit = {
 				ROOT = { 
-					has_tech = decimetric_radar 
+					has_tech = telepathy_tower_I 
 					NOT = {
-						has_tech = improved_decimetric_radar
+						has_tech = telepathy_tower_II
 					}
 				} 
 			}
 			FROM = { 
 				OR = {
-					has_tech = decimetric_radar 
-					has_tech = improved_decimetric_radar
+					has_tech = telepathy_tower_I 
+					has_tech = telepathy_tower_II
 				}
 			}
 		}
 		else_if = {
 			limit = {
 				ROOT = { 
-					has_tech = improved_decimetric_radar 
+					has_tech = telepathy_tower_II 
 					NOT = {
-						has_tech = centimetric_radar
+						has_tech = telepathy_tower_III
 					}
 				} 
 			}
 			FROM = { 
 				OR = {
-					has_tech = improved_decimetric_radar 
-					has_tech = centimetric_radar
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				ROOT = { 
-					has_tech = centimetric_radar 
-					NOT = {
-						has_tech = improved_centimetric_radar
-					}
-				} 
-			}
-			FROM = { 
-				OR = {
-					has_tech = centimetric_radar 
-					has_tech = improved_centimetric_radar
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				ROOT = { 
-					has_tech = improved_centimetric_radar 
-					NOT = {
-						has_tech = advanced_centimetric_radar
-					}
-				} 
-			}
-			FROM = { 
-				OR = {
-					has_tech = improved_centimetric_radar 
-					has_tech = advanced_centimetric_radar
+					has_tech = telepathy_tower_II 
+					has_tech = telepathy_tower_III
 				}
 			}
 		}

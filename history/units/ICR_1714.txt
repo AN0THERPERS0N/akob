@@ -1,1 +1,54 @@
-﻿units = { }
+﻿division_template = {
+	name = "Icrusian Royal Army"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Orders of the Guardians"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		akob_lancer = { x = 1 y = 2 }
+		akob_lancer = { x = 2 y = 0 }
+		akob_lancer = { x = 2 y = 1 }		
+		akob_lancer = { x = 2 y = 2 }		
+	}
+}
+
+division_template = {
+	name = "Orders of the Knights"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		akob_cuirassier = { x = 0 y = 0 }
+		akob_cuirassier = { x = 0 y = 1 }
+		akob_cuirassier = { x = 1 y = 0 }
+		akob_cuirassier = { x = 1 y = 1 }	
+	}
+}
+
+division_template = {
+	name = "Battlemages Battalion"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		akob_sorcerer = { x = 0 y = 0 }
+		akob_sorcerer = { x = 0 y = 1 }
+		akob_sorcerer = { x = 1 y = 0 }
+		akob_conjuror = { x = 1 y = 1 }	
+	}
+}
+
+units = { }
