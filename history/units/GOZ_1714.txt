@@ -1,1 +1,9 @@
-﻿units = { }
+﻿division_template = {
+	name = "Gozyean Police Force"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = { }

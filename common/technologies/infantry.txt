@@ -64,25 +64,6 @@ technologies = {
 		categories = {
 			infantry_weapons
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 10
-				tag = CHI
-				
-				OR = {
-					date > "1937.1.1"
-					JAP = { is_ai = no }
-				}
-			}
-			
-			modifier = {
-				factor = 10
-				date > "1936.1.3"
-			}
-		}
 	}	
 	
 	akob_infantry_weapons_III = {
@@ -121,29 +102,6 @@ technologies = {
 		categories = {
 			infantry_weapons
 		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
 	}
 	
 	akob_infantry_weapons_IV = {
@@ -170,30 +128,6 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 3
-						
-			modifier = {
-				factor = 10
-				date > "1939.1.1"
-			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 0.5
-			}
-			modifier = {
-				factor = 0
-				tag = SOV
-				OR = {
-					date < "1944.1.1" # stock up on lots of rifles, we got the manpower
-					AND = {
-						date > "1943.1.1"
-						surrender_progress < 0.1 # if we arent losing badly its ok
-					}
-				}				
-			}			
 		}
 	}
 	akob_infantry_weapons_V = {
@@ -355,25 +289,6 @@ technologies = {
 		categories = {
 			infantry_weapons
 		}
-		
-		ai_will_do = {
-			factor = 0.8
-			
-			
-			modifier = {
-				tag = GER
-				factor = 2.5
-			}
-			modifier = {
-				num_of_military_factories > 150
-				factor = 2.5
-			}
-			
-			modifier = {
-				num_of_military_factories < 50
-				factor = 0.5
-			}
-		}
 	}
 	
 	akob_infantry_weapons_VII = {
@@ -460,20 +375,6 @@ technologies = {
 		categories = {
 			marine_tech
 		}
-		
-		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-		}
 	}
 	
 	marines2 = {
@@ -498,20 +399,6 @@ technologies = {
 		categories = {
 			marine_tech
 		}
-		
-		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-		}
 	}
 	
 	marines3 = {
@@ -529,20 +416,6 @@ technologies = {
 		
 		categories = {
 			marine_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}	
 	
@@ -1036,41 +909,6 @@ technologies = {
 		categories = {
 			infantry_weapons
 		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 15
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-		}
 	}
 	
 	akob_support_weapons_II = {
@@ -1126,47 +964,6 @@ technologies = {
 		
 		categories = {
 			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				factor = 2
-				date > "1938.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
 		}
 	}
 	
@@ -1336,23 +1133,11 @@ technologies = {
 	akob_cavalry_1 = {
 
 		enable_subunits = {
-			motorized
+			cavalry
 		}
 
 		enable_equipments = {
-			motorized_equipment_1
-		}
-
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = motorized
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_motorized"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			infantry_equipment_0
 		}
 		
 		path = {
@@ -1611,14 +1396,6 @@ technologies = {
 		categories = {
 			cavalry
 			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				tag = USA
-				factor = 2
-			}
 		}
 	}
 	

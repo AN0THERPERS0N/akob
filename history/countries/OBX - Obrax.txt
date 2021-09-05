@@ -3,6 +3,12 @@
 OOB = "OBX_1714"
 
 set_technology = {
+	akob_infantry_weapons_I = 1
+	akob_cavalry_1 = 1
+	
+	tech_support = 1
+
+	akob_basic_artillery = 1
 }
 
 set_politics = {

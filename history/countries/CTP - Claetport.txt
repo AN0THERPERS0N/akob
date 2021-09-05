@@ -3,6 +3,18 @@
 OOB = "CTP_1714"
 
 set_technology = {
+	akob_infantry_weapons_I = 1
+	akob_support_weapons_I = 1
+
+	akob_basic_magic = 1
+	akob_sorcerer_I = 1
+	akob_sorcerer_II = 1
+	akob_conjuror_I = 1
+	akob_conjuror_II = 1
+
+	tech_support = 1
+
+	akob_basic_artillery = 1
 }
 
 set_politics = {

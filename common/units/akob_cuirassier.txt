@@ -28,42 +28,50 @@ sub_units = {
 		manpower = 500
 		max_organisation = 10
 		default_morale = 0.3
+
 		training_time = 180
 		max_strength = 2
 		weight = 0.8
 		supply_consumption = 0.14
 
-		#WE GOOD AT SUPPRESS 
-		suppression = 2.5
+		suppression = 1
+
+		attack = 0.2   
+		soft_attack = 0.1
+		hard_attack = 0.1	
+
+		maximum_speed = 0.75
 
 		forest = {
-		    attack = -0.2
-			movement = -0.4
+		    attack = -0.1
+			movement = -0.2
 		}
 		mountain = 	{
-		    attack = -0.1
-		    movement = -0.1
-		}
-		jungle = {
-		    attack = -0.3
+		    attack = -0.5
 			movement = -0.5
 		}
-		marsh = {
-		    attack = -0.1 
-			movement = -0.2
+		plains = {
+			attack = 0.2
+			movement = 0.3
 		}
-		desert = {
-			movement = 0.15
+		jungle = {
+		    attack = -0.5
+			movement = -0.5
 		}
 		urban = {
-			attack = -0.3
+			attack = -0.2
+			movement = -0.3
 		}
-		river = { 
-			attack = -0.2 
-			movement = -0.2
+		marsh = {
+			attack = -0.5
+			movement = -0.5
 		}
-		amphibious = { 
-			attack = -0.4
+		river = {
+			attack = -0.2
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.5
 		}	
 	}
 }

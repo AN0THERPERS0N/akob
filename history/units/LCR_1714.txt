@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Icrusian Loyalist Army"			# Infantry Division
+	name = "Icrusian Loyalist Brigade"			# Infantry Division
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,7 +14,7 @@
 }
 
 division_template = {
-	name = "Loyalist Militia"			# Infantry Division
+	name = "Icrusian Loyalist Militia"			# Infantry Division
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -24,4 +24,107 @@ division_template = {
 	}
 }
 
-units = { }
+units = { 
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 334
+		division_template = "Icrusian Loyalist Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 940
+		division_template = "Icrusian Loyalist Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1343
+		division_template = "Icrusian Loyalist Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1738
+		division_template = "Icrusian Loyalist Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 578
+		division_template = "Icrusian Loyalist Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1246
+		division_template = "Icrusian Loyalist Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 1006
+		division_template = "Icrusian Loyalist Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 496
+		division_template = "Icrusian Loyalist Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 300
+		division_template = "Icrusian Loyalist Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 878
+		division_template = "Icrusian Loyalist Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+}

@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Agran Infantry Division"			# Infantry Division
+	name = "Royal Obraxian Army"			# Infantry Division
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,7 +14,7 @@
 }
 
 division_template = {
-	name = "Agran Infantry Militia"			# Infantry Division
+	name = "Royal Obraxian Militia"			# Infantry Division
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }

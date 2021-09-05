@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Airestonian Royal Army"			# Infantry Division
+	name = "Airestonian Royal Brigade"			# Infantry Division
 	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -10,6 +10,17 @@
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Airestonian Royal Militia"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 }
 
@@ -36,5 +47,846 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Airestonian Royal Scouts"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		akob_lancer = { x = 0 y = 0 }
+		akob_lancer = { x = 0 y = 1 }
+		akob_lancer = { x = 1 y = 0 }
+		akob_lancer = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Airestonian Royal Conjurors"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		akob_conjuror = { x = 0 y = 0 }
+		akob_conjuror = { x = 0 y = 1 }
+		akob_conjuror = { x = 1 y = 0 }
+		akob_conjuror = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Airestonian Royal Sorcerers"			# Infantry Division
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		akob_sorcerer = { x = 0 y = 0 }
+		akob_sorcerer = { x = 0 y = 1 }
+		akob_sorcerer = { x = 1 y = 0 }
+		akob_sorcerer = { x = 1 y = 1 }
+	}
+}
+
+#oob
+
 units = {
+	#militia
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = 274
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 1379
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = 344
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 1579
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 2076
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 817
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 1206
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 1033
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 1128
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 1802
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 345
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 964
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 1267
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 905
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 19
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1966
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 2114
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1701
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 286
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = 603
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 2167
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 946
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 2203
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}
+		location = 56
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 1315
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 2207
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 22
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 680
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 930
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 1881
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 306
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1818
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1697
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 343
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = 2212
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 2197
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 1470
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = 1595
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 2242
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1327
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 977
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 359
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 1460
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 83
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 193
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 650
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 2319
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 460
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 50
+		}
+		location = 1684
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 1391
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 1662
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 1198
+		division_template = "Airestonian Royal Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	#brigade
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 1198
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1110
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 1110
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 1725
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 451
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 451
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 451
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 1079
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 154
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 103
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 2110
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 2110
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 1240
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1240
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 1240
+		division_template = "Airestonian Royal Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	#dragoon
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1110
+		division_template = "Airestonian Royal Dragoons"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1240
+		division_template = "Airestonian Royal Dragoons"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 103
+		division_template = "Airestonian Royal Dragoons"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 103
+		division_template = "Airestonian Royal Dragoons"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 2110
+		division_template = "Airestonian Royal Dragoons"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1110
+		division_template = "Airestonian Royal Dragoons"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 154
+		division_template = "Airestonian Royal Dragoons"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 154
+		division_template = "Airestonian Royal Dragoons"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	#mages
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 493
+		division_template = "Airestonian Royal Sorcerers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1327
+		division_template = "Airestonian Royal Conjurors"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 930
+		division_template = "Airestonian Royal Sorcerers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	##### No Notable Naval Forces #####
+}
+
+##### No Notable Air Forces #####
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ARS"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
 }
