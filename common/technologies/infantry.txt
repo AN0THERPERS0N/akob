@@ -1157,11 +1157,6 @@ technologies = {
 			position = { x = 0 y = @1936 }
 		}
 		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 9 }
-		}
-		
 		categories = {
 			cavalry
 			infantry_tech

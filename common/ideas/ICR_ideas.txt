@@ -29,7 +29,7 @@ ideas = {
 			}
 
 			cancel = {
-			
+				has_country_flag = ICR_civil_war_end
 			}
 
 			allowed_civil_war = {

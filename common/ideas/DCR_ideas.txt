@@ -29,7 +29,7 @@ ideas = {
 			}
 
 			cancel = {
-
+				has_country_flag = DCR_civil_war_end
 			}
 
 			allowed_civil_war = {
@@ -91,7 +91,11 @@ DCR_lightning_warfare = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_lightning_warfare
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -119,7 +123,11 @@ DCR_lightning_warfare2 = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_lightning_warfare2
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -146,7 +154,11 @@ DCR_forced_conscription = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_forced_conscription
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -180,7 +192,11 @@ DCR_unconditional_determination = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_unconditional_determination
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -210,7 +226,11 @@ DCR_play_the_waiting_game = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_play_the_waiting_game
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -236,7 +256,11 @@ DCR_army_of_intellectuals = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_army_of_intellectuals
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -265,7 +289,11 @@ DCR_icrusian_gears_of_war = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_icrusian_gears_of_war
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -294,7 +322,11 @@ DCR_icrusian_gears_of_war2 = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_icrusian_gears_of_war2
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -321,7 +353,11 @@ DCR_resent_the_loyalists = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_resent_the_loyalists
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -348,7 +384,11 @@ DCR_resent_the_loyalists2 = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_resent_the_loyalists2
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -375,7 +415,11 @@ DCR_vitas_revenge = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_vitas_revenge
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -402,7 +446,11 @@ DCR_down_with_the_empire = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_down_with_the_empire
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -429,7 +477,11 @@ DCR_down_with_the_empire2 = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_down_with_the_empire2
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -456,7 +508,11 @@ DCR_an_empire_no_more = {
 	}
 
 	cancel = {
-	
+		is_in_array = {
+			array = DCR_civil_war_ideas
+			value =	DCR_an_empire_no_more
+		}
+		has_country_flag = DCR_civil_war_end
 	}
 
 	allowed_civil_war = {
@@ -470,39 +526,39 @@ DCR_an_empire_no_more = {
 
 #
 
-		rebellious_states = {
-			picture = not_a_country
-			
-			allowed = {
-				tag = DCR
-			}
+#		rebellious_states = {
+#			picture = not_a_country
+#			
+#			allowed = {
+#				tag = DCR
+#			}
+#
+#			available = {
+#				
+#			}
+#			
+#			modifier = {
+#				no_supply_grace = 365
+#				out_of_supply_factor = 90
+#				supply_consumption_factor = 0.01
+#				production_factory_efficiency_gain_factor = 100
+#				production_factory_max_efficiency_factor = 100
+#				production_factory_start_efficiency_factor = 0.9
+#				production_lack_of_resource_penalty_factor = -100
+#				weekly_manpower = 10000
+#			}
+#
+#			cancel = {
+#
+#			}
+#
+#			allowed_civil_war = {
+#				always = yes
+#			}
+#
+#			removal_cost = -1
+#		}
+#		
+#	}
 
-			available = {
-				
-			}
-			
-			modifier = {
-				no_supply_grace = 365
-				out_of_supply_factor = 90
-				supply_consumption_factor = 0.01
-				production_factory_efficiency_gain_factor = 100
-				production_factory_max_efficiency_factor = 100
-				production_factory_start_efficiency_factor = 0.9
-				production_lack_of_resource_penalty_factor = -100
-				weekly_manpower = 10000
-			}
-
-			cancel = {
-
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-		}
-		
-	}
-	
 }

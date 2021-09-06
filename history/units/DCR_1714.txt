@@ -90,8 +90,8 @@ units = {
 		}
 		location = 2195
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -100,8 +100,8 @@ units = {
 		}
 		location = 375
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -110,8 +110,8 @@ units = {
 		}
 		location = 2166
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -120,8 +120,8 @@ units = {
 		}
 		location = 668
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -130,8 +130,8 @@ units = {
 		}
 		location = 659
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -140,8 +140,8 @@ units = {
 		}
 		location = 1613
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -150,8 +150,8 @@ units = {
 		}
 		location = 595
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -160,8 +160,8 @@ units = {
 		}
 		location = 1429
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -170,8 +170,8 @@ units = {
 		}
 		location = 726
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -180,8 +180,8 @@ units = {
 		}
 		location = 1882
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -190,8 +190,8 @@ units = {
 		}
 		location = 1544
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -200,8 +200,8 @@ units = {
 		}
 		location = 133
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -210,8 +210,8 @@ units = {
 		}
 		location = 641
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -220,8 +220,8 @@ units = {
 		}
 		location = 2124
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -230,8 +230,8 @@ units = {
 		}
 		location = 1161
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -240,8 +240,8 @@ units = {
 		}
 		location = 20
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -250,8 +250,8 @@ units = {
 		}
 		location = 2194
 		division_template = "Icrusian Republican Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -261,7 +261,7 @@ units = {
 		location = 2121
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -271,7 +271,7 @@ units = {
 		location = 663
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -281,7 +281,7 @@ units = {
 		location = 1395
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -291,7 +291,7 @@ units = {
 		location = 1694
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -301,7 +301,7 @@ units = {
 		location = 808
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -311,7 +311,7 @@ units = {
 		location = 80
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -321,7 +321,7 @@ units = {
 		location = 1075
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -331,7 +331,7 @@ units = {
 		location = 394
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -341,7 +341,7 @@ units = {
 		location = 2091
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -351,7 +351,7 @@ units = {
 		location = 65
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -361,7 +361,7 @@ units = {
 		location = 180
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -371,7 +371,7 @@ units = {
 		location = 749
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -381,7 +381,7 @@ units = {
 		location = 1787
 		division_template = "Icrusian Republican Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -390,8 +390,8 @@ units = {
 		}
 		location = 1464
 		division_template = "Icrusian Black Guard"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.95
 	}
 
 	division = {
@@ -401,8 +401,8 @@ units = {
 		}
 		location = 1464
 		division_template = "Knights of the Republic"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -411,8 +411,8 @@ units = {
 		}
 		location = 1464
 		division_template = "Knights of the Republic"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -421,8 +421,8 @@ units = {
 		}
 		location = 1411
 		division_template = "Knights of the Republic"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -431,8 +431,8 @@ units = {
 		}
 		location = 2166
 		division_template = "Knights of the Republic"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -441,8 +441,8 @@ units = {
 		}
 		location = 1629
 		division_template = "Knights of the Republic"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -451,8 +451,8 @@ units = {
 		}
 		location = 1464
 		division_template = "Knights of the Republic"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -461,8 +461,8 @@ units = {
 		}
 		location = 2166
 		division_template = "Knights of the Republic"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -471,8 +471,8 @@ units = {
 		}
 		location = 1357
 		division_template = "Icrusian Republican Scouts"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -481,8 +481,8 @@ units = {
 		}
 		location = 1629
 		division_template = "Icrusian Republican Scouts"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -491,8 +491,8 @@ units = {
 		}
 		location = 2166
 		division_template = "Icrusian Republican Scouts"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -501,8 +501,8 @@ units = {
 		}
 		location = 1411
 		division_template = "Icrusian Republican Scouts"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -511,8 +511,8 @@ units = {
 		}
 		location = 1629
 		division_template = "Icrusian Republican Scouts"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
 	}
 
 	division = {
@@ -523,7 +523,7 @@ units = {
 		location = 1464
 		division_template = "Icrusian Sorcerer Battalion"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -533,7 +533,7 @@ units = {
 		location = 1153
 		division_template = "Icrusian Sorcerer Battalion"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -543,7 +543,7 @@ units = {
 		location = 2136
 		division_template = "Icrusian Sorcerer Battalion"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -553,7 +553,7 @@ units = {
 		location = 2166
 		division_template = "Icrusian Sorcerer Battalion"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -563,7 +563,7 @@ units = {
 		location = 1225
 		division_template = "Icrusian Conjuror Battalion"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -573,7 +573,7 @@ units = {
 		location = 2166
 		division_template = "Icrusian Conjuror Battalion"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 }

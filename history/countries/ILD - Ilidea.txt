@@ -22,6 +22,14 @@ set_popularities = {
 	neutrality = 100
 }
 
+add_ideas = {
+	ILD_test
+	ILD_royal_house_of_illidea
+	ILD_succession_crisis
+	ILD_rampant_corruption
+	ILD_black_dragon_resistance
+}
+
 set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39

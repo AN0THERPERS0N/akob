@@ -33,8 +33,8 @@ units = {
 		}
 		location = 334
 		division_template = "Icrusian Loyalist Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -43,8 +43,8 @@ units = {
 		}
 		location = 940
 		division_template = "Icrusian Loyalist Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -53,8 +53,8 @@ units = {
 		}
 		location = 1343
 		division_template = "Icrusian Loyalist Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -63,8 +63,8 @@ units = {
 		}
 		location = 1738
 		division_template = "Icrusian Loyalist Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -73,8 +73,8 @@ units = {
 		}
 		location = 578
 		division_template = "Icrusian Loyalist Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -83,8 +83,8 @@ units = {
 		}
 		location = 1246
 		division_template = "Icrusian Loyalist Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -93,8 +93,8 @@ units = {
 		}
 		location = 1006
 		division_template = "Icrusian Loyalist Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -103,8 +103,8 @@ units = {
 		}
 		location = 496
 		division_template = "Icrusian Loyalist Militia"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -113,8 +113,8 @@ units = {
 		}
 		location = 300
 		division_template = "Icrusian Loyalist Militia"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -123,8 +123,8 @@ units = {
 		}
 		location = 878
 		division_template = "Icrusian Loyalist Militia"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
 	}
 
 }

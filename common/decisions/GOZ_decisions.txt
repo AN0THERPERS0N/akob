@@ -16,7 +16,8 @@ Casinos_of_Rshavesk = {
             }
         }
 
-        cost = 20
+        #cost = 20
+        cost = 1000
         
         complete_effect = {   
             country_event = {

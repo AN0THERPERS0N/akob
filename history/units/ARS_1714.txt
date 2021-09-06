@@ -92,7 +92,7 @@ units = {
 		location = 274
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -102,7 +102,7 @@ units = {
 		location = 1379
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -112,7 +112,7 @@ units = {
 		location = 344
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -122,7 +122,7 @@ units = {
 		location = 1579
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -132,7 +132,7 @@ units = {
 		location = 2076
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -142,7 +142,7 @@ units = {
 		location = 817
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -152,7 +152,7 @@ units = {
 		location = 1206
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -162,7 +162,7 @@ units = {
 		location = 1033
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -172,7 +172,7 @@ units = {
 		location = 1128
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -182,7 +182,7 @@ units = {
 		location = 1802
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -192,7 +192,7 @@ units = {
 		location = 345
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -202,7 +202,7 @@ units = {
 		location = 964
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -212,7 +212,7 @@ units = {
 		location = 1267
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -222,7 +222,7 @@ units = {
 		location = 905
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -232,7 +232,7 @@ units = {
 		location = 19
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -242,7 +242,7 @@ units = {
 		location = 1966
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -252,7 +252,7 @@ units = {
 		location = 2114
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -262,7 +262,7 @@ units = {
 		location = 1701
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -272,7 +272,7 @@ units = {
 		location = 286
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -282,7 +282,7 @@ units = {
 		location = 603
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -292,7 +292,7 @@ units = {
 		location = 2167
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -302,7 +302,7 @@ units = {
 		location = 946
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -312,7 +312,7 @@ units = {
 		location = 2203
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -322,7 +322,7 @@ units = {
 		location = 56
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -332,7 +332,7 @@ units = {
 		location = 1315
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -342,7 +342,7 @@ units = {
 		location = 2207
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -352,7 +352,7 @@ units = {
 		location = 22
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -362,7 +362,7 @@ units = {
 		location = 680
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -372,7 +372,7 @@ units = {
 		location = 930
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -382,7 +382,7 @@ units = {
 		location = 1881
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -392,7 +392,7 @@ units = {
 		location = 306
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -402,7 +402,7 @@ units = {
 		location = 1818
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -412,7 +412,7 @@ units = {
 		location = 1697
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -422,7 +422,7 @@ units = {
 		location = 343
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -432,7 +432,7 @@ units = {
 		location = 2212
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -442,7 +442,7 @@ units = {
 		location = 2197
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -452,7 +452,7 @@ units = {
 		location = 1470
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -462,7 +462,7 @@ units = {
 		location = 1595
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -472,7 +472,7 @@ units = {
 		location = 2242
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -482,7 +482,7 @@ units = {
 		location = 1327
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -492,7 +492,7 @@ units = {
 		location = 977
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -502,7 +502,7 @@ units = {
 		location = 359
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -512,7 +512,7 @@ units = {
 		location = 1460
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -522,7 +522,7 @@ units = {
 		location = 83
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -532,7 +532,7 @@ units = {
 		location = 193
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -542,7 +542,7 @@ units = {
 		location = 650
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -552,7 +552,7 @@ units = {
 		location = 2319
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -562,7 +562,7 @@ units = {
 		location = 460
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -572,7 +572,7 @@ units = {
 		location = 1684
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -582,7 +582,7 @@ units = {
 		location = 1391
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -592,7 +592,7 @@ units = {
 		location = 1662
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division= {
 		division_name = {
@@ -602,7 +602,7 @@ units = {
 		location = 1198
 		division_template = "Airestonian Royal Militia"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 
 	#brigade
@@ -615,7 +615,7 @@ units = {
 		location = 1198
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -625,7 +625,7 @@ units = {
 		location = 1110
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -635,7 +635,7 @@ units = {
 		location = 1110
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -645,7 +645,7 @@ units = {
 		location = 1725
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -655,7 +655,7 @@ units = {
 		location = 451
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -665,7 +665,7 @@ units = {
 		location = 451
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -675,7 +675,7 @@ units = {
 		location = 451
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -685,7 +685,7 @@ units = {
 		location = 1079
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -695,7 +695,7 @@ units = {
 		location = 154
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -705,7 +705,7 @@ units = {
 		location = 103
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -715,7 +715,7 @@ units = {
 		location = 2110
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -725,7 +725,7 @@ units = {
 		location = 2110
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -735,7 +735,7 @@ units = {
 		location = 1240
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -745,7 +745,7 @@ units = {
 		location = 1240
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		division_name = {
@@ -755,7 +755,7 @@ units = {
 		location = 1240
 		division_template = "Airestonian Royal Brigade"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 	#dragoon
@@ -767,8 +767,8 @@ units = {
 		}
 		location = 1110
 		division_template = "Airestonian Royal Dragoons"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division= {
 		division_name = {
@@ -777,8 +777,8 @@ units = {
 		}
 		location = 1240
 		division_template = "Airestonian Royal Dragoons"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division= {
 		division_name = {
@@ -787,8 +787,8 @@ units = {
 		}
 		location = 103
 		division_template = "Airestonian Royal Dragoons"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division= {
 		division_name = {
@@ -797,8 +797,8 @@ units = {
 		}
 		location = 103
 		division_template = "Airestonian Royal Dragoons"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division= {
 		division_name = {
@@ -807,8 +807,8 @@ units = {
 		}
 		location = 2110
 		division_template = "Airestonian Royal Dragoons"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division= {
 		division_name = {
@@ -817,8 +817,8 @@ units = {
 		}
 		location = 1110
 		division_template = "Airestonian Royal Dragoons"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division= {
 		division_name = {
@@ -827,8 +827,8 @@ units = {
 		}
 		location = 154
 		division_template = "Airestonian Royal Dragoons"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division= {
 		division_name = {
@@ -837,8 +837,8 @@ units = {
 		}
 		location = 154
 		division_template = "Airestonian Royal Dragoons"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 
 	#mages
@@ -851,7 +851,7 @@ units = {
 		location = 493
 		division_template = "Airestonian Royal Sorcerers"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {
 		division_name = {
@@ -861,7 +861,7 @@ units = {
 		location = 1327
 		division_template = "Airestonian Royal Conjurors"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {
 		division_name = {
@@ -871,7 +871,7 @@ units = {
 		location = 930
 		division_template = "Airestonian Royal Sorcerers"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 
 	##### No Notable Naval Forces #####

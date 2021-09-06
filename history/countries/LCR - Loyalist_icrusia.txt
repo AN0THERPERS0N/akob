@@ -43,14 +43,26 @@ set_convoys = 5
 
 AGR = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = neutrality
 		last_election = "1933.3.5"
 		election_frequency = 48
 		elections_allowed = no
 	}
+	add_popularity = { ideology = neutrality popularity = 0.74 }
+	add_popularity = { ideology = fascism popularity = 0.15 }
+   	add_popularity = { ideology = communism popularity = 0.02 }
+	add_popularity = { ideology = democratic popularity = 0.09 }
+}
 
-	add_popularity = { ideology = fascism popularity = 1 }
-   	add_popularity = { ideology = communism popularity = 0.98 }
+create_country_leader = {
+	name = "Rowe"
+	desc = "POLITICS_ROWE_DESC"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
 }
 
 #Victor Emmanuel III of Italy after 39

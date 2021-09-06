@@ -148,6 +148,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = DCR_lightning_warfare
+		add_to_array = { DCR_civil_war_ideas = DCR_lightning_warfare }
 	}
 	ai_will_do = {
 	}
@@ -174,6 +175,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = DCR_play_the_waiting_game
+		add_to_array = { DCR_civil_war_ideas = DCR_play_the_waiting_game }
 	}
 	ai_will_do = {
 	}
@@ -304,6 +306,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = DCR_forced_conscription
+		add_to_array = { DCR_civil_war_ideas = DCR_forced_conscription }
 	}
 	ai_will_do = {
 	}
@@ -356,6 +359,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = DCR_icrusian_gears_of_war
+		add_to_array = { DCR_civil_war_ideas = DCR_icrusian_gears_of_war }
 	}
 	ai_will_do = {
 	}
@@ -722,6 +726,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = DCR_resent_the_loyalists
+		add_to_array = { DCR_civil_war_ideas = DCR_resent_the_loyalists }
 	}
 	ai_will_do = {
 	}
@@ -748,6 +753,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = DCR_down_with_the_empire
+		add_to_array = { DCR_civil_war_ideas = DCR_down_with_the_empire }
 	}
 	ai_will_do = {
 	}
@@ -909,6 +915,8 @@ focus = {
 			add_idea = DCR_lightning_warfare2
 			remove_idea = DCR_lightning_warfare
 		}
+		remove_from_array = { DCR_civil_war_ideas = DCR_lightning_warfare }
+		add_to_array = { DCR_civil_war_ideas = DCR_lightning_warfare2 }
 	}
 	ai_will_do = {
 	}
@@ -1357,6 +1365,8 @@ focus = {
 			add_idea = DCR_resent_the_loyalists2
 			remove_idea = DCR_resent_the_loyalists
 		}
+		remove_from_array = { DCR_civil_war_ideas = DCR_resent_the_loyalists }
+		add_to_array = { DCR_civil_war_ideas = DCR_resent_the_loyalists2 }
 	}
 	ai_will_do = {
 	}
@@ -1412,6 +1422,8 @@ focus = {
 			add_idea = DCR_down_with_the_empire2
 			remove_idea = DCR_down_with_the_empire
 		}
+		add_to_array = { DCR_civil_war_ideas = DCR_down_with_the_empire2 }
+		remove_from_array = { DCR_civil_war_ideas = DCR_down_with_the_empire }
 	}
 	ai_will_do = {
 	}
@@ -1519,6 +1531,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = DCR_unconditional_determination
+		add_to_array = { DCR_civil_war_ideas = DCR_unconditional_determination }
 	}
 	ai_will_do = {
 	}
@@ -1571,6 +1584,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = DCR_army_of_intellectuals
+		add_to_array = { DCR_civil_war_ideas = DCR_army_of_intellectuals }
 	}
 	ai_will_do = {
 	}
@@ -1811,6 +1825,8 @@ focus = {
 			add_idea = DCR_icrusian_gears_of_war2
 			remove_idea = DCR_icrusian_gears_of_war
 		}
+		remove_from_array = { DCR_civil_war_ideas = DCR_icrusian_gears_of_war }
+		add_to_array = { DCR_civil_war_ideas = DCR_icrusian_gears_of_war2 }
 	}
 	ai_will_do = {
 	}
@@ -1841,6 +1857,8 @@ focus = {
 			add_idea = DCR_vitas_revenge
 			remove_idea = DCR_resent_the_loyalists2
 		}
+		add_to_array = { DCR_civil_war_ideas = DCR_vitas_revenge }
+		remove_from_array = { DCR_civil_war_ideas = DCR_resent_the_loyalists2 }
 	}
 	ai_will_do = {
 	}
@@ -1871,6 +1889,8 @@ focus = {
 			add_idea = DCR_an_empire_no_more
 			remove_idea = DCR_down_with_the_empire2
 		}
+		add_to_array = { DCR_civil_war_ideas = DCR_an_empire_no_more }
+		remove_from_array = { DCR_civil_war_ideas = DCR_down_with_the_empire2 }
 	}
 	ai_will_do = {
 	}
@@ -1897,7 +1917,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
-	remove_ideas = icrusian_civil_war
+		set_country_flag = DCR_civil_war_end
 	}
 	ai_will_do = {
 	}

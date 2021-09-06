@@ -43,10 +43,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = tech_signal_company
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = tech_maintenance_company
 			research_cost_coeff = 1
 		}
@@ -470,48 +466,7 @@ technologies = {
 			support_tech
 			military_police_tech
 		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 5
-				tag = GER
-			}
-
-			modifier = {
-				factor = 10
-				tag = GER
-
-				POL = { has_capitulated = yes }
-				GER = { has_war = yes }
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ITA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				has_war = yes
-			}
-		}
+	
 	}
 	
 	tech_military_police2 = {
@@ -841,7 +796,6 @@ technologies = {
 		categories = {
 			support_tech
 			hospital_tech
-			motorized_equipment
 		}
 		
 		ai_will_do = {
@@ -885,7 +839,6 @@ technologies = {
 		categories = {
 			support_tech
 			hospital_tech
-			motorized_equipment
 		}
 		
 		ai_will_do = {
@@ -924,7 +877,6 @@ technologies = {
 		categories = {
 			support_tech
 			hospital_tech
-			motorized_equipment
 		}
 		
 		ai_will_do = {
@@ -1017,32 +969,8 @@ technologies = {
 		categories = {
 			support_tech
 			logistics_tech
-			motorized_equipment
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-		}
 	}
 	
 	tech_logistics_company3 = {
@@ -1066,7 +994,6 @@ technologies = {
 		categories = {
 			support_tech
 			logistics_tech
-			motorized_equipment
 		}
 		
 		ai_will_do = {
@@ -1105,7 +1032,6 @@ technologies = {
 		categories = {
 			support_tech
 			logistics_tech
-			motorized_equipment
 		}
 		
 		ai_will_do = {

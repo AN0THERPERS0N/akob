@@ -9,4 +9,27 @@
 	}
 }
 
-units = { }
+units = { 
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 590
+		division_template = "Theberian Militia"
+		start_experience_factor = 0
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1032
+		division_template = "Theberian Militia"
+		start_experience_factor = 0
+		start_equipment_factor = 0.3
+	}
+	
+}

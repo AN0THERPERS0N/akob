@@ -36,11 +36,6 @@ sub_units = {
 
 		suppression = 1
 
-		attack = 0.15   
-		soft_attack = 0.25
-
-		maximum_speed = 1
-
 		forest = {
 		    attack = -0.1
 			movement = -0.2

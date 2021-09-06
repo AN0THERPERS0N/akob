@@ -20,15 +20,6 @@ technologies = {
 			position = { x = 0 y = 1 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			dd_tech
@@ -54,15 +45,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 		
 		categories = {
@@ -91,15 +73,6 @@ technologies = {
 			position = { x = 0 y = 13 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			dd_tech
@@ -119,15 +92,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 		
 		categories = {
@@ -161,20 +125,6 @@ technologies = {
 			position = { x = -1 y = 1 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			cl_tech
@@ -204,20 +154,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -250,20 +186,6 @@ technologies = {
 			position = { x = -1 y = 13 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			cl_tech
@@ -288,20 +210,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = -1 y = 19 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -706,30 +614,6 @@ technologies = {
 			position = { x = 0 y = 1 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 0.5
-				NOT = { has_war = yes }
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			tp_tech
@@ -755,59 +639,6 @@ technologies = {
 			position = { x = 0 y = 13 }
 		}
 		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 0.5
-				NOT = { has_war = yes }
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 50
-				tag = JAP
-				OR = {
-					has_war_with = USA
-					CHI = {  
-						OR = { 
-							has_capitulated = yes 
-							exists = no
-		                    is_subject_of = JAP
-						}
-					}
-				}
-			}
-			
-			modifier = {
-				factor = 5
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				has_war_with = GER
-			}
-
-			modifier = {
-				factor = 10
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				has_war_with = GER
-				GER = { has_war_with = SOV }
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			tp_tech
@@ -825,30 +656,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 0.5
-				NOT = { has_war = yes }
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 		
 		categories = {
@@ -877,20 +684,6 @@ technologies = {
 			position = { x = 0 y = 1 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			cv_tech
@@ -914,20 +707,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -956,20 +735,6 @@ technologies = {
 			position = { x = 0 y = 13 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			cv_tech
@@ -990,20 +755,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
 		}
 		
 		categories = {
@@ -1032,15 +783,6 @@ technologies = {
 			position = { x = 0 y = 1 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = GER
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			ss_tech
@@ -1064,15 +806,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = GER
-			}
 		}
 		
 		categories = {
@@ -1101,15 +834,6 @@ technologies = {
 			position = { x = 0 y = 13 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = GER
-			}
-		}
-		
 		categories = {
 			naval_equipment
 			ss_tech
@@ -1129,15 +853,6 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = GER
-			}
 		}
 		
 		categories = {

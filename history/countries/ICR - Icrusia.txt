@@ -65,6 +65,17 @@ AGR = {
    	add_popularity = { ideology = communism popularity = 0.98 }
 }
 
+create_country_leader = {
+	name = "Redmond"
+	desc = "POLITICS_REDMOND_DESC"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
 
 #create_country_leader = {
 #	name = "Enver Hoxha"

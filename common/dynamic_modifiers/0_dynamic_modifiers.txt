@@ -62,18 +62,6 @@ semi_autonomous_state = {
 
 #akob
 
-martyrdom_modifier = {
-	icon = GFX_idea_unknown
-	enable = { always = yes }
-
-	army_org_factor = var:DCR.dcr_martyrdom
-	breakthrough_factor = var:DCR.dcr_martyrdom
-	army_attack_factor = var:DCR.dcr_martyrdom
-	army_defence_factor = var:DCR.dcr_martyrdom
-	army_org_regain = var:DCR.dcr_martyrdom
-	army_speed_factor = var:DCR.dcr_martyrdom
-}
-
 wealth_modifier = {
 	icon = GFX_idea_unknown
 	enable = { always = yes }

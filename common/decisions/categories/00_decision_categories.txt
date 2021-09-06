@@ -72,6 +72,12 @@ no_country_for_rich_men = {
 }
 
 #vanilla
+debug_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+}
 propaganda_efforts = {
 	icon = generic_propaganda
 
@@ -113,11 +119,14 @@ political_actions = {
 	}
 }
 
+foreign_influence = {
+	icon = generic_political_actions
+}
+
 fascism_on_the_rise = {
 	icon = generic_fascism
 
 	allowed = {
-		always = yes
 	}
 	
 	#visible = {
@@ -143,7 +152,6 @@ communism_on_the_rise = {
 	icon = generic_communism
 
 	allowed = {
-		always = yes
 	}
 	
 	#visible = {
@@ -157,7 +165,10 @@ crisis = {
 	priority = 100
 
 	visible = {
-		has_country_flag = crisis_in_progress
+		OR = {
+			has_country_flag = crisis_in_progress
+			has_civil_war = yes
+		}
 	}
 }
 
@@ -189,5 +200,11 @@ special_projects = {
 
 	allowed = {
 		has_dlc = "Waking the Tiger"
+	}
+}
+category_test_decisions = {
+	priority = 110
+	visible = {
+		is_debug = yes
 	}
 }

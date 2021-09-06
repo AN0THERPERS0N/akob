@@ -35,4 +35,15 @@ division_template = {
 	}
 }
 
-units = { }
+units = { 
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 531
+		division_template = "Dinpool Sorcerer Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+}

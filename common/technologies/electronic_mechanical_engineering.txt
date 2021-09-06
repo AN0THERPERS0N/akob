@@ -100,14 +100,6 @@ technologies = {
 			position = { x = -2 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				tag = USA
-				factor = 4
-			}
-		}
-		
 		categories = {
 			electronics
 			radar_tech

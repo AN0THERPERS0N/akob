@@ -35,4 +35,77 @@ division_template = {
 	}
 }
 
-units = { }
+units = { 
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1202
+		division_template = "Cleatport Conjuror Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1300
+		division_template = "Cleatport Conjuror Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1385
+		division_template = "Cleatport Conjuror Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1385
+		division_template = "Cleatport Sorcerer Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1657
+		division_template = "Cleatport Sorcerer Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 295
+		division_template = "Cleatport Sorcerer Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1385
+		division_template = "Cleatport Sorcerer Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+
+}

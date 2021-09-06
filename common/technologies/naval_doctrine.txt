@@ -108,22 +108,6 @@ technologies = {
 			position = { x = -2 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = ENG
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 1.0
@@ -161,30 +145,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = -2 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = ENG
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -231,26 +191,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = -2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war_with = GER
-				factor = 5
-			}
-			modifier = {
-				tag = ENG
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -400,26 +340,6 @@ technologies = {
 			position = { x = -1 y = 12 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				tag = ENG
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
@@ -458,23 +378,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 0 y = 2 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = ENG
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
 		}
 		
 		ai_research_weights = {
@@ -518,31 +421,6 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = ENG
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 1.5
@@ -581,31 +459,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 0 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = ENG
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -654,31 +507,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 0 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = ENG
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -943,22 +771,6 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = GER
-				factor = 3
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 1.0
@@ -1001,23 +813,6 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = GER
-				factor = 3
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 2.0
@@ -1056,31 +851,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = GER
-				factor = 3
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -1125,31 +895,6 @@ technologies = {
 			position = { x = 2 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = GER
-				factor = 3
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 2.0
@@ -1188,31 +933,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = GER
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -1264,31 +984,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = GER
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -1796,25 +1491,6 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			carrier = 2.0
@@ -1855,33 +1531,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 2 }
-		}
-		
-		ai_will_do = {
-			factor = 1.25
-			
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
 		}
 		
 		ai_research_weights = {
@@ -1927,37 +1576,6 @@ technologies = {
 			position = { x = 2 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			carrier = 1.0
@@ -1996,41 +1614,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 4
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -2079,33 +1662,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
+
 			modifier = {
 				has_navy_experience > 120
 				factor = 4
@@ -2151,32 +1708,6 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 4
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
@@ -2217,33 +1748,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-				factor = 2.5
-			}
-			modifier = {
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-				}
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
+		
 			modifier = {
 				has_navy_experience > 120
 				factor = 4
@@ -2290,22 +1795,6 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 2.0
@@ -2341,30 +1830,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 0 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -2406,30 +1871,6 @@ technologies = {
 			position = { x = 0 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 2.0
@@ -2460,30 +1901,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 0 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
@@ -2523,22 +1940,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = -2 y = 2 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
 		}
 		
 		ai_research_weights = {
@@ -2586,30 +1987,6 @@ technologies = {
 			position = { x = -2 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-		
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 1.0
@@ -2648,30 +2025,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = -2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
 		}
 		
 		ai_research_weights = {
