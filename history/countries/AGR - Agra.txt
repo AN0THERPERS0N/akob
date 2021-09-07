@@ -43,7 +43,6 @@ create_field_marshal = {
 		brilliant_strategist
 	}
 	skill = 3
-	id = 3
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 3
@@ -57,7 +56,6 @@ create_corps_commander = {
 		harsh_leader
 	}
 	skill = 2
-	id = 1
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 1
@@ -70,7 +68,6 @@ create_corps_commander = {
 	traits = {
 	}
 	skill = 2
-	id = 2
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 2
@@ -84,7 +81,6 @@ create_corps_commander = {
 		infantry_officer
 	}
 	skill = 1
-	id = 1
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1

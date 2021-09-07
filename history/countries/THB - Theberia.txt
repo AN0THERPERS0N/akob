@@ -44,7 +44,6 @@ create_corps_commander = {
 		jungle_rat
 	}
 	skill = 4
-	id = 1
 	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 3
@@ -59,7 +58,6 @@ create_corps_commander = {
 		infantry_leader
 	}
 	skill = 3
-	id = 2
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 3

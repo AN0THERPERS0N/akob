@@ -96,7 +96,6 @@ create_field_marshal = {
 		inflexible_strategist
 	}
 	skill = 5
-	id = 1
 	attack_skill = 3
 	defense_skill = 5
 	planning_skill = 4
@@ -111,7 +110,6 @@ create_field_marshal = {
 		politically_connected
 	}
 	skill = 5
-	id = 2
 	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 5
@@ -126,7 +124,6 @@ create_corps_commander = {
 		fortress_buster
 	}
 	skill = 3
-	id = 3
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
@@ -140,7 +137,6 @@ create_corps_commander = {
 		infantry_expert
 	}
 	skill = 1
-	id = 4
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 1
@@ -155,7 +151,6 @@ create_corps_commander = {
 		ambusher
 	}
 	skill = 2
-	id = 5
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 3
@@ -169,7 +164,6 @@ create_corps_commander = {
 		expert_improviser
 	}
 	skill = 3
-	id = 6
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 3

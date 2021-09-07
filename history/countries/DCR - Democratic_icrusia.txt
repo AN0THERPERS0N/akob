@@ -80,7 +80,6 @@ create_field_marshal = {
 		war_hero
 	}
 	skill = 4
-	id = 1
 	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 4
@@ -95,7 +94,6 @@ create_field_marshal = {
 		infantry_officer
 	}
 	skill = 3
-	id = 2
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 3
@@ -111,7 +109,6 @@ create_field_marshal = {
 		aggressive_assaulter
 	}
 	skill = 3
-	id = 5
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 5
@@ -127,7 +124,6 @@ create_field_marshal = {
 		inflexible_strategist
 	}
 	skill = 5
-	id = 4
 	attack_skill = 3
 	defense_skill = 5
 	planning_skill = 4
@@ -141,7 +137,6 @@ create_corps_commander = {
 		career_officer
 	}
 	skill = 2
-	id = 5
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 1
@@ -157,7 +152,6 @@ create_corps_commander = {
 		desert_fox
 	}
 	skill = 4
-	id = 6
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 3
@@ -172,7 +166,6 @@ create_corps_commander = {
 		inflexible_strategist
 	}
 	skill = 3
-	id = 7
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 3
@@ -187,7 +180,6 @@ create_corps_commander = {
 		trait_reckless
 	}
 	skill = 4
-	id = 8
 	attack_skill = 5
 	defense_skill = 2
 	planning_skill = 1
@@ -202,7 +194,6 @@ create_corps_commander = {
 		trait_reckless
 	}
 	skill = 1
-	id = 9
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
@@ -216,7 +207,6 @@ create_corps_commander = {
 
 	}
 	skill = 1
-	id = 10
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
@@ -230,7 +220,6 @@ create_corps_commander = {
 
 	}
 	skill = 2
-	id = 11
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2
