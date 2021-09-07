@@ -35,7 +35,7 @@ set_popularities = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Amaris"
+	name = "Arwel I"
 	desc = "POLITICS_AMARIS_DESC"
 	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
 	expire = "1965.1.1"
@@ -45,37 +45,148 @@ create_country_leader = {
 	}
 }
 
-#Victor Emmanuel III of Italy after 39
-#create_country_leader = {
-	#name = "King Zog"
-	#desc = "POLITICS_KING_ZOG_DESC"
-	#picture = "Portrait_Albania_King_Zog.dds"
-	#expire = "1965.1.1"
-	#ideology = despotism
-	#traits = {
-		#
-#	}
-#}
+create_field_marshal = {
+	name = "Amaris Pruefler"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		brilliant_strategist
+		war_hero
+		aggressive_assaulter
+	}
+	skill = 4
+	id = 1
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
 
-#create_country_leader = {
-#	name = "Enver Hoxha"
-#	desc = "POLITICS_KING_ZOG_DESC"
-#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-#	expire = "1965.1.1"
-	#ideology = stalinism
-#	traits = {
-#		staunch_stalinist
-#	}
-#}
+create_field_marshal = {
+	name = "Cordelia Amelia Tannen"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		brilliant_strategist
+		expert_delegator
+	}
+	skill = 4
+	id = 2
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
 
-#create_field_marshal = {
-#	name = "Xhemal Aranitasi"
-#	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-#	traits = { }
-#	skill = 2
-#	attack_skill = 1
- #   defense_skill = 3
- #   planning_skill = 2
-#    logistics_skill = 1
-#}
+create_field_marshal = {
+	name = "Hurst Nayte"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		old_guard
+		politically_connected
+	}
+	skill = 4
+	id = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
 
+create_field_marshal = {
+	name = "Bedell Feinberg"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		inflexible_strategist
+	}
+	skill = 3
+	id = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Aurst I"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		politically_connected
+		media_personality
+		career_officer
+	}
+	skill = 3
+	id = 5
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Esau Aura"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	id = 6
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Neiper Vonner"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		inflexible_strategist
+	}
+	skill = 2
+	id = 7
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Barre Skinner"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		war_hero
+	}
+	skill = 2
+	id = 8
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Amor Maggard"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		trait_cautious
+	}
+	skill = 1
+	id = 9
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Brodeway Firion"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		trait_reckless
+	}
+	skill = 3
+	id = 10
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

@@ -35,3 +35,58 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Golyn Viktor"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		old_guard
+		brilliant_strategist
+	}
+	skill = 3
+	id = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Pierson Hook"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		harsh_leader
+	}
+	skill = 2
+	id = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Lendon Kaige"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+	}
+	skill = 2
+	id = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Onyu Zeph"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		infantry_officer
+	}
+	skill = 1
+	id = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

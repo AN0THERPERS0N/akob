@@ -78,7 +78,7 @@ THB = {
 }
 
 create_country_leader = {
-	name = "Redmond"
+	name = "Tybalt Redmond"
 	desc = "POLITICS_REDMOND_DESC"
 	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
 	expire = "1965.1.1"
@@ -88,26 +88,90 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Ferrand Caromarus"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		old_guard
+		inflexible_strategist
+	}
+	skill = 5
+	id = 1
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
 
-#create_country_leader = {
-#	name = "Enver Hoxha"
-#	desc = "POLITICS_KING_ZOG_DESC"
-#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-#	expire = "1965.1.1"
-	#ideology = stalinism
-#	traits = {
-#		staunch_stalinist
-#	}
-#}
+create_field_marshal = {
+	name = "Gobert (Caurus’ir)"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		old_guard
+		politically_connected
+	}
+	skill = 5
+	id = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}
 
-#create_field_marshal = {
-#	name = "Xhemal Aranitasi"
-#	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-#	traits = { }
-#	skill = 2
-#	attack_skill = 1
- #   defense_skill = 3
- #   planning_skill = 2
-#    logistics_skill = 1
-#}
+create_corps_commander = {
+	name = "Myra Anna-Lena Geller"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		bearer_of_artillery
+		fortress_buster
+	}
+	skill = 3
+	id = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
 
+create_corps_commander = {
+	name = "Harriot Floke"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		infantry_expert
+	}
+	skill = 1
+	id = 4
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Herriot Saeweard"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		infantry_expert
+		ambusher
+	}
+	skill = 2
+	id = 5
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ezekiel Alaistair"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	traits = {
+		expert_improviser
+	}
+	skill = 3
+	id = 6
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
