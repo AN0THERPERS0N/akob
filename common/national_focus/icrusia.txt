@@ -21,7 +21,7 @@ focus_tree = {
 	
 	continuous_focus_position = { x = 50 y = 3000 }
 
-	focus = {
+focus = {
 id = ICR_icrusia_at_war
 x = 26
 y = 1
@@ -39,6 +39,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_icrusia_at_war"
 	#event
 }
 ai_will_do = {
@@ -63,6 +64,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_reform_the_grand_armee"
 	add_ideas = ICR_army_restructuring
 }
 ai_will_do = {
@@ -87,6 +89,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_protect_the_children_of_god"
 	add_ideas = ICR_blessings_from_the_grand_order
 	add_to_array = { ICR_civil_war_ideas = ICR_blessings_from_the_grand_order }
 }
@@ -114,6 +117,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_literal_workhorse_of_the_army"
 	#research
 }
 ai_will_do = {
@@ -140,6 +144,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_blunt_end_of_the_spear"
 	#research
 }
 ai_will_do = {
@@ -166,6 +171,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_explosive_warfare"
 	#research
 }
 ai_will_do = {
@@ -192,6 +198,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_discover_magic_full_potential"
 	#research
 }
 ai_will_do = {
@@ -216,6 +223,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_revise_icrusian_doctrines"
 	#doctrine
 }
 ai_will_do = {
@@ -240,6 +248,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_start_the_icrusian_navy"
 	#research
 }
 ai_will_do = {
@@ -263,6 +272,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_impromptu_battle_tactics"
 	army_experience = 50
 }
 ai_will_do = {
@@ -287,6 +297,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_morale_is_everything"
 	add_war_support = 10
 }
 ai_will_do = {
@@ -311,6 +322,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_grand_cavalry_effort"
 	#research
 }
 ai_will_do = {
@@ -335,6 +347,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_improved_cavalry_support"
 	#research
 }
 ai_will_do = {
@@ -359,6 +372,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_improved_rifle_designs"
 	#research
 }
 ai_will_do = {
@@ -383,6 +397,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_study_airestonian_designs"
 	#research
 }
 ai_will_do = {
@@ -407,6 +422,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_mage_schools"
 	#research
 }
 ai_will_do = {
@@ -431,6 +447,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_reform_the_general_staff"
 	#general
 }
 ai_will_do = {
@@ -455,6 +472,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_grand_fleet_expansion"
 	#buildings
 }
 ai_will_do = {
@@ -478,6 +496,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_scorched_earth"
 	add_ideas = ICR_scorched_earth_policy
 	add_to_array = { ICR_civil_war_ideas = ICR_scorched_earth_policy }
 }
@@ -503,6 +522,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_decisive_battle"
 	add_ideas = ICR_decisive_battle_policy
 	add_to_array = { ICR_civil_war_ideas = ICR_decisive_battle_policy }
 }
@@ -528,6 +548,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_redmond_speech"
 	#event
 }
 ai_will_do = {
@@ -552,6 +573,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_raise_the_cavalry_selection_bar"
 	add_ideas = ICR_army_of_hooves
 }
 ai_will_do = {
@@ -576,6 +598,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_cavalry_training"
 	#research
 }
 ai_will_do = {
@@ -600,6 +623,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_advanced_rifle_support"
 	#research
 }
 ai_will_do = {
@@ -624,6 +648,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_improved_support_squad"
 	#research
 }
 ai_will_do = {
@@ -648,6 +673,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_rifle_quality"
 	add_ideas = ICR_elite_foot_soldiers
 }
 ai_will_do = {
@@ -672,6 +698,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_innovate_new_artillery_pieces"
 	add_ideas = ICR_hell_from_the_skies
 }
 ai_will_do = {
@@ -696,6 +723,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_quicker_artillery_loaders"
 	#research
 }
 ai_will_do = {
@@ -720,6 +748,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_new_special_mage_wards"
 	add_ideas = ICR_armoured_fists_of_icrusia
 	#research
 }
@@ -746,6 +775,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_vitas_defeat_in_detail"
 	#doctrine
 }
 ai_will_do = {
@@ -771,6 +801,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_acur_mage_warfare"
 	#doctrine
 }
 ai_will_do = {
@@ -796,6 +827,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_avoxium_lancers"
 	#doctrine
 }
 ai_will_do = {
@@ -820,6 +852,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_a_high_seas_fleet"
 	#research
 }
 ai_will_do = {
@@ -843,6 +876,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_a_wasteland_of_smoke_and_flames"
 	DCR = {
 		add_manpower = -50000
 	}
@@ -872,6 +906,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_burn_the_border_farms"
 	#buildings
 	DCR = {
 		add_manpower = -50000
@@ -905,6 +940,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_move_the_grainaries"
 	add_political_power = -50
 	#buildings
 }
@@ -930,6 +966,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_probe_them_into_an_ambush"
 	#buildings
 	#equipment
 }
@@ -955,6 +992,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_engage_the_enemy_head_on"
 	#units
 }
 ai_will_do = {
@@ -979,6 +1017,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_organise_instant_militias"
 	#units
 }
 ai_will_do = {
@@ -1004,6 +1043,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_research_advanced_cavalry_designs"
 	#research
 }
 ai_will_do = {
@@ -1030,6 +1070,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_ammunition_depots"
 	#buildings
 	#research
 }
@@ -1057,6 +1098,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_funnel_resources_into_icrusian_arms_research"
 	#research
 }
 ai_will_do = {
@@ -1082,6 +1124,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_shell_sizes"
 	#research
 }
 ai_will_do = {
@@ -1106,6 +1149,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_create_new_spells"
 	#research
 }
 ai_will_do = {
@@ -1130,6 +1174,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_open_more_officer_academies"
 	#buildings
 	#doctrine
 }
@@ -1155,6 +1200,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_rifiord_dockyards_expansion_fund"
 	#buildings
 }
 ai_will_do = {
@@ -1180,6 +1226,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_icrusian_curse"
 	DCR = {
 		add_ideas = ICR_the_second_horsemen_of_the_apocalypse
 	}
@@ -1211,6 +1258,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_starve_our_enemies"
 	DCR = {
 		add_manpower = -50000
 	}
@@ -1241,6 +1289,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_expose_their_flanks"
 	add_ideas = ICR_thorns_of_the_empire
 	add_to_array = { ICR_civil_war_ideas = ICR_thorns_of_the_empire }
 }
@@ -1266,6 +1315,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_break_their_supplies"
 	DCR = {
 		add_political_power = -200
 		add_manpower = -50000
@@ -1297,6 +1347,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_shock_tactics"
 	swap_ideas = {
 		add_idea = ICR_decisive_battle_policy2
 		remove_idea = ICR_decisive_battle_policy
@@ -1326,6 +1377,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_route_the_enemy"
 	
 }
 ai_will_do = {
@@ -1350,6 +1402,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_recruit_youth_sharpshooters"
 	add_ideas = ICR_youth_sharpshooters
 	add_to_array = { ICR_civil_war_ideas = ICR_youth_sharpshooters }
 }
@@ -1375,6 +1428,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_advanced_cuirassier_classes"
 	swap_ideas = {
 		add_idea = ICR_army_of_hooves2a
 		remove_idea = ICR_army_of_hooves
@@ -1402,6 +1456,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_advanced_lancer_classes"
 	swap_ideas = {
 		add_idea = ICR_army_of_hooves2b
 		remove_idea = ICR_army_of_hooves
@@ -1430,6 +1485,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_the_reservist_corps"
 	swap_ideas = {
 		add_idea = ICR_elite_foot_soldiers2
 		remove_idea = ICR_elite_foot_soldiers
@@ -1457,6 +1513,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_reinvent_artillery_tactics"
 	#research
 }
 ai_will_do = {
@@ -1481,6 +1538,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_stronger_artillery_barrels"
 	swap_ideas = {
 		add_idea = ICR_hell_from_the_skies2
 		remove_idea = ICR_hell_from_the_skies
@@ -1508,6 +1566,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_promote_offensive_wards"
 	swap_ideas = {
 		add_idea = ICR_armoured_fists_of_icrusia2a
 		remove_idea = ICR_armoured_fists_of_icrusia
@@ -1535,6 +1594,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_promote_defensive_wards"
 	swap_ideas = {
 		add_idea = ICR_armoured_fists_of_icrusia2b
 		remove_idea = ICR_armoured_fists_of_icrusia
@@ -1562,6 +1622,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_fuse_old_and_new_tactics"
 	#doctrine
 }
 ai_will_do = {
@@ -1586,6 +1647,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_ideate_unlikely_doctrines"
 	#doctrine
 }
 ai_will_do = {
@@ -1610,6 +1672,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_advanced_gunboat_designs"
 	#research
 }
 ai_will_do = {
@@ -1635,6 +1698,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_war_of_attrition"
 	DCR = {
 		swap_ideas = {
 			add_idea = ICR_the_second_horsemen_of_the_apocalypse2
@@ -1671,6 +1735,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_break_their_spine"
 	if = {
 		limit = {
 			has_idea = ICR_decisive_battle_policy
@@ -1716,6 +1781,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_fight_for_the_king"
 	swap_ideas = {
 		add_idea = ICR_blessings_from_the_grand_order2
 		remove_idea = ICR_blessings_from_the_grand_order
@@ -1746,6 +1812,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_trubian_partnership"
 	#research
 }
 ai_will_do = {
@@ -1770,6 +1837,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_elite_riflemen_training"
 	#research
 }
 ai_will_do = {
@@ -1794,6 +1862,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_mass_civilian_recruitment"
 	add_manpower = 200000
 }
 ai_will_do = {
@@ -1819,6 +1888,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_artillery__model_accuracy"
 	#research
 }
 ai_will_do = {
@@ -1843,6 +1913,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_willpower_training"
 	#research
 }
 ai_will_do = {
@@ -1867,6 +1938,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_speed_up_doctrine_research"
 	add_research_slot = 1
 }
 ai_will_do = {
@@ -1891,6 +1963,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_icrusia_rule_the_waves"
 	add_ideas = ICR_icrusia_rules_the_waves
 }
 ai_will_do = {
@@ -1915,6 +1988,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_end_of_the_civil_war"
 	#event
 	set_country_flag = ICR_civil_war_end
 }
@@ -1940,6 +2014,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_breed_stronger_horses"
 	if = {
 		limit = {
 			has_idea = ICR_army_of_hooves2a
@@ -1987,6 +2062,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_force_of_arms"
 	swap_ideas = {
 		add_idea = ICR_finest_military_in_all_of_ambulas2
 		remove_idea = ICR_finest_military_in_all_of_ambulas
@@ -2019,6 +2095,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_hell_on_earth"
 	swap_ideas = {
 		add_idea = ICR_finest_military_in_all_of_ambulas2
 		remove_idea = ICR_finest_military_in_all_of_ambulas
@@ -2051,6 +2128,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_raining_fireballs"
 	if = {
 		limit = {
 			has_idea = ICR_armoured_fists_of_icrusia2a
@@ -2098,6 +2176,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_king_of_battle_tactics"
 	#doctrine
 }
 ai_will_do = {
@@ -2122,6 +2201,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_drawing_board_hermits"
 	#doctrine
 }
 ai_will_do = {
@@ -2146,6 +2226,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_economy_first"
 	add_political_power = 100
 }
 ai_will_do = {
@@ -2170,6 +2251,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_unity_first"
 	add_timed_idea = {
 		idea = ICR_rebuilding_the_nation
 		days = 365
@@ -2197,6 +2279,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_restart_the_gears_of_economy"
 	add_timed_idea = {
 		idea = ICR_restart_the_economy
 		days = 365
@@ -2224,6 +2307,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_indebted_to_our_beloved_military"
 	add_political_power = -100
 	add_manpower = 10000
 }
@@ -2249,6 +2333,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_comfort_the_people"
 	add_political_power = -50
 	add_stability = 0.1
 }
@@ -2274,6 +2359,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_internal_matters"
 	#event
 }
 ai_will_do = {
@@ -2298,6 +2384,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_focus_on_our_natural_wealth"
 	set_variable = { ICR_resource_increase = 0.2 }
 	add_dynamic_modifier = {
 		modifier = ICR_natural_wealth_of_central_ambulas
@@ -2325,6 +2412,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_re-industrialise"
 	#buildings
 }
 ai_will_do = {
@@ -2349,6 +2437,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_use_up_the_rest_of_our_treasuries"
 	add_political_power = -50
 	add_stability = 0.1
 }
@@ -2374,6 +2463,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_ideas_of_veteran_bonds"
 	add_ideas = ICR_loyal_veterans
 }
 ai_will_do = {
@@ -2398,6 +2488,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_start_rebuilding_efforts"
 	add_political_power = -50
 	add_ideas = ICR_reunite_the_common_folk
 }
@@ -2423,6 +2514,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_airestonian_pow"
 	add_ideas = ICR_foreign_labour_force
 }
 ai_will_do = {
@@ -2447,6 +2539,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_revolutionaries_of_the_wrong_type"
 	#event
 }
 ai_will_do = {
@@ -2471,6 +2564,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_rebuild_the_feiditta_coal_mines"
 	#resources
 }
 ai_will_do = {
@@ -2495,6 +2589,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_brass_metallurgy"
 	#resources
 }
 ai_will_do = {
@@ -2519,6 +2614,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_create_more_iron_mines"
 	#resources
 }
 ai_will_do = {
@@ -2543,6 +2639,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_reopen_the_factories"
 	swap_ideas = {
 		add_idea = ICR_restart_the_economy2
 		remove_idea = ICR_restart_the_economy
@@ -2570,6 +2667,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_redistribute_farmlands"
 	#buildings
 }
 ai_will_do = {
@@ -2594,6 +2692,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_give_military_officials_new_titles"
 	#generals
 }
 ai_will_do = {
@@ -2618,6 +2717,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_proclaimation_of_peace"
 	add_political_power = 50
 	add_stability = 0.1
 }
@@ -2643,6 +2743,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_promote_our_successes"
 	add_political_power = 50
 	add_stability = 0.1
 }
@@ -2668,6 +2769,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_show_off_prized_winnings"
 	#event
 }
 ai_will_do = {
@@ -2692,6 +2794,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_ransom_the_nobles"
 	add_political_power = 300
 }
 ai_will_do = {
@@ -2716,6 +2819,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_sell_them_to_slavery"
 	add_political_power = 350
 	add_manpower = -100000
 }
@@ -2741,6 +2845,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_help_out_airestonian_enemies"
 	#decisions
 }
 ai_will_do = {
@@ -2765,6 +2870,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_take_away_their_possesions"
 	#buildings
 }
 ai_will_do = {
@@ -2789,6 +2895,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_off_with_their_heads"
 	add_ideas = ICR_icrusia_city_show_trials
 }
 ai_will_do = {
@@ -2813,6 +2920,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_seek_reconciliation"
 	add_ideas = ICR_reconciliation
 }
 ai_will_do = {
@@ -2837,6 +2945,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_lax_digging_restrictions"
 	#resources
 }
 ai_will_do = {
@@ -2861,6 +2970,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_metallurgy_efficiency"
 	#resources
 }
 ai_will_do = {
@@ -2885,6 +2995,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_dig_for_more_copper"
 	#resources
 }
 ai_will_do = {
@@ -2909,6 +3020,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_maximise_iron_extraction"
 	#resources
 }
 ai_will_do = {
@@ -2933,6 +3045,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_reduce_iron_waste"
 	#resources
 }
 ai_will_do = {
@@ -2957,6 +3070,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_icrusia_city_military_arms_complex"
 	add_ideas = ICR_military_industrial_complex
 }
 ai_will_do = {
@@ -2981,6 +3095,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_salve_industrial_centre"
 	#buildings
 }
 ai_will_do = {
@@ -3005,6 +3120,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_rename_roads"
 	#buildings
 }
 ai_will_do = {
@@ -3029,6 +3145,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_redmond_valor_medals"
 	#event
 }
 ai_will_do = {
@@ -3055,6 +3172,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_repay_affected_farmers"
 	#buildings
 	add_political_power = -50
 }
@@ -3082,6 +3200,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_seek_forgiveness_from_injured_citizens"
 	swap_ideas = {
 		add_idea = ICR_reunite_the_common_folk2
 		remove_idea = ICR_reunite_the_common_folk
@@ -3112,6 +3231,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_new_icrusian_labour_force"
 	swap_ideas = {
 		add_idea = ICR_foreign_labour_force2
 		remove_idea = ICR_foreign_labour_force
@@ -3142,6 +3262,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_torture_the_spies"
 	#spies
 }
 ai_will_do = {
@@ -3166,6 +3287,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_execution_stands"
 	add_manpower = -10000
 	add_political_power = 100
 }
@@ -3191,6 +3313,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_assasinate_prominent_plotters"
 	add_political_power = 100
 	add_popularity = {
 		ideology = fascism
@@ -3219,6 +3342,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_forgive_the_loyalists"
 	add_popularity = {
 		ideology = neutrality
 		popularity = 0.25
@@ -3249,6 +3373,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_integrate_democratic_ideals"
 	add_popularity = {
 		ideology = democratic
 		popularity = 0.25
@@ -3279,6 +3404,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_thornton_drilling_facility"
 	#buildings
 }
 ai_will_do = {
@@ -3304,6 +3430,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_stronger_brass_mixtures"
 	#resources
 }
 ai_will_do = {
@@ -3328,6 +3455,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_bolster_the_iron_factories"
 	#buildings
 }
 ai_will_do = {
@@ -3352,6 +3480,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_reuse_iron_tools"
 	#resources
 }
 ai_will_do = {
@@ -3376,6 +3505,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_total_war_production"
 	#buildings
 }
 ai_will_do = {
@@ -3400,6 +3530,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_newspaper_printing_presses"
 	add_ideas = ICR_icrusian_industrial_powerhouse
 }
 ai_will_do = {
@@ -3424,6 +3555,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_malouria_slitting_mills"
 	#buildings
 }
 ai_will_do = {
@@ -3448,6 +3580,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_improve_military_farm_protection"
 	#buildings
 }
 ai_will_do = {
@@ -3472,6 +3605,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_reward_senior_veterans"
 	swap_ideas = {
 		add_idea = ICR_loyal_veterans2
 		remove_idea = ICR_loyal_veterans
@@ -3500,6 +3634,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_unveiling_of_the_peoples_statues"
 	#event
 }
 ai_will_do = {
@@ -3525,6 +3660,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_every_little_hands_together"
 	swap_ideas = {
 		add_idea = ICR_strength_in_unity
 		remove_idea = ICR_reunite_the_common_folk2
@@ -3553,6 +3689,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_hold_countruwide_celebrations"
 	add_political_power = 100
 }
 ai_will_do = {
@@ -3578,6 +3715,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_integrate_the_intellectuals"
 	add_research_slot = 1
 	add_stability = -0.25
 }
@@ -3604,6 +3742,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_no_trust_to_vermin"
 	add_political_power = 1000
 }
 ai_will_do = {
@@ -3628,6 +3767,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_sell_their_families_to_slavery"
 	add_political_power = 100
 	add_popularity = {
 		ideology = fascism
@@ -3656,6 +3796,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_frame_the_traitors"
 	swap_ideas = {
 		add_idea = ICR_icrusia_city_show_trials2
 		remove_idea = ICR_icrusia_city_show_trials
@@ -3683,6 +3824,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_return_loyalist_properties"
 	swap_ideas = {
 		add_idea = ICR_reconciliation2
 		remove_idea = ICR_reconciliation
@@ -3710,6 +3852,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_promote_meritocratic_upscaling"
 	add_popularity = {
 		ideology = democratic
 		popularity = 0.3
@@ -3740,6 +3883,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_embodiment_of_steampunk"
 	add_to_variable = { ICR_resource_increase = 0.2 }
 	if = {
 		limit = {
@@ -3770,6 +3914,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_subsidise_brass_factory_groups"
 	#buildings
 	if = {
 		limit = {
@@ -3800,6 +3945,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_brass_recycling_centre"
 	add_to_variable = { ICR_resource_increase = 0.2 }
 	if = {
 		limit = {
@@ -3830,6 +3976,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_fund_iron_companies"
 	#resources
 	if = {
 		limit = {
@@ -3860,6 +4007,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_iron_recycling_plant"
 	add_to_variable = { ICR_resource_increase = 0.2 }
 	if = {
 		limit = {
@@ -3890,6 +4038,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_mass_forge_expansion"
 	#buildings
 }
 ai_will_do = {
@@ -3914,6 +4063,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_torre_stables"
 	#buildings
 }
 ai_will_do = {
@@ -3938,6 +4088,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_orsiah_grain_mills"
 	#buildings
 }
 ai_will_do = {
@@ -3962,6 +4113,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_thethmond_canals"
 	#buildings
 }
 ai_will_do = {
@@ -3987,6 +4139,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_paid_overdue_debts"
 	remove_ideas = ICR_unpaid_military_grunts
 	swap_ideas = {
 		add_idea = ICR_loyal_veterans3
@@ -4017,6 +4170,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_icrusia_the_land_of_one_people"
 	remove_ideas = ICR_fractured_nation
 }
 ai_will_do = {
@@ -4041,6 +4195,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_airestonia_a_fallen_kingdom"
 	#event
 }
 ai_will_do = {
@@ -4066,6 +4221,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_redmond_declaration"
 	remove_ideas = ICR_icrusia_city_show_trials2
 	add_timed_idea = {
 		idea = ICR_icrusia_city_show_trials3
@@ -4096,6 +4252,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_forgive_not_forget"
 	remove_ideas = ICR_reconciliation2
 	add_timed_idea = {
 		idea = ICR_reconciliation3
@@ -4124,6 +4281,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_pacisa_pike_production_centre"
 	#buildings
 }
 ai_will_do = {
@@ -4148,6 +4306,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_brampton_barracks"
 	swap_ideas = {
 		add_idea = ICR_military_industrial_complex2
 		remove_idea = ICR_military_industrial_complex
@@ -4175,6 +4334,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_verdavik_gear_factories"
 	#buildings
 }
 ai_will_do = {
@@ -4199,6 +4359,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_create_more_blast_furnaces"
 	#buildings
 }
 ai_will_do = {
@@ -4223,6 +4384,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_loyalty_above_all"
 	swap_ideas = {
 		add_idea = ICR_loyalty_to_redmond
 		remove_idea = ICR_traitors_to_the_cause
@@ -4250,6 +4412,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_the_cotton_farms"
 	#resources
 }
 ai_will_do = {
@@ -4274,6 +4437,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_harness_void_metal"
 	#resources
 }
 ai_will_do = {
@@ -4299,6 +4463,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_lax_logging_laws"
 	#resources
 }
 ai_will_do = {
@@ -4324,6 +4489,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_hustad_smelters"
 	swap_ideas = {
 		add_idea = ICR_icrusian_industrial_powerhouse2
 		remove_idea = ICR_icrusian_industrial_powerhouse
@@ -4352,6 +4518,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_peace_within_the_walls"
 	add_political_power = 100
 	add_stability = 0.1
 }
@@ -4377,6 +4544,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_hire_more_harvest_slaves"
 	#resources
 }
 ai_will_do = {
@@ -4401,6 +4569,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_incentive_cotton_growth"
 	#resources
 }
 ai_will_do = {
@@ -4425,6 +4594,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_resist_arcanic_pulses"
 	#resources
 }
 ai_will_do = {
@@ -4449,6 +4619,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_understand_void_strength"
 	#resources
 }
 ai_will_do = {
@@ -4473,6 +4644,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_tsuthas_gunworks"
 	#buildings
 }
 ai_will_do = {
@@ -4497,6 +4669,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_sword_factories"
 	#buildings
 }
 ai_will_do = {
@@ -4521,6 +4694,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_production_in_the_cities"
 	#buildings
 }
 ai_will_do = {
@@ -4545,6 +4719,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_production_in_the_countryside"
 	#buildings
 }
 ai_will_do = {
@@ -4569,6 +4744,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_our_eagle_flying_high"
 	#event
 }
 ai_will_do = {
@@ -4593,6 +4769,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_stop_the_brain_drain"
 	#research
 }
 ai_will_do = {
@@ -4618,6 +4795,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_plant_enhancing_magic"
 	#resources
 }
 ai_will_do = {
@@ -4642,6 +4820,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_curb_mind_affecting_properties"
 	#resources
 }
 ai_will_do = {
@@ -4666,6 +4845,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_reinforce_void_mines"
 	#buildings
 }
 ai_will_do = {
@@ -4690,6 +4870,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_promote_military_arms_contracts"
 	swap_ideas = {
 		add_idea = ICR_military_industrial_complex3
 		remove_idea = ICR_military_industrial_complex2
@@ -4719,6 +4900,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_a_befitting_name"
 	swap_ideas = {
 		add_idea = ICR_icrusian_industrial_powerhouse3
 		remove_idea = ICR_icrusian_industrial_powerhouse2
@@ -4747,6 +4929,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_imperial_federation"
 	add_ideas = ICR_dreams_of_an_imperial_federation
 }
 ai_will_do = {
@@ -4771,6 +4954,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_imperial_ambitions"
 	
 }
 ai_will_do = {
@@ -4795,6 +4979,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_subsidised_education"
 	add_ideas = ICR_subsidised_education
 }
 ai_will_do = {
@@ -4819,6 +5004,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_build_elite_schools"
 	add_ideas = ICR_elite_education
 }
 ai_will_do = {
@@ -4843,6 +5029,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_earth_wielders"
 	add_to_variable = { ICR_resource_increase = 0.2 }
 	if = {
 		limit = {
@@ -4874,6 +5061,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_a_new_revolution"
 	add_to_variable = { ICR_resource_increase = 0.2 }
 	if = {
 		limit = {
@@ -4904,6 +5092,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_rebuild_theberia"
 	#relations
 	THB = { add_political_power = 100 }
 }
@@ -4929,6 +5118,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_agra_our_northern_friend"
 	#relations
 	AGR = { add_political_power = 100 }
 }
@@ -4954,6 +5144,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_serve_the_eagle"
 	create_wargoal = {
 		type = puppet_wargoal_focus
 		target = GOZ
@@ -4981,6 +5172,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_break_up_echaianaian_dominance"
 	create_wargoal = {
 		type = puppet_wargoal_focus
 		target = ECH
@@ -5009,6 +5201,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_mandatory_education"
 	swap_ideas = {
 		add_idea = ICR_mandatory_education
 		remove_idea = ICR_subsidised_education
@@ -5036,6 +5229,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_promote_immigrant_education"
 	#research
 }
 ai_will_do = {
@@ -5061,6 +5255,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_raise_the_bar_for_tests"
 	swap_ideas = {
 		add_idea = ICR_elite_education2
 		remove_idea = ICR_elite_education
@@ -5088,6 +5283,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_build_new_theberan_roads"
 	#buildings
 }
 ai_will_do = {
@@ -5112,6 +5308,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_lease_technologies_to_theberia"
 	THB = { add_ideas = ICR_education_from_icrusia }
 }
 ai_will_do = {
@@ -5136,6 +5333,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_bail_out_agran_government"
 	AGR = { add_political_power = 200 }
 	ICR = { add_political_power = -200 }
 }
@@ -5161,6 +5359,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_build_up_agran_farms"
 	#buildings
 }
 ai_will_do = {
@@ -5185,6 +5384,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_educate_agran_people"
 	AGR = { add_ideas = ICR_education_from_icrusia }
 }
 ai_will_do = {
@@ -5210,6 +5410,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_integrate_the_north_west"
 	#cores
 	swap_ideas = {
 		add_idea = ICR_warmongers_of_ambulas2
@@ -5239,6 +5440,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_the_icrusia_city_university"
 	add_research_slot = 1
 }
 ai_will_do = {
@@ -5264,6 +5466,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_open_new_military_schools"
 	#buildings
 }
 ai_will_do = {
@@ -5288,6 +5491,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_theberan_factory_development"
 	#buildings
 }
 ai_will_do = {
@@ -5312,6 +5516,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_provide_amnesty_for_theberan_scholars"
 	THB = { add_research_slot = 1 }
 }
 ai_will_do = {
@@ -5338,6 +5543,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_seek_agran_forgiveness"
 	#relations
 }
 ai_will_do = {
@@ -5362,6 +5568,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_an_impossible_deal"
 	#event
 }
 ai_will_do = {
@@ -5386,6 +5593,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_airestonian_question"
 	create_wargoal = {
 		type = puppet_wargoal_focus
 		target = ARS
@@ -5413,6 +5621,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_great_scholarly_revival"
 	if = {
 		limit = {
 			has_idea = ICR_mandatory_education
@@ -5456,6 +5665,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_send_out_the_icrusian_charter"
 	#event
 }
 ai_will_do = {
@@ -5480,6 +5690,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ICR_only_kingdom_in_the_east"
 	#decisions
 }
 ai_will_do = {

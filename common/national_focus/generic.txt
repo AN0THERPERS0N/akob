@@ -47,6 +47,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus army_effort"
 add_political_power = 100
 }
 ai_will_do = {
@@ -73,6 +74,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus political_effort"
 add_political_power = 100
 }
 ai_will_do = {
@@ -99,6 +101,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus industrial_effort"
 add_political_power = 100
 }
 ai_will_do = {
@@ -126,6 +129,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus troop_focus"
 add_political_power = 100
 }
 ai_will_do = {
@@ -152,6 +156,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mage_focus"
 add_political_power = 100
 }
 ai_will_do = {
@@ -178,6 +183,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus revamp_the_army_chief_of_staff"
 add_political_power = 100
 }
 ai_will_do = {
@@ -204,6 +210,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus naval_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -232,6 +239,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus communism_focus"
 add_political_power = 100
 }
 ai_will_do = {
@@ -260,6 +268,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus supremacy_focus"
 add_political_power = 100
 }
 ai_will_do = {
@@ -288,6 +297,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus democracy_focus"
 add_political_power = 100
 }
 ai_will_do = {
@@ -316,6 +326,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus neutrality_focus"
 add_political_power = 100
 }
 ai_will_do = {
@@ -342,6 +353,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus on_the_road_to_war"
 add_political_power = 100
 }
 ai_will_do = {
@@ -368,6 +380,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus deceive_and_deceit"
 add_political_power = 100
 }
 ai_will_do = {
@@ -394,6 +407,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus armament_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -420,6 +434,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus construction_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -447,6 +462,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus equipment_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -473,6 +489,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mage_research_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -499,6 +516,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mage_volunteer_corp"
 add_political_power = 100
 }
 ai_will_do = {
@@ -525,6 +543,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus meritocracy_in_the_army"
 add_political_power = 100
 }
 ai_will_do = {
@@ -551,6 +570,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus new_marine_corp"
 add_political_power = 100
 }
 ai_will_do = {
@@ -577,6 +597,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus political_correctness"
 add_political_power = 100
 }
 ai_will_do = {
@@ -603,6 +624,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus militarism"
 add_political_power = 100
 }
 ai_will_do = {
@@ -629,6 +651,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus welfare_of_the_people"
 add_political_power = 100
 }
 ai_will_do = {
@@ -655,6 +678,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus raise_levies"
 add_political_power = 100
 }
 ai_will_do = {
@@ -681,6 +705,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus propaganda_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -707,6 +732,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus expand_operative_capacity_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -733,6 +759,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus armament_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -759,6 +786,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus construction_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -786,6 +814,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus cavalry_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -812,6 +841,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus equipment_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -838,6 +868,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus artillery_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -864,6 +895,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mage_research_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -890,6 +922,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mage_training_corp_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -916,6 +949,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus new_officer_training_schools_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -942,6 +976,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus dockyard_construction_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -968,6 +1003,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus land_redistribution"
 add_political_power = 100
 }
 ai_will_do = {
@@ -994,6 +1030,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mlitary_youth"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1020,6 +1057,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus free_market"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1046,6 +1084,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus deterrence"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1072,6 +1111,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus warmongering_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1098,6 +1138,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus expand_counter_intelligence_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1124,6 +1165,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus resource_extraction_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1150,6 +1192,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus infrastructure_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1176,6 +1219,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus research_effort_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1204,6 +1248,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus combined_arms_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1230,6 +1275,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus artillery_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1256,6 +1302,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus establish_mage_schools"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1282,6 +1329,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus new_magical_abilities"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1308,6 +1356,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus enhance_mage_willpower"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1334,6 +1383,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus hire_new_field_marshals"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1360,6 +1410,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus improve_ship_building_efficiency"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1386,6 +1437,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus punish_the_wealthy"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1412,6 +1464,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mass_censorship"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1438,6 +1491,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus fund_private_ventures"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1464,6 +1518,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus expand_the_king_court"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1490,6 +1545,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus propaganda_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1516,6 +1572,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus expand_operative_capacity_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1542,6 +1599,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus cloth_production"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1568,6 +1626,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus iron_extraction"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1594,6 +1653,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus armament_effort_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1620,6 +1680,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus construction_effort_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1646,6 +1707,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus extra_research_slot_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1672,6 +1734,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus research_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1699,6 +1762,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus cavalry_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1725,6 +1789,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus equipment_effort_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1751,6 +1816,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus artillery_effort_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1778,6 +1844,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mage_research_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1804,6 +1871,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mage_training_corp_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1830,6 +1898,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus rework_qualification_tests"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1856,6 +1925,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus naval_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1882,6 +1952,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus political_commissars"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1908,6 +1979,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus policy_of_fear"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1934,6 +2006,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus arsenal_of_freedom"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1960,6 +2033,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus new_advisors"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1986,6 +2060,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus warmongering_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2012,6 +2087,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus expand_counter_intelligence_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2038,6 +2114,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus coal_extraction"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2064,6 +2141,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus copper_extraction"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2090,6 +2168,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus armament_effort_IV"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2116,6 +2195,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus construction_effort_IV"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2142,6 +2222,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus build_new_university"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2169,6 +2250,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus cavalry_effort_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2196,6 +2278,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus shell_shock"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2223,6 +2306,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus strengthen_arcanic_efficiiency"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2249,6 +2333,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus new_officer_training_schools_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2275,6 +2360,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus research_new_ship_designs"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2301,6 +2387,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus mass_indoctrination"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2327,6 +2414,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus reeducation_camps"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2353,6 +2441,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus volunteer_corps"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2379,6 +2468,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus noble_militias"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2405,6 +2495,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus propaganda_effort_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2431,6 +2522,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus expand_operative_capacity_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2458,6 +2550,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus void_metal_extraction"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2484,6 +2577,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus armament_effort_V"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2510,6 +2604,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus construction_effort_V"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2536,6 +2631,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus research_effort_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2563,6 +2659,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus new_dockyard_construction_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2589,6 +2686,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus true_revolution"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2615,6 +2713,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus for_the_emperor"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2641,6 +2740,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus why_we_fight"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2667,6 +2767,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus long_live_the_king"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2693,6 +2794,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus warmongering_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2719,6 +2821,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus expand_counter_intelligence_III"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2745,6 +2848,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus resource_expansion_I"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2771,6 +2875,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus infrastructure_effort_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2797,6 +2902,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus extra_research_slot_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2823,6 +2929,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus universal_education"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2850,6 +2957,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ideological_fanaticism"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2876,6 +2984,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus strong_united_nation"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2902,6 +3011,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus resource_expansion_II"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2928,6 +3038,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus into_the_new_world"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2955,6 +3066,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus smart_nation"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2984,6 +3096,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus success"
 add_political_power = 100
 }
 ai_will_do = {

@@ -39,6 +39,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_call_the_51st_congress_of_the_federation"
 		add_political_power = 200
 		}
 		ai_will_do = {
@@ -63,6 +64,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_establish_the_economical_expansion_council"
 		
 		}
 		ai_will_do = {
@@ -88,6 +90,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_restart_the_national_security_committee"
 			swap_ideas = {
 				add_idea = GOZ_national_security_committee
 				remove_idea = GOZ_geopolitical_indifference
@@ -116,6 +119,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_a_trip_to_the_underground"
 			#event
 		}
 		ai_will_do = {
@@ -141,6 +145,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_new_economic_plan"
 			#decisions
 		}
 		ai_will_do = {
@@ -166,6 +171,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_burst_the_economic_bubble"
 			swap_ideas = {
 				add_idea = GOZ_economic_crisis
 				remove_idea = GOZ_economic_bubble
@@ -194,6 +200,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_the_deteoriating_state_of_the_military"
 			army_experience = 30
 		}
 		ai_will_do = {
@@ -219,6 +226,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_hire_prisoners"
 			#manpower
 			add_stability = -0.2
 		}
@@ -245,6 +253,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_dilute_cultural_taboos"
 			add_political_power = 100
 			add_stability = 0.1
 		}
@@ -271,6 +280,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_recruit_the_mafia"
 			add_stability = -0.1
 			add_war_support = -0.3
 			add_political_power = 200
@@ -298,6 +308,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_build_up_the_great_lakes_heartland"
 			#buildings
 		}
 		ai_will_do = {
@@ -323,6 +334,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_protect_the_olnbus_region"
 			#buildings
 		}
 		ai_will_do = {
@@ -348,6 +360,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_out_failing_banks"
 			add_political_power = -100
 			#buildings
 		}
@@ -374,6 +387,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_roll_out_new_currency"
 			add_political_power = -100
 			swap_ideas = {
 				add_idea = GOZ_a_mercantile_federation2
@@ -403,6 +417,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_subsidise_failing_businesses"
 			#buildings
 			add_political_power = -100
 		}
@@ -429,6 +444,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_reinstate_conscription"
 			add_ideas = GOZ_general_conscription
 		}
 		ai_will_do = {
@@ -454,6 +470,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_form_a_war_committee"
 			#decisions
 		}
 		ai_will_do = {
@@ -480,6 +497,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_shrink_the_underground_trade"
 			add_political_power = 50
 			swap_ideas = {
 				add_idea = GOZ_economic_expansion_council2
@@ -510,6 +528,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_improve_the_bars_of_rshavesk"
 			#buildings
 		}
 		ai_will_do = {
@@ -535,6 +554,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_Ibago_build_up"
 			#buildings
 		}
 		ai_will_do = {
@@ -560,6 +580,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_expand_the_hitrovo_military_complex"
 			#buildings
 		}
 		ai_will_do = {
@@ -585,6 +606,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_versk_industrial_factories"
 			#buildings
 		}
 		ai_will_do = {
@@ -610,6 +632,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_operation_dark_night"
 			#events
 		}
 		ai_will_do = {
@@ -635,6 +658,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_lower_loan_requirements"
 			#buildings
 			add_political_power = 50
 		}
@@ -662,6 +686,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_root_out_counterfeits"
 			add_political_power = -150
 			swap_ideas = {
 				add_idea = GOZ_a_mercantile_federation3
@@ -691,6 +716,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_lower_interest_rates"
 			#buildings
 		}
 		ai_will_do = {
@@ -716,6 +742,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_attract_foreign_investors"
 			#buildings
 			add_political_power = 100
 		}
@@ -742,6 +769,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_bring_in_new_recruits"
 			add_manpower = 100000
 		}
 		ai_will_do = {
@@ -767,6 +795,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_retrain_the_old_guard"
 			#units
 		}
 		ai_will_do = {
@@ -792,6 +821,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_send_out_an_eligibility_census"
 			add_manpower = 200000
 		}
 		ai_will_do = {
@@ -817,6 +847,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_study_mage_warfare"
 			#research
 		}
 		ai_will_do = {
@@ -842,6 +873,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_fund_new_armaments_research"
 			add_research_slot = 1
 		}
 		ai_will_do = {
@@ -868,6 +900,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_legalise_dukha"
 			#decisions
 		}
 		ai_will_do = {
@@ -893,6 +926,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_connect_the_great_lakes_heartland"
 			#buildings
 		}
 		ai_will_do = {
@@ -918,6 +952,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_monopolise_the_great_lakes"
 			#buildings
 		}
 		ai_will_do = {
@@ -943,6 +978,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_woo_icrusian_elites"
 			add_political_power = -50
 		}
 		ai_will_do = {
@@ -968,6 +1004,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_up_land_in_fayton"
 			add_political_power = -50
 		}
 		ai_will_do = {
@@ -993,6 +1030,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_build_houses_in_sragos"
 			add_political_power = -50
 			#buildings
 		}
@@ -1020,6 +1058,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_implement_the_economic_revival_plan"
 			swap_ideas = {
 				add_idea = GOZ_economic_crisis2
 				remove_idea = GOZ_economic_crisis
@@ -1048,6 +1087,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_streamline_the_recruitment_process"
 			swap_ideas = {
 				add_idea = GOZ_general_conscription2
 				remove_idea = GOZ_general_conscription
@@ -1076,6 +1116,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_root_out_unkempt_soldiers"
 			add_manpower = -10000
 			army_experience = 50
 		}
@@ -1102,6 +1143,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_force_out_draft_dodgers"
 			add_manpower = 500000
 		}
 		ai_will_do = {
@@ -1127,6 +1169,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_incentivise_cavalry_research"
 			#research
 		}
 		ai_will_do = {
@@ -1152,6 +1195,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_magical_revolution"
 			#research
 		}
 		ai_will_do = {
@@ -1177,6 +1221,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_artillery_patents"
 			#research
 		}
 		ai_will_do = {
@@ -1202,6 +1247,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_purchase_state_of_the_art_rifles"
 			#research
 			#equipment
 		}
@@ -1228,6 +1274,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_create_the_hitrovo_conspiracy"
 			#events
 		}
 		ai_will_do = {
@@ -1254,6 +1301,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_transition_the_great_lakes_economy"
 			#decisions
 		}
 		ai_will_do = {
@@ -1279,6 +1327,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_convince_icrusian_officers"
 			add_political_power = -50
 			#doctrine
 		}
@@ -1306,6 +1355,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_secret_riot_plans"
 			add_political_power = -50
 			#event
 		}
@@ -1332,6 +1382,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_new_tax_plan"
 			add_political_power = 30
 		}
 		ai_will_do = {
@@ -1357,6 +1408,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_new_workers_deal"
 			add_ideas = GOZ_new_workers_deal
 		}
 		ai_will_do = {
@@ -1382,6 +1434,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_increase_the_annual_army_size"
 			swap_ideas = {
 				add_idea = GOZ_general_conscription3
 				remove_idea = GOZ_general_conscription2
@@ -1410,6 +1463,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_increase_military_spending"
 			#event
 		}
 		ai_will_do = {
@@ -1435,6 +1489,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_trubian_horses"
 			#equipment
 		}
 		ai_will_do = {
@@ -1460,6 +1515,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_start_the_univeristy_for_arcanic_thought"
 			#doctrine
 		}
 		ai_will_do = {
@@ -1485,6 +1541,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_hellswarm"
 			#research
 		}
 		ai_will_do = {
@@ -1510,6 +1567,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_reform_unit_structure"
 			#units
 		}
 		ai_will_do = {
@@ -1535,6 +1593,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_open_more_casinos"
 			#buildings
 		}
 		ai_will_do = {
@@ -1560,6 +1619,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_make_gambling_more_exploitative"
 		
 		}
 		ai_will_do = {
@@ -1585,6 +1645,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_more_land_for_gambling_dens"
 			#buildings
 		}
 		ai_will_do = {
@@ -1610,6 +1671,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_promote_gambling"
 			add_political_power = 100
 		}
 		ai_will_do = {
@@ -1635,6 +1697,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_lower_the_overfishing_cap"
 			add_political_power = 100
 		}
 		ai_will_do = {
@@ -1660,6 +1723,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_mechanise_the_fishing_industry"
 			#buildings
 		}
 		ai_will_do = {
@@ -1685,6 +1749,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_new_icrusian_gozyr_trade_deal"
 			#relations
 			add_political_power = -50
 			ICR = { add_political_power = 50 }
@@ -1712,6 +1777,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_bribe_icrusian_officials"
 			add_political_power = -50
 		}
 		ai_will_do = {
@@ -1737,6 +1803,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_increase_taxes"
 			swap_ideas = {
 				add_idea = GOZ_a_mercantile_federation3a
 				remove_idea = GOZ_a_mercantile_federation3
@@ -1765,6 +1832,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_lower_taxes"
 			swap_ideas = {
 				add_idea = GOZ_a_mercantile_federation3b
 				remove_idea = GOZ_a_mercantile_federation3
@@ -1793,6 +1861,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_crackdown_on_tax_evasion"
 			add_political_power = 100
 			add_stability = -0.1
 		}
@@ -1819,6 +1888,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_increase_wages"
 			#buildings
 			add_political_power = -50
 		}
@@ -1845,6 +1915,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_improve_working_conditions"
 			#buildings
 		}
 		ai_will_do = {
@@ -1870,6 +1941,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_enforce_permanent_working_hours"
 			#buildings
 		}
 		ai_will_do = {
@@ -1895,6 +1967,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_train_new_generals"
 		
 		}
 		ai_will_do = {
@@ -1921,6 +1994,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_invite_echainaian_military_experts"
 			#generals
 			#units
 		}
@@ -1947,6 +2021,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_rolling_thunder_policy"
 			#event
 		}
 		ai_will_do = {
@@ -1972,6 +2047,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_the_triad_mage_group"
 			#research
 			#equipment
 		}
@@ -1998,6 +2074,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_set_up_the_atarx_battery_company"
 			#research
 		}
 		ai_will_do = {
@@ -2023,6 +2100,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_enforce_a_surplus_policy"
 			#research
 		}
 		ai_will_do = {
@@ -2049,6 +2127,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_create_public_gambling_spaces"
 			#decisions
 		}
 		ai_will_do = {
@@ -2074,6 +2153,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_nationalise_dukha"
 			swap_ideas = {
 				add_idea = goz_dukha3
 				remove_idea = goz_dukha2
@@ -2103,6 +2183,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_remove_the_gambling_taboo"
 			add_political_power = 100
 		}
 		ai_will_do = {
@@ -2129,6 +2210,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_industrialise_onarough"
 			#buildi1ngs
 		}
 		ai_will_do = {
@@ -2155,6 +2237,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_sragos_and_fayton"
 			#event
 		}
 		ai_will_do = {
@@ -2181,6 +2264,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_balance_the_budget"
 			#buildings
 			add_political_power = 50
 		}
@@ -2209,6 +2293,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_a_workers_promise"
 			swap_ideas = {
 				add_idea = GOZ_new_workers_deal2
 				remove_idea = GOZ_new_workers_deal
@@ -2237,6 +2322,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_build_the_rshavesk_military_academy"
 			add_ideas = GOZ_rshavesk_military_academy
 		}
 		ai_will_do = {
@@ -2262,6 +2348,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_rebuild_the_hitrovo_university"
 			add_research_slot = 1
 		}
 		ai_will_do = {
@@ -2287,6 +2374,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_learn_from_the_icrusian_military"
 			army_experience = 100
 			#general
 		}
@@ -2313,6 +2401,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_build_new_stables"
 			#research
 			#buildings
 		}
@@ -2339,6 +2428,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_widen_the_mage_training_pool"
 			#units
 		}
 		ai_will_do = {
@@ -2364,6 +2454,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_shell_our_way_to_success"
 			#doctrine
 		}
 		ai_will_do = {
@@ -2389,6 +2480,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_invest_into_hukima_gunworks"
 			#research
 		}
 		ai_will_do = {
@@ -2416,6 +2508,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_the_gambling_capital"
 			#decisions
 			swap_ideas = {
 				add_idea = goz_dukha4
@@ -2445,6 +2538,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_pump_out_new_factory_plants"
 			#buildings
 		}
 		ai_will_do = {
@@ -2470,6 +2564,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_attract_farmers_to_the_cities"
 			#buildings
 		}
 		ai_will_do = {
@@ -2495,6 +2590,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_prop_up_businesses_in_onarough"
 			#buildings
 		}
 		ai_will_do = {
@@ -2520,6 +2616,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_expand_citizenship"
 			add_manpower = 1000000
 			add_state_core = 101
 			add_state_core = 100
@@ -2547,6 +2644,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_establish_the_north_ambulas_economic_region"
 			add_political_power = 100
 			#decisions
 		}
@@ -2573,6 +2671,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_grand_economic_revival"
 			remove_ideas = GOZ_economic_crisis2
 		}
 		ai_will_do = {
@@ -2599,6 +2698,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_grand_military_revival"
 			swap_ideas = {
 				add_idea = GOZ_gozyr_military_revival
 				remove_idea = GOZ_general_conscription3
@@ -2627,6 +2727,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_heart_of_military_innovation"
 			#doctrine
 			#research
 		}
@@ -2653,6 +2754,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_gornovo_shipyards"
 			#buildings
 		}
 		ai_will_do = {
@@ -2678,6 +2780,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_create_the_onarough_industrial_military_complex"
 			#buildings
 		}
 		ai_will_do = {
@@ -2705,6 +2808,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_a_once_proud_empire"
 			#event
 		}
 		ai_will_do = {
@@ -2734,6 +2838,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_proft_into_the_future"
 			swap_ideas = {
 				add_idea = GOZ_gozyr_trade_empire
 				remove_idea = GOZ_a_mercantile_federation
@@ -2763,6 +2868,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_seek_out_our_lost_territories"
 			#event
 		}
 		ai_will_do = {
@@ -2788,6 +2894,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_safeguard_against_echainaian_persecution"
 			#event
 		}
 		ai_will_do = {
@@ -2813,6 +2920,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_humiliations_oif_the_past"
 			#decisions
 		}
 		ai_will_do = {
@@ -2838,6 +2946,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_create_the_lubichesk_conspiracy"
 			#event
 		}
 		ai_will_do = {
@@ -2863,6 +2972,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_strengthen_the_border_units"
 			#units
 		}
 		ai_will_do = {
@@ -2888,6 +2998,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_denounce_echainaia"
 			#decisions
 		}
 		ai_will_do = {
@@ -2913,6 +3024,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_open_refugee_camps"
 			add_manpower = 200000
 		}
 		ai_will_do = {
@@ -2938,6 +3050,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_set_up_spies_in_echainaia"
 			#spies
 		}
 		ai_will_do = {
@@ -2965,6 +3078,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_strike_the_eagle_down"
 			declare_war_on = {
 				target = ICR
 				type = puppet_wargoal_focus
@@ -2995,6 +3109,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_in_the_name_of_freedom"
 			declare_war_on = {
 				target = ECH
 				type = puppet_wargoal_focus
@@ -3024,6 +3139,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GOZ_proclaim_the_new_gozyr_federation"
 			#decisions
 		}
 		ai_will_do = {

@@ -38,6 +38,17 @@ add_ideas = {
 	GOZ_disbanded_military
 }
 
+create_country_leader = {
+	name = "Gozyr leader"
+	desc = "POLITICS_AMARIS_DESC"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
 set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39

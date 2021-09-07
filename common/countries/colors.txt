@@ -44,19 +44,7 @@ WSL = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
-PRL = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
-RBS = {
-	color = rgb { 186 0 0 }
-	color_ui = rgb { 186 0 0 }
-}
 CRP = {
-	color = rgb { 102 0 0 }
-	color_ui = rgb { 102 0 0 }
-}
-ANC = {
 	color = rgb { 102 0 0 }
 	color_ui = rgb { 102 0 0 }
 }

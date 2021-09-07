@@ -30,6 +30,17 @@ add_ideas = {
 	ILD_black_dragon_resistance
 }
 
+create_country_leader = {
+	name = "Illidea leader"
+	desc = "POLITICS_AMARIS_DESC"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
 set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39

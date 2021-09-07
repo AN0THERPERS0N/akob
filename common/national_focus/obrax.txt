@@ -41,6 +41,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_a_birthday_to_remember"
 add_political_power = 100
 }
 ai_will_do = {
@@ -67,6 +68,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_unravelling_of_the_april_plot"
 add_political_power = 100
 }
 ai_will_do = {
@@ -93,6 +95,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_nationwide_curfew"
 add_political_power = 100
 }
 ai_will_do = {
@@ -119,6 +122,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_break_up_noble_gatherings"
 add_political_power = 100
 }
 ai_will_do = {
@@ -145,6 +149,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_enforce_marshall_law"
 add_political_power = 100
 }
 ai_will_do = {
@@ -171,6 +176,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_reactivate_the_obrax_home_defence_force"
 add_political_power = 100
 }
 ai_will_do = {
@@ -197,6 +203,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_nationwide_hunt"
 add_political_power = 100
 }
 ai_will_do = {
@@ -223,6 +230,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_intercept_all_letters"
 add_political_power = 100
 }
 ai_will_do = {
@@ -249,6 +257,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_terrorise_and_torture"
 add_political_power = 100
 }
 ai_will_do = {
@@ -275,6 +284,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_instigate_a_policy_of_fear"
 add_political_power = 100
 }
 ai_will_do = {
@@ -301,6 +311,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_national_cooperation_group"
 add_political_power = 100
 }
 ai_will_do = {
@@ -332,6 +343,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_crackdown_on_the_nobles"
 add_political_power = 100
 }
 ai_will_do = {
@@ -363,6 +375,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_crackdown_on_the_peasants"
 add_political_power = 100
 }
 ai_will_do = {
@@ -394,6 +407,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_crackdown_on_the_cabinet"
 add_political_power = 100
 }
 ai_will_do = {
@@ -420,6 +434,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_arrest_prominent_nobles"
 add_political_power = 100
 }
 ai_will_do = {
@@ -446,6 +461,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_spies_in_high_places"
 add_political_power = 100
 }
 ai_will_do = {
@@ -472,6 +488,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_nationwide_screenings"
 add_political_power = 100
 }
 ai_will_do = {
@@ -498,6 +515,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_mass_arrests_in_the_villages"
 add_political_power = 100
 }
 ai_will_do = {
@@ -524,6 +542,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_imprison_important_leaders"
 add_political_power = 100
 }
 ai_will_do = {
@@ -550,6 +569,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_curb_the_power_of_the_church"
 add_political_power = 100
 }
 ai_will_do = {
@@ -576,6 +596,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_destroy_noble_societies"
 add_political_power = 100
 }
 ai_will_do = {
@@ -602,6 +623,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_forced_requisition"
 add_political_power = 100
 }
 ai_will_do = {
@@ -628,6 +650,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_dispatch_agents_everywhere"
 add_political_power = 100
 }
 ai_will_do = {
@@ -654,6 +677,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_promote_rats_in_society"
 add_political_power = 100
 }
 ai_will_do = {
@@ -680,6 +704,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_divide_political_groups"
 add_political_power = 100
 }
 ai_will_do = {
@@ -706,6 +731,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_ban_party_rallies"
 add_political_power = 100
 }
 ai_will_do = {
@@ -732,6 +758,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_an_obedient_nobility"
 add_political_power = 100
 }
 ai_will_do = {
@@ -758,6 +785,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_peace_in_the_community"
 add_political_power = 100
 }
 ai_will_do = {
@@ -784,6 +812,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_trust_in_the_system"
 add_political_power = 100
 }
 ai_will_do = {
@@ -810,6 +839,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_future_of_obrax"
 add_political_power = 100
 }
 ai_will_do = {
@@ -836,6 +866,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_dreams_of_autarky"
 add_political_power = 100
 }
 ai_will_do = {
@@ -862,6 +893,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_cannot_live_without_airestonia"
 add_political_power = 100
 }
 ai_will_do = {
@@ -888,6 +920,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_secret_plans"
 add_political_power = 100
 }
 ai_will_do = {
@@ -914,6 +947,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_extreme_measures"
 add_political_power = 100
 }
 ai_will_do = {
@@ -940,6 +974,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_renew_the_obrax_airestonian_trade_agreement"
 add_political_power = 100
 }
 ai_will_do = {
@@ -966,6 +1001,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_align_ourselves_with_airestonia"
 add_political_power = 100
 }
 ai_will_do = {
@@ -992,6 +1028,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_celebrate_close_ties"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1019,6 +1056,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_nano_expansion_plan"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1047,6 +1085,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_form_the_new_eastern_bloc"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1073,6 +1112,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_prioritise_the_people"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1099,6 +1139,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_prioritise_the_military"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1125,6 +1166,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_request_airestonian_generals"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1151,6 +1193,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_study_airestonian_equipment"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1177,6 +1220,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_mass_evacuations"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1203,6 +1247,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_nano_housing_plan"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1229,6 +1274,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_mass_equipment_storage_facilities"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1255,6 +1301,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_build_more_shipyards"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1281,6 +1328,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_model_factories_after_airestonia"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1307,6 +1355,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_buy_airstonian_weapons"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1334,6 +1383,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_decree_of_independence"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1361,6 +1411,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_stronger_together"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1387,6 +1438,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_question_of_autarky"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1413,6 +1465,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_accelerated_reindustrialisation"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1439,6 +1492,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_fix_the_navy"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1465,6 +1519,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_revamp_the_obraxian_army"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1491,6 +1546,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_two_year_plan"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1517,6 +1573,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_emergency_iron_deficiencies"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1543,6 +1600,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_pump_up_cloth_production"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1569,6 +1627,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_increased_brass_metallurgy_efficiency"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1595,6 +1654,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_striking_void_gold"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1621,6 +1681,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_increase_coal_production"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1647,6 +1708,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_enforce_60_hour_workweek"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1673,6 +1735,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_build_new_arms_factories"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1699,6 +1762,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_grand_capital_ship_building"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1725,6 +1789,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_dockyard_expansion"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1751,6 +1816,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_build_new_military_schools"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1777,6 +1843,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_build_more_guns_factories"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1803,6 +1870,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_worker_rights_movement"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1829,6 +1897,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_northern_logging_factories"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1855,6 +1924,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_farmland_expansion"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1880,6 +1950,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_build_more_iron_mines"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1906,6 +1977,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_grow_more_cotton_plants"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1932,6 +2004,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_mine_more_copper"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1958,6 +2031,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_strengthen_void_mines"
 add_political_power = 100
 }
 ai_will_do = {
@@ -1984,6 +2058,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_expand_existing_coal_mines"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2010,6 +2085,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_leave_no_one_unemployed"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2036,6 +2112,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_incentivise_weapons_production"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2062,6 +2139,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_innovate_new_ship_designs"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2088,6 +2166,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_massive_cannon_factories"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2114,6 +2193,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_new_dockyard_equipment"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2140,6 +2220,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_officer_training_centres"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2166,6 +2247,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_nano_military_complex"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2192,6 +2274,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_reinvent_the_wheel"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2218,6 +2301,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_support_a_fixed_wage"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2244,6 +2328,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_construct_more_processing_plants"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2270,6 +2355,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_build_new_grain_mills"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2295,6 +2381,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_discover_new_iron_deposits"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2321,6 +2408,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_mass_cotton_gin_distribution"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2347,6 +2435,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_build_more_blast_furnaces"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2373,6 +2462,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_recruit_more_void_miners"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2399,6 +2489,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_synthetic_charcoal_production"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2425,6 +2516,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_introduce_new_equipments"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2451,6 +2543,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_implement_mass_consumer_factories_drive"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2477,6 +2570,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_mass_marines_training_effort"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2503,6 +2597,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_naval_training_facilities"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2529,6 +2624,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_set_up_government_funded_pirates"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2556,6 +2652,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_joint_land_and_sea_production_centres"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2582,6 +2679,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_raise_pay_for_weapons_designer"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2608,6 +2706,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_innovate_artillery_designs"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2634,6 +2733,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_cavalry_of_the_south"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2660,6 +2760,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_allow_unemployed_to_contribute"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2686,6 +2787,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_promote_metalwork_craftmenship"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2712,6 +2814,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_construct_grain_storage_facilities"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2737,6 +2840,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_workers_of_the_line"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2763,6 +2867,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_industrial_hub_of_nano"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2789,6 +2894,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_incorporate_naval_training_exericises"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2816,6 +2922,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_cross_sectional_training"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2843,6 +2950,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_integrated_planning_corp"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2869,6 +2977,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_train_new_mages"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2895,6 +3004,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_labourers_young_and_old"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2921,6 +3031,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_new_infrastructure_projects"
 add_political_power = 100
 }
 ai_will_do = {
@@ -2947,6 +3058,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus OBX_new_farming_equipment"
 add_political_power = 100
 }
 ai_will_do = {

@@ -16,7 +16,7 @@ focus_tree = {
 		#	has_dlc = "Together for Victory"
 		#}
 	}
-	
+
 	default = no
 	
 	continuous_focus_position = { x = 50 y = 4000 }
@@ -43,6 +43,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_war_with_icrusia"
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = ICR
@@ -85,6 +86,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_rally_the_troops"
 			add_popularity = {
 				ideology = fascism
 				popularity = 0.10
@@ -122,6 +124,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_protect_the_people"
 			add_stability = 0.1
 			add_war_support = 0.5
 			add_ideas = ARS_amaris_decree
@@ -154,6 +157,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_prioritise_grain_for_the_cities"
 			swap_ideas = { 
 				remove_idea = ARS_amaris_decree 
 				add_idea = ARS_amaris_decree2 
@@ -187,6 +191,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_farmer_war_protection"
 			swap_ideas = { 
 				remove_idea = ARS_amaris_decree2
 				add_idea = ARS_amaris_decree3
@@ -220,6 +225,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_increase_the_city_grain_supplies"
 			swap_ideas = { 
 				remove_idea = ARS_amaris_decree3
 				add_idea = ARS_amaris_decree4
@@ -255,6 +261,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_increase_city_defence"
 			#forts
 			
 		}
@@ -286,6 +293,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_forts_forts_everywhere"
 			#forts
 			
 		}
@@ -318,6 +326,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_protect_cleresdes_at_all_costs"
 			#forts
 			add_manpower = 10000
 		}
@@ -350,6 +359,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_all_men_to_airestonia_city"
 			#forts
 			add_political_power = 100
 		}
@@ -381,6 +391,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_defend_the_borders"
 			
 		}
 
@@ -411,6 +422,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_rally_the_border_guards"
 			#units
 		}
 
@@ -441,6 +453,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_hellica_declaration"
 			#event
 		}
 
@@ -473,6 +486,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_fortress_airestonia"
 			#forts
 		}
 
@@ -506,6 +520,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_pay_your_dues"
 			
 		}
 
@@ -536,6 +551,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_increase_regional_levies"
 			add_manpower = 50000
 			add_political_power = -50
 		}
@@ -567,6 +583,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_from_farmers_to_soldiers"
 			add_manpower = 50000
 			add_political_power = -50
 		}
@@ -598,6 +615,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_every_mans_war"
 			add_manpower = 50000
 			add_political_power = -100
 		}
@@ -629,6 +647,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_tax_the_people"
 			add_ideas = ARS_decree
 			add_political_power = -50
 		}
@@ -661,6 +680,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_tax_the_peasants"
 			swap_ideas = {
 				add_idea = ARS_decree2
 				remove_idea = ARS_decree
@@ -697,6 +717,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_tax_the_nobles"
 			swap_ideas = {
 				add_idea = ARS_decree2
 				remove_idea = ARS_decree
@@ -731,6 +752,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_remove_the_undesirables"
 			add_war_support = 0.2
 			add_popularity = {
 				ideology = fascism
@@ -766,6 +788,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_increase_grain_quotas"
 			add_political_power = 100
 			add_ideas = ARS_communist_sentiments
 		}
@@ -797,6 +820,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_state_controlled_agriculture"
 			add_political_power = 200
 			swap_ideas = {
 				add_idea = ARS_communist_sentiments2
@@ -831,6 +855,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_state-wide_rations"
 			add_political_power = 200
 			swap_ideas = {
 				add_idea = ARS_communist_sentiments3
@@ -866,6 +891,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_illesas_proclamation"
 			#event
 		}
 
@@ -898,6 +924,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_our_place_in_the_sun"
 			if = {
 				limit = { 
 					tag = ARS 
@@ -938,6 +965,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_right_to_rule"
 			remove_ideas = ARS_paranoia
 			add_ideas = ARS_an_icrusian_plot
 			#event
@@ -970,6 +998,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_undefeated_eagle"
 			swap_ideas = {
 				add_idea = ARS_an_icrusian_plot2
 				remove_idea = ARS_an_icrusian_plot
@@ -1003,6 +1032,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_operation_salvage_point"
 			#event
 		}
 
@@ -1034,6 +1064,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_eliminate_icrusian_scientists"
 			add_political_power = 75
 			add_stability = 0.1
 		}
@@ -1065,6 +1096,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_remove_icrusian_nobles"
 			add_political_power = 100
 		}
 
@@ -1095,6 +1127,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_silence_the_population"
 			add_command_power = 100
 			add_political_power = 50
 			add_stability = 0.2
@@ -1127,6 +1160,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_supress_the_icrusian_culture"
 			#event
 		}
 
@@ -1157,6 +1191,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_mass_deportations"
 			#special
 		}
 
@@ -1188,6 +1223,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_welcome_icrusian_scientists"
 			add_research_slot = 1
 			add_stability = -0.1
 		}
@@ -1219,6 +1255,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_invite_icrusian_nobles"
 			#buildings
 			add_stability = -0.1
 		}
@@ -1250,6 +1287,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_incoporate_the_people"
 			#event
 		}
 
@@ -1280,6 +1318,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_a_land_of_many_cultures"
 			#event
 		}
 
@@ -1310,6 +1349,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_encourage_migration"
 			#manpower
 		}
 
@@ -1340,6 +1380,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_icrusia_a_free_nation"
 			remove_ideas = ARS_an_icrusian_plot
 			#buildings
 		}
@@ -1371,6 +1412,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_maintain_the_status_quo"
 			add_ideas = ARS_old_order
 		}
 
@@ -1401,6 +1443,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_consolidate_icrusian_lands"
 			#event
 		}
 
@@ -1432,6 +1475,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_icrusian_crown_lands"
 			#event
 		}
 
@@ -1462,6 +1506,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_2_kingdoms_decree"
 			#event
 		}
 
@@ -1492,6 +1537,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_exploit_icrusian_resources"
 			#resources
 		}
 
@@ -1526,6 +1572,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_airestonian_labour_force"
 			add_ideas = ARS_airestonian_labour
 		}
 
@@ -1556,6 +1603,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_distribute_lands_to_the_peasants"
 			#building
 		}
 
@@ -1586,6 +1634,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_grow_wheat_farms"
 			#buildings
 		}
 
@@ -1620,6 +1669,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_use_the_secondary_citizens"
 			add_ideas = ARS_forced_labour
 		}
 
@@ -1650,6 +1700,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_distribute_lands_to_the_nobles"
 			#buildings
 			add_political_power = 100
 		}
@@ -1681,6 +1732,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_lucrative_plantations"
 			add_ideas = ARS_vast_lands_of_icrusia
 		}
 
@@ -1715,6 +1767,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_pay_icrusian_workers"
 			add_ideas = ARS_paid_labour
 		}
 
@@ -1745,6 +1798,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_airestonian_media_decree"
 			#event
 		}
 
@@ -1775,6 +1829,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_pax_airestonia"
 			#event
 			add_ideas = ARS_pax_airestonia
 		}
@@ -1807,6 +1862,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_establish_the_crown_colony"
 			puppet = ICR
 		}
 
@@ -1837,6 +1893,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_icrusian_war_debt"
 			add_political_power = 500
 			ICR = { add_political_power = -500 }
 		}
@@ -1868,6 +1925,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_icrusian_labour_levies"
 			add_ideas = ARS_forced_labour
 		}
 
@@ -1898,6 +1956,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_work_for_the_greater_good"
 			#buildings
 		}
 
@@ -1928,6 +1987,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_bolster_the_icrusian_garrisons"
 			#buildings
 		}
 
@@ -1958,6 +2018,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_equipment_for_icrusia"
 			#equipment
 		}
 
@@ -1988,6 +2049,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_icrusian_home_defence_force"
 			#units
 		}
 
@@ -2019,6 +2081,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_invest_in_the_south"
 			#buildings
 		}
 
@@ -2049,6 +2112,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_dig_for_southern_coal"
 			#buildings
 			#resources
 		}
@@ -2081,6 +2145,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_invest_in_the_mountains"
 			#buildings
 		}
 
@@ -2111,6 +2176,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_organise_the_thorton_mines"
 			#resources
 		}
 
@@ -2141,6 +2207,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_trans-icrusian_railway"
 			#buildings
 		}
 
@@ -2171,6 +2238,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_icrusia-airestonia_road"
 			#buildings
 		}
 
@@ -2203,6 +2271,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_ascension"
 			swap_ideas = {
 				add_idea = ARS_pax_airestonia2
 				remove_idea = ARS_pax_airestonia
@@ -2236,6 +2305,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_trubian_menace"
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = TRB
@@ -2269,6 +2339,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_once_upon_a_time"
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = AGR
@@ -2306,6 +2377,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_end_the_federation"
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = GOZ
@@ -2341,6 +2413,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_form_the_dark_pact"
 			#event
 		}
 
@@ -2371,6 +2444,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_enslave_the_mercenaries"
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = CTP
@@ -2404,6 +2478,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_plague_of_madness"
 			#event
 		}
 
@@ -2434,6 +2509,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_paranoia"
 			add_ideas = ARS_paranoia
 		}
 
@@ -2464,6 +2540,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_great_purge"
 			#event
 		}
 
@@ -2494,6 +2571,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_enforce_marshal_law"
 			add_war_support = -0.2
 			add_stability = 0.05
 			add_ideas = low_economic_mobilisation
@@ -2526,6 +2604,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_limit_the_peoples_rights"
 			add_ideas = ARS_state_subsidised_freedom
 		}
 
@@ -2556,6 +2635,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_form_the_GOA_divisions"
 			#units
 		}
 
@@ -2588,6 +2668,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_public_hangings"
 			if = {
 				limit = {
 					ARS = { has_idea = ARS_paranoia }
@@ -2635,6 +2716,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_penal_deportations"
 			61 = {
 				add_manpower = -10000
 			}
@@ -2668,6 +2750,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_penal_punishment"
 			61 = {
 				add_manpower = -10000
 			}
@@ -2701,6 +2784,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_arrest_without_trial"
 			#event
 		}
 
@@ -2731,6 +2815,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_propaganda_and_censorship"
 			add_war_support = 0.1
 			add_stability = 0.05
 			add_popularity = {
@@ -2746,7 +2831,7 @@ focus_tree = {
 
 	focus = {
 		id = ARS_circus_airestonia_initiative
-		icon = GFX_goal_circus_airestonia
+		icon = GFX_goal_generic_propaganda
 		x = 4
 		y = 3
 		relative_position_id = ARS_the_plague_of_madness
@@ -2766,6 +2851,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_circus_airestonia_initiative"
 			#event
 		}
 
@@ -2796,6 +2882,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_reeducation_camps"
 			if = {
 				limit = {
 					ARS = { has_idea = ARS_paranoia }
@@ -2844,6 +2931,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_airestonian_cultural_rebirth"
 			#event
 		}
 
@@ -2874,6 +2962,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_a_city_of_angels"
 			#event
 		}
 
@@ -2906,6 +2995,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_swallow_our_pride"
 			
 		}
 
@@ -2936,6 +3026,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_lessons_of_war"
 			
 		}
 
@@ -2966,6 +3057,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_reform_the_general_staff"
 			#event
 		}
 
@@ -2996,6 +3088,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_form_the_elite_guard"
 			#units
 
 		}
@@ -3027,6 +3120,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_reform_the_army"
 			#army_experience
 		}
 
@@ -3057,6 +3151,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_form_the_council_for_defence"
 			add_command_power = 30
 			#commander
 		}
@@ -3090,6 +3185,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_assess_the_situation"
 			#event
 		}
 
@@ -3120,6 +3216,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_trubian_question"
 			#event
 		}
 
@@ -3151,6 +3248,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_support_efror"
 			#opinion
 		}
 
@@ -3182,6 +3280,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_join_the_ATL"
 			#alliance
 		}
 
@@ -3213,6 +3312,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_on_our_own"
 			declare_war_on = {
 				target = TRB
 				type = puppet_wargoal_focus
@@ -3247,6 +3347,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_support_trubia"
 			#opinion
 		}
 
@@ -3277,6 +3378,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_form_the_cearamonte_pact"
 			#alliance
 		}
 
@@ -3307,6 +3409,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_northern_backwater"
 			#opinions
 		}
 
@@ -3337,6 +3440,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_support_agran_independence"
 			#event
 		}
 
@@ -3367,6 +3471,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_support_theberian_independence"
 			#event
 		}
 
@@ -3398,6 +3503,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_alorith_conference"
 			#event
 		}
 
@@ -3429,6 +3535,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_final_preparations"
 			add_ideas = ARS_final_preparations
 			add_manpower = 100000
 			#equipment
@@ -3461,6 +3568,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_once_more_into_the_breach"
 			#event
 		}
 
@@ -3491,6 +3599,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_industrialise_or_die_without"
 			swap_ideas = {
 				add_idea = ARS_improving_economy
 				remove_idea = ARS_economic_stagnation
@@ -3524,6 +3633,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_give_farmers_more_autonomy"
 			#buildings
 		}
 
@@ -3556,6 +3666,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_abolish_the_feudal_system"
 			swap_ideas = {
 				add_idea = ARS_abolished_feudal_system
 				remove_idea = ARS_cracks_in_the_feudal_system
@@ -3591,6 +3702,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_modify_the_feudal_system"
 			swap_ideas = {
 				add_idea = ARS_modified_feudal_system
 				remove_idea = ARS_cracks_in_the_feudal_system
@@ -3626,6 +3738,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_keep_the_feudal_system"
 			add_political_power = 100
 		}
 
@@ -3656,6 +3769,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_off_with_their_heads"
 			611 = {
 				add_manpower = -10000
 			}
@@ -3689,6 +3803,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_unionise_the_workers"
 			add_popularity = {
 				ideology = communism
 				popularity = 0.2
@@ -3722,6 +3837,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_worker_rights"
 			add_popularity = {
 				ideology = communism
 				popularity = 0.2
@@ -3756,6 +3872,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_break_up_the_nobles_lands"
 			add_popularity = {
 				ideology = fascism
 				popularity = -0.5
@@ -3789,6 +3906,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_farmers_to_workers_programme"
 			add_popularity = {
 				ideology = communism
 				popularity = 0.2
@@ -3824,6 +3942,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_workers_revolution"
 			add_ideas = ARS_dreams_of_a_communist_utopia
 		}
 
@@ -3854,6 +3973,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_let_the_farmers_have_a_say"
 			#buildings
 		}
 
@@ -3884,6 +4004,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_please_the_nobles"
 			add_political_power = 100
 		}
 
@@ -3915,6 +4036,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_cysos_compromise"
 			#event
 		}
 
@@ -3945,6 +4067,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_farmer_and_worker_quotas"
 			#buildings
 		}
 
@@ -3975,6 +4098,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_fiefdom_reduction"
 			#buildings
 		}
 
@@ -4006,6 +4130,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_different_classes_one_people"
 			add_ideas = ARS_federal_monarchy
 		}
 
@@ -4036,6 +4161,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_supreme_authority_of_the_crown"
 			#event
 		}
 
@@ -4066,6 +4192,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_intelligentsia_grant"
 			#research
 		}
 
@@ -4096,6 +4223,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_accomodate_the_nobles"
 			#event
 		}
 
@@ -4126,6 +4254,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_feudal_industralization"
 			#buildings
 		}
 
@@ -4156,6 +4285,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_peasant_plantations"
 			#buildings
 		}
 
@@ -4187,6 +4317,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_maintain_the_order"
 			add_ideas = ARS_airestonian_feudalism
 		}
 
@@ -4217,6 +4348,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_reform_the_airestonian_military"
 			swap_ideas = {
 				add_idea = ARS_military_reforms
 				remove_idea = ARS_outdated_military
@@ -4250,6 +4382,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_standardise_rifle_designs"
 			#research
 		}
 
@@ -4280,6 +4413,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_reform_the_chief_of_staffs"
 			army_experience = 50
 		}
 
@@ -4310,6 +4444,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_standardise_cavalry_formations"
 			#units
 			#research
 		}
@@ -4341,6 +4476,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_reform_the_military_doctrines"
 			#research
 		}
 
@@ -4371,6 +4507,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_improved_support_weapon_designs"
 			#research
 		}
 
@@ -4401,6 +4538,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_improved_artillery_support"
 			#research
 		}
 
@@ -4431,6 +4569,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_improved_artillery_designs"
 			#research
 		}
 
@@ -4462,6 +4601,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_advanced_artillery_effort"
 			#research
 		}
 
@@ -4494,6 +4634,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_fire_and_brimstone"
 			
 		}
 
@@ -4524,6 +4665,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_improved_lancer_divisions"
 			#research
 		}
 
@@ -4554,6 +4696,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_improved_cuirassier_training"
 			#research
 		}
 
@@ -4584,6 +4727,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_improved_mage_companies"
 			#research
 		}
 
@@ -4614,6 +4758,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_advanced_mage_companies"
 			#research
 		}
 
@@ -4644,6 +4789,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_increase_mage_school_funding"
 			add_research_slot = 1
 		}
 
@@ -4676,6 +4822,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_a_magic_revolution"
 			
 		}
 
@@ -4706,6 +4853,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_improved_rifle_designs"
 			#research
 		}
 
@@ -4736,6 +4884,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_advanced_rifle_designs"
 			#research
 		}
 
@@ -4767,6 +4916,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_art_of_war"
 			army_experience = 50
 			#commander
 		}
@@ -4800,6 +4950,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_a_professional_army"
 			swap_ideas = {
 				add_idea = ARS_military_reforms
 				remove_idea = ARS_outdated_military
@@ -4833,6 +4984,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_revise_the_economic_policy"
 			#research
 		}
 
@@ -4863,6 +5015,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_mentenobo_mines"
 			#buildings
 		}
 
@@ -4893,6 +5046,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_focus_on_coal_mines"
 			#resources
 		}
 
@@ -4923,6 +5077,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_focus_on_steel_mines"
 			#resources
 		}
 
@@ -4954,6 +5109,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_trans-airestonia_roads"
 			#buildings
 		}
 
@@ -4986,6 +5142,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_airestonia_industry_centre"
 			#buildings
 		}
 
@@ -5017,6 +5174,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_tronodia_gunworks"
 			#buildings
 			#research
 		}
@@ -5049,6 +5207,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_mjuwda_gunworks"
 			#buildings
 		}
 
@@ -5080,6 +5239,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_coast_to_coast_roads"
 			#buildings
 		}
 
@@ -5112,6 +5272,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_cearamonte_military_complex"
 			#buildings
 		}
 
@@ -5142,6 +5303,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_organise_the_thasaca_mining_group"
 			#buildings
 			#resources
 		}
@@ -5173,6 +5335,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_northern_coal_discovery"
 			#resources
 		}
 
@@ -5203,6 +5366,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_fund_the_rivevia_university"
 			add_research_slot = 1
 			if = {
 				limit = {
@@ -5252,6 +5416,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_develop_the_north"
 			#buildings
 		}
 
@@ -5282,6 +5447,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_industrialise_coures"
 			#buildings
 		}
 
@@ -5312,6 +5478,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_airestonia_city_roads"
 			#buildings
 		}
 
@@ -5343,6 +5510,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_airestonia_city_industry"
 			#buildings
 		}
 
@@ -5373,6 +5541,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_cysos_canals"
 			#buildings
 		}
 
@@ -5404,6 +5573,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_develop_the_south"
 			#buildings
 		}
 
@@ -5434,6 +5604,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_industrialise_khoknard"
 			#buildings
 		}
 
@@ -5464,6 +5635,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_gentontodl-mouzonces_roads"
 			#buildings
 		}
 
@@ -5495,6 +5667,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_illesas_industry"
 			#buildings
 		}
 
@@ -5525,6 +5698,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_great_economic_revival"
 			swap_ideas = {
 				add_idea = ARS_economic_revival
 				remove_idea = ARS_modern_economy
@@ -5558,6 +5732,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_found_the_airestonian_navy"
 			#buildings
 			navy_experience = 30
 		}
@@ -5589,6 +5764,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_expand_the_fleet"
 			#research
 			add_ideas = ARS_airestonian_ship_buildings
 		}
@@ -5621,6 +5797,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_a_high_seas_fleet"
 			#research
 		}
 
@@ -5651,6 +5828,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_major_hellica_dockyards_expansion"
 			#buildings
 		}
 
@@ -5682,6 +5860,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_a_patrol_fleet"
 			#research
 		}
 
@@ -5712,6 +5891,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_sovinovorio_naval_research_centre"
 			#research
 		}
 
@@ -5742,6 +5922,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ARS_the_grand_airestonian_fleet"
 			add_ideas = ARS_grand_fleet_of_the_east
 		}
 

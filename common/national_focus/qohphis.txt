@@ -39,6 +39,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_meeting_of_the_council_of_arbiters"
 	#event
 }
 ai_will_do = {
@@ -63,6 +64,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_state_of_the_mercenaries"
 	army_experience = 50
 }
 ai_will_do = {
@@ -87,6 +89,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_international_affairs"
 	add_political_power = 100
 }
 ai_will_do = {
@@ -111,6 +114,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_arbiter_economy"
 	add_political_power = 100
 	#building
 }
@@ -136,6 +140,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_continue_magical_practices"
 	#research
 }
 ai_will_do = {
@@ -160,6 +165,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_finally_fund_the_riflemen"
 	#research
 }
 ai_will_do = {
@@ -184,6 +190,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_big_strides_in_cavalry_technology"
 	#research
 }
 ai_will_do = {
@@ -208,6 +215,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_play_the_puppet_master"
 	#decisions
 }
 ai_will_do = {
@@ -232,6 +240,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_individual_industrialisation"
 	add_ideas = QOH_mercenary_industrialisation
 }
 ai_will_do = {
@@ -256,6 +265,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_strengthen_the_entire_union"
 	#buildings
 }
 ai_will_do = {
@@ -280,6 +290,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_revamp_mage_thinking"
 	#doctrine
 }
 ai_will_do = {
@@ -304,6 +315,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_understand_airestonian_big_guns"
 	#research
 }
 ai_will_do = {
@@ -328,6 +340,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_research_icrusian_rifle_designs"
 	#research
 }
 ai_will_do = {
@@ -352,6 +365,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_dispose_outdated_guns"
 	#research
 }
 ai_will_do = {
@@ -376,6 +390,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_breed_stronger_horses"
 	#research
 }
 ai_will_do = {
@@ -400,6 +415,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_influence_airestonian_politics"
 	ARS = { add_ideas = QOH_democratic_influence }
 }
 ai_will_do = {
@@ -424,6 +440,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_influence_icrusian_politics"
 	ICR = { add_ideas = QOH_democratic_influence }
 }
 ai_will_do = {
@@ -448,6 +465,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_influence_trubian_politics"
 	TRB = { add_ideas = QOH_democratic_influence }
 }
 ai_will_do = {
@@ -472,6 +490,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_influence_echainaian_politics"
 	ECH = { add_ideas = QOH_democratic_influence }
 }
 ai_will_do = {
@@ -496,6 +515,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_influence_illidean_politics"
 	ILD = { add_ideas = QOH_democratic_influence }
 }
 ai_will_do = {
@@ -520,6 +540,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_mass_produce_factories"
 	#buildings
 }
 ai_will_do = {
@@ -544,6 +565,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_increase_factory_qualities"
 	#research
 }
 ai_will_do = {
@@ -568,6 +590,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_dunes_of_the_east"
 	add_political_power = 100
 	#buildings
 }
@@ -593,6 +616,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_fertile_lands_of_the_west"
 	add_political_power = 200
 }
 ai_will_do = {
@@ -617,6 +641,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_willpower_training"
 	add_ideas = QOH_willpower_training
 }
 ai_will_do = {
@@ -641,6 +666,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_read_artillery_manuals"
 	#doctrine
 }
 ai_will_do = {
@@ -666,6 +692,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_study_documented_battles"
 	#doctrine
 }
 ai_will_do = {
@@ -691,6 +718,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_standardise_arbiter_guns"
 	#equipment
 }
 ai_will_do = {
@@ -716,6 +744,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_study_icrusian_battle_tactics"
 	#doctrine
 }
 ai_will_do = {
@@ -740,6 +769,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_overwhelming_speed"
 	#doctrine
 }
 ai_will_do = {
@@ -764,6 +794,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_fund_dawn_group"
 	ARS = {
 		swap_ideas = {
 			add_idea = QOH_democratic_influence2
@@ -793,6 +824,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_contact_gabel"
 	ICR = {
 		swap_ideas = {
 			add_idea = QOH_democratic_influence2
@@ -822,6 +854,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_unite_the_deep_sea_groups"
 	TRB = {
 		swap_ideas = {
 			add_idea = QOH_democratic_influence2
@@ -851,6 +884,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_support_echainaian_rebels"
 	ECH = {
 		swap_ideas = {
 			add_idea = QOH_democratic_influence2
@@ -880,6 +914,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_support_illidea_speaking_groups"
 	ILD = {
 		swap_ideas = {
 			add_idea = QOH_democratic_influence2
@@ -909,6 +944,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_production_plants_facing_shifton"
 	#buildings
 }
 ai_will_do = {
@@ -933,6 +969,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_turn_the_cogs_of_production"
 	swap_ideas = {
 		add_idea = QOH_mercenary_industrialisation2
 		remove_idea = QOH_mercenary_industrialisation
@@ -960,6 +997,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_invest_in_arcanic_tools"
 	#research
 }
 ai_will_do = {
@@ -984,6 +1022,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_leader_of_the_arbiters"
 	MRO = { add_political_power = 100 }
 	#buildings
 }
@@ -1009,6 +1048,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_misaross_older_brother"
 	CTP = { add_political_power = 100 }
 	#buildings
 }
@@ -1034,6 +1074,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_the_forgotten_state"
 	DPL = { add_political_power = 100 }
 	#buildings
 }
@@ -1059,6 +1100,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_in_the_down_under"
 	IMN = { add_political_power = 100 }
 	#buildings
 }
@@ -1084,6 +1126,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_treasury_of_the_arbiters"
 	QOH = { add_political_power = 100 }
 	add_political_power = 100
 }
@@ -1109,6 +1152,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_farms_farms_farms"
 	YLC = { add_political_power = 100 }
 	add_political_power = 100
 }
@@ -1134,6 +1178,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_jewel_of_the_arbiters"
 	DED = { add_political_power = 100 }
 	add_political_power = 100
 }
@@ -1158,6 +1203,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_enhance_mage_wards"
 	#research
 }
 ai_will_do = {
@@ -1182,6 +1228,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_buy_echainaian_artillery"
 	#equipment
 	#research
 }
@@ -1209,6 +1256,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_innovate_rifle_improvements"
 	#research
 }
 ai_will_do = {
@@ -1235,6 +1283,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_study_support_equipment_models"
 	#research
 }
 ai_will_do = {
@@ -1259,6 +1308,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_build_more_stables"
 	#buildings
 }
 ai_will_do = {
@@ -1283,6 +1333,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_organise_freedoms_day"
 	#volunteer
 }
 ai_will_do = {
@@ -1307,6 +1358,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_the_democratic_underground_of_icrusia"
 	#volunteer
 }
 ai_will_do = {
@@ -1331,6 +1383,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_gather_support_in_astrigan"
 	#volunteer
 }
 ai_will_do = {
@@ -1355,6 +1408,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_hand_out_democracy_flyers"
 	#volunteer
 }
 ai_will_do = {
@@ -1379,6 +1433,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_rain_day_parade"
 	#volunteer
 }
 ai_will_do = {
@@ -1404,6 +1459,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_repurpose_old_factories"
 	#buildings
 }
 ai_will_do = {
@@ -1429,6 +1485,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_arcanic_waste_reduction_modules"
 	swap_ideas = {
 		add_idea = QOH_mercenary_industrialisation3
 		remove_idea = QOH_mercenary_industrialisation2
@@ -1456,6 +1513,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_upgrade_the_shifton_military_complex"
 	#buildings
 }
 ai_will_do = {
@@ -1480,6 +1538,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_expand_the_rywey_mines"
 	#buildings
 }
 ai_will_do = {
@@ -1504,6 +1563,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_build_the_gatesford_factories"
 	#buildings
 }
 ai_will_do = {
@@ -1528,6 +1588,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_breton_canals"
 	#buildings
 }
 ai_will_do = {
@@ -1552,6 +1613,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_open_new_investment_centres"
 	#buildings
 }
 ai_will_do = {
@@ -1576,6 +1638,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_grow_more_crops"
 	#buildings
 }
 ai_will_do = {
@@ -1600,6 +1663,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_macking_mines"
 	#buildings
 }
 ai_will_do = {
@@ -1623,6 +1687,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_promote_mage_abilities"
 	#doctrine
 }
 ai_will_do = {
@@ -1648,6 +1713,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_combined_guns"
 	add_ideas = QOH_combined_guns
 }
 ai_will_do = {
@@ -1673,6 +1739,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_self_sufficient_firepower"
 	add_ideas = QOH_self_sufficient_firepower
 }
 ai_will_do = {
@@ -1697,6 +1764,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_train_more_cavalrymen"
 	#doctrine
 }
 ai_will_do = {
@@ -1725,6 +1793,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_mercenary_realpolitik"
 	swap_ideas = {
 		add_idea = QOH_hard_power_superpower2
 		remove_idea = QOH_hard_power_superpower
@@ -1752,6 +1821,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_new_production_lines"
 	#buildings
 }
 ai_will_do = {
@@ -1776,6 +1846,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_gift_from_the_blacksmiths"
 	#buildings
 }
 ai_will_do = {
@@ -1800,6 +1871,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_steampunk_magic"
 	#research
 }
 ai_will_do = {
@@ -1824,6 +1896,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_renew_leases_on_the_opormouth_industrial_group"
 	#resources
 	#buildings
 }
@@ -1849,6 +1922,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_wigtonian_logging_factories"
 	#resources
 	#buildings
 }
@@ -1874,6 +1948,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_improve_dinpool_infrastructure"
 	#resources
 	#buildings
 }
@@ -1899,6 +1974,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_build_new_farms"
 	#resources
 	#buildings
 }
@@ -1924,6 +2000,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_leydon_city_project"
 	#buildings
 }
 ai_will_do = {
@@ -1948,6 +2025,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_expand_the_parvino_grain_mills"
 	#buildings
 }
 ai_will_do = {
@@ -1972,6 +2050,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_exploit_guildford_resources"
 	#buildings
 }
 ai_will_do = {
@@ -1995,6 +2074,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_one_wizard_army"
 	swap_ideas = {
 		add_idea = QOH_mage_only_army2
 		remove_idea = QOH_mage_only_army
@@ -2022,6 +2102,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_magically_enhanced_arms"
 	if = {
 		limit = {
 			has_idea = QOH_combined_guns
@@ -2063,6 +2144,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_workhorse_of_the_army"
 	add_ideas = QOH_workhorse_of_the_army
 }
 ai_will_do = {
@@ -2089,6 +2171,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_abiter_autarky"
 	#decisions
 }
 ai_will_do = {
@@ -2116,6 +2199,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_seeing_the_west_eye_to_eye"
 	add_ideas = QOH_centralised_industrialised_powerhouse
 }
 ai_will_do = {
@@ -2142,6 +2226,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus ARB_far_beyond_the_eastern_backwater"
 	add_ideas = QOH_decentralised_industrialised_powerhouse
 }
 ai_will_do = {

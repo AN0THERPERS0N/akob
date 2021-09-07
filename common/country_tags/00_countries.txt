@@ -12,10 +12,8 @@ THB = "countries/Theberia.txt"
 OBX = "countries/Obrax.txt"
 
 #non countries
-ANC = "countries/Anarchy.txt"
 WSL = "countries/Wasteland.txt"
 CRP = "countries/Corruption.txt"
-RBS = "countries/Rebellious_states.txt"
 
 #Arbiter states
 CTP = "countries/Claetport.txt"
@@ -29,6 +27,3 @@ MRO = "countries/Misaross.txt"
 #Icrusian civil war
 DCR = "countries/Democratic_icrusia.txt"
 LCR = "countries/Loyalist_icrusia.txt"
-
-PRL = "countries/Purifiedlands.txt"
-

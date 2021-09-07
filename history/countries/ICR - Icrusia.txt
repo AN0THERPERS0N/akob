@@ -61,7 +61,19 @@ AGR = {
 		elections_allowed = no
 	}
 
-	add_popularity = { ideology = fascism popularity = 1 }
+	add_popularity = { ideology = fascism popularity = 0.02 }
+   	add_popularity = { ideology = communism popularity = 0.98 }
+}
+
+THB = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	add_popularity = { ideology = fascism popularity = 0.02 }
    	add_popularity = { ideology = communism popularity = 0.98 }
 }
 

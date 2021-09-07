@@ -16,7 +16,7 @@ focus_tree = {
 		#	has_dlc = "Together for Victory"
 		#}
 	}
-	
+
 	default = no
 	
 	continuous_focus_position = { x = 50 y = 2400 }
@@ -41,6 +41,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_political_crisis"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -67,6 +68,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_dispatch_the_agran_guards"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -93,6 +95,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_ready_the_army"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -119,6 +122,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_make_a_decision"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -146,6 +150,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_down_with_the_bourgeois"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -173,6 +178,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_quell_the_revolts"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -199,6 +205,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_power_to_peasant_leaders"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -225,6 +232,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_fill_up_grain_stores"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -251,6 +259,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_arm_the_peasants"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -277,6 +286,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_backstab_the_nobles"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -303,6 +313,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_break_down_castle_walls"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -329,6 +340,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_murder_prominent_nobles"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -356,6 +368,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_do_nothing"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -382,6 +395,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_starve_the_peasants"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -408,6 +422,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_imprison_leaders_of_the_revolt"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -434,6 +449,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_bloody_friday"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -460,6 +476,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_evacuate_noble_families"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -486,6 +503,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_alorith_declaration"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -512,6 +530,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_protect_the_castles"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -538,6 +557,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_spread_the_word"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -564,6 +584,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_teach_peasants_how_to_make_guns"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -590,6 +611,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_hand_out_noble_lands"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -616,6 +638,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_share_noble_riches"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -642,6 +665,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_burn_the_houses"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -668,6 +692,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_torture_captured_dissenters"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -694,6 +719,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_bolster_the_mayor_guards"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -720,6 +746,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_seize_all_the_cattle"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -746,6 +773,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_people_of_agra"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -772,6 +800,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_cleansed_of_filthy_pigs"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -798,6 +827,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_burn_towns_to_the_ground"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -824,6 +854,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_send_a_message"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -851,6 +882,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_dreams_of_a_communist_utopia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -878,6 +910,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_false_ideology_with_false_gods"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -904,6 +937,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_peace_and_prosperity"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -930,6 +964,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_stick_with_icrusia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -956,6 +991,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_take_advantage_of_the_situation"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -982,6 +1018,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_one_way_to_rule_them_all"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1008,6 +1045,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_operation_falling_domino"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1034,6 +1072,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_establish_the_socialist_union_of_agra"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1060,6 +1099,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_rebuilding_agra_plan"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1086,6 +1126,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_local_policies"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1112,6 +1153,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_agran_worker_revolution"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1138,6 +1180,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_for_the_people"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1164,6 +1207,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_industrialise_on_our_own"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1190,6 +1234,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_sole_communist_power"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1216,6 +1261,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_request_machinery_from_icrusia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1242,6 +1288,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_new_factories_in_alorith"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1268,6 +1315,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_grow_more_crops"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1294,6 +1342,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_reprisals_for_disobediance"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1320,6 +1369,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_reward_the_faithful"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1346,6 +1396,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_ingron_industry"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1372,6 +1423,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_enforce_wages_for_workers"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1398,6 +1450,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_aciocia_farmlands"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1424,6 +1477,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_free_noble_slaves"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1450,6 +1504,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_threats_to_our_safety"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1476,6 +1531,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_compensating_for_the_past"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1502,6 +1558,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_industrialise_the_inebury_region"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1528,6 +1585,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_grow_the_greater_alorith_region"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1554,6 +1612,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_set_up_communist_agencies"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1580,6 +1639,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_mass_produce_manifestos"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1606,6 +1666,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_convene_the_great_communist_thinkers"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1632,6 +1693,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_upskill_local_forces"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1658,6 +1720,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_industrialise_the_villages"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1684,6 +1747,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_give_out_more_land_to_the_nobles"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1710,6 +1774,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_torture_chambers_of_aeglin"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1736,6 +1801,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_public_hangings"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1762,6 +1828,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_mass_deportations"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1788,6 +1855,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_national_privacy_decree"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1814,6 +1882,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_expand_the_emperor_court"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1840,6 +1909,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_new_noble_benefits"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1866,6 +1936,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_greater_alorith_reindustrialisation"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1892,6 +1963,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_revolutionary_industrial_equipment"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1918,6 +1990,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_cure_the_inebury_plague"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1944,6 +2017,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_seize_nobility_farmlands"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1970,6 +2044,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_mass_land_seizures"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -1996,6 +2071,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_hand_out_the_treasury"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2022,6 +2098,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_replace_noble_officers"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2048,6 +2125,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_build_up_nereiton"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2074,6 +2152,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_caera_industrial_complex"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2100,6 +2179,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_tsulin_military_factories"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2126,6 +2206,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_nautigia_armament_works"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2154,6 +2235,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_on_the_road_of_world_revolution"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2180,6 +2262,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_up_to_date_technologies"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2206,6 +2289,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_force_more_farmers_into_the_city"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2232,6 +2316,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_create_more_slave_plantations"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2258,6 +2343,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_reducation_facilities"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2284,6 +2370,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_northern_prisons"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2310,6 +2397,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_new_spies_within_our_lands"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2336,6 +2424,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_promote_noble_generals"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2362,6 +2451,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_heavier_segregation"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2389,6 +2479,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_mass_industrial_effort"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2416,6 +2507,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_no_country_without_food"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2442,6 +2534,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_deport_rich_peasants"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2468,6 +2561,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_sell_royal_jewellery"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2494,6 +2588,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_murder_regional_officials"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2520,6 +2615,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_massive_factory_expansion_in_aeglin"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2546,6 +2642,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_prioritise_rebuilding_alorith"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2572,6 +2669,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_communist_infiltrators"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2598,6 +2696,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_instant_revolution"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2624,6 +2723,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_learn_icrusian_production_methods"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2650,6 +2750,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_teardown_old_buildings"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2676,6 +2777,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_expand_farmlands"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2702,6 +2804,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_no_mercy_for_communist_savages"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2728,6 +2831,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_let_the_army_roam_free"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2754,6 +2858,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_legalise_secret_societies"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2780,6 +2885,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_pay_out_the_dukes"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2807,6 +2913,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_agra_into_the_future"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2833,6 +2940,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_lock_the_royal_family_away"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2859,6 +2967,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_melt_noble_gold"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2885,6 +2994,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_silence_elite_societies"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2912,6 +3022,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_connect_the_heart_of_agra"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2938,6 +3049,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_airestonia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2964,6 +3076,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_gozyr"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -2990,6 +3103,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_give_out_free_manifestos"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3016,6 +3130,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_strike_down_law_and_authority"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3043,6 +3158,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_great_agran_revival"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3069,6 +3185,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_build_up_the_countryside"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3095,6 +3212,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_build_up_the_desert"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3121,6 +3239,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_icrusia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3147,6 +3266,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_echainaia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3173,6 +3293,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_provide_free_quality_education"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3199,6 +3320,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_tear_down_governmental_statues"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3224,6 +3346,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_look_towards_our_captors"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3250,6 +3373,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_new_communist_dream"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3276,6 +3400,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_voltune_canals"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3302,6 +3427,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_build_new_collective_farms"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3328,6 +3454,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_leviareth_coal_mines"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3354,6 +3481,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_processing_plants_in_the_middle_of_nowhere"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3380,6 +3508,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_obrax"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3406,6 +3535,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_ilidea_and_litteveria"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3432,6 +3562,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_sympathise_with_local_farmers"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3458,6 +3589,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_incite_worker_strikes"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3484,6 +3616,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_bring_icrusia_into_the_light"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3510,6 +3643,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_grain_mills_in_the_farms"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3536,6 +3670,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_new_equipment_for_the_bread_basket"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3562,6 +3697,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_digging_for_black_gold"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3588,6 +3724,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_research_centres_of_the_south"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3614,6 +3751,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_theberia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3640,6 +3778,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_trubia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3667,6 +3806,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_give_them_a_taste_of_freedom"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3693,6 +3833,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_passive_influence"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3719,6 +3860,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_direct_influence"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3745,6 +3887,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_connect_the_countryside"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3771,6 +3914,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_connect_the_desert"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3797,6 +3941,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_efror"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3823,6 +3968,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_infiltrate_arbiter_states"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3849,6 +3995,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_red_parades"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3875,6 +4022,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_hand_out_communist_manifestos"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3901,6 +4049,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_fund_icrusian_communists"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3927,6 +4076,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_silence_anti_communist_officials"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3953,6 +4103,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_terrorist_attacks_in_icrusia_city"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -3979,6 +4130,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_host_riots_in_the_streets"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4006,6 +4158,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_trans_agra_road"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4033,6 +4186,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_eyes_in_all_of_ambulas"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4059,6 +4213,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_secret_communist_education_centres"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4085,6 +4240,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_speeches_of_great_revolution"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4111,6 +4267,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_arm_the_new_icrusian_militia"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4137,6 +4294,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_grow_the_communist_underground"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4163,6 +4321,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_destroy_key_capitol_buildings"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4189,6 +4348,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_start_large_scale_strikes"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4218,6 +4378,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_peaceful_takeover"
 		add_political_power = 100
 		}
 		ai_will_do = {
@@ -4245,6 +4406,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus AGR_ignite_the_icrusian_great_war"
 		add_political_power = 100
 		}
 		ai_will_do = {

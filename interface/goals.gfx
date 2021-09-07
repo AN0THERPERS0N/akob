@@ -563,7 +563,7 @@ SpriteType = {
 
 	SpriteType = {
 	name = "GFX_goal_circus_airestonia"
-	texturefile = "gfx/interface/goals/goal_circus_airestonia.dds"			
+	texturefile = "gfx/interface/goals/goal_city_of_angel.dds"			
 	}	
 	
 	SpriteType = {

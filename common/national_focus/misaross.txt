@@ -39,6 +39,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_meeting_of_the_council_of_arbiters"
 		#event
 	}
 	ai_will_do = {
@@ -63,6 +64,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_state_of_the_mercenaries"
 		army_experience = 50
 	}
 	ai_will_do = {
@@ -87,6 +89,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_head_of_the_arbiters"
 		add_political_power = 100
 	}
 	ai_will_do = {
@@ -111,6 +114,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_arbiter_economy"
 		add_political_power = 100
 		#building
 	}
@@ -136,6 +140,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_continue_magical_practices"
 		#research
 	}
 	ai_will_do = {
@@ -160,6 +165,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_finally_fund_the_riflemen"
 		#research
 	}
 	ai_will_do = {
@@ -184,6 +190,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_big_strides_in_cavalry_technology"
 		#research
 	}
 	ai_will_do = {
@@ -208,6 +215,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_play_the_puppet_master"
 		#decisions
 	}
 	ai_will_do = {
@@ -232,6 +240,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_individual_industrialisation"
 		add_ideas = MRO_mercenary_industrialisation
 	}
 	ai_will_do = {
@@ -256,6 +265,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_strengthen_the_entire_union"
 		#buildings
 	}
 	ai_will_do = {
@@ -280,6 +290,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_revamp_mage_thinking"
 		#doctrine
 	}
 	ai_will_do = {
@@ -304,6 +315,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_understand_airestonian_big_guns"
 		#research
 	}
 	ai_will_do = {
@@ -328,6 +340,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_research_icrusian_rifle_designs"
 		#research
 	}
 	ai_will_do = {
@@ -352,6 +365,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_dispose_outdated_guns"
 		#research
 	}
 	ai_will_do = {
@@ -376,6 +390,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_breed_stronger_horses"
 		#research
 	}
 	ai_will_do = {
@@ -400,6 +415,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_influence_airestonian_politics"
 		ARS = { add_ideas = MRO_democratic_influence }
 	}
 	ai_will_do = {
@@ -424,6 +440,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_influence_icrusian_politics"
 		ICR = { add_ideas = MRO_democratic_influence }
 	}
 	ai_will_do = {
@@ -448,6 +465,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_influence_trubian_politics"
 		TRB = { add_ideas = MRO_democratic_influence }
 	}
 	ai_will_do = {
@@ -472,6 +490,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_influence_echainaian_politics"
 		ECH = { add_ideas = MRO_democratic_influence }
 	}
 	ai_will_do = {
@@ -496,6 +515,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_influence_illidean_politics"
 		ILD = { add_ideas = MRO_democratic_influence }
 	}
 	ai_will_do = {
@@ -520,6 +540,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_mass_produce_factories"
 		#buildings
 	}
 	ai_will_do = {
@@ -544,6 +565,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_increase_factory_qualities"
 		#research
 	}
 	ai_will_do = {
@@ -568,6 +590,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_dunes_of_the_east"
 		add_political_power = 100
 		#buildings
 	}
@@ -593,6 +616,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_fertile_lands_of_the_west"
 		
 	}
 	ai_will_do = {
@@ -617,6 +641,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_willpower_training"
 		add_ideas = MRO_willpower_training
 	}
 	ai_will_do = {
@@ -641,6 +666,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_read_artillery_manuals"
 		#doctrine
 	}
 	ai_will_do = {
@@ -666,6 +692,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_study_documented_battles"
 		#doctrine
 	}
 	ai_will_do = {
@@ -691,6 +718,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_standardise_arbiter_guns"
 		#equipment
 	}
 	ai_will_do = {
@@ -716,6 +744,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_study_icrusian_battle_tactics"
 		#doctrine
 	}
 	ai_will_do = {
@@ -740,6 +769,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_overwhelming_speed"
 		#doctrine
 	}
 	ai_will_do = {
@@ -764,6 +794,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_sabotage_and_subterfuge"
 		
 	}
 	ai_will_do = {
@@ -788,6 +819,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_counterfeit_airestonian_coins"
 		ARS = {
 			add_political_power = -500
 			add_stability = -0.5
@@ -816,6 +848,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_blackmail_icrusian_politicians"
 		ICR = {
 			add_political_power = -200
 			random_list = {
@@ -859,6 +892,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_assasinate_leader_of_trubia"
 		TRB = {
 			random_list = {
 				30 = {
@@ -892,6 +926,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_forge_echainaian_official_documents"
 		add_political_power = -1000
 		ECH = { 
 			add_timed_idea = { 
@@ -922,6 +957,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_blow_up_illidean_raillines"
 		#buildings
 		add_political_power = -100
 	}
@@ -948,6 +984,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_fund_dawn_group"
 		ARS = {
 			swap_ideas = {
 				add_idea = MRO_democratic_influence2
@@ -978,6 +1015,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_contact_gabel"
 		ICR = {
 			swap_ideas = {
 				add_idea = MRO_democratic_influence2
@@ -1008,6 +1046,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_unite_the_deep_sea_groups"
 		TRB = {
 			swap_ideas = {
 				add_idea = MRO_democratic_influence2
@@ -1038,6 +1077,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_support_echainaian_rebels"
 		ECH = {
 			swap_ideas = {
 				add_idea = MRO_democratic_influence2
@@ -1068,6 +1108,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_support_illidea_speaking_groups"
 		ILD = {
 			swap_ideas = {
 				add_idea = MRO_democratic_influence2
@@ -1101,6 +1142,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_beacon_of_democracy"
 		#decisions
 	}
 	ai_will_do = {
@@ -1126,6 +1168,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_operation_nine_blue_clouds"
 		#decisions
 	}
 	ai_will_do = {
@@ -1150,6 +1193,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_production_plants_facing_shifton"
 		#buildings
 	}
 	ai_will_do = {
@@ -1174,6 +1218,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_turn_the_cogs_of_production"
 		swap_ideas = {
 			add_idea = MRO_mercenary_industrialisation2
 			remove_idea = MRO_mercenary_industrialisation
@@ -1201,6 +1246,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_invest_in_arcanic_tools"
 		#research
 	}
 	ai_will_do = {
@@ -1225,6 +1271,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_leader_of_the_arbiters"
 		MRO = { add_political_power = 100 }
 		#buildings
 	}
@@ -1250,6 +1297,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_misaross_older_brother"
 		CTP = { add_political_power = 100 }
 		#buildings
 	}
@@ -1275,6 +1323,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_the_forgotten_state"
 		DPL = { add_political_power = 100 }
 		#buildings
 	}
@@ -1300,6 +1349,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_in_the_down_under"
 		IMN = { add_political_power = 100 }
 		#buildings
 	}
@@ -1325,6 +1375,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_treasury_of_the_arbiters"
 		QOH = { add_political_power = 100 }
 		add_political_power = 100
 	}
@@ -1350,6 +1401,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_farms_farms_farms"
 		YLC = { add_political_power = 100 }
 		add_political_power = 100
 	}
@@ -1375,6 +1427,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_jewel_of_the_arbiters"
 		DED = { add_political_power = 100 }
 		add_political_power = 100
 	}
@@ -1399,6 +1452,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_enhance_mage_wards"
 		#research
 	}
 	ai_will_do = {
@@ -1423,6 +1477,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_buy_echainaian_artillery"
 		#equipment
 		#research
 	}
@@ -1450,6 +1505,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_innovate_rifle_improvements"
 		#research
 	}
 	ai_will_do = {
@@ -1476,6 +1532,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_study_support_equipment_models"
 		add_ideas = MRO_self_sufficient_firepower
 	}
 	ai_will_do = {
@@ -1500,6 +1557,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_build_more_stables"
 		#buildings
 	}
 	ai_will_do = {
@@ -1524,6 +1582,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_organise_freedoms_day"
 		#volunteer
 	}
 	ai_will_do = {
@@ -1548,6 +1607,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_the_democratic_underground_of_icrusia"
 		#volunteer
 	}
 	ai_will_do = {
@@ -1572,6 +1632,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_gather_support_in_astrigan"
 		#volunteer
 	}
 	ai_will_do = {
@@ -1596,6 +1657,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_hand_out_democracy_flyers"
 		#volunteer
 	}
 	ai_will_do = {
@@ -1620,6 +1682,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_rain_day_parade"
 		#volunteer
 	}
 	ai_will_do = {
@@ -1645,6 +1708,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_repurpose_old_factories"
 		#buildings
 	}
 	ai_will_do = {
@@ -1670,6 +1734,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_arcanic_waste_reduction_modules"
 		swap_ideas = {
 			add_idea = MRO_mercenary_industrialisation3
 			remove_idea = MRO_mercenary_industrialisation2
@@ -1697,6 +1762,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_upgrade_the_shifton_military_complex"
 		#buildings
 	}
 	ai_will_do = {
@@ -1721,6 +1787,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_expand_the_rywey_mines"
 		#buildings
 	}
 	ai_will_do = {
@@ -1745,6 +1812,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_build_the_gatesford_factories"
 		#buildings
 	}
 	ai_will_do = {
@@ -1769,6 +1837,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_breton_canals"
 		#buildings
 	}
 	ai_will_do = {
@@ -1793,6 +1862,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_open_new_investment_centres"
 		#buildings
 	}
 	ai_will_do = {
@@ -1817,6 +1887,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_grow_more_crops"
 		#buildings
 	}
 	ai_will_do = {
@@ -1841,6 +1912,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_macking_mines"
 		#buildings
 	}
 	ai_will_do = {
@@ -1864,6 +1936,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_promote_mage_abilities"
 		#doctrine
 	}
 	ai_will_do = {
@@ -1889,6 +1962,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_combined_guns"
 		add_ideas = MRO_combined_guns
 	}
 	ai_will_do = {
@@ -1914,6 +1988,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_self_sufficient_firepower"
 		add_political_power = 100
 	}
 	ai_will_do = {
@@ -1938,6 +2013,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_train_more_cavalrymen"
 		#doctrine
 	}
 	ai_will_do = {
@@ -1966,6 +2042,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_mercenary_realpolitik"
 		swap_ideas = {
 			add_idea = MRO_hard_power_superpower2
 			remove_idea = MRO_hard_power_superpower
@@ -1993,6 +2070,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_new_production_lines"
 		#buildings
 	}
 	ai_will_do = {
@@ -2017,6 +2095,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_gift_from_the_blacksmiths"
 		#buildings
 	}
 	ai_will_do = {
@@ -2041,6 +2120,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_steampunk_magic"
 		#research
 	}
 	ai_will_do = {
@@ -2065,6 +2145,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_renew_leases_on_the_opormouth_industrial_group"
 		#resources
 		#buildings
 	}
@@ -2090,6 +2171,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_wigtonian_logging_factories"
 		#resources
 		#buildings
 	}
@@ -2115,6 +2197,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_improve_dinpool_infrastructure"
 		#resources
 		#buildings
 	}
@@ -2140,6 +2223,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_build_new_farms"
 		#resources
 		#buildings
 	}
@@ -2165,6 +2249,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_leydon_city_project"
 		#buildings
 	}
 	ai_will_do = {
@@ -2189,6 +2274,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_expand_the_parvino_grain_mills"
 		#buildings
 	}
 	ai_will_do = {
@@ -2213,6 +2299,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_exploit_guildford_resources"
 		#buildings
 	}
 	ai_will_do = {
@@ -2236,6 +2323,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_one_wizard_army"
 		add_ideas = MRO_mage_only_army
 	}
 	ai_will_do = {
@@ -2260,6 +2348,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_combined_arms"
 		if = {
 			limit = {
 				has_idea = MRO_combined_guns
@@ -2301,6 +2390,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_workhorse_of_the_army"
 		add_ideas = MRO_workhorse_of_the_army
 	}
 	ai_will_do = {
@@ -2327,6 +2417,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_abiter_autarky"
 		#decisions
 	}
 	ai_will_do = {
@@ -2354,6 +2445,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_seeing_the_west_eye_to_eye"
 		add_ideas = MRO_centralised_industrialised_powerhouse
 	}
 	ai_will_do = {
@@ -2381,6 +2473,7 @@ focus 	= {
 	available_if_capitulated = no
 	completion_reward =	 {
 		add_ideas = MRO_decentralised_industrialised_powerhouse
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_far_beyond_the_eastern_backwater"
 	}
 	ai_will_do = {
 	}
@@ -2391,7 +2484,7 @@ focus = {
 	x = 45
 	y = 1
 	icon = GFX_goal_dreams_of_a_nation
-	#relative_position_id = AST_empower_the_worker		s		
+	#relative_position_id = AST_empower_the_workers		
 
 	
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
@@ -2406,6 +2499,7 @@ bypass = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_dreams_of_a_nation"
 		#event
 		clear_variable = YLC_friend
 		clear_variable = DED_friend
@@ -2440,6 +2534,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_southern_investment"
 		#buildings
 	}
 	ai_will_do = {
@@ -2468,6 +2563,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_western_investment"
 		#buildings
 	}
 	ai_will_do = {
@@ -2496,6 +2592,7 @@ mutually_exclusive = {focus = MRO_western_investment }
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_northern_investment"
 		#buildings
 	}
 	ai_will_do = {
@@ -2524,6 +2621,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_eastern_investment"
 		#buildings
 	}
 	ai_will_do = {
@@ -2550,6 +2648,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_increase_trade_with_illemnont"
 		IMN = { add_political_power = 100 }
 	}
 	ai_will_do = {
@@ -2576,6 +2675,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_gifts_for_our_southern_friends"
 		#buildings
 	}
 	ai_will_do = {
@@ -2602,6 +2702,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_expand_ylecstin_farmlands"
 		#buildings
 	}
 	ai_will_do = {
@@ -2628,6 +2729,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_raise_qohphis_banks"
 		#buildings
 	}
 	ai_will_do = {
@@ -2654,6 +2756,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_build_more_mines_in_drecding"
 		#buildings
 	}
 	ai_will_do = {
@@ -2680,6 +2783,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_industrialise_cleatport"
 		#buildings
 	}
 	ai_will_do = {
@@ -2706,6 +2810,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_buy_out_dinpool"
 		DPL = { add_political_power = 100 }
 	}
 	ai_will_do = {
@@ -2732,6 +2837,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_invest_in_dinpool"
 		#buildings
 	}
 	ai_will_do = {
@@ -2759,6 +2865,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_assist_the_south"
 		random_list = {
 			90 = {
 				set_variable = { IMN_friend = 1 }
@@ -2793,6 +2900,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_reconcile_the_west"
 		random_list = {
 			40 = {
 				set_variable = { YLC_friend = 1 }
@@ -2835,6 +2943,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_connect_the_north"
 		random_list = {
 			40 = {
 				set_variable = { DED_friend = 1 }
@@ -2877,6 +2986,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_leave_no_arbiter_behind"
 		random_list = {
 			90 = {
 				set_variable = { DPL_friend = 1 }
@@ -2910,6 +3020,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_form_the_arbiter_development_union"
 		add_ideas = MRO_arbiter_development_union
 		DED = { add_ideas = MRO_arbiter_development_union }
 		DPL = { add_ideas = MRO_arbiter_development_union }
@@ -2942,6 +3053,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_reinstate_the_arbiter_magic_group"
 		add_ideas = MRO_arbiter_magic_group
 		DED = { add_ideas = MRO_arbiter_magic_group }
 		DPL = { add_ideas = MRO_arbiter_magic_group }
@@ -2974,6 +3086,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_adu_economic_projects"
 		#decisions
 	}
 	ai_will_do = {
@@ -3000,6 +3113,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_adu_road_projects"
 		#buildings
 	}
 	ai_will_do = {
@@ -3026,6 +3140,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_adu_industrial_projects"
 		#buildings
 	}
 	ai_will_do = {
@@ -3052,6 +3167,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_cross_arbiter_training_plans"
 		swap_ideas = {
 			add_idea = MRO_arbiter_magic_group2
 			remove_idea = MRO_arbiter_magic_group
@@ -3117,6 +3233,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_build_cross_arbiter_camps"
 		add_political_power = 100
 	}
 	ai_will_do = {
@@ -3143,6 +3260,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_establish_the_common_arbiter_fund"
 		swap_ideas = {
 			add_idea = MRO_arbiter_development_union2
 			remove_idea = MRO_arbiter_development_union
@@ -3208,6 +3326,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_adu_eastern_road_focus"
 		#buildings
 	}
 	ai_will_do = {
@@ -3234,6 +3353,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_adu_western_road_focus"
 		#buildings
 	}
 	ai_will_do = {
@@ -3260,6 +3380,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_adu_central_bank"
 		#buildings
 	}
 	ai_will_do = {
@@ -3287,6 +3408,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_collaborate_on_magic_projects"
 		swap_ideas = {
 			add_idea = MRO_arbiter_magic_group3
 			remove_idea = MRO_arbiter_magic_group2
@@ -3352,6 +3474,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_adu_bail_out_programmes"
 		#decisions
 	}
 	ai_will_do = {
@@ -3379,6 +3502,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_trans-arbiters_roads"
 		#buildings
 	}
 	ai_will_do = {
@@ -3405,6 +3529,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_adu_investment_funds"
 		#buildings
 	}
 	ai_will_do = {
@@ -3431,6 +3556,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_send_out_the_national_charter"
 		#event
 	}
 	ai_will_do = {
@@ -3458,6 +3584,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_write_a_constituition"
 		#event
 	}
 	ai_will_do = {
@@ -3484,6 +3611,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_war_plans_for_misaross"
 		army_experience = 50
 		#doctrine
 	}
@@ -3511,6 +3639,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_enforce_war_economy"
 		add_ideas = war_economy
 		add_popularity = {
 			ideology = fascism
@@ -3541,6 +3670,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_emergency_temporary_factories"
 		#buildings
 		add_popularity = {
 			ideology = fascism
@@ -3571,6 +3701,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_centralise_production"
 		#buildings
 		add_popularity = {
 			ideology = fascism
@@ -3602,6 +3733,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_transition_to_weapons_production"
 		add_ideas = MRO_arbiter_war_economy
 		add_popularity = {
 			ideology = fascism
@@ -3633,6 +3765,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_declare_marshal_law"
 		add_political_power = 100
 		add_ideas = MRO_marshal_law
 		add_popularity = {
@@ -3665,6 +3798,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_strongest_house_in_the_arbiters"
 		add_ideas = MRO_final_stand
 		add_popularity = {
 			ideology = fascism
@@ -3695,6 +3829,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_end_of_the_unification_war"
 		remove_ideas = MRO_final_stand
 		remove_ideas = MRO_arbiter_war_economy
 		remove_ideas = MRO_marshal_law
@@ -3724,6 +3859,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_state_of_the_militia"
 		army_experience = 100
 	}
 	ai_will_do = {
@@ -3750,6 +3886,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_new_national_strength_budget"
 		#research
 		add_political_power = 100
 	}
@@ -3777,6 +3914,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_old_military_order"
 		#research
 	}
 	ai_will_do = {
@@ -3803,6 +3941,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_diversify_to_new_ideas"
 		#doctrine
 		add_political_power = 100
 	}
@@ -3830,6 +3969,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_rebuild_the_west"
 		#buildings
 	}
 	ai_will_do = {
@@ -3856,6 +3996,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_rebuild_the_east"
 		#buildings
 	}
 	ai_will_do = {
@@ -3882,6 +4023,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_reorganise_mage_sections"
 		#doctrine
 	}
 	ai_will_do = {
@@ -3908,6 +4050,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_explore_artillery_designs"
 		#research
 	}
 	ai_will_do = {
@@ -3934,6 +4077,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_raise_a_national_army"
 		#research
 	}
 	ai_will_do = {
@@ -3960,6 +4104,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_first_cavalries_of_the_arbiters"
 		#research
 	}
 	ai_will_do = {
@@ -3986,6 +4131,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_conserve_integral_farmlands"
 		#buildings
 	}
 	ai_will_do = {
@@ -4012,6 +4158,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_subsidies_for_the_banks"
 		add_ideas = MRO_western_banks
 	}
 	ai_will_do = {
@@ -4038,6 +4185,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_secrets_of_dinpool"
 		#resources
 	}
 	ai_will_do = {
@@ -4064,6 +4212,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_cleatport_ripe_for_factories"
 		#buildings
 	}
 	ai_will_do = {
@@ -4089,6 +4238,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_cross_magical_squads"
 		#research
 	}
 	ai_will_do = {
@@ -4115,6 +4265,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_all_terrain_artillery"
 		#research
 	}
 	ai_will_do = {
@@ -4141,6 +4292,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_study_modern_infantry_equipment"
 		#research
 	}
 	ai_will_do = {
@@ -4167,6 +4319,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_employ_explosive_lancers"
 		#research
 	}
 	ai_will_do = {
@@ -4193,6 +4346,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_exploit_logging_benefits"
 		#buildings
 	}
 	ai_will_do = {
@@ -4219,6 +4373,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_worker_benefits_plans"
 		#research
 	}
 	ai_will_do = {
@@ -4245,6 +4400,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_strongarm_dinpool_exports"
 		#buildings
 	}
 	ai_will_do = {
@@ -4271,6 +4427,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_redistribute_industrial_development_grants"
 		#buildings
 		#research
 	}
@@ -4297,6 +4454,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_human_warheads"
 		#research
 	}
 	ai_will_do = {
@@ -4323,6 +4481,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_arcanic_shells"
 		#research
 	}
 	ai_will_do = {
@@ -4349,6 +4508,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_combinational_arcanic_equipment_designs"
 		#research
 	}
 	ai_will_do = {
@@ -4375,6 +4535,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_magical_horsemen_of_the_night"
 		#research
 	}
 	ai_will_do = {
@@ -4402,6 +4563,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_striking_gold_in_the_west"
 		#buildings
 		swap_ideas = {
 			add_idea = MRO_western_banks2
@@ -4433,6 +4595,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_fully_unleash_eastern_potential"
 		#buildings
 		add_ideas = MRO_united_arbiter_economy
 	}
@@ -4460,6 +4623,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_grand_militant_state"
 		swap_ideas = {
 			add_idea = MRO_nation_of_mercenaries2
 			remove_idea = MRO_nation_of_mercenaries
@@ -4489,6 +4653,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_stronger_as_one"
 		#decisions
 	}
 	ai_will_do = {
@@ -4516,6 +4681,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_on_the_homefront"
 		#event
 	}
 	ai_will_do = {
@@ -4542,6 +4708,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_paint_our_enemies_in_black"
 		add_political_power = 100
 		every_country = {
 			limit = {
@@ -4574,6 +4741,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_proclaim_freedom_declaration"
 		#event
 	}
 	ai_will_do = {
@@ -4600,6 +4768,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_provoke_neighbouring_countries"
 		#decisions
 		add_ideas = MRO_war_mongers_of_ambulas
 	}
@@ -4627,6 +4796,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_modern_war_plans"
 		#doctrine
 		#general
 	}
@@ -4654,6 +4824,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_crude_diplomacy"
 		#relations
 		add_political_power = 100
 		add_war_support = 10
@@ -4682,6 +4853,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_reinvigorate_public_morale"
 		add_war_support = 25
 		swap_ideas = {
 			add_idea = MRO_war_mongers_of_ambulas2
@@ -4712,6 +4884,7 @@ focus 	= {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_gray_monday_parade"
 		add_political_power = 	100
 	}
 	ai_will_do = {
@@ -4727,7 +4900,7 @@ focus = {
  
 	prerequisite = { focus = MRO_modern_war_plans OR = MRO_crude_diplomacy }
 	prerequisite = { focus = MRO_proclaim_freedom_declaration }
-	prerequisite = { focus = MRO_reinvigorate_public_morale OR = MRO_gray_monday_parade	 							}					
+	prerequisite = { focus = MRO_reinvigorate_public_morale OR = MRO_gray_monday_parade	}					
 
 	#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 	#mutually_exclusive = {focus = GOZ_economy_above_all }
@@ -4741,6 +4914,7 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MRO_mercenaries_no_more"
 		swap_ideas = {
 			add_idea = MRO_war_mongers_of_ambulas3
 			remove_idea = MRO_war_mongers_of_ambulas2

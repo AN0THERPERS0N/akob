@@ -44,6 +44,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_end_the_succession_crisis"
 			#event
 		}
 
@@ -75,6 +76,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_its_time_the_people_decide"
 			add_political_power = 200
 		}
 
@@ -106,6 +108,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_set_up_the_people_council"
 			
 		}
 
@@ -137,6 +140,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_vote_on_issues"
 			add_political_power = 200
 		}
 
@@ -168,6 +172,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_increase_representatives"
 			add_political_power = 100
 			add_manpower = 100000
 		}
@@ -200,6 +205,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_gather_the_people"
 			add_stability = 0.1
 			add_manpower = 100000
 		}
@@ -232,6 +238,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_build_trust_with_the_people"
 			swap_ideas = {
 				add_idea = ILD_ainia_councils2
 				remove_idea = ILD_ainia_councils
@@ -266,6 +273,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_fight_for_your_freedom"
 			add_popularity = {
 				ideology = democratic
 				popularity = 0.1
@@ -304,6 +312,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_promote_democratic_ideals"
 			add_ideas = ILD_calls_for_democracy
 		}
 
@@ -335,6 +344,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_invite_local_activists"
 			swap_ideas = {
 				add_idea = ILD_calls_for_democracy2
 				remove_idea = ILD_calls_for_democracy
@@ -370,6 +380,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_grow_the_democratic_underground"
 			#decisions
 			swap_ideas = {
 				add_idea = ILD_calls_for_democracy3
@@ -405,6 +416,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_organise_protests"
 			#event
 		}
 
@@ -436,6 +448,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_worker_rights"
 			#buildings
 		}
 
@@ -467,6 +480,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_break_the_hierarchy"
 			add_political_power = 100
 			#buildings
 		}
@@ -499,6 +513,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_calls_for_equality"
 			#event
 		}
 
@@ -532,6 +547,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_unconditional_democracy"
 			#event
 		}
 
@@ -566,6 +582,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_establish_a_constituitional_monarchy"
 			#event
 		}
 
@@ -597,6 +614,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_review_the_national_situation"
 			#event
 		}
 
@@ -628,6 +646,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_litteverian_question"
 			#event
 		}
 
@@ -659,6 +678,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_forceful_integration"
 			#relations
 			add_war_support = 0.2
 		}
@@ -691,6 +711,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_force_their_hand"
 			LTV = { add_manpower = -100000 }
 			LTV = { add_stability = -0.45 }
 		}
@@ -723,6 +744,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_destroy_the_litteverian_economies"
 			LTV = { add_political_power = -500 }
 			ILD = { add_political_power = -150 }
 		}
@@ -755,6 +777,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_make_litteveria_new_enemies"
 			#decisions
 		}
 
@@ -788,6 +811,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_send_an_ultimatum"
 			#event
 		}
 
@@ -819,6 +843,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_slow_integration"
 			#decisions
 		}
 
@@ -850,6 +875,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_economical_integration"
 			add_ideas = ILD_litteverian_illidean_economic_union
 		}
 
@@ -881,6 +907,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_grand_political_integration_schemes"
 			add_political_power = 200
 			swap_ideas = {
 				add_idea = ILD_royal_house_of_illidea3
@@ -918,6 +945,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_hold_a_referendum"
 			#event
 		}
 
@@ -949,6 +977,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_meeting_between_both_leaders"
 			#event
 		}
 
@@ -980,6 +1009,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_black_dragon_resistance"
 			swap_ideas = {
 				add_idea = ILD_black_dragon_resistance2
 				remove_idea = ILD_black_dragon_resistance
@@ -1014,6 +1044,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_elimination"
 			add_manpower = -200000
 			add_popularity = {
 				ideology = fascism
@@ -1049,6 +1080,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_operation_black_nights"
 			#events
 		}
 
@@ -1080,6 +1112,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_reconciliation"
 			add_manpower = 50000
 			add_popularity = {
 				ideology = fascism
@@ -1115,6 +1148,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_reintegrate_the_monarchists"
 			add_manpower = 50000
 			add_popularity = {
 				ideology = neutrality
@@ -1150,6 +1184,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_echainaian_restlessness"
 			#relations
 		}
 
@@ -1181,6 +1216,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_influence_echainaian_politics"
 			ECH = {
 				add_popularity = {
 					ideology = democratic
@@ -1218,6 +1254,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_protect_the_northern_border"
 			#buildings
 			add_manpower = 100000
 		}
@@ -1250,6 +1287,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_a_rising_trubia"
 			#relations
 			add_political_power = 100
 		}
@@ -1282,6 +1320,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_prepare_for_war"
 			#equipment
 			add_manpower = 100000
 		}
@@ -1314,6 +1353,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_anti-trubian_propaganda"
 			TRB = {
 				add_popularity = {
 					ideology = democratic
@@ -1351,6 +1391,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_rampant_corruption"
 			add_political_power = 100
 		}
 
@@ -1382,6 +1423,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_reshuffle_the_cabinet"
 			#decisions
 		}
 
@@ -1413,6 +1455,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_harsher_consequences"
 			swap_ideas = {
 				add_idea = ILD_rampant_corruption2
 				remove_idea = ILD_rampant_corruption
@@ -1451,6 +1494,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_arsenal_of_freedom"
 			remove_ideas = ILD_rampant_corruption2
 			remove_ideas = ILD_black_dragon_resistance2
 			#decisions
@@ -1484,6 +1528,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_prince_viktor_II_coronated"
 			#event
 		}
 
@@ -1515,6 +1560,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_coronation_day"
 			#event
 		}
 
@@ -1546,6 +1592,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_move_the_royal_palace"
 			#capital
 		}
 
@@ -1577,6 +1624,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_celebrations"
 			#events
 		}
 
@@ -1608,6 +1656,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_roll_out_the_red_carpet"
 			add_political_power = 100
 		}
 
@@ -1639,6 +1688,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_visit_the_farmers"
 			#buildings
 		}
 
@@ -1670,6 +1720,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_host_a_grand_feast"
 			#events
 		}
 
@@ -1701,6 +1752,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_princely_generousity"
 			swap_ideas = {
 				add_idea = ILD_royal_house_of_illidea2
 				remove_idea = ILD_royal_house_of_illidea
@@ -1735,6 +1787,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_party_all_night"
 			add_political_power = 100
 		}
 
@@ -1768,6 +1821,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_return_to_normal"
 			remove_ideas = ILD_succession_crisis
 		}
 
@@ -1799,6 +1853,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_our_princely_brothers"
 			add_political_power = 100
 		}
 
@@ -1830,6 +1885,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_leave_no_efror_behind"
 			#relations
 		}
 
@@ -1861,6 +1917,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_form_a_military_alliance"
 			add_ideas = ILD_efror_illidean_military_partnership
 		}
 
@@ -1892,6 +1949,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_form_the_ATL"
 			create_faction = Anti_trubian_league
 			ILD = { add_to_faction = EFR }
 		}
@@ -1924,6 +1982,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_invitations_around_the_globe"
 			#decisions
 		}
 
@@ -1955,6 +2014,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_our_trubian_friends"
 			#relations
 		}
 
@@ -1986,6 +2046,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_pledge_our_support"
 			add_political_power = 100
 			add_popularity = {
 				ideology = fascism
@@ -2021,6 +2082,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_co-prosperity"
 			#equipment
 			add_manpower = 100000
 		}
@@ -2053,6 +2115,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_divide_the_west_between_us"
 			#decisions
 		}
 
@@ -2084,6 +2147,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_send_diplomats_north"
 			#relations
 		}
 
@@ -2115,6 +2179,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_feed_echainaian_slumber"
 			#buildings
 			ECH = { add_political_power = 100 }
 			ILD = { add_political_power = -100 }
@@ -2148,6 +2213,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_establish_trade_deals"
 			add_ideas = ILD_echainaian_illidean_trade_deal
 		}
 
@@ -2179,6 +2245,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_an_impossible_proposal"
 			#decisions
 		}
 
@@ -2210,6 +2277,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_best_friends_forever"
 			swap_ideas = {
 				add_idea = ILD_echainaian_illidean_alliance
 				remove_idea = ILD_echainaian_illidean_trade_deal
@@ -2244,6 +2312,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_mission_to_the_centre_of_the_world"
 			#event
 		}
 
@@ -2275,6 +2344,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_support_icrusian_ventures"
 			if = {
 				limit = {
 					country_exists = ICR
@@ -2324,6 +2394,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_hold_political_parties"
 			#decisions
 		}
 
@@ -2355,6 +2426,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_the_eastern_kingdom"
 			#relations
 		}
 
@@ -2386,6 +2458,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_spheres_of_influence"
 			add_political_power = 100
 		}
 
@@ -2417,6 +2490,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_the_great_sabi_agreement"
 			#event
 		}
 
@@ -2451,6 +2525,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_friendship_is_magic"
 			add_ideas = ILD_friendship_is_magic
 		}
 
@@ -2482,6 +2557,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_a_bloody_past"
 			#event
 		}
 
@@ -2513,6 +2589,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_avenge_the_bloodline"
 			#event
 		}
 
@@ -2544,6 +2621,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_backhand_politics"
 			add_popularity = {
 				ideology = neutrality
 				popularity = 0.4
@@ -2579,6 +2657,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_boost_war_morale"
 			add_war_support = 20
 		}
 
@@ -2610,6 +2689,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_intimidate_our_enemies"
 			add_popularity = {
 				ideology = neutrality
 				popularity = 0.25
@@ -2645,6 +2725,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_a_kingdom_of_blood"
 			add_ideas = ILD_kingdom_of_blood
 		}
 
@@ -2676,6 +2757,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_continue_the_5_year_plan"
 			#research
 		}
 
@@ -2707,6 +2789,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_increase_farm_sizes"
 			#buildings
 		}
 
@@ -2738,6 +2821,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_privately_owned_farms"
 			add_ideas = ILD_privately_owned_farms
 		}
 
@@ -2769,6 +2853,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_state_owned_farms"
 			add_ideas = ILD_state_owned_farms
 		}
 
@@ -2800,6 +2885,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_incentives_for_cash_crops"
 			#buildings
 		}
 
@@ -2831,6 +2917,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_crop_protection_decree"
 			#buildings
 		}
 
@@ -2862,6 +2949,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_provide_advanced_agricultural_tools"
 			#research
 		}
 
@@ -2895,6 +2983,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_hire_more_farmers"
 			#research
 			add_manpower = 100000
 		}
@@ -2929,6 +3018,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_slave_provisions"
 			#buildings
 		}
 
@@ -2960,6 +3050,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_strengthen_the_market"
 			#research
 		}
 
@@ -2991,6 +3082,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_wheat_subsidies"
 			#buildings
 		}
 
@@ -3022,6 +3114,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_increase_granaries"
 			#buildings
 		}
 
@@ -3055,6 +3148,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_the_bread_basket_of_ambulas"
 			if = {
 				limit = {
 					has_completed_focus = ILD_state_owned_farms
@@ -3103,6 +3197,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_build_more_factories"
 			#buildings
 		}
 
@@ -3134,6 +3229,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_kaujaria_mines"
 			#buildings
 		}
 
@@ -3165,6 +3261,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_improve_mining_efficiency"
 			#resources
 		}
 
@@ -3196,6 +3293,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_improved_extraction_practices"
 			#resources
 		}
 
@@ -3227,6 +3325,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_prioritise_resource_gathering"
 			#resources
 		}
 
@@ -3258,6 +3357,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_expand_the_ouvattani_factories"
 			#buildings
 		}
 
@@ -3289,6 +3389,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_advanced_tools"
 			#research
 		}
 
@@ -3320,6 +3421,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_use_machinery"
 			#research
 		}
 
@@ -3351,6 +3453,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_prioritise_production"
 			#buildings
 		}
 
@@ -3382,6 +3485,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_finish_the_trans_illidea_road"
 			#buildings
 		}
 
@@ -3413,6 +3517,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_littiveria-illidea_road_deal"
 			#buildings
 		}
 
@@ -3444,6 +3549,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_build_more_ring_roads"
 			#buildings
 		}
 
@@ -3475,6 +3581,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_unite_the_cities"
 			#buildings
 		}
 
@@ -3506,6 +3613,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_build_the_tiky_production_plant"
 			#buildings
 		}
 
@@ -3537,6 +3645,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_resource_recycling"
 			#resources
 		}
 
@@ -3568,6 +3677,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_factories_in_the_countryside"
 			#buildings
 		}
 
@@ -3599,6 +3709,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_factories_in_the_cities"
 			#buildings
 		}
 
@@ -3632,6 +3743,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_a_country_of_factories"
 			#decisions
 		}
 
@@ -3663,6 +3775,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_1st_meeting_of_the_intelligentsia_union"
 			#research
 		}
 
@@ -3694,6 +3807,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_literacy_endeavours"
 			add_ideas = ILD_literacy_drive
 		}
 
@@ -3725,6 +3839,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_build_the_vari_mega_university"
 			add_research_slot = 1
 		}
 
@@ -3756,6 +3871,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_mass_university_expansion"
 			swap_ideas = {
 				add_idea = ILD_literacy_drive3
 				remove_idea = ILD_literacy_drive2
@@ -3790,6 +3906,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_scientific_research_grants"
 			if = {
 				limit = {
 					has_idea = ILD_literacy_drive
@@ -3838,6 +3955,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_basic_weapons_research"
 			#research
 		}
 
@@ -3869,6 +3987,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_research_into_support_equipment"
 			#research
 		}
 
@@ -3900,6 +4019,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_streamline_support_companies"
 			#research
 		}
 
@@ -3931,6 +4051,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_basic_cavalry_armaments"
 			#research
 		}
 
@@ -3962,6 +4083,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_improved_cavalry_research"
 			#research
 		}
 
@@ -3993,6 +4115,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_create_the_mikka_cavalry_research_centre"
 			#research
 		}
 
@@ -4024,6 +4147,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_standardise_equipment_production"
 			#research
 		}
 
@@ -4055,6 +4179,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_boost_weapons_efficiency"
 			#research
 		}
 
@@ -4086,6 +4211,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_venture_into_magic"
 			#research
 		}
 
@@ -4117,6 +4243,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_the_future_of_warfare"
 			#doctrine
 		}
 
@@ -4148,6 +4275,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_mage_support"
 			#research
 		}
 
@@ -4179,6 +4307,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_advanced_mage_armaments"
 			#research
 		}
 
@@ -4210,6 +4339,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_doctrinal_thinking"
 			army_experience = 50
 		}
 
@@ -4242,6 +4372,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_mages_to_lead_the_charge"
 			#doctrine
 		}
 
@@ -4274,6 +4405,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_knights_with_guns"
 			#doctrine
 		}
 
@@ -4306,6 +4438,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ILD_dig_a_big_hole_for_ourselves"
 			#doctrine
 		}
 

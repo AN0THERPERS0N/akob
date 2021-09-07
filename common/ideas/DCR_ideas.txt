@@ -4,72 +4,72 @@ ideas = {
 
 #starting ideas
 
-		icrusian_civil_war = {
-			picture = not_a_country
+DCR_icrusian_civil_war = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+	
+	}
+
+	modifier = {
+		conscription_factor = -0.10
+		training_time_army_factor = 0.2
+		army_morale_factor = -0.1
+		stability_factor = -0.1
+		industrial_capacity_factory = -0.25
+		production_factory_max_efficiency_factor = -0.1
+		production_speed_buildings_factor = -0.35
+		army_speed_factor = -0.15
+		max_dig_in = 0.1
+		research_speed_factor = -0.15
+	}
+
+	cancel = {
+		has_country_flag = DCR_civil_war_end
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_finest_military_in_all_of_ambulas = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+
+	}
+
+	modifier = {
+		army_attack_factor = 0.2
+		army_core_defence_factor = 0.25
+		army_morale_factor = 0.2
+		army_org_factor = 0.2
+		army_org_regain = 0.25
+		breakthrough_factor = 0.2
+		army_speed_factor = 0.25
+	}
+
+	cancel = {
 			
-			allowed = {
-				tag = DCR
-			}
+	}
 
-			available = {
-				
-			}
-			
-			modifier = {
-				conscription_factor = -0.10
-				training_time_army_factor = 0.2
-				army_morale_factor = -0.1
-				stability_factor = -0.1
-				industrial_capacity_factory = -0.25
-				production_factory_max_efficiency_factor = -0.1
-				production_speed_buildings_factor = -0.35
-				army_speed_factor = -0.15
-				max_dig_in = 0.1
-				research_speed_factor = -0.15
-			}
+	allowed_civil_war = {
+		always = yes
+	}
 
-			cancel = {
-				has_country_flag = DCR_civil_war_end
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-		}
-
-		DCR_finest_military_in_all_of_ambulas = {
-			picture = not_a_country
-			
-			allowed = {
-				tag = DCR
-			}
-
-			available = {
-				
-			}
-			
-			modifier = {
-				army_attack_factor = 0.2
-				army_core_defence_factor = 0.25
-				army_morale_factor = 0.2
-				army_org_factor = 0.2
-				army_org_regain = 0.25
-				breakthrough_factor = 0.2
-				army_speed_factor = 0.25
-			}
-
-			cancel = {
-			
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-		}
+	removal_cost = -1
+}
 
 # civil war - quick and decisive
 
@@ -560,5 +560,7 @@ DCR_an_empire_no_more = {
 #		}
 #		
 #	}
+
+	}
 
 }

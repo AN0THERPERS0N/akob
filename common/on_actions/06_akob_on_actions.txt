@@ -1,19 +1,19 @@
-on_actions = {
-	on_daily_DCR = { 
-		effect = {
-			if = {
-				limit = {
-					TAG = DCR
-					DCR = { has_country_flag = DCR_inverse_wealth }
-				}
-#				set_variable = { dcr_wealth = var:DCR.political_power }
-            	set_variable = { dcr_value_1 = 1 }
-            	divide_variable = { dcr_value_1 = var:DCR.political_power }
-            	multiply_variable = { dcr_value_1 = 100 }
-            	DCR = { add_dynamic_modifier = { modifier = wealth_modifier } }
-			} 
-		} 
-	}
+#on_actions = {
+#	on_daily_DCR = { 
+#		effect = {
+#			if = {
+#				limit = {
+#					TAG = DCR
+#					DCR = { has_country_flag = DCR_inverse_wealth }
+#				}
+##				set_variable = { dcr_wealth = var:DCR.political_power }
+#            	set_variable = { dcr_value_1 = 1 }
+#            	divide_variable = { dcr_value_1 = var:DCR.political_power }
+#            	multiply_variable = { dcr_value_1 = 100 }
+#            	DCR = { add_dynamic_modifier = { modifier = wealth_modifier } }
+#			} 
+#		} 
+#	}
 
 	
 
@@ -46,83 +46,84 @@ on_actions = {
 
 	# arbiters
 
-	on_send_volunteers = { 
-		effect = {
-			if = {
-				limit = {
-					ROOT = {
-						TAG = MRO
-					}
-					has_idea = MRO_restless_mercenaries
-				}
-				remove_ideas = MRO_restless_mercenaries
-				add_ideas = MRO_productive_mercenaries
-			}
-			else_if = {
-				limit = {
-					ROOT = {
-						TAG = MRO
-					}
-					has_idea = MRO_rowdy_mercenaries
-				}
-				remove_ideas = MRO_rowdy_mercenaries
-				add_ideas = MRO_productive_mercenaries
-			}
-		} 
-	}
-
-	on_capitulation = { 
-		effect = {
-			if = {
-				limit = {
-					ROOT = {
-						has_volunteers_amount_from = {
-							tag = MRO
-							count > 1
-						}
-					}
-				}
-				clr_country_flag = MRO_productive_mercenaries
-				set_country_flag = MRO_restless_mercenaries
-			}
-		} 
-	}
-
-	on_daily_MRO = {
-		effect = {
-			if = {
-				limit = {
-					has_stability < 0.2
-					NOT = { has_idea = MRO_productive_mercenaries }
-				}
-				remove_ideas = MRO_restless_mercenaries
-				add_ideas = MRO_rowdy_mercenaries
-				
-			}
-			else_if = {
-				limit = {
-					has_stability > 0.2
-					NOT = { has_idea = MRO_productive_mercenaries }
-				}
-				remove_ideas = MRO_rowdy_mercenaries
-				add_ideas = MRO_restless_mercenaries
-				
-			}
-		}
-	}
-
-	on_civil_war_end = { 
-		effect = {
-			if = {
-				limit = {
-					TAG = ICR
-					TAG = LCR
-					TAG = DCR
-				}
-				set_country_flag = ICR_civil_war_end
-				set_country_flag = LCR_civil_war_end
-			}
-		}
-	}
-
-}
+#	on_send_volunteers = { 
+#		effect = {
+#			if = {
+#				limit = {
+#					ROOT = {
+#						TAG = MRO
+#					}
+#					has_idea = MRO_restless_mercenaries
+#				}
+#				remove_ideas = MRO_restless_mercenaries
+#				add_ideas = MRO_productive_mercenaries
+#			}
+#			else_if = {
+#				limit = {
+#					ROOT = {
+#						TAG = MRO
+#					}
+#					has_idea = MRO_rowdy_mercenaries
+#				}
+#				remove_ideas = MRO_rowdy_mercenaries
+#				add_ideas = MRO_productive_mercenaries
+#			}
+#		} 
+#	}
+#
+#	on_capitulation = { 
+#		effect = {
+#			if = {
+#				limit = {
+#					ROOT = {
+#						has_volunteers_amount_from = {
+#							tag = MRO
+#							count > 1
+#						}
+#					}
+#				}
+#				clr_country_flag = MRO_productive_mercenaries
+#				set_country_flag = MRO_restless_mercenaries
+#			}
+#		} 
+#	}
+#
+#	on_daily_MRO = {
+#		effect = {
+#			if = {
+#				limit = {
+#					has_stability < 0.2
+#					NOT = { has_idea = MRO_productive_mercenaries }
+#				}
+#				remove_ideas = MRO_restless_mercenaries
+#				add_ideas = MRO_rowdy_mercenaries
+#				
+#			}
+#			else_if = {
+#				limit = {
+#					has_stability > 0.2
+#					NOT = { has_idea = MRO_productive_mercenaries }
+#				}
+#				remove_ideas = MRO_rowdy_mercenaries
+#				add_ideas = MRO_restless_mercenaries
+#				
+#			}
+#		}
+#	}
+#
+#	on_civil_war_end = { 
+#		effect = {
+#			if = {
+#				limit = {
+#					TAG = ICR
+#					TAG = LCR
+#					TAG = DCR
+#				}
+#				set_country_flag = ICR_civil_war_end
+#				set_country_flag = LCR_civil_war_end
+#			}
+#		}
+#	}
+#
+#}
+#

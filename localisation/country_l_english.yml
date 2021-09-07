@@ -1,0 +1,116 @@
+﻿l_english:
+ TST_fascism:0 "Test Country"
+ TST_fascism_DEF:0 "Test Country"
+ TST_democratic:0 "Test Country"
+ TST_democratic_DEF:0 "Test Country"
+ TST_neutrality:1 "Test Country"
+ TST_neutrality_DEF:1 "Test Country"
+ TST_communism:0 "Test Country"
+ TST_communism_DEF:0 "Test Country"
+ TST_fascism_ADJ:0 "Test Country"
+ TST_democratic_ADJ:0 "Test Country"
+ TST_neutrality_ADJ:0 "Test Country"
+ TST_communism_ADJ:0 "Test Country"
+ #####
+ 
+ AGR_communism:0 "Agran Commune"
+ AGR_fascism:0 "Agran Empire"
+ AGR_neutrality:0 "Kingdom of Agra"
+ AGR_democratic:0 "Republic of Agra"
+
+ ARS_fascism:0 "Airestonian Empire"
+ ARS_democratic:0 "Republic of Airestonia"
+ ARS_communism:0 "Democratic Republic of Airestonia"
+ ARS_neutrality:0 "Kingdom of Airestonia"
+
+ TRB_neutrality:0 "Kingdom of Trubia"
+ TRB_fascism:0 "Trubian Confederacy"
+ TRB_democratic:0 "Republic of Trubia"
+ TRB_communism:0 "Trubian Commune"
+
+ EFR_fascism:0 "Grand Order of Efror"
+ EFR_neutrality:0 "Kingdom of Efror"
+ EFR_democratic:0 "Republic of Efror"
+ EFR_communism:0 "Democratic Republic of Efror"
+
+ LTV_fascism:0 "Littiverian Empire"
+ LTV_neutrality:0 "Kingdom of Littiveria"
+ LTV_democratic:0 "Republic of Littiveria"
+ LTV_communism:0 "Littiverian Commune"
+
+ ILD_fascism:0 "Ilidean Empire"
+ ILD_democratic:0 "Republic of Ilidea"
+ ILD_neutrality:0 "kingdom of Ilidea"
+ ILD_communism:0 "Ilidean Commune"
+
+ ECH_fascism:0 "Echainaian Empire"
+ ECH_neutrality:0 "Kingdom of Echainaia"
+ ECH_democratic:0 "Republic of Echainaia"
+ ECH_communism:0 "Democratic Republic of Echainaia"
+
+ THB_fascism:0 "Free State pf Theberia"
+ THB_neutrality:0 "Grey Theberia"
+ THB_democratic:0 "Blue Theberia"
+ THB_communism:0 "Red Theberia"
+
+ GOZ_fascism:0 "Gozyean Empire"
+ GOZ_communism:0 "Gozyean Commune"
+ GOZ_democratic:0 "Gozyr Mercantile Federation"
+ GOZ_neutrality:0 "Kingdom of Gozyr"
+
+ OBX_fascism:0 "Principality of Obrax"
+ OBX_neutrality:0 "Kingdom of Obrax"
+ OBX_communism:0 "Democratic Republic of Obrax"
+ OBX_democratic:0 "Republic of Obrax"
+
+ WSL_neutrality:0 "Toxic Wasteland"
+ CRP_neutrality:0 "Corruption"
+ 
+ #Icrusian civil war
+ DCR_fascism:0 "Icrusian Empire"
+ DCR_neutrality:0 "Icrusia Military State"
+ DCR_communism:0 "Democratic Republic of Icrusia"
+ DCR_democratic:0 "Republic of Icrusia"
+
+ ICR_fascism:0 "Icrusian Empire"
+ ICR_neutrality:0 "Icrusia Military State"
+ ICR_communism:0 "Democratic Republic of Icrusia"
+ ICR_democratic:0 "Republic of Icrusia"
+
+ LCR_fascism:0 "Icrusian Empire"
+ LCR_neutrality:0 "Icrusia Military State"
+ LCR_communism:0 "Democratic Republic of Icrusia"
+ LCR_democratic:0 "Republic of Icrusia"
+ 
+ #arbiters
+  MRO_democratic:0 "Misaross"
+  CTP_democratic:0 "Cleatport"
+  DPL_democratic:0 "Dinpool"
+  QOH_democratic:0 "Qohphis"
+  DED_democratic:0 "Drecdin"
+  YLC_democratic:0 "Ylecstin"
+  IMN_democratic:0 "Illemont"
+
+  MRO_communism:0 "Misaross Commune"
+  CTP_communism:0 "Cleatport Commune"
+  DPL_communism:0 "Dinpool Commune"
+  QOH_communism:0 "Qohphis Commune"
+  DED_communism:0 "Drecdin Commune"
+  YLC_communism:0 "Ylecstin Commune"
+  IMN_communism:0 "Illemont Commune"
+
+  MRO_neutrality:0 "House Misaross"
+  CTP_neutrality:0 "House Cleatport"
+  DPL_neutrality:0 "House Dinpool"
+  QOH_neutrality:0 "House Qohphis"
+  DED_neutrality:0 "House Drecdin"
+  YLC_neutrality:0 "House Ylecstin"
+  IMN_neutrality:0 "House Illemont"
+
+  MRO_fascism:0 "Black Misaross"
+  CTP_fascism:0 "Black Cleatport"
+  DPL_fascism:0 "Black Dinpool"
+  QOH_fascism:0 "Black Qohphis"
+  DED_fascism:0 "Black Drecdin"
+  YLC_fascism:0 "Black Ylecstin"
+  IMN_fascism:0 "Black Illemont"

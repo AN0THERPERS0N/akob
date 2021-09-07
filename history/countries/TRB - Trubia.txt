@@ -41,6 +41,17 @@ add_dynamic_modifier = {
 
 set_convoys = 5
 
+create_country_leader = {
+	name = "Wylemot Scheurer"
+	desc = "POLITICS_AMARIS_DESC"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
 #Victor Emmanuel III of Italy after 39
 #create_country_leader = {
 	#name = "King Zog"

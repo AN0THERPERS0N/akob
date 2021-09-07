@@ -12,17 +12,29 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	communism = 98
+	fascism = 2
 }
 
 set_convoys = 5
+
+create_country_leader = {
+	name = "Reto Duden"
+	desc = "POLITICS_AMARIS_DESC"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
 
 #Victor Emmanuel III of Italy after 39
 #create_country_leader = {
