@@ -18,7 +18,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,7 +33,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Reto Duden"
 	desc = "POLITICS_AMARIS_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/QOH/Portrait_Amaris.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -41,37 +41,43 @@ create_country_leader = {
 	}
 }
 
-#Victor Emmanuel III of Italy after 39
-#create_country_leader = {
-	#name = "King Zog"
-	#desc = "POLITICS_KING_ZOG_DESC"
-	#picture = "Portrait_Albania_King_Zog.dds"
-	#expire = "1965.1.1"
-	#ideology = despotism
-	#traits = {
-		#
-#	}
-#}
+create_corps_commander = {
+	name = "Orell Hyde"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		old_guard
+		trait_cautious
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
 
-#create_country_leader = {
-#	name = "Enver Hoxha"
-#	desc = "POLITICS_KING_ZOG_DESC"
-#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-#	expire = "1965.1.1"
-	#ideology = stalinism
-#	traits = {
-#		staunch_stalinist
-#	}
-#}
+create_corps_commander = {
+	name = "Ramon I"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		inflexible_strategist
+		trait_reckless
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
 
-#create_field_marshal = {
-#	name = "Xhemal Aranitasi"
-#	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-#	traits = { }
-#	skill = 2
-#	attack_skill = 1
- #   defense_skill = 3
- #   planning_skill = 2
-#    logistics_skill = 1
-#}
-
+create_corps_commander = {
+	name = "Nils Sadler"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		harsh_leader
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}

@@ -21,7 +21,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1931.10.10"
 	election_frequency = 36
 	elections_allowed = no
@@ -41,23 +41,15 @@ declare_war_on = {
 
 set_convoys = 5
 
-AGR = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	add_popularity = { ideology = neutrality popularity = 0.74 }
-	add_popularity = { ideology = fascism popularity = 0.15 }
-   	add_popularity = { ideology = communism popularity = 0.02 }
-	add_popularity = { ideology = democratic popularity = 0.09 }
+add_ideas = {
+	LCR_icrusian_civil_war
+	LCR_finest_military_in_all_of_ambulas
 }
 
 create_country_leader = {
 	name = "Rowe Spetyll"
 	desc = "POLITICS_ROWE_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/LCR/Portrait_Vitas.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -67,7 +59,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Jordanus Zander"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		brilliant_strategist
 		politically_connected
@@ -81,7 +73,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Hambard Everard"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		harsh_leader
 		infantry_officer
@@ -95,7 +87,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Conayn Haket"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		media_personality
 	}
@@ -108,7 +100,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Augustine Roehr"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 
 	}
@@ -121,7 +113,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Cromwell III"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		war_hero
 	}

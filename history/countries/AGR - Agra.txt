@@ -11,13 +11,29 @@ set_technology = {
 	akob_basic_artillery = 1
 }
 
+ICR = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = AGR
+			autonomous_state = autonomy_integrated_puppet
+		}
+		else = {
+			puppet = AGR
+		}
+	}
+}
+
 set_popularities = {
 	communism = 98
 	fascism = 2
 }
+
 set_politics = {
 	ruling_party = fascism
-	last_election = "1933.3.5"
+	last_election = "1710.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -25,9 +41,9 @@ set_politics = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Agra leader"
+	name = "Agra_leader"
 	desc = "POLITICS_AMARIS_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/AGR/Portrait_Amaris.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -37,7 +53,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Golyn Viktor"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		old_guard
 		brilliant_strategist
@@ -51,7 +67,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Pierson Hook"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		harsh_leader
 	}
@@ -64,7 +80,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Lendon Kaige"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 	}
 	skill = 2
@@ -76,7 +92,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Onyu Zeph"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		infantry_officer
 	}

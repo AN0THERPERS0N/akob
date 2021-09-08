@@ -27,25 +27,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = THB
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = AGR
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = THB
-		puppet = AGR
-	}
-}
-
 set_popularities = {
 	fascism = 80
 	communism = 20
@@ -53,34 +34,19 @@ set_popularities = {
 
 set_convoys = 5
 
-AGR = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	add_popularity = { ideology = fascism popularity = 0.02 }
-   	add_popularity = { ideology = communism popularity = 0.98 }
-}
-
-THB = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	add_popularity = { ideology = fascism popularity = 0.02 }
-   	add_popularity = { ideology = communism popularity = 0.98 }
+add_ideas = {
+	ICR_icrusian_civil_war
+	ICR_finest_military_in_all_of_ambulas
+	ICR_unpaid_military_grunts
+	ICR_fractured_nation
+	ICR_broken_economy
+	ICR_traitors_to_the_cause
 }
 
 create_country_leader = {
 	name = "Tybalt Redmond"
 	desc = "POLITICS_REDMOND_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/ICR/Portrait_Vitas.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -90,7 +56,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Ferrand Caromarus"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		old_guard
 		inflexible_strategist
@@ -104,7 +70,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Gobert (Caurus’ir)"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		old_guard
 		politically_connected
@@ -118,7 +84,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Myra Anna-Lena Geller"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		bearer_of_artillery
 		fortress_buster
@@ -132,7 +98,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Harriot Floke"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		infantry_expert
 	}
@@ -145,7 +111,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Herriot Saeweard"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		infantry_expert
 		ambusher
@@ -159,7 +125,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ezekiel Alaistair"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		expert_improviser
 	}

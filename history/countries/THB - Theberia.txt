@@ -11,9 +11,24 @@ set_technology = {
 	akob_basic_artillery = 1
 }
 
+ICR = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = THB
+			autonomous_state = autonomy_integrated_puppet
+		}
+		else = {
+			puppet = THB
+		}
+	}
+}
+
 set_politics = {
 	ruling_party = fascism
-	last_election = "1933.3.5"
+	last_election = "1710.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -28,7 +43,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Reto Duden"
 	desc = "POLITICS_AMARIS_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/THB/Portrait_Amaris.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -38,7 +53,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Teltrox Eldon"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		guerilla_fighter
 		jungle_rat
@@ -52,7 +67,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Kelton Lexx"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		commando
 		infantry_leader

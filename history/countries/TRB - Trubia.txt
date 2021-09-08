@@ -44,10 +44,152 @@ set_convoys = 5
 create_country_leader = {
 	name = "Wylemot Scheurer"
 	desc = "POLITICS_AMARIS_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/TRB/Portrait_Amaris.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
 		#
 	}
+}
+
+
+create_field_marshal = {
+	name = "Holstein Maleficum"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		cavalry_officer
+		old_guard
+		defensive_doctrine
+		trait_cautious
+	}
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Carmine Zayne"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		trait_reckless
+		infantry_officer
+		brilliant_strategist
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Arch Vandran"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		cavalry_officer
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sabre Fadington"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		organizer
+		inflexible_strategist
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Acheron I"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		war_hero
+		infantry_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Zeddicus Vonner"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		cavalry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gossom Lobo"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		media_personality
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Viscardi Stryker"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		harsh_leader
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Wylemot Scheurer"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		fleet_protector
+		ironside
+		superior_tactician
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Dommik Orlando"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		spotter
+		blockade_runner
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 2
 }

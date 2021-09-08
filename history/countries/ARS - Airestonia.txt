@@ -34,6 +34,12 @@ set_popularities = {
 
 set_convoys = 5
 
+add_ideas = {
+	ARS_outdated_military
+	ARS_economic_stagnation
+	ARS_cracks_in_the_feudal_system
+}
+
 create_country_leader = {
 	name = "Arwel I"
 	desc = "POLITICS_AMARIS_DESC"
@@ -47,7 +53,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Amaris Pruefler"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		brilliant_strategist
 		war_hero
@@ -62,7 +68,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Cordelia Amelia Tannen"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		brilliant_strategist
 		expert_delegator
@@ -76,7 +82,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Hurst Nayte"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		old_guard
 		politically_connected
@@ -90,7 +96,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Bedell Feinberg"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		inflexible_strategist
 	}
@@ -103,7 +109,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Aurst I"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		politically_connected
 		media_personality
@@ -118,7 +124,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Esau Aura"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		old_guard
 	}
@@ -131,7 +137,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Neiper Vonner"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		inflexible_strategist
 	}
@@ -144,7 +150,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Barre Skinner"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		war_hero
 	}
@@ -157,7 +163,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Amor Maggard"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		trait_cautious
 	}
@@ -170,7 +176,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Brodeway Firion"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		trait_reckless
 	}

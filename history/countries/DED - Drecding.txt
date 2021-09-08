@@ -33,7 +33,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Elian Iccinus"
 	desc = "POLITICS_AMARIS_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/DED/Portrait_Amaris.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -41,37 +41,29 @@ create_country_leader = {
 	}
 }
 
-#Victor Emmanuel III of Italy after 39
-#create_country_leader = {
-	#name = "King Zog"
-	#desc = "POLITICS_KING_ZOG_DESC"
-	#picture = "Portrait_Albania_King_Zog.dds"
-	#expire = "1965.1.1"
-	#ideology = despotism
-	#traits = {
-		#
-#	}
-#}
+create_corps_commander = {
+	name = "Livia Vaughan"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		commando
+		war_hero
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
 
-#create_country_leader = {
-#	name = "Enver Hoxha"
-#	desc = "POLITICS_KING_ZOG_DESC"
-#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-#	expire = "1965.1.1"
-	#ideology = stalinism
-#	traits = {
-#		staunch_stalinist
-#	}
-#}
-
-#create_field_marshal = {
-#	name = "Xhemal Aranitasi"
-#	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-#	traits = { }
-#	skill = 2
-#	attack_skill = 1
- #   defense_skill = 3
- #   planning_skill = 2
-#    logistics_skill = 1
-#}
-
+create_corps_commander = {
+	name = "Linard Riegel"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		hill_fighter
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}

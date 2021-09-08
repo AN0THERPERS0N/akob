@@ -44,21 +44,9 @@ declare_war_on = {
 
 set_convoys = 5
 
-AGR = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	add_popularity = { ideology = fascism popularity = 1 }
-   	add_popularity = { ideology = communism popularity = 0.98 }
-}
-
-add_opinion_modifier = {
-	target = MRO
-    modifier = cheat_opinion_modifier_good 
+add_ideas = {
+	DCR_icrusian_civil_war
+	DCR_finest_military_in_all_of_ambulas
 }
 
 create_country_leader = {
@@ -74,7 +62,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Acur (Atuirus’ir)"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		brilliant_strategist
 		war_hero
@@ -88,7 +76,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Gabel Bergius"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		harsh_leader
 		infantry_officer
@@ -102,7 +90,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Vito (Vitallion’ir)"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		brilliant_strategist
 		offensive_doctrine
@@ -117,7 +105,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Manfred Wieters"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		unyielding_defender
 		thorough_planner
@@ -132,7 +120,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Cromwell II"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		career_officer
 	}
@@ -145,7 +133,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Avoxium Stozhul"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		old_guard
 		infantry_leader
@@ -160,7 +148,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Mallory Bronislovas"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		trait_cautious
 		inflexible_strategist
@@ -174,7 +162,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Alneas Orthros"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		war_hero
 		trait_reckless
@@ -188,7 +176,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Henderson Felder"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		inflexible_strategist
 		trait_reckless
@@ -202,7 +190,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Aymon Alewar"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 
 	}
@@ -215,7 +203,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Gobert Estmund"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 
 	}

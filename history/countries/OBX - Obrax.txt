@@ -27,7 +27,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Obraxian leader"
 	desc = "POLITICS_AMARIS_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/OBX/Portrait_Amaris.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -37,7 +37,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Damon Periculum"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		career_officer
 	}

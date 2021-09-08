@@ -31,7 +31,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Allegra Iccinus"
 	desc = "POLITICS_AMARIS_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/DPL/Portrait_Amaris.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -41,37 +41,56 @@ create_country_leader = {
 
 set_convoys = 5
 
-#Victor Emmanuel III of Italy after 39
-#create_country_leader = {
-	#name = "King Zog"
-	#desc = "POLITICS_KING_ZOG_DESC"
-	#picture = "Portrait_Albania_King_Zog.dds"
-	#expire = "1965.1.1"
-	#ideology = despotism
-	#traits = {
-		#
-#	}
-#}
+create_corps_commander = {
+	name = "Gilgian Brevil"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		trait_reckless
+		brilliant_strategist
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
 
-#create_country_leader = {
-#	name = "Enver Hoxha"
-#	desc = "POLITICS_KING_ZOG_DESC"
-#	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-#	expire = "1965.1.1"
-	#ideology = stalinism
-#	traits = {
-#		staunch_stalinist
-#	}
-#}
+create_corps_commander = {
+	name = "Ava Annelie Bergius"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		politically_connected
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
 
-#create_field_marshal = {
-#	name = "Xhemal Aranitasi"
-#	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-#	traits = { }
-#	skill = 2
-#	attack_skill = 1
- #   defense_skill = 3
- #   planning_skill = 2
-#    logistics_skill = 1
-#}
+create_corps_commander = {
+	name = "Vreni Chalice"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		trait_cautious
+		skilled_staffer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
 
+create_corps_commander = {
+	name = "Alyssia (Litavis’es)"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
+	traits = {
+		inflexible_strategist
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}

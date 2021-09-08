@@ -33,7 +33,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Illidea leader"
 	desc = "POLITICS_AMARIS_DESC"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "gfx/leaders/ILD/Portrait_Amaris.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -46,7 +46,7 @@ set_convoys = 5
 
 create_field_marshal = {
 	name = "Norrix Natas"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		trait_cautious
 	}
@@ -59,7 +59,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Mazus Grimsbane"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		harsh_leader
 	}
@@ -72,7 +72,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Eike Maganti"
-	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 	}
 	skill = 2
