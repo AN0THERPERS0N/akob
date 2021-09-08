@@ -57,7 +57,7 @@ DCR_finest_military_in_all_of_ambulas = {
 		army_org_factor = 0.2
 		army_org_regain = 0.25
 		breakthrough_factor = 0.2
-		army_speed_factor = 0.25
+		army_speed_factor = 0.75
 	}
 
 	cancel = {

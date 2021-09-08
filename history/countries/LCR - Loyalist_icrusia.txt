@@ -34,16 +34,17 @@ set_popularities = {
 	communism = 20
 }
 
-declare_war_on = {
-		target = ICR
-		type = annex_everything
-}
-
 set_convoys = 5
 
 add_ideas = {
 	LCR_icrusian_civil_war
 	LCR_finest_military_in_all_of_ambulas
+}
+
+
+declare_war_on = {
+	target = ICR
+	type = annex_everything
 }
 
 create_country_leader = {

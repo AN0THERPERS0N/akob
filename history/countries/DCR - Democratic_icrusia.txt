@@ -33,21 +33,22 @@ set_popularities = {
 	communism = 20
 }
 
-declare_war_on = {
-		target = ICR
-		type = annex_everything
-}
-declare_war_on = {
-		target = LCR
-		type = annex_everything
-}	
-
 set_convoys = 5
 
 add_ideas = {
 	DCR_icrusian_civil_war
 	DCR_finest_military_in_all_of_ambulas
+	extensive_conscription
 }
+
+declare_war_on = {
+	target = ICR
+	type = annex_everything
+}
+declare_war_on = {
+	target = LCR
+	type = annex_everything
+}	
 
 create_country_leader = {
 	name = "Vitas (Vitallion’ir)"
@@ -56,7 +57,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#
+		warmonger
 	}
 }
 
@@ -161,7 +162,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Alneas Orthros"
+	name = "Alneas Elea Eisner"
 	picture = "Portrait_Germany_Wilhelm_Marschall.dds"
 	traits = {
 		war_hero

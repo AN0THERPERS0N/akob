@@ -11,6 +11,10 @@ set_technology = {
 	akob_basic_artillery = 1
 }
 
+set_rule = {
+	can_decline_call_to_war = yes
+}
+
 ICR = {
 	if = {
 		limit = {
@@ -47,7 +51,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		icrusian_non_interference
 	}
 }
 

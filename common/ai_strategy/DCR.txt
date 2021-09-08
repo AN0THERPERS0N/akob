@@ -1,0 +1,63 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+DCR_dont_waste_troops_on_AGR_THB = {
+	allowed = { 
+		original_tag = DCR 
+	}
+	enable = {
+		tag = DCR
+	}
+	abort = {
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "ICR"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "LCR"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = ICR				
+		value = 300				
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = LCR				
+		value = 100				
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = ARS				
+		value = 10				
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = THB				
+		value = -100				
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = AGR				
+		value = -100				
+	}
+}

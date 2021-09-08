@@ -1,4 +1,4 @@
-#on_actions = {
+on_actions = {
 #	on_daily_DCR = { 
 #		effect = {
 #			if = {
@@ -111,19 +111,33 @@
 #		}
 #	}
 #
-#	on_civil_war_end = { 
-#		effect = {
-#			if = {
-#				limit = {
-#					TAG = ICR
-#					TAG = LCR
-#					TAG = DCR
-#				}
-#				set_country_flag = ICR_civil_war_end
-#				set_country_flag = LCR_civil_war_end
-#			}
-#		}
-#	}
-#
-#}
-#
+	on_annex = { 
+		effect = {
+			if = {
+				limit = {
+					country_exists = DCR
+					NOT = { country_exists = ICR }
+					NOT = { country_exists = LCR }
+				}
+				DCR = { set_country_flag = DCR_civil_war_end }
+			}
+			else_if = {
+				limit = {
+					country_exists = LCR
+					NOT = { country_exists = ICR }
+					NOT = { country_exists = DCR }
+				}
+				LCR = { set_country_flag = LCR_civil_war_end }
+			}
+			else_if = {
+				limit = {
+					country_exists = ICR
+					NOT = { country_exists = DCR }
+					NOT = { country_exists = LCR }
+				}
+				ICR = { set_country_flag = ICR_civil_war_end }
+			}
+		}
+	}
+
+}

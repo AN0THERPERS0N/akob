@@ -1,0 +1,33 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+ICR_dont_waste_troops_on_AGR_THB = {
+	allowed = { 
+		original_tag = ICR 
+	}
+	enable = {
+		tag = ICR
+	}
+	abort = {
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "AGR"
+		value = 200
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "THB"
+		value = 200
+	}
+}
