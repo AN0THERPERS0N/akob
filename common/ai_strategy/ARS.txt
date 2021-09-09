@@ -1,0 +1,76 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+ARS_die_icrusia_die = {
+	allowed = { 
+		original_tag = ARS 
+	}
+	enable = {
+		tag = ARS
+	}
+	abort = {
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "ICR"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "LCR"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "DCR"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = declare_war
+		id = "ICR"
+		value = 5000
+	}
+
+	ai_strategy = {
+		type = declare_war
+		id = "LCR"
+		value = 5000
+	}
+
+	ai_strategy = {
+		type = declare_war
+		id = "DCR"
+		value = 5000
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "ICR"
+		value = 500
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "LCR"
+		value = 500
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "DCR"
+		value = 500
+	}
+}

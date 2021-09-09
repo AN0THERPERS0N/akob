@@ -16,14 +16,14 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = -0.75
-				army_defence_factor = -0.75
-				army_speed_factor = -0.5
-				army_morale_factor = -0.75
-				army_org_regain = -0.5
-				breakthrough_factor =-0.9
-				experience_gain_army_factor = -0.2
-				out_of_supply_factor = -0.2
+				army_attack_factor = -1.25
+				army_defence_factor = -1.25
+				army_speed_factor = -0.1
+				army_morale_factor = -1
+				army_org_regain = -0.75
+				breakthrough_factor =-1.5
+				experience_gain_army_factor = -0.5
+				out_of_supply_factor = -0.5
 			}
 
 			cancel = {
@@ -1075,12 +1075,14 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = -0.4
-				army_defence_factor = -0.3
-				army_speed_factor = -0.25
-				army_morale_factor = -0.3
-				army_org_regain = -0.1
-				breakthrough_factor =-0.5
+				army_attack_factor = -0.75
+				army_defence_factor = -0.75
+				army_speed_factor = -0.5
+				army_morale_factor = -0.75
+				army_org_regain = -0.5
+				breakthrough_factor =-0.9
+				experience_gain_army_factor = -0.2
+				out_of_supply_factor = -0.2
 			}
 
 			cancel = {
@@ -1108,12 +1110,12 @@ ideas = {
 			modifier = {
 				army_attack_factor = 0.2
 				army_defence_factor = 0.2
-				army_morale_factor = 0.3
-				army_org_regain = 0.5
-				breakthrough_factor = 0.5
+				army_morale_factor = 0.15
+				army_org_regain = 0.1
+				breakthrough_factor = 0.1
 
-				army_infantry_attack_factor = 0.5
-				army_infantry_defence_factor = 0.5
+				army_infantry_attack_factor = 0.25
+				army_infantry_defence_factor = 0.25
 			}
 
 			cancel = {
@@ -1141,12 +1143,12 @@ ideas = {
 			modifier = {
 				army_attack_factor = 0.2
 				army_defence_factor = 0.2
-				army_morale_factor = 0.3
-				army_org_regain = 0.5
-				breakthrough_factor = 0.5
+				army_morale_factor = 0.15
+				army_org_regain = 0.1
+				breakthrough_factor = 0.1
 
-				army_artillery_attack_factor = 1
-				army_artillery_defence_factor = 1.2
+				army_artillery_attack_factor = 0.25
+				army_artillery_defence_factor = 0.25
 			}
 
 			cancel = {
@@ -1172,13 +1174,12 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.5
-				army_defence_factor = 0.1
-				army_org_regain = 0.2
-				breakthrough_factor = 1
+				army_attack_factor = 0.4
+				army_org_regain = 0.1
+				breakthrough_factor = 0.3
 
-				army_armor_attack_factor = 1
-				army_armor_defence_factor = 1.2
+				army_armor_attack_factor = 0.25
+				army_armor_defence_factor = 0.25
 			}
 
 			cancel = {

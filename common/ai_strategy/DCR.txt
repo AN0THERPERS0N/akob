@@ -18,35 +18,26 @@ DCR_dont_waste_troops_on_AGR_THB = {
 		tag = DCR
 	}
 	abort = {
-	}
-
-	ai_strategy = {
-		type = conquer
-		id = "ICR"
-		value = 1000
-	}
-
-	ai_strategy = {
-		type = conquer
-		id = "LCR"
-		value = 1000
+		DCR = { 
+			has_country_flag = DCR_civil_war_end
+		}
 	}
 
 	ai_strategy = {
 		type = front_unit_request
 		tag = ICR				
-		value = 300				
+		value = 1000				
 	}
 	ai_strategy = {
 		type = front_unit_request
 		tag = LCR				
-		value = 100				
+		value = 500				
 	}
 
 	ai_strategy = {
 		type = front_unit_request
 		tag = ARS				
-		value = 10				
+		value = 200			
 	}
 
 	ai_strategy = {
@@ -59,5 +50,97 @@ DCR_dont_waste_troops_on_AGR_THB = {
 		type = front_unit_request
 		tag = AGR				
 		value = -100				
+	}
+}
+
+DCR_pls_attack_ICR = {
+	allowed = { 
+		original_tag = DCR 
+	}
+	enable = {
+		tag = DCR
+	}
+	abort = {
+		DCR = { 
+			has_country_flag = DCR_civil_war_end
+		}
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "ICR"
+		value = 2000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "LCR"
+		value = 2000
+	}
+
+	ai_strategy = {
+ 		type = front_control
+
+		tag = ICR 
+		
+		ratio = 0.5
+
+		priority = 2000
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+		manual_attack = yes
+	}
+}
+
+DCR_bully_weak_airestonia = {
+	allowed = { 
+		original_tag = DCR 
+	}
+	enable = {
+		tag = DCR
+		DCR = { 
+			has_country_flag = DCR_civil_war_end
+		}
+	}
+	abort = {
+		ARS = { 
+			has_country_flag = ARS_first_icrusia_war_end
+		}
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "ARS"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "ARS"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = "ARS"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = consider_weak
+		id = "ARS"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = ignore_army_incompetence
+		value = 500
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = ARS				
+		value = 1000			
 	}
 }

@@ -1,0 +1,142 @@
+﻿###########################
+# Democratic Icrusia Events
+###########################
+
+add_namespace = dcr
+
+# dukha
+country_event = {
+	id = dcr.end_civil_war
+	title = dcr.end_civil_war.t
+	desc = dcr.end_civil_war.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+		DCR = { add_manpower = 300000 }
+		add_offsite_building = { type = arms_factory level = 2 }
+		add_offsite_building = { type = industrial_complex level = 3 }
+		add_political_power = 100
+		hidden_effect = {
+			DCR = {
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+					set_autonomy = {
+						target = AGR
+						autonomous_state = autonomy_integrated_puppet
+					}
+					set_autonomy = {
+						target = THB
+						autonomous_state = autonomy_integrated_puppet
+					}
+					else = {
+						puppet = AGR
+						puppet = THB
+					}
+				}
+			}
+			AGR = {
+				set_popularities = {
+					communism = 98
+					fascism = 2
+				}
+				
+				set_politics = {
+					ruling_party = fascism
+					last_election = "1710.3.5"
+					election_frequency = 48
+					elections_allowed = no
+				}
+			}
+			THB = {
+				set_popularities = {
+					communism = 98
+					fascism = 2
+				}
+				
+				set_politics = {
+					ruling_party = fascism
+					last_election = "1710.3.5"
+					election_frequency = 48
+					elections_allowed = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = dcr.end_civil_war.a
+		DCR = { add_manpower = 1500000 }
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = dcr.end_civil_war.b
+		add_offsite_building = { type = arms_factory level = 5 }
+		add_offsite_building = { type = industrial_complex level = 7 }
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = {
+		name = dcr.end_civil_war.c
+		add_political_power = 1500
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = dcr.1
+	title = dcr.1.t
+	desc = dcr.1.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = dcr.1.a
+		DCR = { 
+			add_manpower = 800000 
+			add_political_power = 200
+		}
+		ARS = { 
+			add_manpower = -800000
+			add_political_power = -200 
+			white_peace = {
+				tag = DCR
+				message = fine
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = {
+		name = dcr.1.b
+		DCR = {
+			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
+		ARS = {
+			white_peace = {
+				tag = DCR
+				message = fine
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}

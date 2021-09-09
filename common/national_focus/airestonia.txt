@@ -4635,7 +4635,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_fire_and_brimstone"
-			
+			swap_ideas = {
+				add_idea = ARS_fire_and_brimstone
+				remove_idea = ARS_military_reforms
+			}
 		}
 
 		ai_will_do = {
@@ -4823,7 +4826,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_a_magic_revolution"
-			
+			swap_ideas = {
+				add_idea = ARS_mage_orientated_army
+				remove_idea = ARS_military_reforms
+			}
 		}
 
 		ai_will_do = {
@@ -4952,8 +4958,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_a_professional_army"
 			swap_ideas = {
-				add_idea = ARS_military_reforms
-				remove_idea = ARS_outdated_military
+				add_idea = ARS_professional_army
+				remove_idea = ARS_military_reforms
 			}
 		}
 

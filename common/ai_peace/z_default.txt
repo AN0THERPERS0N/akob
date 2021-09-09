@@ -33,6 +33,21 @@ default_peace = {
 			}
 		}
 		modifier = {
+			factor = 1000
+			FROM = {
+				OR = {
+					tag = DCR
+					tag = ICR
+					tag = LCR
+				}
+			}
+			OR = {
+				tag = ICR
+				tag = DCR
+				tag = LCR
+			}
+		}
+		modifier = {
 			factor = 0
 			is_subject = yes
 		}
@@ -46,6 +61,21 @@ default_peace = {
 	# ROOT = Taker, FROM = Giver
 	puppet = {
 		factor = 600 #200
+		modifier = {
+			factor = 0
+			FROM = {
+				OR = {
+					tag = DCR
+					tag = ICR
+					tag = LCR
+				}
+			}
+			OR = {
+				tag = ICR
+				tag = DCR
+				tag = LCR
+			}
+		}
 		modifier = {
 			factor = 0.1
 			has_annex_war_goal = FROM

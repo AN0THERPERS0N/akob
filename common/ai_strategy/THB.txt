@@ -1,0 +1,65 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+THB_dont_join_icrusian_civil_war = {
+	allowed = { 
+		original_tag = THB 
+	}
+	enable = {
+		tag = THB
+	}
+	abort = {
+	}
+
+	ai_strategy = {
+		type = dont_join_wars_with
+		id = "ICR"
+		target_country = "DCR"
+		value = 5000
+	}
+	ai_strategy = {
+		type = dont_join_wars_with
+		id = "ICR"
+		target_country = "LCR"
+		value = 5000
+	}
+
+	ai_strategy = {
+		type = diplo_action_desire
+		id = "ICR"
+		target = join_allies
+		value = -2000
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = "AGR"
+		target = join_allies
+		value = -2000
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = "AGR"
+		target = call_allies
+		value = -2000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "ICR"
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "ICR"
+		value = 500
+	}
+}

@@ -120,6 +120,12 @@ on_actions = {
 					NOT = { country_exists = LCR }
 				}
 				DCR = { set_country_flag = DCR_civil_war_end }
+				country_event = {
+					id = dcr.end_civil_war
+					days = 1
+					random = 1
+					random_days = 0
+				}
 			}
 			else_if = {
 				limit = {
@@ -138,6 +144,93 @@ on_actions = {
 				ICR = { set_country_flag = ICR_civil_war_end }
 			}
 		}
+	}
+
+	on_monthly_ARS = { 
+		effect = {
+			if = {
+				limit = {
+					ARS = {
+						surrender_progress > 0.2
+						NOT = { has_country_flag = ARS_first_icrusia_war_end }
+					}
+					ICR = {
+						has_war_with = ARS
+						any_war_score > DCR.any_war_score
+						any_war_score > LCR.any_war_score
+					}
+				}
+				white_peace = {
+					tag = ICR
+					message = fine
+				}
+				white_peace = {
+					tag = DCR
+					message = fine
+				}
+				white_peace = {
+					tag = LCR
+					message = fine
+				}
+				set_country_flag = ARS_first_icrusia_war_end
+			} 
+			else_if = {
+				limit = {
+					ARS = {
+						surrender_progress > 0.2
+						NOT = { has_country_flag = ARS_first_icrusia_war_end }
+					}
+					DCR = {
+						has_war_with = ARS
+						any_war_score > ICR.any_war_score
+						any_war_score > LCR.any_war_score
+					}
+				}
+				DCR = {
+					country_event = {
+						id = dcr.1
+						days = 1
+						random = 1
+						random_days = 0
+					}
+				}
+				white_peace = {
+					tag = ICR
+					message = fine
+				}
+				white_peace = {
+					tag = LCR
+					message = fine
+				}
+				set_country_flag = ARS_first_icrusia_war_end
+			} 
+			else_if = {
+				limit = {
+					ARS = {
+						surrender_progress > 0.2
+						NOT = { has_country_flag = ARS_first_icrusia_war_end }
+					}
+					LCR = {
+						has_war_with = ARS
+						any_war_score > ICR.any_war_score
+						any_war_score > DCR.any_war_score
+					}
+				}
+				white_peace = {
+					tag = LCR
+					message = fine
+				}
+				white_peace = {
+					tag = ICR
+					message = fine
+				}
+				white_peace = {
+					tag = DCR
+					message = fine
+				}
+				set_country_flag = ARS_first_icrusia_war_end
+			} 
+		} 
 	}
 
 }

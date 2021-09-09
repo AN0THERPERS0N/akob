@@ -1,0 +1,15 @@
+airestonia_historical = {
+	name = "Airestonian Empire"
+	desc = "ooga"
+
+	enable = {
+		original_tag = ARS
+		is_historical_focus_on = yes
+	}
+	abort = {
+	}
+
+	ai_national_focuses = {
+		ARS_war_with_icrusia
+	}
+}
