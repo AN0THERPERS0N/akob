@@ -79,7 +79,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -91,7 +91,7 @@ focus_tree = {
 				ideology = fascism
 				popularity = 0.10
 			}
-			add_manpower = 50000
+			add_manpower = 100000
 		}
 
 		ai_will_do = {
@@ -117,7 +117,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -150,7 +150,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -184,7 +184,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -218,7 +218,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -254,7 +254,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -262,8 +262,46 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_increase_city_defence"
-			#forts
-			
+			114 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 103
+						id = 1082
+						id = 722
+						id = 71
+						id = 1092
+						id = 48
+						id = 1053
+					}
+				}
+			}
+
+			105 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 1832
+						id = 165
+						id = 154
+					}
+				}
+			}
+
+			108 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 1104
+					}
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -286,7 +324,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -294,7 +332,68 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_forts_forts_everywhere"
-			#forts
+			175 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 451
+						id = 1734
+						id = 2253
+					}
+				}
+			}
+
+			169 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 609
+					}
+				}
+			}
+
+			211 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 782
+						id = 1376
+					}
+				}
+			}
+
+			198 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 674
+						id = 1732
+						id = 1725
+					}
+				}
+			}
+
+			37 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 1662
+						id = 378
+						id = 226
+						id = 1198
+					}
+				}
+			}
 			
 		}
 
@@ -319,7 +418,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -327,8 +426,30 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_protect_cleresdes_at_all_costs"
-			#forts
-			add_manpower = 10000
+			105 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 1832
+						id = 165
+						id = 154
+					}
+				}
+			}
+
+			108 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 1104
+					}
+				}
+			}
+			add_manpower = 50000
 		}
 
 		ai_will_do = {
@@ -352,7 +473,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -360,7 +481,22 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_all_men_to_airestonia_city"
-			#forts
+			114 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 103
+						id = 1082
+						id = 722
+						id = 71
+						id = 1092
+						id = 48
+						id = 1053
+					}
+				}
+			}
 			add_political_power = 100
 		}
 
@@ -384,7 +520,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -392,7 +528,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_defend_the_borders"
-			
+			114 = {
+				create_unit = {
+					division = "division_template = \"Airestonian Royal Brigade\"	start_experience_factor = 0	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 3
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -415,7 +558,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -423,7 +566,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_rally_the_border_guards"
-			#units
+			114 = {
+				create_unit = {
+					division = "division_template = \"Airestonian Royal Brigade\"	start_experience_factor = 0	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 3
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -446,7 +596,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -479,7 +629,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -487,7 +637,109 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_fortress_airestonia"
-			#forts
+			114 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 103
+						id = 1082
+						id = 722
+						id = 71
+						id = 1092
+						id = 48
+						id = 1053
+					}
+				}
+			}
+
+			105 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 1832
+						id = 165
+						id = 154
+					}
+				}
+			}
+
+			108 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 1104
+					}
+				}
+			}
+
+			175 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 451
+						id = 1734
+						id = 2253
+					}
+				}
+			}
+
+			169 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 609
+					}
+				}
+			}
+
+			211 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 782
+						id = 1376
+					}
+				}
+			}
+
+			198 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 674
+						id = 1732
+						id = 1725
+					}
+				}
+			}
+
+			37 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 1662
+						id = 378
+						id = 226
+						id = 1198
+					}
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -513,7 +765,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -544,7 +796,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -552,7 +804,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_increase_regional_levies"
-			add_manpower = 50000
+			add_manpower = 200000
 			add_political_power = -50
 		}
 
@@ -576,7 +828,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -584,7 +836,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_from_farmers_to_soldiers"
-			add_manpower = 50000
+			add_manpower = 200000
 			add_political_power = -50
 		}
 
@@ -608,7 +860,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -616,7 +868,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_every_mans_war"
-			add_manpower = 50000
+			add_manpower = 200000
 			add_political_power = -100
 		}
 
@@ -640,7 +892,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -673,7 +925,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -710,7 +962,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -745,7 +997,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -781,7 +1033,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -813,7 +1065,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -848,7 +1100,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -856,7 +1108,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARS_state-wide_rations"
-			add_political_power = 200
+			add_political_power = 400
 			swap_ideas = {
 				add_idea = ARS_communist_sentiments3
 				remove_idea = ARS_communist_sentiments2
@@ -884,7 +1136,7 @@ focus_tree = {
 
 		}
 
-		cost = 10
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -910,7 +1162,7 @@ focus_tree = {
 		prerequisite = { focus = ARS_the_illesas_proclamation OR = ARS_fortress_airestonia }
 		mutually_exclusive = {focus = ARS_swallow_our_pride }
 		available = {
-
+			always = no
 		}
 
 		bypass = {
@@ -2981,7 +3233,7 @@ focus_tree = {
 		prerequisite = { focus = ARS_the_illesas_proclamation OR = ARS_fortress_airestonia }
 		mutually_exclusive = {focus = ARS_our_place_in_the_sun }
 		available = {
-
+			always = no
 		}
 
 		bypass = {

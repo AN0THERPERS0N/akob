@@ -120,6 +120,7 @@ on_actions = {
 					NOT = { country_exists = LCR }
 				}
 				DCR = { set_country_flag = DCR_civil_war_end }
+				complete_national_focus = DCR_end_of_the_civil_war
 				country_event = {
 					id = dcr.end_civil_war
 					days = 1
@@ -134,6 +135,13 @@ on_actions = {
 					NOT = { country_exists = DCR }
 				}
 				LCR = { set_country_flag = LCR_civil_war_end }
+				complete_national_focus = LCR_peace_at_last
+				country_event = {
+					id = lcr.end_civil_war
+					days = 1
+					random = 1
+					random_days = 0
+				}
 			}
 			else_if = {
 				limit = {
@@ -142,6 +150,13 @@ on_actions = {
 					NOT = { country_exists = LCR }
 				}
 				ICR = { set_country_flag = ICR_civil_war_end }
+				complete_national_focus = ICR_end_of_the_civil_war
+				country_event = {
+					id = icr.end_civil_war
+					days = 1
+					random = 1
+					random_days = 0
+				}
 			}
 		}
 	}
@@ -160,9 +175,13 @@ on_actions = {
 						any_war_score > LCR.any_war_score
 					}
 				}
-				white_peace = {
-					tag = ICR
-					message = fine
+				ICR = {
+					country_event = {
+						id = icr.1
+						days = 1
+						random = 1
+						random_days = 0
+					}
 				}
 				white_peace = {
 					tag = DCR
@@ -216,9 +235,13 @@ on_actions = {
 						any_war_score > DCR.any_war_score
 					}
 				}
-				white_peace = {
-					tag = LCR
-					message = fine
+				LCR = {
+					country_event = {
+						id = lcr.1
+						days = 1
+						random = 1
+						random_days = 0
+					}
 				}
 				white_peace = {
 					tag = ICR

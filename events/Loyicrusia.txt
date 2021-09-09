@@ -2,23 +2,23 @@
 # Democratic Icrusia Events
 ###########################
 
-add_namespace = dcr
+add_namespace = lcr
 
 # dukha
 country_event = {
-	id = dcr.end_civil_war
-	title = dcr.end_civil_war.t
-	desc = dcr.end_civil_war.d
+	id = lcr.end_civil_war
+	title = lcr.end_civil_war.t
+	desc = lcr.end_civil_war.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
 	
 	immediate = {
-		DCR = { add_manpower = 300000 }
+		LCR = { add_manpower = 300000 }
 		add_offsite_building = { type = arms_factory level = 2 }
 		add_offsite_building = { type = industrial_complex level = 3 }
 		add_political_power = 100
 		hidden_effect = {
-			DCR = {
+			LCR = {
 				if = {
 					limit = {
 						has_dlc = "Together for Victory"
@@ -67,15 +67,15 @@ country_event = {
 	}
 	
 	option = {
-		name = dcr.end_civil_war.a
-		DCR = { add_manpower = 1500000 }
+		name = lcr.end_civil_war.a
+		LCR = { add_manpower = 1500000 }
 		ai_chance = {
 			factor = 20
 		}
 	}
 
 	option = {
-		name = dcr.end_civil_war.b
+		name = lcr.end_civil_war.b
 		add_political_power = 1500
 		ai_chance = {
 			factor = 10
@@ -84,9 +84,9 @@ country_event = {
 }
 
 country_event = {
-	id = dcr.1
-	title = dcr.1.t
-	desc = dcr.1.d
+	id = lcr.1
+	title = lcr.1.t
+	desc = lcr.1.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
 	timeout_days = 7
@@ -96,8 +96,8 @@ country_event = {
 	}
 	
 	option = {
-		name = dcr.1.a
-		DCR = { 
+		name = lcr.1.a
+		LCR = { 
 			add_manpower = 800000 
 			add_political_power = 200
 		}
@@ -115,8 +115,8 @@ country_event = {
 	}
 
 	option = {
-		name = dcr.1.b
-		DCR = {
+		name = lcr.1.b
+		LCR = {
 			add_offsite_building = { type = arms_factory level = 3 }
 			add_offsite_building = { type = industrial_complex level = 3 }
 		}
@@ -133,9 +133,9 @@ country_event = {
 }
 
 country_event = { #icrusia at war
-	id = dcr.2
-	title = dcr.2.t
-	desc = dcr.2.d
+	id = lcr.2
+	title = lcr.2.t
+	desc = lcr.2.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
 	timeout_days = 7
@@ -145,17 +145,17 @@ country_event = { #icrusia at war
 	}
 	
 	option = {
-		name = dcr.2.a
+		name = lcr.2.a
 		ai_chance = {
 			factor = 50
 		}
 	}
 }
 
-country_event = { #anti rowe speech
-	id = dcr.3
-	title = dcr.3.t
-	desc = dcr.3.d
+country_event = { #pro rowe speech
+	id = lcr.3
+	title = lcr.3.t
+	desc = lcr.3.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
 	timeout_days = 7
@@ -165,25 +165,26 @@ country_event = { #anti rowe speech
 	}
 	
 	option = {
-		name = dcr.3.a
+		name = lcr.3.a
 		104 = {
 			create_unit = {
-				division = "division_template = \"Icrusian Republican Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+				division = "division_template = \"Icrusian Loyalist Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
 				owner = ROOT
 				allow_spawning_on_enemy_provs = yes
 				count = 1
 			}
 		}
+		add_war_support = 30
 		ai_chance = {
 			factor = 50
 		}
 	}
 }
 
-country_event = { #anti rowe speech 2
-	id = dcr.4
-	title = dcr.4.t
-	desc = dcr.4.d
+country_event = { #pro rowe speech 2
+	id = lcr.4
+	title = lcr.4.t
+	desc = lcr.4.d
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
 	timeout_days = 7
@@ -193,45 +194,16 @@ country_event = { #anti rowe speech 2
 	}
 	
 	option = {
-		name = dcr.4.a
+		name = lcr.4.a
 		104 = {
 			create_unit = {
-				division = "division_template = \"Icrusian Republican Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+				division = "division_template = \"Icrusian Loyalist Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
 				owner = ROOT
 				allow_spawning_on_enemy_provs = yes
 				count = 1
 			}
 		}
-		ai_chance = {
-			factor = 50
-		}
-	}
-}
-
-country_event = { #anti rowe speech 2
-	id = dcr.5
-	title = dcr.5.t
-	desc = dcr.5.d
-	picture = GFX_report_event_south_africa_patrol
-	is_triggered_only = yes
-	timeout_days = 7
-
-	immediate = {
-
-	}
-	
-	option = {
-		name = dcr.5.a
-		104 = {
-			create_unit = {
-				division = "division_template = \"Icrusian Republican Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
-				owner = ROOT
-				allow_spawning_on_enemy_provs = yes
-				count = 1
-			}
-		}
-		add_war_support = 20
-		ICR = { add_war_support = -20 }
+		add_war_support = 30
 		ai_chance = {
 			factor = 50
 		}

@@ -31,16 +31,22 @@ icon = GFX_goal_war_with_icrusia
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_icrusia_at_war"
-	#event
+	country_event = {
+		id = lcr.2
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -56,10 +62,12 @@ prerequisite = { focus = LCR_icrusia_at_war }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -82,10 +90,12 @@ prerequisite = { focus = LCR_icrusia_at_war }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -108,16 +118,24 @@ prerequisite = { focus = LCR_icrusia_at_war }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_instant_industrialisation"
-	#buildings
+	66 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -133,16 +151,31 @@ prerequisite = { focus = LCR_call_a_state_of_emergency }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_all_hands_on_deck"
-	#buildings
+	22 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+		}
+	}
+	49 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -158,10 +191,12 @@ prerequisite = { focus = LCR_call_a_state_of_emergency }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -183,16 +218,42 @@ prerequisite = { focus = LCR_play_the_long_game }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_fortify_key_positions"
-	#buildings
+	49 = {
+		add_building_construction = {
+			type = bunker
+			level = 1
+			instant_build = yes
+			province = {
+				id = 892
+				id = 170
+				id = 244
+			}
+		}
+	}
+	46 = {
+		add_building_construction = {
+			type = bunker
+			level = 1
+			instant_build = yes
+			province = {
+				id = 1945
+				id = 940
+				id = 2041
+				id = 256
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -208,10 +269,12 @@ prerequisite = { focus = LCR_play_the_long_game }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -233,10 +296,12 @@ prerequisite = { focus = LCR_play_the_long_game }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -259,16 +324,24 @@ prerequisite = { focus = LCR_instant_industrialisation }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_reconvert_abandoned_factories"
-	#buildings
+	46 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -284,16 +357,24 @@ prerequisite = { focus = LCR_instant_industrialisation }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_emergency_civilian_factory_seizures"
-	#buildings
+	49 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -309,16 +390,18 @@ prerequisite = { focus = LCR_all_hands_on_deck }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_set_the_economy_to_ovedrive"
-	add_political_power = 100
+	add_political_power = 200
 }
 ai_will_do = {
 }
@@ -334,16 +417,18 @@ prerequisite = { focus = LCR_every_man_a_soldier }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_mass_recruitment_drive"
-	add_manpower = 100000
+	add_manpower = 200000
 	add_political_power = 100
 }
 ai_will_do = {
@@ -360,16 +445,70 @@ prerequisite = { focus = LCR_fortify_key_positions }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_control_strategic_roads"
-	#buildings
+	22 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	28 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	49 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	46 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	49 = {
+		add_building_construction = {
+			type = bunker
+			level = 1
+			instant_build = yes
+			province = {
+				id = 892
+				id = 170
+				id = 244
+			}
+		}
+	}
+	46 = {
+		add_building_construction = {
+			type = bunker
+			level = 1
+			instant_build = yes
+			province = {
+				id = 1945
+				id = 940
+				id = 2041
+				id = 256
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -385,10 +524,13 @@ prerequisite = { focus = LCR_reach_out_to_airestonia }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
+	always = no
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -411,10 +553,12 @@ prerequisite = { focus = LCR_grant_emergency_powers }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -438,17 +582,29 @@ prerequisite = { focus = LCR_reconvert_abandoned_factories }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_divert_resources_to_factories"
-	#buildings
-	#resources
+	22 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
+	add_resource = {
+		type = steel
+		amount = 20
+		state = 56
+	}
 }
 ai_will_do = {
 }
@@ -464,10 +620,12 @@ prerequisite = { focus = LCR_set_the_economy_to_ovedrive }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -494,16 +652,28 @@ prerequisite = { focus = LCR_mass_recruitment_drive }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_large_scale_military_promotions"
-	#general
+	random_unit_leader = {
+		add_attack = 1
+		add_planning = 1
+	}
+	random_unit_leader = {
+		add_defense = 1
+		add_logistics = 1
+	}
+	random_unit_leader = {
+		promote_leader = yes
+	}
 }
 ai_will_do = {
 }
@@ -519,16 +689,56 @@ prerequisite = { focus = LCR_control_strategic_roads }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_secure_our_supply_chain"
-	#buildings
+	49 = {
+		add_building_construction = {
+			type = bunker
+			level = 2
+			instant_build = yes
+			province = {
+				id = 892
+				id = 170
+				id = 244
+			}
+		}
+	}
+	46 = {
+		add_building_construction = {
+			type = bunker
+			level = 2
+			instant_build = yes
+			province = {
+				id = 1945
+				id = 940
+				id = 2041
+				id = 256
+			}
+		}
+	}
+	49 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	46 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -544,10 +754,12 @@ prerequisite = { focus = LCR_diplomats_to_airestonia_city }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -570,10 +782,12 @@ prerequisite = { focus = LCR_diplomats_to_airestonia_city }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -595,16 +809,18 @@ prerequisite = { focus = LCR_veil_of_secrecy }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_relocate_the_national_treasury"
-	add_political_power = 100
+	add_political_power = 400
 }
 ai_will_do = {
 }
@@ -620,16 +836,24 @@ prerequisite = { focus = LCR_divert_resources_to_factories }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_increased_factory_equipment"
-	#buildings
+	28 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -645,17 +869,24 @@ prerequisite = { focus = LCR_women_in_the_workforce }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_child_labourers"
-	#buildings
-	#research
+	28 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -671,10 +902,12 @@ prerequisite = { focus = LCR_large_scale_military_promotions }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -696,16 +929,42 @@ prerequisite = { focus = LCR_secure_our_supply_chain }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_protect_our_cities"
-	#buildings
+	49 = {
+		add_building_construction = {
+			type = bunker
+			level = 3
+			instant_build = yes
+			province = {
+				id = 892
+				id = 170
+				id = 244
+			}
+		}
+	}
+	46 = {
+		add_building_construction = {
+			type = bunker
+			level = 3
+			instant_build = yes
+			province = {
+				id = 1945
+				id = 940
+				id = 2041
+				id = 256
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -721,10 +980,12 @@ prerequisite = { focus = LCR_bribe_officials }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -737,7 +998,7 @@ ai_will_do = {
 }
 
 focus = {
-id = LCR_secret_talks
+id = LCR_mask_our_activities
 x = 14
 y = 6
 icon = "GFX_focus_eng_concessions_to_the_trade_unions"
@@ -746,16 +1007,22 @@ prerequisite = { focus = LCR_switch_sides }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_secret_talks"
-	#event
+	log = "[GetDateText]: [Root.GetName]: Focus LCR_mask_our_activities"
+	country_event = {
+		id = lcr.4
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -771,17 +1038,22 @@ prerequisite = { focus = LCR_relocate_the_national_treasury }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_mass_delusion_campaign"
-	add_war_support = 30
-	#event
+	country_event = {
+		id = lcr.3
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -797,16 +1069,24 @@ prerequisite = { focus = LCR_increased_factory_equipment }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_new_industrial_projects"
-	#buildings
+	56 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -822,10 +1102,12 @@ prerequisite = { focus = LCR_provide_intel }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -846,21 +1128,24 @@ x = 14
 y = 7
 icon = "GFX_goal_generic_military_deal"
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_secret_talks }
+prerequisite = { focus = LCR_mask_our_activities }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
+	has_completed_focus = LCR_call_for_a_truce
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 1
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus LCR_cement_the_pact"
-	#equipment
-	#units
+	ARS = { create_faction = "Unholy Alliance" }
+	ARS = { add_to_faction = LCR }
 }
 ai_will_do = {
 }
@@ -878,6 +1163,7 @@ prerequisite = { focus = LCR_new_industrial_projects }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	always = no
 }
 bypass = {
 }

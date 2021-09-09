@@ -1,0 +1,27 @@
+icrusian_historical = {
+	name = "Icrusian Empire"
+	desc = "ooga"
+
+	enable = {
+		original_tag = ICR
+		is_historical_focus_on = yes
+	}
+	abort = {
+	}
+
+	ai_national_focuses = {
+		ICR_icrusia_at_war
+		ICR_protect_the_children_of_god
+		ICR_impromptu_battle_tactics
+		ICR_decisive_battle
+		ICR_probe_them_into_an_ambush
+		ICR_expose_their_flanks
+		ICR_break_their_supplies
+		ICR_break_their_spine
+		ICR_morale_is_everything
+		ICR_redmond_speech
+		ICR_organise_instant_militias
+		ICR_recruit_youth_sharpshooters
+		ICR_fight_for_the_king
+	}
+}

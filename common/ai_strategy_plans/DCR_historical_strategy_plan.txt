@@ -1,0 +1,31 @@
+democratic_icrusia_historical = {
+	name = "Republic of Icrusia"
+	desc = "ooga"
+
+	enable = {
+		original_tag = DCR
+		is_historical_focus_on = yes
+	}
+	abort = {
+	}
+
+	ai_national_focuses = {
+		DCR_icrusia_at_war
+		DCR_quick_and_decisive
+		DCR_strength_of_the_soldier
+		DCR_recognise_potential_generals
+		DCR_gruelling_battle_determination
+		DCR_forceful_conscription
+		DCR_straight_to_a_war_economy
+		DCR_equip_the_whole_army
+		DCR_innovate_new_tactics
+		DCR_improvised_weapon_improvements
+		DCR_guns_and_smoke
+		DCR_force_of_arms
+		DCR_defeat_in_detail
+		DCR_nation_of_soldiers
+		DCR_expand_the_military_complex
+		DCR_massive_technological_progress
+		DCR_death_to_the_empire
+	}
+}

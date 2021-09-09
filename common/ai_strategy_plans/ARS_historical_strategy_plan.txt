@@ -11,5 +11,17 @@ airestonia_historical = {
 
 	ai_national_focuses = {
 		ARS_war_with_icrusia
+		ARS_rally_the_troops
+		ARS_pay_your_dues
+		ARS_increase_regional_levies
+		ARS_from_farmers_to_soldiers
+		ARS_every_mans_war
+		ARS_increase_grain_quotas
+		ARS_state_controlled_agriculture
+		ARS_tax_the_people
+		ARS_tax_the_peasants
+		ARS_remove_the_undesirables
+		ARS_state-wide_rations
+		ARS_the_illesas_proclamation
 	}
 }

@@ -31,16 +31,22 @@ icon = GFX_goal_war_with_icrusia
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 1
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_icrusia_at_war"
-	#event
+	country_event = {
+		id = icr.3
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -81,10 +87,12 @@ prerequisite = { focus = ICR_icrusia_at_war }
 #`allow_branch = { has_completed_focus = ICR_icrusia_at_war }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -264,10 +272,12 @@ prerequisite = { focus = ICR_protect_the_children_of_god }
 #`allow_branch = { has_completed_focus = ICR_protect_the_children_of_god }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -289,10 +299,12 @@ prerequisite = { focus = ICR_protect_the_children_of_god }
 #`allow_branch = { has_completed_focus = ICR_protect_the_children_of_god }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -488,10 +500,12 @@ prerequisite = { focus = ICR_impromptu_battle_tactics }
 #`allow_branch = { has_completed_focus = ICR_impromptu_battle_tactics }
 mutually_exclusive = {focus = ICR_decisive_battle }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 3
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -514,10 +528,12 @@ prerequisite = { focus = ICR_impromptu_battle_tactics }
 #`allow_branch = { has_completed_focus = ICR_impromptu_battle_tactics }
 mutually_exclusive = {focus = ICR_scorched_earth }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -540,16 +556,22 @@ prerequisite = { focus = ICR_morale_is_everything }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_redmond_speech"
-	#event
+	country_event = {
+		id = icr.2
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -868,10 +890,12 @@ prerequisite = { focus = ICR_scorched_earth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 3
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -898,10 +922,12 @@ prerequisite = { focus = ICR_scorched_earth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 3
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -915,7 +941,7 @@ completion_reward = {
 		add_manpower = -50000
 	}
 	ICR = {
-		add_manpower = -1000
+		add_manpower = -5000
 	}
 }
 ai_will_do = {
@@ -932,17 +958,32 @@ prerequisite = { focus = ICR_scorched_earth }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 3
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_move_the_grainaries"
 	add_political_power = -50
-	#buildings
+	36 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		}
+	}
+	36 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -958,17 +999,29 @@ prerequisite = { focus = ICR_decisive_battle }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 mutually_exclusive = {focus = ICR_engage_the_enemy_head_on }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_probe_them_into_an_ambush"
-	#buildings
-	#equipment
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 15000
+	}
+	36 = {
+		create_unit = {
+			division = "division_template = \"Icrusian Royal Brigade\"	start_experience_factor = 0	start_equipment_factor = 1"
+			owner = ROOT
+			allow_spawning_on_enemy_provs = yes
+			count = 2
+		}
+	}
 }
 ai_will_do = {
 }
@@ -984,16 +1037,29 @@ prerequisite = { focus = ICR_decisive_battle }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 mutually_exclusive = {focus = ICR_probe_them_into_an_ambush }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_engage_the_enemy_head_on"
-	#units
+	36 = {
+		create_unit = {
+			division = "division_template = \"Icrusian Royal Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+			owner = ROOT
+			allow_spawning_on_enemy_provs = yes
+			count = 5
+		}
+	}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 2500
+	}
 }
 ai_will_do = {
 }
@@ -1009,16 +1075,25 @@ prerequisite = { focus = ICR_redmond_speech }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_organise_instant_militias"
-	#units
+	36 = {
+		create_unit = {
+			division = "division_template = \"Icrusian Royal Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+			owner = ROOT
+			allow_spawning_on_enemy_provs = yes
+			count = 3
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1218,10 +1293,12 @@ prerequisite = { focus = ICR_move_the_grainaries }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 3
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1250,20 +1327,22 @@ prerequisite = { focus = ICR_move_the_grainaries }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 3
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_starve_our_enemies"
 	DCR = {
-		add_manpower = -50000
+		add_manpower = -100000
 	}
 	LCR = {
-		add_manpower = -50000
+		add_manpower = -100000
 	}
 	#event
 }
@@ -1281,10 +1360,12 @@ prerequisite = { focus = ICR_probe_them_into_an_ambush }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1292,6 +1373,10 @@ completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_expose_their_flanks"
 	add_ideas = ICR_thorns_of_the_empire
 	add_to_array = { ICR_civil_war_ideas = ICR_thorns_of_the_empire }
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 25000
+	}
 }
 ai_will_do = {
 }
@@ -1307,10 +1392,12 @@ prerequisite = { focus = ICR_probe_them_into_an_ambush }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1318,11 +1405,15 @@ completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_break_their_supplies"
 	DCR = {
 		add_political_power = -200
-		add_manpower = -50000
+		add_manpower = -10000
 	}
 	LCR = {
 		add_political_power = -200
-		add_manpower = -50000
+		add_manpower = -10000
+	}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 40000
 	}
 }
 ai_will_do = {
@@ -1339,10 +1430,12 @@ prerequisite = { focus = ICR_engage_the_enemy_head_on }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1351,6 +1444,10 @@ completion_reward = {
 	swap_ideas = {
 		add_idea = ICR_decisive_battle_policy2
 		remove_idea = ICR_decisive_battle_policy
+	}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 2500
 	}
 	add_to_array = { ICR_civil_war_ideas = ICR_decisive_battle_policy2 }
 	remove_from_array = { ICR_civil_war_ideas = ICR_decisive_battle_policy }
@@ -1369,16 +1466,37 @@ prerequisite = { focus = ICR_engage_the_enemy_head_on }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_route_the_enemy"
-	
+	DCR = {
+		add_political_power = -100
+		add_manpower = -20000
+	}
+	LCR = {
+		add_political_power = -100
+		add_manpower = -20000
+	}
+	36 = {
+		create_unit = {
+			division = "division_template = \"Icrusian Royal Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+			owner = ROOT
+			allow_spawning_on_enemy_provs = yes
+			count = 5
+		}
+	}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 3000
+	}
 }
 ai_will_do = {
 }
@@ -1394,10 +1512,12 @@ prerequisite = { focus = ICR_organise_instant_militias }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1690,10 +1810,12 @@ prerequisite = { focus = ICR_starve_our_enemies }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 3
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1727,10 +1849,12 @@ prerequisite = { focus = ICR_break_their_supplies OR = ICR_route_the_enemy }
 #`allow_branch = { has_completed_focus AND = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1773,10 +1897,12 @@ prerequisite = { focus = ICR_recruit_youth_sharpshooters }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	NOT = { has_country_flag = ICR_civil_war_end }
 }
 bypass = {
+	has_country_flag = ICR_civil_war_end
 }
-cost = 10
+cost = 2
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1980,6 +2106,7 @@ prerequisite = { focus = ICR_break_their_spine OR = ICR_war_of_attrition }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
+	always = no
 }
 bypass = {
 }
@@ -1989,8 +2116,6 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_end_of_the_civil_war"
-	#event
-	set_country_flag = ICR_civil_war_end
 }
 ai_will_do = {
 }

@@ -1,0 +1,140 @@
+﻿###########################
+# Democratic Icrusia Events
+###########################
+
+add_namespace = icr
+
+# dukha
+country_event = {
+	id = icr.end_civil_war
+	title = icr.end_civil_war.t
+	desc = icr.end_civil_war.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+		ICR = { add_manpower = 300000 }
+		add_offsite_building = { type = arms_factory level = 2 }
+		add_offsite_building = { type = industrial_complex level = 3 }
+		add_political_power = 100
+	}
+	
+	option = {
+		name = icr.end_civil_war.a
+		ICR = { add_manpower = 1500000 }
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = icr.end_civil_war.b
+		add_political_power = 1500
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = icr.1
+	title = icr.1.t
+	desc = icr.1.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.1.a
+		ICR = { 
+			add_manpower = 800000 
+			add_political_power = 200
+		}
+		ARS = { 
+			add_manpower = -800000
+			add_political_power = -200 
+			white_peace = {
+				tag = ICR
+				message = fine
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = {
+		name = icr.1.b
+		ICR = {
+			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
+		ARS = {
+			white_peace = {
+				tag = ICR
+				message = fine
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #redmond speech
+	id = icr.2
+	title = icr.2.t
+	desc = icr.2.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.2.a
+		ICR = { 
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 1000
+			}
+			36 = {
+				create_unit = {
+					division = "division_template = \"Icrusian Royal Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 2
+				}
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #icrusia at war
+	id = icr.3
+	title = icr.3.t
+	desc = icr.3.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.3.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
