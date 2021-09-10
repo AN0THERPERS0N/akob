@@ -11,6 +11,19 @@
 #
 #	}
 #}
+
+akob_debug = {
+	priority = 1000
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+
+	}
+}
+
 Casinos_of_Rshavesk = {
 	priority = 20
 	icon = generic_propaganda

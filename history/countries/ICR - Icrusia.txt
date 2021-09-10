@@ -41,6 +41,21 @@ add_ideas = {
 	ICR_fractured_nation
 	ICR_broken_economy
 	ICR_traitors_to_the_cause
+	extensive_conscription
+#	ICR_test
+}
+
+THB = {
+	add_opinion_modifier = {
+		target = ICR
+		modifier = hostile_status
+	}
+}
+AGR = {
+	add_opinion_modifier = {
+		target = ICR
+		modifier = hostile_status
+	}
 }
 
 create_country_leader = {

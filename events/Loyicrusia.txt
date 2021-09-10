@@ -13,6 +13,14 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		annex_country = {
+			target = DCR
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = ICR
+			transfer_troops = yes
+		}
 		LCR = { add_manpower = 300000 }
 		add_offsite_building = { type = arms_factory level = 2 }
 		add_offsite_building = { type = industrial_complex level = 3 }

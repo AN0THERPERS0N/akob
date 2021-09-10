@@ -39,6 +39,7 @@ set_convoys = 5
 add_ideas = {
 	LCR_icrusian_civil_war
 	LCR_finest_military_in_all_of_ambulas
+	extensive_conscription
 }
 
 

@@ -107,3 +107,22 @@ ICR_natural_wealth_of_central_ambulas = {
 	local_resources_factor = var:ICR.ICR_resource_increase
 	political_power_gain = var:ICR.ICR_resource_increase
 }
+
+#ARS
+
+ARS_overwhelming_loyalty = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+
+	production_factory_efficiency_gain_factor = var:ARS.ars_paranoia
+	production_factory_max_efficiency_factor = var:ARS.ars_paranoia 
+	production_factory_start_efficiency_factor = var:ARS.ars_paranoia 
+	production_lack_of_resource_penalty_factor = var:ARS.ars_paranoia
+	
+	industrial_capacity_factory = var:ARS.ars_paranoia
+	industry_repair_factor = var:ARS.ars_paranoia
+	industry_free_repair_factor = var:ARS.ars_paranoia
+	production_speed_buildings_factor = var:ARS.ars_paranoia
+	
+	political_power_gain = var:ARS.ars_paranoia
+}

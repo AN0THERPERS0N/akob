@@ -111,54 +111,176 @@ on_actions = {
 #		}
 #	}
 #
-	on_annex = { 
+
+	on_capitulation = {
 		effect = {
 			if = {
 				limit = {
-					country_exists = DCR
-					NOT = { country_exists = ICR }
-					NOT = { country_exists = LCR }
+					ROOT = {
+						tag = LCR
+					}
+					NOT = { check_variable = { global.LCR_capitulated = 1 } }
 				}
-				DCR = { set_country_flag = DCR_civil_war_end }
-				complete_national_focus = DCR_end_of_the_civil_war
-				country_event = {
-					id = dcr.end_civil_war
-					days = 1
-					random = 1
-					random_days = 0
+				set_variable = { global.LCR_capitulated = 1 }
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = ICR
+					}
+					NOT = { check_variable = { global.ICR_capitulated = 1 } }
+				}
+				set_variable = { global.ICR_capitulated = 1 }
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = DCR
+					}
+					NOT = { check_variable = { global.DCR_capitulated = 1 } }
+				}
+				set_variable = { global.DCR_capitulated = 1 }
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						tag = ARS
+					}
+					OR = {
+						ROOT = { tag = DCR }
+						ROOT = { tag = ICR }
+						ROOT = { tag = LCR }
+					}
+					NOT = { check_variable = { global.ARS_capitulator = 1 } }
+				}
+				set_variable = { global.ARS_capitulator = 1 }
+			}
+		}
+	}
+
+#	on_daily_ICR = { 
+#		effect = {
+#			if = {
+#				limit = {
+#					LCR = {
+#						OR = {
+#							surrender_progress = 1
+#							has_capitulated = yes
+#						}
+#					}
+#					NOT = { check_variable = { global.LCR_capitulated = 1 } }
+#				}
+#				set_variable = { global.LCR_capitulated = 1 }
+#			}
+#			else_if = {
+#				limit = {
+#					DCR = {
+#						OR = {
+#							surrender_progress = 1
+#							has_capitulated = yes
+#						}
+#					}
+#					NOT = { check_variable = { global.DCR_capitulated = 1 } }
+#				}
+#				set_variable = { global.DCR_capitulated = 1 }
+#			} 
+#			else_if = {
+#				limit = {
+#					ICR = {
+#						OR = {
+#							surrender_progress = 1
+#							has_capitulated = yes
+#						}
+#					}
+#					NOT = { check_variable = { global.ICR_capitulated = 1 } }
+#				}
+#				set_variable = { global.ICR_capitulated = 1 }
+#			} 
+#		} 
+#	}
+	on_weekly = { 
+		effect = {
+			if = {
+				limit = {
+					NOT = { check_variable = { global.DCR_capitulated = 1 } }
+					check_variable = { global.ICR_capitulated = 1 }
+					check_variable = { global.LCR_capitulated = 1 }
+					NOT = { has_country_flag = DCR_civil_war_end }
+				}
+				DCR = { 
+					set_country_flag = DCR_civil_war_end 
+					complete_national_focus = DCR_end_of_the_civil_war
+					country_event = {
+						id = dcr.end_civil_war
+						days = 1
+						random = 1
+						random_days = 0
+					}
 				}
 			}
 			else_if = {
 				limit = {
-					country_exists = LCR
-					NOT = { country_exists = ICR }
-					NOT = { country_exists = DCR }
+					NOT = { check_variable = { global.LCR_capitulated = 1 } }
+					check_variable = { global.DCR_capitulated = 1 }
+					check_variable = { global.ICR_capitulated = 1 }
+					NOT = { has_country_flag = LCR_civil_war_end }
 				}
-				LCR = { set_country_flag = LCR_civil_war_end }
-				complete_national_focus = LCR_peace_at_last
-				country_event = {
-					id = lcr.end_civil_war
-					days = 1
-					random = 1
-					random_days = 0
+				LCR = { 
+					set_country_flag = LCR_civil_war_end 
+					complete_national_focus = LCR_peace_at_last
+					country_event = {
+						id = lcr.end_civil_war
+						days = 1
+						random = 1
+						random_days = 0
+					}
 				}
 			}
 			else_if = {
 				limit = {
-					country_exists = ICR
-					NOT = { country_exists = DCR }
-					NOT = { country_exists = LCR }
+					NOT = { check_variable = { global.ICR_capitulated = 1 } }
+					check_variable = { global.LCR_capitulated = 1 }
+					check_variable = { global.DCR_capitulated = 1 }
+					NOT = { has_country_flag = ICR_civil_war_end }
 				}
-				ICR = { set_country_flag = ICR_civil_war_end }
-				complete_national_focus = ICR_end_of_the_civil_war
-				country_event = {
-					id = icr.end_civil_war
-					days = 1
-					random = 1
-					random_days = 0
+				ICR = { 
+					set_country_flag = ICR_civil_war_end 
+					complete_national_focus = ICR_end_of_the_civil_war
+					country_event = {
+						id = icr.end_civil_war
+						days = 1
+						random = 1
+						random_days = 0
+					}
 				}
 			}
 		}
+	}
+
+	on_weekly_ARS = { 
+		effect = {
+			if = {
+				limit = {
+					check_variable = { global.DCR_capitulated = 1 }
+					check_variable = { global.ICR_capitulated = 1 }
+					check_variable = { global.LCR_capitulated = 1 }
+					check_variable = { global.ARS_capitulator = 1 }
+					ARS = {
+						NOT = { has_country_flag = ARS_first_icrusia_war_win }
+					}
+				}
+				ARS = {
+					country_event = {
+						id = ars.1
+						days = 1
+						random = 1
+						random_days = 0
+					}
+				}
+				complete_national_focus = ARS_our_place_in_the_sun
+				set_country_flag = ARS_first_icrusia_war_win
+			} 
+		} 
 	}
 
 	on_monthly_ARS = { 
@@ -192,6 +314,15 @@ on_actions = {
 					message = fine
 				}
 				set_country_flag = ARS_first_icrusia_war_end
+				ARS = {
+					country_event = {
+						id = ars.2
+						days = 1
+						random = 1
+						random_days = 0
+					}
+				}
+				complete_national_focus = ARS_swallow_our_pride
 			} 
 			else_if = {
 				limit = {
@@ -222,6 +353,15 @@ on_actions = {
 					message = fine
 				}
 				set_country_flag = ARS_first_icrusia_war_end
+				ARS = {
+					country_event = {
+						id = ars.2
+						days = 1
+						random = 1
+						random_days = 0
+					}
+				}
+				complete_national_focus = ARS_swallow_our_pride
 			} 
 			else_if = {
 				limit = {
@@ -252,7 +392,16 @@ on_actions = {
 					message = fine
 				}
 				set_country_flag = ARS_first_icrusia_war_end
-			} 
+				ARS = {
+					country_event = {
+						id = ars.2
+						days = 1
+						random = 1
+						random_days = 0
+					}
+				}
+				complete_national_focus = ARS_swallow_our_pride
+			}
 		} 
 	}
 

@@ -1159,7 +1159,6 @@ technologies = {
 		
 		categories = {
 			cavalry
-			infantry_tech
 		}
 		
 		ai_will_do = {
@@ -1211,7 +1210,6 @@ technologies = {
 		
 		categories = {
 			cavalry
-			infantry_tech
 		}
 		
 		ai_will_do = {
@@ -1258,7 +1256,6 @@ technologies = {
 		
 		categories = {
 			cavalry
-			armor
 		}
 		
 		ai_will_do = {
@@ -1300,7 +1297,6 @@ technologies = {
 		
 		categories = {
 			cavalry
-			infantry_tech
 		}
 
 		ai_will_do = {
@@ -1390,7 +1386,6 @@ technologies = {
 		
 		categories = {
 			cavalry
-			infantry_tech
 		}
 	}
 	
@@ -1414,7 +1409,6 @@ technologies = {
 		
 		categories = {
 			cavalry
-			infantry_tech
 		}
 		
 		ai_will_do = {
@@ -1437,7 +1431,6 @@ technologies = {
 		
 		categories = {
 			cavalry
-			infantry_tech
 		}
 		
 		ai_will_do = {

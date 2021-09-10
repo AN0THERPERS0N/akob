@@ -4,6 +4,46 @@ ideas = {
 
 		#starting focus
 
+#		ICR_test = {
+#			picture = not_a_country
+#			
+#			allowed = {
+#				tag = ICR
+#			}
+#
+#			available = {
+#				
+#			}
+#			
+#			modifier = {
+#				army_attack_factor = 1000
+#				army_defence_factor = 1000
+#				army_org_factor = 1000
+#				army_org_regain = 1000
+#				breakthrough_factor = 1000
+#				attrition = -1000
+#				experience_gain_army = -1000
+#				pocket_penalty = -1000
+#				recon_factor = 1000
+#				terrain_penalty_reduction = 1000
+#				no_supply_grace = 1000000
+#				org_loss_when_moving = -1000
+#				out_of_supply_factor = -1000
+#				supply_consumption_factor = -1000
+#				training_time_factor = 1000000
+#			}
+#
+#			cancel = {
+#
+#			}
+#
+#			allowed_civil_war = {
+#				always = yes
+#			}
+#
+#			removal_cost = -1
+#		}
+
 		ICR_icrusian_civil_war = {
 			picture = not_a_country
 			
@@ -1305,6 +1345,33 @@ ideas = {
 			modifier = {
 				justify_war_goal_time = 0.5
 				justify_war_goal_when_in_major_war_time = 0.5
+			}
+
+			cancel = {
+			
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ICR_warmongers_of_ambulas3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ICR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				justify_war_goal_time = 1
+				justify_war_goal_when_in_major_war_time = 1
 			}
 
 			cancel = {

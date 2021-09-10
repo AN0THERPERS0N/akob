@@ -13,6 +13,14 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		annex_country = {
+			target = LCR
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = DCR
+			transfer_troops = yes
+		}
 		ICR = { add_manpower = 300000 }
 		add_offsite_building = { type = arms_factory level = 2 }
 		add_offsite_building = { type = industrial_complex level = 3 }
@@ -133,6 +141,206 @@ country_event = { #icrusia at war
 	
 	option = {
 		name = icr.3.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #redmond valor speech
+	id = icr.4
+	title = icr.4.t
+	desc = icr.4.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.4.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #statue
+	id = icr.5
+	title = icr.5.t
+	desc = icr.5.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.5.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #internal matters
+	id = icr.6
+	title = icr.6.t
+	desc = icr.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.6.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #airestonia a fallen kingdom
+	id = icr.7
+	title = icr.7.t
+	desc = icr.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.7.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #speech against the revolutionaries
+	id = icr.8
+	title = icr.8.t
+	desc = icr.8.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.8.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #anti revolutionary declaration
+	id = icr.9
+	title = icr.9.t
+	desc = icr.9.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.9.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #anti revolutionary declaration
+	id = icr.10
+	title = icr.10.t
+	desc = icr.10.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.10.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #our eagle flying high
+	id = icr.11
+	title = icr.11.t
+	desc = icr.11.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.11.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #icrusian charter
+	id = icr.12
+	title = icr.12.t
+	desc = icr.12.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.12.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #airestonian icrusian unification
+	id = icr.13
+	title = icr.13.t
+	desc = icr.13.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = icr.13.a
 		ai_chance = {
 			factor = 50
 		}

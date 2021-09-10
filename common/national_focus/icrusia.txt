@@ -65,7 +65,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -120,13 +120,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_literal_workhorse_of_the_army"
-	#research
+	add_tech_bonus = {
+		bonus = 0.25
+		uses = 1
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -147,13 +151,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_blunt_end_of_the_spear"
-	#research
+	add_tech_bonus = {
+		bonus = 0.25
+		uses = 1
+		category = infantry_weapons
+	}
 }
 ai_will_do = {
 }
@@ -174,13 +182,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_explosive_warfare"
-	#research
+	add_tech_bonus = {
+		bonus = 0.25
+		uses = 1
+		category = artillery
+	}
 }
 ai_will_do = {
 }
@@ -201,13 +213,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_discover_magic_full_potential"
-	#research
+	add_tech_bonus = {
+		bonus = 0.25
+		uses = 1
+		category = armor
+	}
 }
 ai_will_do = {
 }
@@ -226,7 +242,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -251,7 +267,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -329,13 +345,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_grand_cavalry_effort"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -354,13 +374,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_improved_cavalry_support"
-	#research
+	add_tech_bonus = {
+		uses = 2
+		ahead_reduction = 1
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -379,13 +403,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_improved_rifle_designs"
-	#research
+	add_tech_bonus = {
+		bonus = 0.25
+		uses = 1
+		category = infantry_weapons
+	}
 }
 ai_will_do = {
 }
@@ -404,13 +432,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_study_airestonian_designs"
-	#research
+	add_tech_bonus = {
+		bonus = 0.25
+		uses = 2
+		category = artillery
+	}
 }
 ai_will_do = {
 }
@@ -429,13 +461,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_mage_schools"
-	#research
+	add_tech_bonus = {
+		ahead_reduction = 1
+		uses = 1
+		category = armor
+	}
 }
 ai_will_do = {
 }
@@ -454,7 +490,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -479,7 +515,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -590,7 +626,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -615,13 +651,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_cavalry_training"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -640,13 +680,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_advanced_rifle_support"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = support_tech
+	}
 }
 ai_will_do = {
 }
@@ -665,13 +709,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_improved_support_squad"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = support_tech
+	}
 }
 ai_will_do = {
 }
@@ -690,7 +738,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -715,7 +763,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -740,13 +788,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_quicker_artillery_loaders"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = artillery
+	}
 }
 ai_will_do = {
 }
@@ -765,14 +817,18 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_new_special_mage_wards"
 	add_ideas = ICR_armoured_fists_of_icrusia
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = armor
+	}
 }
 ai_will_do = {
 }
@@ -792,7 +848,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -818,7 +874,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -844,7 +900,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -869,7 +925,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1113,13 +1169,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_research_advanced_cavalry_designs"
-	#research
+	add_tech_bonus = {
+		uses = 1
+		ahead_reduction = 2
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -1140,14 +1200,24 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_ammunition_depots"
-	#buildings
-	#research
+	91 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = infantry_weapons
+	}
 }
 ai_will_do = {
 }
@@ -1168,13 +1238,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_funnel_resources_into_icrusian_arms_research"
-	#research
+	add_tech_bonus = {
+		uses = 1
+		bonus = 0.5
+		category = support_tech
+	}
 }
 ai_will_do = {
 }
@@ -1194,13 +1268,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_shell_sizes"
-	#research
+	add_tech_bonus = {
+		ahead_reduction = 1
+		uses = 1
+		category = artillery
+	}
 }
 ai_will_do = {
 }
@@ -1219,13 +1297,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_create_new_spells"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = armor
+	}
 }
 ai_will_do = {
 }
@@ -1244,7 +1326,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1270,7 +1352,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1543,7 +1625,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1571,7 +1653,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1600,7 +1682,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1628,13 +1710,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_reinvent_artillery_tactics"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = artillery
+	}
 }
 ai_will_do = {
 }
@@ -1653,7 +1739,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1681,7 +1767,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1709,7 +1795,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1737,7 +1823,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1762,7 +1848,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1787,7 +1873,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -1933,13 +2019,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_trubian_partnership"
-	#research
+	add_tech_bonus = {
+		uses = 1
+		ahead_reduction = 2
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -1958,13 +2048,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_elite_riflemen_training"
-	#research
+	add_tech_bonus = {
+		uses = 2
+		ahead_reduction = 1
+		category = infantry_weapons
+	}
 }
 ai_will_do = {
 }
@@ -1983,13 +2077,13 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_mass_civilian_recruitment"
-	add_manpower = 200000
+	add_manpower = 500000
 }
 ai_will_do = {
 }
@@ -2009,13 +2103,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_artillery__model_accuracy"
-	#research
+	add_tech_bonus = {
+		ahead_reduction = 1
+		uses = 3
+		category = artillery
+	}
 }
 ai_will_do = {
 }
@@ -2034,13 +2132,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_willpower_training"
-	#research
+	add_tech_bonus = {
+		ahead_reduction = 2
+		uses = 2
+		category = armor
+	}
 }
 ai_will_do = {
 }
@@ -2059,7 +2161,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2084,7 +2186,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2110,7 +2212,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2134,7 +2236,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2182,7 +2284,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2215,7 +2317,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2248,7 +2350,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2296,7 +2398,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2321,7 +2423,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2346,13 +2448,13 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_economy_first"
-	add_political_power = 100
+	add_political_power = 200
 }
 ai_will_do = {
 }
@@ -2371,7 +2473,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2399,7 +2501,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2427,14 +2529,14 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_indebted_to_our_beloved_military"
 	add_political_power = -100
-	add_manpower = 10000
+	add_manpower = 200000
 }
 ai_will_do = {
 }
@@ -2453,7 +2555,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2479,13 +2581,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_internal_matters"
-	#event
+	country_event = {
+		id = icr.6
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -2504,7 +2610,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2532,13 +2638,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_re-industrialise"
-	#buildings
+	111 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -2557,14 +2669,14 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_use_up_the_rest_of_our_treasuries"
-	add_political_power = -50
-	add_stability = 0.1
+	add_political_power = -100
+	add_stability = 0.2
 }
 ai_will_do = {
 }
@@ -2583,7 +2695,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2608,7 +2720,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2634,7 +2746,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2659,13 +2771,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_revolutionaries_of_the_wrong_type"
-	#event
+	country_event = {
+		id = icr.8
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -2684,13 +2800,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_rebuild_the_feiditta_coal_mines"
-	#resources
+	add_resource = {
+		type = coal
+		amount = 20
+		state = 117
+	}
 }
 ai_will_do = {
 }
@@ -2709,13 +2829,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_brass_metallurgy"
-	#resources
+	add_resource = {
+		type = brass
+		amount = 10
+		state = 119
+	}
 }
 ai_will_do = {
 }
@@ -2734,13 +2858,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_create_more_iron_mines"
-	#resources
+	add_resource = {
+		type = steel
+		amount = 12
+		state = 145
+	}
 }
 ai_will_do = {
 }
@@ -2759,7 +2887,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2787,13 +2915,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_redistribute_farmlands"
-	#buildings
+	95 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -2812,7 +2946,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2837,7 +2971,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2863,7 +2997,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2889,13 +3023,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_show_off_prized_winnings"
-	#event
+	91 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -2914,7 +3054,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2939,14 +3079,14 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_sell_them_to_slavery"
 	add_political_power = 350
-	add_manpower = -100000
+	add_manpower = -200000
 }
 ai_will_do = {
 }
@@ -2965,7 +3105,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -2990,13 +3130,26 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_take_away_their_possesions"
-	#buildings
+	88 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	36 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3015,7 +3168,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3040,7 +3193,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3065,13 +3218,22 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_lax_digging_restrictions"
-	#resources
+	add_resource = {
+		type = coal
+		amount = 15
+		state = 128
+	}
+	add_resource = {
+		type = coal
+		amount = 15
+		state = 134
+	}
 }
 ai_will_do = {
 }
@@ -3090,13 +3252,13 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_increase_metallurgy_efficiency"
-	#resources
+	add_to_variable = { ICR_resource_increase = 0.1 }
 }
 ai_will_do = {
 }
@@ -3115,13 +3277,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_dig_for_more_copper"
-	#resources
+	add_resource = {
+		type = brass
+		amount = 20
+		state = 139
+	}
 }
 ai_will_do = {
 }
@@ -3140,13 +3306,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_maximise_iron_extraction"
-	#resources
+	add_resource = {
+		type = steel
+		amount = 15
+		state = 146
+	}
 }
 ai_will_do = {
 }
@@ -3165,13 +3335,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_reduce_iron_waste"
-	#resources
+	add_resource = {
+		type = steel
+		amount = 15
+		state = 163
+	}
 }
 ai_will_do = {
 }
@@ -3190,7 +3364,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3215,13 +3389,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_salve_industrial_centre"
-	#buildings
+	88 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3240,13 +3420,40 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_rename_roads"
-	#buildings
+	73 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	65 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	57 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	64 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3265,13 +3472,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_redmond_valor_medals"
-	#event
+	country_event = {
+		id = icr.4
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -3292,13 +3503,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_repay_affected_farmers"
-	#buildings
+	95 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 	add_political_power = -50
 }
 ai_will_do = {
@@ -3320,7 +3537,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3351,7 +3568,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3382,7 +3599,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3407,13 +3624,13 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_execution_stands"
-	add_manpower = -10000
+	add_manpower = -50000
 	add_political_power = 100
 }
 ai_will_do = {
@@ -3433,7 +3650,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3462,7 +3679,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3473,7 +3690,7 @@ completion_reward = {
 		popularity = 0.25
 	}
 	add_stability = -0.1
-	add_manpower = 20000
+	add_manpower = 40000
 	add_political_power = 100
 }
 ai_will_do = {
@@ -3493,7 +3710,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3504,7 +3721,7 @@ completion_reward = {
 		popularity = 0.25
 	}
 	add_stability = -0.1
-	add_manpower = 20000
+	add_manpower = 40000
 	add_political_power = 100
 }
 ai_will_do = {
@@ -3524,13 +3741,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_thornton_drilling_facility"
-	#buildings
+	add_resource = {
+		type = coal
+		amount = 30
+		state = 104
+	}
 }
 ai_will_do = {
 }
@@ -3550,13 +3771,22 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_stronger_brass_mixtures"
-	#resources
+	add_resource = {
+		type = brass
+		amount = 15
+		state = 139
+	}
+	add_resource = {
+		type = brass
+		amount = 15
+		state = 134
+	}
 }
 ai_will_do = {
 }
@@ -3575,13 +3805,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_bolster_the_iron_factories"
-	#buildings
+	106 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3600,13 +3836,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_reuse_iron_tools"
-	#resources
+	add_resource = {
+		type = steel
+		amount = 20
+		state = 139
+	}
 }
 ai_will_do = {
 }
@@ -3625,13 +3865,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_total_war_production"
-	#buildings
+	91 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3650,7 +3896,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3675,13 +3921,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_malouria_slitting_mills"
-	#buildings
+	82 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3700,13 +3952,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_improve_military_farm_protection"
-	#buildings
+	93 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3725,7 +3983,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3754,13 +4012,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_unveiling_of_the_peoples_statues"
-	#event
+	country_event = {
+		id = icr.5
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -3780,7 +4042,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3796,7 +4058,7 @@ ai_will_do = {
 } 
  
 focus = {
-id = ICR_hold_countruwide_celebrations
+id = ICR_hold_countrywide_celebrations
 x = 33
 y = 14
 icon = "GFX_goal_celebrations"
@@ -3809,7 +4071,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3835,7 +4097,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3862,7 +4124,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3887,7 +4149,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3916,7 +4178,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3944,7 +4206,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -3972,7 +4234,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4003,7 +4265,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4034,13 +4296,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_subsidise_brass_factory_groups"
-	#buildings
+	104 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 	if = {
 		limit = {
 			has_idea = ICR_broken_economy
@@ -4065,7 +4333,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4096,13 +4364,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_fund_iron_companies"
-	#resources
+	add_resource = {
+		type = steel
+		amount = 20
+		state = 128
+	}
 	if = {
 		limit = {
 			has_idea = ICR_broken_economy
@@ -4127,7 +4399,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4158,13 +4430,26 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_mass_forge_expansion"
-	#buildings
+	73 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+		}
+	}
+	91 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4183,13 +4468,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_torre_stables"
-	#buildings
+	94 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 4
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4208,13 +4499,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_orsiah_grain_mills"
-	#buildings
+	91 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4233,13 +4530,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_thethmond_canals"
-	#buildings
+	28 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4259,7 +4562,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4283,14 +4586,14 @@ icon = "GFX_goal_influence_icrusia"
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_unveiling_of_the_peoples_statues }
 prerequisite = { focus = ICR_every_little_hands_together }
-prerequisite = { focus = ICR_hold_countruwide_celebrations }
+prerequisite = { focus = ICR_hold_countrywide_celebrations }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4315,13 +4618,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_airestonia_a_fallen_kingdom"
-	#event
+	country_event = {
+		id = icr.7
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -4341,7 +4648,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4352,7 +4659,11 @@ completion_reward = {
 		idea = ICR_icrusia_city_show_trials3
 		days = 180
 	}
-	#event
+	country_event = {
+		id = icr.9
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -4372,7 +4683,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4401,13 +4712,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_pacisa_pike_production_centre"
-	#buildings
+	58 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 4
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4426,7 +4743,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4454,13 +4771,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_verdavik_gear_factories"
-	#buildings
+	95 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4479,13 +4802,40 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_create_more_blast_furnaces"
-	#buildings
+	77 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	64 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	49 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	57 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4504,7 +4854,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4532,13 +4882,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_the_cotton_farms"
-	#resources
+	add_resource = {
+		type = cloth
+		amount = 14
+		state = 103
+	}
 }
 ai_will_do = {
 }
@@ -4557,13 +4911,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_harness_void_metal"
-	#resources
+	add_resource = {
+		type = voidmetal
+		amount = 8
+		state = 163
+	}
 }
 ai_will_do = {
 }
@@ -4583,13 +4941,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_lax_logging_laws"
-	#resources
+	add_resource = {
+		type = cloth
+		amount = 12
+		state = 103
+	}
 }
 ai_will_do = {
 }
@@ -4609,7 +4971,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4638,7 +5000,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4664,13 +5026,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_hire_more_harvest_slaves"
-	#resources
+	add_resource = {
+		type = cloth
+		amount = 16
+		state = 94
+	}
 }
 ai_will_do = {
 }
@@ -4689,13 +5055,22 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_incentive_cotton_growth"
-	#resources
+	add_resource = {
+		type = cloth
+		amount = 10
+		state = 109
+	}
+	add_resource = {
+		type = cloth
+		amount = 8
+		state = 93
+	}
 }
 ai_will_do = {
 }
@@ -4714,13 +5089,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_resist_arcanic_pulses"
-	#resources
+	add_resource = {
+		type = voidmetal
+		amount = 12
+		state = 173
+	}
 }
 ai_will_do = {
 }
@@ -4739,13 +5118,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_understand_void_strength"
-	#resources
+	add_resource = {
+		type = voidmetal
+		amount = 12
+		state = 181
+	}
 }
 ai_will_do = {
 }
@@ -4764,13 +5147,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_tsuthas_gunworks"
-	#buildings
+	49 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 4
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4789,13 +5178,26 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_expand_sword_factories"
-	#buildings
+	73 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		}
+	}
+	64 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4814,13 +5216,33 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_production_in_the_cities"
-	#buildings
+	91 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
+	88 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
+	111 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4839,13 +5261,47 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_production_in_the_countryside"
-	#buildings
+	92 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	107 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	173 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	163 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	136 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4864,13 +5320,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_our_eagle_flying_high"
-	#event
+	country_event = {
+		id = icr.11
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -4889,7 +5349,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -4915,13 +5375,22 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_plant_enhancing_magic"
-	#resources
+	add_resource = {
+		type = cloth
+		amount = 12
+		state = 95
+	}
+	add_resource = {
+		type = cloth
+		amount = 14
+		state = 78
+	}
 }
 ai_will_do = {
 }
@@ -4940,13 +5409,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_curb_mind_affecting_properties"
-	#resources
+	add_resource = {
+		type = voidmetal
+		amount = 16
+		state = 145
+	}
 }
 ai_will_do = {
 }
@@ -4965,13 +5438,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_reinforce_void_mines"
-	#buildings
+	121 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4990,7 +5469,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5020,7 +5499,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5049,7 +5528,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5074,13 +5553,13 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_imperial_ambitions"
-	
+	add_ideas = ICR_warmongers_of_ambulas
 }
 ai_will_do = {
 }
@@ -5099,7 +5578,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5124,7 +5603,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5149,7 +5628,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5181,7 +5660,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5212,14 +5691,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_rebuild_theberia"
-	#relations
-	THB = { add_political_power = 100 }
+	THB = { 
+		add_political_power = 100 
+		remove_opinion_modifier = {
+			target = ICR
+			modifier = hostile_status
+		}
+	}
 }
 ai_will_do = {
 }
@@ -5238,14 +5722,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_agra_our_northern_friend"
-	#relations
-	AGR = { add_political_power = 100 }
+	AGR = { 
+		add_political_power = 100 
+		remove_opinion_modifier = {
+			target = ICR
+			modifier = hostile_status
+		}
+	}
 }
 ai_will_do = {
 }
@@ -5264,14 +5753,14 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_serve_the_eagle"
 	create_wargoal = {
-		type = puppet_wargoal_focus
+		type = annex_everything
 		target = GOZ
 	}
 }
@@ -5292,14 +5781,14 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_break_up_echaianaian_dominance"
 	create_wargoal = {
-		type = puppet_wargoal_focus
+		type = annex_everything
 		target = ECH
 	}
 }
@@ -5321,7 +5810,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5349,7 +5838,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5375,7 +5864,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5403,14 +5892,28 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_build_new_theberan_roads"
-	#buildings
+	6 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	102 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
 }
+
 ai_will_do = {
 }
 } 
@@ -5428,7 +5931,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5453,14 +5956,14 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_bail_out_agran_government"
-	AGR = { add_political_power = 200 }
-	ICR = { add_political_power = -200 }
+	AGR = { add_political_power = 300 }
+	ICR = { add_political_power = -300 }
 }
 ai_will_do = {
 }
@@ -5479,13 +5982,26 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_build_up_agran_farms"
-	#buildings
+	38 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
+	34 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -5504,7 +6020,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5530,13 +6046,24 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_integrate_the_north_west"
-	#cores
+	every_state = {
+		limit = {
+			OR = {
+				is_owned_by = GOZ
+				is_owned_by = ECH
+			}
+		}
+		ICR = {
+			add_state_core = PREV
+		}
+	}
+	add_state_core = 345
 	swap_ideas = {
 		add_idea = ICR_warmongers_of_ambulas2
 		remove_idea = ICR_warmongers_of_ambulas
@@ -5560,7 +6087,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5586,7 +6113,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5611,13 +6138,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_theberan_factory_development"
-	#buildings
+	102 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 5
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -5636,7 +6169,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5663,13 +6196,19 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_seek_agran_forgiveness"
-	#relations
+	19 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -5688,13 +6227,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_an_impossible_deal"
-	#event
+	country_event = {
+		id = icr.13
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -5713,7 +6256,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5741,7 +6284,7 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
@@ -5785,13 +6328,17 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_send_out_the_icrusian_charter"
-	#event
+	country_event = {
+		id = icr.12
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -5810,13 +6357,16 @@ available = {
 }
 bypass = {
 }
-cost = 10
+cost = 5
 cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_only_kingdom_in_the_east"
-	#decisions
+	swap_ideas = {
+		add_idea = ICR_warmongers_of_ambulas3
+		remove_idea = ICR_warmongers_of_ambulas2
+	}
 }
 ai_will_do = {
 }

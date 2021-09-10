@@ -1,0 +1,593 @@
+﻿###########################
+# Airestonian Events
+###########################
+
+add_namespace = ars
+
+country_event = { #win first arsusian war
+	id = ars.1
+	title = ars.1.t
+	desc = ars.1.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.1.a
+		annex_country = {
+			target = LCR
+			transfer_troops = no
+		}
+		annex_country = {
+			target = DCR
+			transfer_troops = no
+		}
+		annex_country = {
+			target = ICR
+			transfer_troops = no
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #lose first arsusian war
+	id = ars.2
+	title = ars.2.t
+	desc = ars.2.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.2.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #amaris goes insane
+	id = ars.3
+	title = ars.3.t
+	desc = ars.3.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.3.a
+		add_political_power = -100
+		add_manpower = -10000
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #great purge
+	id = ars.4
+	title = ars.4.t
+	desc = ars.4.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.4.a
+		country_event = {
+			id = ars.5
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.4.b
+		country_event = {
+			id = ars.5
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #great purge2
+	id = ars.5
+	title = ars.5.t
+	desc = ars.5.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.5.a
+		country_event = {
+			id = ars.6
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.5.b
+		country_event = {
+			id = ars.6
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #great purge3
+	id = ars.6
+	title = ars.6.t
+	desc = ars.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.6.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.6.b
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #circus airestonia
+	id = ars.7
+	title = ars.7.t
+	desc = ars.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.7.a
+		add_manpower = -200000
+		country_event = {
+			id = ars.8
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.7.b
+		add_stability = -0.2
+		country_event = {
+			id = ars.8
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #circus airestonia2
+	id = ars.8
+	title = ars.8.t
+	desc = ars.8.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.8.a
+		add_manpower = -200000
+		country_event = {
+			id = ars.9
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.8.b
+		add_stability = -0.2
+		country_event = {
+			id = ars.9
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #circus airestonia3
+	id = ars.9
+	title = ars.9.t
+	desc = ars.9.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.9.a
+		add_manpower = -200000
+		country_event = {
+			id = ars.10
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.9.b
+		add_stability = -0.2
+		country_event = {
+			id = ars.10
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #circus airestonia4
+	id = ars.10
+	title = ars.10.t
+	desc = ars.10.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.10.a
+		add_manpower = -200000
+		country_event = {
+			id = ars.11
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.10.b
+		add_stability = -0.2
+		country_event = {
+			id = ars.11
+			days = 30
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #circus airestonia5
+	id = ars.11
+	title = ars.11.t
+	desc = ars.11.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.11.a
+		add_manpower = -200000
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.11.b
+		add_stability = -0.2
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #city of angels
+	id = ars.12
+	title = ars.12.t
+	desc = ars.12.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.12.a
+		add_stability = 0.05
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #salvage point
+	id = ars.21
+	title = ars.21.t
+	desc = ars.21.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.12.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #2 kingdoms decree
+	id = ars.13
+	title = ars.13.t
+	desc = ars.13.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.13.a
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #reform the army
+	id = ars.14
+	title = ars.14.t
+	desc = ars.14.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.14.a
+		#general
+		country_event = {
+			id = ars.15
+			days = 14
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.14.b
+		#general
+		country_event = {
+			id = ars.15
+			days = 14
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #reform the army2
+	id = ars.15
+	title = ars.15.t
+	desc = ars.15.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.15.a
+		#general
+		country_event = {
+			id = ars.16
+			days = 14
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.15.b
+		#general
+		country_event = {
+			id = ars.16
+			days = 14
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #reform the army3
+	id = ars.16
+	title = ars.16.t
+	desc = ars.16.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.16.a
+		#general
+		country_event = {
+			id = ars.17
+			days = 14
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.16.b
+		#general
+		country_event = {
+			id = ars.17
+			days = 14
+			random = 48
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #reform the army4
+	id = ars.17
+	title = ars.17.t
+	desc = ars.17.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.17.a
+		#general
+		ai_chance = {
+			factor = 20
+		}
+	}
+
+	option = {
+		name = ars.17.b
+		#general
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #trubian question
+	id = ars.18
+	title = ars.18.t
+	desc = ars.18.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.18.a
+		#general
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #cysos conference
+	id = ars.19
+	title = ars.19.t
+	desc = ars.19.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.19.a
+		#general
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #cysos compromise
+	id = ars.20
+	title = ars.20.t
+	desc = ars.20.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ars.20.a
+		#general
+		ai_chance = {
+			factor = 20
+		}
+	}
+}

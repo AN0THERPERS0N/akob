@@ -1,0 +1,57 @@
+akob_debug = {
+	debug_buff_all_troops = {
+
+		icon = generic_industry
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		days_remove = 1
+		days_re_enable = 1
+
+		cost = 0
+
+		complete_effect = {
+			add_ideas = debug_land_buff
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	debug_remove_buff_all_troops = {
+
+		icon = generic_industry
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		days_remove = 1
+		days_re_enable = 1
+
+		cost = 0
+
+		complete_effect = {
+			remove_ideas = debug_land_buff
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
