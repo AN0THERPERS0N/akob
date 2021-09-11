@@ -13,19 +13,9 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		DCR = { add_manpower = 300000 }
 		add_offsite_building = { type = arms_factory level = 2 }
 		add_offsite_building = { type = industrial_complex level = 3 }
-		add_political_power = 100
 		hidden_effect = {
-			annex_country = {
-				target = LCR
-				transfer_troops = yes
-			}
-			annex_country = {
-				target = ICR
-				transfer_troops = yes
-			}
 			DCR = {
 				if = {
 					limit = {
@@ -76,7 +66,7 @@ country_event = {
 	
 	option = {
 		name = dcr.end_civil_war.a
-		DCR = { add_manpower = 1500000 }
+		DCR = { add_manpower = 200000 }
 		ai_chance = {
 			factor = 20
 		}

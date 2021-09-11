@@ -16,18 +16,6 @@ country_event = { #win first arsusian war
 	
 	option = {
 		name = ars.1.a
-		annex_country = {
-			target = LCR
-			transfer_troops = no
-		}
-		annex_country = {
-			target = DCR
-			transfer_troops = no
-		}
-		annex_country = {
-			target = ICR
-			transfer_troops = no
-		}
 		ai_chance = {
 			factor = 20
 		}

@@ -45,38 +45,38 @@ ideas = {
 #			removal_cost = -1
 #		}
 
-		ARS_outdated_military = {
-			picture = not_a_country
-			
-			allowed = {
-				tag = ARS
-			}
-
-			available = {
-				
-			}
-			
-			modifier = {
-				army_attack_factor = -1.25
-				army_defence_factor = -1.25
-				army_speed_factor = -0.1
-				army_morale_factor = -1
-				army_org_regain = -0.75
-				breakthrough_factor =-1.5
-				experience_gain_army_factor = -0.5
-				out_of_supply_factor = -0.5
-			}
-
-			cancel = {
-
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-		}
+#		ARS_outdated_military = {
+#			picture = not_a_country
+#			
+#			allowed = {
+#				tag = ARS
+#			}
+#
+#			available = {
+#				
+#			}
+#			
+#			modifier = {
+#				army_attack_factor = -1.25
+#				army_defence_factor = -1.25
+#				army_speed_factor = -0.1
+#				army_morale_factor = -1
+#				army_org_regain = -0.25
+#				breakthrough_factor =-1.5
+#				experience_gain_army_factor = -0.5
+#				out_of_supply_factor = -0.5
+#			}
+#
+#			cancel = {
+#
+#			}
+#
+#			allowed_civil_war = {
+#				always = yes
+#			}
+#
+#			removal_cost = -1
+#		}
 
 		ARS_economic_stagnation = {
 			picture = not_a_country

@@ -112,61 +112,161 @@ on_actions = {
 #	}
 #
 
-	on_capitulation = {
-		effect = {
+	on_puppet = { 
+    	effect = {
 			if = {
 				limit = {
 					ROOT = {
 						tag = LCR
 					}
-					NOT = { check_variable = { global.LCR_capitulated = 1 } }
+					FROM = {
+						tag = DCR
+					}
 				}
-				set_variable = { global.LCR_capitulated = 1 }
+				DCR = {
+					annex_country = {
+						target = LCR
+						transfer_troops = yes
+					}
+				}
 			}
 			else_if = {
 				limit = {
 					ROOT = {
 						tag = ICR
 					}
-					NOT = { check_variable = { global.ICR_capitulated = 1 } }
+					FROM = {
+						tag = DCR
+					}
 				}
-				set_variable = { global.ICR_capitulated = 1 }
+				DCR = {
+					annex_country = {
+						target = ICR
+						transfer_troops = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = ICR
+					}
+					FROM = {
+						tag = LCR
+					}
+				}
+				LCR = {
+					annex_country = {
+						target = ICR
+						transfer_troops = yes
+					}
+				}
 			}
 			else_if = {
 				limit = {
 					ROOT = {
 						tag = DCR
 					}
-					NOT = { check_variable = { global.DCR_capitulated = 1 } }
+					FROM = {
+						tag = LCR
+					}
 				}
-				set_variable = { global.DCR_capitulated = 1 }
+				LCR = {
+					annex_country = {
+						target = DCR
+						transfer_troops = yes
+					}
+				}
 			}
 			else_if = {
 				limit = {
+					ROOT = {
+						tag = ICR
+					}
+					FROM = {
+						tag = DCR
+					}
+				}
+				DCR = {
+					annex_country = {
+						target = ICR
+						transfer_troops = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = LCR
+					}
+					FROM = {
+						tag = DCR
+					}
+				}
+				DCR = {
+					annex_country = {
+						target = LCR
+						transfer_troops = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = LCR
+					}
 					FROM = {
 						tag = ARS
 					}
-					OR = {
-						ROOT = { tag = DCR }
-						ROOT = { tag = ICR }
-						ROOT = { tag = LCR }
-					}
-					NOT = { check_variable = { global.ARS_capitulator = 1 } }
 				}
-				set_variable = { global.ARS_capitulator = 1 }
+				ARS = {
+					annex_country = {
+						target = LCR
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = DCR
+					}
+					FROM = {
+						tag = ARS
+					}
+				}
+				ARS = {
+					annex_country = {
+						target = DCR
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = ICR
+					}
+					FROM = {
+						tag = ARS
+					}
+				}
+				ARS = {
+					annex_country = {
+						target = ICR
+						transfer_troops = no
+					}
+				}
 			}
 		}
 	}
 
-#	on_daily_ICR = { 
+#	on_capitulation = {
 #		effect = {
 #			if = {
 #				limit = {
-#					LCR = {
-#						OR = {
-#							surrender_progress = 1
-#							has_capitulated = yes
-#						}
+#					ROOT = {
+#						tag = LCR
 #					}
 #					NOT = { check_variable = { global.LCR_capitulated = 1 } }
 #				}
@@ -174,59 +274,61 @@ on_actions = {
 #			}
 #			else_if = {
 #				limit = {
-#					DCR = {
-#						OR = {
-#							surrender_progress = 1
-#							has_capitulated = yes
-#						}
-#					}
-#					NOT = { check_variable = { global.DCR_capitulated = 1 } }
-#				}
-#				set_variable = { global.DCR_capitulated = 1 }
-#			} 
-#			else_if = {
-#				limit = {
-#					ICR = {
-#						OR = {
-#							surrender_progress = 1
-#							has_capitulated = yes
-#						}
+#					ROOT = {
+#						tag = ICR
 #					}
 #					NOT = { check_variable = { global.ICR_capitulated = 1 } }
 #				}
 #				set_variable = { global.ICR_capitulated = 1 }
-#			} 
-#		} 
+#			}
+#			else_if = {
+#				limit = {
+#					ROOT = {
+#						tag = DCR
+#					}
+#					NOT = { check_variable = { global.DCR_capitulated = 1 } }
+#				}
+#				set_variable = { global.DCR_capitulated = 1 }
+#			}
+#		}
 #	}
-	on_weekly = { 
+
+	on_annex = { 
 		effect = {
 			if = {
 				limit = {
-					NOT = { check_variable = { global.DCR_capitulated = 1 } }
-					check_variable = { global.ICR_capitulated = 1 }
-					check_variable = { global.LCR_capitulated = 1 }
-					NOT = { has_country_flag = DCR_civil_war_end }
+					country_exists = DCR
+					NOT = { country_exists = LCR }
+					NOT = { country_exists = ICR }
+					DCR = {
+						NOT = { 
+							has_country_flag = DCR_civil_war_end 
+						}
+					}
 				}
 				DCR = { 
-					set_country_flag = DCR_civil_war_end 
-					complete_national_focus = DCR_end_of_the_civil_war
 					country_event = {
 						id = dcr.end_civil_war
 						days = 1
 						random = 1
 						random_days = 0
 					}
+					complete_national_focus = DCR_end_of_the_civil_war
+					set_country_flag = DCR_civil_war_end 
 				}
 			}
 			else_if = {
 				limit = {
-					NOT = { check_variable = { global.LCR_capitulated = 1 } }
-					check_variable = { global.DCR_capitulated = 1 }
-					check_variable = { global.ICR_capitulated = 1 }
-					NOT = { has_country_flag = LCR_civil_war_end }
+					country_exists = LCR
+					NOT = { country_exists = DCR }
+					NOT = { country_exists = ICR }
+					LCR = {
+						NOT = { 
+							has_country_flag = LCR_civil_war_end 
+						}
+					}
 				}
 				LCR = { 
-					set_country_flag = LCR_civil_war_end 
 					complete_national_focus = LCR_peace_at_last
 					country_event = {
 						id = lcr.end_civil_war
@@ -234,17 +336,21 @@ on_actions = {
 						random = 1
 						random_days = 0
 					}
+					set_country_flag = LCR_civil_war_end 
 				}
 			}
 			else_if = {
 				limit = {
-					NOT = { check_variable = { global.ICR_capitulated = 1 } }
-					check_variable = { global.LCR_capitulated = 1 }
-					check_variable = { global.DCR_capitulated = 1 }
-					NOT = { has_country_flag = ICR_civil_war_end }
+					country_exists = ICR
+					NOT = { country_exists = DCR }
+					NOT = { country_exists = LCR }
+					ICR = {
+						NOT = { 
+							has_country_flag = LCR_civil_war_end 
+						}
+					}
 				}
 				ICR = { 
-					set_country_flag = ICR_civil_war_end 
 					complete_national_focus = ICR_end_of_the_civil_war
 					country_event = {
 						id = icr.end_civil_war
@@ -252,21 +358,22 @@ on_actions = {
 						random = 1
 						random_days = 0
 					}
+					set_country_flag = ICR_civil_war_end 
 				}
 			}
 		}
 	}
 
-	on_weekly_ARS = { 
+	on_annex = { 
 		effect = {
 			if = {
 				limit = {
-					check_variable = { global.DCR_capitulated = 1 }
-					check_variable = { global.ICR_capitulated = 1 }
-					check_variable = { global.LCR_capitulated = 1 }
-					check_variable = { global.ARS_capitulator = 1 }
+					NOT = { country_exists = DCR }
+					NOT = { country_exists = LCR }
+					NOT = { country_exists = ICR }
 					ARS = {
 						NOT = { has_country_flag = ARS_first_icrusia_war_win }
+						NOT = { has_country_flag = ARS_first_icrusia_war_end }
 					}
 				}
 				ARS = {
@@ -276,9 +383,9 @@ on_actions = {
 						random = 1
 						random_days = 0
 					}
+					complete_national_focus = ARS_our_place_in_the_sun
+					set_country_flag = ARS_first_icrusia_war_win
 				}
-				complete_national_focus = ARS_our_place_in_the_sun
-				set_country_flag = ARS_first_icrusia_war_win
 			} 
 		} 
 	}
@@ -303,6 +410,17 @@ on_actions = {
 						days = 1
 						random = 1
 						random_days = 0
+					}
+					every_state = {
+						limit = {
+							OR = {
+								is_core_of = DCR
+								is_core_of = LCR
+								is_core_of = ICR
+							}
+							is_controlled_by = ARS
+						}
+						transfer_state = THIS
 					}
 				}
 				white_peace = {
@@ -343,6 +461,17 @@ on_actions = {
 						random = 1
 						random_days = 0
 					}
+					every_state = {
+						limit = {
+							OR = {
+								is_core_of = DCR
+								is_core_of = LCR
+								is_core_of = ICR
+							}
+							is_controlled_by = ARS
+						}
+						transfer_state = THIS
+					}
 				}
 				white_peace = {
 					tag = ICR
@@ -381,6 +510,17 @@ on_actions = {
 						days = 1
 						random = 1
 						random_days = 0
+					}
+					every_state = {
+						limit = {
+							OR = {
+								is_core_of = DCR
+								is_core_of = LCR
+								is_core_of = ICR
+							}
+							is_controlled_by = ARS
+						}
+						transfer_state = THIS
 					}
 				}
 				white_peace = {
