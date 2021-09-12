@@ -1,0 +1,87 @@
+ROZ_war_decisions = {
+    ROZ_drain = {
+        icon = ger_mefo_bills
+        
+        available = {
+            tag = ROZ
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 1
+        
+        complete_effect = {   
+            every_state = {
+                limit = {
+                    is_controlled_by = ROZ
+                }
+                every_neighbor_state = {
+                    limit = {
+                        NOT = { is_controlled_by = ROZ }
+                    }
+                    create_unit = {
+                        division = "division_template = \"Rozozhok Red Brigade\" start_experience_factor = 0 start_equipment_factor = 1"
+                        owner = ROZ
+                        allow_spawning_on_enemy_provs = yes
+						count = 1
+                    }
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ROZ_decimate = {
+        icon = ger_mefo_bills
+        
+        available = {
+            tag = ROZ
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 31
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 1
+        
+        complete_effect = {   
+            every_state = {
+                limit = {
+                    is_controlled_by = ROZ
+                }
+                every_neighbor_state = {
+                    limit = {
+                        NOT = { is_controlled_by = ROZ }
+                    }
+                    add_state_modifier = {
+                        modifier = {
+                            local_supplies = -1
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

@@ -21,7 +21,9 @@ state={
 		victory_points = {
         	    1891 10
         	}
-		add_core_of = LCR
+		add_core_of = ICR
+add_core_of = LCR
+add_core_of = DCR
 
 	}
 

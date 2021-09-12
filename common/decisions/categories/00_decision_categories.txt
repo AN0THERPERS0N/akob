@@ -12,12 +12,36 @@
 #	}
 #}
 
+ROZ_war_decisions = {
+	priority = 1000
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+
+	}
+}
+
 akob_debug = {
 	priority = 1000
 	icon = generic_propaganda
 
 	allowed = {
 		always = yes
+	}
+	visible = {
+
+	}
+}
+
+Start_airestonian_civil_war = {
+	priority = 1000
+	icon = generic_propaganda
+
+	allowed = {
+		tag = ARS
 	}
 	visible = {
 

@@ -1,0 +1,39 @@
+Start_airestonian_civil_war = {
+    start_civil_war = {
+        icon = ger_mefo_bills
+        
+        available = {
+            tag = ARS
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 1
+        
+        complete_effect = {   
+            199 = {
+                add_core_of = ROZ
+            }
+            ROZ = { 
+                transfer_state = 199 
+                declare_war_on = {
+                    target = ARS
+                    type = annex_everything
+                }
+                add_civil_war_target = ARS
+                load_oob = "ROZ_1714"
+                change_tag_from = ROOT
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

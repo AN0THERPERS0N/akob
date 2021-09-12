@@ -103,7 +103,7 @@ country_event = {
 			add_manpower = -800000
 			add_political_power = -200 
 			white_peace = {
-				tag = DCR
+				tag = LCR
 				message = fine
 			}
 		}

@@ -17,6 +17,8 @@ state={
 
 		}
 		add_core_of = ICR
+add_core_of = LCR
+add_core_of = DCR
 		victory_points = {
         	    1311 70
         	}

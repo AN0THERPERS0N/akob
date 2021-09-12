@@ -23,6 +23,11 @@
  ARS_communism:0 "Democratic Republic of Airestonia"
  ARS_neutrality:0 "Kingdom of Airestonia"
 
+ ROZ_fascism:0 "Rozozhok Commune"
+ ROZ_democratic:0 "Rozozhok Commune"
+ ROZ_communism:0 "Rozozhok Commune"
+ ROZ_neutrality:0 "Rozozhok Commune"
+
  TRB_neutrality:0 "Kingdom of Trubia"
  TRB_fascism:0 "Trubian Confederacy"
  TRB_democratic:0 "Republic of Trubia"

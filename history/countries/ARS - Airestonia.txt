@@ -38,6 +38,7 @@ add_ideas = {
 	ARS_outdated_military
 	ARS_economic_stagnation
 	ARS_cracks_in_the_feudal_system
+	extensive_conscription
 }
 
 create_country_leader = {

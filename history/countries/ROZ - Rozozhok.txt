@@ -1,0 +1,52 @@
+﻿capital = 199
+
+OOB = "ROZ_1714"
+
+set_technology = {
+	akob_infantry_weapons_I = 1
+	akob_infantry_weapons_II = 1
+	akob_support_weapons_I = 1
+	akob_cavalry_1 = 1
+	akob_basic_artillery = 1
+	akob_basic_magic = 1
+	akob_sorcerer_I = 1
+	akob_conjuror_I = 1
+	akob_canister_shot_artillery_I = 1
+	akob_artillery_I = 1
+	akob_explosive_shot_artillery_I = 1
+	metalworks_I = 1
+	basic_tools = 1
+	tech_support = 1
+	akob_cuirassier_1 = 1
+	akob_lancer_1 = 1
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+set_convoys = 5
+
+add_ideas = {
+	scraping_the_barrel
+	ROZ_juggenaut
+	ROZ_pillage
+}
+
+create_country_leader = {
+	name = "Rozo I"
+	desc = "POLITICS_AMARIS_DESC"
+	picture = "gfx/leaders/ARS/Portrait_Amaris.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+		#
+	}
+}

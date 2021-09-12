@@ -50,6 +50,9 @@ declare_war_on = {
 	type = annex_everything
 }	
 
+add_civil_war_target = ICR
+add_civil_war_target = LCR
+
 create_country_leader = {
 	name = "Vitas (Vitallion’ir)"
 	desc = "POLITICS_VITAS_DESC"

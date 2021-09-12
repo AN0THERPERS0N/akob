@@ -1,6 +1,9 @@
 AGR = "countries/Agra.txt"
 TST = "countries/Test.txt"
+
 ARS = "countries/Airestonia.txt"
+ROZ = "countries/Rozozhok.txt"
+
 ICR = "countries/Icrusia.txt"
 TRB = "countries/Trubia.txt"
 EFR = "countries/Efror.txt"

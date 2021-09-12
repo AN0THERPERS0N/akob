@@ -740,21 +740,21 @@ NGraphics = {
 	VICTORY_POINT_MAP_ICON_AFTER = {0, 20}, -- After this amount of VP the map icon becomes bigger dot.
 	VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {150, 250, 500},  -- At what camera distance the VP name text disappears.
 	VICTORY_POINTS_DISTANCE_CUTOFF = {250, 500, 1000}, -- At what distance VPs are hidden
-	AIRBASE_ICON_DISTANCE_CUTOFF = 1, -- At what distance air bases are hidden
-	NAVALBASE_ICON_DISTANCE_CUTOFF = 1, -- 1300, -- At what distance naval bases are hidden
-	RADAR_ICON_DISTANCE_CUTOFF = 1, -- At what distance the radars are hidden
+	AIRBASE_ICON_DISTANCE_CUTOFF = 900, -- At what distance air bases are hidden
+	NAVALBASE_ICON_DISTANCE_CUTOFF = 900, -- 1300, -- At what distance naval bases are hidden
+	RADAR_ICON_DISTANCE_CUTOFF = 1100, -- At what distance the radars are hidden
 	RESOURCE_MAP_ICON_TEXT_CUTOFF = 800,  -- At what camera distance the resource name/amount text disappears.
 	RESISTANCE_MAP_ICON_MODIFIERS_DISTANCE_CUTOFF = 500,  -- At what camera distance the resistance/compliance map icon modifiers are hidden
 	RESISTANCE_MAP_ICON_DISTANCE_CUTOFF = 1200,  -- At what camera distance the resistance/compliance map icons are hidden
 	PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 500,
-	CAPITAL_ICON_CUTOFF = 1,	-- At what camera distance capital icons disappears
+	CAPITAL_ICON_CUTOFF = 1100,	-- At what camera distance capital icons disappears
 	UNITS_DISTANCE_CUTOFF = 120,
-	SHIPS_DISTANCE_CUTOFF = 1,
-	UNIT_ARROW_DISTANCE_CUTOFF = 1,
-	UNITS_ICONS_DISTANCE_CUTOFF = 10000,
+	SHIPS_DISTANCE_CUTOFF = 240,
+	UNIT_ARROW_DISTANCE_CUTOFF = 875,
+	UNITS_ICONS_DISTANCE_CUTOFF = 900,
 	NAVAL_COMBAT_DISTANCE_CUTOFF = 1500,
 	ADJACENCY_RULE_DISTANCE_CUTOFF = 1700,
-	LAND_COMBAT_DISTANCE_CUTOFF = 1,
+	LAND_COMBAT_DISTANCE_CUTOFF = 1500,
 	SUPPLY_ICON_DISTANCE_CUTOFF = 2500,
 	PROV_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 400,
 	STATE_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 800,
@@ -767,9 +767,9 @@ NGraphics = {
 	NAVAL_MINES_CLUMPING = 58, -- The higher value, the more likely the 3d naval mines will clamp together
 	NAVAL_MINES_CLUMP_NEAR_TERRITORY = 25, -- Higher chance to spawn 3d naval mine near our territory
 	NAVAL_MINES_COUNT_TO_VISUAL_ASPECT = 0.1, -- How many in-game-naval-mines is one visual 3d naval mine?
-	MAP_ICONS_GROUP_CAM_DISTANCE = 9999.0, -- camera distance at which the icons begin to group up
-	MAP_ICONS_STATE_GROUP_CAM_DISTANCE = 9999.0, -- Camera distance at which the icons begin to group up on state level
-	MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE = 9999, -- second camera distance at which the icons begin to group up
+	MAP_ICONS_GROUP_CAM_DISTANCE = 90.0, -- camera distance at which the icons begin to group up
+	MAP_ICONS_STATE_GROUP_CAM_DISTANCE = 180.0, -- Camera distance at which the icons begin to group up on state level
+	MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE = 350, -- second camera distance at which the icons begin to group up
 	MAP_ICONS_STRATEGIC_AREA_HUGE = 220,
 	MAP_ICONS_STATE_HUGE = 100,
 	MAPICON_GROUP_PASSES = 20, -- how many mapicons get processed per frame for grouping. more = quicker response, fewer = better performance
@@ -884,8 +884,8 @@ NGraphics = {
 	
 	
 	-- unit on-map interface modulate colors
-	FRIEND_COLOR  = {1.0, 1.0, 1.0},
-	ENEMY_COLOR   = {1.0, 1.0, 1.0}, 
+	FRIEND_COLOR  = {0.7, 0.9, 0.7},
+	ENEMY_COLOR   = {1.0, 0.7, 0.7}, 
 	NEUTRAL_COLOR = {1.0, 1.0, 1.0},
 
 	COUNTRY_COLOR_HUE_MODIFIER = 0.0,
@@ -1136,7 +1136,7 @@ NFrontend = {
 	CAMERA_END_Y = 900.0,
 	CAMERA_END_Z = 1400.0,
 	CAMERA_MIN_HEIGHT = 50.0,						-- Minimum camera height
-	CAMERA_MAX_HEIGHT = 5000.0,						-- Maximum camera height
+	CAMERA_MAX_HEIGHT = 3000.0,						-- Maximum camera height
 	CAMERA_SPEED_IN_MENUS = 0.1,
 	CAMERA_INTERPOLATION_SPEED = 0.19,
 	

@@ -112,154 +112,88 @@ on_actions = {
 #	}
 #
 
-	on_puppet = { 
-    	effect = {
+	on_peaceconference_ended = { 
+		effect = {
 			if = {
 				limit = {
 					ROOT = {
-						tag = LCR
-					}
-					FROM = {
-						tag = DCR
-					}
-				}
-				DCR = {
-					annex_country = {
-						target = LCR
-						transfer_troops = yes
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					ROOT = {
-						tag = ICR
-					}
-					FROM = {
-						tag = DCR
-					}
-				}
-				DCR = {
-					annex_country = {
-						target = ICR
-						transfer_troops = yes
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					ROOT = {
-						tag = ICR
-					}
-					FROM = {
-						tag = LCR
-					}
-				}
-				LCR = {
-					annex_country = {
-						target = ICR
-						transfer_troops = yes
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					ROOT = {
-						tag = DCR
-					}
-					FROM = {
-						tag = LCR
-					}
-				}
-				LCR = {
-					annex_country = {
-						target = DCR
-						transfer_troops = yes
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					ROOT = {
-						tag = ICR
-					}
-					FROM = {
-						tag = DCR
-					}
-				}
-				DCR = {
-					annex_country = {
-						target = ICR
-						transfer_troops = yes
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					ROOT = {
-						tag = LCR
-					}
-					FROM = {
-						tag = DCR
-					}
-				}
-				DCR = {
-					annex_country = {
-						target = LCR
-						transfer_troops = yes
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					ROOT = {
-						tag = LCR
-					}
-					FROM = {
 						tag = ARS
 					}
-				}
-				ARS = {
-					annex_country = {
-						target = LCR
-						transfer_troops = no
+					FROM = {
+						OR = {
+							tag = DCR
+							tag = ICR
+							tag = LCR
+						}
 					}
+				}
+				every_state = {
+					limit = {
+						OR = {
+							is_core_of = LCR
+							is_core_of = DCR
+							is_core_of = ICR
+						}
+						is_controlled_by = ARS
+					}
+					add_to_array = { ARS_controlled_icrusia = THIS }
 				}
 			}
-			else_if = {
-				limit = {
-					ROOT = {
-						tag = DCR
-					}
-					FROM = {
-						tag = ARS
-					}
+		} 
+	}
+
+on_puppet = {
+	effect = {
+		if = {
+			limit = {
+				ROOT = {
+					tag = LCR
 				}
-				ARS = {
-					annex_country = {
-						target = DCR
-						transfer_troops = no
-					}
+				FROM = {
+					tag = ARS
 				}
 			}
-			else_if = {
-				limit = {
-					ROOT = {
-						tag = ICR
-					}
-					FROM = {
-						tag = ARS
-					}
+			ARS = {
+				annex_country = {
+					target = LCR
+					transfer_troops = no
 				}
-				ARS = {
-					annex_country = {
-						target = ICR
-						transfer_troops = no
-					}
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					tag = DCR
+				}
+				FROM = {
+					tag = ARS
+				}
+			}
+			ARS = {
+				annex_country = {
+					target = DCR
+					transfer_troops = no
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					tag = ICR
+				}
+				FROM = {
+					tag = ARS
+				}
+			}
+			ARS = {
+				annex_country = {
+					target = ICR
+					transfer_troops = no
 				}
 			}
 		}
 	}
+}
 
 #	on_capitulation = {
 #		effect = {
@@ -411,16 +345,13 @@ on_actions = {
 						random = 1
 						random_days = 0
 					}
-					every_state = {
-						limit = {
-							OR = {
-								is_core_of = DCR
-								is_core_of = LCR
-								is_core_of = ICR
-							}
-							is_controlled_by = ARS
-						}
-						transfer_state = THIS
+				}
+				every_state = {
+					limit = {
+						is_in_array = { ARS_controlled_icrusia = THIS }
+					}
+					ICR = {
+						transfer_state = PREV
 					}
 				}
 				white_peace = {
@@ -461,16 +392,13 @@ on_actions = {
 						random = 1
 						random_days = 0
 					}
-					every_state = {
-						limit = {
-							OR = {
-								is_core_of = DCR
-								is_core_of = LCR
-								is_core_of = ICR
-							}
-							is_controlled_by = ARS
-						}
-						transfer_state = THIS
+				}
+				every_state = {
+					limit = {
+						is_in_array = { ARS_controlled_icrusia = THIS }
+					}
+					DCR = {
+						transfer_state = PREV
 					}
 				}
 				white_peace = {
@@ -511,16 +439,13 @@ on_actions = {
 						random = 1
 						random_days = 0
 					}
-					every_state = {
-						limit = {
-							OR = {
-								is_core_of = DCR
-								is_core_of = LCR
-								is_core_of = ICR
-							}
-							is_controlled_by = ARS
-						}
-						transfer_state = THIS
+				}
+				every_state = {
+					limit = {
+						is_in_array = { ARS_controlled_icrusia = THIS }
+					}
+					LCR = {
+						transfer_state = PREV
 					}
 				}
 				white_peace = {

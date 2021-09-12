@@ -1,0 +1,65 @@
+ideas = {
+
+	country = {
+
+		#starting ideas
+
+		ROZ_juggenaut = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription = 0.75
+				non_core_manpower = 1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ROZ_pillage = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ARS
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				supply_consumption_factor = -10
+				no_supply_grace = 168
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+#gained ideas
+
+	}
+	
+}
