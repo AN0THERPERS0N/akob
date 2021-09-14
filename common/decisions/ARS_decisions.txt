@@ -26,7 +26,6 @@ Start_airestonian_civil_war = {
                     target = ARS
                     type = annex_everything
                 }
-                add_civil_war_target = ARS
                 load_oob = "ROZ_1714"
                 change_tag_from = ROOT
             }

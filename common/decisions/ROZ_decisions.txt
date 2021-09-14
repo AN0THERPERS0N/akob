@@ -1,5 +1,5 @@
 ROZ_war_decisions = {
-    ROZ_drain = {
+    ROZ_infiltrate = {
         icon = ger_mefo_bills
         
         available = {
@@ -42,7 +42,7 @@ ROZ_war_decisions = {
         }
     }
 
-    ROZ_decimate = {
+    ROZ_insurrect = {
         icon = ger_mefo_bills
         
         available = {
@@ -51,7 +51,7 @@ ROZ_war_decisions = {
 
         fire_only_once = no
 
-        days_re_enable = 31
+        days_re_enable = 0
 
         visible = {
             ROOT = {
@@ -62,19 +62,104 @@ ROZ_war_decisions = {
         cost = 1
         
         complete_effect = {   
-            every_state = {
+            every_enemy_country = {
                 limit = {
-                    is_controlled_by = ROZ
+                    has_war_with = ROZ
                 }
-                every_neighbor_state = {
+                random_state = {
                     limit = {
-                        NOT = { is_controlled_by = ROZ }
+                        is_controlled_by = PREV
+                        is_capital = no
                     }
-                    add_state_modifier = {
-                        modifier = {
-                            local_supplies = -1
-                            
-                        }
+                    ROZ = { 
+                        transfer_state = PREV 
+                    }
+                    create_unit = {
+                        division = "division_template = \"Rozozhok Red Brigade\" start_experience_factor = 0 start_equipment_factor = 1"
+                        owner = ROZ
+                        allow_spawning_on_enemy_provs = yes
+						count = 5
+                    }
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ROZ_defect = {
+        icon = ger_mefo_bills
+        
+        available = {
+            tag = ROZ
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 31
+        days_remove = 30
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 1
+        
+        complete_effect = {   
+            every_country = {
+                limit = {
+                    has_war_with = ROZ
+                }
+                set_temp_variable = { global.ROZ_manpower_defect = manpower_k }
+                multiply_temp_variable = { global.ROZ_manpower_defect = -167 }
+                add_manpower = var:global.ROZ_manpower_defect
+            }
+            multiply_temp_variable = { global.ROZ_manpower_defect = -1 }
+            ROZ = { add_manpower = var:global.ROZ_manpower_defect }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ROZ_desist = {
+        icon = ger_mefo_bills
+        
+        available = {
+            tag = ROZ
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 31
+        days_remove = 30
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 1
+        
+        complete_effect = {   
+            every_country = {
+                limit = {
+                    has_war_with = ROZ
+                }
+                every_state = {
+                    limit = {
+                        is_controlled_by = PREV
+                        is_capital = yes
+                    }
+                    damage_building = {
+                        type = infrastructure
+                        damage = 10
                     }
                 }
             }
