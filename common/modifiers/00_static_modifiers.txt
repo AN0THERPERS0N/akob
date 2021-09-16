@@ -2,6 +2,14 @@
 # Effects are fully scriptable here.
 # These names can NOT be removed or changes, as the code uses them....
 
+#akob
+
+ROZ_decimate = {
+	supply_consumption_factor = 1000
+}
+
+#vanilla
+
 weather_rain_light = { # on Region 
 	air_detection = -0.1
 	naval_detection = -0.1

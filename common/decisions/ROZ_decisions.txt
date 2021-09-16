@@ -127,7 +127,7 @@ ROZ_war_decisions = {
         }
     }
 
-    ROZ_desist = {
+    ROZ_decimate = {
         icon = ger_mefo_bills
         
         available = {
@@ -136,7 +136,7 @@ ROZ_war_decisions = {
 
         fire_only_once = no
 
-        days_re_enable = 31
+        days_re_enable = 1
         days_remove = 30
 
         visible = {
@@ -152,14 +152,45 @@ ROZ_war_decisions = {
                 limit = {
                     has_war_with = ROZ
                 }
+                set_country_flag = ROZ_decimated
                 every_state = {
                     limit = {
-                        is_controlled_by = PREV
-                        is_capital = yes
+                        is_controlled_by = ROZ
                     }
-                    damage_building = {
-                        type = infrastructure
-                        damage = 10
+                    every_neighbor_state = {
+                        limit = {
+                            NOT = { is_controlled_by = ROZ }
+                        }
+                        add_province_modifier = { 
+                            static_modifiers = { ROZ_decimate }
+                            province = {
+                                all_provinces = yes
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        remove_effect = {
+            every_country = {
+                limit = {
+                    has_country_flag = ROZ_decimated
+                }
+                every_state = {
+                    limit = {
+                        is_controlled_by = ROZ
+                    }
+                    every_neighbor_state = {
+                        limit = {
+                            NOT = { is_controlled_by = ROZ }
+                        }
+                        remove_province_modifier = { 
+                            static_modifiers = { ROZ_decimate }
+                            province = {
+                                all_provinces = yes
+                            }
+                        }
                     }
                 }
             }
