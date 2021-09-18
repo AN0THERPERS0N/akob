@@ -45,6 +45,10 @@ add_ideas = {
 	extensive_conscription
 }
 
+set_variable = { trb_efror_integration = 0 }
+set_variable = { trb_efror_citizenship = 0 }
+set_variable = { trb_efror_rebellion = -0.2 }
+
 create_country_leader = {
 	name = "Wylemot Scheurer"
 	desc = "POLITICS_AMARIS_DESC"

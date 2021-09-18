@@ -1620,7 +1620,7 @@ icon = GFX_goal_cuirassier
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_research_advanced_cavalry_designs }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
+mutually_exclusive = {focus = ICR_advanced_lancer_classes }
 available = {
 }
 bypass = {
@@ -1648,7 +1648,7 @@ icon = GFX_goal_lancer
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ICR_research_advanced_cavalry_designs }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
+mutually_exclusive = {focus = ICR_advanced_cuirassier_classes }
 available = {
 }
 bypass = {
@@ -2011,8 +2011,7 @@ x = 55
 y = 7
 icon = "GFX_goal_oh_astrigan"
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ICR_advanced_cuirassier_classes }
-prerequisite = { focus = ICR_advanced_lancer_classes }
+prerequisite = { focus = ICR_advanced_cuirassier_classes OR = ICR_advanced_lancer_classes }
 #`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
@@ -2507,10 +2506,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_restart_the_gears_of_economy"
-	add_timed_idea = {
-		idea = ICR_restart_the_economy
-		days = 365
-	}
+	add_ideas = ICR_restart_the_economy
 }
 ai_will_do = {
 }
@@ -2977,7 +2973,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_proclaimation_of_peace"
-	add_political_power = 50
+	add_political_power = 100
 	add_stability = 0.1
 }
 ai_will_do = {
@@ -3003,7 +2999,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_promote_our_successes"
-	add_political_power = 50
+	add_political_power = 100
 	add_stability = 0.1
 }
 ai_will_do = {
@@ -3036,6 +3032,7 @@ completion_reward = {
 			instant_build = yes
 		}
 	}
+	add_political_power = 100
 }
 ai_will_do = {
 }
@@ -4077,7 +4074,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ICR_hold_countruwide_celebrations"
-	add_political_power = 100
+	add_political_power = 250
 }
 ai_will_do = {
 }
@@ -4657,7 +4654,7 @@ completion_reward = {
 	remove_ideas = ICR_icrusia_city_show_trials2
 	add_timed_idea = {
 		idea = ICR_icrusia_city_show_trials3
-		days = 180
+		days = 365
 	}
 	country_event = {
 		id = icr.9

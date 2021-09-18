@@ -167,32 +167,44 @@ ROZ_war_decisions = {
                                 all_provinces = yes
                             }
                         }
+                        set_state_flag = ROZ_decimated
                     }
+                }
+            }
+            set_variable = { global.ROZ_decimate_on = 1 }
+            while_loop_effect = {
+                limit = {
+                    check_variable = { global.ROZ_decimate_on = 1 }
+                }
+                every_state = {
+                    limit = {
+                        has_state_flag = ROZ_decimated
+                        is_controlled_by = ROZ
+                    }
+                    remove_province_modifier = { 
+                        static_modifiers = { ROZ_decimate }
+                        province = {
+                            all_provinces = yes
+                        }
+                    }
+                    clr_state_flag = ROZ_decimated
                 }
             }
         }
 
         remove_effect = {
-            every_country = {
+            clear_variable = global.ROZ_decimate_on
+            every_state = {
                 limit = {
-                    has_country_flag = ROZ_decimated
+                    has_state_flag = ROZ_decimated
                 }
-                every_state = {
-                    limit = {
-                        is_controlled_by = ROZ
-                    }
-                    every_neighbor_state = {
-                        limit = {
-                            NOT = { is_controlled_by = ROZ }
-                        }
-                        remove_province_modifier = { 
-                            static_modifiers = { ROZ_decimate }
-                            province = {
-                                all_provinces = yes
-                            }
-                        }
+                remove_province_modifier = { 
+                    static_modifiers = { ROZ_decimate }
+                    province = {
+                        all_provinces = yes
                     }
                 }
+                clr_state_flag = ROZ_decimated
             }
         }
 

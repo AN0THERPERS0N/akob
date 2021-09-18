@@ -1,0 +1,52 @@
+﻿###########################
+# Democratic Icrusia Events
+###########################
+
+add_namespace = trb
+
+country_event = { #recollect trubian efror war
+	id = trb.1
+	title = trb.1.t
+	desc = trb.1.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = trb.1.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #recollect trubian efror war2
+	id = trb.2
+	title = trb.2.t
+	desc = trb.2.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = trb.2.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #explain drugs
+	id = trb.3
+	title = trb.3.t
+	desc = trb.3.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = trb.3.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

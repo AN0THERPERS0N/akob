@@ -4,46 +4,6 @@ ideas = {
 
 		#starting focus
 
-#		ICR_test = {
-#			picture = not_a_country
-#			
-#			allowed = {
-#				tag = ICR
-#			}
-#
-#			available = {
-#				
-#			}
-#			
-#			modifier = {
-#				army_attack_factor = 1000
-#				army_defence_factor = 1000
-#				army_org_factor = 1000
-#				army_org_regain = 1000
-#				breakthrough_factor = 1000
-#				attrition = -1000
-#				experience_gain_army = -1000
-#				pocket_penalty = -1000
-#				recon_factor = 1000
-#				terrain_penalty_reduction = 1000
-#				no_supply_grace = 1000000
-#				org_loss_when_moving = -1000
-#				out_of_supply_factor = -1000
-#				supply_consumption_factor = -1000
-#				training_time_factor = 1000000
-#			}
-#
-#			cancel = {
-#
-#			}
-#
-#			allowed_civil_war = {
-#				always = yes
-#			}
-#
-#			removal_cost = -1
-#		}
-
 		ICR_icrusian_civil_war = {
 			picture = not_a_country
 			
@@ -848,7 +808,7 @@ ideas = {
 			
 			modifier = {
 				stability_weekly = 0.005
-				political_power_gain = 0.3
+				political_power_gain = 0.5
 			}
 
 			cancel = {
@@ -875,7 +835,7 @@ ideas = {
 			
 			modifier = {
 				stability_weekly = 0.01
-				political_power_gain = 0.4
+				political_power_gain = 1
 			}
 
 			cancel = {
@@ -901,8 +861,9 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = 0.5
+				stability_weekly = 0.01
 				drift_defence_factor = 0.3
+				political_power_gain = 2
 			}
 
 			cancel = {
@@ -1068,7 +1029,7 @@ ideas = {
 			}
 			
 			modifier = {
-				weekly_manpower = -2000
+				weekly_manpower = -4000
 				political_power_gain = 0.5
 				stability_weekly = 0.01
 			}
@@ -1096,7 +1057,7 @@ ideas = {
 			}
 			
 			modifier = {
-				weekly_manpower = -4000
+				weekly_manpower = -8000
 				political_power_gain = 1
 				stability_weekly = 0.015
 			}
@@ -1124,7 +1085,7 @@ ideas = {
 			}
 			
 			modifier = {
-				weekly_manpower = -6000
+				weekly_manpower = -12000
 				political_power_gain = 1.5
 				stability_weekly = 0.02
 			}
@@ -1262,7 +1223,7 @@ ideas = {
 			}
 			
 			modifier = {
-				political_power_gain = 0.5
+				political_power_gain = 0.25
 				fascism_drift = 0.02
 			}
 
@@ -1316,8 +1277,8 @@ ideas = {
 			}
 			
 			modifier = {
-				justify_war_goal_time = 0.25
-				justify_war_goal_when_in_major_war_time = 0.25
+				justify_war_goal_time = -0.25
+				justify_war_goal_when_in_major_war_time = -0.25
 			}
 
 			cancel = {
@@ -1343,8 +1304,8 @@ ideas = {
 			}
 			
 			modifier = {
-				justify_war_goal_time = 0.5
-				justify_war_goal_when_in_major_war_time = 0.5
+				justify_war_goal_time = -0.5
+				justify_war_goal_when_in_major_war_time = -0.5
 			}
 
 			cancel = {
@@ -1370,8 +1331,8 @@ ideas = {
 			}
 			
 			modifier = {
-				justify_war_goal_time = 1
-				justify_war_goal_when_in_major_war_time = 1
+				justify_war_goal_time = -1
+				justify_war_goal_when_in_major_war_time = -1
 			}
 
 			cancel = {
@@ -1479,7 +1440,7 @@ ideas = {
 			}
 			
 			modifier = {
-				research_speed_factor = 0.35
+				research_speed_factor = 0.45
 			}
 
 			cancel = {
@@ -1505,7 +1466,7 @@ ideas = {
 			}
 			
 			modifier = {
-				research_speed_factor = 0.5
+				research_speed_factor = 0.75
 			}
 
 			cancel = {
@@ -1589,7 +1550,7 @@ ideas = {
 			
 			modifier = {
 				army_speed_factor = 0.25
-				army_attack_factor = 0.2
+				army_attack_factor = 0.4
 				breakthrough_factor = 0.3
 			}
 
@@ -1617,7 +1578,7 @@ ideas = {
 			
 			modifier = {
 				army_speed_factor = 0.3
-				army_attack_factor = 0.35
+				army_attack_factor = 0.7
 				breakthrough_factor = 0.3
 			}
 
@@ -1644,8 +1605,8 @@ ideas = {
 			}
 			
 			modifier = {
-				army_speed_factor = 0.35
-				army_attack_factor = 0.3
+				army_speed_factor = 0.45
+				army_attack_factor = 0.65
 				breakthrough_factor = 0.3
 			}
 
@@ -1673,7 +1634,7 @@ ideas = {
 			
 			modifier = {
 				army_speed_factor = 0.4
-				army_attack_factor = 0.5
+				army_attack_factor = 1.05
 				breakthrough_factor = 0.3
 			}
 
@@ -1700,8 +1661,8 @@ ideas = {
 			}
 			
 			modifier = {
-				army_speed_factor = 0.5
-				army_attack_factor = 0.4
+				army_speed_factor = 0.65
+				army_attack_factor = 0.9
 				breakthrough_factor = 0.3
 			}
 
@@ -1760,8 +1721,8 @@ ideas = {
 			}
 			
 			modifier = {
-				army_defence_factor = 0.2
-				army_core_attack_factor = 0.15
+				army_defence_factor = 0.3
+				army_core_attack_factor = 0.25
 				dig_in_speed_factor = 0.25
 				land_night_attack = 0.2
 			}
@@ -1789,8 +1750,8 @@ ideas = {
 			}
 			
 			modifier = {
-				army_defence_factor = 0.3
-				army_core_attack_factor = 0.25
+				army_defence_factor = 0.6
+				army_core_attack_factor = 0.55
 				dig_in_speed_factor = 0.4
 				land_night_attack = 0.35
 			}
@@ -1818,8 +1779,8 @@ ideas = {
 			}
 			
 			modifier = {
-				army_defence_factor = 0.4
-				army_core_attack_factor = 0.4
+				army_defence_factor = 0.95
+				army_core_attack_factor = 0.85
 				dig_in_speed_factor = 0.55
 				land_night_attack = 0.5
 			}
@@ -1847,9 +1808,9 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.2
-				army_defence_factor = 0.25
-				army_speed_factor = -0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.15
+				army_speed_factor = -0.05
 				army_org_factor = 0.3
 				army_morale_factor = 0.3
 			}
@@ -1879,7 +1840,7 @@ ideas = {
 			modifier = {
 				army_attack_factor = 0.3
 				army_defence_factor = 0.35
-				army_speed_factor = -0.25
+				army_speed_factor = -0.15
 				army_org_factor = 0.4
 				army_morale_factor = 0.4
 			}
@@ -1907,9 +1868,9 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.4
-				army_defence_factor = 0.5
-				army_speed_factor = -0.35
+				army_attack_factor = 0.5
+				army_defence_factor = 0.55
+				army_speed_factor = -0.25
 				army_org_factor = 0.5
 				army_morale_factor = 0.5
 			}
@@ -1937,7 +1898,7 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.2
+				army_attack_factor = 0.4
 				army_org_factor = 0.1
 				terrain_penalty_reduction = 0.25
 				land_night_attack = 0.2
@@ -1967,7 +1928,7 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.35
+				army_attack_factor = 0.8
 				army_org_factor = 0.2
 				terrain_penalty_reduction = 0.4
 				land_night_attack = 0.3
@@ -1997,7 +1958,8 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.3
+				army_attack_factor = 0.1
+				army_defence_factor = 0.5
 				army_org_factor = 0.3
 				terrain_penalty_reduction = 0.4
 				land_night_attack = 0.3
@@ -2027,7 +1989,7 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.5
+				army_attack_factor = 1.25
 				army_org_factor = 0.3
 				terrain_penalty_reduction = 0.5
 				land_night_attack = 0.4
@@ -2057,7 +2019,8 @@ ideas = {
 			}
 			
 			modifier = {
-				army_attack_factor = 0.4
+				army_attack_factor = 0.1
+				army_defence_factor = 1.15
 				army_org_factor = 0.45
 				terrain_penalty_reduction = 0.5
 				land_night_attack = 0.4
