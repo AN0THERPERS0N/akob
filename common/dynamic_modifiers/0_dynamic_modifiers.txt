@@ -98,6 +98,13 @@ large_efror_minority = {
 	production_lack_of_resource_penalty_factor = var:TRB.trb_efror_citizenship
 }
 
+banks_of_trubia = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+
+	political_power_gain = var:TRB.trb_banks
+}
+
 #ICR
 
 ICR_natural_wealth_of_central_ambulas = {

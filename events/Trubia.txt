@@ -50,3 +50,73 @@ country_event = { #explain drugs
 		}
 	}
 }
+
+country_event = { #denounce Illidea and litteveria
+	id = trb.4
+	title = trb.4.t
+	desc = trb.4.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = trb.4.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #denounce Illidea and litteveria
+	id = trb.5
+	title = trb.5.t
+	desc = trb.5.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = trb.5.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #dark eyed scramble
+	id = trb.6
+	title = trb.6.t
+	desc = trb.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = trb.6.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #dark eyed scramble
+	id = trb.7
+	title = trb.7.t
+	desc = trb.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = trb.7.a
+		swap_ideas = {
+			add_idea = TRB_militarised_nation3
+			remove_idea = TRB_militarised_nation2
+		}
+		every_state = {
+			limit = {
+				is_controlled_by = TRB
+			}
+			add_core_of = TRB
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

@@ -2779,8 +2779,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_try_a_combination"
-	#units
-	#equipment
+	add_ideas = TRB_superhuman_focus
 }
 ai_will_do = {
 }
@@ -3801,7 +3800,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_repopulate_the_farmlands"
-	#buildings
+	195 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3825,7 +3830,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_expand_the_blecham_factories"
-	#buildings
+	188 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3901,7 +3912,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_build_the_vaamo_canals"
-	#buildings
+	178 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3925,7 +3942,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_subsidise_the_bread_basket_of_trubia"
-	#buildings
+	188 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3973,7 +3996,35 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_build_large_factories_in_the_countryside"
-	#buildings
+	203 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	202 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	26 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	209 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	add_political_power = -200
 }
 ai_will_do = {
 }
@@ -3997,7 +4048,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_standardise_the_factories"
-	#buildings
+	201 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4021,7 +4078,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_quality_inspections"
-	#buildings
+	184 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4093,7 +4156,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_grow_bigger_farms"
-	#buildings
+	168 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	add_political_power = 100
 }
 ai_will_do = {
 }
@@ -4178,7 +4248,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_further_industrialise_astrigan"
-	#buildings
+	201 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4203,7 +4279,20 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_factory_checkups"
-	#research
+	207 = {
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	189 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4311,7 +4400,34 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_improve_the_capital"
-	#buildings
+	201 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	168 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	188 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	214 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4335,7 +4451,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_build_new_headquarters"
-	#buildings
+	207 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4361,7 +4483,20 @@ available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_finance_failing_banks"
 	add_political_power = -100
-	#buildings
+	if = {
+		limit = {
+			NOT = {
+				has_dynamic_modifier = {
+					modifier = banks_of_trubia
+				}
+			}
+		}
+		add_dynamic_modifier = { modifier = banks_of_trubia }
+		add_to_variable = { trb_banks = 0.4 }
+	}
+	else = {
+		add_to_variable = { trb_banks = 0.4 }
+	}
 }
 ai_will_do = {
 }
@@ -4392,6 +4527,20 @@ completion_reward = {
 		add_idea = TRB_gears_of_war3
 		remove_idea = TRB_gears_of_war2
 	}
+	if = {
+		limit = {
+			NOT = {
+				has_dynamic_modifier = {
+					modifier = banks_of_trubia
+				}
+			}
+		}
+		add_dynamic_modifier = { modifier = banks_of_trubia }
+		add_to_variable = { trb_banks = 0.4 }
+	}
+	else = {
+		add_to_variable = { trb_banks = 0.4 }
+	}
 }
 ai_will_do = {
 }
@@ -4416,7 +4565,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_improve_the_economy"
-	#decisions
+	add_to_variable = { trb_banks = 0.4 }
 }
 ai_will_do = {
 }
@@ -4441,7 +4590,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_invite_investors"
-	#buildings
+	201 = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	add_to_variable = { trb_banks = 0.4 }
 }
 ai_will_do = {
 }
@@ -4467,7 +4623,7 @@ available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_promote_tourism"
 	add_political_power = 50
-	#buildings
+	add_to_variable = { trb_banks = 0.4 }
 }
 ai_will_do = {
 }
@@ -4548,7 +4704,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TRB_war_plan_green"
-		#relations
+		add_opinion_modifier = {
+			target = TRB
+			modifier = hostile_status
+		}
 		add_political_power = 100
 	}
 	ai_will_do = {
@@ -4573,7 +4732,11 @@ focus = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRB_meeting_with_icrusia"
-			#event
+			diplomatic_relation = {
+				country = ICR
+				relation = military_access
+				active = yes
+			}
 		}
 		ai_will_do = {
 		}
@@ -4621,7 +4784,10 @@ focus = {
 				available_if_capitulated = no
 				completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus TRB_bribe_airestonian_allies"
-					#special
+					ARS = { 
+						add_manpower = -100000 
+						add_political_power = -200
+					}
 				}
 				ai_will_do = {
 				}
@@ -4645,8 +4811,11 @@ focus = {
 			available_if_capitulated = no
 			completion_reward = {
 				log = "[GetDateText]: [Root.GetName]: Focus TRB_gain_airestonian_war_strategies"
-				#buildings
-				#event
+				add_political_power = 100
+				add_decryption = {
+					target = ARS
+					amount = 100
+				}
 			}
 			ai_will_do = {
 			}
@@ -4698,7 +4867,12 @@ focus = {
 					available_if_capitulated = no
 					completion_reward = {
 						log = "[GetDateText]: [Root.GetName]: Focus TRB_integrate_airestonian_lands"
-						#cores
+						every_state = {
+							limit = {
+								is_in_array = { ARS_lands = THIS }
+							}
+							add_core_of = TRB
+						}
 					}
 					ai_will_do = {
 					}
@@ -4802,7 +4976,11 @@ focus = {
 					available_if_capitulated = no
 					completion_reward = {
 						log = "[GetDateText]: [Root.GetName]: Focus TRB_operation_dark_eyed_scramble"
-						#event
+						country_event = {
+							id = trb.6
+							days = 0
+							random = 0
+						}
 					}
 					ai_will_do = {
 					}
@@ -4826,7 +5004,48 @@ focus = {
 					available_if_capitulated = no
 					completion_reward = {
 						log = "[GetDateText]: [Root.GetName]: Focus TRB_connect_new_lands"
-					#buildings
+						186 = {
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						192 = {
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						194 = {
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						177 = {
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						165 = {
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						157 = {
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
 					}
 					ai_will_do = {
 					}
@@ -4877,9 +5096,32 @@ focus = {
 			available_if_capitulated = no
 			completion_reward = {
 				log = "[GetDateText]: [Root.GetName]: Focus TRB_break_the_last_of_the_old_guard"
-				create_wargoal = {
-					type = puppet_wargoal_focus
-					target = ICR
+				if = {
+					limit = {
+						country_exists = ICR
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = ICR
+					}
+				}
+				else_if = {
+					limit = {
+						country_exists = DCR
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = DCR
+					}
+				}
+				else_if = {
+					limit = {
+						country_exists = LCR
+					}
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = LCR
+					}
 				}
 			}
 			ai_will_do = {
@@ -4904,7 +5146,11 @@ focus = {
 				available_if_capitulated = no
 				completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus TRB_the_undying_confederacy"
-					#event
+					country_event = {
+						id = trb.7
+						days = 0
+						random = 0
+					}
 				}
 				ai_will_do = {
 				}
@@ -4953,7 +5199,15 @@ focus = {
 				available_if_capitulated = no
 				completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus TRB_isolate_icrusia"
-					#relations
+					ICR = { 
+						add_manpower = -300000 
+						add_political_power = -500
+					}
+					diplomatic_relation = {
+						country = ICR
+						relation = military_access
+						active = no
+					}
 				}
 				ai_will_do = {
 				}
@@ -4980,7 +5234,10 @@ focus = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRB_war_plan_grey"
-			#relations
+			add_opinion_modifier = {
+				target = TRB
+				modifier = hostile_status
+			}
 			add_political_power = 100
 		}
 		ai_will_do = {
@@ -5005,7 +5262,10 @@ focus = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRB_war_plan_pink"
-			#relations
+			add_opinion_modifier = {
+				target = TRB
+				modifier = hostile_status
+			}
 			add_political_power = 100
 		}
 		ai_will_do = {
@@ -5030,8 +5290,11 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_denounce_the_western_kingdoms"
-	#relations
-	#event
+	country_event = {
+		id = trb.4
+		days = 0
+		random = 0
+	}
 }
 ai_will_do = {
 }
@@ -5055,7 +5318,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus TRB_mobilise_the_western_border"
-		#units
+		178 = {
+			create_unit = {
+				division = "division_template = \"Trubian Confederate Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+				owner = ROOT
+				allow_spawning_on_enemy_provs = yes
+				count = 5
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -5138,7 +5408,20 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_make_preparations"
-	#buildings
+	203 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	202 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -5162,7 +5445,20 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_build_up_roads_to_the_west"
-	#buildings
+	178 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	195 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -5294,7 +5590,12 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_integrate_western_lands"
-	#cores
+	every_state = {
+		limit = {
+			is_in_array = { ILD_LTV_lands = THIS }
+		}
+		add_core_of = TRB
+	}
 }
 ai_will_do = {
 }
@@ -5318,7 +5619,12 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus TRB_integrate_remaining_efror_lands"
-	#cores
+	every_state = {
+		limit = {
+			is_in_array = { EFR_lands = THIS }
+		}
+		add_core_of = TRB
+	}
 }
 ai_will_do = {
 }

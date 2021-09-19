@@ -48,6 +48,32 @@ add_ideas = {
 set_variable = { trb_efror_integration = 0 }
 set_variable = { trb_efror_citizenship = 0 }
 set_variable = { trb_efror_rebellion = -0.2 }
+set_variable = { trb_banks = 0 }
+
+every_state = {
+	limit = {
+		OR = {
+			is_core_of = ILD
+			is_core_of = LTV
+		}
+	}
+	add_to_array = { ILD_LTV_lands = THIS }
+}
+
+every_state = {
+	limit = {
+		is_core_of = EFR
+		NOT = { is_core_of = TRB }
+	}
+	add_to_array = { EFR_lands = THIS }
+}
+
+every_state = {
+	limit = {
+		is_core_of = ARS
+	}
+	add_to_array = { ARS_lands = THIS }
+}
 
 create_country_leader = {
 	name = "Wylemot Scheurer"
