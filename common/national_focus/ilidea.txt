@@ -45,7 +45,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_end_the_succession_crisis"
-			#event
+			country_event = {
+				id = ild.1
+				days = 0
+			}
 		}
 
 		ai_will_do = {
@@ -109,7 +112,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_set_up_the_people_council"
-			
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+			add_ideas = ILD_ainia_councils
 		}
 
 		ai_will_do = {
@@ -142,6 +149,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_vote_on_issues"
 			add_political_power = 200
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
 		}
 
 		ai_will_do = {
@@ -175,6 +186,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_increase_representatives"
 			add_political_power = 100
 			add_manpower = 100000
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
 		}
 
 		ai_will_do = {
@@ -208,6 +223,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_gather_the_people"
 			add_stability = 0.1
 			add_manpower = 100000
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
 		}
 
 		ai_will_do = {
@@ -242,6 +261,10 @@ focus_tree = {
 			swap_ideas = {
 				add_idea = ILD_ainia_councils2
 				remove_idea = ILD_ainia_councils
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
 			}
 		}
 
@@ -417,7 +440,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_organise_protests"
-			#event
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
 		}
 
 		ai_will_do = {
@@ -449,7 +479,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_worker_rights"
-			#buildings
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
 		}
 
 		ai_will_do = {
@@ -482,7 +519,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_break_the_hierarchy"
 			add_political_power = 100
-			#buildings
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
 		}
 
 		ai_will_do = {
@@ -514,7 +558,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_calls_for_equality"
-			#event
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
+			}
 		}
 
 		ai_will_do = {
@@ -533,7 +584,8 @@ focus_tree = {
 		prerequisite = { focus = ILD_build_trust_with_the_people OR = ILD_increase_representatives }
 		mutually_exclusive = {focus = ILD_establish_a_constituitional_monarchy }
 		available = {
-			democratic > 0.99
+			communism > 0.75
+			neutrality < 0.1
 		}
 
 		bypass = {
@@ -548,7 +600,13 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_unconditional_democracy"
-			#event
+			set_politics = {
+				ruling_party = communism
+					elections_allowed = no
+					last_election = "1710.12.17"
+					election_frequency = 48
+			}
+			remove_ideas = ILD_succession_crisis
 		}
 
 		ai_will_do = {
@@ -583,7 +641,13 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_establish_a_constituitional_monarchy"
-			#event
+			set_politics = {
+				ruling_party = democratic
+					elections_allowed = no
+					last_election = "1710.12.17"
+					election_frequency = 48
+			}
+			remove_ideas = ILD_succession_crisis
 		}
 
 		ai_will_do = {
@@ -615,7 +679,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_review_the_national_situation"
-			#event
+			country_event = {
+				id = ild.2
+				days = 0
+			}
 		}
 
 		ai_will_do = {
@@ -1081,7 +1148,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_operation_black_nights"
-			#events
+			country_event = {
+				id = ild.3
+				days = 0
+			}
 		}
 
 		ai_will_do = {
@@ -1185,7 +1255,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_echainaian_restlessness"
-			#relations
+			add_opinion_modifier = {
+				target = ECH
+				modifier = condemn_aggression
+			}
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -1220,7 +1294,7 @@ focus_tree = {
 			ECH = {
 				add_popularity = {
 					ideology = democratic
-					popularity = 0.1
+					popularity = 0.15
 				}
 			}
 			ECH = { add_ideas = ILD_democratic_influence }
@@ -1255,7 +1329,22 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_protect_the_northern_border"
-			#buildings
+			80 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 1402
+						id = 114
+						id = 2107
+						id = 132
+						id = 2118
+						id = 249
+						id = 1904
+					}
+				}
+			}
 			add_manpower = 100000
 		}
 
@@ -1497,7 +1586,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_arsenal_of_freedom"
 			remove_ideas = ILD_rampant_corruption2
 			remove_ideas = ILD_black_dragon_resistance2
-			#decisions
+			unlock_decision_category_tooltip = ILD_war_decisions
 		}
 
 		ai_will_do = {
@@ -1529,7 +1618,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_prince_viktor_II_coronated"
-			#event
+			country_event = {
+				id = ild.4
+				days = 0
+			}
 		}
 
 		ai_will_do = {
@@ -1561,7 +1653,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_coronation_day"
-			#event
+			add_timed_idea = {
+				idea = ILD_festivities_and_celebrations
+				days = 31
+			}
 		}
 
 		ai_will_do = {
@@ -1593,7 +1688,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_move_the_royal_palace"
-			#capital
+			country_event = {
+				id = ild.5
+				days = 0
+			}
 		}
 
 		ai_will_do = {
@@ -1610,7 +1708,6 @@ focus_tree = {
 		prerequisite = { focus = ILD_prince_viktor_II_coronated }
 		#mutually_exclusive = {focus = GOZ_economy_above_all }
 		available = {
-
 		}
 
 		bypass = {
@@ -1625,7 +1722,27 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_celebrations"
-			#events
+			98 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			97 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			85 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1657,7 +1774,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_roll_out_the_red_carpet"
-			add_political_power = 100
+			remove_ideas = ILD_festivities_and_celebrations
+			add_timed_idea = {
+				idea = ILD_festivities_and_celebrations2
+				days = 31
+			}
 		}
 
 		ai_will_do = {
@@ -1689,7 +1810,20 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_visit_the_farmers"
-			#buildings
+			131 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			122 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1721,7 +1855,20 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_host_a_grand_feast"
-			#events
+			99 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			83 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1788,7 +1935,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_party_all_night"
-			add_political_power = 100
+			remove_ideas = ILD_festivities_and_celebrations2
+			add_timed_idea = {
+				idea = ILD_festivities_and_celebrations3
+				days = 31
+			}
 		}
 
 		ai_will_do = {
@@ -1822,7 +1973,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_return_to_normal"
-			remove_ideas = ILD_succession_crisis
+			add_political_power = 100
 		}
 
 		ai_will_do = {
@@ -1855,6 +2006,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_our_princely_brothers"
 			add_political_power = 100
+			remove_ideas = ILD_succession_crisis
 		}
 
 		ai_will_do = {
@@ -2558,7 +2710,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_a_bloody_past"
-			#event
+			add_stability = 0.1
+			add_political_power = -100
 		}
 
 		ai_will_do = {
@@ -2590,7 +2743,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_avenge_the_bloodline"
-			#event
+			country_event = {
+				id = ild.6
+				days = 0
+			}
 		}
 
 		ai_will_do = {
@@ -2624,7 +2780,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_backhand_politics"
 			add_popularity = {
 				ideology = neutrality
-				popularity = 0.4
+				popularity = 0.2
 			}
 			add_political_power = -100
 		}
@@ -2692,7 +2848,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_intimidate_our_enemies"
 			add_popularity = {
 				ideology = neutrality
-				popularity = 0.25
+				popularity = 0.15
 			}
 			add_political_power = 100
 		}
@@ -2727,6 +2883,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_a_kingdom_of_blood"
 			add_ideas = ILD_kingdom_of_blood
+			remove_ideas = ILD_black_dragon_resistance
 		}
 
 		ai_will_do = {

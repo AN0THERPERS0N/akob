@@ -1,0 +1,123 @@
+﻿###########################
+# Democratic Icrusia Events
+###########################
+
+add_namespace = ild
+
+country_event = { #end the succession crisis
+	id = ild.1
+	title = ild.1.t
+	desc = ild.1.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.1.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #review national situation
+	id = ild.2
+	title = ild.2.t
+	desc = ild.2.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.2.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #operation black nights
+	id = ild.3
+	title = ild.3.t
+	desc = ild.3.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.3.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #prince victor coronated
+	id = ild.4
+	title = ild.4.t
+	desc = ild.4.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.4.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #move royal palace
+	id = ild.5
+	title = ild.5.t
+	desc = ild.5.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = { #stay
+		name = ild.5.a
+		add_political_power = 100
+		98 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = { #move
+		name = ild.5.b
+		add_political_power = 100
+		set_capital = 122
+		122 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #avenge bloodline
+	id = ild.6
+	title = ild.6.t
+	desc = ild.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.6.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

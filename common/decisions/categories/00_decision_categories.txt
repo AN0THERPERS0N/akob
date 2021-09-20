@@ -12,12 +12,24 @@
 #	}
 #}
 
+ILD_war_decisions = {
+	priority = 1000
+	icon = generic_propaganda
+
+	allowed = {
+		tag = ILD
+	}
+	visible = {
+
+	}
+}
+
 ROZ_war_decisions = {
 	priority = 1000
 	icon = generic_propaganda
 
 	allowed = {
-		always = yes
+		tag = ROZ
 	}
 	visible = {
 

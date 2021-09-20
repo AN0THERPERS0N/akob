@@ -1,0 +1,59 @@
+ILD_war_decisions = {
+    ILD_war_ECH = {
+        icon = ger_mefo_bills
+        
+        available = {
+            threat > 0.5
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            declare_war_on = {
+                target = ECH
+                type = puppet_wargoal_focus
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_war_TRB = {
+        icon = ger_mefo_bills
+        
+        available = {
+            threat > 0.5
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            declare_war_on = {
+                target = TRB
+                type = puppet_wargoal_focus
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
