@@ -28,6 +28,7 @@ add_ideas = {
 	ILD_succession_crisis
 	ILD_rampant_corruption
 	ILD_black_dragon_resistance
+	extensive_conscription
 }
 
 create_country_leader = {

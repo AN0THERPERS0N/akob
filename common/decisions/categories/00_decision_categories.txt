@@ -12,6 +12,18 @@
 #	}
 #}
 
+ILD_void_rupture_decisions = {
+	priority = 1000
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+
 ILD_war_decisions = {
 	priority = 1000
 	icon = generic_propaganda

@@ -1,0 +1,144 @@
+ideas = {
+
+	country = {
+
+		BDR_screw_supply = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = BDR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				no_supply_grace = 10000
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		BDR_resistance_strength = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = BDR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.5
+				army_defence_factor = 0.5
+				army_speed_factor = 0.4
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		BDR_resistance_strength2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = BDR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 1
+				army_defence_factor = 1
+				army_speed_factor = 0.8
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		BDR_resistance_strength3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = BDR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 1.5
+				army_defence_factor = 1.5
+				army_speed_factor = 0.12
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		BDR_resistance_strength4 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = BDR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 2
+				army_defence_factor = 2
+				army_speed_factor = 1.5
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+	}
+	
+}

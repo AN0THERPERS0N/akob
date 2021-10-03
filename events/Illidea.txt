@@ -121,3 +121,19 @@ country_event = { #avenge bloodline
 		}
 	}
 }
+
+country_event = { #ILD_void_rupture_start
+	id = ild.7
+	title = ild.7.t
+	desc = ild.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.7.a
+		set_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

@@ -67,3 +67,8 @@ LCR = {
 	color = rgb { 152 60 85 }
 	color_ui = rgb { 152 60 85 }
 }
+
+BDR = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
