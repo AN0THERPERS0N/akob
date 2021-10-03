@@ -74,9 +74,7 @@ ILD_void_rupture_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            check_variable = { ILD_rupture = 1 }
         }
 
         cost = 0
@@ -101,9 +99,7 @@ ILD_void_rupture_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            check_variable = { ILD_rupture = 2 }
         }
 
         cost = 0
@@ -131,8 +127,8 @@ ILD_void_rupture_decisions = {
                     target = ILD
                     type = annex_everything
                 }
+                add_civil_war_target = ILD
             }
-            add_to_variable = { ILD_rupture = 1 }
         }
 
         ai_will_do = {
@@ -150,9 +146,7 @@ ILD_void_rupture_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            check_variable = { ILD_rupture = 3 }
         }
 
         cost = 0
@@ -177,9 +171,7 @@ ILD_void_rupture_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            check_variable = { ILD_rupture = 4 }
         }
 
         cost = 0
@@ -236,8 +228,8 @@ ILD_void_rupture_decisions = {
                     target = ILD
                     type = annex_everything
                 }
+                add_civil_war_target = ILD
             }
-            add_to_variable = { ILD_rupture = 1 }
         }
 
         ai_will_do = {
@@ -258,9 +250,7 @@ ILD_void_rupture_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            check_variable = { ILD_rupture = 5 }
         }
 
         cost = 0
@@ -285,9 +275,7 @@ ILD_void_rupture_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            check_variable = { ILD_rupture = 6 }
         }
 
         cost = 0
@@ -386,8 +374,8 @@ ILD_void_rupture_decisions = {
                     target = ILD
                     type = annex_everything
                 }
+                add_civil_war_target = ILD
             }
-            add_to_variable = { ILD_rupture = 1 }
         }
 
         ai_will_do = {
@@ -408,9 +396,7 @@ ILD_void_rupture_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            check_variable = { ILD_rupture = 7 }
         }
 
         cost = 0
@@ -429,15 +415,13 @@ ILD_void_rupture_decisions = {
         icon = ger_mefo_bills
         
         available = {
-            check_variable = { ILD_rupture = 6 }
+            check_variable = { ILD_rupture = 8 }
         }
 
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            check_variable = { ILD_rupture = 8 }
         }
 
         cost = 0
@@ -592,8 +576,8 @@ ILD_void_rupture_decisions = {
                     target = ILD
                     type = annex_everything
                 }
+                add_civil_war_target = ILD
             }
-            add_to_variable = { ILD_rupture = 1 }
         }
 
         ai_will_do = {

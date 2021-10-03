@@ -137,3 +137,19 @@ country_event = { #ILD_void_rupture_start
 		}
 	}
 }
+
+country_event = { #ILD_void_rupture_end
+	id = ild.8
+	title = ild.8.t
+	desc = ild.8.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.8.a
+		set_cosmetic_tag = SLV_ILD
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
