@@ -1790,6 +1790,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_celebrations"
 			98 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1797,6 +1798,7 @@ focus_tree = {
 				}
 			}
 			97 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1804,6 +1806,7 @@ focus_tree = {
 				}
 			}
 			85 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -1878,6 +1881,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_visit_the_farmers"
 			131 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1885,6 +1889,7 @@ focus_tree = {
 				}
 			}
 			122 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1923,6 +1928,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_host_a_grand_feast"
 			99 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1930,6 +1936,7 @@ focus_tree = {
 				}
 			}
 			83 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -2326,6 +2333,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_co-prosperity"
 			98 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -2435,6 +2443,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_feed_echainaian_slumber"
 			98 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -2683,6 +2692,7 @@ focus_tree = {
 			}
 			ILD = { add_political_power = -300 }
 			98 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -3159,7 +3169,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_increase_farm_sizes"
-			#buildings
+			99 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3255,7 +3272,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_incentives_for_cash_crops"
-			#buildings
+			83 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3287,7 +3311,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_crop_protection_decree"
-			#buildings
+			74 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3354,7 +3385,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_hire_more_farmers"
 			#research
-			add_manpower = 100000
+			add_manpower = 50000
 		}
 
 		ai_will_do = {
@@ -3388,7 +3419,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_slave_provisions"
-			#buildings
+			74 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3452,7 +3490,30 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_wheat_subsidies"
-			#buildings
+			131 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			122 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			144 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3484,7 +3545,22 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_increase_granaries"
-			#buildings
+			143 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			149 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3567,7 +3643,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_build_more_factories"
-			#buildings
+			122 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3599,7 +3682,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_kaujaria_mines"
-			#buildings
+			74 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3631,7 +3721,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_improve_mining_efficiency"
-			#resources
+			add_resource = {
+				type = coal
+				amount = 8
+				state = 74
+			}
 		}
 
 		ai_will_do = {
@@ -3663,7 +3757,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_improved_extraction_practices"
-			#resources
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 80
+			}
 		}
 
 		ai_will_do = {
@@ -3695,7 +3793,16 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_prioritise_resource_gathering"
-			#resources
+			add_resource = {
+				type = cloth
+				amount = 12
+				state = 85
+			}
+			add_resource = {
+				type = steel
+				amount = 10
+				state = 85
+			}
 		}
 
 		ai_will_do = {
@@ -3727,7 +3834,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_expand_the_ouvattani_factories"
-			#buildings
+			122 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3823,7 +3937,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_prioritise_production"
-			#buildings
+			122 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -3983,7 +4104,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_build_the_tiky_production_plant"
-			#buildings
+			98 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -4015,7 +4143,16 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_resource_recycling"
-			#resources
+			add_resource = {
+				type = cloth
+				amount = 9
+				state = 97
+			}
+			add_resource = {
+				type = steel
+				amount = 15
+				state = 98
+			}
 		}
 
 		ai_will_do = {
@@ -4047,7 +4184,38 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_factories_in_the_countryside"
-			#buildings
+			83 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			74 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			99 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			96 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -4079,7 +4247,22 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_factories_in_the_cities"
-			#buildings
+			122 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			98 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -4113,7 +4296,38 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_a_country_of_factories"
-			#decisions
+			98 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			122 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			98 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			122 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -4325,7 +4539,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_basic_weapons_research"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 
 		ai_will_do = {
@@ -4357,7 +4575,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_research_into_support_equipment"
-			#research
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = support_tech
+			}
 		}
 
 		ai_will_do = {
@@ -4389,7 +4611,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_streamline_support_companies"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
 		}
 
 		ai_will_do = {
@@ -4421,7 +4647,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_basic_cavalry_armaments"
-			#research
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = cavalry
+			}
 		}
 
 		ai_will_do = {
@@ -4453,7 +4683,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_improved_cavalry_research"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cavalry
+			}
 		}
 
 		ai_will_do = {
@@ -4485,7 +4719,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_create_the_mikka_cavalry_research_centre"
-			#research
+			add_tech_bonus = {
+				ahead_reduction = 0.5
+				uses = 1
+				category = cavalry
+			}
 		}
 
 		ai_will_do = {
@@ -4517,7 +4755,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_standardise_equipment_production"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
 		}
 
 		ai_will_do = {
@@ -4549,7 +4791,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_boost_weapons_efficiency"
-			#research
+			add_tech_bonus = {
+				ahead_reduction = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
 		}
 
 		ai_will_do = {
@@ -4581,7 +4827,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_venture_into_magic"
-			#research
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = armor
+			}
 		}
 
 		ai_will_do = {
@@ -4645,7 +4895,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_mage_support"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
 		}
 
 		ai_will_do = {
@@ -4677,7 +4931,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_advanced_mage_armaments"
-			#research
+			add_tech_bonus = {
+				ahead_reduction = 0.5
+				uses = 2
+				category = armor
+			}
 		}
 
 		ai_will_do = {

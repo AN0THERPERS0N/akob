@@ -79,6 +79,7 @@ country_event = { #move royal palace
 		name = ild.5.a
 		add_political_power = 100
 		98 = {
+			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = industrial_complex
 				level = 2
@@ -95,6 +96,7 @@ country_event = { #move royal palace
 		add_political_power = 100
 		set_capital = 122
 		122 = {
+			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = arms_factory
 				level = 2
@@ -510,6 +512,7 @@ country_event = { #ECH impossible deal
 		ILD = {
 			add_political_power = 1000
 			98 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -517,6 +520,7 @@ country_event = { #ECH impossible deal
 				}
 			}
 			96 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -524,6 +528,7 @@ country_event = { #ECH impossible deal
 				}
 			}
 			110 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -531,6 +536,7 @@ country_event = { #ECH impossible deal
 				}
 			}
 			122 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -538,6 +544,7 @@ country_event = { #ECH impossible deal
 				}
 			}
 			131 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
