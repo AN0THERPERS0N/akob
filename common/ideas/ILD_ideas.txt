@@ -626,11 +626,41 @@ ideas = {
 			removal_cost = -1
 		}
 
+		ILD_echainaian_illidean_diplomats = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+				tag = ECH
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.25
+			}
+
+			cancel = {
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
 		ILD_echainaian_illidean_trade_deal = {
 			picture = not_a_country
 			
 			allowed = {
 				tag = ILD
+				tag = ECH
 			}
 
 			available = {
@@ -660,6 +690,7 @@ ideas = {
 			
 			allowed = {
 				tag = ILD
+				tag = ECH
 			}
 
 			available = {
@@ -673,6 +704,63 @@ ideas = {
 				army_speed_factor = 0.3
 				army_org_factor = 0.25
 				dig_in_speed_factor = 0.3
+			}
+
+			cancel = {
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_ICR_support = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+			}
+
+			cancel = {
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ILD_ARS_support = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.15
 			}
 
 			cancel = {

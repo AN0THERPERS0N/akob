@@ -10,9 +10,7 @@ ILD_war_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            has_completed_focus = ILD_arsenal_of_freedom
         }
 
         cost = 100
@@ -39,9 +37,7 @@ ILD_war_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            has_completed_focus = ILD_arsenal_of_freedom
         }
 
         cost = 100
@@ -57,6 +53,154 @@ ILD_war_decisions = {
             factor = 0
         }
     }
+}
+
+ILD_war_decisions = {
+
+    ILD_war_ECH = {
+        icon = ger_mefo_bills
+        
+        available = {
+            threat > 0.5
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_arsenal_of_freedom
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            declare_war_on = {
+                target = ECH
+                type = puppet_wargoal_focus
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_war_TRB = {
+        icon = ger_mefo_bills
+        
+        available = {
+            threat > 0.5
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_arsenal_of_freedom
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            declare_war_on = {
+                target = TRB
+                type = puppet_wargoal_focus
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
+
+ILD_anti_trubian_league = {
+
+    ILD_invitation_to_ARS = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_invitations_around_the_globe
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            ARS = {
+                country_event = {
+                    id = ild.17
+                    days = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_invitation_to_ECH = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_invitations_around_the_globe
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            ECH = {
+                country_event = {
+                    id = ild.19
+                    days = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_invitation_to_ICR = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_invitations_around_the_globe
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            ICR = {
+                country_event = {
+                    id = ild.21
+                    days = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
 }
 
 ILD_void_rupture_decisions = {
