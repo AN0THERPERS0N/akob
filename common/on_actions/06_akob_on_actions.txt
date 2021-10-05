@@ -478,7 +478,12 @@ on_puppet = {
 					FROM = { tag = BDR }
 					check_variable = { ILD_rupture = 2 }
 				}
-				add_to_variable = { ILD_rupture = 1 }
+				country_event = {
+					id = ild.10
+					days = 5
+					random = 72
+					random_days = 3
+				}
 			}
 			else_if = {
 				limit = {
@@ -486,7 +491,12 @@ on_puppet = {
 					FROM = { tag = BDR }
 					check_variable = { ILD_rupture = 4 }
 				}
-				add_to_variable = { ILD_rupture = 1 }
+				country_event = {
+					id = ild.12
+					days = 5
+					random = 72
+					random_days = 3
+				}
 			}
 			else_if = {
 				limit = {
@@ -494,7 +504,12 @@ on_puppet = {
 					FROM = { tag = BDR }
 					check_variable = { ILD_rupture = 6 }
 				}
-				add_to_variable = { ILD_rupture = 1 }
+				country_event = {
+					id = ild.14
+					days = 5
+					random = 72
+					random_days = 3
+				}
 			}
 			else_if = {
 				limit = {
@@ -503,9 +518,10 @@ on_puppet = {
 					check_variable = { ILD_rupture = 8 }
 				}
 				country_event = {
-					id = ild.8
-					days = 0
-					random = 0
+					id = ild.16
+					days = 5
+					random = 72
+					random_days = 3
 				}
 			}
 		}

@@ -23,7 +23,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	ILD_test
 	ILD_royal_house_of_illidea
 	ILD_succession_crisis
 	ILD_rampant_corruption

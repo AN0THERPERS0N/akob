@@ -1,4 +1,60 @@
 akob_debug = {
+
+	debug_more_troops = {
+
+		icon = generic_industry
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		days_remove = 1
+		days_re_enable = 1
+
+		cost = 0
+
+		complete_effect = {
+			if = {
+				limit = {
+					ROOT = {
+						NOT = { has_template = "Debug Division" }
+					}
+				}
+				division_template = {
+					name = "Debug Division"
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+					}
+				}
+			}
+			add_manpower = 100000
+			random_state = {
+				limit = {
+					is_controlled_by = ROOT
+				}
+				create_unit = {
+                    division = "division_template = \"Debug Division\" start_experience_factor = 1 start_equipment_factor = 1"
+                    owner = ROOT
+                    allow_spawning_on_enemy_provs = yes
+                    count = 5
+                }
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
 	debug_buff_all_troops = {
 
 		icon = generic_industry

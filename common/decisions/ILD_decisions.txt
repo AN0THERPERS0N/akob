@@ -81,7 +81,12 @@ ILD_void_rupture_decisions = {
         
         complete_effect = {   
             add_political_power = -200
-            add_to_variable = { ILD_rupture = 1 }
+            country_event = {
+                id = ild.9
+                days = 5
+                random = 72
+                random_days = 3
+            }
         }
 
         ai_will_do = {
@@ -108,6 +113,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -153,7 +159,12 @@ ILD_void_rupture_decisions = {
         
         complete_effect = {   
             add_manpower = -500000
-            add_to_variable = { ILD_rupture = 1 }
+            country_event = {
+                id = ild.11
+                days = 5
+                random = 72
+                random_days = 3
+            }
         }
 
         ai_will_do = {
@@ -180,6 +191,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -196,6 +208,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -210,6 +223,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -257,7 +271,12 @@ ILD_void_rupture_decisions = {
         
         complete_effect = {   
             add_stability = -0.5
-            add_to_variable = { ILD_rupture = 1 }
+            country_event = {
+                id = ild.13
+                days = 5
+                random = 72
+                random_days = 3
+            }
         }
 
         ai_will_do = {
@@ -284,6 +303,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -300,6 +320,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -314,6 +335,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -328,6 +350,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -342,6 +365,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -356,6 +380,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -403,7 +428,12 @@ ILD_void_rupture_decisions = {
         
         complete_effect = {   
             add_war_support = -0.5
-            add_to_variable = { ILD_rupture = 1 }
+            country_event = {
+                id = ild.15
+                days = 5
+                random = 72
+                random_days = 3
+            }
         }
 
         ai_will_do = {
@@ -430,6 +460,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -446,6 +477,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -460,6 +492,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -474,6 +507,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -488,6 +522,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -502,6 +537,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -516,6 +552,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -530,6 +567,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -544,6 +582,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 
@@ -558,6 +597,7 @@ ILD_void_rupture_decisions = {
             random_state = {
                 limit = {
                     is_controlled_by = ILD
+                    NOT = { state = 3 }
                 }
                 BDR = { 
                     transfer_state = PREV 

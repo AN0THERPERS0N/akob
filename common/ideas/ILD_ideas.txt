@@ -4,46 +4,6 @@ ideas = {
 
 		#starting ideas
 
-		ILD_test = {
-			picture = not_a_country
-			
-			allowed = {
-				tag = ILD
-			}
-
-			available = {
-				
-			}
-			
-			modifier = {
-				army_attack_factor = 1000
-				army_defence_factor = 1000
-				army_org_factor = 1000
-				army_org_regain = 1000
-				breakthrough_factor = 1000
-				attrition = -1000
-				experience_gain_army = -1000
-				pocket_penalty = -1000
-				recon_factor = 1000
-				terrain_penalty_reduction = 1000
-				no_supply_grace = 1000000
-				org_loss_when_moving = -1000
-				out_of_supply_factor = -1000
-				supply_consumption_factor = -1000
-				training_time_factor = 1000000
-			}
-
-			cancel = {
-
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-		}
-
 		ILD_royal_house_of_illidea = {
 			picture = not_a_country
 			
@@ -71,7 +31,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -104,7 +66,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -135,7 +99,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -165,7 +131,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -175,7 +143,54 @@ ideas = {
 			removal_cost = -1
 		}
 
-		####
+		## salvation syndicate
+
+		SLV_ILD_demonic_strength = {
+			picture = not_a_country
+			
+			allowed = {
+				always = yes
+			}
+
+			available = {
+				
+			}
+			
+			cancel = {
+
+			}
+
+			modifier = {
+				army_attack_factor = 100
+				army_defence_factor = 100
+				army_org_factor = 100
+				army_org_regain = 100
+				breakthrough_factor = 100
+				attrition = -100
+				pocket_penalty = -100
+				recon_factor = 100
+				terrain_penalty_reduction = 100
+				no_supply_grace = 100000000
+				org_loss_when_moving = -100
+				out_of_supply_factor = -100
+				supply_consumption_factor = -100
+				army_speed_factor = 2
+				land_reinforce_rate = 100
+
+				experience_gain_army = -100
+				training_time_factor = 100000000
+				minimum_training_level = 10
+				surrender_limit = -0.4
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		# focus tree
 
 		ILD_ainia_councils = {
 			picture = not_a_country
@@ -195,7 +210,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -223,7 +240,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -251,7 +270,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -279,7 +300,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -307,7 +330,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -338,7 +363,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -367,7 +394,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -397,7 +426,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -433,7 +464,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -465,7 +498,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -492,7 +527,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -519,7 +556,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -546,7 +585,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -573,7 +614,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -600,7 +643,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -631,7 +676,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -662,7 +709,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -694,7 +743,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -728,7 +779,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -764,7 +817,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -798,7 +853,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -832,7 +889,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -866,7 +925,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -895,7 +956,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -922,7 +985,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
@@ -949,7 +1014,9 @@ ideas = {
 			}
 
 			cancel = {
-
+				ILD = {
+					has_cosmetic_tag = SLV_ILD
+				}
 			}
 
 			allowed_civil_war = {
