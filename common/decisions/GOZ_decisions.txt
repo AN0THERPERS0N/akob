@@ -17,11 +17,63 @@ Casinos_of_Rshavesk = {
         }
 
         #cost = 20
-        cost = 1000
+        cost = 0
         
         complete_effect = {   
+            random_list = {
+                10 = { set_variable = { GOZ_dukha_fire = 0 } }
+                10 = { set_variable = { GOZ_dukha_fire = 1 } }
+                10 = { set_variable = { GOZ_dukha_fire = 2 } }
+                10 = { set_variable = { GOZ_dukha_fire = 3 } }
+                10 = { set_variable = { GOZ_dukha_fire = 4 } }
+                10 = { set_variable = { GOZ_dukha_fire = 5 } }
+                10 = { set_variable = { GOZ_dukha_fire = 6 } }
+                10 = { set_variable = { GOZ_dukha_fire = 7 } }
+                10 = { set_variable = { GOZ_dukha_fire = 8 } }
+                10 = { set_variable = { GOZ_dukha_fire = 9 } }
+                10 = { set_variable = { GOZ_dukha_fire = 10 } }
+            }
+            random_list = {
+                10 = { set_variable = { GOZ_dukha_water = 0 } }
+                10 = { set_variable = { GOZ_dukha_water = 1 } }
+                10 = { set_variable = { GOZ_dukha_water = 2 } }
+                10 = { set_variable = { GOZ_dukha_water = 3 } }
+                10 = { set_variable = { GOZ_dukha_water = 4 } }
+                10 = { set_variable = { GOZ_dukha_water = 5 } }
+                10 = { set_variable = { GOZ_dukha_water = 6 } }
+                10 = { set_variable = { GOZ_dukha_water = 7 } }
+                10 = { set_variable = { GOZ_dukha_water = 8 } }
+                10 = { set_variable = { GOZ_dukha_water = 9 } }
+                10 = { set_variable = { GOZ_dukha_water = 10 } }
+            }
+            random_list = {
+                10 = { set_variable = { GOZ_dukha_slime = 0 } }
+                10 = { set_variable = { GOZ_dukha_slime = 1 } }
+                10 = { set_variable = { GOZ_dukha_slime = 2 } }
+                10 = { set_variable = { GOZ_dukha_slime = 3 } }
+                10 = { set_variable = { GOZ_dukha_slime = 4 } }
+                10 = { set_variable = { GOZ_dukha_slime = 5 } }
+                10 = { set_variable = { GOZ_dukha_slime = 6 } }
+                10 = { set_variable = { GOZ_dukha_slime = 7 } }
+                10 = { set_variable = { GOZ_dukha_slime = 8 } }
+                10 = { set_variable = { GOZ_dukha_slime = 9 } }
+                10 = { set_variable = { GOZ_dukha_slime = 10 } }
+            }
+            random_list = {
+                10 = { set_variable = { GOZ_dukha_candy = 0 } }
+                10 = { set_variable = { GOZ_dukha_candy = 1 } }
+                10 = { set_variable = { GOZ_dukha_candy = 2 } }
+                10 = { set_variable = { GOZ_dukha_candy = 3 } }
+                10 = { set_variable = { GOZ_dukha_candy = 4 } }
+                10 = { set_variable = { GOZ_dukha_candy = 5 } }
+                10 = { set_variable = { GOZ_dukha_candy = 6 } }
+                10 = { set_variable = { GOZ_dukha_candy = 7 } }
+                10 = { set_variable = { GOZ_dukha_candy = 8 } }
+                10 = { set_variable = { GOZ_dukha_candy = 9 } }
+                10 = { set_variable = { GOZ_dukha_candy = 10 } }
+            }
             country_event = {
-                id = goz.dukha
+                id = goz.1
                 days = 0
                 random = 3
                 random_days = 0
