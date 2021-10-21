@@ -79,6 +79,7 @@ country_event = { #move royal palace
 		name = ild.5.a
 		add_political_power = 100
 		98 = {
+			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = industrial_complex
 				level = 2
@@ -95,6 +96,7 @@ country_event = { #move royal palace
 		add_political_power = 100
 		set_capital = 122
 		122 = {
+			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = arms_factory
 				level = 2
@@ -116,6 +118,547 @@ country_event = { #avenge bloodline
 
 	option = {
 		name = ild.6.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_start
+	id = ild.7
+	title = ild.7.t
+	desc = ild.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.7.a
+		country_event = {
+			id = ild.8
+			days = 5
+			random = 72
+			random_days = 3
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = ild.7.b
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_1
+	id = ild.8
+	title = ild.8.t
+	desc = ild.8.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.8.a
+		set_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_2
+	id = ild.9
+	title = ild.9.t
+	desc = ild.9.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.9.a
+		add_to_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_3
+	id = ild.10
+	title = ild.10.t
+	desc = ild.10.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.10.a
+		add_to_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_4
+	id = ild.11
+	title = ild.11.t
+	desc = ild.11.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.11.a
+		add_to_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_5
+	id = ild.12
+	title = ild.12.t
+	desc = ild.12.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.12.a
+		add_to_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_6
+	id = ild.13
+	title = ild.13.t
+	desc = ild.13.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.13.a
+		add_to_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_7
+	id = ild.14
+	title = ild.14.t
+	desc = ild.14.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.14.a
+		add_to_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_8
+	id = ild.15
+	title = ild.15.t
+	desc = ild.15.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.15.a
+		add_to_variable = { ILD_rupture = 1 }
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ILD_void_rupture_end
+	id = ild.16
+	title = ild.16.t
+	desc = ild.16.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			delete_unit = {  
+				disband = yes
+			}
+			
+			load_oob = "SLV_ILD_1714"
+			add_ideas = SLV_ILD_demonic_strength
+			every_country = {
+				limit = {
+					NOT = { tag = ILD }
+				}
+				declare_war_on = {
+					target = ILD
+					type = puppet_wargoal_focus
+				}
+			}
+
+		}
+	}
+
+	option = {
+		name = ild.16.a
+		set_cosmetic_tag = SLV_ILD
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+
+country_event = { #ARS_join_ATL
+	id = ild.17
+	title = ild.17.t
+	desc = ild.17.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.17.a
+		ILD = {
+			add_to_faction = ARS
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = ild.17.b
+		country_event = {
+			id = ild.18
+			days = 0
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ARS_rejects_ATL
+	id = ild.18
+	title = ild.18.t
+	desc = ild.18.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.18.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ECH_join_ATL
+	id = ild.19
+	title = ild.19.t
+	desc = ild.19.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.19.a
+		ILD = {
+			add_to_faction = ECH
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = ild.19.b
+		country_event = {
+			id = ild.20
+			days = 0
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ECH_rejects_ATL
+	id = ild.20
+	title = ild.20.t
+	desc = ild.20.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.20.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ICR_join_ATL
+	id = ild.21
+	title = ild.21.t
+	desc = ild.21.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.21.a
+		ILD = {
+			add_to_faction = ICR
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = ild.21.b
+		country_event = {
+			id = ild.22
+			days = 0
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ICR_rejects_ATL
+	id = ild.22
+	title = ild.22.t
+	desc = ild.22.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.22.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+
+country_event = { #TRB Grand entente
+	id = ild.23
+	title = ild.23.t
+	desc = ild.23.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.23.a
+		create_faction = "Grand Entente"
+		ILD = {
+			add_to_faction = TRB
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = ild.23.b
+		country_event = {
+			id = ild.24
+			days = 0
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #TRB Grand entente rejected
+	id = ild.24
+	title = ild.24.t
+	desc = ild.24.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.24.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ECH impossible deal
+	id = ild.25
+	title = ild.25.t
+	desc = ild.25.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.25.a
+		ECH = { 
+			transfer_state = 101 
+			transfer_state = 3
+		}
+		ILD = {
+			add_political_power = 1000
+			98 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			96 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			110 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			122 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			131 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = ild.25.b
+		country_event = {
+			id = ild.26
+			days = 0
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #ECH impossible deal
+	id = ild.26
+	title = ild.26.t
+	desc = ild.26.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.26.a
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #LTV question
+	id = ild.27
+	title = ild.27.t
+	desc = ild.27.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.27.a
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #LTV ultimatum
+	id = ild.28
+	title = ild.28.t
+	desc = ild.28.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.28.a
+		ILD = {
+			annex_country = {
+				target = LTV
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = ild.28.b
+		ILD = {
+			declare_war_on = {
+				target = LTV
+				type = annex_everything
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #LTV referendum
+	id = ild.29
+	title = ild.29.t
+	desc = ild.29.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ild.29.a
+		ILD = {
+			annex_country = {
+				target = LTV
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = ild.29.b
+		ILD = { puppet = LTV }
 		ai_chance = {
 			factor = 10
 		}

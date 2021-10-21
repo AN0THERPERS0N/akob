@@ -470,4 +470,60 @@ on_puppet = {
 		} 
 	}
 
+	on_civil_war_end = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = ILD }
+					FROM = { tag = BDR }
+					check_variable = { ILD_rupture = 2 }
+				}
+				country_event = {
+					id = ild.10
+					days = 5
+					random = 72
+					random_days = 3
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = ILD }
+					FROM = { tag = BDR }
+					check_variable = { ILD_rupture = 4 }
+				}
+				country_event = {
+					id = ild.12
+					days = 5
+					random = 72
+					random_days = 3
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = ILD }
+					FROM = { tag = BDR }
+					check_variable = { ILD_rupture = 6 }
+				}
+				country_event = {
+					id = ild.14
+					days = 5
+					random = 72
+					random_days = 3
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = ILD }
+					FROM = { tag = BDR }
+					check_variable = { ILD_rupture = 8 }
+				}
+				country_event = {
+					id = ild.16
+					days = 5
+					random = 72
+					random_days = 3
+				}
+			}
+		}
+	}
 }

@@ -12,6 +12,11 @@
  TST_neutrality_ADJ:0 "Test Country"
  TST_communism_ADJ:0 "Test Country"
  #####
+
+ BDR_communism:0 "Black Dragon Resistance"
+ BDR_fascism:0 "Black Dragon Resistance"
+ BDR_neutrality:0 "Black Dragon Resistance"
+ BDR_democratic:0 "Black Dragon Resistance"
  
  AGR_communism:0 "Agran Commune"
  AGR_fascism:0 "Agran Empire"

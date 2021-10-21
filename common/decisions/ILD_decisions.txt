@@ -1,4 +1,5 @@
 ILD_war_decisions = {
+
     ILD_war_ECH = {
         icon = ger_mefo_bills
         
@@ -9,9 +10,7 @@ ILD_war_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            has_completed_focus = ILD_arsenal_of_freedom
         }
 
         cost = 100
@@ -38,9 +37,7 @@ ILD_war_decisions = {
         fire_only_once = yes
 
         visible = {
-            ROOT = {
-                is_ai = no
-            }
+            has_completed_focus = ILD_arsenal_of_freedom
         }
 
         cost = 100
@@ -49,6 +46,721 @@ ILD_war_decisions = {
             declare_war_on = {
                 target = TRB
                 type = puppet_wargoal_focus
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
+
+ILD_war_decisions = {
+
+    ILD_war_ECH = {
+        icon = ger_mefo_bills
+        
+        available = {
+            threat > 0.5
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_arsenal_of_freedom
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            declare_war_on = {
+                target = ECH
+                type = puppet_wargoal_focus
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_war_TRB = {
+        icon = ger_mefo_bills
+        
+        available = {
+            threat > 0.5
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_arsenal_of_freedom
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            declare_war_on = {
+                target = TRB
+                type = puppet_wargoal_focus
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
+
+ILD_anti_trubian_league = {
+
+    ILD_invitation_to_ARS = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_invitations_around_the_globe
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            ARS = {
+                country_event = {
+                    id = ild.17
+                    days = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_invitation_to_ECH = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_invitations_around_the_globe
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            ECH = {
+                country_event = {
+                    id = ild.19
+                    days = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_invitation_to_ICR = {
+        icon = ger_mefo_bills
+        
+        available = {
+
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ILD_invitations_around_the_globe
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            ICR = {
+                country_event = {
+                    id = ild.21
+                    days = 0
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+}
+
+ILD_void_rupture_decisions = {
+
+    ILD_void_rupture_1 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            ILD = {
+                has_political_power > 200
+            }
+            check_variable = { ILD_rupture = 1 }
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            check_variable = { ILD_rupture = 1 }
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            add_political_power = -200
+            country_event = {
+                id = ild.9
+                days = 5
+                random = 72
+                random_days = 3
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_void_rupture_2 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            check_variable = { ILD_rupture = 2 }
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            check_variable = { ILD_rupture = 2 }
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                    set_capital = PREV
+                    load_oob = "BDR_1714"
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\" start_experience_factor = 0 start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            BDR = {
+                add_ideas = BDR_resistance_strength
+                declare_war_on = {
+                    target = ILD
+                    type = annex_everything
+                }
+                add_civil_war_target = ILD
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_void_rupture_3 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            check_variable = { ILD_rupture = 3 }
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            check_variable = { ILD_rupture = 3 }
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            add_manpower = -500000
+            country_event = {
+                id = ild.11
+                days = 5
+                random = 72
+                random_days = 3
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_void_rupture_4 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            check_variable = { ILD_rupture = 4 }
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            check_variable = { ILD_rupture = 4 }
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                    set_capital = PREV
+                    load_oob = "BDR_1714"
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            BDR = {
+                remove_ideas = BDR_resistance_strength
+                add_ideas = BDR_resistance_strength2
+                declare_war_on = {
+                    target = ILD
+                    type = annex_everything
+                }
+                add_civil_war_target = ILD
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_void_rupture_5 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            ILD = {
+                has_stability > 0.5
+            }
+            check_variable = { ILD_rupture = 5 }
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            check_variable = { ILD_rupture = 5 }
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            add_stability = -0.5
+            country_event = {
+                id = ild.13
+                days = 5
+                random = 72
+                random_days = 3
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_void_rupture_6 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            check_variable = { ILD_rupture = 6 }
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            check_variable = { ILD_rupture = 6 }
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                    set_capital = PREV
+                    load_oob = "BDR_1714"
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            BDR = {
+                remove_ideas = BDR_resistance_strength2
+                add_ideas = BDR_resistance_strength3
+                declare_war_on = {
+                    target = ILD
+                    type = annex_everything
+                }
+                add_civil_war_target = ILD
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_void_rupture_7 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            ILD = {
+                has_war_support > 0.5
+            }
+            check_variable = { ILD_rupture = 7 }
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            check_variable = { ILD_rupture = 7 }
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            add_war_support = -0.5
+            country_event = {
+                id = ild.15
+                days = 5
+                random = 72
+                random_days = 3
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ILD_void_rupture_8 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            check_variable = { ILD_rupture = 8 }
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            check_variable = { ILD_rupture = 8 }
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                    set_capital = PREV
+                    load_oob = "BDR_1714"
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            random_state = {
+                limit = {
+                    is_controlled_by = ILD
+                    NOT = { state = 3 }
+                }
+                BDR = { 
+                    transfer_state = PREV 
+                }
+                create_unit = {
+                    division = "division_template = \"Black Dragon Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+                    owner = BDR
+                    allow_spawning_on_enemy_provs = yes
+                    count = 3
+                }
+            }
+            BDR = {
+                remove_ideas = BDR_resistance_strength3
+                add_ideas = BDR_resistance_strength4
+                declare_war_on = {
+                    target = ILD
+                    type = annex_everything
+                }
+                add_civil_war_target = ILD
             }
         }
 

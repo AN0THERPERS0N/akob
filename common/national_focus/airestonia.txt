@@ -3928,7 +3928,11 @@ focus_tree = {
 		mutually_exclusive = {focus = ARS_on_our_own}
 		relative_position_id = ARS_the_trubian_question
 		available = {
-
+			NOT = {
+				ILD = {
+					has_completed_focus = ILD_form_the_ATL
+				}
+			}
 		}
 
 		bypass = {

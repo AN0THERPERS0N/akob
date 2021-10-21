@@ -1,0 +1,4 @@
+SLV_ILD = {
+    color = rgb { 106 22 145 }
+    color_ui = rgb { 106 22 145 }
+}
