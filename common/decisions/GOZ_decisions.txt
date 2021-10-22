@@ -1,14 +1,14 @@
 Casinos_of_Rshavesk = {
-    Dukha = {
+    Dukha_25 = {
         icon = ger_mefo_bills
         
         available = {
-
+            NOT = { has_country_flag = goz_dukha_play }
         }
 
         fire_only_once = no
 
-        days_re_enable = 1
+        days_re_enable = 0
 
         visible = {
             ROOT = {
@@ -17,57 +17,120 @@ Casinos_of_Rshavesk = {
         }
 
         #cost = 20
-        cost = 0
+        cost = 25
         
         complete_effect = {   
-            random_list = {
-                10 = { set_variable = { GOZ_dukha_food = 1 } }
-                10 = { set_variable = { GOZ_dukha_food = 2 } }
-                10 = { set_variable = { GOZ_dukha_food = 3 } }
-                10 = { set_variable = { GOZ_dukha_food = 4 } }
-                10 = { set_variable = { GOZ_dukha_food = 5 } }
-                10 = { set_variable = { GOZ_dukha_food = 6 } }
-                10 = { set_variable = { GOZ_dukha_food = 7 } }
-                10 = { set_variable = { GOZ_dukha_food = 8 } }
-                10 = { set_variable = { GOZ_dukha_food = 9 } }
-                10 = { set_variable = { GOZ_dukha_food = 10 } }
+            set_variable = { dukha_price = 25 }
+            set_country_flag = goz_dukha_play
+            goz_dukha_initial_random_effect = yes
+            country_event = {
+                id = goz.1
+                days = 0
+                random = 3
+                random_days = 0
             }
-            random_list = {
-                10 = { set_variable = { GOZ_dukha_water = 1 } }
-                10 = { set_variable = { GOZ_dukha_water = 2 } }
-                10 = { set_variable = { GOZ_dukha_water = 3 } }
-                10 = { set_variable = { GOZ_dukha_water = 4 } }
-                10 = { set_variable = { GOZ_dukha_water = 5 } }
-                10 = { set_variable = { GOZ_dukha_water = 6 } }
-                10 = { set_variable = { GOZ_dukha_water = 7 } }
-                10 = { set_variable = { GOZ_dukha_water = 8 } }
-                10 = { set_variable = { GOZ_dukha_water = 9 } }
-                10 = { set_variable = { GOZ_dukha_water = 10 } }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    Dukha_50 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            NOT = { has_country_flag = goz_dukha_play }
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
             }
-            random_list = {
-                10 = { set_variable = { GOZ_dukha_wood = 1 } }
-                10 = { set_variable = { GOZ_dukha_wood = 2 } }
-                10 = { set_variable = { GOZ_dukha_wood = 3 } }
-                10 = { set_variable = { GOZ_dukha_wood = 4 } }
-                10 = { set_variable = { GOZ_dukha_wood = 5 } }
-                10 = { set_variable = { GOZ_dukha_wood = 6 } }
-                10 = { set_variable = { GOZ_dukha_wood = 7 } }
-                10 = { set_variable = { GOZ_dukha_wood = 8 } }
-                10 = { set_variable = { GOZ_dukha_wood = 9 } }
-                10 = { set_variable = { GOZ_dukha_wood = 10 } }
+        }
+
+        #cost = 20
+        cost = 50
+        
+        complete_effect = {   
+            set_variable = { dukha_price = 50 }
+            set_country_flag = goz_dukha_play
+            goz_dukha_initial_random_effect = yes
+            country_event = {
+                id = goz.1
+                days = 0
+                random = 3
+                random_days = 0
             }
-            random_list = {
-                10 = { set_variable = { GOZ_dukha_stone = 1 } }
-                10 = { set_variable = { GOZ_dukha_stone = 2 } }
-                10 = { set_variable = { GOZ_dukha_stone = 3 } }
-                10 = { set_variable = { GOZ_dukha_stone = 4 } }
-                10 = { set_variable = { GOZ_dukha_stone = 5 } }
-                10 = { set_variable = { GOZ_dukha_stone = 6 } }
-                10 = { set_variable = { GOZ_dukha_stone = 7 } }
-                10 = { set_variable = { GOZ_dukha_stone = 8 } }
-                10 = { set_variable = { GOZ_dukha_stone = 9 } }
-                10 = { set_variable = { GOZ_dukha_stone = 10 } }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    Dukha_100 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            NOT = { has_country_flag = goz_dukha_play }
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
             }
+        }
+
+        #cost = 20
+        cost = 100
+        
+        complete_effect = {   
+            set_variable = { dukha_price = 100 }
+            set_country_flag = goz_dukha_play
+            goz_dukha_initial_random_effect = yes
+            country_event = {
+                id = goz.1
+                days = 0
+                random = 3
+                random_days = 0
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    Dukha_200 = {
+        icon = ger_mefo_bills
+        
+        available = {
+            NOT = { has_country_flag = goz_dukha_play }
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        #cost = 20
+        cost = 200
+        
+        complete_effect = {   
+            set_variable = { dukha_price = 200 }
+            set_country_flag = goz_dukha_play
+            goz_dukha_initial_random_effect = yes
             country_event = {
                 id = goz.1
                 days = 0

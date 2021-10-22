@@ -24,6 +24,11 @@
  goz.4.d:0 "Food: [?root.GOZ_dukha_food|R]\nWater: [?root.GOZ_dukha_water|B]\nWood: [?root.GOZ_dukha_wood|G]\nStone: [?root.GOZ_dukha_stone|O]\n"
  goz.4.a:0 "End Game"
  goz.4.b:0 "Bust"
+ goz.4.c:0 "High Cards"
+ goz.4.e:0 "Pair"
+ goz.4.g:0 "Two Pair"
+ goz.4.f:0 "Three of a Kind"
+ goz.4.h:0 "Four of a Kind"
 
  goz_dukha_burn_tt:0 "§RDecrease Food§!\n§GIncrease Water§!\n§RDecrease Wood§!\n§GIncrease Stone§!\n"
  goz_dukha_feast_tt:0 "§RDecrease Food§!\n§RDecrease Water§!\n§GIncrease Wood§!\n"

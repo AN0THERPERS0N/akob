@@ -1,0 +1,80 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+
+goz_dukha_no_bust = {
+	check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than }
+	check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than }
+	check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than }
+	check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than }
+	check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+	check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+	check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+	check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+}
+
+goz_dukha_onepair_trigger = {
+	OR = {
+		check_variable = { GOZ_dukha_food = GOZ_dukha_water }
+		check_variable = { GOZ_dukha_food = GOZ_dukha_wood }
+		check_variable = { GOZ_dukha_food = GOZ_dukha_stone }
+		check_variable = { GOZ_dukha_water = GOZ_dukha_wood }
+		check_variable = { GOZ_dukha_water = GOZ_dukha_stone }
+		check_variable = { GOZ_dukha_wood = GOZ_dukha_stone }
+	}
+}
+
+goz_dukha_twopair_trigger = {
+	OR = {
+		AND = {
+			check_variable = { GOZ_dukha_food = GOZ_dukha_water }
+			check_variable = { GOZ_dukha_wood = GOZ_dukha_stone }
+		}
+		AND = {
+			check_variable = { GOZ_dukha_food = GOZ_dukha_wood }
+			check_variable = { GOZ_dukha_water = GOZ_dukha_stone }
+		}
+		AND = {
+			check_variable = { GOZ_dukha_food = GOZ_dukha_stone }
+			check_variable = { GOZ_dukha_water = GOZ_dukha_wood }
+		}
+	}
+}
+
+goz_dukha_3ofakind_trigger = {
+	OR = {
+		AND = {
+			check_variable = { GOZ_dukha_food = GOZ_dukha_water }
+			check_variable = { GOZ_dukha_water = GOZ_dukha_wood }
+		}
+		AND = {
+			check_variable = { GOZ_dukha_food = GOZ_dukha_water }
+			check_variable = { GOZ_dukha_water = GOZ_dukha_stone }
+		}
+		AND = {
+			check_variable = { GOZ_dukha_food = GOZ_dukha_wood }
+			check_variable = { GOZ_dukha_wood = GOZ_dukha_stone }
+		}
+		AND = {
+			check_variable = { GOZ_dukha_water = GOZ_dukha_wood }
+			check_variable = { GOZ_dukha_wood = GOZ_dukha_stone }
+		}
+	}
+}
+
+goz_dukha_4ofakind_trigger = {
+	check_variable = { GOZ_dukha_food = GOZ_dukha_water }
+	check_variable = { GOZ_dukha_water = GOZ_dukha_wood }
+	check_variable = { GOZ_dukha_wood = GOZ_dukha_stone }
+}

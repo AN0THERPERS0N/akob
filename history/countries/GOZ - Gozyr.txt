@@ -30,6 +30,7 @@ set_popularities = {
 	democratic = 100
 }
 
+set_variable = { dukha_success_counter_highcards = 0 }
 
 add_ideas = { 
 	GOZ_geopolitical_indifference

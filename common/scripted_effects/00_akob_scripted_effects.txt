@@ -1,0 +1,179 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+#####################################
+### emergency_factory_conversion ####
+#####################################
+
+#This is going to give misleading and ugly tooltips. Making it nice will take effort. TODO_WTT_CD make nice or ignore and remove comment. Easiest solution is just making a custom tooltip that says "5 civilian factories will be converted to military factories" and ignore telling the player the states where it will happen.
+goz_dukha_burn_effect = {
+	custom_effect_tooltip = goz_dukha_burn_tt
+	hidden_effect = {
+		random_list = {
+			33 = { subtract_from_variable = { GOZ_dukha_food = 1 } }
+			33 = { subtract_from_variable = { GOZ_dukha_food = 2 } }
+			33 = { subtract_from_variable = { GOZ_dukha_food = 3 } }
+		}
+		random_list = {
+			33 = { add_to_variable = { GOZ_dukha_water = 1 } }
+			33 = { add_to_variable = { GOZ_dukha_water = 2 } }
+			33 = { add_to_variable = { GOZ_dukha_water = 3 } }
+		}
+		random_list = {
+			33 = { subtract_from_variable = { GOZ_dukha_wood = 1 } }
+			33 = { subtract_from_variable = { GOZ_dukha_wood = 2 } }
+			33 = { subtract_from_variable = { GOZ_dukha_wood = 3 } }
+		}
+		random_list = {
+			33 = { add_to_variable = { GOZ_dukha_stone = 1 } }
+			33 = { add_to_variable = { GOZ_dukha_stone = 2 } }
+			33 = { add_to_variable = { GOZ_dukha_stone = 3 } }
+		}
+	}
+}
+
+goz_dukha_feast_effect = {
+	custom_effect_tooltip = goz_dukha_feast_tt
+	hidden_effect = {
+		random_list = {
+			33 = { subtract_from_variable = { GOZ_dukha_food = 1 } }
+			33 = { subtract_from_variable = { GOZ_dukha_food = 2 } }
+			33 = { subtract_from_variable = { GOZ_dukha_food = 3 } }
+		}
+		random_list = {
+			33 = { subtract_from_variable = { GOZ_dukha_water = 1 } }
+			33 = { subtract_from_variable = { GOZ_dukha_water = 2 } }
+			33 = { subtract_from_variable = { GOZ_dukha_water = 3 } }
+		}
+		random_list = {
+			33 = { add_to_variable = { GOZ_dukha_wood = 1 } }
+			33 = { add_to_variable = { GOZ_dukha_wood = 2 } }
+			33 = { add_to_variable = { GOZ_dukha_wood = 3 } }
+		}
+	}
+}
+
+goz_dukha_harvest_effect = {
+	custom_effect_tooltip = goz_dukha_harvest_tt
+	hidden_effect = {
+		random_list = {
+			33 = { add_to_variable = { GOZ_dukha_food = 1 } }
+			33 = { add_to_variable = { GOZ_dukha_food = 2 } }
+			33 = { add_to_variable = { GOZ_dukha_food = 3 } }
+		}
+		random_list = {
+			33 = { subtract_from_variable = { GOZ_dukha_wood = 1 } }
+			33 = { subtract_from_variable = { GOZ_dukha_wood = 2 } }
+			33 = { subtract_from_variable = { GOZ_dukha_wood = 3 } }
+		}
+	}
+}
+
+goz_dukha_flood_effect = {
+	custom_effect_tooltip = goz_dukha_flood_tt
+	hidden_effect = {
+		random_list = {
+			33 = { add_to_variable = { GOZ_dukha_water = 1 } }
+			33 = { add_to_variable = { GOZ_dukha_water = 2 } }
+			33 = { add_to_variable = { GOZ_dukha_water = 3 } }
+		}
+		random_list = {
+			33 = { subtract_from_variable = { GOZ_dukha_stone = 1 } }
+			33 = { subtract_from_variable = { GOZ_dukha_stone = 2 } }
+			33 = { subtract_from_variable = { GOZ_dukha_stone = 3 } }
+		}
+	}
+}
+
+goz_dukha_success_highcards_effect = {
+	if = {
+		limit = {
+			check_variable = { var = GOZ_dukha_food value = 7 compare = greater_than }
+		}
+		add_to_variable = { dukha_success_counter_highcards = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { var = GOZ_dukha_water value = 7 compare = greater_than }
+		}
+		add_to_variable = { dukha_success_counter_highcards = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { var = GOZ_dukha_wood value = 7 compare = greater_than }
+		}
+		add_to_variable = { dukha_success_counter_highcards = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { var = GOZ_dukha_stone value = 7 compare = greater_than }
+		}
+		add_to_variable = { dukha_success_counter_highcards = 1 }
+	}
+}
+
+goz_dukha_initial_random_effect = {
+	random_list = {
+		10 = { set_variable = { GOZ_dukha_food = 1 } }
+		10 = { set_variable = { GOZ_dukha_food = 2 } }
+		10 = { set_variable = { GOZ_dukha_food = 3 } }
+		10 = { set_variable = { GOZ_dukha_food = 4 } }
+		10 = { set_variable = { GOZ_dukha_food = 5 } }
+		10 = { set_variable = { GOZ_dukha_food = 6 } }
+		10 = { set_variable = { GOZ_dukha_food = 7 } }
+		10 = { set_variable = { GOZ_dukha_food = 8 } }
+		10 = { set_variable = { GOZ_dukha_food = 9 } }
+		10 = { set_variable = { GOZ_dukha_food = 10 } }
+	}
+	random_list = {
+		10 = { set_variable = { GOZ_dukha_water = 1 } }
+		10 = { set_variable = { GOZ_dukha_water = 2 } }
+		10 = { set_variable = { GOZ_dukha_water = 3 } }
+		10 = { set_variable = { GOZ_dukha_water = 4 } }
+		10 = { set_variable = { GOZ_dukha_water = 5 } }
+		10 = { set_variable = { GOZ_dukha_water = 6 } }
+		10 = { set_variable = { GOZ_dukha_water = 7 } }
+		10 = { set_variable = { GOZ_dukha_water = 8 } }
+		10 = { set_variable = { GOZ_dukha_water = 9 } }
+		10 = { set_variable = { GOZ_dukha_water = 10 } }
+	}
+	random_list = {
+		10 = { set_variable = { GOZ_dukha_wood = 1 } }
+		10 = { set_variable = { GOZ_dukha_wood = 2 } }
+		10 = { set_variable = { GOZ_dukha_wood = 3 } }
+		10 = { set_variable = { GOZ_dukha_wood = 4 } }
+		10 = { set_variable = { GOZ_dukha_wood = 5 } }
+		10 = { set_variable = { GOZ_dukha_wood = 6 } }
+		10 = { set_variable = { GOZ_dukha_wood = 7 } }
+		10 = { set_variable = { GOZ_dukha_wood = 8 } }
+		10 = { set_variable = { GOZ_dukha_wood = 9 } }
+		10 = { set_variable = { GOZ_dukha_wood = 10 } }
+	}
+	random_list = {
+		10 = { set_variable = { GOZ_dukha_stone = 1 } }
+		10 = { set_variable = { GOZ_dukha_stone = 2 } }
+		10 = { set_variable = { GOZ_dukha_stone = 3 } }
+		10 = { set_variable = { GOZ_dukha_stone = 4 } }
+		10 = { set_variable = { GOZ_dukha_stone = 5 } }
+		10 = { set_variable = { GOZ_dukha_stone = 6 } }
+		10 = { set_variable = { GOZ_dukha_stone = 7 } }
+		10 = { set_variable = { GOZ_dukha_stone = 8 } }
+		10 = { set_variable = { GOZ_dukha_stone = 9 } }
+		10 = { set_variable = { GOZ_dukha_stone = 10 } }
+	}
+}
