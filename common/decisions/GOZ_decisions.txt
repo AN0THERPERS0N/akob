@@ -21,20 +21,18 @@ Casinos_of_Rshavesk = {
         
         complete_effect = {   
             random_list = {
-                10 = { set_variable = { GOZ_dukha_fire = 0 } }
-                10 = { set_variable = { GOZ_dukha_fire = 1 } }
-                10 = { set_variable = { GOZ_dukha_fire = 2 } }
-                10 = { set_variable = { GOZ_dukha_fire = 3 } }
-                10 = { set_variable = { GOZ_dukha_fire = 4 } }
-                10 = { set_variable = { GOZ_dukha_fire = 5 } }
-                10 = { set_variable = { GOZ_dukha_fire = 6 } }
-                10 = { set_variable = { GOZ_dukha_fire = 7 } }
-                10 = { set_variable = { GOZ_dukha_fire = 8 } }
-                10 = { set_variable = { GOZ_dukha_fire = 9 } }
-                10 = { set_variable = { GOZ_dukha_fire = 10 } }
+                10 = { set_variable = { GOZ_dukha_food = 1 } }
+                10 = { set_variable = { GOZ_dukha_food = 2 } }
+                10 = { set_variable = { GOZ_dukha_food = 3 } }
+                10 = { set_variable = { GOZ_dukha_food = 4 } }
+                10 = { set_variable = { GOZ_dukha_food = 5 } }
+                10 = { set_variable = { GOZ_dukha_food = 6 } }
+                10 = { set_variable = { GOZ_dukha_food = 7 } }
+                10 = { set_variable = { GOZ_dukha_food = 8 } }
+                10 = { set_variable = { GOZ_dukha_food = 9 } }
+                10 = { set_variable = { GOZ_dukha_food = 10 } }
             }
             random_list = {
-                10 = { set_variable = { GOZ_dukha_water = 0 } }
                 10 = { set_variable = { GOZ_dukha_water = 1 } }
                 10 = { set_variable = { GOZ_dukha_water = 2 } }
                 10 = { set_variable = { GOZ_dukha_water = 3 } }
@@ -47,30 +45,28 @@ Casinos_of_Rshavesk = {
                 10 = { set_variable = { GOZ_dukha_water = 10 } }
             }
             random_list = {
-                10 = { set_variable = { GOZ_dukha_slime = 0 } }
-                10 = { set_variable = { GOZ_dukha_slime = 1 } }
-                10 = { set_variable = { GOZ_dukha_slime = 2 } }
-                10 = { set_variable = { GOZ_dukha_slime = 3 } }
-                10 = { set_variable = { GOZ_dukha_slime = 4 } }
-                10 = { set_variable = { GOZ_dukha_slime = 5 } }
-                10 = { set_variable = { GOZ_dukha_slime = 6 } }
-                10 = { set_variable = { GOZ_dukha_slime = 7 } }
-                10 = { set_variable = { GOZ_dukha_slime = 8 } }
-                10 = { set_variable = { GOZ_dukha_slime = 9 } }
-                10 = { set_variable = { GOZ_dukha_slime = 10 } }
+                10 = { set_variable = { GOZ_dukha_wood = 1 } }
+                10 = { set_variable = { GOZ_dukha_wood = 2 } }
+                10 = { set_variable = { GOZ_dukha_wood = 3 } }
+                10 = { set_variable = { GOZ_dukha_wood = 4 } }
+                10 = { set_variable = { GOZ_dukha_wood = 5 } }
+                10 = { set_variable = { GOZ_dukha_wood = 6 } }
+                10 = { set_variable = { GOZ_dukha_wood = 7 } }
+                10 = { set_variable = { GOZ_dukha_wood = 8 } }
+                10 = { set_variable = { GOZ_dukha_wood = 9 } }
+                10 = { set_variable = { GOZ_dukha_wood = 10 } }
             }
             random_list = {
-                10 = { set_variable = { GOZ_dukha_candy = 0 } }
-                10 = { set_variable = { GOZ_dukha_candy = 1 } }
-                10 = { set_variable = { GOZ_dukha_candy = 2 } }
-                10 = { set_variable = { GOZ_dukha_candy = 3 } }
-                10 = { set_variable = { GOZ_dukha_candy = 4 } }
-                10 = { set_variable = { GOZ_dukha_candy = 5 } }
-                10 = { set_variable = { GOZ_dukha_candy = 6 } }
-                10 = { set_variable = { GOZ_dukha_candy = 7 } }
-                10 = { set_variable = { GOZ_dukha_candy = 8 } }
-                10 = { set_variable = { GOZ_dukha_candy = 9 } }
-                10 = { set_variable = { GOZ_dukha_candy = 10 } }
+                10 = { set_variable = { GOZ_dukha_stone = 1 } }
+                10 = { set_variable = { GOZ_dukha_stone = 2 } }
+                10 = { set_variable = { GOZ_dukha_stone = 3 } }
+                10 = { set_variable = { GOZ_dukha_stone = 4 } }
+                10 = { set_variable = { GOZ_dukha_stone = 5 } }
+                10 = { set_variable = { GOZ_dukha_stone = 6 } }
+                10 = { set_variable = { GOZ_dukha_stone = 7 } }
+                10 = { set_variable = { GOZ_dukha_stone = 8 } }
+                10 = { set_variable = { GOZ_dukha_stone = 9 } }
+                10 = { set_variable = { GOZ_dukha_stone = 10 } }
             }
             country_event = {
                 id = goz.1

@@ -12,12 +12,551 @@ country_event = {
 	picture = GFX_report_event_south_africa_patrol
 	is_triggered_only = yes
 	
-	immediate = {
-		set_variable = { round = 0 }
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.1.a
+		custom_effect_tooltip = goz_dukha_burn_tt
+		hidden_effect = {
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_food = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_water = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_stone = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_stone = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_stone = 3 } }
+			}
+		}
+		country_event = {
+			id = goz.2
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
 	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.1.b
+		custom_effect_tooltip = goz_dukha_feast_tt
+		hidden_effect = {
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_food = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_water = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_water = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_wood = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_wood = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_wood = 3 } }
+			}
+		}
+
+		country_event = {
+			id = goz.2
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.1.c
+		custom_effect_tooltip = goz_dukha_harvest_tt
+		hidden_effect = {
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_food = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_food = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 3 } }
+			}
+		}
+		country_event = {
+			id = goz.2
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.1.e
+		custom_effect_tooltip = goz_dukha_flood_tt
+		hidden_effect = {
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_water = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 3 } }
+			}
+		}
+		country_event = {
+			id = goz.2
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			OR = {
+				check_variable = { var = GOZ_dukha_food value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_water value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_wood value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_stone value = 1 compare = less_than }
+
+				check_variable = { var = GOZ_dukha_food value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_water value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_wood value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_stone value = 10 compare = greater_than }
+			}
+		}
+		name = goz.1.f
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = {
+	id = goz.2
+	title = goz.2.t
+	desc = goz.2.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
 	
 	option = {
-		name = goz.1.a
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.2.a
+		custom_effect_tooltip = goz_dukha_burn_tt
+		hidden_effect = {
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_food = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_water = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_stone = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_stone = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_stone = 3 } }
+			}
+		}
+
+		country_event = {
+			id = goz.3
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.2.b
+		custom_effect_tooltip = goz_dukha_feast_tt
+		hidden_effect = {
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_food = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_water = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_water = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_wood = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_wood = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_wood = 3 } }
+			}
+		}
+
+		country_event = {
+			id = goz.3
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.2.c
+		custom_effect_tooltip = goz_dukha_harvest_tt
+		hidden_effect = {
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_food = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_food = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 3 } }
+			}
+		}
+		country_event = {
+			id = goz.3
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.2.e
+		custom_effect_tooltip = goz_dukha_flood_tt
+		hidden_effect = {
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_water = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 3 } }
+			}
+		}
+
+		country_event = {
+			id = goz.3
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			OR = {
+				check_variable = { var = GOZ_dukha_food value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_water value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_wood value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_stone value = 1 compare = less_than }
+
+				check_variable = { var = GOZ_dukha_food value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_water value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_wood value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_stone value = 10 compare = greater_than }
+			}
+		}
+		name = goz.2.f
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = {
+	id = goz.3
+	title = goz.3.t
+	desc = goz.3.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.3.a
+		custom_effect_tooltip = goz_dukha_burn_tt
+		hidden_effect = {
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_food = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_water = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_stone = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_stone = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_stone = 3 } }
+			}
+		}
+
+		country_event = {
+			id = goz.4
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.3.b
+		custom_effect_tooltip = goz_dukha_feast_tt
+		hidden_effect = {
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_food = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_water = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_water = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_wood = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_wood = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_wood = 3 } }
+			}
+		}
+
+		country_event = {
+			id = goz.4
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.3.c
+		custom_effect_tooltip = goz_dukha_harvest_tt
+		hidden_effect = {
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_food = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_food = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_food = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_wood = 3 } }
+			}
+		}
+		
+		country_event = {
+			id = goz.4
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.3.e
+		custom_effect_tooltip = goz_dukha_flood_tt
+		hidden_effect = {
+			random_list = {
+				33 = { add_to_variable = { GOZ_dukha_water = 1 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 2 } }
+				33 = { add_to_variable = { GOZ_dukha_water = 3 } }
+			}
+			random_list = {
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 1 } }
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 2 } }
+				33 = { subtract_from_variable = { GOZ_dukha_stone = 3 } }
+			}
+		}
+
+		country_event = {
+			id = goz.4
+			hours = 1
+		}
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			OR = {
+				check_variable = { var = GOZ_dukha_food value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_water value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_wood value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_stone value = 1 compare = less_than }
+
+				check_variable = { var = GOZ_dukha_food value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_water value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_wood value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_stone value = 10 compare = greater_than }
+			}
+		}
+		name = goz.3.f
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = {
+	id = goz.4
+	title = goz.4.t
+	desc = goz.4.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		trigger = {
+			check_variable = {var = GOZ_dukha_food value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_water value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_wood value = 0 compare = greater_than}
+			check_variable = {var = GOZ_dukha_stone value = 0 compare = greater_than}
+
+			check_variable = { var = GOZ_dukha_food value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_water value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_wood value = 11 compare = less_than }
+			check_variable = { var = GOZ_dukha_stone value = 11 compare = less_than }
+		}
+		name = goz.4.a
+		ai_chance = { factor = 100 }	
+	}
+	option = {
+		trigger = {
+			OR = {
+				check_variable = { var = GOZ_dukha_food value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_water value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_wood value = 1 compare = less_than }
+				check_variable = { var = GOZ_dukha_stone value = 1 compare = less_than }
+
+				check_variable = { var = GOZ_dukha_food value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_water value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_wood value = 10 compare = greater_than }
+				check_variable = { var = GOZ_dukha_stone value = 10 compare = greater_than }
+			}
+		}
+		name = goz.4.b
 		ai_chance = { factor = 100 }	
 	}
 }
