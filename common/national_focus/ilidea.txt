@@ -4456,8 +4456,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ILD_mass_university_expansion"
 			swap_ideas = {
-				add_idea = ILD_literacy_drive3
-				remove_idea = ILD_literacy_drive2
+				add_idea = ILD_literacy_drive2
+				remove_idea = ILD_literacy_drive
 			}
 		}
 

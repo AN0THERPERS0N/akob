@@ -344,3 +344,231 @@ country_event = {
 		ai_chance = { factor = 100 }	
 	}
 }
+
+country_event = { #increase military spending
+	id = goz.5
+	title = goz.5.t
+	desc = goz.5.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.5.a
+		add_political_power = 100
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #once proud empire
+	id = goz.6
+	title = goz.6.t
+	desc = goz.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.6.a
+		add_war_support = 20
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #lost territories
+	id = goz.7
+	title = goz.7.t
+	desc = goz.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.7.a
+		add_war_support = 10
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #lubichesk conspiracy
+	id = goz.8
+	title = goz.8.t
+	desc = goz.8.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.8.a
+		ICR = { 
+			add_timed_idea = {
+				idea = GOZ_lubichesk_conspiracy
+				days = 365
+			}
+		}
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #echainaian persecution
+	id = goz.9
+	title = goz.9.t
+	desc = goz.9.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.9.a
+		add_war_support = 10
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #trip to underground
+	id = goz.10
+	title = goz.10.t
+	desc = goz.10.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.10.a
+		add_political_power = 50
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #Hitrovo conspiracy
+	id = goz.11
+	title = goz.11.t
+	desc = goz.11.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.11.a
+		add_political_power = 50
+		country_event = {
+			id = goz.12
+			days = 7
+			random_days = 2
+		}
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #Hitrovo conspiracy2
+	id = goz.12
+	title = goz.12.t
+	desc = goz.12.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.12.a
+		add_political_power = 50
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #operation dark night
+	id = goz.13
+	title = goz.13.t
+	desc = goz.13.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.13.a
+		add_political_power = 50
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #secret riot
+	id = goz.14
+	title = goz.14.t
+	desc = goz.14.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.14.a
+		add_political_power = 50
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #buy sragos and fayton
+	id = goz.15
+	title = goz.15.t
+	desc = goz.15.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.15.a
+		ICR = {
+			country_event = {
+				id = goz.16
+				days = 1
+			}
+		}
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #ICR: buy sragos and fayton2
+	id = goz.16
+	title = goz.16.t
+	desc = goz.16.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = { #accept
+		name = goz.16.a
+		GOZ = {
+			country_event = {
+				id = goz.18
+				days = 1
+			}
+		}
+		ai_chance = { factor = 100 }	
+	}
+
+	option = { #reject
+		name = goz.16.b
+		GOZ = {
+			country_event = {
+				id = goz.17
+				days = 1
+			}
+		}
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #no: buy sragos and fayton2
+	id = goz.17
+	title = goz.17.t
+	desc = goz.17.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.17.a
+		ai_chance = { factor = 100 }	
+	}
+}
+
+country_event = { #yes: buy sragos and fayton2
+	id = goz.18
+	title = goz.18.t
+	desc = goz.18.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	
+	option = {
+		name = goz.18.a
+		set_country_flag = GOZ_successful_purchase_sragos_fayton
+		add_political_power = -1500
+		ICR = { add_political_power = 1500 }
+		ai_chance = { factor = 100 }	
+	}
+}

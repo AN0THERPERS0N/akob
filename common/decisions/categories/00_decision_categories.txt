@@ -12,6 +12,54 @@
 #	}
 #}
 
+GOZ_economic_warfare = {
+	priority = 500
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+
+GOZ_economical_expansion_council = {
+	priority = 500
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+
+GOZ_wider_aspirations = {
+	priority = 500
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+
+Gozean_war_committee = {
+	priority = 500
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+
 ILD_anti_trubian_league = {
 	priority = 1000
 	icon = generic_propaganda

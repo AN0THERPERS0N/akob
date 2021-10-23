@@ -19,7 +19,7 @@ focus_tree = {
 	
 	default = no
 	
-	continuous_focus_position = { x = 3000 y = 1600 }
+	continuous_focus_position = { x = 4400 y = 1600 }
 
 	focus = {
 		id = GOZ_call_the_51st_congress_of_the_federation
@@ -40,7 +40,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_call_the_51st_congress_of_the_federation"
-		add_political_power = 200
+			add_political_power = 200
 		}
 		ai_will_do = {
 		}
@@ -65,7 +65,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_establish_the_economical_expansion_council"
-		
+			add_ideas = GOZ_economic_expansion_council
 		}
 		ai_will_do = {
 		}
@@ -120,7 +120,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_a_trip_to_the_underground"
-			#event
+			country_event = {
+				id = goz.10
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -227,7 +230,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_hire_prisoners"
-			#manpower
+			add_manpower = 50000
 			add_stability = -0.2
 		}
 		ai_will_do = {
@@ -309,7 +312,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_build_up_the_great_lakes_heartland"
-			#buildings
+			53 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -335,7 +345,22 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_protect_the_olnbus_region"
-			#buildings
+			29 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 103
+						id = 1082
+						id = 722
+						id = 71
+						id = 1092
+						id = 48
+						id = 1053
+					}
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -362,7 +387,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_out_failing_banks"
 			add_political_power = -100
-			#buildings
+			29 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -418,7 +450,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_subsidise_failing_businesses"
-			#buildings
+			29 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 			add_political_power = -100
 		}
 		ai_will_do = {
@@ -446,6 +485,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_reinstate_conscription"
 			add_ideas = GOZ_general_conscription
+			division_template = {
+				name = "Gozean National Guard"
+				priority = 0
+				template_counter = 0
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -471,7 +521,6 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_form_a_war_committee"
-			#decisions
 		}
 		ai_will_do = {
 		}
@@ -528,8 +577,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GOZ_improve_the_bars_of_rshavesk"
-			#buildings
+			29 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -555,7 +610,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_Ibago_build_up"
-			#buildings
+			17 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -581,7 +643,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_expand_the_hitrovo_military_complex"
-			#buildings
+			29 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -607,7 +676,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_versk_industrial_factories"
-			#buildings
+			53 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -633,7 +709,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_operation_dark_night"
-			#events
+			country_event = {
+				id = goz.13
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -659,7 +738,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_lower_loan_requirements"
-			#buildings
+			45 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 			add_political_power = 50
 		}
 		ai_will_do = {
@@ -717,7 +803,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_lower_interest_rates"
-			#buildings
+			45 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -743,7 +836,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_attract_foreign_investors"
-			#buildings
+			53 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 			add_political_power = 100
 		}
 		ai_will_do = {
@@ -796,7 +896,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_retrain_the_old_guard"
-			#units
+			29 = {
+				create_unit = {
+					division = "division_template = \"Gozean National Guard\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 3
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -848,7 +955,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_study_mage_warfare"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
 		}
 		ai_will_do = {
 		}
@@ -901,7 +1012,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_legalise_dukha"
-			#decisions
+			add_ideas = GOZ_dukha
 		}
 		ai_will_do = {
 		}
@@ -927,7 +1038,20 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_connect_the_great_lakes_heartland"
-			#buildings
+			53 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			17 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -953,7 +1077,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_monopolise_the_great_lakes"
-			#buildings
+			17 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -980,6 +1111,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_woo_icrusian_elites"
 			add_political_power = -50
+			ICR = {
+				add_opinion_modifier = {
+					target = GOZ
+					modifier = offered_support
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1006,6 +1143,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_up_land_in_fayton"
 			add_political_power = -50
+			55 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1032,7 +1177,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_build_houses_in_sragos"
 			add_political_power = -50
-			#buildings
+			78 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1170,7 +1322,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_incentivise_cavalry_research"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cavalry
+			}
 		}
 		ai_will_do = {
 		}
@@ -1196,7 +1352,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_magical_revolution"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
 		}
 		ai_will_do = {
 		}
@@ -1222,7 +1382,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_artillery_patents"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
 		}
 		ai_will_do = {
 		}
@@ -1248,8 +1412,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_purchase_state_of_the_art_rifles"
-			#research
-			#equipment
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 		ai_will_do = {
 		}
@@ -1275,7 +1442,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_create_the_hitrovo_conspiracy"
-			#events
+			country_event = {
+				id = goz.11
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -1302,7 +1472,22 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_transition_the_great_lakes_economy"
-			#decisions
+			17 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			17 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1357,7 +1542,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_secret_riot_plans"
 			add_political_power = -50
-			#event
+			country_event = {
+				id = goz.14
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -1464,7 +1652,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_increase_military_spending"
-			#event
+			country_event = {
+				id = goz.5
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -1490,7 +1681,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_trubian_horses"
-			#equipment
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = cavalry
+			}
 		}
 		ai_will_do = {
 		}
@@ -1542,7 +1737,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_hellswarm"
-			#research
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = cavalry
+			}
 		}
 		ai_will_do = {
 		}
@@ -1568,7 +1767,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_reform_unit_structure"
-			#units
+			29 = {
+				create_unit = {
+					division = "division_template = \"Gozean National Guard\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 5
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1594,7 +1800,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_open_more_casinos"
-			#buildings
+			29 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1620,7 +1833,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_make_gambling_more_exploitative"
-		
+			swap_ideas = {
+				add_idea = GOZ_dukha2
+				remove_idea = GOZ_dukha
+			}
 		}
 		ai_will_do = {
 		}
@@ -1646,7 +1862,12 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_more_land_for_gambling_dens"
-			#buildings
+			29 = {
+				add_extra_state_shared_building_slots = 3
+			}
+			45 = {
+				add_extra_state_shared_building_slots = 3
+			}
 		}
 		ai_will_do = {
 		}
@@ -1724,7 +1945,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_mechanise_the_fishing_industry"
-			#buildings
+			#research
 		}
 		ai_will_do = {
 		}
@@ -1750,9 +1971,20 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_new_icrusian_gozyr_trade_deal"
-			#relations
+			add_resource = {
+				type = steel
+				amount = 18
+				state = 45
+			}
 			add_political_power = -50
-			ICR = { add_political_power = 50 }
+			ICR = { 
+				add_political_power = 50 
+				add_resource = {
+					type = steel
+					amount = 18
+					state = 91
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1778,7 +2010,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_bribe_icrusian_officials"
-			add_political_power = -50
+			add_political_power = -100
 		}
 		ai_will_do = {
 		}
@@ -1889,7 +2121,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_increase_wages"
-			#buildings
+			53 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 			add_political_power = -50
 		}
 		ai_will_do = {
@@ -1916,7 +2155,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_improve_working_conditions"
-			#buildings
+			53 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1942,7 +2188,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_enforce_permanent_working_hours"
-			#buildings
+			45 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1968,7 +2221,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_train_new_generals"
-		
+			#generals
 		}
 		ai_will_do = {
 		}
@@ -1996,7 +2249,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_invite_echainaian_military_experts"
 			#generals
-			#units
+			29 = {
+				create_unit = {
+					division = "division_template = \"Gozean National Guard\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 5
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2048,8 +2308,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_the_triad_mage_group"
-			#research
-			#equipment
+			add_tech_bonus = {
+				ahead_reduction = 0.5
+				uses = 3
+				category = armor
+			}
 		}
 		ai_will_do = {
 		}
@@ -2075,7 +2338,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_set_up_the_atarx_battery_company"
-			#research
+			add_tech_bonus = {
+				ahead_reduction = 1
+				uses = 3
+				category = cavalry
+			}
 		}
 		ai_will_do = {
 		}
@@ -2101,7 +2368,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_enforce_a_surplus_policy"
-			#research
+			add_tech_bonus = {
+				ahead_reduction = 0.75
+				uses = 3
+				category = infantry_weapons
+			}
 		}
 		ai_will_do = {
 		}
@@ -2128,7 +2399,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_create_public_gambling_spaces"
-			#decisions
+			29 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2155,8 +2433,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_nationalise_dukha"
 			swap_ideas = {
-				add_idea = goz_dukha3
-				remove_idea = goz_dukha2
+				add_idea = GOZ_dukha3
+				remove_idea = GOZ_dukha2
 			}
 		}
 		ai_will_do = {
@@ -2211,7 +2489,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_industrialise_onarough"
-			#buildi1ngs
+			30 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2238,7 +2523,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_buy_sragos_and_fayton"
-			#event
+			country_event = {
+				id = goz.15
+				days = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -2265,7 +2553,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_balance_the_budget"
-			#buildings
+			30 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 			add_political_power = 50
 		}
 		ai_will_do = {
@@ -2402,8 +2697,19 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_build_new_stables"
-			#research
-			#buildings
+			add_tech_bonus = {
+				ahead_reduction = 0.5
+				uses = 3
+				category = cavalry
+			}
+			45 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2429,7 +2735,25 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_widen_the_mage_training_pool"
-			#units
+			division_template = {
+				name = "Gozean Mage Corp"
+				priority = 0
+				template_counter = 0
+				regiments = {
+					akob_sorcerer = { x = 0 y = 0 }
+					akob_sorcerer = { x = 0 y = 1 }
+					akob_sorcerer = { x = 0 y = 2 }
+					akob_sorcerer = { x = 0 y = 3 }
+				}
+			}
+			29 = {
+				create_unit = {
+					division = "division_template = \"Gozean Mage Corp\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 3
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2456,6 +2780,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_shell_our_way_to_success"
 			#doctrine
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = cavalry
+			}
 		}
 		ai_will_do = {
 		}
@@ -2481,7 +2810,11 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_invest_into_hukima_gunworks"
-			#research
+			add_tech_bonus = {
+				bonus = 1
+				uses = 5
+				category = infantry_weapons
+			}
 		}
 		ai_will_do = {
 		}
@@ -2539,7 +2872,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_pump_out_new_factory_plants"
-			#buildings
+			2 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2565,7 +2905,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_attract_farmers_to_the_cities"
-			#buildings
+			29 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2591,7 +2938,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_prop_up_businesses_in_onarough"
-			#buildings
+			30 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2608,8 +2962,10 @@ focus_tree = {
 		#mutually_exclusive = {focus = AST_economy_above_all }
 		 
 		available = {
+			has_country_flag = GOZ_successful_purchase_sragos_fayton
 		}
 		bypass = {
+			NOT = { has_country_flag = GOZ_successful_purchase_sragos_fayton }
 		}
 		cost = 10
 		cancel_if_invalid = yes
@@ -2636,8 +2992,10 @@ focus_tree = {
 		#mutually_exclusive = {focus = AST_economy_above_all }
 		 
 		available = {
+			has_country_flag = GOZ_successful_purchase_sragos_fayton
 		}
 		bypass = {
+			NOT = { has_country_flag = GOZ_successful_purchase_sragos_fayton }
 		}
 		cost = 10
 		cancel_if_invalid = yes
@@ -2646,7 +3004,6 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_establish_the_north_ambulas_economic_region"
 			add_political_power = 100
-			#decisions
 		}
 		ai_will_do = {
 		}
@@ -2729,7 +3086,21 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_heart_of_military_innovation"
 			#doctrine
-			#research
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = armor
+			}
 		}
 		ai_will_do = {
 		}
@@ -2755,7 +3126,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_gornovo_shipyards"
-			#buildings
+			30 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = dockyard
+					level = 5
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2781,7 +3159,22 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_create_the_onarough_industrial_military_complex"
-			#buildings
+			30 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			30 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2809,7 +3202,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_a_once_proud_empire"
-			#event
+			country_event = {
+				id = goz.6
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -2869,7 +3265,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_seek_out_our_lost_territories"
-			#event
+			country_event = {
+				id = goz.7
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -2895,7 +3294,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_safeguard_against_echainaian_persecution"
-			#event
+			country_event = {
+				id = goz.9
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -2921,7 +3323,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_humiliations_oif_the_past"
-			#decisions
+			add_timed_idea = {
+				idea = GOZ_gozean_nationalism
+				days = 730
+			}
 		}
 		ai_will_do = {
 		}
@@ -2947,7 +3352,10 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_create_the_lubichesk_conspiracy"
-			#event
+			country_event = {
+				id = goz.8
+				hours = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -2973,7 +3381,14 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_strengthen_the_border_units"
-			#units
+			29 = {
+				create_unit = {
+					division = "division_template = \"Gozean National Guard\"	start_experience_factor = 0.5	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 8
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -2999,7 +3414,12 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_denounce_echainaia"
-			#decisions
+			EFR = {
+				add_opinion_modifier = {
+					target = GOZ
+					modifier = hostile_status
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -3145,6 +3565,588 @@ focus_tree = {
 		ai_will_do = {
 		}
 		}
+
+focus = {
+id = GOZ_economic_warfare
+x = 30
+y = 14
+icon = GFX_goal_more_blast_furnaces.psd
+#relative_position_id = AST_empower_the_workers
+ 
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_explotation
+x = 25
+y = 15
+icon = "GFX_focus_generic_support_the_left_right"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_economic_warfare }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_disruption
+x = 35
+y = 15
+icon = "GFX_focus_generic_strike_at_democracy2"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_economic_warfare }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_take_over_resource_extraction
+x = 22
+y = 16
+icon = "GFX_focus_generic_strike_at_democracy1"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_explotation }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_selective_investment
+x = 24
+y = 16
+icon = "GFX_focus_generic_concessions"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_explotation }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_expand_local_business
+x = 26
+y = 16
+icon = "GFX_focus_generic_self_management"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_explotation }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_hire_foreign_workers
+x = 28
+y = 16
+icon = "GFX_goal_generic_intelligence_exchange"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_explotation }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_activate_labour_movements
+x = 32
+y = 16
+icon = "GFX_goal_speaker"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_disruption }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_sabotage_factories
+x = 34
+y = 16
+icon = "GFX_goal_generic_air_production"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_disruption }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_build_consumer_complexes
+x = 36
+y = 16
+icon = GFX_goal_generic_trade
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_disruption }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_destroy_the_arms_industry
+x = 38
+y = 16
+icon = GFX_goal_gunworks
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_disruption }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+focus = {
+id = GOZ_build_better_supply_chains
+x = 23
+y = 17
+icon = "GFX_goal_ring_road"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_take_over_resource_extraction }
+prerequisite = { focus = GOZ_selective_investment }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_gozean_refineries
+x = 25
+y = 17
+icon = GFX_goal_slitting_mills
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_selective_investment }
+prerequisite = { focus = GOZ_expand_local_business }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_install_our_industrial_complexes
+x = 27
+y = 17
+icon = "GFX_goal_generic_construct_civ_factory"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_expand_local_business }
+prerequisite = { focus = GOZ_hire_foreign_workers }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_shutdown_railroads
+x = 33
+y = 17
+icon = "GFX_goal_generic_construct_infrastructure"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_activate_labour_movements }
+prerequisite = { focus = GOZ_sabotage_factories }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_burn_plantations
+x = 35
+y = 17
+icon = GFX_goal_understand_void_strength
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_sabotage_factories }
+prerequisite = { focus = GOZ_build_consumer_complexes }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_ruin_diverse_economies
+x = 37
+y = 17
+icon = "GFX_goal_generic_forceful_treaty"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_build_consumer_complexes }
+prerequisite = { focus = GOZ_destroy_the_arms_industry }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_resource_domination
+x = 24
+y = 18
+icon = GFX_goal_coal_mines
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_build_better_supply_chains }
+prerequisite = { focus = GOZ_gozean_refineries }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_control_foreign_exports
+x = 26
+y = 18
+icon = GFX_goal_generic_positive_trade_relations
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_gozean_refineries }
+prerequisite = { focus = GOZ_install_our_industrial_complexes }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_strikes_and_civil_unrest
+x = 34
+y = 18
+icon = GFX_goal_communist_infiltrators
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_shutdown_railroads }
+prerequisite = { focus = GOZ_burn_plantations }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_a_useless_economy
+x = 36
+y = 18
+icon = "GFX_goal_demand_sudetenland"
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_burn_plantations }
+prerequisite = { focus = GOZ_ruin_diverse_economies }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+} 
+ 
+focus = {
+id = GOZ_the_sole_economic_powerhouse
+x = 30
+y = 19
+icon = GFX_goal_generic_demand_territory
+#relative_position_id = AST_empower_the_workers
+ 
+prerequisite = { focus = GOZ_resource_domination OR = GOZ_control_foreign_exports }
+prerequisite = { focus = GOZ_strikes_and_civil_unrest OR = GOZ_a_useless_economy }
+#`allow_branch = { has_completed_focus = AST_workers_paradise }
+#mutually_exclusive = {focus = AST_workers_paradise }
+ 
+available = {
+}
+bypass = {
+}
+cost = 10
+cancel_if_invalid = yes
+continue_if_invalid = no
+available_if_capitulated = no
+completion_reward = {
+add_political_power = 100
+}
+ai_will_do = {
+}
+}
+
 	}	
 
 
