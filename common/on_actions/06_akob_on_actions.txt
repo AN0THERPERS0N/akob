@@ -526,4 +526,17 @@ on_puppet = {
 			}
 		}
 	}
+
+	on_monthly = {
+		effect = {
+			every_country = {
+				limit = {
+					is_neighbor_of = GOZ
+					NOT = { has_idea = GOZ_the_sole_economic_powerhouse }
+					GOZ = { has_completed_focus = GOZ_the_sole_economic_powerhouse }
+				}
+				add_ideas = GOZ_the_sole_economic_powerhouse
+			}
+		}
+	}
 }

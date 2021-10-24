@@ -12,7 +12,19 @@
 #	}
 #}
 
-GOZ_economic_warfare = {
+GOZ_economic_disruption = {
+	priority = 500
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+
+GOZ_economic_exploitation = {
 	priority = 500
 	icon = generic_propaganda
 

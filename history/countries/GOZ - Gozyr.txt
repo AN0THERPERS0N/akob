@@ -26,6 +26,9 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_variable = { global.GOZ_country = ICR }
+add_to_array = { GOZ_additional_country = 91 }
+
 set_popularities = {
 	democratic = 100
 }

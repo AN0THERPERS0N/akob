@@ -846,6 +846,8 @@ ideas = {
 			
 			allowed = {
 				tag = ICR
+				tag = DCR
+				tag = LCR
 			}
 
 			available = {
@@ -857,6 +859,59 @@ ideas = {
 				army_attack_factor = -0.2
 				army_speed_factor = -0.2
 				army_defence_factor = -0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		GOZ_increased_consumer_goods = {
+			picture = not_a_country
+			
+			allowed = {
+				always = yes
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		GOZ_the_sole_economic_powerhouse = {
+			picture = not_a_country
+			
+			allowed = {
+				always = yes
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				political_power_gain = -0.5
 			}
 
 			cancel = {

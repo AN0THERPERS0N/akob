@@ -3585,7 +3585,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	unlock_decision_tooltip = GOZ_cash_drain
 }
 ai_will_do = {
 }
@@ -3611,7 +3611,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+add_political_power = 200
 }
 ai_will_do = {
 }
@@ -3637,7 +3637,12 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	every_country = {
+		limit = {
+			NOT = { tag = GOZ }
+		}
+		add_political_power = -50
+	}
 }
 ai_will_do = {
 }
@@ -3663,7 +3668,16 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_resource = {
+		type = steel
+		amount = 8
+		state = 45
+	}
+	add_resource = {
+		type = cloth
+		amount = 8
+		state = 53
+	}
 }
 ai_will_do = {
 }
@@ -3689,7 +3703,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_resource = {
+		type = voidmetal
+		amount = 12
+		state = 2
+	}
 }
 ai_will_do = {
 }
@@ -3715,7 +3733,14 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	29 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3741,7 +3766,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	unlock_decision_tooltip = GOZ_suck_foreign_manpower
 }
 ai_will_do = {
 }
@@ -3767,7 +3792,21 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	every_country = {
+		limit = {
+			is_neighbor_of = GOZ
+		}
+		random_state = {
+			limit = {
+				is_controlled_by = PREV
+				infrastructure > 1
+			}
+			damage_building = {
+				type = infrastructure
+				damage = 2
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3793,7 +3832,54 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	every_country = {
+		limit = {
+			is_neighbor_of = GOZ
+		}
+		random_state = {
+			if = {
+				limit = {
+					is_controlled_by = PREV
+					arms_factory > 0
+					industrial_complex > 0
+				}
+	
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 1
+				}
+			}
+			else_if = {
+				limit = {
+					is_controlled_by = PREV
+					arms_factory > 0
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 1
+				}
+			}
+			else_if = {
+				limit = {
+					is_controlled_by = PREV
+					industrial_complex > 0
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			else = {
+				PREV = {
+					add_political_power = -200
+				}
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3819,7 +3905,15 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	every_country = {
+		limit = {
+			is_neighbor_of = GOZ
+		}
+		add_timed_idea = {
+			idea = GOZ_increased_consumer_goods
+			days = 365
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3845,7 +3939,48 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	every_country = {
+		limit = {
+			is_neighbor_of = GOZ
+		}
+		random_state = {
+			if = {
+				limit = {
+					is_controlled_by = PREV
+					arms_factory > 2
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 3
+				}
+			}
+			else_if = {
+				limit = {
+					is_controlled_by = PREV
+					arms_factory > 1
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 2
+				}
+			}
+			else_if = {
+				limit = {
+					is_controlled_by = PREV
+					arms_factory > 0
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 1
+				}
+			}
+			else = {
+				PREV = {
+					add_political_power = -200
+				}
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3871,7 +4006,11 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	add_resource = {
+		type = coal
+		amount = 18
+		state = 17
+	}
 }
 ai_will_do = {
 }
@@ -3898,7 +4037,19 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	53 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	add_resource = {
+		type = coal
+		amount = 6
+		state = 2
+	}
 }
 ai_will_do = {
 }
@@ -3925,7 +4076,14 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	30 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3952,7 +4110,17 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	every_country = {
+		limit = {
+			is_neighbor_of = GOZ
+		}
+		capital_scope = {
+			damage_building = {
+				type = infrastructure
+				damage = 3
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -3979,7 +4147,48 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	every_country = {
+		limit = {
+			is_neighbor_of = GOZ
+		}
+		random_state = {
+			if = {
+				limit = {
+					is_controlled_by = PREV
+					industrial_complex > 2
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 3
+				}
+			}
+			else_if = {
+				limit = {
+					is_controlled_by = PREV
+					industrial_complex > 1
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 2
+				}
+			}
+			else_if = {
+				limit = {
+					is_controlled_by = PREV
+					industrial_complex > 0
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			else = {
+				PREV = {
+					add_political_power = -200
+				}
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -4006,7 +4215,12 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	every_country = {
+		limit = {
+			is_neighbor_of = GOZ
+		}
+		add_political_power = -200
+	}
 }
 ai_will_do = {
 }
@@ -4033,7 +4247,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	unlock_decision_tooltip = GOZ_purchase_resources
 }
 ai_will_do = {
 }
@@ -4060,7 +4274,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	unlock_decision_tooltip = GOZ_exploit_industry
 }
 ai_will_do = {
 }
@@ -4087,7 +4301,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	unlock_decision_tooltip = GOZ_road_strikes
 }
 ai_will_do = {
 }
@@ -4114,7 +4328,7 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
+	unlock_decision_tooltip = GOZ_factory_strikes
 }
 ai_will_do = {
 }
@@ -4141,7 +4355,6 @@ cancel_if_invalid = yes
 continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
-add_political_power = 100
 }
 ai_will_do = {
 }

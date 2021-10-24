@@ -492,17 +492,24 @@ GOZ_economical_expansion_council = {
     }
 }
 
-GOZ_economic_warfare = {
+GOZ_economic_exploitation = {
     GOZ_cash_drain = {
         icon = ger_mefo_bills
         
         available = {
             has_completed_focus = GOZ_economic_warfare
+            tag = GOZ
         }
 
-        fire_only_once = no
+        target_trigger = {
+			FROM = {
+                is_neighbor_of = ROOT
+			}
+		}
 
-        days_re_enable = 7
+        fire_only_once = no
+        days_remove = 7
+        days_re_enable = 0
 
         visible = {
             ROOT = {
@@ -511,11 +518,278 @@ GOZ_economic_warfare = {
             has_completed_focus = GOZ_economic_warfare
         }
 
-        #cost = 20
+        cost = 100
+        
+        complete_effect = {   
+            FROM = { add_political_power = -200 }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    GOZ_suck_foreign_manpower = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = GOZ_hire_foreign_workers
+            tag = GOZ
+        }
+
+        target_trigger = {
+			FROM = {
+                is_neighbor_of = ROOT
+			}
+		}
+
+        fire_only_once = no
+        days_remove = 7
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+            has_completed_focus = GOZ_hire_foreign_workers
+        }
+
         cost = 200
         
         complete_effect = {   
-            
+            FROM = { add_manpower = -100000 }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    GOZ_purchase_resources = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = GOZ_resource_domination
+            tag = GOZ
+        }
+
+        target_trigger = {
+			FROM = {
+                is_neighbor_of = ROOT
+			}
+		}
+
+        fire_only_once = no
+        days_remove = 14
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+            has_completed_focus = GOZ_resource_domination
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            FROM = {
+                random_state = {
+                    limit = {
+                        is_owned_by = PREV
+                        has_resources_amount = {
+                            resource = steel
+                            amount > 2
+                        }
+                    }
+                    FROM = {
+                        add_resource = {
+                            type = steel
+                            amount = -2
+                            state = PREV
+                        }
+                    }
+                }
+            }
+            ROOT = {
+                random_state = {
+                    limit = {
+                        is_owned_by = PREV
+                    }
+                    ROOT = {
+                        add_resource = {
+                            type = steel
+                            amount = 2
+                            state = PREV
+                        }
+                    }
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    GOZ_exploit_industry = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = GOZ_control_foreign_exports
+            tag = GOZ
+        }
+
+        target_trigger = {
+			FROM = {
+                is_neighbor_of = ROOT
+			}
+		}
+
+        fire_only_once = no
+        days_remove = 31
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+            has_completed_focus = GOZ_control_foreign_exports
+        }
+
+        cost = 350
+        
+        complete_effect = {   
+            FROM = {
+                random_state = {
+                    limit = {
+                        is_owned_by = PREV
+                        industrial_complex > 0
+                    }
+                    remove_building = {
+                        type = industrial_complex
+                        level = 1
+                    }
+                }
+            }
+            ROOT = {
+                random_state = {
+                    limit = {
+                        is_owned_by = PREV
+                    }
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 1
+                    }
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
+
+GOZ_economic_disruption = {
+    GOZ_road_strikes = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = GOZ_strikes_and_civil_unrest
+            tag = GOZ
+            capital_scope = {
+                infrastructure > 0
+            }
+        }
+
+        target_trigger = {
+			FROM = {
+                is_neighbor_of = ROOT
+			}
+		}
+
+        fire_only_once = no
+        days_remove = 7
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+            has_completed_focus = GOZ_strikes_and_civil_unrest
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            FROM = {
+                capital_scope = {
+                    damage_building = {
+                        type = infrastructure
+                        damage = 1
+                    }
+                    every_neighbor_state = {
+                        limit = {
+                            is_owned_by = FROM
+                            infrastructure > 0
+                        }
+                        damage_building = {
+                            type = infrastructure
+                            damage = 1
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    GOZ_factory_strikes = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = GOZ_a_useless_economy
+            tag = GOZ
+        }
+
+        target_trigger = {
+			FROM = {
+                is_neighbor_of = ROOT
+			}
+		}
+
+        fire_only_once = no
+        days_remove = 7
+        days_re_enable = 0
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+            has_completed_focus = GOZ_a_useless_economy
+        }
+
+        cost = 200
+        
+        complete_effect = {   
+            FROM = {
+                random_state = {
+                    limit = {
+                        is_owned_by = FROM
+                        industrial_complex > 0
+                    }
+                    damage_building = {
+                        type = industrial_complex
+                        damage = 1
+                    }
+                }
+                
+            }
         }
 
         ai_will_do = {
