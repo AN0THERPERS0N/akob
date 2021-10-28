@@ -1,0 +1,34 @@
+MRO_majors = {
+    MRO_major_displays = {
+        icon = ger_mefo_bills
+        
+        available = {
+            tag = MRO
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 30
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            every_country = {
+                limit = {
+					is_in_array = { global.majors = THIS }
+				}
+                add_political_power = 100
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

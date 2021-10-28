@@ -1,0 +1,22 @@
+defined_text = {
+	name = GetMROMajorName
+	text = {
+		trigger = {
+			tag = MRO
+			check_variable = { MRO.majors_quantity > 5 }
+			check_variable = { MRO.majors_quantity < 7 }
+		}
+		localization_key = MRO_6_MAJOR_NAME
+	}
+	text = {
+		trigger = {
+			tag = MRO
+			check_variable = { MRO.majors_quantity > 6 }
+			check_variable = { MRO.majors_quantity < 8 }
+		}
+		localization_key = MRO_7_MAJOR_NAME
+	}
+	text = {
+		localization_key = MRO_5_MAJOR_NAME
+	}
+}

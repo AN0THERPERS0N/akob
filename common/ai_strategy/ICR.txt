@@ -63,3 +63,20 @@ ICR_ignore_AGR_THB = {
 		value = -10000
 	}
 }
+
+ICR_arbiters = {
+	allowed = { 
+		original_tag = ICR 
+	}
+	enable = {
+		tag = ICR
+	}
+	abort = {
+	}
+
+	ai_strategy = {
+		type = 	befriend
+		id = "MRO"
+		value = 10000
+	}
+}

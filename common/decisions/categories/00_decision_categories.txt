@@ -11,6 +11,17 @@
 #
 #	}
 #}
+MRO_majors = {
+	priority = 500
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
 
 GOZ_economic_disruption = {
 	priority = 500
