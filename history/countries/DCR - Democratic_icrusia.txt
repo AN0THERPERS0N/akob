@@ -2,6 +2,8 @@
 
 OOB = "DCR_1714"
 
+set_major = yes
+
 set_technology = {
 	akob_infantry_weapons_I = 1
 	akob_infantry_weapons_II = 1

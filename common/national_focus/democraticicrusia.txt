@@ -1430,11 +1430,13 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_nation_of_soldiers"
-		create_unit = {
-			division = "division_template = \"Icrusian Republican Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
-			owner = ROOT
-			allow_spawning_on_enemy_provs = yes
-			count = 3
+		104 = {
+			create_unit = {
+				division = "division_template = \"Icrusian Republican Militia\"	start_experience_factor = 0	start_equipment_factor = 1"
+				owner = ROOT
+				allow_spawning_on_enemy_provs = yes
+				count = 3
+			}
 		}
 	}
 	ai_will_do = {
