@@ -1,244 +1,83 @@
 defined_text = {
-	name = GetMROMajorName
+	name = GetMROMajor1Details
 	text = {
 		trigger = {
 			tag = MRO
-			check_variable = { MRO.majors_quantity = 6 }
+			check_variable = { MRO.majors_quantity > 0 }
+		}
+		localization_key = MRO_1_MAJOR_NAME
+	}
+	text = { localization_key = MRO_MAJOR_NAME_EMPTY }
+}
+
+defined_text = {
+	name = GetMROMajor2Details
+	text = {
+		trigger = {
+			tag = MRO
+			check_variable = { MRO.majors_quantity > 1 }
+		}
+		localization_key = MRO_2_MAJOR_NAME
+	}
+	text = { localization_key = MRO_MAJOR_NAME_EMPTY }
+}
+
+defined_text = {
+	name = GetMROMajor3Details
+	text = {
+		trigger = {
+			tag = MRO
+			check_variable = { MRO.majors_quantity > 2 }
+		}
+		localization_key = MRO_3_MAJOR_NAME
+	}
+	text = { localization_key = MRO_MAJOR_NAME_EMPTY }
+}
+
+defined_text = {
+	name = GetMROMajor4Details
+	text = {
+		trigger = {
+			tag = MRO
+			check_variable = { MRO.majors_quantity > 3 }
+		}
+		localization_key = MRO_4_MAJOR_NAME
+	}
+	text = { localization_key = MRO_MAJOR_NAME_EMPTY }
+}
+
+defined_text = {
+	name = GetMROMajor5Details
+	text = {
+		trigger = {
+			tag = MRO
+			check_variable = { MRO.majors_quantity > 4 }
+		}
+		localization_key = MRO_5_MAJOR_NAME
+	}
+	text = { localization_key = MRO_MAJOR_NAME_EMPTY }
+}
+
+defined_text = {
+	name = GetMROMajor6Details
+	text = {
+		trigger = {
+			tag = MRO
+			check_variable = { MRO.majors_quantity > 5 }
 		}
 		localization_key = MRO_6_MAJOR_NAME
 	}
+	text = { localization_key = MRO_MAJOR_NAME_EMPTY }
+}
+
+defined_text = {
+	name = GetMROMajor7Details
 	text = {
 		trigger = {
 			tag = MRO
-			check_variable = { MRO.majors_quantity = 7 }
+			check_variable = { MRO.majors_quantity > 6 }
 		}
 		localization_key = MRO_7_MAJOR_NAME
 	}
-	text = {
-		localization_key = MRO_5_MAJOR_NAME
-	}
-}
-
-defined_text = {
-	name = GetMROMajorThreatslot1Name
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^0 < 0.1 }
-			}
-			localization_key = MRO_1_slot_low
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					OR = {
-							AND = {
-									check_variable = { MRO.majors_factories^0 > 0.1 }
-									check_variable = { MRO.majors_factories^0 < 3 }
-							}
-							check_variable = { MRO.majors_factories^0 = 0.1 }
-							check_variable = { MRO.majors_factories^0 = 3 }
-					}
-			}
-			localization_key = MRO_1_slot_medium
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^0 > 3 }
-			}
-			localization_key = MRO_1_slot_high
-	}
-}
-
-defined_text = {
-	name = GetMROMajorThreatslot2Name
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^1 < 0.1 }
-			}
-			localization_key = MRO_2_slot_low
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					OR = {
-							AND = {
-									check_variable = { MRO.majors_factories^1 > 0.1 }
-									check_variable = { MRO.majors_factories^1 < 3 }
-							}
-							check_variable = { MRO.majors_factories^1 = 0.1 }
-							check_variable = { MRO.majors_factories^1 = 3 }
-					}
-			}
-			localization_key = MRO_2_slot_medium
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^1 > 3 }
-			}
-			localization_key = MRO_2_slot_high
-	}
-}
-
-defined_text = {
-	name = GetMROMajorThreatslot3Name
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^2 < 0.1 }
-			}
-			localization_key = MRO_3_slot_low
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					OR = {
-							AND = {
-									check_variable = { MRO.majors_factories^2 > 0.1 }
-									check_variable = { MRO.majors_factories^2 < 3 }
-							}
-							check_variable = { MRO.majors_factories^2 = 0.1 }
-							check_variable = { MRO.majors_factories^2 = 3 }
-					}
-			}
-			localization_key = MRO_3_slot_medium
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^2 > 3 }
-			}
-			localization_key = MRO_3_slot_high
-	}
-}
-
-defined_text = {
-	name = GetMROMajorThreatslot4Name
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^3 < 0.1 }
-			}
-			localization_key = MRO_4_slot_low
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					OR = {
-							AND = {
-									check_variable = { MRO.majors_factories^3 > 0.1 }
-									check_variable = { MRO.majors_factories^3 < 3 }
-							}
-							check_variable = { MRO.majors_factories^3 = 0.1 }
-							check_variable = { MRO.majors_factories^3 = 3 }
-					}
-			}
-			localization_key = MRO_4_slot_medium
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^3 > 3 }
-			}
-			localization_key = MRO_4_slot_high
-	}
-}
-
-defined_text = {
-	name = GetMROMajorThreatslot5Name
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^4 < 0.1 }
-			}
-			localization_key = MRO_5_slot_low
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					OR = {
-							AND = {
-									check_variable = { MRO.majors_factories^4 > 0.1 }
-									check_variable = { MRO.majors_factories^4 < 3 }
-							}
-							check_variable = { MRO.majors_factories^4 = 0.1 }
-							check_variable = { MRO.majors_factories^4 = 3 }
-					}
-			}
-			localization_key = MRO_5_slot_medium
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^4 > 3 }
-			}
-			localization_key = MRO_5_slot_high
-	}
-}
-
-defined_text = {
-	name = GetMROMajorThreatslot6Name
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^5 < 0.1 }
-			}
-			localization_key = MRO_6_slot_low
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					OR = {
-							AND = {
-									check_variable = { MRO.majors_factories^5 > 0.1 }
-									check_variable = { MRO.majors_factories^5 < 3 }
-							}
-							check_variable = { MRO.majors_factories^5 = 0.1 }
-							check_variable = { MRO.majors_factories^5 = 3 }
-					}
-			}
-			localization_key = MRO_6_slot_medium
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^5 > 3 }
-			}
-			localization_key = MRO_6_slot_high
-	}
-}
-
-defined_text = {
-	name = GetMROMajorThreatslot7Name
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^6 < 0.1 }
-			}
-			localization_key = MRO_7_slot_low
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					OR = {
-							AND = {
-									check_variable = { MRO.majors_factories^6 > 0.1 }
-									check_variable = { MRO.majors_factories^6 < 3 }
-							}
-							check_variable = { MRO.majors_factories^6 = 0.1 }
-							check_variable = { MRO.majors_factories^6 = 3 }
-					}
-			}
-			localization_key = MRO_7_slot_medium
-	}
-	text = {
-			trigger = {
-					tag = MRO
-					check_variable = { MRO.majors_factories^6 > 3 }
-			}
-			localization_key = MRO_7_slot_high
-	}
+	text = { localization_key = MRO_MAJOR_NAME_EMPTY }
 }
