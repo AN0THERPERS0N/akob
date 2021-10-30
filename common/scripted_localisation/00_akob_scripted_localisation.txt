@@ -81,3 +81,172 @@ defined_text = {
 	}
 	text = { localization_key = MRO_MAJOR_NAME_EMPTY }
 }
+
+defined_text = {
+	name = GetMROMajor1Slot
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^0 = 3 }
+			}
+			localization_key = MRO_1_MAJOR_STRONG
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^0 = 2 }
+			}
+			localization_key = MRO_1_MAJOR_BALANCED
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^0 = 1 }
+			}
+			localization_key = MRO_1_MAJOR_WEAK
+	}
+}
+defined_text = {
+	name = GetMROMajor2Slot
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^1 = 3 }
+			}
+			localization_key = MRO_2_MAJOR_STRONG
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^1 = 2 }
+			}
+			localization_key = MRO_2_MAJOR_BALANCED
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^1 = 1 }
+			}
+			localization_key = MRO_2_MAJOR_WEAK
+	}
+}
+defined_text = {
+	name = GetMROMajor3Slot
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^2 = 3 }
+			}
+			localization_key = MRO_3_MAJOR_STRONG
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^2 = 2 }
+			}
+			localization_key = MRO_3_MAJOR_BALANCED
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^2 = 1 }
+			}
+			localization_key = MRO_3_MAJOR_WEAK
+	}
+}
+defined_text = {
+	name = GetMROMajor4Slot
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^3 = 3 }
+			}
+			localization_key = MRO_4_MAJOR_STRONG
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^3 = 2 }
+			}
+			localization_key = MRO_4_MAJOR_BALANCED
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^3 = 1 }
+			}
+			localization_key = MRO_4_MAJOR_WEAK
+	}
+}
+defined_text = {
+	name = GetMROMajor5Slot
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^4 = 3 }
+			}
+			localization_key = MRO_5_MAJOR_STRONG
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^4 = 2 }
+			}
+			localization_key = MRO_5_MAJOR_BALANCED
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^4 = 1 }
+			}
+			localization_key = MRO_5_MAJOR_WEAK
+	}
+}
+defined_text = {
+	name = GetMROMajor6Slot
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^5 = 3 }
+			}
+			localization_key = MRO_6_MAJOR_STRONG
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^5 = 2 }
+			}
+			localization_key = MRO_6_MAJOR_BALANCED
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^5 = 1 }
+			}
+			localization_key = MRO_6_MAJOR_WEAK
+	}
+}
+defined_text = {
+	name = GetMROMajor7Slot
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^6 = 3 }
+			}
+			localization_key = MRO_7_MAJOR_STRONG
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^6 = 2 }
+			}
+			localization_key = MRO_7_MAJOR_BALANCED
+	}
+	text = {
+			trigger = {
+					tag = MRO
+					check_variable = { MRO.majors_strength^6 = 1 }
+			}
+			localization_key = MRO_7_MAJOR_WEAK
+	}
+}

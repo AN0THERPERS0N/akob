@@ -547,7 +547,9 @@ on_puppet = {
 			clear_array = MRO.majors_factories
 			for_each_scope_loop = {
 				array = global.majors
-				add_to_array = { MRO.majors_factories = THIS.num_of_factories }
+				set_temp_variable = { f = THIS.num_of_factories }
+				multiply_temp_variable = { f = THIS.manpower_k }
+				add_to_array = { MRO.majors_factories = f }
 			}
 
 			set_variable = { MRO.majors_total_factories = 0 }
@@ -572,6 +574,39 @@ on_puppet = {
 				divide_temp_variable = { t = MRO.majors_average_factories }
 				multiply_temp_variable = { t = t }
 				add_to_array = { MRO.majors_factories_display = t }
+			}
+
+			clear_array = MRO.majors_strength
+			for_each_loop = {
+				array = MRO.majors_factories_display
+				value = v3
+				index = i3
+
+				if = {
+					limit = {
+						check_variable = { v3 > 3 }
+					}
+					add_to_array = { MRO.majors_strength = 3 }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							AND = {
+								check_variable = { v3 < 3 }
+								check_variable = { v3 > 0.1 }
+							}
+							check_variable = { v3 = 3 }
+							check_variable = { v3 = 0.1 }
+						}
+					}
+					add_to_array = { MRO.majors_strength = 2 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { v3 < 0.1 }
+					}
+					add_to_array = { MRO.majors_strength = 1 }
+				}
 			}
 		}
 	}
@@ -583,7 +618,9 @@ on_puppet = {
 			clear_array = MRO.majors_factories
 			for_each_scope_loop = {
 				array = global.majors
-				add_to_array = { MRO.majors_factories = THIS.num_of_factories }
+				set_temp_variable = { f = THIS.num_of_factories }
+				multiply_temp_variable = { f = THIS.manpower_k }
+				add_to_array = { MRO.majors_factories = f }
 			}
 
 			set_variable = { MRO.majors_total_factories = 0 }
@@ -608,6 +645,39 @@ on_puppet = {
 				divide_temp_variable = { t = MRO.majors_average_factories }
 				multiply_temp_variable = { t = t }
 				add_to_array = { MRO.majors_factories_display = t }
+			}
+
+			clear_array = MRO.majors_strength
+			for_each_loop = {
+				array = MRO.majors_factories_display
+				value = v3
+				index = i3
+
+				if = {
+					limit = {
+						check_variable = { v3 > 3 }
+					}
+					add_to_array = { MRO.majors_strength = 3 }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							AND = {
+								check_variable = { v3 < 3 }
+								check_variable = { v3 > 0.1 }
+							}
+							check_variable = { v3 = 3 }
+							check_variable = { v3 = 0.1 }
+						}
+					}
+					add_to_array = { MRO.majors_strength = 2 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { v3 < 0.1 }
+					}
+					add_to_array = { MRO.majors_strength = 1 }
+				}
 			}
 		}
 	}
