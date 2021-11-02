@@ -93,11 +93,12 @@ ideas = {
 			removal_cost = -1
 		}
 
-		ECH_iilidea_echainaian_trade_deal = {
+		ECH_iilidea_echainaian_trade_agreement = {
 			picture = not_a_country
 			
 			allowed = {
 				tag = ECH
+				tag = ILD
 			}
 
 			available = {
@@ -105,8 +106,8 @@ ideas = {
 			}
 			
 			modifier = {
-				political_power_gain = 0.25
-				research_speed_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
 			}
 
 			cancel = {
@@ -120,11 +121,12 @@ ideas = {
 			removal_cost = -1
 		}
 
-		ECH_iilidea_echainaian_trade_deal2 = {
+		ECH_iilidea_echainaian_strategic_agreement = {
 			picture = not_a_country
 			
 			allowed = {
 				tag = ECH
+				tag = ILD
 			}
 
 			available = {
@@ -132,8 +134,38 @@ ideas = {
 			}
 			
 			modifier = {
-				political_power_gain = 0.75
-				research_speed_factor = 0.15
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+				army_org_factor = 0.15
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ECH_iilidea_echainaian_strategic_agreement2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+				tag = ILD
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+				production_speed_buildings_factor = 0.2
+				army_org_factor = 0.3
 			}
 
 			cancel = {
@@ -152,6 +184,7 @@ ideas = {
 			
 			allowed = {
 				tag = ECH
+				tag = GOZ
 			}
 
 			available = {
@@ -174,11 +207,72 @@ ideas = {
 			removal_cost = -1
 		}
 
+		ECH_gozyr_echainaian_economic_deal = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+				tag = GOZ
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.25
+				research_speed_factor = 0.1
+				local_resources_factor = 0.2
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		ECH_gozyr_echainaian_military_economic_deal = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = ECH
+				tag = GOZ
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				research_speed_factor = 0.15
+				local_resources_factor = 0.25
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+
+			cancel = {
+
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
 		ECH_icrusian_echainaian_alliance = {
 			picture = not_a_country
 			
 			allowed = {
 				tag = ECH
+				tag = ICR
 			}
 
 			available = {
@@ -648,8 +742,8 @@ ideas = {
 			}
 			
 			modifier = {
-				conversion_cost_mil_to_civ_factor = 0.15
-				conversion_cost_civ_to_mil_factor = 0.15
+				conversion_cost_mil_to_civ_factor = -0.15
+				conversion_cost_civ_to_mil_factor = -0.15
 
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.15
@@ -681,8 +775,8 @@ ideas = {
 			}
 			
 			modifier = {
-				conversion_cost_mil_to_civ_factor = 0.25
-				conversion_cost_civ_to_mil_factor = 0.25
+				conversion_cost_mil_to_civ_factor = -0.25
+				conversion_cost_civ_to_mil_factor = -0.25
 
 				industrial_capacity_factory = 0.2
 				industrial_capacity_dockyard = 0.3
@@ -714,8 +808,8 @@ ideas = {
 			}
 			
 			modifier = {
-				conversion_cost_mil_to_civ_factor = 0.5
-				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = -0.5
+				conversion_cost_civ_to_mil_factor = -0.5
 
 				industrial_capacity_factory = 0.4
 				industrial_capacity_dockyard = 0.45

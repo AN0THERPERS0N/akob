@@ -48,20 +48,20 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = 10
-				army_defence_factor = 10
-				army_org_factor = 10
-				army_org_regain = 1
-				breakthrough_factor = 10
-				attrition = -10
-				experience_gain_army = -10
-				pocket_penalty = -10
-				recon_factor = 10
-				terrain_penalty_reduction = 10
+				army_attack_factor = 100
+				army_defence_factor = 100
+				army_org_factor = 100
+				army_org_regain = 100
+				breakthrough_factor = 100
+				attrition = -100
+				experience_gain_army = -100
+				pocket_penalty = -100
+				recon_factor = 100
+				terrain_penalty_reduction = 100
 				no_supply_grace = 100000000
-				org_loss_when_moving = -10
-				out_of_supply_factor = -10
-				supply_consumption_factor = -10
+				org_loss_when_moving = -100
+				out_of_supply_factor = -100
+				supply_consumption_factor = -100
 				training_time_factor = 100000000
 				army_speed_factor = 10
 			}

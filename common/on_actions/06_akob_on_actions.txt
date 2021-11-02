@@ -681,4 +681,18 @@ on_puppet = {
 			}
 		}
 	}
+
+	on_weekly_ECH = {
+		effect = {
+			if = {
+				limit = {
+					ECH = {
+						has_country_flag = ECH_toxin_on
+					}
+					check_variable = { ECH.toxin_strength > -0.99 }
+				}
+			}
+			subtract_from_variable = { ECH.toxin_strength = 0.01 }
+		}
+	}
 }

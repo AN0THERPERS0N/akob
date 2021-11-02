@@ -485,6 +485,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_reinstate_conscription"
 			add_ideas = GOZ_general_conscription
+			remove_ideas = GOZ_disbanded_military
 			division_template = {
 				name = "Gozean National Guard"
 				priority = 0
@@ -1416,6 +1417,11 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = support_tech
 			}
 		}
 		ai_will_do = {
@@ -2815,6 +2821,11 @@ focus_tree = {
 				uses = 5
 				category = infantry_weapons
 			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = support_tech
+			}
 		}
 		ai_will_do = {
 		}
@@ -2844,8 +2855,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GOZ_the_gambling_capital"
 			#decisions
 			swap_ideas = {
-				add_idea = goz_dukha4
-				remove_idea = goz_dukha3
+				add_idea = GOZ_dukha4
+				remove_idea = GOZ_dukha3
 			}
 		}
 		ai_will_do = {

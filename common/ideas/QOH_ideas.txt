@@ -485,8 +485,8 @@ ideas = {
 				production_speed_buildings_factor = 0.25
 				industrial_capacity_factory = 0.25
 				industry_repair_factor = 0.35
-				conversion_cost_mil_to_civ_factor = 0.4
-				conversion_cost_civ_to_mil_factor = 0.4
+				conversion_cost_mil_to_civ_factor = -0.4
+				conversion_cost_civ_to_mil_factor = -0.4
 
 				stability_factor = 0.15
 			}

@@ -133,3 +133,29 @@ ARS_overwhelming_loyalty = {
 	
 	political_power_gain = var:ARS.ars_paranoia
 }
+
+#ECH
+
+ECH_toxin_modifier = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+
+	conscription_factor = var:ECH.toxin_strength
+}
+
+ECH_knowledge_of_the_virus = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+
+	production_factory_start_efficiency_factor = var:ECH_atesos_plague 
+	production_factory_efficiency_gain_factor = var:ECH_atesos_plague
+	production_factory_max_efficiency_factor = var:ECH_atesos_plague
+
+	supply_consumption_factor = var:ECH_licnous_plague_negative
+	training_time_factor = var:ECH_licnous_plague_negative
+	out_of_supply_factor = var:ECH_licnous_plague
+
+	terrain_penalty_reduction = var:ECH_litteverian_plague
+	land_night_attack = var:ECH_litteverian_plague
+	attrition = var:ECH_litteverian_plague
+}

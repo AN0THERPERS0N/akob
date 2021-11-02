@@ -1,0 +1,161 @@
+ECH_test = {
+
+    ECH_toxin = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = ECH_start_world_domination
+        }
+
+        fire_only_once = no
+        
+
+        visible = {
+            has_completed_focus = ECH_start_world_domination
+        }
+
+        cost = 0
+        
+        complete_effect = {   
+            every_country = {
+                limit = {
+                    has_war = yes
+                }
+                add_to_array = { global.countrywar = THIS }
+            }
+            for_each_scope_loop = {
+                array = global.countrywar
+                for_each_scope_loop = {
+                    array = global.countrywar
+                    if = {
+                        limit = {
+                            has_war_with = PREV
+                        }
+                        white_peace = PREV
+                    }
+                }
+                clear_array = global.countrywar
+                every_country = {
+                    limit = {
+                        has_war = yes
+                    }
+                    add_to_array = { global.countrywar = THIS }
+                }
+            }
+            random_country = {
+                limit = {
+                    is_in_faction = no
+                    NOT = { tag = ECH }
+                }
+                create_faction = ambulas_big_happy_family
+                every_country = {
+                    limit = {
+                        NOT = { 
+                            tag = PREV 
+                            tag = ECH
+                        }
+                    }
+                    PREV = {
+                        add_to_faction = PREV
+                    }
+                }
+            }
+            set_variable = { ECH.toxin_strength = -0.01 }
+            every_country = {
+                limit = {
+                    NOT = { tag = ECH }
+                }
+                add_dynamic_modifier = {
+                    modifier = ECH_toxin_modifier
+                }
+                declare_war_on = {
+                    target = ECH
+                    type = puppet_wargoal_focus
+                }
+            }
+            set_country_flag = ECH_toxin_on
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
+
+ECH_echainaian_research = {
+
+    ECH_study_the_atesos_plague = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = ECH_look_into_the_past_for_inspiration
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ECH_look_into_the_past_for_inspiration
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            set_variable = { ECH_atesos_plague = 0.2 }
+            set_variable = { ECH_atesos_plague_negative = -0.2 }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ECH_study_the_licnous_plague = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = ECH_look_into_the_past_for_inspiration
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ECH_look_into_the_past_for_inspiration
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            set_variable = { ECH_licnous_plague = 0.2 }
+            set_variable = { ECH_licnous_plague_negative = -0.2 }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ECH_study_the_litteverian_plague = {
+        icon = ger_mefo_bills
+        
+        available = {
+            has_completed_focus = ECH_look_into_the_past_for_inspiration
+        }
+
+        fire_only_once = yes
+
+        visible = {
+            has_completed_focus = ECH_look_into_the_past_for_inspiration
+        }
+
+        cost = 100
+        
+        complete_effect = {   
+            set_variable = { ECH_litteverian_plague = 0.3 }
+            set_variable = { ECH_litteverian_plague_negative = -0.3 }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

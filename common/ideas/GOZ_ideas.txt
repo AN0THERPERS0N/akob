@@ -61,8 +61,8 @@ ideas = {
 				industry_repair_factor = 0.3
 				line_change_production_efficiency_factor = 0.3
 
-				conversion_cost_civ_to_mil_factor = -0.4
-				conversion_cost_mil_to_civ_factor = 0.4
+				conversion_cost_civ_to_mil_factor = 0.4
+				conversion_cost_mil_to_civ_factor = -0.4
 			}
 
 			cancel = {
@@ -115,8 +115,8 @@ ideas = {
 			}
 			
 			modifier = {
-				defence = -0.3
-				offence = -0.3
+				army_defence_factor = -0.3
+				army_attack_factor = -0.3
 				army_speed_factor = -0.3
 				army_org_regain = -0.3
 				breakthrough_factor = -0.8
@@ -181,17 +181,17 @@ ideas = {
 			}
 			
 			modifier = {
-				trade_opinion_factor = -1
-				industrial_capacity_factory = -1.15
-				production_speed_buildings_factor = -0.8
-				local_resources_factor = -0.8
+				trade_opinion_factor = -0.8
+				industrial_capacity_factory = -0.8
+				production_speed_buildings_factor = -0.5
+				local_resources_factor = -0.5
 
-				industry_free_repair_factor = -1
-				industry_repair_factor = -1
-				line_change_production_efficiency_factor = -1.2
+				industry_free_repair_factor = -0.8
+				industry_repair_factor = -0.8
+				line_change_production_efficiency_factor = -0.8
 
-				conversion_cost_civ_to_mil_factor = 0.5
-				conversion_cost_mil_to_civ_factor = 0.5
+				conversion_cost_civ_to_mil_factor = 0.2
+				conversion_cost_mil_to_civ_factor = 0.2
 			}
 
 			cancel = {
@@ -217,17 +217,15 @@ ideas = {
 			}
 			
 			modifier = {
-				trade_opinion_factor = -0.8
-				industrial_capacity_factory = -0.8
-				production_speed_buildings_factor = -0.5
-				local_resources_factor = -0.5
-
-				industry_free_repair_factor = -0.8
-				industry_repair_factor = -0.8
-				line_change_production_efficiency_factor = -0.8
-
-				conversion_cost_civ_to_mil_factor = -0.2
-				conversion_cost_mil_to_civ_factor = -0.2
+				trade_opinion_factor = -0.5
+				industrial_capacity_factory	= -0.5
+				production_speed_buildings_factor = -0.3
+				local_resources_factor = -0.3
+				industry_free_repair_factor	= -0.5
+				industry_repair_factor = -0.5
+				line_change_production_efficiency_factor = -0.5
+				conversion_cost_civ_to_mil_factor = 0.2
+				conversion_cost_mil_to_civ_factor = 0.2
 			}
 
 			cancel = {
@@ -255,17 +253,15 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.5
 				trade_opinion_factor = 0.5
-				industrial_capacity_factory = 0.4
-				global_building_slots_factor = 0.1
-				production_speed_buildings_factor = 0.3
+				industrial_capacity_factory	= 0.6
+				global_building_slots_factor = 0.15
+				production_speed_buildings_factor = 0.5
 				local_resources_factor = 0.5
-
-				industry_free_repair_factor = 0.2
-				industry_repair_factor = 0.3
-				line_change_production_efficiency_factor = 0.3
-
-				conversion_cost_civ_to_mil_factor = -0.4
-				conversion_cost_mil_to_civ_factor = 0.4
+				industry_free_repair_factor	= 0.2
+				industry_repair_factor = 0.4
+				line_change_production_efficiency_factor = 0.4
+				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = -0.5
 			}
 
 			cancel = {
@@ -293,17 +289,15 @@ ideas = {
 			modifier = {
 				political_power_gain = 1.2
 				trade_opinion_factor = 0.5
-				industrial_capacity_factory = 0.4
-				global_building_slots_factor = 0.1
-				production_speed_buildings_factor = 0.3
+				industrial_capacity_factory	= 0.8
+				global_building_slots_factor = 0.2
+				production_speed_buildings_factor = 0.7
 				local_resources_factor = 0.5
-
-				industry_free_repair_factor = 0.2
-				industry_repair_factor = 0.3
-				line_change_production_efficiency_factor = 0.3
-
-				conversion_cost_civ_to_mil_factor = -0.4
-				conversion_cost_mil_to_civ_factor = 0.4
+				industry_free_repair_factor	= 0.2
+				industry_repair_factor = 0.5
+				line_change_production_efficiency_factor = 0.5
+				conversion_cost_civ_to_mil_factor = 0.6
+				conversion_cost_mil_to_civ_factor = -0.6
 			}
 
 			cancel = {
@@ -330,20 +324,17 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.15
-
 				political_power_gain = 2
 				trade_opinion_factor = 0.5
-				industrial_capacity_factory = 0.4
-				global_building_slots_factor = 0.1
-				production_speed_buildings_factor = 0.3
+				industrial_capacity_factory	= 0.8
+				global_building_slots_factor = 0.2
+				production_speed_buildings_factor = 0.9
 				local_resources_factor = 0.5
-
-				industry_free_repair_factor = 0.2
-				industry_repair_factor = 0.3
-				line_change_production_efficiency_factor = 0.3
-
-				conversion_cost_civ_to_mil_factor = -0.4
-				conversion_cost_mil_to_civ_factor = 0.4
+				industry_free_repair_factor	= 0.2
+				industry_repair_factor = 0.65
+				line_change_production_efficiency_factor = 0.5
+				conversion_cost_civ_to_mil_factor = 0.6
+				conversion_cost_mil_to_civ_factor = -0.6
 			}
 
 			cancel = {
@@ -370,20 +361,17 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.1
-
 				political_power_gain = 1
 				trade_opinion_factor = 0.5
-				industrial_capacity_factory = 0.4
-				global_building_slots_factor = 0.1
-				production_speed_buildings_factor = 0.3
+				industrial_capacity_factory	= 1
+				global_building_slots_factor = 0.2
+				production_speed_buildings_factor = 0.7
 				local_resources_factor = 0.5
-
-				industry_free_repair_factor = 0.2
-				industry_repair_factor = 0.3
-				line_change_production_efficiency_factor = 0.3
-
-				conversion_cost_civ_to_mil_factor = -0.4
-				conversion_cost_mil_to_civ_factor = 0.4
+				industry_free_repair_factor	= 0.2
+				industry_repair_factor = 0.65
+				line_change_production_efficiency_factor = 0.5
+				conversion_cost_civ_to_mil_factor = 0.6
+				conversion_cost_mil_to_civ_factor = -0.6
 			}
 
 			cancel = {
@@ -493,7 +481,7 @@ ideas = {
 			}
 			
 			modifier = {
-				recruitable_population = 0.15
+				recruitable_population = 0.2
 			}
 
 			cancel = {
@@ -519,8 +507,8 @@ ideas = {
 			}
 			
 			modifier = {
-				recruitable_population = 0.30
-				non_core_manpower = 0.1
+				recruitable_population = 0.35
+				non_core_manpower = 0.15
 			}
 
 			cancel = {
@@ -547,7 +535,7 @@ ideas = {
 			
 			modifier = {
 				research_speed_factor = 0.2
-				#tech_bonus
+				army_attack_factor = 0.15
 			}
 
 			cancel = {
@@ -573,17 +561,16 @@ ideas = {
 			}
 			
 			modifier = {
-				defence = 0.2
-				offence = 0.2
+				army_defence_factor	= 0.5
+				army_attack_factor = 0.5
 				army_speed_factor = 0.5
 				army_org_regain = 0.5
-				breakthrough_factor = 0.5
+				breakthrough_factor	= 0.5
 				dig_in_speed_factor = 0.3
-				experience_gain_army_factor = 0.5
+				experience_gain_army_factor	= 0.5
 				supply_consumption_factor = -0.3
 				training_time_factor = -0.5
-
-				recruitable_population = 0.4
+				recruitable_population = 0.5
 				non_core_manpower = 0.5
 			}
 
@@ -789,17 +776,15 @@ ideas = {
 			
 			modifier = {
 				trade_opinion_factor = 0.8
-				industrial_capacity_factory = 0.6
+				industrial_capacity_factory	= 1
 				global_building_slots_factor = 0.2
-				production_speed_buildings_factor = 0.5
+				production_speed_buildings_factor = 1
 				local_resources_factor = 0.75
-
 				industry_free_repair_factor = 0.5
 				industry_repair_factor = 0.5
 				line_change_production_efficiency_factor = 0.5
-
-				conversion_cost_civ_to_mil_factor = -0.8
-				conversion_cost_mil_to_civ_factor = 0.8
+				conversion_cost_civ_to_mil_factor = 0.8
+				conversion_cost_mil_to_civ_factor = -0.8
 			}
 
 			cancel = {

@@ -40,7 +40,10 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_celebration_day"
-	#event
+	country_event = {
+		id = ech.1
+		days = 0
+	}
 }
 ai_will_do = {
 }
@@ -91,7 +94,10 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_publish_the_biography"
-	#event
+	country_event = {
+		id = ech.2
+		days = 0
+	}
 }
 ai_will_do = {
 }
@@ -115,7 +121,8 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_reinstate_the_iilidea_echainaian_trade_deal"
-	add_ideas = ECH_iilidea_echainaian_trade_deal
+	add_ideas = ECH_iilidea_echainaian_trade_agreement
+	ILD = { add_ideas = ECH_iilidea_echainaian_trade_agreement }
 }
 ai_will_do = {
 }
@@ -140,7 +147,12 @@ available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_bless_our_icrusian_friends"
 	add_political_power = 25
-	#relations
+	ICR = {
+		add_opinion_modifier = {
+			target = ECH
+			modifier = offered_support
+		}
+	}
 }
 ai_will_do = {
 }
@@ -195,7 +207,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_new_foreign_policy"
-	#decisions
+	add_stability = 0.2
 }
 ai_will_do = {
 }
@@ -270,7 +282,10 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_the_unthinkable"
-	#event
+	country_event = {
+		id = ech.10
+		days = 0
+	}
 }
 ai_will_do = {
 }
@@ -294,7 +309,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_reignite_the_factory_works"
-	#research
+	#industrial research
 }
 ai_will_do = {
 }
@@ -378,8 +393,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_end_of_the_world_resolution"
-	#event
-	add_political_power = 100
+	add_political_power = 300
 }
 ai_will_do = {
 }
@@ -403,7 +417,19 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_establish_the_royal_coal_company"
-	#buildings
+	67 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	add_resource = {
+		type = coal
+		amount = 12
+		state = 67
+	}
 }
 ai_will_do = {
 }
@@ -427,7 +453,27 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_infrastructure_projects"
-	#buildings
+	50 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	54 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
+	79 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -450,7 +496,10 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_heal_old_wounds"
-	#events
+	country_event = {
+		id = ech.3
+		days = 0
+	}
 }
 ai_will_do = {
 }
@@ -473,7 +522,10 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_strengthen_the_treaty_of_hitrovro"
-	#event
+	country_event = {
+		id = ech.8
+		days = 0
+	}
 }
 ai_will_do = {
 }
@@ -496,7 +548,25 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_host_a_icrusian_echainaian_summit"
-	#event
+	add_stability = 0.1
+	if = {
+		limit = {
+			country_exists = ICR
+		}
+		ICR = { add_stability = 0.1 }
+	}
+	else_if = {
+		limit = {
+			country_exists = DCR
+		}
+		DCR = { add_stability = 0.1 }
+	}
+	else_if = {
+		limit = {
+			country_exists = LCR
+		}
+		LCR = { add_stability = 0.1 }
+	}
 }
 ai_will_do = {
 }
@@ -520,7 +590,11 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_improved_arms_designs"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = infantry_weapons
+	}
 }
 ai_will_do = {
 }
@@ -544,7 +618,11 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_increase_artillery_research_funding"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = artillery
+	}
 }
 ai_will_do = {
 }
@@ -568,7 +646,11 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_grand_cavalry_reform"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -592,7 +674,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_research_into_bioware"
-	#research
+	add_research_slot = 1
 }
 ai_will_do = {
 }
@@ -641,7 +723,22 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_fire_up_the_plants"
-	#buildings
+	44 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	52 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -665,7 +762,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_improved_mining_tools"
-	#research
+	#industrial research
 }
 ai_will_do = {
 }
@@ -689,7 +786,22 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_expand_the_dubutsk_military_centre"
-	#buildings
+	75 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	79 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -713,7 +825,10 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_establish_the_northern_trade_deal"
-	#decisions
+	add_ideas = ECH_gozyr_echainaian_trade_deal
+	GOZ = {
+		add_ideas = ECH_gozyr_echainaian_trade_deal
+	}
 }
 ai_will_do = {
 }
@@ -737,7 +852,22 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_begin_the_western_mission"
-	#decisions
+	54 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	98 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -761,8 +891,10 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_acknowledge_spheres_of_influence"
-	add_political_power = 25
-	#relations
+	country_event = {
+		id = ech.9
+		days = 0
+	}
 }
 ai_will_do = {
 }
@@ -786,7 +918,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_modernise_support_armaments"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 2
+		category = infantry_weapons
+	}
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = support_tech
+	}
 }
 ai_will_do = {
 }
@@ -810,7 +951,11 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_innovate_new_artillery_ideas"
-	#research
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 3
+		category = artillery
+	}
 }
 ai_will_do = {
 }
@@ -834,7 +979,11 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_retire_older_cavalry_models"
-	#research
+	add_tech_bonus = {
+		bonus = 0.75
+		uses = 2
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -858,8 +1007,12 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_look_into_the_past_for_inspiration"
-	#event
-	#decisions
+	add_dynamic_modifier = {
+		modifier = ECH_knowledge_of_the_virus
+	}
+	unlock_decision_tooltip = ECH_study_the_atesos_plague
+	unlock_decision_tooltip = ECH_study_the_licnous_plague
+	unlock_decision_tooltip = ECH_study_the_litteverian_plague
 }
 ai_will_do = {
 }
@@ -883,7 +1036,21 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_dig_northern_trenches"
-	#buildings
+	50 = {
+		add_building_construction = {
+			type = bunker
+			level = 2
+			instant_build = yes
+			province = {
+				id = 242
+				id = 1814
+				id = 1215
+				id = 594
+				id = 1589
+				id = 398
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -907,7 +1074,19 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_build_high_walls"
-	#buildings
+	50 = {
+		add_building_construction = {
+			type = bunker
+			level = 3
+			instant_build = yes
+			province = {
+				id = 1320
+				id = 1060
+				id = 498
+				id = 2009
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -931,7 +1110,23 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_build_secure_forts"
-	#buildings
+	50 = {
+		add_building_construction = {
+			type = bunker
+			level = 2
+			instant_build = yes
+			province = {
+				id = 58
+				id = 68
+				id = 502
+				id = 2065
+				id = 454
+				id = 2077
+				id = 900
+				id = 721
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -956,6 +1151,19 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_the_largest_coal_exporter_in_the_world"
+	39 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
+	add_resource = {
+		type = coal
+		amount = 8
+		state = 39
+	}
 	swap_ideas = {
 		add_idea = ECH_ghewat_economic_plan2
 		remove_idea = ECH_ghewat_economic_plan
@@ -983,7 +1191,22 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_build_more_industrial_centres"
-	#buildings
+	81 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	84 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1007,9 +1230,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_provide_resources_to_gozyr"
-	GOZ = { add_political_power = 50 }
-	add_political_power = -50
-	add_ideas = ECH_gozyr_echainaian_trade_deal
+	swap_ideas = {
+		add_idea = ECH_gozyr_echainaian_economic_deal
+		remove_idea = ECH_gozyr_echainaian_trade_deal
+	}
+	GOZ = {
+		swap_ideas = {
+			add_idea = ECH_gozyr_echainaian_economic_deal
+			remove_idea = ECH_gozyr_echainaian_trade_deal
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1033,7 +1263,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_exchange_advisors"
-	#generals
+	swap_ideas = {
+		add_idea = ECH_iilidea_echainaian_strategic_agreement
+		remove_idea = ECH_iilidea_echainaian_trade_agreement
+	}
+	ILD = {
+		swap_ideas = {
+			add_idea = ECH_iilidea_echainaian_strategic_agreement
+			remove_idea = ECH_iilidea_echainaian_trade_agreement
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1057,7 +1296,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_naval_deal"
-	#equipment
+	#naval tech
 }
 ai_will_do = {
 }
@@ -1135,8 +1374,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_start_virus_research"
-	add_political_power = 100
-	#decisions
+	54 = {
+		add_state_modifier = {
+			modifier = {
+				local_resources = 2.0
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1160,8 +1404,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_train_special_biomages"
-	#units
-	#equipment
+	50 = {
+		create_unit = {
+			division = "division_template = \"Echainaian Battlemages Battalion\"	start_experience_factor = 0	start_equipment_factor = 1"
+			owner = ROOT
+			allow_spawning_on_enemy_provs = yes
+			count = 5
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1185,8 +1435,21 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_elaborate_trench_system"
-	#buildings
-	#doctrine
+	50 = {
+		add_building_construction = {
+			type = bunker
+			level = 2
+			instant_build = yes
+			province = {
+				id = 950
+				id = 802
+				id = 1375
+				id = 1895
+				id = 873
+				id = 11
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1210,7 +1473,23 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_build_killing_zones"
-	#buildings
+	50 = {
+		add_building_construction = {
+			type = bunker
+			level = 2
+			instant_build = yes
+			province = {
+				id = 2137
+				id = 391
+				id = 827
+				id = 791
+				id = 1127
+				id = 2111
+				id = 1455
+				id = 1087
+			}
+		}
+	}
 	swap_ideas = {
 		add_idea = ECH_hermit_kingdom2
 		remove_idea = ECH_hermit_kingdom
@@ -1238,7 +1517,24 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_star_forts_everywhere"
-	#buildings
+	50 = {
+		add_building_construction = {
+			type = bunker
+			level = 2
+			instant_build = yes
+			province = {
+				id = 2067
+				id = 683
+				id = 688
+				id = 1194
+				id = 757
+				id = 135
+				id = 144
+				id = 497
+				id = 44
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1263,8 +1559,38 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_invest_in_the_far_east"
-	add_political_power = 25
-	#buildings
+	31 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	42 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	69 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	21 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1289,8 +1615,38 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_invest_in_the_great_lakes"
-	add_political_power = 25
-	#buildings
+	59 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	81 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	84 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	79 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1315,8 +1671,17 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_greatly_improve_relations"
-	#relations
-	add_political_power = 25
+	ILD = {
+		add_opinion_modifier = {
+			target = ECH
+			modifier = offered_support
+		}
+	}
+	add_opinion_modifier = {
+		target = ILD
+		modifier = offered_support
+	}
+	add_political_power = 50
 }
 ai_will_do = {
 }
@@ -1341,6 +1706,24 @@ available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_alliance_for_the_future"
 	add_ideas = ECH_icrusian_echainaian_alliance
+	if = {
+		limit = {
+			country_exists = ICR
+		}
+		ICR = { add_ideas = ECH_icrusian_echainaian_alliance }
+	}
+	else_if = {
+		limit = {
+			country_exists = DCR
+		}
+		DCR = { add_ideas = ECH_icrusian_echainaian_alliance }
+	}
+	else_if = {
+		limit = {
+			country_exists = LCR
+		}
+		LCR = { add_ideas = ECH_icrusian_echainaian_alliance }
+	}
 }
 ai_will_do = {
 }
@@ -1416,6 +1799,7 @@ available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_let_the_hooves_roam"
 	add_ideas = ECH_cavalry_focus
+
 }
 ai_will_do = {
 }
@@ -1439,8 +1823,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_a_painful_end"
-	#decisions
-	add_political_power = 75
+	50 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1464,8 +1854,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_a_quick_end"
-	#decisons
-	add_political_power = 50
+	50 = {
+		add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1489,7 +1885,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_innovate_new_medical_gear"
-	#research
+	#industry research
 	add_ideas = ECH_medical_research_initiative
 }
 ai_will_do = {
@@ -1515,7 +1911,7 @@ available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_experiments_on_the_human_race"
 	add_manpower = -1000
-	#event
+	add_research_slot = 1
 }
 ai_will_do = {
 }
@@ -1564,8 +1960,46 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_three_layered_defence"
-	#doctrine
-	#buildings
+	50 = {
+		add_building_construction = {
+			type = bunker
+			level = 2
+			instant_build = yes
+			province = {
+				id = 950
+				id = 802
+				id = 1375
+				id = 1895
+				id = 873
+				id = 11
+				id = 2137
+				id = 391
+				id = 827
+				id = 791
+				id = 1127
+				id = 2111
+				id = 1455
+				id = 1087
+				id = 58
+				id = 68
+				id = 502
+				id = 2065
+				id = 454
+				id = 2077
+				id = 900
+				id = 721
+				id = 2067
+				id = 683
+				id = 688
+				id = 1194
+				id = 757
+				id = 135
+				id = 144
+				id = 497
+				id = 44
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1590,7 +2024,25 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_not_one_step_back"
-	#decisions
+	50 = {
+		add_building_construction = {
+			type = bunker
+			level = 3
+			instant_build = yes
+			province = {
+				id = 242
+				id = 1814
+				id = 1215
+				id = 594
+				id = 1589
+				id = 398
+				id = 1320
+				id = 1060
+				id = 498
+				id = 2009
+			}
+		}
+	}
 	swap_ideas = {
 		add_idea = ECH_hermit_kingdom3
 		remove_idea = ECH_hermit_kingdom2
@@ -1618,7 +2070,48 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_bring_the_roads_up_to_the_national_standard"
-	#buildings
+	5 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	23 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	44 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	31 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	52 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	13 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1642,7 +2135,48 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_further_improve_the_infrastructure"
-	#buildings
+	79 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	75 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	54 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	50 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	40 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
+	25 = {
+		add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1655,7 +2189,7 @@ y = 10
 icon = GFX_goal_increase_military_pay
 #relative_position_id = AST_empower_the_workers
 prerequisite = { focus = ECH_provide_resources_to_gozyr }
-mutually_exclusive = {focus = ECH_trade_manpower_for_lands }
+mutually_exclusive = {focus = ECH_trade_manpower_for_money }
 available = {
 }
 bypass = {
@@ -1666,13 +2200,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_sell_gozyr_lands"
-	#event
+	country_event = {
+		id = ech.4
+		days = 0
+	}
 }
 ai_will_do = {
 }
 }
 focus = {
-id = ECH_trade_manpower_for_lands
+id = ECH_trade_manpower_for_money
 
 x = 3
 y = 10
@@ -1690,7 +2227,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_trade_manpower_for_lands"
-	#decisions
+	GOZ = {
+		add_manpower = 1000000
+		add_political_power = -300
+	}
+	ECH = {
+		add_manpower = -1000000
+		add_political_power = 300
+	}
 }
 ai_will_do = {
 }
@@ -1702,7 +2246,7 @@ x = 2
 y = 11
 icon = GFX_focus_generic_military_mission
 #relative_position_id = AST_empower_the_workers
-prerequisite = { focus = ECH_sell_gozyr_lands OR = ECH_trade_manpower_for_lands}
+prerequisite = { focus = ECH_sell_gozyr_lands OR = ECH_trade_manpower_for_money }
 #mutually_exclusive = {focus = GOZ_economy_above_all }
 available = {
 }
@@ -1714,9 +2258,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_sell_military_aid_to_gozyr"
-	add_political_power = 100
-	GOZ = { add_political_power = -100 }
-	#general
+	swap_ideas = {
+		add_idea = ECH_gozyr_echainaian_military_economic_deal
+		remove_idea = ECH_gozyr_echainaian_trade_deal
+	}
+	GOZ = {
+		swap_ideas = {
+			add_idea = ECH_gozyr_echainaian_military_economic_deal
+			remove_idea = ECH_gozyr_echainaian_trade_deal
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1742,8 +2293,14 @@ completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_intertwine_our_economies"
 	add_political_power = 50
 	swap_ideas = {
-		add_idea = ECH_iilidea_echainaian_trade_deal2
-		remove_idea = ECH_iilidea_echainaian_trade_deal
+		add_idea = ECH_iilidea_echainaian_strategic_agreement2
+		remove_idea = ECH_iilidea_echainaian_strategic_agreement
+	}
+	ILD = {
+		swap_ideas = {
+			add_idea = ECH_iilidea_echainaian_strategic_agreement2
+			remove_idea = ECH_iilidea_echainaian_strategic_agreement
+		}
 	}
 }
 ai_will_do = {
@@ -1768,10 +2325,41 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_peace_between_our_lands"
-	diplomatic_relation = {
-		country = ICR
-		relation = non_aggression_pact
-		active = no
+	if = {
+		limit = {
+			country_exists = ICR
+		}
+		ICR = {
+			diplomatic_relation = {
+				country = ICR
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			country_exists = DCR
+		}
+		DCR = {
+			diplomatic_relation = {
+				country = DCR
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			country_exists = LCR
+		}
+		LCR = {
+			diplomatic_relation = {
+				country = LCR
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
 	}
 }
 ai_will_do = {
@@ -1796,7 +2384,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_incoporate_icrusian_designs"
-	#research
+	add_tech_bonus = {
+		ahead_reduction = 1
+		uses = 2
+		category = infantry_weapons
+	}
+	add_tech_bonus = {
+		ahead_reduction = 1
+		uses = 2
+		category = support_tech
+	}
 }
 ai_will_do = {
 }
@@ -1820,7 +2417,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_combined_arms"
-	#research
+	add_tech_bonus = {
+		ahead_reduction = 1
+		uses = 2
+		category = infantry_weapons
+	}
+	add_tech_bonus = {
+		ahead_reduction = 1
+		uses = 2
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -1844,7 +2450,11 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_incoporate_trubian_cavalry"
-	#research
+	add_tech_bonus = {
+		ahead_reduction = 1.5
+		uses = 4
+		category = cavalry
+	}
 }
 ai_will_do = {
 }
@@ -1868,8 +2478,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_make_it_hard_to_detect"
-	add_political_power = 50
-	#research
+	50 = {
+		add_state_modifier = {
+			modifier = {
+				local_manpower = 3
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -1893,7 +2508,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_create_magical_antibodies"
-	#research
+	#industry research
 }
 ai_will_do = {
 }
@@ -1944,7 +2559,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_spread_health_propaganda"
-	#event
+	#industry research
 }
 ai_will_do = {
 }
@@ -1995,7 +2610,38 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_the_national_unity_compromise"
-	#decisions
+	12 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	27 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	11 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	59 = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -2046,7 +2692,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_build_big_cities"
-	#buildings
+	50 = {
+		add_extra_state_shared_building_slots = 5
+		add_building_construction = {
+			type = industrial_complex
+			level = 5
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -2070,7 +2723,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_great_defensive_battleplan"
-	#research
+	add_tech_bonus = {
+		bonus = 1
+		uses = 3
+		category = infantry_weapons
+	}
+	add_tech_bonus = {
+		bonus = 1
+		uses = 1
+		category = support_tech
+	}
 	#doctrine
 }
 ai_will_do = {
@@ -2095,7 +2757,16 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_strike_with_both_fists"
-	#research
+	add_tech_bonus = {
+		bonus = 1.25
+		uses = 2
+		category = infantry_weapons
+	}
+	add_tech_bonus = {
+		bonus = 1.25
+		uses = 2
+		category = cavalry
+	}
 	#doctrine
 }
 ai_will_do = {
@@ -2120,7 +2791,11 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_offense_is_the_best_defence"
-	#research
+	add_tech_bonus = {
+		bonus = 2
+		uses = 2
+		category = cavalry
+	}
 	#doctrine
 }
 ai_will_do = {
@@ -2145,8 +2820,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_increased_contagiousness"
-	#decisions
-	add_political_power = 75
+	50 = {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -2170,7 +2851,14 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_virus_survivability"
-	#decisions
+	50 = {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+			type = industrial_complex
+			level = 3
+			instant_build = yes
+		}
+	}
 	add_political_power = 50
 }
 ai_will_do = {
@@ -2278,8 +2966,19 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_keep_the_old_capital"
-	#capital
-	#buildings
+	50 = {
+		add_extra_state_shared_building_slots = 6
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 2
+			instant_build = yes
+		}
+	}
 }
 ai_will_do = {
 }
@@ -2305,8 +3004,25 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_move_the_capital_away"
-	#capital
-	#buildings
+	if = {
+		limit = {
+			has_dlc = "Battle for the Bosporus"
+		}
+		add_victory_points = {
+			province = 58
+			value = 150
+		}
+	}
+	set_capital = 75
+	75 = {
+		add_extra_state_shared_building_slots = 4
+		add_building_construction = {
+			type = industrial_complex
+			level = 4
+			instant_build = yes
+		}
+		set_state_category = megalopolis
+	}
 }
 ai_will_do = {
 }
@@ -2330,7 +3046,13 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_finish_up_our_murder_weapon"
-	#event
+	every_state = {
+		add_state_modifier = {
+			modifier = {
+				army_speed_factor_for_controller = 1
+			}
+		}
+	}
 }
 ai_will_do = {
 }
@@ -2357,8 +3079,7 @@ continue_if_invalid = no
 available_if_capitulated = no
 completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_start_world_domination"
-	#decisions
-	#event
+	unlock_decision_tooltip = ECH_toxin
 }
 ai_will_do = {
 }

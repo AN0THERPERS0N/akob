@@ -1,0 +1,191 @@
+﻿###########################
+# Democratic Icrusia Events
+###########################
+
+add_namespace = ech
+
+country_event = { #celebration day
+	id = ech.1
+	title = ech.1.t
+	desc = ech.1.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.1.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #biography (history of region)
+	id = ech.2
+	title = ech.2.t
+	desc = ech.2.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.2.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #gozyr heal old wounds
+	id = ech.3
+	title = ech.3.t
+	desc = ech.3.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.3.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #sell gozyr lands
+	id = ech.4
+	title = ech.4.t
+	desc = ech.4.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.4.a
+		GOZ = {
+			country_event = {
+				id = ech.5
+				days = 0
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #sell gozyr lands gozyr reply
+	id = ech.5
+	title = ech.5.t
+	desc = ech.5.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.5.a
+		ECH = {
+			country_event = {
+				id = ech.6
+				days = 0
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = ech.5.a
+		ECH = {
+			country_event = {
+				id = ech.7
+				days = 0
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #sell gozyr lands yay
+	id = ech.6
+	title = ech.6.t
+	desc = ech.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.6.a
+		GOZ = {
+			transfer_state = 11
+			transfer_state = 12
+			transfer_state = 27
+			add_political_power = -750
+		}
+		add_political_power = 750
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #sell gozyr lands nay
+	id = ech.7
+	title = ech.7.t
+	desc = ech.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.7.a
+		add_political_power = -1
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #treaty of hitrovo (history of region)
+	id = ech.8
+	title = ech.8.t
+	desc = ech.8.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.8.a
+		add_political_power = 50
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #icrusian echainaian summit (icrusian aspirations in the west)
+	id = ech.9
+	title = ech.9.t
+	desc = ech.9.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.9.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #the unthinkable
+	id = ech.10
+	title = ech.10.t
+	desc = ech.10.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+
+	option = {
+		name = ech.10.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
