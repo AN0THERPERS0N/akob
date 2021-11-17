@@ -2260,12 +2260,12 @@ completion_reward = {
 	log = "[GetDateText]: [Root.GetName]: Focus ECH_sell_military_aid_to_gozyr"
 	swap_ideas = {
 		add_idea = ECH_gozyr_echainaian_military_economic_deal
-		remove_idea = ECH_gozyr_echainaian_trade_deal
+		remove_idea = ECH_gozyr_echainaian_economic_deal
 	}
 	GOZ = {
 		swap_ideas = {
 			add_idea = ECH_gozyr_echainaian_military_economic_deal
-			remove_idea = ECH_gozyr_echainaian_trade_deal
+			remove_idea = ECH_gozyr_echainaian_economic_deal
 		}
 	}
 }

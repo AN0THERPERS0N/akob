@@ -19,2848 +19,3954 @@ focus_tree = {
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 3000 }
+	continuous_focus_position = { x = 4000 y = 1800 }
 
-focus = {
-id = LCR_icrusia_at_war
-x = 13
-y = 1
-icon = GFX_goal_war_with_icrusia
-#relative_position_id = AST_empower_the_workers
- 
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_icrusia_at_war"
-	country_event = {
-		id = lcr.2
-		days = 0
-		random = 0
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_call_a_state_of_emergency
-x = 6
-y = 2
-icon = "GFX_goal_generic_attack_allies"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_icrusia_at_war }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_call_a_state_of_emergency"
-	add_ideas = LCR_state_of_emergency
-	add_to_array = { LCR_civil_war_ideas = LCR_state_of_emergency }
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_play_the_long_game
-x = 13
-y = 2
-icon = GFX_goal_generic_more_territorial_claims
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_icrusia_at_war }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_play_the_long_game"
-	add_ideas = LCR_playing_the_long_game
-	add_to_array = { LCR_civil_war_ideas = LCR_playing_the_long_game }
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_instant_industrialisation
-x = 20
-y = 2
-icon = "GFX_focus_generic_industry_1"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_icrusia_at_war }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_instant_industrialisation"
-	66 = {
-		add_building_construction = {
-			type = industrial_complex
-			level = 3
-			instant_build = yes
+	focus = {
+		id = LCR_icrusia_at_war
+		x = 17
+		y = 1
+		icon = GFX_goal_war_with_icrusia
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_all_hands_on_deck
-x = 5
-y = 3
-icon = "GFX_goal_generic_national_unity"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_call_a_state_of_emergency }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_all_hands_on_deck"
-	22 = {
-		add_building_construction = {
-			type = arms_factory
-			level = 3
-			instant_build = yes
+		bypass = {
 		}
-	}
-	49 = {
-		add_building_construction = {
-			type = arms_factory
-			level = 2
-			instant_build = yes
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_every_man_a_soldier
-x = 7
-y = 3
-icon = "GFX_focus_generic_little_entente"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_call_a_state_of_emergency }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_every_man_a_soldier"
-	add_manpower = 100000
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_fortify_key_positions
-x = 10
-y = 3
-icon = "GFX_goal_fortify_the_westwall"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_play_the_long_game }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_fortify_key_positions"
-	49 = {
-		add_building_construction = {
-			type = bunker
-			level = 1
-			instant_build = yes
-			province = {
-				id = 892
-				id = 170
-				id = 244
-			}
+		ai_will_do = {
 		}
-	}
-	46 = {
-		add_building_construction = {
-			type = bunker
-			level = 1
-			instant_build = yes
-			province = {
-				id = 1945
-				id = 940
-				id = 2041
-				id = 256
-			}
+		} 
+		 
+		focus = {
+		id = LCR_all_resources_to_the_line
+		x = 44
+		y = 1
+		icon = "GFX_focus_generic_self_management"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = AST_workers_paradise }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_reach_out_to_airestonia
-x = 13
-y = 3
-icon = "GFX_goal_influence_airestonia"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_play_the_long_game }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_reach_out_to_airestonia"
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_grant_emergency_powers
-x = 16
-y = 3
-icon = "GFX_goal_generic_forceful_treaty"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_play_the_long_game }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_grant_emergency_powers"
-	add_ideas = LCR_emergency_powers
-	add_to_array = { LCR_civil_war_ideas = LCR_emergency_powers }
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_reconvert_abandoned_factories
-x = 19
-y = 3
-icon = GFX_goal_more_blast_furnaces.psd
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_instant_industrialisation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_reconvert_abandoned_factories"
-	46 = {
-		add_building_construction = {
-			type = industrial_complex
-			level = 3
-			instant_build = yes
+		bypass = {
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_emergency_civilian_factory_seizures
-x = 21
-y = 3
-icon = "GFX_goal_generic_construct_civ_factory"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_instant_industrialisation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_emergency_civilian_factory_seizures"
-	49 = {
-		add_building_construction = {
-			type = industrial_complex
-			level = 3
-			instant_build = yes
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_set_the_economy_to_ovedrive
-x = 5
-y = 4
-icon = "GFX_goal_economic_bubble"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_all_hands_on_deck }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_set_the_economy_to_ovedrive"
-	add_political_power = 200
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_mass_recruitment_drive
-x = 7
-y = 4
-icon = GFX_goal_reform_the_grand_army
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_every_man_a_soldier }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_mass_recruitment_drive"
-	add_manpower = 200000
-	add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_control_strategic_roads
-x = 10
-y = 4
-icon = GFX_goal_fortify_roads
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_fortify_key_positions }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_control_strategic_roads"
-	22 = {
-		add_building_construction = {
-			type = infrastructure
-			level = 1
-			instant_build = yes
+		ai_will_do = {
 		}
-	}
-	28 = {
-		add_building_construction = {
-			type = infrastructure
-			level = 1
-			instant_build = yes
+		} 
+		 
+		focus = {
+		id = LCR_show_no_weakness
+		x = 11
+		y = 2
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_icrusia_at_war }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		mutually_exclusive = {focus = LCR_play_the_long_game }
+		 
+		available = {
 		}
-	}
-	49 = {
-		add_building_construction = {
-			type = infrastructure
-			level = 1
-			instant_build = yes
+		bypass = {
 		}
-	}
-	46 = {
-		add_building_construction = {
-			type = infrastructure
-			level = 1
-			instant_build = yes
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
 		}
-	}
-	49 = {
-		add_building_construction = {
-			type = bunker
-			level = 1
-			instant_build = yes
-			province = {
-				id = 892
-				id = 170
-				id = 244
-			}
+		ai_will_do = {
 		}
-	}
-	46 = {
-		add_building_construction = {
-			type = bunker
-			level = 1
-			instant_build = yes
-			province = {
-				id = 1945
-				id = 940
-				id = 2041
-				id = 256
-			}
+		} 
+		 
+		focus = {
+		id = LCR_play_the_long_game
+		x = 24
+		y = 2
+		icon = "GFX_goal_working_hours"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_icrusia_at_war }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		mutually_exclusive = {focus = LCR_show_no_weakness }
+		 
+		available = {
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_diplomats_to_airestonia_city
-x = 13
-y = 4
-icon = "GFX_focus_generic_diplomatic_treaty"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_reach_out_to_airestonia }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-	always = no
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_diplomats_to_airestonia_city"
-	add_ideas = LCR_diplomats_from_airestonia
-	ARS = { add_ideas = LCR_diplomats_from_the_loyalists }
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_veil_of_secrecy
-x = 16
-y = 4
-icon = "GFX_goal_arrest_without_trial"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_grant_emergency_powers }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_veil_of_secrecy"
-	add_ideas = LCR_secret_police
-	add_to_array = { LCR_civil_war_ideas = LCR_secret_police }
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_divert_resources_to_factories
-x = 20
-y = 4
-icon = GFX_goal_steel_factories
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_emergency_civilian_factory_seizures }
-prerequisite = { focus = LCR_reconvert_abandoned_factories }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_divert_resources_to_factories"
-	22 = {
-		add_building_construction = {
-			type = industrial_complex
-			level = 2
-			instant_build = yes
+		bypass = {
 		}
-	}
-	add_resource = {
-		type = steel
-		amount = 20
-		state = 56
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_women_in_the_workforce
-x = 5
-y = 5
-icon = "GFX_goal_generic_production2"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_set_the_economy_to_ovedrive }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_women_in_the_workforce"
-	swap_ideas = {
-		add_idea = LCR_state_of_emergency2
-		remove_idea = LCR_state_of_emergency
-	}
-	add_to_array = { LCR_civil_war_ideas = LCR_state_of_emergency2 }
-	remove_from_array = { LCR_civil_war_ideas = LCR_state_of_emergency }
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_large_scale_military_promotions
-x = 7
-y = 5
-icon = "GFX_focus_generic_military_mission"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_mass_recruitment_drive }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_large_scale_military_promotions"
-	random_unit_leader = {
-		add_attack = 1
-		add_planning = 1
-	}
-	random_unit_leader = {
-		add_defense = 1
-		add_logistics = 1
-	}
-	random_unit_leader = {
-		promote_leader = yes
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_secure_our_supply_chain
-x = 10
-y = 5
-icon = GFX_focus_generic_provoke_border_clashes
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_control_strategic_roads }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_secure_our_supply_chain"
-	49 = {
-		add_building_construction = {
-			type = bunker
-			level = 2
-			instant_build = yes
-			province = {
-				id = 892
-				id = 170
-				id = 244
-			}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
 		}
-	}
-	46 = {
-		add_building_construction = {
-			type = bunker
-			level = 2
-			instant_build = yes
-			province = {
-				id = 1945
-				id = 940
-				id = 2041
-				id = 256
-			}
+		ai_will_do = {
 		}
-	}
-	49 = {
-		add_building_construction = {
-			type = infrastructure
-			level = 1
-			instant_build = yes
+		} 
+		 
+		focus = {
+		id = LCR_farmers_are_friends
+		x = 39
+		y = 2
+		icon = "GFX_goal_generic_major_alliance"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_all_resources_to_the_line }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
 		}
-	}
-	46 = {
-		add_building_construction = {
-			type = infrastructure
-			level = 1
-			instant_build = yes
+		bypass = {
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_bribe_officials
-x = 12
-y = 5
-icon = "GFX_goal_generic_alliance"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_diplomats_to_airestonia_city }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_bribe_officials"
-	add_political_power = -100
-	ARS = { add_political_power = 100 }
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_switch_sides
-x = 14
-y = 5
-icon = "GFX_goal_generic_dangerous_deal"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_diplomats_to_airestonia_city }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_switch_sides"
-	#generals
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_relocate_the_national_treasury
-x = 16
-y = 5
-icon = "GFX_focus_generic_self_management"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_veil_of_secrecy }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_relocate_the_national_treasury"
-	add_political_power = 400
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_increased_factory_equipment
-x = 20
-y = 5
-icon = "GFX_focus_generic_industry_2"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_divert_resources_to_factories }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_increased_factory_equipment"
-	28 = {
-		add_building_construction = {
-			type = industrial_complex
-			level = 3
-			instant_build = yes
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_child_labourers
-x = 5
-y = 6
-icon = "GFX_focus_CZE_german_puppet"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_women_in_the_workforce }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_child_labourers"
-	28 = {
-		add_building_construction = {
-			type = arms_factory
-			level = 3
-			instant_build = yes
+		ai_will_do = {
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_operation_second_wind
-x = 7
-y = 6
-icon = GFX_goal_force_of_arms
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_large_scale_military_promotions }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_operation_second_wind"
-	#decisions
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_protect_our_cities
-x = 10
-y = 6
-icon = "GFX_goal_generic_fortify_city"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_secure_our_supply_chain }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_protect_our_cities"
-	49 = {
-		add_building_construction = {
-			type = bunker
-			level = 3
-			instant_build = yes
-			province = {
-				id = 892
-				id = 170
-				id = 244
-			}
+		} 
+		 
+		focus = {
+		id = LCR_embrace_open_trade
+		x = 44
+		y = 2
+		icon = "GFX_goal_generic_positive_trade_relations"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_all_resources_to_the_line }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
 		}
-	}
-	46 = {
-		add_building_construction = {
-			type = bunker
-			level = 3
-			instant_build = yes
-			province = {
-				id = 1945
-				id = 940
-				id = 2041
-				id = 256
-			}
+		bypass = {
 		}
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_provide_intel
-x = 12
-y = 6
-icon = "GFX_goal_pay_out_military"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_bribe_officials }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_provide_intel"
-	#spies
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_mask_our_activities
-x = 14
-y = 6
-icon = "GFX_focus_eng_concessions_to_the_trade_unions"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_switch_sides }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_mask_our_activities"
-	country_event = {
-		id = lcr.4
-		days = 0
-		random = 0
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_mass_delusion_campaign
-x = 16
-y = 6
-icon = "GFX_goal_generic_propaganda"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_relocate_the_national_treasury }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_mass_delusion_campaign"
-	country_event = {
-		id = lcr.3
-		days = 0
-		random = 0
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_new_industrial_projects
-x = 20
-y = 6
-icon = "GFX_goal_generic_construct_mil_factory"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_increased_factory_equipment }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_new_industrial_projects"
-	56 = {
-		add_building_construction = {
-			type = industrial_complex
-			level = 3
-			instant_build = yes
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
 		}
-	}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_fund_more_geological_expeditions
+		x = 49
+		y = 2
+		icon = "GFX_goal_generic_construction2"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_all_resources_to_the_line }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_the_fight_for_our_lives
+		x = 7
+		y = 3
+		icon = "GFX_goal_generic_political_pressure"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_show_no_weakness }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_instant_industrialisation
+		x = 14
+		y = 3
+		icon = GFX_goal_more_blast_furnaces.psd
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_show_no_weakness }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_forts_forts_forts
+		x = 22
+		y = 3
+		icon = "GFX_goal_detailed_doctrine"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_play_the_long_game }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_bleed_them_dry
+		x = 29
+		y = 3
+		icon = "GFX_goal_enhanced_magic"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_play_the_long_game }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_build_new_farms
+		x = 38
+		y = 3
+		icon = "GFX_goal_grow_wheat_farm"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_farmers_are_friends }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_increase_crop_quotas
+		x = 40
+		y = 3
+		icon = "GFX_goal_lucrative_plantations"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_farmers_are_friends }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_focus_on_military_exports
+		x = 43
+		y = 3
+		icon = "GFX_goal_generic_military_deal"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_embrace_open_trade }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_gain_favourable_trade_deals
+		x = 45
+		y = 3
+		icon = "GFX_goal_generic_consumer_goods"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_embrace_open_trade }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_plunder_incrusian_caves
+		x = 48
+		y = 3
+		icon = GFX_goal_reinforce_mines
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_fund_more_geological_expeditions }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_fire_up_the_refineries
+		x = 50
+		y = 3
+		icon = GFX_goal_more_blast_furnaces.psd
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_fund_more_geological_expeditions }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		focus = {
+		id = LCR_the_iron_guard
+		x = 6
+		y = 4
+		icon = "GFX_goal_generic_build_tank"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_the_fight_for_our_lives }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_show_no_mercy
+		x = 8
+		y = 4
+		icon = GFX_goal_corruption
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_the_fight_for_our_lives }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_all_hands_on_deck
+		x = 12
+		y = 4
+		icon = "GFX_goal_generic_national_unity"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_instant_industrialisation }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_reconvert_abandoned_factories
+		x = 14
+		y = 4
+		icon = GFX_goal_slitting_mills
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_instant_industrialisation }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_emergency_civilian_factory_seizures
+		x = 16
+		y = 4
+		icon = "GFX_goal_generic_construct_civ_factory"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_instant_industrialisation }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_westwall
+		x = 19
+		y = 4
+		icon = "GFX_goal_fortify_the_westwall"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_forts_forts_forts }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_southwall
+		x = 21
+		y = 4
+		icon = "GFX_goal_fortify_the_westwall"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_forts_forts_forts }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_major_cities
+		x = 23
+		y = 4
+		icon = GFX_goal_generic_fortify_city
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_forts_forts_forts }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_minor_cities
+		x = 25
+		y = 4
+		icon = GFX_goal_generic_fortify_city
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_forts_forts_forts }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_conscript_from_every_state
+		x = 28
+		y = 4
+		icon = "GFX_focus_generic_little_entente"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_bleed_them_dry }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_war_measures_decree
+		x = 30
+		y = 4
+		icon = "GFX_goal_generic_forceful_treaty"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_bleed_them_dry }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_research_new_fertilisers
+		x = 38
+		y = 4
+		icon = "GFX_focus_research2"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_build_new_farms }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_bolster_successful_farms
+		x = 40
+		y = 4
+		icon = "GFX_goal_generic_improve_relations"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_increase_crop_quotas }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_improve_transport_efficiency
+		x = 43
+		y = 4
+		icon = "GFX_goal_generic_construct_infrastructure"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_focus_on_military_exports }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_buy_more_resources
+		x = 45
+		y = 4
+		icon = "GFX_focus_generic_steel"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_gain_favourable_trade_deals }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_incentivise_digging_in_the_south
+		x = 48
+		y = 4
+		icon = GFX_goal_natural_wealth
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_plunder_incrusian_caves }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_synthetic_resource_production_research
+		x = 50
+		y = 4
+		icon = GFX_goal_slitting_mills
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_fire_up_the_refineries }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		focus = {
+		id = LCR_paralysis_and_paranoia
+		x = 5
+		y = 5
+		icon = GFX_goal_guns_and_smoke
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_the_iron_guard }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_cause_the_earth_to_quake
+		x = 7
+		y = 5
+		icon = "GFX_focus_generic_support_the_left_right"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_the_iron_guard }
+		prerequisite = { focus = LCR_show_no_mercy }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_overwhelm_their_positions
+		x = 9
+		y = 5
+		icon = GFX_goal_pike_production
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_show_no_mercy }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_set_the_economy_to_ovedrive
+		x = 12
+		y = 5
+		icon = "GFX_goal_generic_production2"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_all_hands_on_deck }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_divert_resources_to_factories
+		x = 14
+		y = 5
+		icon = "GFX_goal_generic_construct_mil_factory"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_reconvert_abandoned_factories }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_increased_factory_equipment
+		x = 16
+		y = 5
+		icon = "GFX_goal_generic_production"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_emergency_civilian_factory_seizures }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_reinforce_the_walls
+		x = 20
+		y = 5
+		icon = GFX_goal_fortify_roads
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_westwall }
+		prerequisite = { focus = LCR_southwall }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_pocket_strongholds
+		x = 24
+		y = 5
+		icon = "GFX_goal_old_building"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_major_cities }
+		prerequisite = { focus = LCR_minor_cities }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_increase_military_pay
+		x = 28
+		y = 5
+		icon = "GFX_goal_increase_military_pay"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_conscript_from_every_state }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_press_the_young_and_old
+		x = 30
+		y = 5
+		icon = "GFX_goal_generic_more_territorial_claims"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_war_measures_decree }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_temporary_farm_measures
+		x = 39
+		y = 5
+		icon = "GFX_goal_generic_position_armies"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_research_new_fertilisers OR = LCR_bolster_successful_farms }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_money_making_machine
+		x = 44
+		y = 5
+		icon = "GFX_goal_increase_budget"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_improve_transport_efficiency OR = LCR_buy_more_resources }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_improve_coal_extraction
+		x = 49
+		y = 5
+		icon = GFX_goal_coal_mines
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_synthetic_resource_production_research OR = LCR_incentivise_digging_in_the_south }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_survival_of_the_fittest
+		x = 7
+		y = 6
+		icon = GFX_goal_reform_the_grand_army
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_paralysis_and_paranoia }
+		prerequisite = { focus = LCR_cause_the_earth_to_quake }
+		prerequisite = { focus = LCR_overwhelm_their_positions }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_new_industrial_projects
+		x = 14
+		y = 6
+		icon = GFX_goal_grain_mills
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_set_the_economy_to_ovedrive }
+		prerequisite = { focus = LCR_divert_resources_to_factories }
+		prerequisite = { focus = LCR_increased_factory_equipment }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 1
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_fort_mania
+		x = 22
+		y = 6
+		icon = GFX_goal_speaker
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_reinforce_the_walls }
+		prerequisite = { focus = LCR_pocket_strongholds }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_fight_with_what_we_have
+		x = 29
+		y = 6
+		icon = "GFX_goal_generic_major_war"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_increase_military_pay }
+		prerequisite = { focus = LCR_press_the_young_and_old }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 2
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_let_failing_farms_fail
+		x = 42
+		y = 6
+		icon = "GFX_goal_improved_wheat_production"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_temporary_farm_measures OR = LCR_money_making_machine }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_reinforce_forced_seizure_policy
+		x = 44
+		y = 6
+		icon = "GFX_goal_mjuwda_gunworks"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_temporary_farm_measures OR = LCR_improve_coal_extraction }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_strengthen_the_workforce
+		x = 46
+		y = 6
+		icon = "GFX_goal_generic_production"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_improve_coal_extraction OR = LCR_money_making_machine }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_all_arms_fallen_to_rowe
+		x = 17
+		y = 7
+		icon = "GFX_focus_generic_diplomatic_treaty"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_survival_of_the_fittest OR = LCR_fort_mania }
+		prerequisite = { focus = LCR_new_industrial_projects OR = LCR_fight_with_what_we_have }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_pay_back_favours
+		x = 41
+		y = 7
+		icon = "GFX_focus_generic_treaty"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_let_failing_farms_fail }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_build_more_factories
+		x = 44
+		y = 7
+		icon = "GFX_goal_generic_construct_civilian"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_let_failing_farms_fail OR = LCR_strengthen_the_workforce }
+		prerequisite = { focus = LCR_reinforce_forced_seizure_policy }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_sorry_state_of_infrastructure_in_icrusia
+		x = 47
+		y = 7
+		icon = "GFX_goal_generic_construct_infrastructure"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_strengthen_the_workforce }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_secrets_of_icrusia
+		x = 8
+		y = 8
+		icon = "GFX_focus_generic_strike_at_democracy2"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_all_arms_fallen_to_rowe }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		mutually_exclusive = {focus = LCR_right_to_rule }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_right_to_rule
+		x = 26
+		y = 8
+		icon = "GFX_goal_tfv_sever_ties_with_uk"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_all_arms_fallen_to_rowe }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		mutually_exclusive = {focus = LCR_secrets_of_icrusia }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_elevate_local_officials
+		x = 41
+		y = 8
+		icon = "GFX_focus_generic_military_mission"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_pay_back_favours }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_set_aside_more_resources_for_production
+		x = 43
+		y = 8
+		icon = GFX_goal_steel_factories
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_build_more_factories }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_fuel_arms_production
+		x = 45
+		y = 8
+		icon = "GFX_goal_generic_political_pressure"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_build_more_factories }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_bridge_the_north_south_divide
+		x = 47
+		y = 8
+		icon = "GFX_goal_improved_infrastructure"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_sorry_state_of_infrastructure_in_icrusia }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_read_the_ancient_diaries
+		x = 7
+		y = 9
+		icon = "GFX_focus_generic_anti_fascist_diplomacy"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_secrets_of_icrusia }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_explore_inner_soul
+		x = 9
+		y = 9
+		icon = "GFX_focus_smiling_buddha"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_secrets_of_icrusia }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_icrusia_for_icrusians
+		x = 21
+		y = 9
+		icon = GFX_goal_alliance_with_icrusia
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_right_to_rule }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_new_military_reforms
+		x = 32
+		y = 9
+		icon = "GFX_focus_generic_home_defense"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_right_to_rule }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_create_new_titles
+		x = 41
+		y = 9
+		icon = "GFX_focus_generic_support_the_left_right"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_elevate_local_officials }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_grant_more_land_permits
+		x = 43
+		y = 9
+		icon = "GFX_goal_generic_construct_civ_factory"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_set_aside_more_resources_for_production }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_payout_military_corporations
+		x = 45
+		y = 9
+		icon = GFX_goal_expand_sword_factories
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_fuel_arms_production }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_trans_icrusian_roads
+		x = 47
+		y = 9
+		icon = GFX_goal_trans_icrusian_road
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_bridge_the_north_south_divide }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_search_for_more_arcanic_fuel
+		x = 6
+		y = 10
+		icon = GFX_goal_fireball
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_read_the_ancient_diaries }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_physical_weave_continuum
+		x = 8
+		y = 10
+		icon = "GFX_focus_generic_air_defense"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_read_the_ancient_diaries OR = LCR_explore_inner_soul }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_harness_universal_powers
+		x = 10
+		y = 10
+		icon = "GFX_goal_torgyr_spy_company"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_explore_inner_soul }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_demote_the_second_class_citizens
+		x = 19
+		y = 10
+		icon = "GFX_focus_CZE_german_puppet"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_icrusia_for_icrusians }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_land_for_the_righteous
+		x = 21
+		y = 10
+		icon = "GFX_goal_grow_wheat_farm"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_icrusia_for_icrusians }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_special_treatment
+		x = 23
+		y = 10
+		icon = "GFX_focus_generic_self_management"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_icrusia_for_icrusians }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_reorganise_the_iron_guard
+		x = 29
+		y = 10
+		icon = "GFX_focus_generic_air_defense"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_new_military_reforms }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_innovate_gun_designs
+		x = 31
+		y = 10
+		icon = "GFX_goal_generic_small_arms"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_new_military_reforms }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_cavalry_improvements
+		x = 33
+		y = 10
+		icon = "GFX_goal_focus_on_cavalry"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_new_military_reforms }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_new_mage_equipment
+		x = 35
+		y = 10
+		icon = GFX_goal_guns_and_smoke
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_new_military_reforms }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_construct_elite_estates
+		x = 41
+		y = 10
+		icon = "GFX_goal_old_building"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_create_new_titles }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_loosen_regulation
+		x = 43
+		y = 10
+		icon = "GFX_goal_generic_neutrality_focus"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_grant_more_land_permits }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_deepen_the_military_industrial_complex
+		x = 45
+		y = 10
+		icon = "GFX_goal_generic_construct_mil_factory"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_payout_military_corporations }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_connect_all_the_cities
+		x = 47
+		y = 10
+		icon = GFX_goal_ring_road
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_trans_icrusian_roads }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_point_of_no_return
+		x = 8
+		y = 11
+		icon = "GFX_goal_generic_attack_allies"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_search_for_more_arcanic_fuel }
+		prerequisite = { focus = LCR_physical_weave_continuum }
+		prerequisite = { focus = LCR_harness_universal_powers }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_expand_icrusian_businesses
+		x = 20
+		y = 11
+		icon = "GFX_goal_pay_out_military"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_demote_the_second_class_citizens }
+		prerequisite = { focus = LCR_land_for_the_righteous }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_mass_deportations
+		x = 22
+		y = 11
+		icon = "GFX_focus_generic_concessions"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_special_treatment }
+		prerequisite = { focus = LCR_land_for_the_righteous }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_support_armaments
+		x = 30
+		y = 11
+		icon = "GFX_goal_generic_build_tank"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_reorganise_the_iron_guard }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_bigger_and_heavier_guns
+		x = 32
+		y = 11
+		icon = "GFX_goal_generic_army_artillery2"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_innovate_gun_designs }
+		prerequisite = { focus = LCR_cavalry_improvements }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_heavy_cavalry_innovation
+		x = 34
+		y = 11
+		icon = GFX_goal_cuirassier
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_new_mage_equipment }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_icrusia_renovated
+		x = 44
+		y = 11
+		icon = "GFX_goal_economic_bubble"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_construct_elite_estates }
+		prerequisite = { focus = LCR_loosen_regulation OR = LCR_deepen_the_military_industrial_complex }
+		prerequisite = { focus = LCR_connect_all_the_cities }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_set_up_new_training_facilities
+		x = 4
+		y = 12
+		icon = "GFX_focus_generic_military_academy"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_point_of_no_return }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_set_up_the_temples
+		x = 12
+		y = 12
+		icon = "GFX_goal_move_palace"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_point_of_no_return }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_right_to_work
+		x = 20
+		y = 12
+		icon = "GFX_goal_generic_production2"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_expand_icrusian_businesses }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_ramp_up_the_executions
+		x = 22
+		y = 12
+		icon = "GFX_goal_noose"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_mass_deportations }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_artillery_building_drive
+		x = 31
+		y = 12
+		icon = "GFX_goal_generic_army_artillery"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_support_armaments }
+		prerequisite = { focus = LCR_bigger_and_heavier_guns }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_magical_creations
+		x = 33
+		y = 12
+		icon = GFX_goal_fireball
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_heavy_cavalry_innovation }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_mages_of_icrusia
+		x = 2
+		y = 13
+		icon = "GFX_goal_generic_war_with_comintern"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_set_up_new_training_facilities }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_scout_for_the_most_talented
+		x = 4
+		y = 13
+		icon = "GFX_focus_generic_support_the_left_right"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_set_up_new_training_facilities }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_recruitment_from_the_icrusian_military_college
+		x = 6
+		y = 13
+		icon = "GFX_focus_generic_little_entente"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_set_up_new_training_facilities }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_build_obelisks
+		x = 10
+		y = 13
+		icon = "GFX_focus_generic_self_management"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_set_up_the_temples }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_build_prayer_halls
+		x = 13
+		y = 13
+		icon = "GFX_focus_por_concordat"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_set_up_the_temples }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_on_the_home_front
+		x = 21
+		y = 13
+		icon = "GFX_goal_generic_national_unity"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_ramp_up_the_executions }
+		prerequisite = { focus = LCR_right_to_work }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_guns_guns_guns
+		x = 30
+		y = 13
+		icon = "GFX_focus_secret_rearmament"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_artillery_building_drive }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_rush_of_the_hooves
+		x = 32
+		y = 13
+		icon = "GFX_goal_generic_cavalry"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_artillery_building_drive OR = LCR_magical_creations }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_inspect_into_special_mages
+		x = 34
+		y = 13
+		icon = "GFX_goal_natural_magic"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_magical_creations }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_employ_experienced_void_weavers
+		x = 1
+		y = 14
+		icon = "GFX_goal_enhanced_magic"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_mages_of_icrusia }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_fill_our_mage_ranks
+		x = 3
+		y = 14
+		icon = GFX_goal_force_of_arms
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_mages_of_icrusia OR = LCR_scout_for_the_most_talented }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_unleash_inner_potential
+		x = 5
+		y = 14
+		icon = "GFX_focus_generic_air_defense"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_scout_for_the_most_talented OR = LCR_recruitment_from_the_icrusian_military_college }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_send_the_soldiers_to_hell
+		x = 7
+		y = 14
+		icon = "GFX_goal_generic_secret_weapon"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_recruitment_from_the_icrusian_military_college }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_construct_sculptures
+		x = 10
+		y = 14
+		icon = "GFX_focus_generic_self_management"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_build_obelisks }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_appease_the_gods
+		x = 12
+		y = 14
+		icon = "GFX_focus_focus_fra_national_resistance_council"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_build_prayer_halls }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_strengthen_the_arches_and_the_doors
+		x = 14
+		y = 14
+		icon = "GFX_focus_spa_the_spanish_miracle"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_build_prayer_halls }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_service_benefits
+		x = 18
+		y = 14
+		icon = "GFX_goal_generic_army_doctrines"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_on_the_home_front }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_civil_war_mattters
+		x = 24
+		y = 14
+		icon = GFX_goal_war_with_icrusia
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_on_the_home_front }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_elite_troop_training
+		x = 31
+		y = 14
+		icon = "GFX_goal_generic_more_territorial_claims"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_guns_guns_guns }
+		prerequisite = { focus = LCR_rush_of_the_hooves }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_arcanic_modding
+		x = 33
+		y = 14
+		icon = "GFX_goal_generic_dangerous_deal"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_inspect_into_special_mages }
+		prerequisite = { focus = LCR_rush_of_the_hooves }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_harsh_willpower_training
+		x = 1
+		y = 15
+		icon = GFX_goal_speaker
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_employ_experienced_void_weavers }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_fullscale_magical_warfare_training
+		x = 3
+		y = 15
+		icon = GFX_goal_communist_infiltrators
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_fill_our_mage_ranks }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_bring_hell_to_earth
+		x = 5
+		y = 15
+		icon = GFX_goal_stronger_barrels
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_unleash_inner_potential }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_every_soldier_an_elite_unit
+		x = 7
+		y = 15
+		icon = "GFX_focus_generic_strike_at_democracy1"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_send_the_soldiers_to_hell }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_artificial_stars
+		x = 10
+		y = 15
+		icon = "GFX_goal_anti_comintern_pact"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_construct_sculptures }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_grow_the_evergreen_garden
+		x = 12
+		y = 15
+		icon = "GFX_goal_rose"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_appease_the_gods }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_stairs_to_heaven
+		x = 14
+		y = 15
+		icon = "GFX_goal_anschluss"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_strengthen_the_arches_and_the_doors }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_increase_the_consription_pool
+		x = 17
+		y = 15
+		icon = "GFX_goal_generic_propaganda"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_service_benefits }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_better_pay_and_privilleges
+		x = 19
+		y = 15
+		icon = "GFX_goal_generic_CAS"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_service_benefits }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_integrate_the_royalists
+		x = 22
+		y = 15
+		icon = "GFX_focus_generic_diplomatic_treaty"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_civil_war_mattters }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_the_republican_issue
+		x = 25
+		y = 15
+		icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_civil_war_mattters }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_special_arms_for_our_cavalry
+		x = 31
+		y = 15
+		icon = "GFX_goal_generic_territory_or_war"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_elite_troop_training }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_crystal_destruction
+		x = 33
+		y = 15
+		icon = GFX_goal_understand_void_strength
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_arcanic_modding }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_an_invitation_to_the_void
+		x = 2
+		y = 16
+		icon = "GFX_goal_generic_attack_allies"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_harsh_willpower_training OR = LCR_fullscale_magical_warfare_training }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_strike_fear
+		x = 6
+		y = 16
+		icon = "GFX_goal_generic_CAS"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_bring_hell_to_earth OR = LCR_every_soldier_an_elite_unit }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_reintroduce_sundials
+		x = 10
+		y = 16
+		icon = "GFX_focus_jap_manchurian_project"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_artificial_stars }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_animal_sacrifices
+		x = 12
+		y = 16
+		icon = "GFX_focus_hol_united_netherlands"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_grow_the_evergreen_garden }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_develop_the_dungeons
+		x = 14
+		y = 16
+		icon = "GFX_focus_YUG_zmaj"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_stairs_to_heaven }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_send_out_the_next_census
+		x = 17
+		y = 16
+		icon = "GFX_goal_generic_special_forces"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_increase_the_consription_pool }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_kick_propaganda_into_overdrive
+		x = 19
+		y = 16
+		icon = "GFX_goal_influence_icrusia"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_better_pay_and_privilleges }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_all_hail_the_new_king
+		x = 22
+		y = 16
+		icon = "GFX_goal_tfv_strengthen_commonwealth_ties"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_integrate_the_royalists }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_amnesty_for_republican_soldiers
+		x = 24
+		y = 16
+		icon = "GFX_goal_generic_improve_relations"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_the_republican_issue }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_decimate_the_republicans
+		x = 26
+		y = 16
+		icon = "GFX_focus_generic_strike_at_democracy2"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_the_republican_issue }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_army_supremacy
+		x = 31
+		y = 16
+		icon = "GFX_goal_generic_major_war"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_special_arms_for_our_cavalry }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_futuristic_mages
+		x = 33
+		y = 16
+		icon = GFX_goal_detailed_doctrine
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_crystal_destruction }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_leviathan_of_all_arcanes
+		x = 4
+		y = 17
+		icon = "GFX_focus_wonderweapons"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_an_invitation_to_the_void }
+		prerequisite = { focus = LCR_strike_fear }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_on_the_right_foot
+		x = 12
+		y = 17
+		icon = GFX_goal_generic_demand_territory
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_reintroduce_sundials }
+		prerequisite = { focus = LCR_animal_sacrifices OR = LCR_develop_the_dungeons }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_man_the_guns
+		x = 18
+		y = 17
+		icon = "GFX_goal_generic_alliance"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_send_out_the_next_census OR = LCR_kick_propaganda_into_overdrive }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_bring_in_redmond_soldiers
+		x = 22
+		y = 17
+		icon = "GFX_focus_rom_royal_dictatorship"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_all_hail_the_new_king }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_give_them_full_icrusian_membership
+		x = 24
+		y = 17
+		icon = "GFX_goal_molotov_ribbentrop_pact"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_amnesty_for_republican_soldiers }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_raze_dovel
+		x = 26
+		y = 17
+		icon = "GFX_focus_ger_bulwark_against_bolshevism"
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_decimate_the_republicans }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		} 
+		 
+		focus = {
+		id = LCR_unleash_corruption
+		x = 8
+		y = 18
+		icon = GFX_goal_corruption
+		#relative_position_id = AST_empower_the_workers
+		 
+		prerequisite = { focus = LCR_leviathan_of_all_arcanes }
+		prerequisite = { focus = LCR_on_the_right_foot }
+		#`allow_branch = { has_completed_focus = AST_workers_paradise }
+		#mutually_exclusive = {focus = AST_workers_paradise }
+		 
+		available = {
+		}
+		bypass = {
+		}
+		cost = 10
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		add_political_power = 100
+		}
+		ai_will_do = {
+		}
+		}
 }
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_call_for_a_truce
-x = 12
-y = 7
-icon = "GFX_goal_generic_intelligence_exchange"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_provide_intel }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_call_for_a_truce"
-	white_peace = {
-		tag = ARS
-		message = EXAMPLE
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_cement_the_pact
-x = 14
-y = 7
-icon = "GFX_goal_generic_military_deal"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_mask_our_activities }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	NOT = { has_country_flag = ICR_civil_war_end }
-	has_completed_focus = LCR_call_for_a_truce
-}
-bypass = {
-	has_country_flag = ICR_civil_war_end
-}
-cost = 1
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_cement_the_pact"
-	ARS = { create_faction = "Unholy Alliance" }
-	ARS = { add_to_faction = LCR }
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_peace_at_last
-x = 13
-y = 8
-icon = "GFX_goal_generic_major_alliance"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_child_labourers OR = LCR_operation_second_wind }
-prerequisite = { focus = LCR_protect_our_cities OR = LCR_call_for_a_truce OR = LCR_cement_the_pact OR = LCR_mass_delusion_campaign }
-prerequisite = { focus = LCR_new_industrial_projects }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-	always = no
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_peace_at_last"
-	set_country_flag = ICR_civil_war_end
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_secrets_of_icrusia
-x = 13
-y = 9
-icon = "GFX_focus_generic_strike_at_democracy2"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_peace_at_last }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_secrets_of_icrusia"
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_read_the_ancient_diaries
-x = 12
-y = 10
-icon = "GFX_goal_rediscover_magic"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_secrets_of_icrusia }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_read_the_ancient_diaries"
-	#research
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_explore_inner_soul
-x = 14
-y = 10
-icon = "GFX_goal_generic_secret_weapon"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_secrets_of_icrusia }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_explore_inner_soul"
-	add_ideas = LCR_discovery
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_search_for_more_arcanic_fuel
-x = 11
-y = 11
-icon = "GFX_focus_prc_agrarian_socialism"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_read_the_ancient_diaries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_search_for_more_arcanic_fuel"
-	#resources
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_physical_weave_continuum
-x = 13
-y = 11
-icon = "GFX_focus_YUG_ikarus"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_read_the_ancient_diaries }
-prerequisite = { focus = LCR_explore_inner_soul }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_physical_weave_continuum"
-	add_political_power = 100
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_harness_universal_powers
-x = 15
-y = 11
-icon = "GFX_goal_enhanced_magic"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_explore_inner_soul }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_harness_universal_powers"
-	#resources
-	add_manpower = 10000
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_point_of_no_return
-x = 13
-y = 12
-icon = "GFX_goal_generic_CAS"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_search_for_more_arcanic_fuel OR = LCR_physical_weave_continuum OR = LCR_harness_universal_powers }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_point_of_no_return"
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_set_up_new_training_facilities
-x = 2
-y = 13
-icon = GFX_goal_gunworks
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_point_of_no_return }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_set_up_new_training_facilities"
-	add_ideas = LCR_void_weaver_revolution
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_unlock_the_hidden_archives
-x = 9.5
-y = 13
-icon = GFX_goal_newspaper
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_point_of_no_return }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_unlock_the_hidden_archives"
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_all_resources_to_the_line
-x = 20.5
-y = 13
-icon = GFX_goal_increased_metallurgy_efficiency
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_point_of_no_return }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_all_resources_to_the_line"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_employ_experienced_void_weavers
-x = 1
-y = 14
-icon = GFX_goal_understand_void_strength
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_set_up_new_training_facilities }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_employ_experienced_void_weavers"
-	#units
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_scout_for_the_most_talented
-x = 3
-y = 14
-icon = "GFX_goal_generic_attack_allies"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_set_up_new_training_facilities }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_scout_for_the_most_talented"
-	swap_ideas = {
-		add_idea = LCR_void_weaver_revolution2
-		remove_idea = LCR_void_weaver_revolution
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_a_costly_compromise
-x = 7
-y = 14
-icon = "GFX_goal_tripartite_pact"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_unlock_the_hidden_archives }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_a_costly_compromise"
-	add_ideas = LCR_costly_compromise
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_break_bond_then_break_bank
-x = 12
-y = 14
-icon = "GFX_goal_lucrative_plantations"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_unlock_the_hidden_archives }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_break_bond_then_break_bank"
-	add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_force_the_new_deal
-x = 18
-y = 14
-icon = "GFX_goal_generic_dangerous_deal"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_all_resources_to_the_line }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_force_the_new_deal"
-	add_ideas = LCR_new_icrusian_economic_plans
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_fund_more_geological_expeditions
-x = 24
-y = 14
-icon = GFX_goal_reinforce_mines
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_all_resources_to_the_line }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_fund_more_geological_expeditions"
-	#resources
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_unleash_inner_potential
-x = 1
-y = 15
-icon = GFX_goal_curb_mind_affecting_properties
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_employ_experienced_void_weavers }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_unleash_inner_potential"
-	#research
-	add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_recruitment_from_the_icrusian_military_college
-x = 3
-y = 15
-icon = "GFX_focus_generic_military_academy"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_scout_for_the_most_talented }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_recruitment_from_the_icrusian_military_college"
-	add_manpower = 200000
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_raise_awareness_for_the_new_discoveries
-x = 7
-y = 15
-icon = GFX_goal_generic_demand_territory
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_a_costly_compromise }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_raise_awareness_for_the_new_discoveries"
-	add_war_support = 20
-	add_political_power = 100
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_new_national_focus_scheme
-x = 11
-y = 15
-icon = "GFX_focus_generic_support_the_left_right"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_break_bond_then_break_bank }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_new_national_focus_scheme"
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_all_icrusian_at_arms
-x = 13
-y = 15
-icon = "GFX_goal_generic_army_doctrines"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_break_bond_then_break_bank }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_all_icrusian_at_arms"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_begin_the_great_icrusian_revival
-x = 16
-y = 15
-icon = "GFX_goal_tfv_saf_anti_colonialist_crusade"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_force_the_new_deal }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_begin_the_great_icrusian_revival"
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_fortify_for_the_worst
-x = 18
-y = 15
-icon = "GFX_focus_generic_coastal_fort"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_force_the_new_deal }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_fortify_for_the_worst"
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_sorry_state_of_infrastructure_in_icrusia
-x = 20
-y = 15
-icon = "GFX_goal_generic_position_armies"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_force_the_new_deal }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_sorry_state_of_infrastructure_in_icrusia"
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_plunder_incrusian_caves
-x = 23
-y = 15
-icon = GFX_goal_natural_wealth
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_fund_more_geological_expeditions }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_plunder_incrusian_caves"
-	#resources
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_fire_up_the_refineries
-x = 25
-y = 15
-icon = GFX_goal_more_blast_furnaces.psd
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_fund_more_geological_expeditions }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_fire_up_the_refineries"
-	#resources
-	#buildings
-}
-ai_will_do = {
-}
-}
-focus = {
-id = LCR_harsh_willpower_training
-x = 1
-y = 16
-icon = "GFX_goal_generic_more_territorial_claims"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_unleash_inner_potential }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_harsh_willpower_training"
-	#doctrine
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_fill_our_foreign_ranks
-x = 3
-y = 16
-icon = "GFX_goal_generic_special_forces"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_recruitment_from_the_icrusian_military_college }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_fill_our_foreign_ranks"
-	#equipment
-	#units
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_refocus_and_reassert
-x = 6
-y = 16
-icon = "GFX_focus_generic_strike_at_democracy1"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_raise_awareness_for_the_new_discoveries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_refocus_and_reassert"
-	add_research_slot = 1
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_squash_any_political_opposition
-x = 8
-y = 16
-icon = GFX_focus_eng_move_to_secure_the_dominions
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_raise_awareness_for_the_new_discoveries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_squash_any_political_opposition"
-	add_popularity = {
-		ideology = democratic
-		popularity = -0.2
-	}
-	add_popularity = {
-		ideology = communism
-		popularity = -0.2
-	}
-	add_popularity = {
-		ideology = fascism
-		popularity = -0.2
-	}
-	add_political_power = -200
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_stamina_training
-x = 11
-y = 16
-icon = GFX_goal_generic_more_territorial_claims
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_new_national_focus_scheme }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_stamina_training"
-	#doctrine
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_fund_training_initiatives
-x = 13
-y = 16
-icon = "GFX_goal_generic_occupy_states_ongoing_war"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_all_icrusian_at_arms }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_fund_training_initiatives"
-	#doctrine
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_fuel_icrusian_production
-x = 16
-y = 16
-icon = "GFX_goal_generic_production"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_begin_the_great_icrusian_revival }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_fuel_icrusian_production"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_grand_security_schemes
-x = 18
-y = 16.5
-icon = "GFX_goal_generic_military_sphere"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_fortify_for_the_worst }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_grand_security_schemes"
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_bridge_the_north_south_divide
-x = 20
-y = 16
-icon = "GFX_goal_generic_construct_infrastructure"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_sorry_state_of_infrastructure_in_icrusia }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_bridge_the_north_south_divide"
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_revise_icrusian_metallurgy_methods
-x = 23
-y = 16.5
-icon = GFX_goal_better_brass_mixture
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_plunder_incrusian_caves }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_revise_icrusian_metallurgy_methods"
-	#resources
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_pay_more_miners
-x = 25
-y = 16.5
-icon = "GFX_goal_pay_out_military"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_fire_up_the_refineries }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_pay_more_miners"
-	#resources
-}
-ai_will_do = {
-}
-}
-focus = {
-id = LCR_bring_hell_to_earth
-x = 1
-y = 17
-icon = "GFX_goal_generic_war_with_comintern"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_harsh_willpower_training }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_bring_hell_to_earth"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_rowe_personal_guard
-x = 3
-y = 17
-icon = "GFX_goal_generic_defence"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_fill_our_foreign_ranks }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_rowe_personal_guard"
-	add_ideas = LCR_void_weaver_revolution3
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_magical_test_subjects
-x = 6
-y = 17
-icon = "GFX_focus_spr_crush_the_revolution"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_refocus_and_reassert }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_magical_test_subjects"
-	swap_ideas = {
-		add_idea = LCR_costly_compromise
-		remove_idea = LCR_costly_compromise2
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_indirect_support
-x = 8
-y = 17
-icon = GFX_goal_generic_military_deal
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_squash_any_political_opposition }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_indirect_support"
-	#decision - special kill country leader
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_mass_minimalism_camps
-x = 11
-y = 17
-icon = "GFX_goal_generic_position_armies"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_stamina_training }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_mass_minimalism_camps"
-	#research
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_raise_recruit_wages
-x = 13
-y = 17
-icon = "GFX_goal_increase_budget"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_fund_training_initiatives }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_raise_recruit_wages"
-	#research
-	add_manpower = 50000
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_grand_icrusian_arms_projects
-x = 16
-y = 17
-icon = GFX_goal_expand_sword_factories
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_fuel_icrusian_production }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_grand_icrusian_arms_projects"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_hillside_bunkers
-x = 18
-y = 18
-icon = "GFX_goal_fortify_the_westwall"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_grand_security_schemes }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_hillside_bunkers"
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_trans_icrusian_roads
-x = 20
-y = 17
-icon = GFX_goal_trans_icrusian_road
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_bridge_the_north_south_divide }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_trans_icrusian_roads"
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_incentivise_digging_in_the_south
-x = 23
-y = 18
-icon = "GFX_goal_generic_construction2"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_revise_icrusian_metallurgy_methods }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_incentivise_digging_in_the_south"
-	#resources
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_synthetic_resource_production_research
-x = 25
-y = 18
-icon = GFX_goal_coal_factories
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_pay_more_miners }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_synthetic_resource_production_research"
-	#resources
-}
-ai_will_do = {
-}
-}
-focus = {
-id = LCR_becometh_the_void
-x = 2
-y = 18
-icon = "GFX_goal_generic_secret_weapon"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_bring_hell_to_earth OR = LCR_rowe_personal_guard }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_becometh_the_void"
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_allow_for_widescale_experimentation
-x = 6
-y = 18
-icon = "GFX_focus_research2"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_magical_test_subjects }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_allow_for_widescale_experimentation"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_new_popularity_laws
-x = 8
-y = 18
-icon = "GFX_focus_generic_support_the_left_right"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_indirect_support }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_new_popularity_laws"
-	#cores
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_no_wastage_tolerance
-x = 11
-y = 18
-icon = "GFX_goal_generic_neutrality_focus"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_mass_minimalism_camps }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_no_wastage_tolerance"
-	#resources
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_nationwide_propaganda
-x = 13
-y = 18
-icon = "GFX_goal_generic_propaganda"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_raise_recruit_wages }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_nationwide_propaganda"
-	#research
-	add_war_support = 10
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_rowe_pet_project
-x = 16
-y = 18
-icon = "GFX_focus_generic_concessions"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_grand_icrusian_arms_projects }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_rowe_pet_project"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_connect_all_the_cities
-x = 20
-y = 18
-icon = "GFX_goal_ring_road"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_trans_icrusian_roads }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_connect_all_the_cities"
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_exploit_our_natural_wealth
-x = 24
-y = 19
-icon = "GFX_goal_demand_sudetenland"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_incentivise_digging_in_the_south }
-prerequisite = { focus = LCR_synthetic_resource_production_research }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_exploit_our_natural_wealth"
-	add_ideas = LCR_icrusian_natural_wealth
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_leviathan_of_all_arcanes
-x = 2
-y = 19
-icon = "GFX_goal_generic_political_pressure"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_becometh_the_void }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_leviathan_of_all_arcanes"
-	add_ideas = LCR_void_weaver_revolution4
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_repurpose_new_facilities
-x = 6
-y = 19
-icon = "GFX_goal_new_building"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_allow_for_widescale_experimentation }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_repurpose_new_facilities"
-	#buildings
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_enforce_nationwide_secrecy_laws
-x = 8
-y = 19
-icon = "GFX_focus_renounce_the_treaty_of_trianon"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_new_popularity_laws }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_enforce_nationwide_secrecy_laws"
-	#event
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_conservative_thinking
-x = 11
-y = 19
-icon = "GFX_goal_generic_build_tank"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_no_wastage_tolerance }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_conservative_thinking"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_every_icrusian_a_useful_person
-x = 13
-y = 19
-icon = "GFX_goal_generic_political_pressure"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_nationwide_propaganda }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_every_icrusian_a_useful_person"
-	#research
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_icrusia_renovated
-x = 18
-y = 19
-icon = "GFX_focus_eng_organise_the_blackshirts"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_rowe_pet_project }
-prerequisite = { focus = LCR_hillside_bunkers }
-prerequisite = { focus = LCR_connect_all_the_cities }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_icrusia_renovated"
-	swap_ideas = {
-		add_idea = LCR_new_icrusian_economic_revival
-		remove_idea = LCR_new_icrusian_economic_plans
-	}
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_unleash_corruption
-x = 2
-y = 20
-icon = GFX_goal_corruption
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_leviathan_of_all_arcanes }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_unleash_corruption"
-	#decisions
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_form_the_icrusian_void_group
-x = 6
-y = 20
-icon = "GFX_goal_generic_dangerous_deal"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_repurpose_new_facilities }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_form_the_icrusian_void_group"
-	add_ideas = LCR_icrusian_void_group
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_entrust_the_local_icrusian_security_forces
-x = 8
-y = 20
-icon = "GFX_focus_spr_masters_of_our_own_fate"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_enforce_nationwide_secrecy_laws }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_entrust_the_local_icrusian_security_forces"
-	add_ideas = LCR_local_icrusian_security_forces
-}
-ai_will_do = {
-}
-}
-
-focus = {
-id = LCR_grand_support_for_a_grand_cause
-x = 12
-y = 20
-icon = "GFX_goal_generic_national_unity"
-#relative_position_id = AST_empower_the_workers
-prerequisite = { focus = LCR_conservative_thinking }
-prerequisite = { focus = LCR_every_icrusian_a_useful_person }
-#`allow_branch = { has_completed_focus = GOZ_support_the_field_marshall }
-#mutually_exclusive = {focus = GOZ_economy_above_all }
-available = {
-}
-bypass = {
-}
-cost = 10
-cancel_if_invalid = yes
-continue_if_invalid = no
-available_if_capitulated = no
-completion_reward = {
-	log = "[GetDateText]: [Root.GetName]: Focus LCR_grand_support_for_a_grand_cause"
-	#event
-}
-ai_will_do = {
-}
-}
-
-}		
