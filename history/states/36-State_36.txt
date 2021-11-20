@@ -14,7 +14,12 @@ state={
 			arms_factory = 3
 			industrial_complex = 3
 			dockyard = 2
-
+			1311 = {
+				naval_base = 8
+			}
+			317 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = ICR
 add_core_of = LCR

@@ -5,130 +5,6 @@
 add_namespace = lcr
 
 # dukha
-country_event = {
-	id = lcr.end_civil_war
-	title = lcr.end_civil_war.t
-	desc = lcr.end_civil_war.d
-	picture = GFX_report_event_south_africa_patrol
-	is_triggered_only = yes
-	
-	immediate = {
-		add_offsite_building = { type = arms_factory level = 2 }
-		add_offsite_building = { type = industrial_complex level = 3 }
-		hidden_effect = {
-			LCR = {
-				if = {
-					limit = {
-						has_dlc = "Together for Victory"
-					}
-					set_autonomy = {
-						target = AGR
-						autonomous_state = autonomy_integrated_puppet
-					}
-					set_autonomy = {
-						target = THB
-						autonomous_state = autonomy_integrated_puppet
-					}
-					else = {
-						puppet = AGR
-						puppet = THB
-					}
-				}
-			}
-			AGR = {
-				set_popularities = {
-					communism = 98
-					fascism = 2
-				}
-				
-				set_politics = {
-					ruling_party = fascism
-					last_election = "1710.3.5"
-					election_frequency = 48
-					elections_allowed = no
-				}
-			}
-			THB = {
-				set_popularities = {
-					communism = 98
-					fascism = 2
-				}
-				
-				set_politics = {
-					ruling_party = fascism
-					last_election = "1710.3.5"
-					election_frequency = 48
-					elections_allowed = no
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = lcr.end_civil_war.a
-		LCR = { add_manpower = 200000 }
-		ai_chance = {
-			factor = 20
-		}
-	}
-
-	option = {
-		name = lcr.end_civil_war.b
-		add_political_power = 1500
-		ai_chance = {
-			factor = 10
-		}
-	}
-}
-
-country_event = {
-	id = lcr.1
-	title = lcr.1.t
-	desc = lcr.1.d
-	picture = GFX_report_event_south_africa_patrol
-	is_triggered_only = yes
-	timeout_days = 7
-
-	immediate = {
-
-	}
-	
-	option = {
-		name = lcr.1.a
-		LCR = { 
-			add_manpower = 800000 
-			add_political_power = 200
-		}
-		ARS = { 
-			add_manpower = -800000
-			add_political_power = -200 
-			white_peace = {
-				tag = LCR
-				message = fine
-			}
-		}
-		ai_chance = {
-			factor = 50
-		}
-	}
-
-	option = {
-		name = lcr.1.b
-		LCR = {
-			add_offsite_building = { type = arms_factory level = 3 }
-			add_offsite_building = { type = industrial_complex level = 3 }
-		}
-		ARS = {
-			white_peace = {
-				tag = DCR
-				message = fine
-			}
-		}
-		ai_chance = {
-			factor = 20
-		}
-	}
-}
 
 country_event = { #icrusia at war
 	id = lcr.2
@@ -150,7 +26,7 @@ country_event = { #icrusia at war
 	}
 }
 
-country_event = { #pro rowe speech
+country_event = { #ancient diaries
 	id = lcr.3
 	title = lcr.3.t
 	desc = lcr.3.d
@@ -164,44 +40,7 @@ country_event = { #pro rowe speech
 	
 	option = {
 		name = lcr.3.a
-		104 = {
-			create_unit = {
-				division = "division_template = \"Icrusian Loyalist Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
-				owner = ROOT
-				allow_spawning_on_enemy_provs = yes
-				count = 1
-			}
-		}
-		add_war_support = 30
-		ai_chance = {
-			factor = 50
-		}
-	}
-}
-
-country_event = { #pro rowe speech 2
-	id = lcr.4
-	title = lcr.4.t
-	desc = lcr.4.d
-	picture = GFX_report_event_south_africa_patrol
-	is_triggered_only = yes
-	timeout_days = 7
-
-	immediate = {
-
-	}
-	
-	option = {
-		name = lcr.4.a
-		104 = {
-			create_unit = {
-				division = "division_template = \"Icrusian Loyalist Brigade\"	start_experience_factor = 0.3	start_equipment_factor = 1"
-				owner = ROOT
-				allow_spawning_on_enemy_provs = yes
-				count = 1
-			}
-		}
-		add_war_support = 30
+		add_political_power = 100
 		ai_chance = {
 			factor = 50
 		}

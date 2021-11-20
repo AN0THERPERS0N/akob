@@ -10,7 +10,9 @@ state={
 		owner = GOZ
 		buildings = {
 			infrastructure = 7
-
+			1369 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = GOZ
 		victory_points = {

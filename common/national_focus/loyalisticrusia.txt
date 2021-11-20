@@ -41,7 +41,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			country_event = {
+				id = lcr.2
+				days = 0
+				random = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -67,7 +71,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -93,7 +97,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_unrelenting_warfare
 		}
 		ai_will_do = {
 		}
@@ -119,7 +123,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_hide_and_seek
 		}
 		ai_will_do = {
 		}
@@ -145,7 +149,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -171,7 +175,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -197,7 +201,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -223,7 +227,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_unrelenting_warfare2
+				remove_idea = LCR_unrelenting_warfare
+			}
 		}
 		ai_will_do = {
 		}
@@ -249,7 +256,19 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			66 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
 		}
 		ai_will_do = {
 		}
@@ -275,7 +294,21 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			49 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 179
+						id = 2038
+						id = 983
+						id = 496
+						id = 928
+						id = 765
+					}
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -301,7 +334,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			28 = {
+				create_unit = {
+					division = "division_template = \"Icrusian Loyalist Militia\"	start_experience_factor = 0.3	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 5
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -327,7 +367,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -353,7 +393,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -379,7 +419,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -405,7 +445,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -431,7 +471,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -457,7 +497,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -482,7 +522,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 3
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 		ai_will_do = {
 		}
@@ -508,7 +552,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_unrelenting_warfare3
+				remove_idea = LCR_unrelenting_warfare2
+			}
 		}
 		ai_will_do = {
 		}
@@ -534,7 +581,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_unrelenting_workers
 		}
 		ai_will_do = {
 		}
@@ -560,7 +607,15 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_political_power = -100
+			46 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 		ai_will_do = {
 		}
@@ -586,7 +641,15 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_political_power = -200
+			46 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
 		}
 		ai_will_do = {
 		}
@@ -612,7 +675,21 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			49 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 179
+						id = 2038
+						id = 983
+						id = 618
+						id = 1570
+						id = 1069
+					}
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -638,7 +715,20 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			49 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 1682
+						id = 2056
+						id = 940
+						id = 2041
+						id = 1095
+					}
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -664,7 +754,19 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			49 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = {
+						id = 496
+						id = 1683
+						id = 1471
+						id = 334
+					}
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -690,7 +792,18 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			49 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = {
+						id = 1006
+						id = 1789
+						id = 1891
+					}
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -716,7 +829,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_conscription
 		}
 		ai_will_do = {
 		}
@@ -742,7 +855,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			28 = {
+				create_unit = {
+					division = "division_template = \"Icrusian Loyalist Militia\"	start_experience_factor = 0.1	start_equipment_factor = 0.8"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 3
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -768,7 +888,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -794,7 +914,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -820,7 +940,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -846,7 +966,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -872,7 +992,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -898,7 +1018,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -923,7 +1043,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 5
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 		ai_will_do = {
 		}
@@ -950,7 +1074,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 5
+				uses = 1
+				category = artillery
+			}
 		}
 		ai_will_do = {
 		}
@@ -976,7 +1104,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 5
+				uses = 1
+				category = support_tech
+			}
 		}
 		ai_will_do = {
 		}
@@ -1002,7 +1134,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_unrelenting_workers2
+				remove_idea = LCR_unrelenting_workers
+			}
 		}
 		ai_will_do = {
 		}
@@ -1028,7 +1163,15 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_political_power = -200
+			49 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
 		}
 		ai_will_do = {
 		}
@@ -1054,7 +1197,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			#industry
 		}
 		ai_will_do = {
 		}
@@ -1081,7 +1224,23 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			49 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						id = 179
+						id = 2038
+						id = 618
+						id = 1570
+						id = 1682
+						id = 2056
+						id = 2041
+						id = 1095
+					}
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1108,7 +1267,22 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			49 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						id = 496
+						id = 1683
+						id = 1471
+						id = 334
+						id = 1006
+						id = 1789
+						id = 1891
+					}
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1134,7 +1308,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_conscription2
+				remove_idea = LCR_conscription
+			}
 		}
 		ai_will_do = {
 		}
@@ -1160,7 +1337,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			28 = {
+				create_unit = {
+					division = "division_template = \"Icrusian Loyalist Militia\"	start_experience_factor = 0	start_equipment_factor = 0.5"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 3
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1186,7 +1370,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1212,7 +1396,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1238,7 +1422,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1266,7 +1450,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_unrelenting_warfare4
+				remove_idea = LCR_unrelenting_warfare3
+			}
 		}
 		ai_will_do = {
 		}
@@ -1294,7 +1481,19 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			28 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+			}
 		}
 		ai_will_do = {
 		}
@@ -1321,7 +1520,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_hide_and_seek2
+				remove_idea = LCR_hide_and_seek
+			}
 		}
 		ai_will_do = {
 		}
@@ -1348,7 +1550,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			28 = {
+				create_unit = {
+					division = "division_template = \"Icrusian Loyalist Brigade\"	start_experience_factor = 0	start_equipment_factor = 1"
+					owner = ROOT
+					allow_spawning_on_enemy_provs = yes
+					count = 5
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -1374,7 +1583,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1400,7 +1609,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1426,7 +1635,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1453,7 +1662,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1479,7 +1688,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1506,7 +1715,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1532,7 +1741,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1558,7 +1767,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_keys_to_the_land
 		}
 		ai_will_do = {
 		}
@@ -1584,7 +1793,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1610,7 +1819,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1636,7 +1845,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1662,7 +1871,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1688,7 +1897,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1714,7 +1923,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			country_event = {
+				id = lcr.3
+				days = 0
+				random = 0
+			}
 		}
 		ai_will_do = {
 		}
@@ -1740,7 +1953,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_secrets_of_the_people
 		}
 		ai_will_do = {
 		}
@@ -1766,7 +1979,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1792,7 +2005,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1818,7 +2031,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1844,7 +2057,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1870,7 +2083,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1896,7 +2109,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -1922,7 +2135,16 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_resource = {
+				type = voidmetal
+				amount = 50
+				state = 111
+			}
+			add_resource = {
+				type = voidmetal
+				amount = 50
+				state = 128
+			}
 		}
 		ai_will_do = {
 		}
@@ -1948,7 +2170,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_secrets_of_the_people2
+				remove_idea = LCR_secrets_of_the_people
+			}
 		}
 		ai_will_do = {
 		}
@@ -1974,7 +2199,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_keys_to_the_land2
+				remove_idea = LCR_keys_to_the_land
+			}
 		}
 		ai_will_do = {
 		}
@@ -2000,7 +2228,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2026,7 +2254,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2052,7 +2280,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2078,7 +2306,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2104,7 +2332,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2130,7 +2358,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2156,7 +2384,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2182,7 +2410,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2208,7 +2436,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2234,7 +2462,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2260,7 +2488,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2288,7 +2516,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_secrets_of_corruption
+			remove_ideas = LCR_secrets_of_the_people2
+			remove_ideas = LCR_keys_to_the_land2
 		}
 		ai_will_do = {
 		}
@@ -2315,7 +2545,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2342,7 +2572,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2368,7 +2598,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2395,7 +2625,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2421,7 +2651,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2449,7 +2679,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2475,7 +2705,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			army_experience = 100
 		}
 		ai_will_do = {
 		}
@@ -2501,7 +2731,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			73 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -2527,7 +2764,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2553,7 +2790,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2580,7 +2817,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2606,7 +2843,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2632,7 +2869,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}
 		}
 		ai_will_do = {
 		}
@@ -2658,7 +2899,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 		ai_will_do = {
 		}
@@ -2684,7 +2929,16 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = support_tech
+			}
 		}
 		ai_will_do = {
 		}
@@ -2710,7 +2964,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_enhanced_creation
 		}
 		ai_will_do = {
 		}
@@ -2736,7 +2990,22 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			57 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			64 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -2763,7 +3032,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2789,7 +3058,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2815,7 +3084,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2841,7 +3110,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -2867,7 +3136,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_harnessing_the_void
 		}
 		ai_will_do = {
 		}
@@ -2893,7 +3162,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 2
+				category = armor
+			}
 		}
 		ai_will_do = {
 		}
@@ -2919,7 +3192,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_enchanting_the_soldier
 		}
 		ai_will_do = {
 		}
@@ -2945,7 +3218,16 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+			}
 		}
 		ai_will_do = {
 		}
@@ -2971,7 +3253,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_enhanced_creation2
+				remove_idea = LCR_enhanced_creation
+			}
 		}
 		ai_will_do = {
 		}
@@ -2997,7 +3282,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			65 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -3023,7 +3315,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			95 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -3049,7 +3348,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3075,7 +3374,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3102,7 +3401,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3129,7 +3428,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3155,7 +3454,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_harnessing_the_void2
+				remove_idea = LCR_harnessing_the_void
+			}
 		}
 		ai_will_do = {
 		}
@@ -3181,7 +3483,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = armor
+			}
 		}
 		ai_will_do = {
 		}
@@ -3207,7 +3513,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_enchanting_the_soldier2
+				remove_idea = LCR_enchanting_the_soldier
+			}
 		}
 		ai_will_do = {
 		}
@@ -3233,7 +3542,11 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = infantry_weapons
+			}
 		}
 		ai_will_do = {
 		}
@@ -3259,7 +3572,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_enhanced_creation3
+				remove_idea = LCR_enhanced_creation2
+			}
 		}
 		ai_will_do = {
 		}
@@ -3285,7 +3601,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			22 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -3311,7 +3634,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			121 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -3337,7 +3667,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3363,7 +3693,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3389,7 +3719,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3415,7 +3745,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3441,7 +3771,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3467,7 +3797,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3481,6 +3811,7 @@ focus_tree = {
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = LCR_harsh_willpower_training OR = LCR_fullscale_magical_warfare_training }
+		prerequisite = { focus = LCR_harsh_willpower_training }
 		#`allow_branch = { has_completed_focus = AST_workers_paradise }
 		#mutually_exclusive = {focus = AST_workers_paradise }
 		 
@@ -3493,7 +3824,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_harnessing_the_void3
+				remove_idea = LCR_harnessing_the_void2
+			}
 		}
 		ai_will_do = {
 		}
@@ -3507,6 +3841,7 @@ focus_tree = {
 		#relative_position_id = AST_empower_the_workers
 		 
 		prerequisite = { focus = LCR_bring_hell_to_earth OR = LCR_every_soldier_an_elite_unit }
+		prerequisite = { focus = LCR_bring_hell_to_earth }
 		#`allow_branch = { has_completed_focus = AST_workers_paradise }
 		#mutually_exclusive = {focus = AST_workers_paradise }
 		 
@@ -3519,7 +3854,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_enchanting_the_soldier3
+				remove_idea = LCR_enchanting_the_soldier2
+			}
 		}
 		ai_will_do = {
 		}
@@ -3545,7 +3883,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			swap_ideas = {
+				add_idea = LCR_enhanced_creation4
+				remove_idea = LCR_enhanced_creation3
+			}
 		}
 		ai_will_do = {
 		}
@@ -3571,7 +3912,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			82 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -3597,7 +3945,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			55 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -3623,7 +3978,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3649,7 +4004,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3675,7 +4030,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3701,7 +4056,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3727,7 +4082,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3753,7 +4108,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3779,7 +4134,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3806,7 +4161,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			add_ideas = LCR_the_great_sage
+			remove_ideas = LCR_harnessing_the_void3
+			remove_ideas = LCR_enchanting_the_soldier3
 		}
 		ai_will_do = {
 		}
@@ -3833,7 +4190,22 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+			91 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			104 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		ai_will_do = {
 		}
@@ -3859,7 +4231,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3885,7 +4257,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3911,7 +4283,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3937,7 +4309,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}
@@ -3964,7 +4336,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-		add_political_power = 100
+
 		}
 		ai_will_do = {
 		}

@@ -11,7 +11,9 @@ state={
 		owner = ECH
 		buildings = {
 			infrastructure = 8
-
+			1986 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = ECH
 		victory_points = {

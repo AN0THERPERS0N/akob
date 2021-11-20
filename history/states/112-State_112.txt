@@ -11,6 +11,9 @@ state={
 		owner = ARS
 		buildings = {
 			infrastructure = 4
+			902 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
         	    902 10

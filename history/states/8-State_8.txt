@@ -12,6 +12,9 @@ state={
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
+			2357 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = ARS
 		victory_points = {

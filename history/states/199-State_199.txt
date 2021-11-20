@@ -12,7 +12,9 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
-
+			1079 = {
+				naval_base = 7
+			}
 		}
 		add_core_of = ARS
 		victory_points = {

@@ -13,7 +13,12 @@ state={
 			infrastructure = 6
 			arms_factory = 7
 			industrial_complex = 10
-
+			449 = {
+				naval_base = 5
+			}
+			800 = {
+				naval_base = 8
+			}
 		}
 		add_core_of = TRB
 		victory_points = {
