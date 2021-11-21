@@ -824,6 +824,632 @@ ideas = {
 			removal_cost = -1
 		}
 
+		#normal
+
+		LCR_discontent_minorities = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.1
+				local_non_core_manpower = -0.75
+				stability_factor = -0.1
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_discontent_minorities2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.15
+				local_non_core_manpower = -0.8
+				stability_factor = -0.15
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_discontent_minorities3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.2
+				local_non_core_manpower = -0.8
+				stability_factor = -0.2
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_reinforced_conscription = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.1
+				monthly_population = 0.2
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_reinforced_conscription2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				conscription_factor = 0.2
+				monthly_population = 0.25
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_an_elite_army = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.2
+				army_speed_factor = 0.2
+				army_org_factor = 0.2
+				army_org_regain = 0.1
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_an_elite_army2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.35
+				army_speed_factor = 0.4
+				army_org_factor = 0.35
+				army_org_regain = 0.2
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_an_elite_army3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_attack_factor = 0.6
+				army_speed_factor = 0.7
+				army_org_factor = 0.5
+				army_org_regain = 0.4
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_strong_mages = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.2
+				attrition = 0.2
+				terrain_penalty_reduction = 0.25
+				supply_consumption_factor = 0.2
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_strong_mages2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.4
+				attrition = 0.35
+				terrain_penalty_reduction = 0.5
+				supply_consumption_factor = 0.4
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_strong_mages3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				army_defence_factor = 0.6
+				attrition = 0.6
+				terrain_penalty_reduction = 0.75
+				supply_consumption_factor = 0.6
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		#economy path
+
+		LCR_economy_on_full_drive = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_start_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_economy_on_full_drive2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.25
+				production_factory_max_efficiency_factor = 0.25
+				production_factory_start_efficiency_factor = 0.15
+				line_change_production_efficiency_factor = 0.15
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_farmland_production = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				industry_repair_factor = 0.2
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_farmland_production2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.4
+				industry_repair_factor = 0.3
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_farmland_production3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.6
+				industry_repair_factor = 0.5
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_guns_and_explosives_supply_chains = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+				industrial_capacity_dockyard = 0.2
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_guns_and_explosives_supply_chains2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.4
+				industrial_capacity_dockyard = 0.4
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_guns_and_explosives_supply_chains3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.6
+				industrial_capacity_dockyard = 0.55
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_resources_and_resources = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				local_resources_factor = 0.2
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_resources_and_resources2 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				local_resources_factor = 0.35
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_resources_and_resources3 = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				local_resources_factor = 0.45
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		LCR_icrusia_renovated = {
+			picture = not_a_country
+			
+			allowed = {
+				tag = LCR
+			}
+
+			available = {
+				
+			}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.3
+				production_factory_max_efficiency_factor = 0.3
+				production_factory_start_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+
+				production_speed_buildings_factor = 0.75
+				industry_repair_factor = 0.65
+
+				industrial_capacity_factory = 0.8
+				industrial_capacity_dockyard = 0.7
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
 	}
 	
 }

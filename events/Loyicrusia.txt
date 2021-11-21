@@ -46,3 +46,65 @@ country_event = { #ancient diaries
 		}
 	}
 }
+
+country_event = { #right to rule
+	id = lcr.4
+	title = lcr.4.t
+	desc = lcr.4.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = lcr.4.a
+		add_political_power = 200
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #civil war matters
+	id = lcr.5
+	title = lcr.5.t
+	desc = lcr.5.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = lcr.4.a
+		add_political_power = 50
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #republican_issue
+	id = lcr.6
+	title = lcr.6.t
+	desc = lcr.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = lcr.6.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
