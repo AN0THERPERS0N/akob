@@ -55,3 +55,349 @@ no_country_for_rich_men = {
         }
     }
 }
+
+DCR_worldwide_democracy = {
+    ILD_democratic_insurrection = {
+        icon = ger_mefo_bills
+        
+        available = {
+            DCR = { has_completed_focus = DCR_fight_for_your_freedom }
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 30
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 100
+        
+        complete_effect = {  
+            ILD = {
+                start_civil_war = {
+                    ideology = democratic
+                    size = 0.2
+                    keep_political_leader = yes
+                }
+            }
+            every_country = {
+                limit = {
+                    has_civil_war = yes
+                    has_war_with = ILD
+                }
+                division_template = {
+                    name = "Illidean freedom fighters"
+                    is_locked = no
+                    template_counter = 0
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 1 y = 0 }
+                        infantry = { x = 1 y = 1 }
+                        infantry = { x = 1 y = 2 }
+                        infantry = { x = 2 y = 0 }
+                        infantry = { x = 2 y = 1 }
+                        infantry = { x = 2 y = 2 }
+                    }
+                }
+                set_technology = {
+                    akob_infantry_weapons_I = 1
+                }
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment_0
+                    amount = 13000
+                }
+                random_state = {
+                    limit = {
+                        is_controlled_by = PREV
+                        is_capital = yes
+                    }
+                    create_unit = {
+                        division = "division_template = \"Illidean freedom fighters\"	start_experience_factor = 0.3	start_equipment_factor = 0.8"
+                        owner = PREV
+                        allow_spawning_on_enemy_provs = yes
+                        count = 10
+                    }
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 3
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_extra_state_shared_building_slots = 8
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ARS_democratic_insurrection = {
+        icon = ger_mefo_bills
+        
+        available = {
+            DCR = { has_completed_focus = DCR_fight_for_your_freedom }
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 30
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 100
+        
+        complete_effect = {  
+            ARS = {
+                start_civil_war = {
+                    ideology = democratic
+                    size = 0.2
+                    keep_political_leader = yes
+                }
+            }
+            every_country = {
+                limit = {
+                    has_civil_war = yes
+                    has_war_with = ARS
+                }
+                division_template = {
+                    name = "Airestonian freedom fighters"
+                    is_locked = no
+                    template_counter = 0
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 1 y = 0 }
+                        infantry = { x = 1 y = 1 }
+                        infantry = { x = 1 y = 2 }
+                        infantry = { x = 2 y = 0 }
+                        infantry = { x = 2 y = 1 }
+                        infantry = { x = 2 y = 2 }
+                    }
+                }
+                set_technology = {
+                    akob_infantry_weapons_I = 1
+                }
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment_0
+                    amount = 13000
+                }
+                random_state = {
+                    limit = {
+                        is_controlled_by = PREV
+                        is_capital = yes
+                    }
+                    create_unit = {
+                        division = "division_template = \"Airestonian freedom fighters\"	start_experience_factor = 0.3	start_equipment_factor = 0.8"
+                        owner = PREV
+                        allow_spawning_on_enemy_provs = yes
+                        count = 10
+                    }
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 3
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_extra_state_shared_building_slots = 8
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    TRB_democratic_insurrection = {
+        icon = ger_mefo_bills
+        
+        available = {
+            DCR = { has_completed_focus = DCR_fight_for_your_freedom }
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 30
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 100
+        
+        complete_effect = {  
+            TRB = {
+                start_civil_war = {
+                    ideology = democratic
+                    size = 0.2
+                    keep_political_leader = yes
+                }
+            }
+            every_country = {
+                limit = {
+                    has_civil_war = yes
+                    has_war_with = TRB
+                }
+                division_template = {
+                    name = "Trubian freedom fighters"
+                    is_locked = no
+                    template_counter = 0
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 1 y = 0 }
+                        infantry = { x = 1 y = 1 }
+                        infantry = { x = 1 y = 2 }
+                        infantry = { x = 2 y = 0 }
+                        infantry = { x = 2 y = 1 }
+                        infantry = { x = 2 y = 2 }
+                    }
+                }
+                set_technology = {
+                    akob_infantry_weapons_I = 1
+                }
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment_0
+                    amount = 13000
+                }
+                random_state = {
+                    limit = {
+                        is_controlled_by = PREV
+                        is_capital = yes
+                    }
+                    create_unit = {
+                        division = "division_template = \"Trubian freedom fighters\"	start_experience_factor = 0.3	start_equipment_factor = 0.8"
+                        owner = PREV
+                        allow_spawning_on_enemy_provs = yes
+                        count = 10
+                    }
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 3
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_extra_state_shared_building_slots = 8
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+    ECH_democratic_insurrection = {
+        icon = ger_mefo_bills
+        
+        available = {
+            DCR = { has_completed_focus = DCR_fight_for_your_freedom }
+        }
+
+        fire_only_once = no
+
+        days_re_enable = 30
+
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+
+        cost = 100
+        
+        complete_effect = {  
+            ECH = {
+                start_civil_war = {
+                    ideology = democratic
+                    size = 0.2
+                    keep_political_leader = yes
+                }
+            }
+            every_country = {
+                limit = {
+                    has_civil_war = yes
+                    has_war_with = ECH
+                }
+                division_template = {
+                    name = "Echainaian freedom fighters"
+                    is_locked = no
+                    template_counter = 0
+                    regiments = {
+                        infantry = { x = 0 y = 0 }
+                        infantry = { x = 0 y = 1 }
+                        infantry = { x = 0 y = 2 }
+                        infantry = { x = 1 y = 0 }
+                        infantry = { x = 1 y = 1 }
+                        infantry = { x = 1 y = 2 }
+                        infantry = { x = 2 y = 0 }
+                        infantry = { x = 2 y = 1 }
+                        infantry = { x = 2 y = 2 }
+                    }
+                }
+                set_technology = {
+                    akob_infantry_weapons_I = 1
+                }
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment_0
+                    amount = 13000
+                }
+                random_state = {
+                    limit = {
+                        is_controlled_by = PREV
+                        is_capital = yes
+                    }
+                    create_unit = {
+                        division = "division_template = \"Echainaian freedom fighters\"	start_experience_factor = 0.3	start_equipment_factor = 0.8"
+                        owner = PREV
+                        allow_spawning_on_enemy_provs = yes
+                        count = 10
+                    }
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 3
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_extra_state_shared_building_slots = 8
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

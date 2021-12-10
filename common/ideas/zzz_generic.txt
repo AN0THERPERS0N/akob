@@ -1068,104 +1068,85 @@ ideas = {
 	
 	political_advisor = {
 		# POLITICAL	
-		generic_communist_revolutionary = {
+		generic_silent_workhorse = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-				NOT = {
-					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
-				}
-				
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 
 			available = {
-				if = {
-					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
-			traits = { communist_revolutionary }
-	
-			on_add = {
-				#country_event = political.1
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
+			traits = { silent_workhorse }
 	
 			ai_will_do = {
 				factor = 0
 			}
 		}
-			
-		generic_democratic_reformer = {
+
+		generic_captain_of_industry = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-				NOT = {
-					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
-				}	
-			}
-			
-			available = {
-				if = {
-					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 
+			available = {
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
+			}
 			
-			traits = { democratic_reformer }
-	
-			on_add = {
-				#country_event = political.13
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
+			traits = { captain_of_industry }
 	
 			ai_will_do = {
 				factor = 0
 			}
 		}
-		
-		generic_fascist_demagogue = {
+
+		generic_war_industrialist = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-				NOT = {
-					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
-			
+
 			available = {
-				if = {
-					NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}				
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { war_industrialist }
 	
-			on_add = {
-				#country_event = political.7
+			ai_will_do = {
+				factor = 0
 			}
+		}
+
+		generic_prince_of_terror = {
+			
+			allowed = {
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
+			}
+
+			available = {
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
+			}
+			
+			traits = { prince_of_terror }
 	
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
+			ai_will_do = {
+				factor = 0
 			}
+		}
+
+		generic_popular_figurehead = {
+			
+			allowed = {
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
+			}
+
+			available = {
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
+			}
+			
+			traits = { popular_figurehead }
 	
 			ai_will_do = {
 				factor = 0
@@ -1174,14 +1155,14 @@ ideas = {
 
 		generic_head_of_intelligence = {
 			allowed = { 
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 				has_dlc = "La Resistance"
 			}
 			visible = {
 				has_idea = generic_head_of_intelligence
 			}
 			available = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 				has_intelligence_agency = yes
 			}
 			traits = { head_of_intelligence }
@@ -1204,14 +1185,12 @@ ideas = {
 	
 		designer = yes
 		
-		generic_tank_manufacturer = {
+		generic_mage_manufacturer = {
 
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			cost = 150
@@ -1234,9 +1213,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			cost = 150
@@ -1250,91 +1227,6 @@ ideas = {
 		}
 	}
 
-	aircraft_manufacturer = { 
-	
-		designer = yes
-	
-		generic_light_aircraft_manufacturer = {
-			
-			picture = generic_air_manufacturer_1
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
-				}
-			}
-			
-			cost = 150
-			removal_cost = 10
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { light_aircraft_manufacturer }
-		}
-		
-		generic_medium_aircraft_manufacturer = {
-			
-			picture = generic_air_manufacturer_3
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
-				}
-			}
-			
-			cost = 150
-			removal_cost = 10
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { medium_aircraft_manufacturer }
-		}
-		
-		generic_heavy_aircraft_manufacturer = {
-
-			picture = generic_air_manufacturer_2
-			
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
-				}
-			}
-			
-			cost = 150
-			removal_cost = 10
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { heavy_aircraft_manufacturer }
-		}
-		
-		generic_naval_aircraft_manufacturer = {
-			
-			picture = generic_naval_manufacturer_2
-
-			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
-				}
-			}
-			
-			cost = 150
-			removal_cost = 10
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { naval_aircraft_manufacturer }
-		}
-	}
-
 	industrial_concern = {
 	
 		generic_industrial_concern = {
@@ -1342,9 +1234,7 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			cost = 150
@@ -1357,14 +1247,12 @@ ideas = {
 			traits = { industrial_concern }
 		}
 
-		generic_electronics_concern = {
+		generic_void_energy_concern = {
 			
 			picture = generic_electronics_concern_1
 
 			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			cost = 150
@@ -1382,14 +1270,12 @@ ideas = {
 	
 		designer = yes
 	
-		generic_motorized_equipment_manufacturer = {
+		generic_cavalry_equipment_manufacturer = {
 			
 			picture = generic_motorized_equipment_manufacturer_3
 
 			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			cost = 150
@@ -1399,7 +1285,7 @@ ideas = {
 				motorized_equipment = 0.15
 			}
 			
-			traits = { motorized_equipment_manufacturer }
+			traits = { cavalry_equipment_manufacturer }
 		}
 		
 		generic_infantry_equipment_manufacturer = {
@@ -1407,9 +1293,7 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			cost = 150
@@ -1427,9 +1311,7 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = {
-					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
-				}
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			cost = 150
@@ -1443,42 +1325,12 @@ ideas = {
 		}
 	}
 
-	political_advisor = {
-
-		generic_captain_of_industry = {
-
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			traits = { captain_of_industry }
-		}
-		
-		generic_fortification_engineer = {
-
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			traits = { fortification_engineer }
-		}
-
-		generic_war_industrialist = {
-
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			traits = { war_industrialist }
-		}
-	}
-
 	army_chief = {
 		
 		generic_army_chief_off = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			traits = { army_chief_offensive_1 }
@@ -1487,7 +1339,7 @@ ideas = {
 		generic_army_chief_def = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			traits = { army_chief_defensive_1 }
@@ -1499,40 +1351,10 @@ ideas = {
 		generic_navy_chief_decisive_bat = {
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			traits = { navy_chief_decisive_battle_2 }
-		}
-
-		generic_navy_anti_submarine = {
-			
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			traits = { navy_anti_submarine_2 }
-		}
-	}
-
-	air_chief = {
-
-		generic_air_close_air_sup = {
-			
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			traits = { air_close_air_support_2 }
-		}
-	
-		generic_air_chief_all_weather = {
-			
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			traits = { air_chief_all_weather_2 }			
 		}
 	}
 
@@ -1542,41 +1364,42 @@ ideas = {
 			ledger = army
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			traits = { army_artillery_1 }			
+		}
+
+		generic_army_mage = {
+			ledger = army
+			
+			allowed = {
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
+			}
+			
+			traits = { army_armored_1 }			
+		}
+
+		generic_army_inf = {
+			ledger = army
+			
+			allowed = {
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
+			}
+			
+			traits = { army_infantry_2 }			
 		}
 		
 		generic_army_log = {
 			ledger = army
 
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			traits = { army_logistics_2 }			
 		}
 
-		generic_navy_fleet_log = {
-			ledger = navy
-
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			traits = { navy_fleet_logistics_1 }			
-		}
-
-		generic_air_air_combat_trainer = {
-			ledger = air
-
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			traits = { air_air_combat_training_2 }			
-		}
 	}
 
 	theorist = {
@@ -1585,7 +1408,7 @@ ideas = {
 			ledger = army
 			
 			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
+				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = TRB tag = ECH tag = GOZ tag = ILD } }
 			}
 			
 			research_bonus = {
@@ -1593,34 +1416,6 @@ ideas = {
 			}
 			
 			traits = { military_theorist }
-		}
-	
-		generic_naval_theorist = {
-			ledger = navy
-			
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			research_bonus = {
-				naval_doctrine = 0.10
-			}
-			
-			traits = { naval_theorist }
-		}
-
-		generic_air_warfare_theorist = {
-			ledger = air
-			
-			allowed = {
-				NOT = { OR = { tag = ICR tag = DCR tag = LCR tag = ARS tag = LTV } }
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
 		}
 
 	}

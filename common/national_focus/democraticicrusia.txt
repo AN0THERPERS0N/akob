@@ -75,7 +75,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_icrusian_industry"
-	
+		#industry
 	}
 	ai_will_do = {
 	}
@@ -162,7 +162,27 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_focus_industrilisation_in_the_south"
-	
+		173 = {
+			add_extra_state_shared_building_slots = 3
+		}
+		181 = {
+			add_extra_state_shared_building_slots = 3
+		}
+		163 = {
+			add_extra_state_shared_building_slots = 3
+		}
+		151 = {
+			add_extra_state_shared_building_slots = 3
+		}
+		145 = {
+			add_extra_state_shared_building_slots = 3
+		}
+		146 = {
+			add_extra_state_shared_building_slots = 3
+		}
+		136 = {
+			add_extra_state_shared_building_slots = 3
+		}
 	}
 	ai_will_do = {
 	}
@@ -189,7 +209,18 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_further_build_up_the_north"
-	
+		57 = {
+			add_extra_state_shared_building_slots = 2
+		}
+		64 = {
+			add_extra_state_shared_building_slots = 2
+		}
+		65 = {
+			add_extra_state_shared_building_slots = 2
+		}
+		73 = {
+			add_extra_state_shared_building_slots = 2
+		}
 	}
 	ai_will_do = {
 	}
@@ -406,7 +437,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_factories_of_anzan"
-	
+		104 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -433,7 +471,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_build_up_dovel"
-	
+		126 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
 	}
 	ai_will_do = {
 	}
@@ -460,7 +505,19 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_feiditta_mines"
-	
+		117 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		add_resource = {
+			type = steel
+			amount = 16
+			state = 117
+		}
 	}
 	ai_will_do = {
 	}
@@ -487,7 +544,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_expand_icrusia_city"
-	
+		91 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -514,7 +578,19 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_build_up_thethmond"
-	
+		28 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 3
+		}
 	}
 	ai_will_do = {
 	}
@@ -541,7 +617,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_build_new_rifiord_ports"
-	
+		36 = {
+			add_building_construction = {
+				type = dockyard
+				level = 4
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 4
+		}
 	}
 	ai_will_do = {
 	}
@@ -653,6 +736,7 @@ focus = {
 				level = 1
 				instant_build = yes
 			}
+			add_extra_state_shared_building_slots = 1
 		}
 	}
 	ai_will_do = {
@@ -721,6 +805,7 @@ focus = {
 				level = 1
 				instant_build = yes
 			}
+			add_extra_state_shared_building_slots = 1
 		}
 		add_resource = {
 			type = steel
@@ -846,7 +931,40 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_restructure_anzan_supply_chain"
-	
+		104 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		111 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		95 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		93 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -873,7 +991,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_dovel_military_factory_expansion_plan"
-	
+		126 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
 	}
 	ai_will_do = {
 	}
@@ -900,7 +1025,27 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_increase_coal_production"
-	
+		128 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		146 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		add_resource = {
+			type = coal
+			amount = 21
+			state = 128
+		}
 	}
 	ai_will_do = {
 	}
@@ -928,7 +1073,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_increase_city_productivity"
-	
+		#industry
 	}
 	ai_will_do = {
 	}
@@ -956,7 +1101,22 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_implement_more_industrial_to_military_factory_conversions"
-	
+		88 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		78 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -1149,6 +1309,7 @@ focus = {
 				level = 1
 				instant_build = yes
 			}
+			add_extra_state_shared_building_slots = 1
 		}
 	}
 	ai_will_do = {
@@ -1339,7 +1500,39 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_on_the_same_level_of_the_north"
-	
+		121 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		181 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		145 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		163 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		#industry
 	}
 	ai_will_do = {
 	}
@@ -1366,7 +1559,38 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_the_heart_of_icrusia"
-	
+		91 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		73 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		65 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		88 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -1401,6 +1625,7 @@ focus = {
 				level = 2
 				instant_build = yes
 			}
+			add_extra_state_shared_building_slots = 2
 		}
 	}
 	ai_will_do = {
@@ -1750,7 +1975,41 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_plans_to_connect_icrusia"
-	
+		56 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		58 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		66 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		82 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		77 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -2065,7 +2324,90 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_construct_the_icrusian_ring_roads"
-	
+		57 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		65 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		78 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		93 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		95 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		109 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		103 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		94 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		82 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		66 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		49 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		36 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -2092,7 +2434,90 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_build_trans_icrusian_roads"
-	
+		28 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		46 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		66 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		82 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		94 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		117 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		128 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		134 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		146 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		163 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		181 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		173 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -2119,7 +2544,83 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_roads_in_the_desert"
-	
+		181 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		173 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		163 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		151 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		94 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		145 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		146 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		126 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		136 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		111 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		121 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -2279,7 +2780,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_fulfill_the_democratic_promise"
-	
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
 	}
 	ai_will_do = {
 	}
@@ -2306,7 +2810,15 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_compromise_with_the_military"
-	
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+		army_experience = 50
 	}
 	ai_will_do = {
 	}
@@ -2333,7 +2845,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_empower_the_voters"
-	
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+		add_stability = 0.2
 	}
 	ai_will_do = {
 	}
@@ -2360,7 +2876,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_establish_the_icrusian_parliament"
-	
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+		add_political_power = 200
 	}
 	ai_will_do = {
 	}
@@ -2387,7 +2907,19 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_separate_military_from_state"
-	
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.1
+		}
+		add_manpower = 100000
 	}
 	ai_will_do = {
 	}
@@ -2414,7 +2946,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_fan_icrusian_militarism"
-	
+		add_war_support = 20
 	}
 	ai_will_do = {
 	}
@@ -2441,7 +2973,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_dominate_the_parliament"
-	
+		add_political_power = 100
 	}
 	ai_will_do = {
 	}
@@ -2468,7 +3000,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_block_harmful_bills"
-	
+		121 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -2495,7 +3034,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_maintain_some_parts_of_the_old_order"
-	
+		add_ideas = DCR_the_old_guard
 	}
 	ai_will_do = {
 	}
@@ -2551,7 +3090,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_hold_the_first_icrusian_elections"
-	
+		country_event = {
+			id = dcr.6
+			days = 0
+			random = 0
+		}
 	}
 	ai_will_do = {
 	}
@@ -2579,7 +3122,15 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_dismantle_the_organs_of_democracy"
-	
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+		add_war_support = 10
 	}
 	ai_will_do = {
 	}
@@ -2607,7 +3158,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_pardon_all_crimes_from_the_army"
-	
+		swap_ideas = {
+			add_idea = DCR_the_old_guard2
+			remove_idea = DCR_the_old_guard
+		}
 	}
 	ai_will_do = {
 	}
@@ -2634,7 +3188,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_carry_vitas_torch"
-	
+		add_tech_bonus = {
+			bonus = 0.66
+			uses = 1
+			category = infantry_weapons
+		}
 	}
 	ai_will_do = {
 	}
@@ -2661,7 +3219,21 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_take_care_of_the_other_sides_of_the_military"
-	
+		add_tech_bonus = {
+			bonus = 0.66
+			uses = 1
+			category = cavalry
+		}
+		add_tech_bonus = {
+			bonus = 0.33
+			uses = 1
+			category = artillery
+		}
+		add_tech_bonus = {
+			bonus = 0.33
+			uses = 1
+			category = armor
+		}
 	}
 	ai_will_do = {
 	}
@@ -2688,7 +3260,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_matters_on_the_colonies"
-	
+		country_event = {
+			id = dcr.7
+			days = 0
+			random = 0
+		}
 	}
 	ai_will_do = {
 	}
@@ -2715,7 +3291,8 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_enforce_meritocracy"
-	
+		add_political_power = 100
+		add_stability = 0.1
 	}
 	ai_will_do = {
 	}
@@ -2742,7 +3319,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_pursue_an_interventionist_policy"
-	
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+		#country_leader_trait
 	}
 	ai_will_do = {
 	}
@@ -2769,7 +3350,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_secret_military_takeover"
-	
+		country_event = {
+			id = dcr.9
+			days = 0
+			random = 0
+		}
 	}
 	ai_will_do = {
 	}
@@ -2796,7 +3381,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_equip_the_military_with_new_equipment"
-	
+		add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = infantry_weapons
+		}
 	}
 	ai_will_do = {
 	}
@@ -2823,7 +3412,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_new_infantry_battle_tactics"
-	
+		add_tech_bonus = {
+			bonus = 2
+			uses = 1
+			category = infantry_weapons
+		}
 	}
 	ai_will_do = {
 	}
@@ -2850,7 +3443,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_strengthen_icrusian_cavalry"
-	
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = cavalry
+		}
 	}
 	ai_will_do = {
 	}
@@ -2877,7 +3474,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_study_artillery_tactics"
-	
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -2904,7 +3501,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_better_mage_training"
-	
+		add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = armor
+		}
 	}
 	ai_will_do = {
 	}
@@ -2931,7 +3532,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_increase_theberian_autonomy"
-	
+		THB = {
+			add_political_power = 100
+		}
 	}
 	ai_will_do = {
 	}
@@ -2958,7 +3561,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_agran_provisional_government"
-	
+		AGR = {
+			add_political_power = 100
+		}
 	}
 	ai_will_do = {
 	}
@@ -2985,7 +3590,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_workers_rights"
-	
+		add_ideas = DCR_worker_right
 	}
 	ai_will_do = {
 	}
@@ -3012,7 +3617,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_meritocracy_in_education"
-	
+		add_ideas = DCR_the_brightest_of_ambulas
 	}
 	ai_will_do = {
 	}
@@ -3039,7 +3644,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_an_army_based_on_merit"
-	
+		army_experience = 50
 	}
 	ai_will_do = {
 	}
@@ -3066,7 +3671,15 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_spread_the_word"
-	
+		every_country = {
+			limit = {
+				is_major = yes
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -3093,7 +3706,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_dreams_of_a_meritocratic_armed_forces"
-	
+		army_experience = 100
 	}
 	ai_will_do = {
 	}
@@ -3120,7 +3733,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_deal_with_the_colonies"
-	
+		country_event = {
+			id = dcr.7
+			days = 0
+			random = 0
+		}
 	}
 	ai_will_do = {
 	}
@@ -3147,7 +3764,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_stock_up_on_infantry_clothing"
-	
+		add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = support_tech
+		}
 	}
 	ai_will_do = {
 	}
@@ -3174,7 +3795,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_study_defeat_in_detail"
-	
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -3201,7 +3822,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_Import_trubian_horses"
-	
+		add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = cavalry
+		}
 	}
 	ai_will_do = {
 	}
@@ -3228,7 +3853,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_invent_new_artillery_designs"
-	
+		add_tech_bonus = {
+			bonus = 2
+			uses = 2
+			category = artillery
+		}
 	}
 	ai_will_do = {
 	}
@@ -3255,7 +3884,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_innovate_new_magical_wards"
-	
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -3282,7 +3911,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_establish_the_CFTI"
-	
+		102 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
 	}
 	ai_will_do = {
 	}
@@ -3309,7 +3945,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_massive_propaganda_programme"
-	
+		THB = {
+			add_manpower = 300000
+		}
 	}
 	ai_will_do = {
 	}
@@ -3336,7 +3974,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_issues_of_the_past"
-	
+		THB = {
+			army_experience = 109
+		}
 	}
 	ai_will_do = {
 	}
@@ -3363,7 +4003,22 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_compromise_with_the_communists"
-	
+		19 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		9 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -3390,7 +4045,15 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_ensure_stable_wages"
-	
+		add_political_power = 100
+		104 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -3417,7 +4080,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_hunt_down_corruption"
-	
+		add_research_slot = 1
 	}
 	ai_will_do = {
 	}
@@ -3444,7 +4107,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_promotions_based_on_skill"
-	
+		#generals
 	}
 	ai_will_do = {
 	}
@@ -3471,7 +4134,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_fund_airestonian_revolutionaries"
-	
+		ARS = {
+			add_ideas = DCR_icrusian_democratic_interference
+		}
 	}
 	ai_will_do = {
 	}
@@ -3498,7 +4163,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_echainaian_freedom_policy"
-	
+		ECH = {
+			add_ideas = DCR_icrusian_democratic_interference
+		}
 	}
 	ai_will_do = {
 	}
@@ -3525,7 +4192,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_a_trubia_more_free"
-	
+		TRB = {
+			add_ideas = DCR_icrusian_democratic_interference
+		}
 	}
 	ai_will_do = {
 	}
@@ -3552,7 +4221,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_increase_funding_to_the_army"
-	
+		add_manpower = 250000
 	}
 	ai_will_do = {
 	}
@@ -3579,7 +4248,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_rework_the_military_complex_model"
-	
+		91 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
 	}
 	ai_will_do = {
 	}
@@ -3606,7 +4282,8 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_review_the_situation"
-	
+		add_stability = 0.2
+		add_war_support = 10
 	}
 	ai_will_do = {
 	}
@@ -3633,7 +4310,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_better_training_methods"
-	
+		add_ideas = DCR_backbone_of_icrusian_might
 	}
 	ai_will_do = {
 	}
@@ -3660,7 +4337,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_reformat_officer_training"
-	
+		#doctrine
 	}
 	ai_will_do = {
 	}
@@ -3687,7 +4364,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_better_horse_armour"
-	
+		add_tech_bonus = {
+			ahead_reduction = 2
+			uses = 2
+			category = cavalry
+		}
 	}
 	ai_will_do = {
 	}
@@ -3714,7 +4395,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_create_more_cannons"
-	
+		add_tech_bonus = {
+			bonus = 2
+			uses = 2
+			category = artillery
+		}
 	}
 	ai_will_do = {
 	}
@@ -3741,7 +4426,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_magic_research"
-	
+		add_tech_bonus = {
+			bonus = 2
+			uses = 3
+			category = armor
+		}
 	}
 	ai_will_do = {
 	}
@@ -3768,7 +4457,22 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_a_grand_compromise"
-	
+		6 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		1 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -3795,7 +4499,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_seek_a_peaceful_resolution"
-	
+		THB = {
+			add_political_power = 200
+		}
+		add_political_power = 200
 	}
 	ai_will_do = {
 	}
@@ -3822,7 +4529,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_overthrow_the_dictator"
-	
+		#replace leader
 	}
 	ai_will_do = {
 	}
@@ -3849,7 +4556,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_establish_democratic_organs"
-	
+		AGR = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.3
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -3876,7 +4588,13 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_appeal_to_the_people"
-	
+		AGR = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.2
+			}
+			add_stability = 0.2
+		}
 	}
 	ai_will_do = {
 	}
@@ -3903,7 +4621,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_union_representation_bill"
-	
+		swap_ideas = {
+			add_idea = DCR_worker_right2
+			remove_idea = DCR_worker_right
+		}
 	}
 	ai_will_do = {
 	}
@@ -3930,7 +4651,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_free_books_for_all"
-	
+		swap_ideas = {
+			add_idea = DCR_the_brightest_of_ambulas2
+			remove_idea = DCR_the_brightest_of_ambulas
+		}
 	}
 	ai_will_do = {
 	}
@@ -3957,7 +4681,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_root_out_generals_of_the_old_age"
-	
+		#generals
 	}
 	ai_will_do = {
 	}
@@ -3984,7 +4708,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_the_cantarov_plan"
-	
+		country_event = {
+			id = dcr.8
+			days = 0
+			random = 0
+		}
 	}
 	ai_will_do = {
 	}
@@ -4011,7 +4739,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_train_airestonian_revolutionaries"
-	
+		ARS = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -4038,7 +4771,13 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_work_together_with_gozyr"
-	
+		add_political_power = 100
+		ECH = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference2
+				remove_idea = DCR_icrusian_democratic_interference
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -4065,7 +4804,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_great_lakes_protests"
-	
+		ECH = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -4092,7 +4836,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_influence_through_trade"
-	
+		TRB = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference2
+				remove_idea = DCR_icrusian_democratic_interference
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -4119,7 +4868,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_make_democracy_more_appealing"
-	
+		TRB = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -4146,7 +4900,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_implement_vitas_restructuring_scheme"
-	
+		
 	}
 	ai_will_do = {
 	}
@@ -4173,7 +4927,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_final_steps_towards_theberian_integration"
-	
+		DCR = {
+			add_state_core = 6
+			add_state_core = 1
+			add_state_core = 102
+		}
 	}
 	ai_will_do = {
 	}
@@ -4200,7 +4958,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_pacify_agran_independence"
-	
+		AGR = {
+			add_ideas = DCR_communist_suppression
+		}
 	}
 	ai_will_do = {
 	}
@@ -4227,7 +4987,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_new_and_improved_army"
-	
+		swap_ideas = {
+			add_idea = DCR_backbone_of_icrusian_might2
+			remove_idea = DCR_backbone_of_icrusian_might
+		}
 	}
 	ai_will_do = {
 	}
@@ -4255,7 +5018,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_integrate_the_army_with_the_cavalry"
-	
+		
 	}
 	ai_will_do = {
 	}
@@ -4284,7 +5047,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_true_military_dominance"
-	
+		add_ideas = DCR_hell_incarnate
 	}
 	ai_will_do = {
 	}
@@ -4312,7 +5075,17 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_theberian_independence"
-	
+		release_puppet = THB
+		if = {
+			limit = {
+				DCR = { is_in_faction = no }
+			}
+			set_faction_name = icrusian_defence_league
+			DCR = { add_to_faction = THB }
+		}
+		else = {
+			DCR = { add_to_faction = THB }
+		}
 	}
 	ai_will_do = {
 	}
@@ -4341,7 +5114,16 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_agran_independence"
-	
+		if = {
+			limit = {
+				DCR = { is_in_faction = no }
+			}
+			set_faction_name = icrusian_defence_league
+			DCR = { add_to_faction = AGR }
+		}
+		else = {
+			DCR = { add_to_faction = AGR }
+		}
 	}
 	ai_will_do = {
 	}
@@ -4368,7 +5150,8 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_massive_anti_corruption_purge"
-	
+		add_political_power = 100
+		add_ideas = DCR_leadership_is_key
 	}
 	ai_will_do = {
 	}
@@ -4395,7 +5178,8 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_new_military_reorganisation"
-	
+		add_manpower = 100000
+		#generals
 	}
 	ai_will_do = {
 	}
@@ -4422,7 +5206,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_promote_prominent_speakers"
-	
+		ARS = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference3
+				remove_idea = DCR_icrusian_democratic_interference2
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -4449,7 +5238,13 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_educate_the_poor"
-	
+		ECH = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference3
+				remove_idea = DCR_icrusian_democratic_interference2
+			}
+			#industry
+		}
 	}
 	ai_will_do = {
 	}
@@ -4476,7 +5271,13 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_help_in_setting_up_an_underground_government"
-	
+		TRB = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference3
+				remove_idea = DCR_icrusian_democratic_interference2
+			}
+			add_political_power = -50
+		}
 	}
 	ai_will_do = {
 	}
@@ -4503,7 +5304,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_remove_army_elites"
-	
+		#generals
 	}
 	ai_will_do = {
 	}
@@ -4530,7 +5331,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_raise_the_recruitment_bar"
-	
+		add_manpower = 200000
 	}
 	ai_will_do = {
 	}
@@ -4557,7 +5358,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_rework_the_training_programme"
-	
+		add_ideas = DCR_better_training
 	}
 	ai_will_do = {
 	}
@@ -4584,7 +5385,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_recognise_talent_in_the_army"
-	
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
+		}
 	}
 	ai_will_do = {
 	}
@@ -4611,7 +5416,38 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_merge_the_economies_of_both_lands"
-	
+		102 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		6 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		91 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+		88 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 	ai_will_do = {
 	}
@@ -4638,7 +5474,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_cooperation_with_theberian_people"
-	
+		THB = {
+			add_political_power = 100
+		}
+		DCR = {
+			add_political_power = 100
+		}
 	}
 	ai_will_do = {
 	}
@@ -4665,7 +5506,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_hang_conspirators"
-	
+		AGR = {
+			add_political_power = 100
+			add_stability = -0.05
+		}
 	}
 	ai_will_do = {
 	}
@@ -4692,7 +5536,28 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_pressure_agran_leaders"
-	
+		AGR = {
+			add_stability = -0.05
+		}
+		DCR = {
+			add_state_core = 35
+			add_state_core = 16
+			add_state_core = 19
+			add_state_core = 9
+			add_state_core = 4
+			add_state_core = 14
+			add_state_core = 7
+			add_state_core = 20
+			add_state_core = 34
+			add_state_core = 38
+			add_state_core = 43
+			add_state_core = 68
+			add_state_core = 76
+			add_state_core = 51
+			add_state_core = 41
+			add_state_core = 61
+			add_state_core = 63
+		}
 	}
 	ai_will_do = {
 	}
@@ -4719,7 +5584,13 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_supress_communist_fervor"
-	
+		AGR = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.1
+			}
+			add_stability = -0.1
+		}
 	}
 	ai_will_do = {
 	}
@@ -4746,7 +5617,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_for_the_people"
-	
+		add_ideas = DCR_champion_of_the_free_peoples
 	}
 	ai_will_do = {
 	}
@@ -4802,7 +5673,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_promote_rising_generals"
-	
+		#generals
 	}
 	ai_will_do = {
 	}
@@ -4829,7 +5700,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_soldiers_of_blood_and_honour"
-	
+		swap_ideas = {
+			add_idea = DCR_better_training2
+			remove_idea = DCR_better_training
+		}
 	}
 	ai_will_do = {
 	}
@@ -4856,7 +5730,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_assign_positions_based_on_merit"
-	
+		army_experience = 200
 	}
 	ai_will_do = {
 	}
@@ -4883,7 +5757,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_strengthen_the_icrusian_theberian_military_complex"
-	
+		THB = {
+			add_manpower = 300000
+		}
 	}
 	ai_will_do = {
 	}
@@ -4910,7 +5786,16 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_persuade_theberian_elites"
-	
+		add_resource = {
+			type = steel
+			amount = 8
+			state = 102
+		}
+		add_resource = {
+			type = brass
+			amount = 9
+			state = 6
+		}
 	}
 	ai_will_do = {
 	}
@@ -4937,7 +5822,37 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_burn_communist_strongholds"
-	
+		AGR = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.2
+			}
+			add_stability = -0.1
+		}
+		14 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+		34 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+		38 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+		19 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -4964,7 +5879,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_enforce_a_surveillance_state"
-	
+		#spies
 	}
 	ai_will_do = {
 	}
@@ -4992,7 +5907,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_see_through_the_creation_of_a_new_world_order"
-	
+		create_faction = the_founders
 	}
 	ai_will_do = {
 	}
@@ -5021,7 +5936,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_best_army_of_ambulas"
-	
+		swap_ideas = {
+			add_idea = DCR_finest_military_in_all_of_ambulas2
+			remove_idea = DCR_finest_military_in_all_of_ambulas
+		}
+		remove_ideas = DCR_vitas_military_restructuring_scheme
 	}
 	ai_will_do = {
 	}
@@ -5049,7 +5968,13 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_formal_invitation_for_integration"
-	
+		THB = {
+			country_event = {
+				id = dcr.10
+				days = 0
+				random = 0
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -5077,7 +6002,13 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_intervention_in_the_name_of_securing_democracy"
-	
+		AGR = {
+			country_event = {
+				id = dcr.11
+				days = 0
+				random = 0
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -5104,7 +6035,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_gather_illidean_revolutionaries"
-	
+		ILD = {
+			add_ideas = DCR_icrusian_democratic_interference2
+		}
 	}
 	ai_will_do = {
 	}
@@ -5131,7 +6064,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_gather_airestonian_revolutionaries"
-	
+		ARS = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference4
+				remove_idea = DCR_icrusian_democratic_interference3
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -5158,7 +6096,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_gather_trubian_revolutionaries"
-	
+		TRB = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference4
+				remove_idea = DCR_icrusian_democratic_interference3
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -5185,7 +6128,12 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_gather_echainaian_revolutionaries"
-	
+		ECH = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference4
+				remove_idea = DCR_icrusian_democratic_interference3
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -5213,7 +6161,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_foreign_matters"
-	
+		swap_ideas = {
+			add_idea = DCR_the_old_guard3
+			remove_idea = DCR_the_old_guard2
+		}
 	}
 	ai_will_do = {
 	}
@@ -5243,7 +6194,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_create_the_APF"
-	
+		#spies
 	}
 	ai_will_do = {
 	}
@@ -5270,7 +6221,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_threaten_gozyr"
-	
+		GOZ = {
+			add_political_power = -200
+		}
 	}
 	ai_will_do = {
 	}
@@ -5297,7 +6250,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_secure_airestonia"
-	
+		ARS = {
+			add_political_power = -200
+		}
 	}
 	ai_will_do = {
 	}
@@ -5324,7 +6279,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_intimidate_trubia"
-	
+		TRB = {
+			add_political_power = -200
+		}
 	}
 	ai_will_do = {
 	}
@@ -5351,7 +6308,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_secure_the_militias"
-	
+
 	}
 	ai_will_do = {
 	}
@@ -5378,7 +6335,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_make_necessary_preparations"
-	
+		
 	}
 	ai_will_do = {
 	}
@@ -5405,7 +6362,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_expand_the_grand_intelligence_network"
-	
+		
 	}
 	ai_will_do = {
 	}
@@ -5459,7 +6416,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_cut_off_economic_ties"
-	
+		add_opinion_modifier = {
+			target = GOZ
+			modifier = embargo
+		}
 	}
 	ai_will_do = {
 	}
@@ -5486,7 +6446,24 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_isolate_gozyr"
-	
+		every_country = {
+			limit = {
+				has_guaranteed = GOZ
+			}
+			diplomatic_relation = {
+				country = GOZ
+				relation = guarantee
+				active = no
+			}
+		}
+		if = {
+			limit = {
+				GOZ = {
+					is_in_faction = yes
+				}
+			}
+			leave_faction = yes
+		}
 	}
 	ai_will_do = {
 	}
@@ -5513,7 +6490,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_strengthen_the_spy_network_in_arestonia"
-	
+		#spies
 	}
 	ai_will_do = {
 	}
@@ -5540,7 +6517,15 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_sabotage_airestonian_relations"
-	
+		every_country = {
+			limit = {
+				is_major = yes
+			}
+			add_opinion_modifier = {
+				target = ARS
+				modifier = condemn_aggression
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -5567,7 +6552,14 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_pile_troops_on_their_border"
-	
+		91 = {
+			create_unit = {
+				division = "division_template = \"Icrusian Republican Brigade\"	start_experience_factor = 0.5	start_equipment_factor = 1"
+				owner = ROOT
+				allow_spawning_on_enemy_provs = yes
+				count = 10
+			}
+		}
 	}
 	ai_will_do = {
 	}
@@ -5594,7 +6586,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_kick_out_trubian_nationals"
-	
+		TRB = {
+			add_manpower = -350000
+		}
+		add_manpower = -200000
 	}
 	ai_will_do = {
 	}
@@ -5624,7 +6619,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_fight_for_your_freedom"
-	
+		unlock_decision_category_tooltip = DCR_worldwide_democracy
 	}
 	ai_will_do = {
 	}
@@ -5651,7 +6646,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_blockade_gozyr_imports"
-	
+		GOZ = {
+			add_ideas = DCR_weakened_trade
+		}
 	}
 	ai_will_do = {
 	}
@@ -5678,7 +6675,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_denounce_gozyr_exploitation"
-	
+		add_resource = {
+			type = steel
+			amount = -14
+			state = 29
+		}
 	}
 	ai_will_do = {
 	}
@@ -5705,7 +6706,11 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_plot_to_kill_amaris"
-	
+		country_event = {
+			id = dcr.12
+			days = 0
+			random = 0
+		}
 	}
 	ai_will_do = {
 	}
@@ -5732,7 +6737,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_war_propaganda"
-	
+		ARS = {
+			add_threat = 10
+		}
+
 	}
 	ai_will_do = {
 	}
@@ -5759,7 +6767,7 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_stage_a_border_incident"
-	
+		#border war
 	}
 	ai_will_do = {
 	}
@@ -5786,7 +6794,9 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_arrest_trubian_scientists"
-	
+		TRB = {
+			add_ideas = DCR_weakened_science_base
+		}
 	}
 	ai_will_do = {
 	}
@@ -5814,7 +6824,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_to_war_with_the_dying_federation"
-	
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = GOZ
+		}
 	}
 	ai_will_do = {
 	}
@@ -5842,7 +6855,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_revenge_for_the_past"
-	
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = ARS
+		}
 	}
 	ai_will_do = {
 	}
@@ -5870,7 +6886,10 @@ focus = {
 	available_if_capitulated = no
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus DCR_stop_the_rising_confederacy"
-	
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = TRB
+		}
 	}
 	ai_will_do = {
 	}

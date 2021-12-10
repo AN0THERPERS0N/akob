@@ -1,5 +1,423 @@
 ideas = {
 
+	political_advisor = {
+
+		ECH_nora_feist = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		ECH_konstantin_diemberger = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { financial_expert }
+		}
+
+		ECH_anton_kubin = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		ECH_jonas_bachrich = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		ECH_jan_mateschitz = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		ECH_laurenz_albert = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		ECH_valentin_horenberger = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { popular_figurehead }
+		}
+
+	}
+
+	theorist = {
+
+		ECH_gabriel_schiele = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				land_doctrine = 0.1
+			}
+			
+			traits = { military_theorist }
+		}
+
+		ECH_lenny_haneke = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = ECH
+			}
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+			
+			traits = { military_theorist }
+		}
+
+	}
+
+	high_command = {
+
+		ECH_robin_renner = {
+			ledger = army
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_fabian_merkatz = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_artillery_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_theodor_klimt = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_finn_bernhard = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_xaver_kollek = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_armored_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_nino_ambros = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_entrenchment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_philipp_wurst = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_reform_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		ECH_samuel_kanner = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_defensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_johannes_trenker = {
+			
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_planning_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_louis_menger = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_martin_bogen = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_offensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+		
+
+		ECH_luka_helnwein = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+
+		rylsk_school_of_magical_thought = {
+
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				armor = 0.1
+			}
+
+			traits = { heavy_tank_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
+
+		serov_infantry_supplier = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+
+			traits = { infantry_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		rylsk_royal_artillery_company = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				artillery = 0.1
+			}
+
+			traits = { artillery_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		rylsk_elite_cavalry_league = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				cavalry = 0.1
+			}
+
+			traits = { cavalry_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	industrial_concern = {
+
+		borsk_industrial_hub = {
+
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				industry = 0.10
+			}
+
+			traits = { industrial_concern }
+
+			modifier = {
+			}
+		}
+	}
+
 	country = {
 
 		#starting ideas

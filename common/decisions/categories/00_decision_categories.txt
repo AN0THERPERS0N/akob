@@ -12,6 +12,18 @@
 #	}
 #}
 
+DCR_worldwide_democracy = {
+	priority = 500
+	icon = generic_propaganda
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+
 ECH_echainaian_research = {
 	priority = 500
 	icon = generic_propaganda

@@ -235,3 +235,193 @@ country_event = { #anti rowe speech 2
 		}
 	}
 }
+
+country_event = { #first icrusian elections
+	id = dcr.6
+	title = dcr.6.t
+	desc = dcr.6.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = dcr.6.a
+		#elections
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #matter on colonies - alorith conference
+	id = dcr.7
+	title = dcr.7.t
+	desc = dcr.7.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = dcr.7.a
+		add_political_power = 100
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #cantarov plan
+	id = dcr.8
+	title = dcr.8.t
+	desc = dcr.8.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = dcr.8.a
+		ARS = {
+			swap_ideas = {
+				add_idea = DCR_icrusian_democratic_interference2
+				remove_idea = DCR_icrusian_democratic_interference
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #military takeover
+	id = dcr.9
+	title = dcr.9.t
+	desc = dcr.9.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = dcr.9.a
+		add_political_power = -100
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #THB - formal integration
+	id = dcr.10
+	title = dcr.10.t
+	desc = dcr.10.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = { #no
+		name = dcr.10.a
+		DCR = {
+			release_puppet = THB
+			declare_war_on = {
+				target = THB
+				type = annex_everything
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = { #yes
+		name = dcr.10.b
+		DCR = {
+			annex_country = {
+				target = THB
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+
+country_event = { #AGR - intervention
+	id = dcr.11
+	title = dcr.11.t
+	desc = dcr.11.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = { #no
+		name = dcr.11.a
+		DCR = {
+			release_puppet = AGR
+			declare_war_on = {
+				target = AGR
+				type = annex_everything
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+
+	option = { #yes
+		name = dcr.11.b
+		DCR = {
+			annex_country = {
+				target = AGR
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #kill amaris
+	id = dcr.12
+	title = dcr.12.t
+	desc = dcr.12.d
+	picture = GFX_report_event_south_africa_patrol
+	is_triggered_only = yes
+	timeout_days = 7
+
+	immediate = {
+
+	}
+	
+	option = { #no
+		name = dcr.12.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

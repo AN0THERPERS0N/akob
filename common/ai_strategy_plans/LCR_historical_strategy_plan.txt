@@ -10,31 +10,5 @@ loyalist_icrusia_historical = {
 	}
 
 	ai_national_focuses = {
-		LCR_icrusia_at_war
-		LCR_play_the_long_game
-		LCR_grant_emergency_powers
-		LCR_veil_of_secrecy
-		LCR_relocate_the_national_treasury
-		LCR_mass_delusion_campaign
-		LCR_call_a_state_of_emergency
-		LCR_every_man_a_soldier
-		LCR_mass_recruitment_drive
-		LCR_all_hands_on_deck
-		LCR_set_the_economy_to_ovedrive
-		LCR_women_in_the_workforce
-		LCR_instant_industrialisation
-		LCR_reconvert_abandoned_factories
-		LCR_emergency_civilian_factory_seizures
-		LCR_fortify_key_positions
-		LCR_control_strategic_roads
-		LCR_secure_our_supply_chain
-		LCR_protect_our_cities
-		LCR_divert_resources_to_factories
-		LCR_increased_factory_equipment
-		LCR_new_industrial_projects
-		LCR_child_labourers
-		LCR_large_scale_military_promotions
-		LCR_operation_second_wind
-		LCR_reach_out_to_airestonia
 	}
 }

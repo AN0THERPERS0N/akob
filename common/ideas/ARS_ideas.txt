@@ -1,5 +1,480 @@
 ideas = {
 
+	political_advisor = {
+
+		ARS_neilos_blandinus = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { popular_figurehead }
+		}
+
+		ARS_archelaus_eadwig = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		ARS_numitor_alcides = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		ARS_paulus_tryphon = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		ARS_osgar_faustus = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		ARS_wulfstan_bada = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		ARS_hildebrand_bernard = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		ARS_wulfstan_gottschalk = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { head_of_intelligence }
+		}
+
+	}
+
+	theorist = {
+
+		ARS_anselm_deion = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = ARS
+			}
+
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		ARS_oliver_thilo = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = ARS
+			}
+			
+			research_bonus = {
+				cat_superior_firepower = 0.15
+			}
+			
+			traits = { superior_firepower_expert }
+			#doctrine
+		}
+
+	}
+
+	high_command = {
+
+		ARS_notker_reingard = {
+			ledger = army
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { army_artillery_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ARS_gerwin_ulrich = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ARS_helferich_thijmen = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { army_regrouping_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ARS_rupert_sadiq = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ARS_niko_bernhard = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { army_commando_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		ARS_dennis_ankraz = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ARS_alexander_valentin = {
+			
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ARS_udo_ludger = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { army_chief_organizational_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+		
+
+		ARS_raban_volkhard = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { navy_chief_decisive_battle_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ARS_ingbert_hugo = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = ARS
+			}
+			
+			traits = { navy_chief_commerce_raiding_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+
+		hellica_summit_schools = {
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+			research_bonus = {
+				armor = 0.12
+			}
+
+			traits = { fast_tank_manufacturer }
+		}
+
+		airestonia_state_university = {
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+
+
+			research_bonus = {
+				armor = 0.10
+			}
+
+			traits = { medium_tank_manufacturer }
+
+			modifier = {
+			}
+		}
+
+		grand_cysos_league_of_mages = {
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+			research_bonus = {
+				armor = 0.10
+			}
+
+			traits = { heavy_tank_manufacturer }
+
+			modifier = {
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
+
+		cleresdes_artillery_company = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+			research_bonus = {
+				artillery = 0.10
+			}
+
+			traits = { artillery_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		cearamonte_arms_factory = {
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+
+
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+
+			traits = { infantry_equipment_manufacturer }
+
+			modifier = {
+			}
+		}
+
+		rivevia_cavalry_institute = {
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+
+
+			research_bonus = {
+				cavalry = 0.10
+			}
+
+			traits = { cavalry_equipment_manufacturer }
+
+			modifier = {
+			}
+		}
+	}
+
+	industrial_concern = {
+
+		airestonia_city_research_institute = {
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+			research_bonus = {
+				industry = 0.10
+			}
+
+			traits = { industrial_concern }
+
+			modifier = {
+			}
+		}
+
+		cleresdes_void_factory = {
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+			research_bonus = {
+				electronics = 0.10
+			}
+
+			traits = { electronics_concern }
+
+			modifier = {
+			}
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+
+		hellica_naval_association = {
+
+
+			allowed = {
+				original_tag = ARS
+			}
+
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+
+			traits = { raiding_fleet_naval_manufacturer }
+
+			modifier = {
+			}
+		}
+
+	}
+
+	#country ideas
+
 	country = {
 
 		#starting ideas

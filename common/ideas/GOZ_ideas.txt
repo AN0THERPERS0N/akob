@@ -1,5 +1,454 @@
 ideas = {
 
+	political_advisor = {
+
+		ECH_adolar_gonzalo = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		ECH_zelindo_wigand = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { financial_expert }
+		}
+
+		ECH_deion_sieghard = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		ECH_bodobert_volker = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { technocrat }
+		}
+
+		ECH_ulrich_wolfram = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		ECH_wendelin_albert = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		ECH_raymond_sieger = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { economist }
+		}
+
+		ECH_dietmar_ubaldo = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { editor }
+		}
+
+	}
+
+	theorist = {
+
+		ECH_guerino_wigbert = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				land_doctrine = 0.12
+			}
+			
+			traits = { military_theorist }
+		}
+
+	}
+
+	high_command = {
+
+		ECH_roland_kuno = {
+			ledger = army
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_commando_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_egmont_anselm = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_gerald_bernger = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_armored_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_reingard_engelbert = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_regrouping_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_askan_theobald = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_armored_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_ottmar_folke = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_entrenchment_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		ECH_emmerich_ivo = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_defensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_winand_clodomiro = {
+			
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_offensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_gangolf_walo = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_heimrad_korbinian = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_adalbero_altmann = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { army_chief_reform_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+		
+		ECH_hasso_romarich = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { navy_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_herwig_romarich = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { navy_chief_decisive_battle_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ECH_rigoberto_aimar = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = ECH
+			}
+			
+			traits = { navy_chief_maneuver_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+
+		rshavesk_mage_association = {
+
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				armor = 0.1
+			}
+
+			traits = { heavy_tank_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
+
+		rshavesk_grand_artillery_producers = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				artillery = 0.14
+			}
+
+			traits = { artillery_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		hitrovo_artillery_hub = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			modifier = {
+				army_artillery_attack_factor = 0.2
+			}
+
+			traits = { artillery_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	industrial_concern = {
+
+		olmobuch_industrial_incorporated = {
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			traits = { industrial_concern }
+
+			modifier = {
+				production_speed_buildings_factor = 0.08
+			}
+		}
+
+		ad_versk_void_power = {
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				electronics = 0.12
+			}
+
+			traits = { electronics_concern }
+
+			modifier = {
+			}
+		}
+
+		rshavesk_metals_company = {
+
+			allowed = {
+				original_tag = ECH
+			}
+
+			research_bonus = {
+				industry = 0.12
+			}
+
+			traits = { industrial_concern }
+
+			modifier = {
+			}
+		}
+	}
+
 	country = {
 
 		#starting ideas

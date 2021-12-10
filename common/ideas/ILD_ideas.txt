@@ -1,5 +1,442 @@
 ideas = {
 
+	political_advisor = {
+
+		ILD_jonas_glaser = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+
+		ILD_matthias_dusl = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		ILD_liam_baumgartner = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+		ILD_aaron_heilig = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { propaganda_expert }
+		}
+
+		ILD_emilio_senefelder = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		ILD_oskar_panzinger = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		ILD_marc_kubin = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { financial_expert }
+		}
+
+		ILD_tom_esmann = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { armaments_organizer }
+		}
+
+	}
+
+	theorist = {
+
+		ILD_lenny_mosele = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = ILD
+			}
+
+			research_bonus = {
+				land_doctrine = 0.12
+			}
+			
+			traits = { military_theorist }
+		}
+
+	}
+
+	high_command = {
+
+		ILD_nick_morath = {
+			ledger = army
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_regrouping_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ILD_stefan_hausner = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ILD_finn_weingartner = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ILD_bastian_rottmayr = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_artillery_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ILD_hannes_oberlander = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ILD_leonhard_abel = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_entrenchment_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		ILD_thomas_pichler = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_chief_defensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ILD_leopold_lanner = {
+			
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_chief_morale_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ILD_luka_bahr = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ILD_luis_klimt = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { army_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+		
+
+		ILD_nino_hass = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = ILD
+			}
+			
+			traits = { navy_chief_commerce_raiding_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+
+		tiky_mage_company = {
+
+
+			allowed = {
+				original_tag = ILD
+			}
+
+			research_bonus = {
+				armor = 0.12
+			}
+
+			traits = { heavy_tank_manufacturer }
+		}
+
+		ruottarai_magical_group = {
+
+
+			allowed = {
+				original_tag = ILD
+			}
+
+			research_bonus = {
+				armor = 0.12
+			}
+
+			traits = { medium_tank_manufacturer }
+
+			modifier = {
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
+
+		ouvattani_weapons_services = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = ILD
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+
+			traits = { infantry_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		vari_arms_services = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = ILD
+			}
+
+			modifier = {
+				army_infantry_attack_factor = 0.08
+				army_infantry_defence_factor = 0.08
+			}
+
+			traits = { infantry_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		sabi_artillery_company = {
+
+
+			allowed = {
+				original_tag = ILD
+			}
+
+
+
+			research_bonus = {
+				artillery = 0.15
+			}
+
+			traits = { artillery_manufacturer }
+
+			modifier = {
+			}
+		}
+	}
+
+	industrial_concern = {
+
+		tiky_void_processing_company = {
+
+
+			allowed = {
+				original_tag = ILD
+			}
+
+			research_bonus = {
+				electronics = 0.10
+			}
+
+			traits = { electronics_concern }
+
+			modifier = {
+			}
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+
+		north_naval_hub = {
+
+
+			allowed = {
+				original_tag = ILD
+			}
+
+			research_bonus = {
+				naval_equipment = 0.2
+			}
+
+			traits = { convoy_escort_naval_manufacturer }
+
+			modifier = {
+			}
+		}
+
+	}
+
 	country = {
 
 		#starting ideas

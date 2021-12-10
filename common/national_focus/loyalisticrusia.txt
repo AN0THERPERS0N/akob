@@ -27,8 +27,6 @@ focus_tree = {
 		y = 1
 		icon = GFX_goal_war_with_icrusia
 		#relative_position_id = AST_empower_the_workers
-		 
-		prerequisite = { focus = AST_workers_paradise }
 		#`allow_branch = { has_completed_focus = AST_workers_paradise }
 		#mutually_exclusive = {focus = AST_workers_paradise }
 		 
@@ -57,8 +55,6 @@ focus_tree = {
 		y = 1
 		icon = "GFX_focus_generic_self_management"
 		#relative_position_id = AST_empower_the_workers
-		 
-		prerequisite = { focus = AST_workers_paradise }
 		#`allow_branch = { has_completed_focus = AST_workers_paradise }
 		#mutually_exclusive = {focus = AST_workers_paradise }
 		 
@@ -4205,7 +4201,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			max_surrender_limit_offset = 0.1
+			add_manpower = 200000
 			add_war_support = 0.1
 		}
 		ai_will_do = {

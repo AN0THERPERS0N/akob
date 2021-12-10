@@ -522,6 +522,712 @@ DCR_an_empire_no_more = {
 	removal_cost = -1
 }
 
+#democratic path
+
+DCR_worker_right = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		production_factory_efficiency_gain_factor = -0.1
+		political_power_gain = 0.5
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_worker_right2 = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		production_factory_efficiency_gain_factor = -0.15
+		political_power_gain = 1
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_the_brightest_of_ambulas = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		research_speed_factor = 0.15
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_the_brightest_of_ambulas2 = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		research_speed_factor = 0.3
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_leadership_is_key = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		political_advisor_cost_factor = -0.5
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_champion_of_the_free_peoples = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		monthly_population = 0.2
+		research_speed_factor = 0.15
+		political_power_gain = 1
+		stability_factor = 0.2
+		drift_defence_factor = 0.3
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_icrusian_democratic_interference = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		democratic_drift = 0.1
+		democratic_acceptance = 15
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_icrusian_democratic_interference2 = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		democratic_drift = 0.2
+		democratic_acceptance = 25
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_icrusian_democratic_interference3 = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		democratic_drift = 0.2
+		democratic_acceptance = 25
+		drift_defence_factor = -0.2
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_icrusian_democratic_interference4 = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		democratic_drift = 0.25
+		democratic_acceptance = 25
+		drift_defence_factor = -0.25
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+#military path
+
+DCR_the_old_guard = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		justify_war_goal_time = -0.35
+		surrender_limit = -0.05
+		war_support_factor = 0.15
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_the_old_guard2 = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		justify_war_goal_time = -0.5
+		surrender_limit = -0.05
+		war_support_factor = 0.2
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_vitas_military_restructuring_scheme = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		army_speed_factor = 0.05
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_better_training= {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		training_time_factor = -0.2
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_better_training2 = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		training_time_factor = -0.2
+		army_attack_factor = 0.2
+		army_speed_factor = 0.1
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_finest_military_in_all_of_ambulas2 = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = DCR
+	}
+
+	available = {
+
+	}
+
+	modifier = {
+		army_attack_factor = 0.4
+		army_core_defence_factor = 0.45
+		army_morale_factor = 0.45
+		army_org_factor = 0.4
+		army_org_regain = 0.45
+		breakthrough_factor = 0.45
+		army_speed_factor = 0.75
+	}
+
+	cancel = {
+			
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_communist_suppression = {
+	picture = not_a_country
+	
+	allowed = {
+		tag = AGR
+	}
+
+	available = {
+
+	}
+
+	modifier = {
+		communism_drift = -0.05
+	}
+
+	cancel = {
+			
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_the_old_guard3 = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		justify_war_goal_time = -0.75
+		surrender_limit = -0.1
+		war_support_factor = 0.2
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_weakened_trade = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		trade_opinion_factor = -0.5
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_weakened_science_base = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		research_speed_factor = -0.25
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+#improve military path
+
+DCR_military_improvements = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_attack_factor = 0.05
+		army_speed_factor = 0.05
+		army_org_factor = 0.15
+		army_morale_factor = 0.15
+		army_org_regain = 0.1
+		breakthrough_factor = 0.1
+		land_night_attack = 0.15
+		terrain_penalty_reduction = 0.15
+		attrition = 0.1
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_backbone_of_icrusian_might = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_attack_factor = 0.2
+		army_defence_factor = 0.25
+		land_night_attack = 0.2
+		terrain_penalty_reduction = 0.2
+		max_dig_in_factor = 0.25
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_backbone_of_icrusian_might2 = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_attack_factor = 0.4
+		army_defence_factor = 0.45
+		land_night_attack = 0.3
+		terrain_penalty_reduction = 0.35
+		max_dig_in_factor = 0.5
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_thundering_beasts = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		army_speed_factor = 0.35
+		army_org_factor = 0.4
+		army_org_regain = 0.4
+		recon_factor = 0.35
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
+
+DCR_hell_incarnate = {
+	picture = not_a_country
+	
+	allowed = {
+		always = yes
+	}
+
+	available = {
+		
+	}
+	
+	modifier = {
+		terrain_penalty_reduction = 0.4
+		supply_consumption_factor = 0.4
+		breakthrough_factor = 0.45
+		attrition = 0.33
+		army_attack_factor = 0.3
+	}
+
+	cancel = {
+
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+}
 
 
 #

@@ -1,5 +1,499 @@
 ideas = {
 
+	political_advisor = {
+
+		TRB_nicola_weisser = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		TRB_alex_hopfner = {
+
+			picture = generic_political_advisor_arab_2
+				
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		TRB_jakob_otto = {
+
+			picture = generic_political_advisor_arab_3
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		TRB_elia_pfefferberg = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { head_of_intelligence }
+		}
+
+		TRB_phillip_clasen = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		TRB_oskar_panzinger = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		TRB_florentin_schiff = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { technocrat }
+		}
+
+		TRB_jonas_grunebaum = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		TRB_marcus_haberkorn = {
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { spymaster }
+		}
+
+	}
+
+	theorist = {
+
+		TRB_aayden_matthes = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = TRB
+			}
+
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		TRB_jochen_hofbauer = {
+			ledger = air
+					
+			picture = generic_army_europe_1
+				
+			allowed = {
+				original_tag = TRB
+			}
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.15
+			}
+			
+			traits = { mobile_warfare_expert }
+			#doctrine
+		}
+
+	}
+
+	high_command = {
+
+		TRB_tilmann_blecher = {
+			ledger = army
+
+			picture = generic_political_advisor_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_oscar_leupold = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_luca_reubke = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_artillery_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_kilian_thiel = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_niklas_bischoffshausen = {
+			ledger = army
+
+			picture = generic_navy_arab_3
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_cavalry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_simon_schiele = {
+			ledger = army
+
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_armored_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		TRB_georg_dehne = {
+			
+			picture = generic_army_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_manuel_prager = {
+			
+			picture = generic_army_arab_3
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_kevin_kruckenberg = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_robby_liebermann = {
+			
+			picture = generic_army_arab_2
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+		
+
+		TRB_wylemot_scheurer = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { navy_chief_decisive_battle_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		TRB_mike_diekwisch = {
+			
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = TRB
+			}
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+
+		blecham_mage_academy = {
+
+
+			allowed = {
+				original_tag = TRB
+			}
+
+			research_bonus = {
+				armor = 0.08
+			}
+
+			traits = { fast_tank_manufacturer }
+		}
+
+		wickneth_mage_academy = {
+
+
+			allowed = {
+				original_tag = TRB
+			}
+
+			research_bonus = {
+				armor = 0.08
+			}
+
+			traits = { heavy_tank_manufacturer }
+
+			modifier = {
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
+
+		astrigan_royal_arms = {
+			picture = generic_artillery_manufacturer_3
+
+
+			allowed = {
+				original_tag = TRB
+			}
+
+			research_bonus = {
+				infantry_weapons = 0.08
+			}
+
+			traits = { infantry_equipment_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		north_cavalry_arms_factory = {
+
+
+			allowed = {
+				original_tag = TRB
+			}
+
+
+
+			research_bonus = {
+				cavalry = 0.12
+			}
+
+			traits = { cavalry_equipment_manufacturer }
+
+			modifier = {
+			}
+		}
+	}
+
+	industrial_concern = {
+
+		astrigan_industrial_hub = {
+
+
+			allowed = {
+				original_tag = TRB
+			}
+
+			research_bonus = {
+				industry = 0.10
+			}
+
+			traits = { industrial_concern }
+
+			modifier = {
+			}
+		}
+
+		rung_void_energy_plant = {
+
+
+			allowed = {
+				original_tag = TRB
+			}
+
+			research_bonus = {
+				electronics = 0.10
+			}
+
+			traits = { electronics_concern }
+
+			modifier = {
+			}
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+
+		north_naval_hub = {
+
+
+			allowed = {
+				original_tag = TRB
+			}
+
+			research_bonus = {
+				naval_equipment = 0.2
+			}
+
+			traits = { battlefleet_designer }
+
+			modifier = {
+			}
+		}
+
+		terham_naval_institute = {
+
+
+			allowed = {
+				original_tag = TRB
+			}
+
+			research_bonus = {
+				naval_equipment = 0.2
+			}
+
+			traits = { raiding_fleet_naval_manufacturer }
+
+			modifier = {
+			}
+		}
+
+	}
+
 	country = {
 
 		#starting ideas
