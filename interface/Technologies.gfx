@@ -90,6 +90,30 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
+	SpriteType = {
+		name = "GFX_critical_point_control_medium"
+		texturefile = "gfx/interface/technologies/schwerpunk.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_unending_barrage_medium"
+		texturefile = "gfx/interface/technologies/akob_unending_barrage.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_massed_artillery_medium"
+		texturefile = "gfx/interface/technologies/akob_massed_artillery.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_mass_suppression_medium"
+		texturefile = "gfx/interface/technologies/akob_mass_suppression.dds"
+		alwaystransparent = yes
+	}
+
 	#
 
 	SpriteType = {
