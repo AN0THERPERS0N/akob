@@ -131,7 +131,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				cat_mobile_warfare = 0.15
+				cat_cavalry_warfare = 0.15
 			}
 			
 			traits = { mobile_warfare_expert }

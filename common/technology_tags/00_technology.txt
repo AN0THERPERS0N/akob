@@ -56,7 +56,7 @@ technology_categories = {
 	excavation_tech
 	submarine_doctrine
 	air_equipment
-	cat_mobile_warfare
+	cat_cavalry_warfare
 	cat_superior_firepower
 	cat_grand_battle_plan
 	cat_mass_assault
